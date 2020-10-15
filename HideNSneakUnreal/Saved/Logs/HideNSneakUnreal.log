@@ -703,3 +703,6 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.10.15-11.44.48:543][841]LogPlayLevel: Display: Destroying online subsystem :Context_2
 [2020.10.15-11.53.54:097][951]LogSlate: Took 0.000215 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
 [2020.10.15-13.06.29:719][920]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.10.15-13.10.23:579][794]LogSlate: Window 'Editor Preferences' being destroyed
+[2020.10.15-13.10.23:582][794]LogSlate: Window 'Editor Preferences' being destroyed
+[2020.10.15-13.13.30:963][986]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
