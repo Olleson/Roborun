@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\HideNSneakUnreal.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{9B393854-51CC-4130-9D82-CE6EAFDADC40}</UniqueIdentifier>
+      <UniqueIdentifier>{E3A6626A-98AF-49E2-9C65-56FD82AF7200}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\HideNSneakUnreal.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{EFE9ADBF-17B3-4637-95FE-64E3D8D13500}</UniqueIdentifier>
+      <UniqueIdentifier>{B843C2D0-EA43-4BBA-8C22-A6A8912680B3}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\HideNSneakUnreal">
-      <UniqueIdentifier>{BE8BCE3F-1615-4631-A75D-DD160ADB7429}</UniqueIdentifier>
+      <UniqueIdentifier>{4694C51F-9218-4E86-9500-95422172AC2A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\HideNSneakUnreal\HideNSneakUnreal.Build.cs">
       <Filter>Source\HideNSneakUnreal</Filter>
@@ -39,6 +39,12 @@
       <Filter>Source\HideNSneakUnreal</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\HideNSneakUnreal\HideNSneakUnreal.h">
+      <Filter>Source\HideNSneakUnreal</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HideNSneakUnreal\moveableBox.cpp">
+      <Filter>Source\HideNSneakUnreal</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HideNSneakUnreal\moveableBox.h">
       <Filter>Source\HideNSneakUnreal</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\HideNSneakUnreal\NewActorComponent.cpp">
