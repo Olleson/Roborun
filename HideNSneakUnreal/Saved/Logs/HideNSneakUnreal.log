@@ -21852,3 +21852,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.10.16-12.01.16:491][231]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
 [2020.10.16-12.01.16:491][231]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
 [2020.10.16-12.01.16:492][231]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.16-12.01.57:441][595]LogUObjectHash: Compacting FUObjectHashTables data took   4.55ms
+[2020.10.16-12.01.57:484][595]LogSavePackage: Moving '../../../../../../Users/Olle/Documents/Game Projects/PROJ_Grupp2/HideNSneakUnreal/Saved/ThirdPersonExampleMap_Auto82D6AFB154FD46F0E84120CA8A39F505A.tmp' to '../../../../../../Users/Olle/Documents/Game Projects/PROJ_Grupp2/HideNSneakUnreal/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto8.umap'
+[2020.10.16-12.01.57:486][595]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.137
+[2020.10.16-12.01.57:486][595]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.137
