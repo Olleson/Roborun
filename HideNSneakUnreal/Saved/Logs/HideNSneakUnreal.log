@@ -2075,3 +2075,69 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.10.16-09.00.40:994][317]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
 [2020.10.16-09.00.41:066][320]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
 [2020.10.16-09.00.41:110][322]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.10.16-09.22.20:554][992]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.16-09.22.20:554][992]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_3_ThirdPersonExampleMap
+[2020.10.16-09.22.20:555][992]LogSlate: Window 'HideNSneakUnreal Preview [NetMode: Client 3] (64-bit/Windows) ' being destroyed
+[2020.10.16-09.22.20:571][992]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.10.16-09.22.20:578][992]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.16-09.22.20:592][992]LogNet: World NetDriver shutdown IpNetDriver_15 [GameNetDriver]
+[2020.10.16-09.22.20:592][992]LogNet: DestroyNamedNetDriver IpNetDriver_15 [GameNetDriver]
+[2020.10.16-09.22.20:592][992]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_20, Driver: GameNetDriver IpNetDriver_15, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:LAPTOP-C5CLCG65-C8661E944B792A3759254F8FEECE2BB3, Channels: 14, Time: 2020.10.16-09.22.20
+[2020.10.16-09.22.20:593][992]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_20, Driver: GameNetDriver IpNetDriver_15, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:LAPTOP-C5CLCG65-C8661E944B792A3759254F8FEECE2BB3
+[2020.10.16-09.22.20:594][992]LogExit: GameNetDriver IpNetDriver_15 shut down
+[2020.10.16-09.22.20:596][992]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_2_ThirdPersonExampleMap
+[2020.10.16-09.22.20:596][992]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.16-09.22.20:597][992]LogSlate: Window 'HideNSneakUnreal Preview [NetMode: Client 2] (64-bit/Windows) ' being destroyed
+[2020.10.16-09.22.20:606][992]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.10.16-09.22.20:607][992]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.16-09.22.20:619][992]LogNet: World NetDriver shutdown IpNetDriver_14 [GameNetDriver]
+[2020.10.16-09.22.20:619][992]LogNet: DestroyNamedNetDriver IpNetDriver_14 [GameNetDriver]
+[2020.10.16-09.22.20:619][992]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_19, Driver: GameNetDriver IpNetDriver_14, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:LAPTOP-C5CLCG65-649ED8744B0F05AC72624E8114AA7EE2, Channels: 14, Time: 2020.10.16-09.22.20
+[2020.10.16-09.22.20:619][992]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_19, Driver: GameNetDriver IpNetDriver_14, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:LAPTOP-C5CLCG65-649ED8744B0F05AC72624E8114AA7EE2
+[2020.10.16-09.22.20:620][992]LogExit: GameNetDriver IpNetDriver_14 shut down
+[2020.10.16-09.22.20:622][992]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap
+[2020.10.16-09.22.20:622][992]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.16-09.22.20:626][992]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.10.16-09.22.20:627][992]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.16-09.22.20:640][992]LogNet: World NetDriver shutdown IpNetDriver_13 [GameNetDriver]
+[2020.10.16-09.22.20:640][992]LogNet: DestroyNamedNetDriver IpNetDriver_13 [GameNetDriver]
+[2020.10.16-09.22.20:640][992]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_18, Driver: GameNetDriver IpNetDriver_13, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:LAPTOP-C5CLCG65-1EA1D2394FEDCB043B349AB79C99D5C4, Channels: 14, Time: 2020.10.16-09.22.20
+[2020.10.16-09.22.20:640][992]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_18, Driver: GameNetDriver IpNetDriver_13, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:LAPTOP-C5CLCG65-1EA1D2394FEDCB043B349AB79C99D5C4
+[2020.10.16-09.22.20:641][992]LogExit: GameNetDriver IpNetDriver_13 shut down
+[2020.10.16-09.22.20:641][992]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.10.16-09.22.20:642][992]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.10.16-09.22.20:642][992]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.16-09.22.20:661][992]LogNet: World NetDriver shutdown IpNetDriver_12 [GameNetDriver]
+[2020.10.16-09.22.20:661][992]LogNet: DestroyNamedNetDriver IpNetDriver_12 [GameNetDriver]
+[2020.10.16-09.22.20:662][992]LogNet: UNetConnection::Cleanup: Closing open connection. [UNetConnection] RemoteAddr: 127.0.0.1:65223, Name: IpConnection_23, Driver: GameNetDriver IpNetDriver_12, IsServer: YES, PC: PlayerController_2, Owner: PlayerController_2, UniqueId: NULL:LAPTOP-C5CLCG65-C8661E944B792A3759254F8FEECE2BB3
+[2020.10.16-09.22.20:662][992]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:65223, Name: IpConnection_23, Driver: GameNetDriver IpNetDriver_12, IsServer: YES, PC: PlayerController_2, Owner: PlayerController_2, UniqueId: NULL:LAPTOP-C5CLCG65-C8661E944B792A3759254F8FEECE2BB3, Channels: 14, Time: 2020.10.16-09.22.20
+[2020.10.16-09.22.20:662][992]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:65223, Name: IpConnection_23, Driver: GameNetDriver IpNetDriver_12, IsServer: YES, PC: PlayerController_2, Owner: PlayerController_2, UniqueId: NULL:LAPTOP-C5CLCG65-C8661E944B792A3759254F8FEECE2BB3
+[2020.10.16-09.22.20:665][992]LogNet: UNetConnection::Cleanup: Closing open connection. [UNetConnection] RemoteAddr: 127.0.0.1:65222, Name: IpConnection_22, Driver: GameNetDriver IpNetDriver_12, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:LAPTOP-C5CLCG65-649ED8744B0F05AC72624E8114AA7EE2
+[2020.10.16-09.22.20:665][992]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:65222, Name: IpConnection_22, Driver: GameNetDriver IpNetDriver_12, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:LAPTOP-C5CLCG65-649ED8744B0F05AC72624E8114AA7EE2, Channels: 14, Time: 2020.10.16-09.22.20
+[2020.10.16-09.22.20:665][992]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:65222, Name: IpConnection_22, Driver: GameNetDriver IpNetDriver_12, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:LAPTOP-C5CLCG65-649ED8744B0F05AC72624E8114AA7EE2
+[2020.10.16-09.22.20:666][992]LogNet: UNetConnection::Cleanup: Closing open connection. [UNetConnection] RemoteAddr: 127.0.0.1:65221, Name: IpConnection_21, Driver: GameNetDriver IpNetDriver_12, IsServer: YES, PC: PlayerController_0, Owner: PlayerController_0, UniqueId: NULL:LAPTOP-C5CLCG65-1EA1D2394FEDCB043B349AB79C99D5C4
+[2020.10.16-09.22.20:666][992]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:65221, Name: IpConnection_21, Driver: GameNetDriver IpNetDriver_12, IsServer: YES, PC: PlayerController_0, Owner: PlayerController_0, UniqueId: NULL:LAPTOP-C5CLCG65-1EA1D2394FEDCB043B349AB79C99D5C4, Channels: 14, Time: 2020.10.16-09.22.20
+[2020.10.16-09.22.20:666][992]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:65221, Name: IpConnection_21, Driver: GameNetDriver IpNetDriver_12, IsServer: YES, PC: PlayerController_0, Owner: PlayerController_0, UniqueId: NULL:LAPTOP-C5CLCG65-1EA1D2394FEDCB043B349AB79C99D5C4
+[2020.10.16-09.22.20:666][992]LogExit: GameNetDriver IpNetDriver_12 shut down
+[2020.10.16-09.22.20:670][992]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.16-09.22.20:675][992]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.16-09.22.20:760][992]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.16-09.22.20:788][992]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000015AEC4EE5C0), frame # 51992
+[2020.10.16-09.22.20:789][992]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000015AECA6A800), frame # 51992
+[2020.10.16-09.22.20:791][992]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000015AD602A480), frame # 51992
+[2020.10.16-09.22.20:791][992]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000015AEC197C00), frame # 51992
+[2020.10.16-09.22.20:792][992]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000015AD1ECA840), frame # 51992
+[2020.10.16-09.22.20:792][992]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000015AC5552800), frame # 51992
+[2020.10.16-09.22.20:792][992]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000015AEC4EE700), frame # 51992
+[2020.10.16-09.22.20:792][992]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000015AD4125400), frame # 51992
+[2020.10.16-09.22.20:800][992]LogUObjectHash: Compacting FUObjectHashTables data took   6.75ms
+[2020.10.16-09.22.20:861][993]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2020.10.16-09.22.20:861][993]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2020.10.16-09.22.20:861][993]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2020.10.16-09.22.20:861][993]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2020.10.16-09.22.26:721][242]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2020.10.16-09.22.26:778][242]LogSavePackage: Moving '../../../../../../Users/Abdifatah/Desktop/Projects/SU/Proj/PROJ_Grupp2/HideNSneakUnreal/Saved/ThirdPersonExampleMap24BEABE04D256E671C12FEA8EB9970BF.tmp' to '../../../../../../Users/Abdifatah/Desktop/Projects/SU/Proj/PROJ_Grupp2/HideNSneakUnreal/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2020.10.16-09.22.26:886][242]LogSavePackage: Moving '../../../../../../Users/Abdifatah/Desktop/Projects/SU/Proj/PROJ_Grupp2/HideNSneakUnreal/Saved/ThirdPersonExampleMap_BuiltData7839D8E34DD00AF93EB1558B9919423E.tmp' to '../../../../../../Users/Abdifatah/Desktop/Projects/SU/Proj/PROJ_Grupp2/HideNSneakUnreal/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2020.10.16-09.22.26:927][242]AssetCheck: New page: Asset Save: multiple assets
+[2020.10.16-09.22.26:927][242]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2020.10.16-09.22.26:927][242]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
