@@ -1561,3 +1561,597 @@ Are you sure?
 [2020.10.16-10.08.54:101][ 68]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/Whitebox.Whitebox
 [2020.10.16-10.08.54:101][ 68]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/Whitebox_BuiltData.Whitebox_BuiltData
 [2020.10.16-12.09.52:554][961]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.10.16-12.15.02:087][ 75]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.16-12.15.02:104][ 75]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.16-12.15.02:104][ 75]PIE: New page: PIE session: Whitebox (16 okt. 2020 16:15:02)
+[2020.10.16-12.15.02:105][ 75]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Whitebox
+[2020.10.16-12.15.02:136][ 75]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031140s)
+[2020.10.16-12.15.02:140][ 75]LogAIModule: Creating AISystem for world Whitebox
+[2020.10.16-12.15.02:140][ 75]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000204CDC6BA00), frame # 158075
+[2020.10.16-12.15.02:141][ 75]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000204962020C0), frame # 158075
+[2020.10.16-12.15.02:142][ 75]LogPlayLevel: PIE: World Init took: (0.005618s)
+[2020.10.16-12.15.02:142][ 75]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Whitebox.Whitebox to /Game/ThirdPersonBP/Maps/UEDPIE_0_Whitebox.Whitebox (0.037146s)
+[2020.10.16-12.15.02:162][ 75]LogUObjectHash: Compacting FUObjectHashTables data took   3.41ms
+[2020.10.16-12.15.02:183][ 75]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.16-12.15.02:183][ 75]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.16-12.15.02:183][ 75]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.16-12.15.02:183][ 75]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.16-12.15.02:183][ 75]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.16-12.15.02:183][ 75]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.16-12.15.02:183][ 75]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.16-12.15.02:183][ 75]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.16-12.15.02:184][ 75]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.16-12.15.02:184][ 75]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.16-12.15.02:189][ 75]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.16-12.15.02:189][ 75]LogAudioMixer: Display: 1: FrontRight
+[2020.10.16-12.15.02:216][ 75]LogAudioMixer: Display: Using Audio Device Headphones (Realtek High Definition Audio)
+[2020.10.16-12.15.02:221][ 75]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.16-12.15.02:222][ 75]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.16-12.15.02:222][ 75]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.16-12.15.02:227][ 75]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.16-12.15.02:232][ 75]LogInit: FAudioDevice initialized.
+[2020.10.16-12.15.02:247][ 75]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.10.16-12.15.02:249][ 75]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Whitebox.Whitebox up for play (max tick rate 0) at 2020.10.16-14.15.02
+[2020.10.16-12.15.02:250][ 75]LogWorld: Bringing up level for play took: 0.001665
+[2020.10.16-12.15.02:250][ 75]LogOnline: OSS: Creating online subsystem instance for: :Context_23
+[2020.10.16-12.15.02:311][ 75]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2020.10.16-12.15.02:311][ 75]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2020.10.16-12.15.02:331][ 75]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2020.10.16-12.15.02:344][ 75]LogNet: Created socket for bind address: 0.0.0.0 on port 17777
+[2020.10.16-12.15.02:364][ 75]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.10.16-12.15.02:382][ 75]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 17777
+[2020.10.16-12.15.02:382][ 75]PIE: Server logged in
+[2020.10.16-12.15.02:383][ 75]PIE: Play in editor total start time 0,28 seconds.
+[2020.10.16-12.15.02:385][ 75]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.16-12.15.02:385][ 75]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.16-12.15.02:385][ 75]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.16-12.15.02:385][ 75]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.16-12.15.02:385][ 75]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.16-12.15.02:385][ 75]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.16-12.15.02:385][ 75]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.16-12.15.02:385][ 75]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.16-12.15.02:386][ 75]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.16-12.15.02:386][ 75]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.16-12.15.02:390][ 75]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.16-12.15.02:391][ 75]LogAudioMixer: Display: 1: FrontRight
+[2020.10.16-12.15.02:411][ 75]LogAudioMixer: Display: Using Audio Device Headphones (Realtek High Definition Audio)
+[2020.10.16-12.15.02:415][ 75]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.16-12.15.02:415][ 75]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.16-12.15.02:415][ 75]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.16-12.15.02:417][ 75]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.16-12.15.02:426][ 75]LogInit: FAudioDevice initialized.
+[2020.10.16-12.15.02:490][ 75]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.16-12.15.02:492][ 75]LogNet: Browse: 127.0.0.1:17777/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2020.10.16-12.15.02:494][ 75]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
+[2020.10.16-12.15.02:495][ 75]LogNet: Created socket for bind address: 0.0.0.0 on port 0
+[2020.10.16-12.15.02:514][ 75]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.10.16-12.15.02:530][ 75]LogNet: Game client on port 17777, rate 10000
+[2020.10.16-12.15.02:595][ 75]PIE: Client logged in
+[2020.10.16-12.15.02:597][ 75]PIE: Play in editor total start time 0,494 seconds.
+[2020.10.16-12.15.03:556][156]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:54442
+[2020.10.16-12.15.03:557][156]LogHandshake: SendConnectChallenge. Timestamp: 1.476228, Cookie: 031236095053218079042071235102214072115226048073053211143108
+[2020.10.16-12.15.03:558][156]LogHandshake: SendChallengeResponse. Timestamp: 1.476228, Cookie: 031236095053218079042071235102214072115226048073053211143108
+[2020.10.16-12.15.03:564][157]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:54442
+[2020.10.16-12.15.03:564][157]LogHandshake: SendChallengeAck. InCookie: 031236095053218079042071235102214072115226048073053211143108
+[2020.10.16-12.15.03:564][157]LogNet: Server accepting post-challenge connection from: 127.0.0.1:54442
+[2020.10.16-12.15.03:565][157]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.10.16-12.15.03:596][157]LogNet: NotifyAcceptedConnection: Name: Whitebox, TimeStamp: 10/16/20 14:15:03, [UNetConnection] RemoteAddr: 127.0.0.1:54442, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.10.16-12.15.03:596][157]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:54442, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.10.16-12.15.03:598][157]LogNetVersion: HideNSneakUnreal 1.0.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 4008563563)
+[2020.10.16-12.15.03:598][157]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: PendingNetDriver IpNetDriver_1, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.10.16-12.15.03:642][158]LogNet: NotifyAcceptingChannel Control 0 server World /Game/ThirdPersonBP/Maps/UEDPIE_0_Whitebox.Whitebox: Accepted
+[2020.10.16-12.15.03:667][158]LogNet: Remote platform little endian=1
+[2020.10.16-12.15.03:667][158]LogNet: This platform little endian=1
+[2020.10.16-12.15.03:669][158]LogOnline: OSS: Creating online subsystem instance for: :Context_24
+[2020.10.16-12.15.03:676][159]LogNet: Login request: ?Name=QaraQoyunlu-56E850654FB029355E376291538F2A84 userId: NULL:QaraQoyunlu-56E850654FB029355E376291538F2A84 platform: NULL
+[2020.10.16-12.15.03:677][159]LogNet: Welcomed by server (Level: /Game/ThirdPersonBP/Maps/UEDPIE_0_Whitebox, Game: /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C)
+[2020.10.16-12.15.03:686][159]LogLoad: LoadMap: 127.0.0.1:17777/Game/ThirdPersonBP/Maps/UEDPIE_0_Whitebox?game=/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C
+[2020.10.16-12.15.03:686][159]LogWorld: BeginTearingDown for /Temp/Untitled_1
+[2020.10.16-12.15.03:686][159]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.10.16-12.15.03:686][159]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.16-12.15.03:696][159]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2020.10.16-12.15.03:742][159]LogAIModule: Creating AISystem for world Whitebox
+[2020.10.16-12.15.03:742][159]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000204C35F6200), frame # 158159
+[2020.10.16-12.15.03:742][159]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002050440B740), frame # 158159
+[2020.10.16-12.15.03:753][159]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_1_Whitebox.Whitebox up for play (max tick rate 0) at 2020.10.16-14.15.03
+[2020.10.16-12.15.03:753][159]LogWorld: Bringing up level for play took: 0.010810
+[2020.10.16-12.15.03:767][159]LogLoad: Took 0.081633 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_0_Whitebox)
+[2020.10.16-12.15.03:829][160]LogNet: Client netspeed is 10000
+[2020.10.16-12.15.03:829][160]LogNet: Join request: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap?Name=QaraQoyunlu-56E850654FB029355E376291538F2A84?SplitscreenCount=1
+[2020.10.16-12.15.03:841][160]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.10.16-12.15.03:923][160]LogNet: Join succeeded: QaraQoyunlu-56E85065
+[2020.10.16-12.15.04:315][188]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.10.16-12.15.04:348][192]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.10.16-12.15.26:573][477]LogRenderer: Reallocating scene render targets to support 1920x1016 Format 10 NumSamples 1 (Frame:2319).
+[2020.10.16-12.15.37:368][279]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.16-12.15.37:368][279]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_1_Whitebox
+[2020.10.16-12.15.37:370][279]LogSlate: Window 'HideNSneakUnreal Preview [NetMode: Client 2] (64-bit/Windows) ' being destroyed
+[2020.10.16-12.15.37:378][279]LogWorld: UWorld::CleanupWorld for Whitebox, bSessionEnded=true, bCleanupResources=true
+[2020.10.16-12.15.37:379][279]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.16-12.15.37:383][279]LogNet: World NetDriver shutdown IpNetDriver_1 [GameNetDriver]
+[2020.10.16-12.15.37:383][279]LogNet: DestroyNamedNetDriver IpNetDriver_1 [GameNetDriver]
+[2020.10.16-12.15.37:396][279]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:QaraQoyunlu-56E850654FB029355E376291538F2A84, Channels: 11, Time: 2020.10.16-12.15.37
+[2020.10.16-12.15.37:396][279]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:QaraQoyunlu-56E850654FB029355E376291538F2A84
+[2020.10.16-12.15.37:410][279]LogExit: GameNetDriver IpNetDriver_1 shut down
+[2020.10.16-12.15.37:411][279]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_Whitebox
+[2020.10.16-12.15.37:431][279]LogOnlineSession: Warning: OSS: No game present to leave for session (GameSession)
+[2020.10.16-12.15.37:432][279]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.16-12.15.37:432][279]LogWorld: UWorld::CleanupWorld for Whitebox, bSessionEnded=true, bCleanupResources=true
+[2020.10.16-12.15.37:433][279]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.16-12.15.37:442][279]LogNet: World NetDriver shutdown IpNetDriver_0 [GameNetDriver]
+[2020.10.16-12.15.37:442][279]LogNet: DestroyNamedNetDriver IpNetDriver_0 [GameNetDriver]
+[2020.10.16-12.15.37:442][279]LogNet: UNetConnection::Cleanup: Closing open connection. [UNetConnection] RemoteAddr: 127.0.0.1:54442, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:QaraQoyunlu-56E850654FB029355E376291538F2A84
+[2020.10.16-12.15.37:442][279]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:54442, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:QaraQoyunlu-56E850654FB029355E376291538F2A84, Channels: 11, Time: 2020.10.16-12.15.37
+[2020.10.16-12.15.37:442][279]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:54442, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:QaraQoyunlu-56E850654FB029355E376291538F2A84
+[2020.10.16-12.15.37:443][279]LogExit: GameNetDriver IpNetDriver_0 shut down
+[2020.10.16-12.15.37:443][279]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.16-12.15.37:445][279]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.16-12.15.37:472][279]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.16-12.15.37:490][279]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002050440B740), frame # 161279
+[2020.10.16-12.15.37:490][279]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000204C35F6200), frame # 161279
+[2020.10.16-12.15.37:490][279]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000204962020C0), frame # 161279
+[2020.10.16-12.15.37:490][279]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000204CDC6BA00), frame # 161279
+[2020.10.16-12.15.37:491][279]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2020.10.16-12.15.37:619][280]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2020.10.16-12.15.37:619][280]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2020.10.16-12.15.45:902][221]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.16-12.15.45:916][221]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.16-12.15.45:917][221]PIE: New page: PIE session: Whitebox (16 okt. 2020 16:15:45)
+[2020.10.16-12.15.45:917][221]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Whitebox
+[2020.10.16-12.15.45:928][221]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011448s)
+[2020.10.16-12.15.45:929][221]LogAIModule: Creating AISystem for world Whitebox
+[2020.10.16-12.15.45:929][221]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000205043EFA00), frame # 162221
+[2020.10.16-12.15.46:156][221]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000204A43A47C0), frame # 162221
+[2020.10.16-12.15.46:156][221]LogPlayLevel: PIE: World Init took: (0.227802s)
+[2020.10.16-12.15.46:156][221]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Whitebox.Whitebox to /Game/ThirdPersonBP/Maps/UEDPIE_0_Whitebox.Whitebox (0.239454s)
+[2020.10.16-12.15.46:177][221]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2020.10.16-12.15.46:180][221]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.16-12.15.46:180][221]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.16-12.15.46:180][221]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.16-12.15.46:181][221]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.16-12.15.46:181][221]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.16-12.15.46:181][221]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.16-12.15.46:181][221]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.16-12.15.46:181][221]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.16-12.15.46:182][221]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.16-12.15.46:182][221]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.16-12.15.46:190][221]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.16-12.15.46:190][221]LogAudioMixer: Display: 1: FrontRight
+[2020.10.16-12.15.46:221][221]LogAudioMixer: Display: Using Audio Device Headphones (Realtek High Definition Audio)
+[2020.10.16-12.15.46:221][221]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.16-12.15.46:222][221]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.16-12.15.46:222][221]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.16-12.15.46:222][221]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.16-12.15.46:239][221]LogInit: FAudioDevice initialized.
+[2020.10.16-12.15.46:248][221]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.10.16-12.15.46:249][221]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Whitebox.Whitebox up for play (max tick rate 0) at 2020.10.16-14.15.46
+[2020.10.16-12.15.46:250][221]LogWorld: Bringing up level for play took: 0.001006
+[2020.10.16-12.15.46:250][221]LogOnline: OSS: Creating online subsystem instance for: :Context_25
+[2020.10.16-12.15.46:253][221]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2020.10.16-12.15.46:253][221]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2020.10.16-12.15.46:253][221]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2020.10.16-12.15.46:253][221]LogNet: Created socket for bind address: 0.0.0.0 on port 17777
+[2020.10.16-12.15.46:253][221]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.10.16-12.15.46:253][221]LogNet: GameNetDriver IpNetDriver_2 IpNetDriver listening on port 17777
+[2020.10.16-12.15.46:254][221]PIE: Server logged in
+[2020.10.16-12.15.46:255][221]PIE: Play in editor total start time 0,339 seconds.
+[2020.10.16-12.15.46:256][221]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.16-12.15.46:256][221]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.16-12.15.46:256][221]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.16-12.15.46:256][221]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.16-12.15.46:256][221]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.16-12.15.46:256][221]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.16-12.15.46:256][221]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.16-12.15.46:256][221]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.16-12.15.46:257][221]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.16-12.15.46:257][221]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.16-12.15.46:263][221]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.16-12.15.46:263][221]LogAudioMixer: Display: 1: FrontRight
+[2020.10.16-12.15.46:285][221]LogAudioMixer: Display: Using Audio Device Headphones (Realtek High Definition Audio)
+[2020.10.16-12.15.46:286][221]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.16-12.15.46:286][221]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.16-12.15.46:286][221]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.16-12.15.46:287][221]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.16-12.15.46:298][221]LogInit: FAudioDevice initialized.
+[2020.10.16-12.15.46:339][221]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.16-12.15.46:339][221]LogNet: Browse: 127.0.0.1:17777/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2020.10.16-12.15.46:340][221]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
+[2020.10.16-12.15.46:340][221]LogNet: Created socket for bind address: 0.0.0.0 on port 0
+[2020.10.16-12.15.46:340][221]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.10.16-12.15.46:340][221]LogNet: Game client on port 17777, rate 10000
+[2020.10.16-12.15.46:342][221]PIE: Client logged in
+[2020.10.16-12.15.46:344][221]PIE: Play in editor total start time 0,428 seconds.
+[2020.10.16-12.15.46:346][221]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.16-12.15.46:346][221]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.16-12.15.46:346][221]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.16-12.15.46:346][221]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.16-12.15.46:346][221]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.16-12.15.46:346][221]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.16-12.15.46:346][221]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.16-12.15.46:346][221]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.16-12.15.46:347][221]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.16-12.15.46:347][221]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.16-12.15.46:353][221]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.16-12.15.46:353][221]LogAudioMixer: Display: 1: FrontRight
+[2020.10.16-12.15.46:379][221]LogAudioMixer: Display: Using Audio Device Headphones (Realtek High Definition Audio)
+[2020.10.16-12.15.46:380][221]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.16-12.15.46:380][221]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.16-12.15.46:380][221]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.16-12.15.46:381][221]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.16-12.15.46:382][221]LogInit: FAudioDevice initialized.
+[2020.10.16-12.15.46:420][221]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.16-12.15.46:421][221]LogNet: Browse: 127.0.0.1:17777/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2020.10.16-12.15.46:421][221]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
+[2020.10.16-12.15.46:421][221]LogNet: Created socket for bind address: 0.0.0.0 on port 0
+[2020.10.16-12.15.46:421][221]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.10.16-12.15.46:421][221]LogNet: Game client on port 17777, rate 10000
+[2020.10.16-12.15.46:423][221]PIE: Client logged in
+[2020.10.16-12.15.46:424][221]PIE: Play in editor total start time 0,508 seconds.
+[2020.10.16-12.15.47:351][317]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:60740
+[2020.10.16-12.15.47:351][317]LogHandshake: SendConnectChallenge. Timestamp: 1.414818, Cookie: 155187185161226119032255107081208110081099219166064181229054
+[2020.10.16-12.15.47:352][317]LogHandshake: SendChallengeResponse. Timestamp: 1.414818, Cookie: 155187185161226119032255107081208110081099219166064181229054
+[2020.10.16-12.15.47:360][318]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:60740
+[2020.10.16-12.15.47:360][318]LogHandshake: SendChallengeAck. InCookie: 155187185161226119032255107081208110081099219166064181229054
+[2020.10.16-12.15.47:360][318]LogNet: Server accepting post-challenge connection from: 127.0.0.1:60740
+[2020.10.16-12.15.47:360][318]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.10.16-12.15.47:360][318]LogNet: NotifyAcceptedConnection: Name: Whitebox, TimeStamp: 10/16/20 14:15:47, [UNetConnection] RemoteAddr: 127.0.0.1:60740, Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.10.16-12.15.47:360][318]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:60740, Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.10.16-12.15.47:361][318]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_2, Driver: PendingNetDriver IpNetDriver_3, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.10.16-12.15.47:368][319]LogNet: NotifyAcceptingChannel Control 0 server World /Game/ThirdPersonBP/Maps/UEDPIE_0_Whitebox.Whitebox: Accepted
+[2020.10.16-12.15.47:368][319]LogNet: Remote platform little endian=1
+[2020.10.16-12.15.47:368][319]LogNet: This platform little endian=1
+[2020.10.16-12.15.47:370][319]LogOnline: OSS: Creating online subsystem instance for: :Context_26
+[2020.10.16-12.15.47:376][320]LogNet: Login request: ?Name=QaraQoyunlu-DA5339D94577BA7E6796A18538915046 userId: NULL:QaraQoyunlu-DA5339D94577BA7E6796A18538915046 platform: NULL
+[2020.10.16-12.15.47:377][320]LogNet: Welcomed by server (Level: /Game/ThirdPersonBP/Maps/UEDPIE_0_Whitebox, Game: /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C)
+[2020.10.16-12.15.47:377][320]LogLoad: LoadMap: 127.0.0.1:17777/Game/ThirdPersonBP/Maps/UEDPIE_0_Whitebox?game=/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C
+[2020.10.16-12.15.47:377][320]LogWorld: BeginTearingDown for /Temp/Untitled_2
+[2020.10.16-12.15.47:378][320]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.10.16-12.15.47:378][320]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.16-12.15.47:387][320]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2020.10.16-12.15.47:403][320]LogAIModule: Creating AISystem for world Whitebox
+[2020.10.16-12.15.47:403][320]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002049291A600), frame # 162320
+[2020.10.16-12.15.47:403][320]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000204B8464180), frame # 162320
+[2020.10.16-12.15.47:415][320]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_1_Whitebox.Whitebox up for play (max tick rate 0) at 2020.10.16-14.15.47
+[2020.10.16-12.15.47:415][320]LogWorld: Bringing up level for play took: 0.011295
+[2020.10.16-12.15.47:415][320]LogLoad: Took 0.037925 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_0_Whitebox)
+[2020.10.16-12.15.47:421][321]LogNet: Client netspeed is 10000
+[2020.10.16-12.15.47:421][321]LogNet: Join request: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap?Name=QaraQoyunlu-DA5339D94577BA7E6796A18538915046?SplitscreenCount=1
+[2020.10.16-12.15.47:422][321]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.10.16-12.15.47:423][321]LogNet: Join succeeded: QaraQoyunlu-DA5339D9
+[2020.10.16-12.15.47:467][322]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:60741
+[2020.10.16-12.15.47:467][322]LogHandshake: SendConnectChallenge. Timestamp: 1.529692, Cookie: 102249162141103210234016099092167173140112076039175179078197
+[2020.10.16-12.15.47:468][322]LogHandshake: SendChallengeResponse. Timestamp: 1.529692, Cookie: 102249162141103210234016099092167173140112076039175179078197
+[2020.10.16-12.15.47:477][323]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:60741
+[2020.10.16-12.15.47:477][323]LogHandshake: SendChallengeAck. InCookie: 102249162141103210234016099092167173140112076039175179078197
+[2020.10.16-12.15.47:477][323]LogNet: Server accepting post-challenge connection from: 127.0.0.1:60741
+[2020.10.16-12.15.47:477][323]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.10.16-12.15.47:477][323]LogNet: NotifyAcceptedConnection: Name: Whitebox, TimeStamp: 10/16/20 14:15:47, [UNetConnection] RemoteAddr: 127.0.0.1:60741, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.10.16-12.15.47:477][323]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:60741, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.10.16-12.15.47:479][323]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_3, Driver: PendingNetDriver IpNetDriver_4, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.10.16-12.15.47:486][324]LogNet: NotifyAcceptingChannel Control 0 server World /Game/ThirdPersonBP/Maps/UEDPIE_0_Whitebox.Whitebox: Accepted
+[2020.10.16-12.15.47:486][324]LogNet: Remote platform little endian=1
+[2020.10.16-12.15.47:486][324]LogNet: This platform little endian=1
+[2020.10.16-12.15.47:487][324]LogOnline: OSS: Creating online subsystem instance for: :Context_27
+[2020.10.16-12.15.47:496][325]LogNet: Login request: ?Name=QaraQoyunlu-FF2D162041A9633FC7116A96B3A86DBC userId: NULL:QaraQoyunlu-FF2D162041A9633FC7116A96B3A86DBC platform: NULL
+[2020.10.16-12.15.47:498][325]LogNet: Welcomed by server (Level: /Game/ThirdPersonBP/Maps/UEDPIE_0_Whitebox, Game: /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C)
+[2020.10.16-12.15.47:498][325]LogLoad: LoadMap: 127.0.0.1:17777/Game/ThirdPersonBP/Maps/UEDPIE_0_Whitebox?game=/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C
+[2020.10.16-12.15.47:498][325]LogWorld: BeginTearingDown for /Temp/Untitled_3
+[2020.10.16-12.15.47:498][325]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.10.16-12.15.47:498][325]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.16-12.15.47:507][325]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2020.10.16-12.15.47:522][325]LogAIModule: Creating AISystem for world Whitebox
+[2020.10.16-12.15.47:523][325]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000204C35F5200), frame # 162325
+[2020.10.16-12.15.47:523][325]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000204B7F54E00), frame # 162325
+[2020.10.16-12.15.47:524][325]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_2_Whitebox.Whitebox up for play (max tick rate 0) at 2020.10.16-14.15.47
+[2020.10.16-12.15.47:524][325]LogWorld: Bringing up level for play took: 0.000651
+[2020.10.16-12.15.47:525][325]LogLoad: Took 0.027711 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_0_Whitebox)
+[2020.10.16-12.15.47:537][326]LogNet: Client netspeed is 10000
+[2020.10.16-12.15.47:537][326]LogNet: Join request: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap?Name=QaraQoyunlu-FF2D162041A9633FC7116A96B3A86DBC?SplitscreenCount=1
+[2020.10.16-12.15.47:537][326]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.10.16-12.15.47:552][326]LogNet: Join succeeded: QaraQoyunlu-FF2D1620
+[2020.10.16-12.15.47:742][340]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.10.16-12.15.47:868][349]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.10.16-12.15.48:444][397]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.10.16-12.15.48:444][397]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.10.16-12.15.48:446][397]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.10.16-12.15.48:446][397]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.10.16-12.16.09:879][729]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.16-12.16.09:879][729]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_2_Whitebox
+[2020.10.16-12.16.09:880][729]LogSlate: Window 'HideNSneakUnreal Preview [NetMode: Client 3] (64-bit/Windows) ' being destroyed
+[2020.10.16-12.16.09:882][729]LogWorld: UWorld::CleanupWorld for Whitebox, bSessionEnded=true, bCleanupResources=true
+[2020.10.16-12.16.09:883][729]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.16-12.16.09:887][729]LogNet: World NetDriver shutdown IpNetDriver_4 [GameNetDriver]
+[2020.10.16-12.16.09:887][729]LogNet: DestroyNamedNetDriver IpNetDriver_4 [GameNetDriver]
+[2020.10.16-12.16.09:887][729]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_4, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:QaraQoyunlu-FF2D162041A9633FC7116A96B3A86DBC, Channels: 13, Time: 2020.10.16-12.16.09
+[2020.10.16-12.16.09:887][729]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_4, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:QaraQoyunlu-FF2D162041A9633FC7116A96B3A86DBC
+[2020.10.16-12.16.09:887][729]LogExit: GameNetDriver IpNetDriver_4 shut down
+[2020.10.16-12.16.09:887][729]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_1_Whitebox
+[2020.10.16-12.16.09:888][729]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.16-12.16.09:888][729]LogSlate: Window 'HideNSneakUnreal Preview [NetMode: Client 2] (64-bit/Windows) ' being destroyed
+[2020.10.16-12.16.09:890][729]LogWorld: UWorld::CleanupWorld for Whitebox, bSessionEnded=true, bCleanupResources=true
+[2020.10.16-12.16.09:890][729]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.16-12.16.09:897][729]LogNet: World NetDriver shutdown IpNetDriver_3 [GameNetDriver]
+[2020.10.16-12.16.09:897][729]LogNet: DestroyNamedNetDriver IpNetDriver_3 [GameNetDriver]
+[2020.10.16-12.16.09:897][729]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:QaraQoyunlu-DA5339D94577BA7E6796A18538915046, Channels: 13, Time: 2020.10.16-12.16.09
+[2020.10.16-12.16.09:897][729]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:QaraQoyunlu-DA5339D94577BA7E6796A18538915046
+[2020.10.16-12.16.09:898][729]LogExit: GameNetDriver IpNetDriver_3 shut down
+[2020.10.16-12.16.09:898][729]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_Whitebox
+[2020.10.16-12.16.09:898][729]LogOnlineSession: Warning: OSS: No game present to leave for session (GameSession)
+[2020.10.16-12.16.09:899][729]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.16-12.16.09:899][729]LogWorld: UWorld::CleanupWorld for Whitebox, bSessionEnded=true, bCleanupResources=true
+[2020.10.16-12.16.09:899][729]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.16-12.16.09:917][729]LogNet: World NetDriver shutdown IpNetDriver_2 [GameNetDriver]
+[2020.10.16-12.16.09:917][729]LogNet: DestroyNamedNetDriver IpNetDriver_2 [GameNetDriver]
+[2020.10.16-12.16.09:918][729]LogNet: UNetConnection::Cleanup: Closing open connection. [UNetConnection] RemoteAddr: 127.0.0.1:60740, Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:QaraQoyunlu-DA5339D94577BA7E6796A18538915046
+[2020.10.16-12.16.09:918][729]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:60740, Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:QaraQoyunlu-DA5339D94577BA7E6796A18538915046, Channels: 13, Time: 2020.10.16-12.16.09
+[2020.10.16-12.16.09:918][729]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:60740, Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:QaraQoyunlu-DA5339D94577BA7E6796A18538915046
+[2020.10.16-12.16.09:918][729]LogNet: UNetConnection::Cleanup: Closing open connection. [UNetConnection] RemoteAddr: 127.0.0.1:60741, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: PlayerController_2, Owner: PlayerController_2, UniqueId: NULL:QaraQoyunlu-FF2D162041A9633FC7116A96B3A86DBC
+[2020.10.16-12.16.09:918][729]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:60741, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: PlayerController_2, Owner: PlayerController_2, UniqueId: NULL:QaraQoyunlu-FF2D162041A9633FC7116A96B3A86DBC, Channels: 13, Time: 2020.10.16-12.16.09
+[2020.10.16-12.16.09:918][729]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:60741, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: PlayerController_2, Owner: PlayerController_2, UniqueId: NULL:QaraQoyunlu-FF2D162041A9633FC7116A96B3A86DBC
+[2020.10.16-12.16.09:918][729]LogExit: GameNetDriver IpNetDriver_2 shut down
+[2020.10.16-12.16.09:919][729]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.16-12.16.09:921][729]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.16-12.16.09:963][729]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.16-12.16.09:981][729]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000204B8464180), frame # 163729
+[2020.10.16-12.16.09:981][729]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002049291A600), frame # 163729
+[2020.10.16-12.16.09:982][729]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000204A43A47C0), frame # 163729
+[2020.10.16-12.16.09:982][729]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000205043EFA00), frame # 163729
+[2020.10.16-12.16.09:982][729]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000204C35F5200), frame # 163729
+[2020.10.16-12.16.09:982][729]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000204B7F54E00), frame # 163729
+[2020.10.16-12.16.09:983][729]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2020.10.16-12.16.10:017][730]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2020.10.16-12.16.10:017][730]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2020.10.16-12.16.10:017][730]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2020.10.16-12.16.15:184][227]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.16-12.16.15:201][227]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.16-12.16.15:201][227]PIE: New page: PIE session: Whitebox (16 okt. 2020 16:16:15)
+[2020.10.16-12.16.15:201][227]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Whitebox
+[2020.10.16-12.16.15:212][227]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010778s)
+[2020.10.16-12.16.15:214][227]LogAIModule: Creating AISystem for world Whitebox
+[2020.10.16-12.16.15:214][227]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020509A26A00), frame # 164227
+[2020.10.16-12.16.15:214][227]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000204A7EBAD40), frame # 164227
+[2020.10.16-12.16.15:214][227]LogPlayLevel: PIE: World Init took: (0.001926s)
+[2020.10.16-12.16.15:214][227]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Whitebox.Whitebox to /Game/ThirdPersonBP/Maps/UEDPIE_0_Whitebox.Whitebox (0.012831s)
+[2020.10.16-12.16.15:225][227]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2020.10.16-12.16.15:228][227]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.16-12.16.15:228][227]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.16-12.16.15:228][227]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.16-12.16.15:228][227]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.16-12.16.15:228][227]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.16-12.16.15:228][227]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.16-12.16.15:228][227]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.16-12.16.15:228][227]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.16-12.16.15:229][227]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.16-12.16.15:229][227]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.16-12.16.15:234][227]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.16-12.16.15:234][227]LogAudioMixer: Display: 1: FrontRight
+[2020.10.16-12.16.15:258][227]LogAudioMixer: Display: Using Audio Device Headphones (Realtek High Definition Audio)
+[2020.10.16-12.16.15:259][227]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.16-12.16.15:259][227]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.16-12.16.15:259][227]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.16-12.16.15:259][227]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.16-12.16.15:271][227]LogInit: FAudioDevice initialized.
+[2020.10.16-12.16.15:279][227]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.10.16-12.16.15:280][227]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Whitebox.Whitebox up for play (max tick rate 0) at 2020.10.16-14.16.15
+[2020.10.16-12.16.15:281][227]LogWorld: Bringing up level for play took: 0.000880
+[2020.10.16-12.16.15:281][227]LogOnline: OSS: Creating online subsystem instance for: :Context_28
+[2020.10.16-12.16.15:283][227]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2020.10.16-12.16.15:284][227]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2020.10.16-12.16.15:284][227]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2020.10.16-12.16.15:284][227]LogNet: Created socket for bind address: 0.0.0.0 on port 17777
+[2020.10.16-12.16.15:284][227]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.10.16-12.16.15:284][227]LogNet: GameNetDriver IpNetDriver_5 IpNetDriver listening on port 17777
+[2020.10.16-12.16.15:284][227]PIE: Server logged in
+[2020.10.16-12.16.15:285][227]PIE: Play in editor total start time 0,085 seconds.
+[2020.10.16-12.16.15:286][227]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.16-12.16.15:286][227]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.16-12.16.15:286][227]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.16-12.16.15:286][227]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.16-12.16.15:286][227]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.16-12.16.15:286][227]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.16-12.16.15:286][227]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.16-12.16.15:286][227]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.16-12.16.15:287][227]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.16-12.16.15:287][227]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.16-12.16.15:291][227]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.16-12.16.15:291][227]LogAudioMixer: Display: 1: FrontRight
+[2020.10.16-12.16.15:311][227]LogAudioMixer: Display: Using Audio Device Headphones (Realtek High Definition Audio)
+[2020.10.16-12.16.15:311][227]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.16-12.16.15:311][227]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.16-12.16.15:311][227]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.16-12.16.15:312][227]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.16-12.16.15:323][227]LogInit: FAudioDevice initialized.
+[2020.10.16-12.16.15:366][227]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.16-12.16.15:366][227]LogNet: Browse: 127.0.0.1:17777/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2020.10.16-12.16.15:367][227]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
+[2020.10.16-12.16.15:367][227]LogNet: Created socket for bind address: 0.0.0.0 on port 0
+[2020.10.16-12.16.15:367][227]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.10.16-12.16.15:367][227]LogNet: Game client on port 17777, rate 10000
+[2020.10.16-12.16.15:369][227]PIE: Client logged in
+[2020.10.16-12.16.15:370][227]PIE: Play in editor total start time 0,17 seconds.
+[2020.10.16-12.16.15:373][227]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.16-12.16.15:373][227]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.16-12.16.15:373][227]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.16-12.16.15:373][227]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.16-12.16.15:373][227]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.16-12.16.15:373][227]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.16-12.16.15:373][227]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.16-12.16.15:373][227]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.16-12.16.15:374][227]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.16-12.16.15:374][227]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.16-12.16.15:379][227]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.16-12.16.15:379][227]LogAudioMixer: Display: 1: FrontRight
+[2020.10.16-12.16.15:404][227]LogAudioMixer: Display: Using Audio Device Headphones (Realtek High Definition Audio)
+[2020.10.16-12.16.15:404][227]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.16-12.16.15:404][227]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.16-12.16.15:404][227]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.16-12.16.15:405][227]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.16-12.16.15:418][227]LogInit: FAudioDevice initialized.
+[2020.10.16-12.16.15:460][227]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.16-12.16.15:460][227]LogNet: Browse: 127.0.0.1:17777/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2020.10.16-12.16.15:460][227]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
+[2020.10.16-12.16.15:461][227]LogNet: Created socket for bind address: 0.0.0.0 on port 0
+[2020.10.16-12.16.15:461][227]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.10.16-12.16.15:461][227]LogNet: Game client on port 17777, rate 10000
+[2020.10.16-12.16.15:464][227]PIE: Client logged in
+[2020.10.16-12.16.15:466][227]PIE: Play in editor total start time 0,265 seconds.
+[2020.10.16-12.16.16:386][324]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:65342
+[2020.10.16-12.16.16:386][324]LogHandshake: SendConnectChallenge. Timestamp: 1.213531, Cookie: 115166120102065159238220169228234224233073181174051094092178
+[2020.10.16-12.16.16:387][324]LogHandshake: SendChallengeResponse. Timestamp: 1.213531, Cookie: 115166120102065159238220169228234224233073181174051094092178
+[2020.10.16-12.16.16:395][325]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:65342
+[2020.10.16-12.16.16:395][325]LogHandshake: SendChallengeAck. InCookie: 115166120102065159238220169228234224233073181174051094092178
+[2020.10.16-12.16.16:395][325]LogNet: Server accepting post-challenge connection from: 127.0.0.1:65342
+[2020.10.16-12.16.16:395][325]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.10.16-12.16.16:395][325]LogNet: NotifyAcceptedConnection: Name: Whitebox, TimeStamp: 10/16/20 14:16:16, [UNetConnection] RemoteAddr: 127.0.0.1:65342, Name: IpConnection_8, Driver: GameNetDriver IpNetDriver_5, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.10.16-12.16.16:395][325]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:65342, Name: IpConnection_8, Driver: GameNetDriver IpNetDriver_5, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.10.16-12.16.16:396][325]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_6, Driver: PendingNetDriver IpNetDriver_6, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.10.16-12.16.16:403][326]LogNet: NotifyAcceptingChannel Control 0 server World /Game/ThirdPersonBP/Maps/UEDPIE_0_Whitebox.Whitebox: Accepted
+[2020.10.16-12.16.16:403][326]LogNet: Remote platform little endian=1
+[2020.10.16-12.16.16:403][326]LogNet: This platform little endian=1
+[2020.10.16-12.16.16:404][326]LogOnline: OSS: Creating online subsystem instance for: :Context_29
+[2020.10.16-12.16.16:411][327]LogNet: Login request: ?Name=QaraQoyunlu-8787297F4370F234620FB09B43BC80A7 userId: NULL:QaraQoyunlu-8787297F4370F234620FB09B43BC80A7 platform: NULL
+[2020.10.16-12.16.16:412][327]LogNet: Welcomed by server (Level: /Game/ThirdPersonBP/Maps/UEDPIE_0_Whitebox, Game: /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C)
+[2020.10.16-12.16.16:412][327]LogLoad: LoadMap: 127.0.0.1:17777/Game/ThirdPersonBP/Maps/UEDPIE_0_Whitebox?game=/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C
+[2020.10.16-12.16.16:412][327]LogWorld: BeginTearingDown for /Temp/Untitled_4
+[2020.10.16-12.16.16:412][327]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.10.16-12.16.16:412][327]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.16-12.16.16:422][327]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2020.10.16-12.16.16:437][327]LogAIModule: Creating AISystem for world Whitebox
+[2020.10.16-12.16.16:437][327]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000205039FBA00), frame # 164327
+[2020.10.16-12.16.16:437][327]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000205062A0F40), frame # 164327
+[2020.10.16-12.16.16:444][327]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_1_Whitebox.Whitebox up for play (max tick rate 0) at 2020.10.16-14.16.16
+[2020.10.16-12.16.16:445][327]LogWorld: Bringing up level for play took: 0.006726
+[2020.10.16-12.16.16:445][327]LogLoad: Took 0.032660 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_0_Whitebox)
+[2020.10.16-12.16.16:450][328]LogNet: Client netspeed is 10000
+[2020.10.16-12.16.16:450][328]LogNet: Join request: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap?Name=QaraQoyunlu-8787297F4370F234620FB09B43BC80A7?SplitscreenCount=1
+[2020.10.16-12.16.16:451][328]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.10.16-12.16.16:453][328]LogNet: Join succeeded: QaraQoyunlu-8787297F
+[2020.10.16-12.16.16:508][330]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:65345
+[2020.10.16-12.16.16:508][330]LogHandshake: SendConnectChallenge. Timestamp: 1.335313, Cookie: 060135186061010118117058100142097167206142144220150030103170
+[2020.10.16-12.16.16:510][330]LogHandshake: SendChallengeResponse. Timestamp: 1.335313, Cookie: 060135186061010118117058100142097167206142144220150030103170
+[2020.10.16-12.16.16:517][331]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:65345
+[2020.10.16-12.16.16:517][331]LogHandshake: SendChallengeAck. InCookie: 060135186061010118117058100142097167206142144220150030103170
+[2020.10.16-12.16.16:517][331]LogNet: Server accepting post-challenge connection from: 127.0.0.1:65345
+[2020.10.16-12.16.16:517][331]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.10.16-12.16.16:517][331]LogNet: NotifyAcceptedConnection: Name: Whitebox, TimeStamp: 10/16/20 14:16:16, [UNetConnection] RemoteAddr: 127.0.0.1:65345, Name: IpConnection_9, Driver: GameNetDriver IpNetDriver_5, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.10.16-12.16.16:517][331]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:65345, Name: IpConnection_9, Driver: GameNetDriver IpNetDriver_5, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.10.16-12.16.16:519][331]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_7, Driver: PendingNetDriver IpNetDriver_7, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.10.16-12.16.16:526][332]LogNet: NotifyAcceptingChannel Control 0 server World /Game/ThirdPersonBP/Maps/UEDPIE_0_Whitebox.Whitebox: Accepted
+[2020.10.16-12.16.16:526][332]LogNet: Remote platform little endian=1
+[2020.10.16-12.16.16:526][332]LogNet: This platform little endian=1
+[2020.10.16-12.16.16:527][332]LogOnline: OSS: Creating online subsystem instance for: :Context_30
+[2020.10.16-12.16.16:533][333]LogNet: Login request: ?Name=QaraQoyunlu-A8319D79484BEE3CA88A88A435D1EFE0 userId: NULL:QaraQoyunlu-A8319D79484BEE3CA88A88A435D1EFE0 platform: NULL
+[2020.10.16-12.16.16:535][333]LogNet: Welcomed by server (Level: /Game/ThirdPersonBP/Maps/UEDPIE_0_Whitebox, Game: /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C)
+[2020.10.16-12.16.16:535][333]LogLoad: LoadMap: 127.0.0.1:17777/Game/ThirdPersonBP/Maps/UEDPIE_0_Whitebox?game=/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C
+[2020.10.16-12.16.16:535][333]LogWorld: BeginTearingDown for /Temp/Untitled_5
+[2020.10.16-12.16.16:535][333]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.10.16-12.16.16:535][333]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.16-12.16.16:545][333]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2020.10.16-12.16.16:560][333]LogAIModule: Creating AISystem for world Whitebox
+[2020.10.16-12.16.16:560][333]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000204B80A7800), frame # 164333
+[2020.10.16-12.16.16:560][333]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000204B03DCA40), frame # 164333
+[2020.10.16-12.16.16:565][333]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_2_Whitebox.Whitebox up for play (max tick rate 0) at 2020.10.16-14.16.16
+[2020.10.16-12.16.16:565][333]LogWorld: Bringing up level for play took: 0.003982
+[2020.10.16-12.16.16:565][333]LogLoad: Took 0.030678 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_0_Whitebox)
+[2020.10.16-12.16.16:573][334]LogNet: Client netspeed is 10000
+[2020.10.16-12.16.16:573][334]LogNet: Join request: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap?Name=QaraQoyunlu-A8319D79484BEE3CA88A88A435D1EFE0?SplitscreenCount=1
+[2020.10.16-12.16.16:573][334]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.10.16-12.16.16:575][334]LogNet: Join succeeded: QaraQoyunlu-A8319D79
+[2020.10.16-12.16.16:786][350]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.10.16-12.16.16:907][361]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.10.16-12.16.17:480][412]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.10.16-12.16.17:481][412]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.10.16-12.16.17:482][412]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.10.16-12.16.17:482][412]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.10.16-12.17.52:769][287]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.16-12.17.52:769][287]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_2_Whitebox
+[2020.10.16-12.17.52:771][287]LogSlate: Window 'HideNSneakUnreal Preview [NetMode: Client 3] (64-bit/Windows) ' being destroyed
+[2020.10.16-12.17.52:773][287]LogWorld: UWorld::CleanupWorld for Whitebox, bSessionEnded=true, bCleanupResources=true
+[2020.10.16-12.17.52:774][287]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.16-12.17.52:780][287]LogNet: World NetDriver shutdown IpNetDriver_7 [GameNetDriver]
+[2020.10.16-12.17.52:780][287]LogNet: DestroyNamedNetDriver IpNetDriver_7 [GameNetDriver]
+[2020.10.16-12.17.52:780][287]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_7, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:QaraQoyunlu-A8319D79484BEE3CA88A88A435D1EFE0, Channels: 13, Time: 2020.10.16-12.17.52
+[2020.10.16-12.17.52:780][287]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_7, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:QaraQoyunlu-A8319D79484BEE3CA88A88A435D1EFE0
+[2020.10.16-12.17.52:780][287]LogExit: GameNetDriver IpNetDriver_7 shut down
+[2020.10.16-12.17.52:780][287]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_1_Whitebox
+[2020.10.16-12.17.52:781][287]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.16-12.17.52:781][287]LogSlate: Window 'HideNSneakUnreal Preview [NetMode: Client 2] (64-bit/Windows) ' being destroyed
+[2020.10.16-12.17.52:786][287]LogWorld: UWorld::CleanupWorld for Whitebox, bSessionEnded=true, bCleanupResources=true
+[2020.10.16-12.17.52:787][287]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.16-12.17.52:796][287]LogNet: World NetDriver shutdown IpNetDriver_6 [GameNetDriver]
+[2020.10.16-12.17.52:796][287]LogNet: DestroyNamedNetDriver IpNetDriver_6 [GameNetDriver]
+[2020.10.16-12.17.52:796][287]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_6, Driver: GameNetDriver IpNetDriver_6, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:QaraQoyunlu-8787297F4370F234620FB09B43BC80A7, Channels: 13, Time: 2020.10.16-12.17.52
+[2020.10.16-12.17.52:796][287]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_6, Driver: GameNetDriver IpNetDriver_6, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:QaraQoyunlu-8787297F4370F234620FB09B43BC80A7
+[2020.10.16-12.17.52:796][287]LogExit: GameNetDriver IpNetDriver_6 shut down
+[2020.10.16-12.17.52:797][287]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_Whitebox
+[2020.10.16-12.17.52:797][287]LogOnlineSession: Warning: OSS: No game present to leave for session (GameSession)
+[2020.10.16-12.17.52:797][287]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.16-12.17.52:798][287]LogWorld: UWorld::CleanupWorld for Whitebox, bSessionEnded=true, bCleanupResources=true
+[2020.10.16-12.17.52:798][287]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.16-12.17.52:816][287]LogNet: World NetDriver shutdown IpNetDriver_5 [GameNetDriver]
+[2020.10.16-12.17.52:816][287]LogNet: DestroyNamedNetDriver IpNetDriver_5 [GameNetDriver]
+[2020.10.16-12.17.52:816][287]LogNet: UNetConnection::Cleanup: Closing open connection. [UNetConnection] RemoteAddr: 127.0.0.1:65345, Name: IpConnection_9, Driver: GameNetDriver IpNetDriver_5, IsServer: YES, PC: PlayerController_2, Owner: PlayerController_2, UniqueId: NULL:QaraQoyunlu-A8319D79484BEE3CA88A88A435D1EFE0
+[2020.10.16-12.17.52:816][287]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:65345, Name: IpConnection_9, Driver: GameNetDriver IpNetDriver_5, IsServer: YES, PC: PlayerController_2, Owner: PlayerController_2, UniqueId: NULL:QaraQoyunlu-A8319D79484BEE3CA88A88A435D1EFE0, Channels: 13, Time: 2020.10.16-12.17.52
+[2020.10.16-12.17.52:817][287]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:65345, Name: IpConnection_9, Driver: GameNetDriver IpNetDriver_5, IsServer: YES, PC: PlayerController_2, Owner: PlayerController_2, UniqueId: NULL:QaraQoyunlu-A8319D79484BEE3CA88A88A435D1EFE0
+[2020.10.16-12.17.52:817][287]LogNet: UNetConnection::Cleanup: Closing open connection. [UNetConnection] RemoteAddr: 127.0.0.1:65342, Name: IpConnection_8, Driver: GameNetDriver IpNetDriver_5, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:QaraQoyunlu-8787297F4370F234620FB09B43BC80A7
+[2020.10.16-12.17.52:817][287]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:65342, Name: IpConnection_8, Driver: GameNetDriver IpNetDriver_5, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:QaraQoyunlu-8787297F4370F234620FB09B43BC80A7, Channels: 13, Time: 2020.10.16-12.17.52
+[2020.10.16-12.17.52:817][287]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:65342, Name: IpConnection_8, Driver: GameNetDriver IpNetDriver_5, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:QaraQoyunlu-8787297F4370F234620FB09B43BC80A7
+[2020.10.16-12.17.52:817][287]LogExit: GameNetDriver IpNetDriver_5 shut down
+[2020.10.16-12.17.52:818][287]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.16-12.17.52:819][287]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.16-12.17.52:883][287]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.16-12.17.52:885][287]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000204B03DCA40), frame # 170287
+[2020.10.16-12.17.52:885][287]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000204B80A7800), frame # 170287
+[2020.10.16-12.17.52:885][287]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000205062A0F40), frame # 170287
+[2020.10.16-12.17.52:885][287]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000205039FBA00), frame # 170287
+[2020.10.16-12.17.52:886][287]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000204A7EBAD40), frame # 170287
+[2020.10.16-12.17.52:886][287]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020509A26A00), frame # 170287
+[2020.10.16-12.17.52:887][287]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2020.10.16-12.17.52:933][288]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2020.10.16-12.17.52:933][288]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2020.10.16-12.17.52:933][288]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2020.10.16-12.17.59:795][983]LogLinker: Warning: While loading '../../../../../Proj 2020/HideNSneakUnreal/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap' failed to load '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData': Can't find file.
+[2020.10.16-12.17.59:796][983]LogLinker: Warning: While loading '../../../../../Proj 2020/HideNSneakUnreal/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap' failed to load '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData': Can't find file.
+[2020.10.16-12.18.00:104][983]LogLinker: Warning: While loading '../../../../../Proj 2020/HideNSneakUnreal/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap' failed to load '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData': Can't find file.
+[2020.10.16-12.18.00:104][983]LogLinker: Warning: While loading '../../../../../Proj 2020/HideNSneakUnreal/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap' failed to load '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData': Can't find file.
+[2020.10.16-12.18.00:105][983]LogLinker: Warning: Failed to load '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData': Can't find file.
+[2020.10.16-12.18.00:105][983]LogLinker: Warning: Failed to load '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData': Can't find file.
+[2020.10.16-12.18.00:105][983]LogLinker: Warning: Failed to load '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData': Can't find file.
+[2020.10.16-12.18.00:105][983]LogLinker: Warning: Failed to load '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData': Can't find file.
+[2020.10.16-12.18.00:108][983]LogLinker: Warning: While loading '../../../../../Proj 2020/HideNSneakUnreal/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap' failed to load '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData': Can't find file.
+[2020.10.16-12.18.00:108][983]LoadErrors: Failed to load /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData Referenced by PersistentLevel
+[2020.10.16-12.18.00:109][983]LogLinker: Warning: While loading '../../../../../Proj 2020/HideNSneakUnreal/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap' failed to load '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData': Can't find file.
+[2020.10.16-12.18.00:139][983]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Le_Jóup...
+[2020.10.16-12.18.00:139][983]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/ThirdPersonBP/Sounds/Le_Jóup.Le_Jóup will be modified from 40 to 40.
+[2020.10.16-12.18.00:265][983]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 134454 while cooking SoundWave /Game/ThirdPersonBP/Sounds/Le_Jóup.Le_Jóup.
+[2020.10.16-12.18.00:380][983]LogAssetEditorSubsystem: Opening Asset editor for World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2020.10.16-12.18.00:391][983]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2020.10.16-12.18.01:998][983]LogSlate: Window 'Save Content' being destroyed
+[2020.10.16-12.18.02:017][983]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Materials/lambert1" FILE="../../../../../Proj 2020/HideNSneakUnreal/Content/Geometry/Materials/lambert1.uasset" SILENT=true
+[2020.10.16-12.18.02:029][983]LogSavePackage: Moving '../../../../../Proj 2020/HideNSneakUnreal/Saved/lambert1C6872C904E6650727A96DDABA382D911.tmp' to '../../../../../Proj 2020/HideNSneakUnreal/Content/Geometry/Materials/lambert1.uasset'
+[2020.10.16-12.18.02:035][983]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Materials/Metal_blue" FILE="../../../../../Proj 2020/HideNSneakUnreal/Content/Geometry/Materials/Metal_blue.uasset" SILENT=true
+[2020.10.16-12.18.02:043][983]LogSavePackage: Moving '../../../../../Proj 2020/HideNSneakUnreal/Saved/Metal_blueCA41C3794068A6C62BF8B3A410CA908D.tmp' to '../../../../../Proj 2020/HideNSneakUnreal/Content/Geometry/Materials/Metal_blue.uasset'
+[2020.10.16-12.18.02:049][983]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Materials/metal_darkblue" FILE="../../../../../Proj 2020/HideNSneakUnreal/Content/Geometry/Materials/metal_darkblue.uasset" SILENT=true
+[2020.10.16-12.18.02:058][983]LogSavePackage: Moving '../../../../../Proj 2020/HideNSneakUnreal/Saved/metal_darkblueFB600BE94CCD89DD5B48B9AECDDFA69E.tmp' to '../../../../../Proj 2020/HideNSneakUnreal/Content/Geometry/Materials/metal_darkblue.uasset'
+[2020.10.16-12.18.02:063][983]Cmd: MAP LOAD FILE="../../../../../Proj 2020/HideNSneakUnreal/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.10.16-12.18.02:063][983]LightingResults: New page: Lighting Build
+[2020.10.16-12.18.02:063][983]LoadErrors: New page: Loading map: ThirdPersonExampleMap.umap
+[2020.10.16-12.18.02:088][983]LogWorld: UWorld::CleanupWorld for Whitebox, bSessionEnded=true, bCleanupResources=true
+[2020.10.16-12.18.02:088][983]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.16-12.18.02:088][983]MapCheck: New page: Map Check
+[2020.10.16-12.18.02:088][983]LightingResults: New page: Lighting Build
+[2020.10.16-12.18.02:132][983]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020496153380), frame # 170983
+[2020.10.16-12.18.02:133][983]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000204961D8E00), frame # 170983
+[2020.10.16-12.18.02:133][983]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2020.10.16-12.18.02:146][983]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.10.16-12.18.02:146][983]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.10.16-12.18.02:146][983]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000204B866D400), frame # 170983
+[2020.10.16-12.18.02:146][983]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020504B64E00), frame # 170983
+[2020.10.16-12.18.02:157][983]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2020.10.16-12.18.02:185][983]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.10.16-12.18.02:186][983]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,126ms to complete.
+[2020.10.16-12.18.02:186][983]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.123
+[2020.10.16-12.18.02:248][983]AssetCheck: New page: Asset Save: multiple assets
+[2020.10.16-12.18.02:248][983]LogContentValidation: Display: Validating Material /Game/Geometry/Materials/lambert1.lambert1
+[2020.10.16-12.18.02:248][983]LogContentValidation: Display: Validating Material /Game/Geometry/Materials/Metal_blue.Metal_blue
+[2020.10.16-12.18.02:248][983]LogContentValidation: Display: Validating Material /Game/Geometry/Materials/metal_darkblue.metal_darkblue
