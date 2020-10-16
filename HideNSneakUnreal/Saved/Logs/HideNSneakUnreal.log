@@ -1260,3 +1260,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.10.16-15.43.45:435][603]LogContentValidation: Display: Validating ObjectRedirector /Game/Geometry/Meshes/1M_Cube_Chamfer.1M_Cube_Chamfer
 [2020.10.16-15.43.45:435][603]LogContentValidation: Display: Validating ObjectRedirector /Game/Geometry/Meshes/TemplateFloor.TemplateFloor
 [2020.10.16-15.56.12:364][552]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.10.16-15.58.22:259][701]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2020.10.16-15.58.22:325][701]LogSavePackage: Moving 'C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Saved/Whitebox47B1475E4F3107426E8C02B62DB1570D.tmp' to 'C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Content/ThirdPersonBP/Maps/Whitebox.umap'
+[2020.10.16-15.58.22:386][701]AssetCheck: New page: Asset Save: Whitebox
+[2020.10.16-15.58.22:386][701]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/Whitebox.Whitebox
