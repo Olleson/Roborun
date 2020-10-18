@@ -1287,3 +1287,11 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.10.18-15.46.13:813][298]LogSavePackage: Moving '../../../../../../Users/osjo8879.WINDSV/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Saved/oskarTestMap63ECE89D446199FAE0D257826B9C33A3.tmp' to '../../../../../../Users/osjo8879.WINDSV/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Content/ThirdPersonBP/Maps/oskarTestMap.umap'
 [2020.10.18-15.46.13:860][298]AssetCheck: New page: Asset Save: oskarTestMap
 [2020.10.18-15.46.13:860][298]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/oskarTestMap.oskarTestMap
+[2020.10.18-15.48.38:531][196]LogEditorTransaction: Undo Set Scale
+[2020.10.18-15.48.39:139][220]LogEditorTransaction: Undo Set Scale
+[2020.10.18-15.49.20:711][577]BlueprintLog: New page: Compile Movinplatforms_BP_Oskar
+[2020.10.18-15.49.20:756][577]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
+[2020.10.18-15.49.42:160][722]LogUObjectHash: Compacting FUObjectHashTables data took   4.03ms
+[2020.10.18-15.49.42:206][722]LogSavePackage: Moving '../../../../../../Users/osjo8879.WINDSV/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Saved/oskarTestMapB5276D5D4F0A24D6498645A9A4DE312E.tmp' to '../../../../../../Users/osjo8879.WINDSV/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Content/ThirdPersonBP/Maps/oskarTestMap.umap'
+[2020.10.18-15.49.42:280][722]AssetCheck: New page: Asset Save: oskarTestMap
+[2020.10.18-15.49.42:280][722]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/oskarTestMap.oskarTestMap
