@@ -739,3 +739,341 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.10.18-15.13.32:729][398]LogEditorActor: Deleted 1 Actors (0.042 secs)
 [2020.10.18-15.14.00:598][ 65]BlueprintLog: New page: Compile Movinplatforms_BP_Oskar
 [2020.10.18-15.14.00:630][ 65]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2020.10.18-15.17.53:503][366]LogSlate: Took 0.000245 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.10.18-15.18.35:849][742]LogSlate: Took 0.007845 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2020.10.18-15.20.01:705][239]BlueprintLog: New page: Compile Movinplatforms_BP_Oskar
+[2020.10.18-15.20.01:757][239]LogUObjectHash: Compacting FUObjectHashTables data took   3.89ms
+[2020.10.18-15.23.14:688][610]LogUObjectHash: Compacting FUObjectHashTables data took   3.44ms
+[2020.10.18-15.23.14:743][610]LogSavePackage: Moving '../../../../../../Users/osjo8879.WINDSV/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Saved/oskarTestMap_Auto1E33596734D40CECDA3E93DA082B74CB3.tmp' to '../../../../../../Users/osjo8879.WINDSV/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Saved/Autosaves/Game/ThirdPersonBP/Maps/oskarTestMap_Auto1.umap'
+[2020.10.18-15.23.14:746][610]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/oskarTestMap' took 0.091
+[2020.10.18-15.23.14:746][610]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.091
+[2020.10.18-15.23.14:747][610]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Oskar/MovingPlatform/Movinplatforms_BP_Oskar] ([1] browsable assets)...
+[2020.10.18-15.23.14:762][610]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Oskar/MovingPlatform/Movinplatforms_BP_Oskar.Movinplatforms_BP_Oskar]
+[2020.10.18-15.23.14:763][610]OBJ SavePackage: Finished generating thumbnails for package [/Game/Oskar/MovingPlatform/Movinplatforms_BP_Oskar]
+[2020.10.18-15.23.14:791][610]LogSavePackage: Moving '../../../../../../Users/osjo8879.WINDSV/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Saved/Movinplatforms_BP_Oskar_Auto1246986B445AB0487AD1EE6B5FFC8EAA7.tmp' to '../../../../../../Users/osjo8879.WINDSV/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Saved/Autosaves/Game/Oskar/MovingPlatform/Movinplatforms_BP_Oskar_Auto1.uasset'
+[2020.10.18-15.23.14:792][610]LogFileHelpers: Auto-saving content packages took 0.046
+[2020.10.18-15.23.17:159][829]LogSavePackage: Moving '../../../../../../Users/osjo8879.WINDSV/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Saved/Movinplatforms_BP_OskarAC0DA61E42DA312E027ABDB472C47FF0.tmp' to '../../../../../../Users/osjo8879.WINDSV/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Content/Oskar/MovingPlatform/Movinplatforms_BP_Oskar.uasset'
+[2020.10.18-15.23.17:186][829]AssetCheck: New page: Asset Save: Movinplatforms_BP_Oskar
+[2020.10.18-15.23.17:186][829]LogContentValidation: Display: Validating Blueprint /Game/Oskar/MovingPlatform/Movinplatforms_BP_Oskar.Movinplatforms_BP_Oskar
+[2020.10.18-15.24.40:338][872]BlueprintLog: New page: Compile Movinplatforms_BP_Oskar
+[2020.10.18-15.24.40:377][872]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
+[2020.10.18-15.25.42:227][ 91]LogSavePackage: Moving '../../../../../../Users/osjo8879.WINDSV/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Saved/Movinplatforms_BP_OskarC9DBBEAB495243ECF60481A7AE1EB821.tmp' to '../../../../../../Users/osjo8879.WINDSV/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Content/Oskar/MovingPlatform/Movinplatforms_BP_Oskar.uasset'
+[2020.10.18-15.25.42:240][ 91]AssetCheck: New page: Asset Save: Movinplatforms_BP_Oskar
+[2020.10.18-15.25.42:240][ 91]LogContentValidation: Display: Validating Blueprint /Game/Oskar/MovingPlatform/Movinplatforms_BP_Oskar.Movinplatforms_BP_Oskar
+[2020.10.18-15.25.44:036][247]LogSavePackage: Moving '../../../../../../Users/osjo8879.WINDSV/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Saved/Movinplatforms_BP_OskarCFC31ADC4E07A223A64003891DE54748.tmp' to '../../../../../../Users/osjo8879.WINDSV/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Content/Oskar/MovingPlatform/Movinplatforms_BP_Oskar.uasset'
+[2020.10.18-15.25.44:048][247]AssetCheck: New page: Asset Save: Movinplatforms_BP_Oskar
+[2020.10.18-15.25.44:048][247]LogContentValidation: Display: Validating Blueprint /Game/Oskar/MovingPlatform/Movinplatforms_BP_Oskar.Movinplatforms_BP_Oskar
+[2020.10.18-15.27.22:266][358]LogSavePackage: Moving '../../../../../../Users/osjo8879.WINDSV/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Saved/Movinplatforms_BP_Oskar5E9CFF41440B75E2A35F4ABB4EA08CA2.tmp' to '../../../../../../Users/osjo8879.WINDSV/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Content/Oskar/MovingPlatform/Movinplatforms_BP_Oskar.uasset'
+[2020.10.18-15.27.22:280][358]AssetCheck: New page: Asset Save: Movinplatforms_BP_Oskar
+[2020.10.18-15.27.22:281][358]LogContentValidation: Display: Validating Blueprint /Game/Oskar/MovingPlatform/Movinplatforms_BP_Oskar.Movinplatforms_BP_Oskar
+[2020.10.18-15.27.26:259][498]BlueprintLog: New page: Compile Movinplatforms_BP_Oskar
+[2020.10.18-15.27.26:299][498]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2020.10.18-15.30.38:643][679]LogSavePackage: Moving '../../../../../../Users/osjo8879.WINDSV/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Saved/Movinplatforms_BP_Oskar022AE9A64AA400B82F7572A4EE96D762.tmp' to '../../../../../../Users/osjo8879.WINDSV/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Content/Oskar/MovingPlatform/Movinplatforms_BP_Oskar.uasset'
+[2020.10.18-15.30.38:660][679]AssetCheck: New page: Asset Save: Movinplatforms_BP_Oskar
+[2020.10.18-15.30.38:660][679]LogContentValidation: Display: Validating Blueprint /Game/Oskar/MovingPlatform/Movinplatforms_BP_Oskar.Movinplatforms_BP_Oskar
+[2020.10.18-15.30.39:641][745]BlueprintLog: New page: Compile Movinplatforms_BP_Oskar
+[2020.10.18-15.30.39:691][745]LogUObjectHash: Compacting FUObjectHashTables data took   2.73ms
+[2020.10.18-15.30.45:014][116]LogSlate: Window 'Movinplatforms_BP_Oskar' being destroyed
+[2020.10.18-15.30.45:018][116]LogSlate: Window 'Movinplatforms_BP_Oskar' being destroyed
+[2020.10.18-15.30.45:042][116]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2020.10.18-15.30.45:042][116]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.18-15.30.46:610][271]LogTemp: Repeating last play command: Simulate
+[2020.10.18-15.30.46:630][271]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.18-15.30.46:631][271]PIE: New page: SIE session: oskarTestMap (18 okt. 2020 19:30:46)
+[2020.10.18-15.30.46:668][271]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_oskarTestMap
+[2020.10.18-15.30.46:681][271]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013129s)
+[2020.10.18-15.30.46:682][271]LogAIModule: Creating AISystem for world oskarTestMap
+[2020.10.18-15.30.46:683][271]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000011209885E00), frame # 60271
+[2020.10.18-15.30.46:683][271]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000112904896C0), frame # 60271
+[2020.10.18-15.30.46:683][271]LogPlayLevel: PIE: World Init took: (0.001695s)
+[2020.10.18-15.30.46:683][271]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/oskarTestMap.oskarTestMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_oskarTestMap.oskarTestMap (0.015067s)
+[2020.10.18-15.30.46:712][271]LogUObjectHash: Compacting FUObjectHashTables data took   3.74ms
+[2020.10.18-15.30.46:716][271]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.18-15.30.46:716][271]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.18-15.30.46:716][271]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.18-15.30.46:716][271]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.18-15.30.46:716][271]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.18-15.30.46:716][271]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.18-15.30.46:716][271]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.18-15.30.46:716][271]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.18-15.30.46:717][271]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.18-15.30.46:717][271]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.18-15.30.46:720][271]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.18-15.30.46:720][271]LogAudioMixer: Display: 1: FrontRight
+[2020.10.18-15.30.46:746][271]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.10.18-15.30.46:746][271]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.18-15.30.46:746][271]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.18-15.30.46:746][271]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.18-15.30.46:747][271]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.18-15.30.46:770][271]LogInit: FAudioDevice initialized.
+[2020.10.18-15.30.46:784][271]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.10.18-15.30.46:786][271]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_oskarTestMap.oskarTestMap up for play (max tick rate 0) at 2020.10.18-17.30.46
+[2020.10.18-15.30.46:786][271]LogWorld: Bringing up level for play took: 0.001332
+[2020.10.18-15.30.46:786][271]LogOnline: OSS: Creating online subsystem instance for: :Context_6
+[2020.10.18-15.30.46:789][271]PIE: Server logged in
+[2020.10.18-15.30.46:790][271]PIE: Play in editor total start time 0,16 seconds.
+[2020.10.18-15.30.54:109][108]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.18-15.30.54:109][108]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_oskarTestMap
+[2020.10.18-15.30.54:109][108]LogWorld: UWorld::CleanupWorld for oskarTestMap, bSessionEnded=true, bCleanupResources=true
+[2020.10.18-15.30.54:110][108]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.18-15.30.54:122][108]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.18-15.30.54:126][108]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.18-15.30.54:181][108]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.18-15.30.54:183][108]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000112904896C0), frame # 61108
+[2020.10.18-15.30.54:183][108]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000011209885E00), frame # 61108
+[2020.10.18-15.30.54:187][108]LogUObjectHash: Compacting FUObjectHashTables data took   3.28ms
+[2020.10.18-15.30.54:248][109]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2020.10.18-15.30.55:014][190]LogTemp: Repeating last play command: Simulate
+[2020.10.18-15.30.55:034][190]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.18-15.30.55:034][190]PIE: New page: SIE session: oskarTestMap (18 okt. 2020 19:30:55)
+[2020.10.18-15.30.55:058][190]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_oskarTestMap
+[2020.10.18-15.30.55:070][190]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011501s)
+[2020.10.18-15.30.55:071][190]LogAIModule: Creating AISystem for world oskarTestMap
+[2020.10.18-15.30.55:071][190]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000112B72C8E00), frame # 61190
+[2020.10.18-15.30.55:071][190]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001128E507380), frame # 61190
+[2020.10.18-15.30.55:071][190]LogPlayLevel: PIE: World Init took: (0.001612s)
+[2020.10.18-15.30.55:071][190]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/oskarTestMap.oskarTestMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_oskarTestMap.oskarTestMap (0.013314s)
+[2020.10.18-15.30.55:102][190]LogUObjectHash: Compacting FUObjectHashTables data took   3.19ms
+[2020.10.18-15.30.55:104][190]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.18-15.30.55:104][190]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.18-15.30.55:104][190]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.18-15.30.55:104][190]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.18-15.30.55:104][190]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.18-15.30.55:104][190]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.18-15.30.55:104][190]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.18-15.30.55:104][190]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.18-15.30.55:105][190]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.18-15.30.55:105][190]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.18-15.30.55:108][190]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.18-15.30.55:108][190]LogAudioMixer: Display: 1: FrontRight
+[2020.10.18-15.30.55:134][190]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.10.18-15.30.55:134][190]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.18-15.30.55:134][190]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.18-15.30.55:134][190]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.18-15.30.55:135][190]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.18-15.30.55:159][190]LogInit: FAudioDevice initialized.
+[2020.10.18-15.30.55:167][190]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.10.18-15.30.55:169][190]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_oskarTestMap.oskarTestMap up for play (max tick rate 0) at 2020.10.18-17.30.55
+[2020.10.18-15.30.55:169][190]LogWorld: Bringing up level for play took: 0.001479
+[2020.10.18-15.30.55:170][190]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2020.10.18-15.30.55:172][190]PIE: Server logged in
+[2020.10.18-15.30.55:174][190]PIE: Play in editor total start time 0,14 seconds.
+[2020.10.18-15.30.55:799][257]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.18-15.30.55:799][257]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_oskarTestMap
+[2020.10.18-15.30.55:800][257]LogWorld: UWorld::CleanupWorld for oskarTestMap, bSessionEnded=true, bCleanupResources=true
+[2020.10.18-15.30.55:800][257]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.18-15.30.55:805][257]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.18-15.30.55:807][257]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.18-15.30.55:830][257]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.18-15.30.55:858][257]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001128E507380), frame # 61257
+[2020.10.18-15.30.55:858][257]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000112B72C8E00), frame # 61257
+[2020.10.18-15.30.55:861][257]LogUObjectHash: Compacting FUObjectHashTables data took   2.96ms
+[2020.10.18-15.30.55:916][258]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2020.10.18-15.30.56:726][349]LogEditorViewport: Clicking on Actor (LMB): Movinplatforms_BP_Oskar_C (Movinplatforms_BP_Oskar)
+[2020.10.18-15.31.05:133][240]LogTemp: Repeating last play command: Simulate
+[2020.10.18-15.31.05:153][240]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.18-15.31.05:153][240]PIE: New page: SIE session: oskarTestMap (18 okt. 2020 19:31:05)
+[2020.10.18-15.31.05:153][240]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_oskarTestMap
+[2020.10.18-15.31.05:162][240]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008706s)
+[2020.10.18-15.31.05:163][240]LogAIModule: Creating AISystem for world oskarTestMap
+[2020.10.18-15.31.05:163][240]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000011245FF5A00), frame # 62240
+[2020.10.18-15.31.05:163][240]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001128F1E5580), frame # 62240
+[2020.10.18-15.31.05:163][240]LogPlayLevel: PIE: World Init took: (0.001196s)
+[2020.10.18-15.31.05:163][240]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/oskarTestMap.oskarTestMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_oskarTestMap.oskarTestMap (0.010036s)
+[2020.10.18-15.31.05:185][240]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2020.10.18-15.31.05:189][240]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.18-15.31.05:189][240]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.18-15.31.05:189][240]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.18-15.31.05:189][240]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.18-15.31.05:189][240]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.18-15.31.05:189][240]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.18-15.31.05:189][240]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.18-15.31.05:189][240]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.18-15.31.05:189][240]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.18-15.31.05:189][240]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.18-15.31.05:191][240]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.18-15.31.05:191][240]LogAudioMixer: Display: 1: FrontRight
+[2020.10.18-15.31.05:208][240]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.10.18-15.31.05:208][240]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.18-15.31.05:208][240]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.18-15.31.05:209][240]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.18-15.31.05:209][240]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.18-15.31.05:224][240]LogInit: FAudioDevice initialized.
+[2020.10.18-15.31.05:229][240]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.10.18-15.31.05:231][240]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_oskarTestMap.oskarTestMap up for play (max tick rate 0) at 2020.10.18-17.31.05
+[2020.10.18-15.31.05:231][240]LogWorld: Bringing up level for play took: 0.001019
+[2020.10.18-15.31.05:231][240]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2020.10.18-15.31.05:233][240]PIE: Server logged in
+[2020.10.18-15.31.05:234][240]PIE: Play in editor total start time 0,082 seconds.
+[2020.10.18-15.31.34:199][675]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.18-15.31.34:199][675]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_oskarTestMap
+[2020.10.18-15.31.34:200][675]LogWorld: UWorld::CleanupWorld for oskarTestMap, bSessionEnded=true, bCleanupResources=true
+[2020.10.18-15.31.34:200][675]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.18-15.31.34:207][675]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.18-15.31.34:211][675]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.18-15.31.34:237][675]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.18-15.31.34:265][675]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001128F1E5580), frame # 65675
+[2020.10.18-15.31.34:265][675]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000011245FF5A00), frame # 65675
+[2020.10.18-15.31.34:268][675]LogUObjectHash: Compacting FUObjectHashTables data took   2.81ms
+[2020.10.18-15.31.34:331][676]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2020.10.18-15.31.38:466][814]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Oskar/MovingPlatform/Movinplatforms_BP_Oskar.Movinplatforms_BP_Oskar
+[2020.10.18-15.33.46:217][985]LogSavePackage: Moving '../../../../../../Users/osjo8879.WINDSV/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Saved/Movinplatforms_BP_Oskar37F8EEB8480062E577226B9A5433F36B.tmp' to '../../../../../../Users/osjo8879.WINDSV/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Content/Oskar/MovingPlatform/Movinplatforms_BP_Oskar.uasset'
+[2020.10.18-15.33.46:233][985]AssetCheck: New page: Asset Save: Movinplatforms_BP_Oskar
+[2020.10.18-15.33.46:233][985]LogContentValidation: Display: Validating Blueprint /Game/Oskar/MovingPlatform/Movinplatforms_BP_Oskar.Movinplatforms_BP_Oskar
+[2020.10.18-15.33.48:141][109]BlueprintLog: New page: Compile Movinplatforms_BP_Oskar
+[2020.10.18-15.33.48:184][109]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2020.10.18-15.33.54:332][633]LogTemp: Repeating last play command: Simulate
+[2020.10.18-15.33.54:352][633]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.18-15.33.54:352][633]PIE: New page: SIE session: oskarTestMap (18 okt. 2020 19:33:54)
+[2020.10.18-15.33.54:352][633]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_oskarTestMap
+[2020.10.18-15.33.54:362][633]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009444s)
+[2020.10.18-15.33.54:363][633]LogAIModule: Creating AISystem for world oskarTestMap
+[2020.10.18-15.33.54:363][633]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000112BF5B4800), frame # 75633
+[2020.10.18-15.33.54:363][633]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000112BF59E980), frame # 75633
+[2020.10.18-15.33.54:363][633]LogPlayLevel: PIE: World Init took: (0.001202s)
+[2020.10.18-15.33.54:363][633]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/oskarTestMap.oskarTestMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_oskarTestMap.oskarTestMap (0.010788s)
+[2020.10.18-15.33.54:387][633]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2020.10.18-15.33.54:388][633]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.18-15.33.54:388][633]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.18-15.33.54:388][633]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.18-15.33.54:388][633]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.18-15.33.54:388][633]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.18-15.33.54:388][633]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.18-15.33.54:388][633]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.18-15.33.54:388][633]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.18-15.33.54:389][633]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.18-15.33.54:389][633]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.18-15.33.54:391][633]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.18-15.33.54:391][633]LogAudioMixer: Display: 1: FrontRight
+[2020.10.18-15.33.54:409][633]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.10.18-15.33.54:409][633]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.18-15.33.54:409][633]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.18-15.33.54:409][633]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.18-15.33.54:410][633]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.18-15.33.54:424][633]LogInit: FAudioDevice initialized.
+[2020.10.18-15.33.54:431][633]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.10.18-15.33.54:433][633]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_oskarTestMap.oskarTestMap up for play (max tick rate 0) at 2020.10.18-17.33.54
+[2020.10.18-15.33.54:433][633]LogWorld: Bringing up level for play took: 0.001429
+[2020.10.18-15.33.54:433][633]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2020.10.18-15.33.54:436][633]PIE: Server logged in
+[2020.10.18-15.33.54:437][633]PIE: Play in editor total start time 0,085 seconds.
+[2020.10.18-15.34.04:339][777]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.18-15.34.04:339][777]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_oskarTestMap
+[2020.10.18-15.34.04:339][777]LogWorld: UWorld::CleanupWorld for oskarTestMap, bSessionEnded=true, bCleanupResources=true
+[2020.10.18-15.34.04:339][777]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.18-15.34.04:348][777]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.18-15.34.04:352][777]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.18-15.34.04:409][777]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.18-15.34.04:410][777]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000112BF59E980), frame # 76777
+[2020.10.18-15.34.04:410][777]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000112BF5B4800), frame # 76777
+[2020.10.18-15.34.04:414][777]LogUObjectHash: Compacting FUObjectHashTables data took   3.43ms
+[2020.10.18-15.34.04:476][778]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2020.10.18-15.34.32:524][712]LogSavePackage: Moving '../../../../../../Users/osjo8879.WINDSV/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Saved/Movinplatforms_BP_Oskar16ABB02748B81E035E08A29B4BC55F85.tmp' to '../../../../../../Users/osjo8879.WINDSV/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Content/Oskar/MovingPlatform/Movinplatforms_BP_Oskar.uasset'
+[2020.10.18-15.34.32:539][712]AssetCheck: New page: Asset Save: Movinplatforms_BP_Oskar
+[2020.10.18-15.34.32:539][712]LogContentValidation: Display: Validating Blueprint /Game/Oskar/MovingPlatform/Movinplatforms_BP_Oskar.Movinplatforms_BP_Oskar
+[2020.10.18-15.34.34:439][860]BlueprintLog: New page: Compile Movinplatforms_BP_Oskar
+[2020.10.18-15.34.34:480][860]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
+[2020.10.18-15.34.40:602][357]LogTemp: Repeating last play command: Simulate
+[2020.10.18-15.34.40:622][357]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.18-15.34.40:622][357]PIE: New page: SIE session: oskarTestMap (18 okt. 2020 19:34:40)
+[2020.10.18-15.34.40:622][357]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_oskarTestMap
+[2020.10.18-15.34.40:631][357]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009012s)
+[2020.10.18-15.34.40:632][357]LogAIModule: Creating AISystem for world oskarTestMap
+[2020.10.18-15.34.40:632][357]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001126DC8B000), frame # 79357
+[2020.10.18-15.34.40:632][357]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000112C6291300), frame # 79357
+[2020.10.18-15.34.40:632][357]LogPlayLevel: PIE: World Init took: (0.001137s)
+[2020.10.18-15.34.40:632][357]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/oskarTestMap.oskarTestMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_oskarTestMap.oskarTestMap (0.010290s)
+[2020.10.18-15.34.40:662][357]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2020.10.18-15.34.40:663][357]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.18-15.34.40:663][357]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.18-15.34.40:663][357]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.18-15.34.40:663][357]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.18-15.34.40:663][357]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.18-15.34.40:663][357]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.18-15.34.40:663][357]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.18-15.34.40:663][357]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.18-15.34.40:664][357]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.18-15.34.40:664][357]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.18-15.34.40:666][357]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.18-15.34.40:666][357]LogAudioMixer: Display: 1: FrontRight
+[2020.10.18-15.34.40:682][357]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.10.18-15.34.40:683][357]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.18-15.34.40:683][357]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.18-15.34.40:683][357]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.18-15.34.40:683][357]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.18-15.34.40:703][357]LogInit: FAudioDevice initialized.
+[2020.10.18-15.34.40:715][357]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.10.18-15.34.40:717][357]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_oskarTestMap.oskarTestMap up for play (max tick rate 0) at 2020.10.18-17.34.40
+[2020.10.18-15.34.40:717][357]LogWorld: Bringing up level for play took: 0.000939
+[2020.10.18-15.34.40:717][357]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2020.10.18-15.34.40:720][357]PIE: Server logged in
+[2020.10.18-15.34.40:721][357]PIE: Play in editor total start time 0,1 seconds.
+[2020.10.18-15.34.58:388][373]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.18-15.34.58:388][373]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_oskarTestMap
+[2020.10.18-15.34.58:389][373]LogWorld: UWorld::CleanupWorld for oskarTestMap, bSessionEnded=true, bCleanupResources=true
+[2020.10.18-15.34.58:389][373]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.18-15.34.58:399][373]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.18-15.34.58:403][373]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.18-15.34.58:460][373]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.18-15.34.58:461][373]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000112C6291300), frame # 81373
+[2020.10.18-15.34.58:461][373]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001126DC8B000), frame # 81373
+[2020.10.18-15.34.58:464][373]LogUObjectHash: Compacting FUObjectHashTables data took   3.18ms
+[2020.10.18-15.34.58:520][374]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2020.10.18-15.35.05:374][189]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.10.18-15.35.05:717][214]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
+[2020.10.18-15.35.05:779][214]LogSavePackage: Moving '../../../../../../Users/osjo8879.WINDSV/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Saved/oskarTestMap372AFB5A46B4DFF2ECE958A9DE6C8FCE.tmp' to '../../../../../../Users/osjo8879.WINDSV/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Content/ThirdPersonBP/Maps/oskarTestMap.umap'
+[2020.10.18-15.35.05:855][214]AssetCheck: New page: Asset Save: oskarTestMap
+[2020.10.18-15.35.05:855][214]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/oskarTestMap.oskarTestMap
+[2020.10.18-15.38.35:104][298]BlueprintLog: New page: Compile Movinplatforms_BP_Oskar
+[2020.10.18-15.38.35:144][298]LogUObjectHash: Compacting FUObjectHashTables data took   2.63ms
+[2020.10.18-15.38.36:124][349]LogSavePackage: Moving '../../../../../../Users/osjo8879.WINDSV/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Saved/Movinplatforms_BP_Oskar0E2D17CD482FFC02A8E25EBE4F3BFBF7.tmp' to '../../../../../../Users/osjo8879.WINDSV/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Content/Oskar/MovingPlatform/Movinplatforms_BP_Oskar.uasset'
+[2020.10.18-15.38.36:143][349]AssetCheck: New page: Asset Save: Movinplatforms_BP_Oskar
+[2020.10.18-15.38.36:143][349]LogContentValidation: Display: Validating Blueprint /Game/Oskar/MovingPlatform/Movinplatforms_BP_Oskar.Movinplatforms_BP_Oskar
+[2020.10.18-15.38.39:696][617]LogTemp: Repeating last play command: Simulate
+[2020.10.18-15.38.39:716][617]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.18-15.38.39:716][617]PIE: New page: SIE session: oskarTestMap (18 okt. 2020 19:38:39)
+[2020.10.18-15.38.39:755][617]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_oskarTestMap
+[2020.10.18-15.38.39:767][617]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012150s)
+[2020.10.18-15.38.39:769][617]LogAIModule: Creating AISystem for world oskarTestMap
+[2020.10.18-15.38.39:769][617]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000112973BEA00), frame # 86617
+[2020.10.18-15.38.39:769][617]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000011262F81E40), frame # 86617
+[2020.10.18-15.38.39:769][617]LogPlayLevel: PIE: World Init took: (0.001717s)
+[2020.10.18-15.38.39:769][617]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/oskarTestMap.oskarTestMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_oskarTestMap.oskarTestMap (0.014083s)
+[2020.10.18-15.38.39:803][617]LogUObjectHash: Compacting FUObjectHashTables data took   3.70ms
+[2020.10.18-15.38.39:804][617]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.18-15.38.39:805][617]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.18-15.38.39:805][617]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.18-15.38.39:805][617]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.18-15.38.39:805][617]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.18-15.38.39:805][617]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.18-15.38.39:805][617]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.18-15.38.39:805][617]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.18-15.38.39:805][617]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.18-15.38.39:805][617]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.18-15.38.39:809][617]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.18-15.38.39:809][617]LogAudioMixer: Display: 1: FrontRight
+[2020.10.18-15.38.39:835][617]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.10.18-15.38.39:835][617]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.18-15.38.39:835][617]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.18-15.38.39:835][617]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.18-15.38.39:836][617]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.18-15.38.39:859][617]LogInit: FAudioDevice initialized.
+[2020.10.18-15.38.39:870][617]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.10.18-15.38.39:872][617]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_oskarTestMap.oskarTestMap up for play (max tick rate 0) at 2020.10.18-17.38.39
+[2020.10.18-15.38.39:872][617]LogWorld: Bringing up level for play took: 0.001347
+[2020.10.18-15.38.39:873][617]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2020.10.18-15.38.39:876][617]PIE: Server logged in
+[2020.10.18-15.38.39:877][617]PIE: Play in editor total start time 0,161 seconds.
+[2020.10.18-15.39.17:645][ 82]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.18-15.39.17:645][ 82]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_oskarTestMap
+[2020.10.18-15.39.17:645][ 82]LogWorld: UWorld::CleanupWorld for oskarTestMap, bSessionEnded=true, bCleanupResources=true
+[2020.10.18-15.39.17:646][ 82]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.18-15.39.17:654][ 82]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.18-15.39.17:658][ 82]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.18-15.39.17:717][ 82]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.18-15.39.17:718][ 82]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000011262F81E40), frame # 91082
+[2020.10.18-15.39.17:718][ 82]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000112973BEA00), frame # 91082
+[2020.10.18-15.39.17:720][ 82]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2020.10.18-15.39.17:779][ 83]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2020.10.18-15.39.26:480][944]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.10.18-15.39.27:250][ 24]LogEditorViewport: Clicking on Actor (LMB): Movinplatforms_BP_Oskar_C (Movinplatforms_BP_Oskar)
