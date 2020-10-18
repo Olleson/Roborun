@@ -5839,33 +5839,3 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.10.16-15.42.06:025][262]AssetCheck: New page: Asset Save: multiple assets
 [2020.10.16-15.42.06:025][262]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/movingPlatforms.movingPlatforms
 [2020.10.16-15.42.06:025][262]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/movingPlatforms_BuiltData.movingPlatforms_BuiltData
-[2020.10.16-15.45.19:712][391]LogAssetEditorSubsystem: Opening Asset editor for World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
-[2020.10.16-15.45.19:742][391]LogUObjectHash: Compacting FUObjectHashTables data took   3.74ms
-[2020.10.16-15.45.26:861][391]LogSlate: Window 'Save Content' being destroyed
-[2020.10.16-15.45.29:130][650]LogAssetEditorSubsystem: Opening Asset editor for World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
-[2020.10.16-15.45.29:156][650]LogUObjectHash: Compacting FUObjectHashTables data took   2.77ms
-[2020.10.16-15.45.30:517][650]LogSlate: Window 'Save Content' being destroyed
-[2020.10.16-15.45.30:542][650]LogSavePackage: Moving '../../../../../../Users/osjo8879.WINDSV/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Saved/MovingPlatforms_bpE695E13A45342674719D2C95E35F55F7.tmp' to '../../../../../../Users/osjo8879.WINDSV/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Content/MovingPlatforms/MovingPlatforms_bp.uasset'
-[2020.10.16-15.45.30:544][650]Cmd: MAP LOAD FILE="../../../../../../Users/osjo8879.WINDSV/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.10.16-15.45.30:544][650]LightingResults: New page: Lighting Build
-[2020.10.16-15.45.30:544][650]LoadErrors: New page: Loading map: ThirdPersonExampleMap.umap
-[2020.10.16-15.45.30:572][650]LogWorld: UWorld::CleanupWorld for movingPlatforms, bSessionEnded=true, bCleanupResources=true
-[2020.10.16-15.45.30:572][650]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.10.16-15.45.30:572][650]MapCheck: New page: Map Check
-[2020.10.16-15.45.30:572][650]LightingResults: New page: Lighting Build
-[2020.10.16-15.45.30:597][650]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002274248CA40), frame # 390650
-[2020.10.16-15.45.30:597][650]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000022742374200), frame # 390650
-[2020.10.16-15.45.30:600][650]LogUObjectHash: Compacting FUObjectHashTables data took   2.91ms
-[2020.10.16-15.45.30:605][650]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.10.16-15.45.30:606][650]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2020.10.16-15.45.30:606][650]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000022742374C00), frame # 390650
-[2020.10.16-15.45.30:606][650]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000227901C4540), frame # 390650
-[2020.10.16-15.45.30:635][650]LogUObjectHash: Compacting FUObjectHashTables data took   2.83ms
-[2020.10.16-15.45.30:689][650]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.10.16-15.45.30:690][650]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,192ms to complete.
-[2020.10.16-15.45.30:690][650]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.146
-[2020.10.16-15.45.30:777][650]AssetCheck: New page: Asset Save: MovingPlatforms_bp
-[2020.10.16-15.45.30:777][650]LogContentValidation: Display: Validating Blueprint /Game/MovingPlatforms/MovingPlatforms_bp.MovingPlatforms_bp
-[2020.10.16-15.45.33:805][997]LogAssetEditorSubsystem: Opening Asset editor for MapBuildDataRegistry /Game/ThirdPersonBP/Maps/movingPlatforms_BuiltData.movingPlatforms_BuiltData
-[2020.10.16-15.45.41:738][933]LogSlate: Window 'movingPlatforms_BuiltData' being destroyed
-[2020.10.16-15.45.41:741][933]LogSlate: Window 'movingPlatforms_BuiltData' being destroyed
