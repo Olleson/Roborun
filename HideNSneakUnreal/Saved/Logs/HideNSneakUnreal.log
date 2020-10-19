@@ -1898,3 +1898,8 @@ Make sure 'BPW_MenuJoin' has been compiled for  Async Task: Missing Function
 [2020.10.19-22.59.23:995][628]LogSavePackage: Moving 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Saved/Real_WhiteBox97924625488ED63995E47297FC4B2819.tmp' to 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Maps/Real_WhiteBox.umap'
 [2020.10.19-22.59.24:072][628]AssetCheck: New page: Asset Save: Real_WhiteBox
 [2020.10.19-22.59.24:073][628]LogContentValidation: Display: Validating World /Game/Maps/Real_WhiteBox.Real_WhiteBox
+[2020.10.19-23.06.13:918][884]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Real_WhiteBox" FILE="C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Maps/Real_WhiteBox.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.10.19-23.06.13:927][884]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2020.10.19-23.06.14:051][884]LogSavePackage: Moving 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Saved/Real_WhiteBoxECCC1E7147E056C4C405329EC9E3D916.tmp' to 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Maps/Real_WhiteBox.umap'
+[2020.10.19-23.06.14:121][884]AssetCheck: New page: Asset Save: Real_WhiteBox
+[2020.10.19-23.06.14:121][884]LogContentValidation: Display: Validating World /Game/Maps/Real_WhiteBox.Real_WhiteBox
