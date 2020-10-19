@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\HideNSneakUnreal.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{E3A6626A-98AF-49E2-9C65-56FD82AF7200}</UniqueIdentifier>
+      <UniqueIdentifier>{94993E5B-C524-430C-94EC-FF254D9AD31B}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\HideNSneakUnreal.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{B843C2D0-EA43-4BBA-8C22-A6A8912680B3}</UniqueIdentifier>
+      <UniqueIdentifier>{8F9304E6-AD2D-44E7-A208-8D823F2F5E7E}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\HideNSneakUnreal">
-      <UniqueIdentifier>{4694C51F-9218-4E86-9500-95422172AC2A}</UniqueIdentifier>
+      <UniqueIdentifier>{C2AAA502-F636-44F7-9340-BCFDD783AB4B}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\HideNSneakUnreal\HideNSneakUnreal.Build.cs">
       <Filter>Source\HideNSneakUnreal</Filter>
@@ -53,11 +53,38 @@
     <ClInclude Include="..\..\Source\HideNSneakUnreal\NewActorComponent.h">
       <Filter>Source\HideNSneakUnreal</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\HideNSneakUnreal\test.cpp">
+      <Filter>Source\HideNSneakUnreal</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HideNSneakUnreal\test.h">
+      <Filter>Source\HideNSneakUnreal</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\HideNSneakUnreal\testActor.cpp">
       <Filter>Source\HideNSneakUnreal</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\HideNSneakUnreal\testActor.h">
       <Filter>Source\HideNSneakUnreal</Filter>
     </ClInclude>
+    <Filter Include="Source\HideNSneakUnreal\.vs">
+      <UniqueIdentifier>{5489EFB5-747D-4C87-9199-BACCF72358FD}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\HideNSneakUnreal\.vs\ProjectSettings.json">
+      <Filter>Source\HideNSneakUnreal\.vs</Filter>
+    </None>
+    <None Include="..\..\Source\HideNSneakUnreal\.vs\slnx.sqlite">
+      <Filter>Source\HideNSneakUnreal\.vs</Filter>
+    </None>
+    <None Include="..\..\Source\HideNSneakUnreal\.vs\VSWorkspaceState.json">
+      <Filter>Source\HideNSneakUnreal\.vs</Filter>
+    </None>
+    <Filter Include="Source\HideNSneakUnreal\.vs\HideNSneakUnreal">
+      <UniqueIdentifier>{2A044FDD-6F12-4EBC-ACC1-69959A4D9840}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\HideNSneakUnreal\.vs\HideNSneakUnreal\v16">
+      <UniqueIdentifier>{9EE8FCD6-B7F2-47A9-8E6A-28D872F7F581}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\HideNSneakUnreal\.vs\HideNSneakUnreal\v16\Browse.VC.db">
+      <Filter>Source\HideNSneakUnreal\.vs\HideNSneakUnreal\v16</Filter>
+    </None>
   </ItemGroup>
 </Project>

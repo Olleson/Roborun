@@ -19,9 +19,9 @@ void UmoveableBox::BeginPlay()
 {
 	Super::BeginPlay();
 	StartPosition = SelfActor->GetTransform().GetLocation();
-	TargetPosition = EndPosition;
-	movementvecktor = (StartPosition - EndPosition).GetSafeNormal() * MovementSpeed;
-	
+	EndPosition = endpoint->GetTransform().GetLocation();
+	movementvecktor = (EndPosition - StartPosition).GetSafeNormal() * MovementSpeed;
+	//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("wtf"));
 	// ...
 }
 
@@ -32,20 +32,21 @@ void UmoveableBox::TickComponent(float DeltaTime, ELevelTick TickType, FActorCom
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 	/*if(SelfActor->ActorGetDistanceToCollision() <)*/
 	//SelfActor->OnActorHit
-	if ((SelfActor->GetTransform().GetLocation() - TargetPosition).Size() < 3) {
-		SelfActor->SetActorLocation(SelfActor->GetTransform().GetLocation() + movementvecktor);
 
-	}else {
-		if (TargetPosition == EndPosition) {
-			TargetPosition = StartPosition;
-		}
-		else
-		{
-			TargetPosition = EndPosition;
-		}
-		GEngine->AddOnScreenDebugMessage(-1, 0.25f, FColor::Yellow, TEXT("körs denna?"));
+	if ((EndPosition - SelfActor->GetTransform().GetLocation()).Size() < 10) {
+		SelfActor->SetActorLocation(SelfActor->GetTransform().GetLocation() + movementvecktor);
 	}
-	/*GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("wtf"));*/
+	//else {
+	//	if (TargetPosition == EndPosition) {
+	//		TargetPosition = StartPosition;
+	//	}
+	//	else
+	//	{
+	//		TargetPosition = EndPosition;
+	//	}
+	//	GEngine->AddOnScreenDebugMessage(-1, 0.25f, FColor::Yellow, TEXT("körs denna?"));
+	//}
+	///*GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("wtf"));*/
 		//SelfActor->GetTransform();
 	// ...
 }

@@ -58,6 +58,10 @@ void EmptyLinkFunctionForGeneratedCodemoveableBox() {}
 #endif
 		static const UE4CodeGen_Private::FStructPropertyParams NewProp_StartPosition;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_endpoint_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_endpoint;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_SelfActor_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_SelfActor;
@@ -120,6 +124,13 @@ void EmptyLinkFunctionForGeneratedCodemoveableBox() {}
 #endif
 	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_UmoveableBox_Statics::NewProp_StartPosition = { "StartPosition", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UmoveableBox, StartPosition), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UClass_UmoveableBox_Statics::NewProp_StartPosition_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UmoveableBox_Statics::NewProp_StartPosition_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UmoveableBox_Statics::NewProp_endpoint_MetaData[] = {
+		{ "Category", "moveableBox" },
+		{ "ModuleRelativePath", "moveableBox.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UmoveableBox_Statics::NewProp_endpoint = { "endpoint", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UmoveableBox, endpoint), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UmoveableBox_Statics::NewProp_endpoint_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UmoveableBox_Statics::NewProp_endpoint_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UmoveableBox_Statics::NewProp_SelfActor_MetaData[] = {
 		{ "Category", "moveableBox" },
 		{ "ModuleRelativePath", "moveableBox.h" },
@@ -133,6 +144,7 @@ void EmptyLinkFunctionForGeneratedCodemoveableBox() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UmoveableBox_Statics::NewProp_movementvecktor,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UmoveableBox_Statics::NewProp_EndPosition,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UmoveableBox_Statics::NewProp_StartPosition,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UmoveableBox_Statics::NewProp_endpoint,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UmoveableBox_Statics::NewProp_SelfActor,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UmoveableBox_Statics::StaticCppClassTypeInfo = {
@@ -162,7 +174,7 @@ void EmptyLinkFunctionForGeneratedCodemoveableBox() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UmoveableBox, 412748158);
+	IMPLEMENT_CLASS(UmoveableBox, 196791745);
 	template<> HIDENSNEAKUNREAL_API UClass* StaticClass<UmoveableBox>()
 	{
 		return UmoveableBox::StaticClass();

@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "HideNSneakUnreal",
-			"Path": "C:\\Users\\osjo8879.WINDSV\\Documents\\GitHub\\PROJ_Grupp2\\HideNSneakUnreal\\Source\\HideNSneakUnreal.Target.cs",
+			"Path": "C:\\Users\\osjo8879\\Desktop\\Proj\\HideNSneakUnreal\\Source\\HideNSneakUnreal.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "HideNSneakUnrealEditor",
-			"Path": "C:\\Users\\osjo8879.WINDSV\\Documents\\GitHub\\PROJ_Grupp2\\HideNSneakUnreal\\Source\\HideNSneakUnrealEditor.Target.cs",
+			"Path": "C:\\Users\\osjo8879\\Desktop\\Proj\\HideNSneakUnreal\\Source\\HideNSneakUnrealEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]

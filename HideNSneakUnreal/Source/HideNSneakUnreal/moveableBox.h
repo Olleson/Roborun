@@ -15,6 +15,8 @@ class HIDENSNEAKUNREAL_API UmoveableBox : public UActorComponent
 	UPROPERTY(EditAnywhere)
 		AActor* SelfActor;
 	UPROPERTY(EditAnywhere)
+		AActor* endpoint;
+	UPROPERTY(EditAnywhere)
 		FVector StartPosition;
 	UPROPERTY(EditAnywhere)
 		FVector EndPosition;

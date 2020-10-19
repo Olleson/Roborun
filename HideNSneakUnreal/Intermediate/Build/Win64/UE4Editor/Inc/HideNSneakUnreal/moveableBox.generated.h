@@ -60,6 +60,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UmoveableBox); \
 
 #define HideNSneakUnreal_Source_HideNSneakUnreal_moveableBox_h_13_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__SelfActor() { return STRUCT_OFFSET(UmoveableBox, SelfActor); } \
+	FORCEINLINE static uint32 __PPO__endpoint() { return STRUCT_OFFSET(UmoveableBox, endpoint); } \
 	FORCEINLINE static uint32 __PPO__StartPosition() { return STRUCT_OFFSET(UmoveableBox, StartPosition); } \
 	FORCEINLINE static uint32 __PPO__EndPosition() { return STRUCT_OFFSET(UmoveableBox, EndPosition); } \
 	FORCEINLINE static uint32 __PPO__movementvecktor() { return STRUCT_OFFSET(UmoveableBox, movementvecktor); } \
