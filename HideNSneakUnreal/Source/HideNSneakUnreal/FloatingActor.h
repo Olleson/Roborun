@@ -1,4 +1,4 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+//Author: Olle Frid
 
 #pragma once
 
@@ -21,3 +21,4 @@ public:
 protected:
     // Called when the game starts or when spawned
     virtual void BeginPlay() override;
+}

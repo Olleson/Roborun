@@ -2,6 +2,6 @@
   Creating makefile for HideNSneakUnrealEditor (no existing makefile)
   Parsing headers for HideNSneakUnrealEditor
     Running UnrealHeaderTool "C:\Users\Olle\Documents\Game Projects\PROJ_Grupp2\HideNSneakUnreal\HideNSneakUnreal.uproject" "C:\Users\Olle\Documents\Game Projects\PROJ_Grupp2\HideNSneakUnreal\Intermediate\Build\Win64\HideNSneakUnrealEditor\Development\HideNSneakUnrealEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Olle\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
-C:/Users/Olle/Documents/Game Projects/PROJ_Grupp2/HideNSneakUnreal/Source/HideNSneakUnreal/FloatingActor.h(24): error : Unexpected end of Global scope in 'Class' block
+C:/Users/Olle/Documents/Game Projects/PROJ_Grupp2/HideNSneakUnreal/Source/HideNSneakUnreal/FloatingActor.h(25): error : Missing ';'
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(46,5): error MSB3073: The command "C:\WINDOWS\System32\chcp.com 65001 >NUL 
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(46,5): error MSB3073:  "C:\Program Files\Epic Games\UE_4.25\Engine\Build\BatchFiles\Build.bat" HideNSneakUnrealEditor Win64 Development -Project="C:\Users\Olle\Documents\Game Projects\PROJ_Grupp2\HideNSneakUnreal\HideNSneakUnreal.uproject" -WaitMutex -FromMsBuild" exited with code 6.

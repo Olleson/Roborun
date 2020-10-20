@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\HideNSneakUnreal.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{651E933A-3C64-4819-B05E-529503884C15}</UniqueIdentifier>
+      <UniqueIdentifier>{14D90151-3349-4ACD-B942-36311B346788}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\HideNSneakUnreal.Target.cs">
       <Filter>Source</Filter>
@@ -11,8 +11,9 @@
     <None Include="..\..\Source\HideNSneakUnrealEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{BCAAE9EC-FC9A-4AD7-94AE-193F6709B8F6}</UniqueIdentifier>
+      <UniqueIdentifier>{0ED5369C-8305-4303-A3B0-23C9F59251BE}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -33,7 +34,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\HideNSneakUnreal">
-      <UniqueIdentifier>{EEF475F3-1983-40FA-BFC6-F2BF428FBB0F}</UniqueIdentifier>
+      <UniqueIdentifier>{52820D4E-A243-4531-8C12-361333E7876F}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\HideNSneakUnreal\FloatingActor.cpp">
       <Filter>Source\HideNSneakUnreal</Filter>
@@ -50,10 +51,10 @@
     <ClInclude Include="..\..\Source\HideNSneakUnreal\HideNSneakUnreal.h">
       <Filter>Source\HideNSneakUnreal</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\HideNSneakUnreal\Seeker.cpp">
+    <ClCompile Include="..\..\Source\HideNSneakUnreal\TagMechanic.cpp">
       <Filter>Source\HideNSneakUnreal</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\HideNSneakUnreal\Seeker.h">
+    <ClInclude Include="..\..\Source\HideNSneakUnreal\TagMechanic.h">
       <Filter>Source\HideNSneakUnreal</Filter>
     </ClInclude>
   </ItemGroup>

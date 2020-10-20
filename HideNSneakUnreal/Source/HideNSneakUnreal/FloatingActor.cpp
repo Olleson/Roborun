@@ -1,3 +1,5 @@
+//Author: Olle Frid
+
 #include "FloatingActor.h"
 
 AFloatingActor::AFloatingActor()
