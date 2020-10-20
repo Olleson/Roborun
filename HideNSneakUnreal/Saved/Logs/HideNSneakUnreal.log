@@ -640,3 +640,4 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.10.20-14.36.27:982][  0]LogContentStreaming: Texture pool size now 1000 MB
 [2020.10.20-14.36.28:049][  0]LogSlate: Took 0.007900 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
 [2020.10.20-14.36.28:055][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Content/' took 0.13s
+[2020.10.20-14.40.47:467][646]LogSlate: Window 'Open Level' being destroyed
