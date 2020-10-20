@@ -1170,3 +1170,4 @@ Make sure 'BPW_MenuJoin' has been compiled for  Async Task: Missing Function
 [2020.10.20-12.57.11:911][138]LogAudioMixer: Display: Audio Buffer Underrun detected.
 [2020.10.20-12.58.36:519][391]LogAudioMixer: Display: Audio Buffer Underrun detected.
 [2020.10.20-13.01.31:463][915]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.10.20-13.19.05:068][ 15]LogLinker: Warning: Failed to read package file summary, the file "C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Blueprints\Widgets\BPW_MenuHost_BASE_976.uasset" is too small (0 bytes, expected at least 32 bytes)
