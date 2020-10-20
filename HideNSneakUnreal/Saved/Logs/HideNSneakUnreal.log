@@ -1567,3 +1567,62 @@ Make sure 'BPW_MenuJoin' has been compiled for  Async Task: Missing Function
 [2020.10.20-14.28.58:716][696]LogSavePackage: Moving 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Saved/Real_WhiteBox_Auto5872EC92749F9E680CFE59C9F4953D223.tmp' to 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Saved/Autosaves/Game/Maps/Real_WhiteBox_Auto5.umap'
 [2020.10.20-14.28.58:717][696]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Real_WhiteBox' took 0.143
 [2020.10.20-14.28.58:717][696]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.143
+[2020.10.20-14.31.49:318][659]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.10.20-14.39.38:818][261]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_conveyorBeltBendModular_mesh_v01)
+[2020.10.20-14.39.44:107][882]Cmd: DELETE
+[2020.10.20-14.39.44:107][882]Cmd: ACTOR DELETE
+[2020.10.20-14.39.44:112][882]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.20-14.39.44:120][882]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2020.10.20-14.39.44:127][882]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2020.10.20-14.39.44:416][917]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_conveyorBeltStraightModular_mesh_v01)
+[2020.10.20-14.39.44:610][936]Cmd: DELETE
+[2020.10.20-14.39.44:610][936]Cmd: ACTOR DELETE
+[2020.10.20-14.39.44:614][936]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.20-14.39.44:622][936]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2020.10.20-14.39.44:623][936]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2020.10.20-14.39.44:908][970]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_conveyorBeltEndModular_mesh_v01)
+[2020.10.20-14.39.45:193][  0]Cmd: DELETE
+[2020.10.20-14.39.45:193][  0]Cmd: ACTOR DELETE
+[2020.10.20-14.39.45:197][  0]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.20-14.39.45:205][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2020.10.20-14.39.45:207][  0]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2020.10.20-14.39.45:550][ 41]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_door_mesh_v00)
+[2020.10.20-14.39.45:792][ 66]Cmd: DELETE
+[2020.10.20-14.39.45:792][ 66]Cmd: ACTOR DELETE
+[2020.10.20-14.39.45:796][ 66]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.20-14.39.45:804][ 66]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2020.10.20-14.39.45:806][ 66]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2020.10.20-14.39.46:116][103]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_wallDoorModular_mesh_v01)
+[2020.10.20-14.39.46:250][115]Cmd: DELETE
+[2020.10.20-14.39.46:250][115]Cmd: ACTOR DELETE
+[2020.10.20-14.39.46:255][115]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.20-14.39.46:263][115]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2020.10.20-14.39.46:264][115]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2020.10.20-14.39.48:244][352]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_pillarStraightModular_mesh_v2)
+[2020.10.20-14.39.48:436][371]Cmd: DELETE
+[2020.10.20-14.39.48:436][371]Cmd: ACTOR DELETE
+[2020.10.20-14.39.48:440][371]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.20-14.39.48:448][371]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2020.10.20-14.39.48:449][371]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2020.10.20-14.39.48:885][423]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ground)
+[2020.10.20-14.39.49:323][471]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_pillarStraightModular_mesh_v01)
+[2020.10.20-14.39.49:606][501]Cmd: DELETE
+[2020.10.20-14.39.49:606][501]Cmd: ACTOR DELETE
+[2020.10.20-14.39.49:611][501]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.20-14.39.49:619][501]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2020.10.20-14.39.49:620][501]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2020.10.20-14.39.51:062][674]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WallWithDoor4)
+[2020.10.20-14.40.04:703][235]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall19)
+[2020.10.20-14.40.05:397][314]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WallWithDoor4)
+[2020.10.20-14.40.09:347][742]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2020.10.20-14.40.09:374][742]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Real_WhiteBox" FILE="C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Maps/Real_WhiteBox.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.10.20-14.40.09:382][742]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2020.10.20-14.40.09:466][742]LogSavePackage: Moving 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Saved/Real_WhiteBox6396DB984A9338B9E7E40C986A715F66.tmp' to 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Maps/Real_WhiteBox.umap'
+[2020.10.20-14.40.09:489][742]LogFileHelpers: Saving map 'Real_WhiteBox' took 0.116
+[2020.10.20-14.40.09:497][742]AssetCheck: New page: Asset Save: Real_WhiteBox
+[2020.10.20-14.40.09:497][742]LogContentValidation: Display: Validating World /Game/Maps/Real_WhiteBox.Real_WhiteBox
+[2020.10.20-14.40.38:121][947]LogLinker: Warning: Failed to read package file summary, the file "C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Blueprints\Widgets\BPW_MenuHost_BASE_976.uasset" is too small (0 bytes, expected at least 32 bytes)
+[2020.10.20-14.41.33:627][471]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall17)
+[2020.10.20-14.41.34:081][505]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WallWithDoor4)
+[2020.10.20-14.41.35:614][654]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall9)
+[2020.10.20-14.41.36:614][745]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WallWithDoor4)
