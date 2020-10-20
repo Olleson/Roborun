@@ -646,3 +646,517 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.10.20-09.54.00:067][ 63]LogAudioMixer: Display: Audio Buffer Underrun detected.
 [2020.10.20-09.54.25:604][139]LogAudioMixer: Display: Audio Buffer Underrun detected.
 [2020.10.20-09.54.47:994][206]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.10.20-09.57.10:844][441]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.10.20-09.57.12:164][594]LogSlate: Took 0.000231 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.10.20-09.57.12:223][594]LogLinker: Warning: While loading 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Blueprints/Widgets/BPW_MenuHost.uasset' failed to load '/Script/AdvancedSessions': Can't find file.
+[2020.10.20-09.57.12:223][594]LogLinker: Warning: While loading 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Blueprints/Widgets/BPW_MenuHost.uasset' failed to load '/Script/AdvancedSessions': Can't find file.
+[2020.10.20-09.57.12:224][594]LogLinker: Warning: While loading 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Blueprints/Widgets/BPW_MenuHost.uasset' failed to load '/Script/AdvancedSessions': Can't find file.
+[2020.10.20-09.57.12:224][594]LogLinker: Warning: While loading 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Blueprints/Widgets/BPW_MenuHost.uasset' failed to load '/Script/AdvancedSessions': Can't find file.
+[2020.10.20-09.57.12:224][594]LogLinker: Warning: While loading 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Blueprints/Widgets/BPW_MenuHost.uasset' failed to load '/Script/AdvancedSessions': Can't find file.
+[2020.10.20-09.57.12:224][594]LogLinker: Warning: While loading 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Blueprints/Widgets/BPW_MenuHost.uasset' failed to load '/Script/AdvancedSessions': Can't find file.
+[2020.10.20-09.57.12:224][594]LogLinker: Warning: While loading 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Blueprints/Widgets/BPW_MenuHost.uasset' failed to load '/Script/AdvancedSessions': Can't find file.
+[2020.10.20-09.57.12:224][594]LogLinker: Warning: While loading 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Blueprints/Widgets/BPW_MenuHost.uasset' failed to load '/Script/AdvancedSessions': Can't find file.
+[2020.10.20-09.57.12:224][594]LogLinker: Warning: While loading 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Blueprints/Widgets/BPW_MainMenu.uasset' failed to load '/Script/AdvancedSessions': Can't find file.
+[2020.10.20-09.57.12:224][594]LoadErrors: Failed to load /Script/AdvancedSessions.SessionPropertyKeyPair Referenced by ExecuteUbergraph_BPW_MenuHost
+[2020.10.20-09.57.12:224][594]LogLinker: Warning: While loading 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Blueprints/Widgets/BPW_MainMenu.uasset' failed to load '/Script/AdvancedSessions': Can't find file.
+[2020.10.20-09.57.12:224][594]LogProperty: Error: FStructProperty::Serialize Loading: Property 'StructProperty Temp_struct_Variable./Game/Blueprints/Widgets/BPW_MenuHost.BPW_MenuHost_C:ExecuteUbergraph_BPW_MenuHost:Temp_struct_Variable'. Unknown structure.
+[2020.10.20-09.57.12:224][594]LogLinker: Warning: While loading 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Blueprints/Widgets/BPW_MainMenu.uasset' failed to load '/Script/AdvancedSessions': Can't find file.
+[2020.10.20-09.57.12:224][594]LogLinker: Warning: While loading 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Blueprints/Widgets/BPW_MainMenu.uasset' failed to load '/Script/AdvancedSessions': Can't find file.
+[2020.10.20-09.57.12:225][594]LogLinker: Warning: While loading 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Blueprints/Widgets/BPW_MainMenu.uasset' failed to load '/Script/AdvancedSessions': Can't find file.
+[2020.10.20-09.57.12:225][594]LogLinker: Warning: While loading 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Blueprints/Widgets/BPW_MainMenu.uasset' failed to load '/Script/AdvancedSessions': Can't find file.
+[2020.10.20-09.57.12:225][594]LogLinker: Warning: While loading 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Blueprints/Widgets/BPW_MainMenu.uasset' failed to load '/Script/AdvancedSessions': Can't find file.
+[2020.10.20-09.57.12:225][594]LogLinker: Warning: While loading 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Blueprints/Widgets/BPW_MainMenu.uasset' failed to load '/Script/AdvancedSessions': Can't find file.
+[2020.10.20-09.57.12:225][594]LogLinker: Warning: While loading 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Blueprints/Widgets/BPW_MainMenu.uasset' failed to load '/Script/AdvancedSessions': Can't find file.
+[2020.10.20-09.57.12:225][594]LogLinker: Warning: While loading 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Blueprints/Widgets/BPW_MainMenu.uasset' failed to load '/Script/AdvancedSessions': Can't find file.
+[2020.10.20-09.57.12:225][594]LogLinker: Warning: While loading 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Blueprints/Widgets/BPW_MainMenu.uasset' failed to load '/Script/AdvancedSessions': Can't find file.
+[2020.10.20-09.57.12:225][594]LogLinker: Warning: While loading 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Blueprints/Widgets/BPW_MainMenu.uasset' failed to load '/Script/AdvancedSessions': Can't find file.
+[2020.10.20-09.57.12:226][594]LogLinker: Warning: While loading 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Blueprints/Widgets/BPW_MainMenu.uasset' failed to load '/Script/AdvancedSessions': Can't find file.
+[2020.10.20-09.57.12:226][594]LoadErrors: Failed to load /Script/AdvancedSessions.CreateSessionCallbackProxyAdvanced Referenced by K2Node_AsyncAction_0
+[2020.10.20-09.57.12:226][594]LogLinker: Warning: While loading 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Blueprints/Widgets/BPW_MainMenu.uasset' failed to load '/Script/AdvancedSessions': Can't find file.
+[2020.10.20-09.57.12:226][594]LogLinker: Warning: While loading 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Blueprints/Widgets/BPW_MainMenu.uasset' failed to load '/Script/AdvancedSessions': Can't find file.
+[2020.10.20-09.57.12:226][594]LogLinker: Warning: While loading 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Blueprints/Widgets/BPW_MainMenu.uasset' failed to load '/Script/AdvancedSessions': Can't find file.
+[2020.10.20-09.57.12:226][594]LogLinker: Warning: While loading 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Blueprints/Widgets/BPW_MainMenu.uasset' failed to load '/Script/AdvancedSessions': Can't find file.
+[2020.10.20-09.57.12:227][594]LoadErrors: Failed to load /Script/AdvancedSessions.SessionPropertyKeyPair Referenced by K2Node_AsyncAction_0
+[2020.10.20-09.57.12:227][594]LogLinker: Warning: While loading 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Blueprints/Widgets/BPW_MainMenu.uasset' failed to load '/Script/AdvancedSessions': Can't find file.
+[2020.10.20-09.57.12:228][594]LogBlueprint: Error: ProxyFactoryClass null in K2Node_AsyncAction /Game/Blueprints/Widgets/BPW_MenuHost.BPW_MenuHost:EventGraph.K2Node_AsyncAction_0. Was a class deleted or saved on a non promoted build?
+[2020.10.20-09.57.12:228][594]LogBlueprint: Error: ProxyFactoryClass null in K2Node_AsyncAction /Game/Blueprints/Widgets/BPW_MenuHost.BPW_MenuHost:EventGraph.K2Node_AsyncAction_0. Was a class deleted or saved on a non promoted build?
+[2020.10.20-09.57.12:228][594]LogBlueprint: Error: ProxyFactoryClass null in K2Node_AsyncAction /Game/Blueprints/Widgets/BPW_MenuHost.BPW_MenuHost:EventGraph.K2Node_AsyncAction_0. Was a class deleted or saved on a non promoted build?
+[2020.10.20-09.57.12:228][594]LogBlueprint: Error: ProxyFactoryClass null in K2Node_AsyncAction /Game/Blueprints/Widgets/BPW_MenuHost.BPW_MenuHost:EventGraph.K2Node_AsyncAction_0. Was a class deleted or saved on a non promoted build?
+[2020.10.20-09.57.12:228][594]LogBlueprint: Error: ProxyFactoryClass null in K2Node_AsyncAction /Game/Blueprints/Widgets/BPW_MenuHost.BPW_MenuHost:EventGraph.K2Node_AsyncAction_0. Was a class deleted or saved on a non promoted build?
+[2020.10.20-09.57.12:230][594]LogBlueprint: Error: ProxyFactoryClass null in K2Node_AsyncAction /Game/Blueprints/Widgets/BPW_MenuHost.BPW_MenuHost:EventGraph.K2Node_AsyncAction_0. Was a class deleted or saved on a non promoted build?
+[2020.10.20-09.57.12:230][594]LogBlueprint: Error: [Compiler BPW_MenuHost] BaseAsyncTask: Missing function CreateAdvancedSession from class Unknown Class for async task  Async Task: Missing Function
+[2020.10.20-09.57.12:230][594]LogBlueprint: Error: [Compiler BPW_MenuHost] In use pin  Player Controller  no longer exists on node  Async Task: Missing Function . Please refresh node or break links to remove pin.
+[2020.10.20-09.57.12:230][594]LogBlueprint: Warning: [Compiler BPW_MenuHost] Input pin  Private Connections  specifying non-default value no longer exists on node  Async Task: Missing Function . Please refresh node or reset pin to default value to remove pin.
+[2020.10.20-09.57.12:230][594]LogBlueprint: Error: [Compiler BPW_MenuHost] In use pin  Use LAN  no longer exists on node  Async Task: Missing Function . Please refresh node or break links to remove pin.
+[2020.10.20-09.57.12:230][594]LogBlueprint: Warning: [Compiler BPW_MenuHost] Input pin  Is Dedicated Server  specifying non-default value no longer exists on node  Async Task: Missing Function . Please refresh node or reset pin to default value to remove pin.
+[2020.10.20-09.57.12:230][594]LogBlueprint: Error: ProxyFactoryClass null in K2Node_AsyncAction /Game/Blueprints/Widgets/BPW_MenuHost.BPW_MenuHost:EventGraph.K2Node_AsyncAction_0. Was a class deleted or saved on a non promoted build?
+[2020.10.20-09.57.12:230][594]LogBlueprint: Error: [Compiler BPW_MenuHost] Could not find a function named "CreateAdvancedSession" in 'BPW_MenuHost'.
+Make sure 'BPW_MenuHost' has been compiled for  Async Task: Missing Function
+[2020.10.20-09.57.12:230][594]LogBlueprint: Error: ProxyFactoryClass null in K2Node_AsyncAction /Game/Blueprints/Widgets/BPW_MenuHost.BPW_MenuHost:EventGraph.K2Node_AsyncAction_0. Was a class deleted or saved on a non promoted build?
+[2020.10.20-09.57.12:230][594]LogBlueprint: Warning: [Compiler BPW_MenuHost] Node  Async Task: Missing Function . The node won't be pruned as isolated one. The node is not pure, but it has no exec pin(s). Verify IsNodePure implementation in K2Node Call Function.
+[2020.10.20-09.57.12:230][594]LogBlueprint: Error: ProxyFactoryClass null in K2Node_AsyncAction /Game/Blueprints/Widgets/BPW_MenuHost.BPW_MenuHost:EventGraph.K2Node_AsyncAction_0. Was a class deleted or saved on a non promoted build?
+[2020.10.20-09.57.12:230][594]LogBlueprint: Error: [Compiler BPW_MenuHost] Unexpected node type K2Node_AsyncAction encountered at  Async Task: Missing Function
+[2020.10.20-09.57.12:231][594]LogBlueprint: Error: ProxyFactoryClass null in K2Node_AsyncAction /Game/Blueprints/Widgets/BPW_MenuHost.BPW_MenuHost:EventGraph.K2Node_AsyncAction_0. Was a class deleted or saved on a non promoted build?
+[2020.10.20-09.57.12:231][594]LogBlueprint: Error: [Compiler BPW_MenuHost] Unexpected node type K2Node_AsyncAction encountered at  Async Task: Missing Function
+[2020.10.20-09.57.12:233][594]LogLinker: Warning: While loading 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Blueprints/Widgets/BPW_MenuJoin.uasset' failed to load '/Script/AdvancedSessions': Can't find file.
+[2020.10.20-09.57.12:233][594]LogLinker: Warning: While loading 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Blueprints/Widgets/BPW_MenuJoin.uasset' failed to load '/Script/AdvancedSessions': Can't find file.
+[2020.10.20-09.57.12:233][594]LogLinker: Warning: While loading 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Blueprints/Widgets/BPW_MenuJoin.uasset' failed to load '/Script/AdvancedSessions': Can't find file.
+[2020.10.20-09.57.12:233][594]LogLinker: Warning: While loading 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Blueprints/Widgets/BPW_MenuJoin.uasset' failed to load '/Script/AdvancedSessions': Can't find file.
+[2020.10.20-09.57.12:233][594]LogLinker: Warning: While loading 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Blueprints/Widgets/BPW_MenuJoin.uasset' failed to load '/Script/AdvancedSessions': Can't find file.
+[2020.10.20-09.57.12:233][594]LogLinker: Warning: While loading 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Blueprints/Widgets/BPW_MenuJoin.uasset' failed to load '/Script/AdvancedSessions': Can't find file.
+[2020.10.20-09.57.12:238][594]LogLinker: Warning: While loading 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Blueprints/Widgets/BPW_MenuJoin.uasset' failed to load '/Script/AdvancedSessions': Can't find file.
+[2020.10.20-09.57.12:238][594]LogLinker: Warning: While loading 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Blueprints/Widgets/BPW_MenuJoin.uasset' failed to load '/Script/AdvancedSessions': Can't find file.
+[2020.10.20-09.57.12:238][594]LogLinker: Warning: While loading 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Blueprints/Widgets/BPW_MenuJoin.uasset' failed to load '/Script/AdvancedSessions': Can't find file.
+[2020.10.20-09.57.12:239][594]LogLinker: Warning: While loading 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Blueprints/Widgets/BPW_MenuJoin.uasset' failed to load '/Script/AdvancedSessions': Can't find file.
+[2020.10.20-09.57.12:239][594]LogLinker: Warning: While loading 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Blueprints/Widgets/BPW_MainMenu.uasset' failed to load '/Script/AdvancedSessions': Can't find file.
+[2020.10.20-09.57.12:239][594]LoadErrors: Failed to load /Script/AdvancedSessions.SessionsSearchSetting Referenced by ExecuteUbergraph_BPW_MenuJoin
+[2020.10.20-09.57.12:239][594]LogLinker: Warning: While loading 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Blueprints/Widgets/BPW_MainMenu.uasset' failed to load '/Script/AdvancedSessions': Can't find file.
+[2020.10.20-09.57.12:239][594]LogProperty: Error: FStructProperty::Serialize Loading: Property 'StructProperty Temp_struct_Variable_1./Game/Blueprints/Widgets/BPW_MenuJoin.BPW_MenuJoin_C:ExecuteUbergraph_BPW_MenuJoin:Temp_struct_Variable_1'. Unknown structure.
+[2020.10.20-09.57.12:239][594]LogLinker: Warning: While loading 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Blueprints/Widgets/BPW_MainMenu.uasset' failed to load '/Script/AdvancedSessions': Can't find file.
+[2020.10.20-09.57.12:239][594]LogLinker: Warning: While loading 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Blueprints/Widgets/BPW_MainMenu.uasset' failed to load '/Script/AdvancedSessions': Can't find file.
+[2020.10.20-09.57.12:239][594]LogLinker: Warning: While loading 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Blueprints/Widgets/BPW_MainMenu.uasset' failed to load '/Script/AdvancedSessions': Can't find file.
+[2020.10.20-09.57.12:239][594]LogLinker: Warning: While loading 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Blueprints/Widgets/BPW_MainMenu.uasset' failed to load '/Script/AdvancedSessions': Can't find file.
+[2020.10.20-09.57.12:239][594]LogLinker: Warning: While loading 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Blueprints/Widgets/BPW_MainMenu.uasset' failed to load '/Script/AdvancedSessions': Can't find file.
+[2020.10.20-09.57.12:239][594]LogLinker: Warning: While loading 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Blueprints/Widgets/BPW_MainMenu.uasset' failed to load '/Script/AdvancedSessions': Can't find file.
+[2020.10.20-09.57.12:239][594]LogLinker: Warning: While loading 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Blueprints/Widgets/BPW_MainMenu.uasset' failed to load '/Script/AdvancedSessions': Can't find file.
+[2020.10.20-09.57.12:240][594]LogLinker: Warning: While loading 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Blueprints/Widgets/BPW_MainMenu.uasset' failed to load '/Script/AdvancedSessions': Can't find file.
+[2020.10.20-09.57.12:240][594]LogLinker: Warning: While loading 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Blueprints/Widgets/BPW_MainMenu.uasset' failed to load '/Script/AdvancedSessions': Can't find file.
+[2020.10.20-09.57.12:240][594]LogLinker: Warning: While loading 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Blueprints/Widgets/BPW_MainMenu.uasset' failed to load '/Script/AdvancedSessions': Can't find file.
+[2020.10.20-09.57.12:240][594]LogLinker: Warning: While loading 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Blueprints/Widgets/BPW_MainMenu.uasset' failed to load '/Script/AdvancedSessions': Can't find file.
+[2020.10.20-09.57.12:240][594]LogLinker: Warning: While loading 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Blueprints/Widgets/BPW_MainMenu.uasset' failed to load '/Script/AdvancedSessions': Can't find file.
+[2020.10.20-09.57.12:241][594]LogLinker: Warning: While loading 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Blueprints/Widgets/BPW_MainMenu.uasset' failed to load '/Script/AdvancedSessions': Can't find file.
+[2020.10.20-09.57.12:241][594]LoadErrors: Failed to load /Script/AdvancedSessions.FindSessionsCallbackProxyAdvanced Referenced by K2Node_AsyncAction_0
+[2020.10.20-09.57.12:241][594]LogLinker: Warning: While loading 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Blueprints/Widgets/BPW_MainMenu.uasset' failed to load '/Script/AdvancedSessions': Can't find file.
+[2020.10.20-09.57.12:241][594]LogLinker: Warning: While loading 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Blueprints/Widgets/BPW_MainMenu.uasset' failed to load '/Script/AdvancedSessions': Can't find file.
+[2020.10.20-09.57.12:241][594]LogLinker: Warning: While loading 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Blueprints/Widgets/BPW_MainMenu.uasset' failed to load '/Script/AdvancedSessions': Can't find file.
+[2020.10.20-09.57.12:241][594]LogLinker: Warning: While loading 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Blueprints/Widgets/BPW_MainMenu.uasset' failed to load '/Script/AdvancedSessions': Can't find file.
+[2020.10.20-09.57.12:241][594]LoadErrors: Failed to load /Script/AdvancedSessions.EBPServerPresenceSearchType Referenced by K2Node_AsyncAction_0
+[2020.10.20-09.57.12:241][594]LogLinker: Warning: While loading 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Blueprints/Widgets/BPW_MainMenu.uasset' failed to load '/Script/AdvancedSessions': Can't find file.
+[2020.10.20-09.57.12:241][594]LogLinker: Warning: While loading 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Blueprints/Widgets/BPW_MainMenu.uasset' failed to load '/Script/AdvancedSessions': Can't find file.
+[2020.10.20-09.57.12:241][594]LoadErrors: Failed to load /Script/AdvancedSessions.SessionsSearchSetting Referenced by K2Node_AsyncAction_0
+[2020.10.20-09.57.12:241][594]LogLinker: Warning: While loading 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Blueprints/Widgets/BPW_MainMenu.uasset' failed to load '/Script/AdvancedSessions': Can't find file.
+[2020.10.20-09.57.12:242][594]LogBlueprint: Error: ProxyFactoryClass null in K2Node_AsyncAction /Game/Blueprints/Widgets/BPW_MenuJoin.BPW_MenuJoin:EventGraph.K2Node_AsyncAction_0. Was a class deleted or saved on a non promoted build?
+[2020.10.20-09.57.12:243][594]LogBlueprint: Error: ProxyFactoryClass null in K2Node_AsyncAction /Game/Blueprints/Widgets/BPW_MenuJoin.BPW_MenuJoin:EventGraph.K2Node_AsyncAction_0. Was a class deleted or saved on a non promoted build?
+[2020.10.20-09.57.12:243][594]LogBlueprint: Error: ProxyFactoryClass null in K2Node_AsyncAction /Game/Blueprints/Widgets/BPW_MenuJoin.BPW_MenuJoin:EventGraph.K2Node_AsyncAction_0. Was a class deleted or saved on a non promoted build?
+[2020.10.20-09.57.12:243][594]LogBlueprint: Error: ProxyFactoryClass null in K2Node_AsyncAction /Game/Blueprints/Widgets/BPW_MenuJoin.BPW_MenuJoin:EventGraph.K2Node_AsyncAction_0. Was a class deleted or saved on a non promoted build?
+[2020.10.20-09.57.12:243][594]LogBlueprint: Error: ProxyFactoryClass null in K2Node_AsyncAction /Game/Blueprints/Widgets/BPW_MenuJoin.BPW_MenuJoin:EventGraph.K2Node_AsyncAction_0. Was a class deleted or saved on a non promoted build?
+[2020.10.20-09.57.12:245][594]LogBlueprint: Error: ProxyFactoryClass null in K2Node_AsyncAction /Game/Blueprints/Widgets/BPW_MenuJoin.BPW_MenuJoin:EventGraph.K2Node_AsyncAction_0. Was a class deleted or saved on a non promoted build?
+[2020.10.20-09.57.12:245][594]LogBlueprint: Error: [Compiler BPW_MenuJoin] BaseAsyncTask: Missing function FindSessionsAdvanced from class Unknown Class for async task  Async Task: Missing Function
+[2020.10.20-09.57.12:245][594]LogBlueprint: Error: [Compiler BPW_MenuJoin] In use pin  Results  no longer exists on node  Async Task: Missing Function . Please refresh node or break links to remove pin.
+[2020.10.20-09.57.12:245][594]LogBlueprint: Error: [Compiler BPW_MenuJoin] In use pin  Player Controller  no longer exists on node  Async Task: Missing Function . Please refresh node or break links to remove pin.
+[2020.10.20-09.57.12:245][594]LogBlueprint: Warning: [Compiler BPW_MenuJoin] Input pin  Max Results  specifying non-default value no longer exists on node  Async Task: Missing Function . Please refresh node or reset pin to default value to remove pin.
+[2020.10.20-09.57.12:245][594]LogBlueprint: Error: [Compiler BPW_MenuJoin] In use pin  Use LAN  no longer exists on node  Async Task: Missing Function . Please refresh node or break links to remove pin.
+[2020.10.20-09.57.12:245][594]LogBlueprint: Error: ProxyFactoryClass null in K2Node_AsyncAction /Game/Blueprints/Widgets/BPW_MenuJoin.BPW_MenuJoin:EventGraph.K2Node_AsyncAction_0. Was a class deleted or saved on a non promoted build?
+[2020.10.20-09.57.12:245][594]LogBlueprint: Error: [Compiler BPW_MenuJoin] Could not find a function named "FindSessionsAdvanced" in 'BPW_MenuJoin'.
+Make sure 'BPW_MenuJoin' has been compiled for  Async Task: Missing Function
+[2020.10.20-09.57.12:245][594]LogBlueprint: Error: ProxyFactoryClass null in K2Node_AsyncAction /Game/Blueprints/Widgets/BPW_MenuJoin.BPW_MenuJoin:EventGraph.K2Node_AsyncAction_0. Was a class deleted or saved on a non promoted build?
+[2020.10.20-09.57.12:245][594]LogBlueprint: Warning: [Compiler BPW_MenuJoin] Node  Async Task: Missing Function . The node won't be pruned as isolated one. The node is not pure, but it has no exec pin(s). Verify IsNodePure implementation in K2Node Call Function.
+[2020.10.20-09.57.12:245][594]LogBlueprint: Error: ProxyFactoryClass null in K2Node_AsyncAction /Game/Blueprints/Widgets/BPW_MenuJoin.BPW_MenuJoin:EventGraph.K2Node_AsyncAction_0. Was a class deleted or saved on a non promoted build?
+[2020.10.20-09.57.12:246][594]LogBlueprint: Error: [Compiler BPW_MenuJoin] Unexpected node type K2Node_AsyncAction encountered at  Async Task: Missing Function
+[2020.10.20-09.57.12:246][594]LogBlueprint: Error: ProxyFactoryClass null in K2Node_AsyncAction /Game/Blueprints/Widgets/BPW_MenuJoin.BPW_MenuJoin:EventGraph.K2Node_AsyncAction_0. Was a class deleted or saved on a non promoted build?
+[2020.10.20-09.57.12:246][594]LogBlueprint: Error: [Compiler BPW_MenuJoin] Unexpected node type K2Node_AsyncAction encountered at  Async Task: Missing Function
+[2020.10.20-09.57.12:254][594]LogLinker: Warning: While loading 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Maps/Menu.umap' failed to load '/Game/Maps/Menu_BuiltData': Can't find file.
+[2020.10.20-09.57.12:255][594]LogLinker: Warning: While loading 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Maps/Menu.umap' failed to load '/Game/Maps/Menu_BuiltData': Can't find file.
+[2020.10.20-09.57.12:256][594]LogLinker: Warning: While loading 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Maps/Menu.umap' failed to load '/Game/Maps/Menu_BuiltData': Can't find file.
+[2020.10.20-09.57.12:256][594]LogLinker: Warning: While loading 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Maps/Menu.umap' failed to load '/Game/Maps/Menu_BuiltData': Can't find file.
+[2020.10.20-09.57.12:257][594]LogLinker: Warning: Failed to load '/Game/Maps/Menu_BuiltData': Can't find file.
+[2020.10.20-09.57.12:257][594]LogLinker: Warning: Failed to load '/Game/Maps/Menu_BuiltData': Can't find file.
+[2020.10.20-09.57.12:257][594]LogLinker: Warning: Failed to load '/Game/Maps/Menu_BuiltData': Can't find file.
+[2020.10.20-09.57.12:257][594]LogLinker: Warning: Failed to load '/Game/Maps/Menu_BuiltData': Can't find file.
+[2020.10.20-09.57.12:262][594]LogLinker: Warning: While loading 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Maps/Menu.umap' failed to load '/Game/Maps/Menu_BuiltData': Can't find file.
+[2020.10.20-09.57.12:262][594]LoadErrors: Failed to load /Game/Maps/Menu_BuiltData.Menu_BuiltData Referenced by PersistentLevel
+[2020.10.20-09.57.12:262][594]LogLinker: Warning: While loading 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Maps/Menu.umap' failed to load '/Game/Maps/Menu_BuiltData': Can't find file.
+[2020.10.20-09.57.12:287][594]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/Menu.Menu
+[2020.10.20-09.57.12:297][594]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2020.10.20-09.57.12:299][594]Cmd: MAP LOAD FILE="C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Maps/Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.10.20-09.57.12:299][594]LightingResults: New page: Lighting Build
+[2020.10.20-09.57.12:313][594]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0004 seconds. Added 6 classes and 0 folders.
+[2020.10.20-09.57.12:313][594]LoadErrors: New page: Loading map: Menu.umap
+[2020.10.20-09.57.12:313][594]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.10.20-09.57.12:313][594]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.20-09.57.12:313][594]MapCheck: New page: Map Check
+[2020.10.20-09.57.12:313][594]LightingResults: New page: Lighting Build
+[2020.10.20-09.57.12:320][594]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000222D319BC00), frame # 3594
+[2020.10.20-09.57.12:321][594]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000222D31D9F80), frame # 3594
+[2020.10.20-09.57.12:321][594]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2020.10.20-09.57.12:324][594]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.10.20-09.57.12:324][594]LogAIModule: Creating AISystem for world Menu
+[2020.10.20-09.57.12:324][594]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000222DCD86000), frame # 3594
+[2020.10.20-09.57.12:324][594]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000222BC2ED440), frame # 3594
+[2020.10.20-09.57.12:334][594]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2020.10.20-09.57.12:354][594]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.10.20-09.57.12:354][594]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.143ms to complete.
+[2020.10.20-09.57.12:354][594]LogFileHelpers: Loading map 'Menu' took 0.055
+[2020.10.20-09.57.32:244][590]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.10.20-09.59.03:519][ 51]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.10.20-09.59.52:298][253]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.10.20-10.00.28:242][872]AssetReimport: New page: Outstanding source content changes 2:00:28 PM
+[2020.10.20-10.00.28:246][872]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Le_Jóup...
+[2020.10.20-10.00.28:246][872]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/ThirdPersonBP/Sounds/Le_Jóup.Le_Jóup will be modified from 40 to 40.
+[2020.10.20-10.00.28:295][872]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 134454 while cooking SoundWave /Game/ThirdPersonBP/Sounds/Le_Jóup.Le_Jóup.
+[2020.10.20-10.00.28:316][872]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2020.10.20-10.00.35:601][872]LogSlate: Window 'Delete Assets' being destroyed
+[2020.10.20-10.00.38:619][224]AssetReimport: Attempting to delete Le_Jóup (its source file has been removed).
+[2020.10.20-10.01.02:823][782]AssetReimport: New page: Outstanding source content changes 2:01:02 PM
+[2020.10.20-10.01.02:912][783]LogAudioEditor: Performing atomic reimport of [C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/ThirdPersonBP/Sounds/Le_Jóup.wav]
+[2020.10.20-10.01.02:914][783]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/ThirdPersonBP/Sounds/Le_Jóup.wav)
+[2020.10.20-10.01.02:972][783]LogAudioEditor: -- imported successfully
+[2020.10.20-10.01.03:160][784]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Sounds/Le_Jóup" FILE="C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/ThirdPersonBP/Sounds/Le_Jóup.uasset" SILENT=true
+[2020.10.20-10.01.03:182][784]LogSavePackage: Moving 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Saved/Le_Jóup881F746E42372609B69D51B41418E221.tmp' to 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/ThirdPersonBP/Sounds/Le_Jóup.uasset'
+[2020.10.20-10.01.03:211][785]AssetCheck: New page: Asset Save: Le_Jóup
+[2020.10.20-10.01.03:211][785]LogContentValidation: Display: Validating SoundWave /Game/ThirdPersonBP/Sounds/Le_Jóup.Le_Jóup
+[2020.10.20-10.01.06:203][135]AssetReimport: Reimported asset Le_Jóup from C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/ThirdPersonBP/Sounds/Le_Jóup.wav.
+[2020.10.20-10.09.17:781][564]LogLinker: Warning: Failed to read package file summary, the file "C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Blueprints\Widgets\BPW_MenuHost_BASE_976.uasset" is too small (0 bytes, expected at least 32 bytes)
+[2020.10.20-10.09.24:999][942]LogStaticMesh: Building static mesh Level...
+[2020.10.20-10.09.25:130][942]LogStaticMesh: Built static mesh [0.13s] /Game/Art/3D/World/Meshes/Levelmap/Level.Level
+[2020.10.20-10.09.25:155][942]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/Real_WhiteBox.Real_WhiteBox
+[2020.10.20-10.09.25:165][942]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2020.10.20-10.09.25:166][942]Cmd: MAP LOAD FILE="C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Maps/Real_WhiteBox.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.10.20-10.09.25:166][942]LightingResults: New page: Lighting Build
+[2020.10.20-10.09.25:166][942]LoadErrors: New page: Loading map: Real_WhiteBox.umap
+[2020.10.20-10.09.25:168][942]LogWorld: UWorld::CleanupWorld for Menu, bSessionEnded=true, bCleanupResources=true
+[2020.10.20-10.09.25:168][942]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.20-10.09.25:168][942]MapCheck: New page: Map Check
+[2020.10.20-10.09.25:168][942]LightingResults: New page: Lighting Build
+[2020.10.20-10.09.25:176][942]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000222BC2ED440), frame # 23942
+[2020.10.20-10.09.25:176][942]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000222DCD86000), frame # 23942
+[2020.10.20-10.09.25:177][942]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2020.10.20-10.09.25:187][942]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.10.20-10.09.25:187][942]LogAIModule: Creating AISystem for world Real_WhiteBox
+[2020.10.20-10.09.25:187][942]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000222D319B400), frame # 23942
+[2020.10.20-10.09.25:187][942]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000222F162CF40), frame # 23942
+[2020.10.20-10.09.25:198][942]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2020.10.20-10.09.25:218][942]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.10.20-10.09.25:218][942]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.166ms to complete.
+[2020.10.20-10.09.25:218][942]LogFileHelpers: Loading map 'Real_WhiteBox' took 0.052
+[2020.10.20-10.09.28:647][333]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WallWithDoor6)
+[2020.10.20-10.13.23:318][657]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.10.20-10.14.11:061][799]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.10.20-10.19.25:363][732]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2020.10.20-10.19.25:483][732]LogSavePackage: Moving 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Saved/Real_WhiteBox_Auto1CBD742A542E96790AA76BCB19903AC04.tmp' to 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Saved/Autosaves/Game/Maps/Real_WhiteBox_Auto1.umap'
+[2020.10.20-10.19.25:486][732]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Real_WhiteBox' took 0.136
+[2020.10.20-10.19.25:486][732]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.136
+[2020.10.20-10.35.18:186][336]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.10.20-11.33.49:254][804]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.10.20-11.34.17:826][889]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.10.20-11.38.29:060][636]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.10.20-11.39.31:646][822]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.10.20-11.41.14:376][127]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.10.20-11.46.51:231][264]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.10.20-11.51.14:938][312]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.20-11.51.14:938][312]BlueprintLog: Warning: Blueprint failed to compile:  BPW_MenuHost
+[2020.10.20-11.51.14:938][312]BlueprintLog: Warning: Blueprint failed to compile:  BPW_MenuJoin
+[2020.10.20-11.51.14:938][312]LogCustomDialog: Dialog displayed:
+[2020.10.20-11.51.16:436][312]LogSlate: Window 'Blueprint Compilation Errors' being destroyed
+[2020.10.20-11.51.16:441][312]PIE: New page: PIE session: Real_WhiteBox (Oct 20, 2020, 3:51:16 PM)
+[2020.10.20-11.51.16:442][312]LogModuleManager: Warning: ModuleManager: Unable to load module 'OnlineSubsystemSteam'  - 0 instances of that module name found.
+[2020.10.20-11.51.16:442][312]LogOnline: Warning: OSS: TryLoadSubsystemAndSetDefault: LoadSubsystemModule([Steam]) failed
+[2020.10.20-11.51.16:442][312]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.10.20-11.51.16:444][312]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.10.20-11.51.16:444][312]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Real_WhiteBox
+[2020.10.20-11.51.16:464][312]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020157s)
+[2020.10.20-11.51.16:466][312]LogAIModule: Creating AISystem for world Real_WhiteBox
+[2020.10.20-11.51.16:466][312]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000222F1C96600), frame # 83312
+[2020.10.20-11.51.16:466][312]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000222F162EC00), frame # 83312
+[2020.10.20-11.51.16:466][312]LogPlayLevel: PIE: World Init took: (0.002016s)
+[2020.10.20-11.51.16:466][312]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Real_WhiteBox.Real_WhiteBox to /Game/Maps/UEDPIE_0_Real_WhiteBox.Real_WhiteBox (0.022497s)
+[2020.10.20-11.51.16:475][312]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2020.10.20-11.51.16:478][312]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.20-11.51.16:479][312]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.20-11.51.16:479][312]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.20-11.51.16:479][312]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.20-11.51.16:479][312]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.20-11.51.16:479][312]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.20-11.51.16:479][312]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.20-11.51.16:479][312]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.20-11.51.16:479][312]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.20-11.51.16:479][312]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.20-11.51.16:492][312]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.20-11.51.16:492][312]LogAudioMixer: Display: 1: FrontRight
+[2020.10.20-11.51.16:545][312]LogAudioMixer: Display: Using Audio Device Högtalare (Realtek High Definition Audio)
+[2020.10.20-11.51.16:545][312]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.20-11.51.16:545][312]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.20-11.51.16:545][312]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.20-11.51.16:546][312]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.20-11.51.16:556][312]LogInit: FAudioDevice initialized.
+[2020.10.20-11.51.16:731][312]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.10.20-11.51.16:738][312]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Real_WhiteBox.Real_WhiteBox up for play (max tick rate 0) at 2020.10.20-13.51.16
+[2020.10.20-11.51.16:739][312]LogWorld: Bringing up level for play took: 0.007036
+[2020.10.20-11.51.16:739][312]LogOnline: OSS: Creating online subsystem instance for: :Context_3
+[2020.10.20-11.51.16:742][312]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2020.10.20-11.51.16:744][312]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2020.10.20-11.51.16:744][312]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2020.10.20-11.51.16:744][312]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2020.10.20-11.51.16:744][312]LogNet: Created socket for bind address: 0.0.0.0 on port 17777
+[2020.10.20-11.51.16:744][312]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.10.20-11.51.16:744][312]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 17777
+[2020.10.20-11.51.16:745][312]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2020.10.20-11.51.16:745][312]LogBlueprintUserMessages: [ThirdPersonGameMode_C_0] Server: 0
+[2020.10.20-11.51.16:746][312]LogBlueprintUserMessages: [ThirdPersonCharacter_C_1] Server: Amount of hiders: 2
+[2020.10.20-11.51.16:746][312]LogBlueprintUserMessages: [ThirdPersonGameMode_C_0] Server: PlayerController_0
+[2020.10.20-11.51.16:746][312]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Server: Amount of hiders: 2
+[2020.10.20-11.51.16:746][312]PIE: Server logged in
+[2020.10.20-11.51.16:747][312]PIE: Play in editor total start time 1.818 seconds.
+[2020.10.20-11.51.40:395][132]LogOnlineSession: Warning: OSS: No game present to leave for session (GameSession)
+[2020.10.20-11.51.40:395][132]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.20-11.51.40:395][132]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Real_WhiteBox
+[2020.10.20-11.51.40:396][132]LogWorld: UWorld::CleanupWorld for Real_WhiteBox, bSessionEnded=true, bCleanupResources=true
+[2020.10.20-11.51.40:399][132]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.20-11.51.40:415][132]LogNet: World NetDriver shutdown IpNetDriver_0 [GameNetDriver]
+[2020.10.20-11.51.40:416][132]LogNet: DestroyNamedNetDriver IpNetDriver_0 [GameNetDriver]
+[2020.10.20-11.51.40:416][132]LogExit: GameNetDriver IpNetDriver_0 shut down
+[2020.10.20-11.51.40:418][132]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.20-11.51.40:422][132]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.20-11.51.40:477][132]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.20-11.51.40:481][132]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000222F1C96600), frame # 86132
+[2020.10.20-11.51.40:481][132]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000222F162EC00), frame # 86132
+[2020.10.20-11.51.40:483][132]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2020.10.20-11.51.40:535][133]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2020.10.20-11.51.51:176][302]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.10.20-11.52.47:376][469]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.10.20-11.54.13:420][620]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WallWithDoor7)
+[2020.10.20-11.54.14:930][796]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall25)
+[2020.10.20-11.54.16:012][921]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall23)
+[2020.10.20-11.54.47:251][645]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.20-11.54.47:269][645]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.20-11.54.47:269][645]PIE: New page: PIE session: Real_WhiteBox (Oct 20, 2020, 3:54:47 PM)
+[2020.10.20-11.54.47:304][645]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Real_WhiteBox
+[2020.10.20-11.54.47:323][645]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018958s)
+[2020.10.20-11.54.47:324][645]LogAIModule: Creating AISystem for world Real_WhiteBox
+[2020.10.20-11.54.47:324][645]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000222FF496800), frame # 95645
+[2020.10.20-11.54.47:324][645]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000222F162FD80), frame # 95645
+[2020.10.20-11.54.47:325][645]LogPlayLevel: PIE: World Init took: (0.001617s)
+[2020.10.20-11.54.47:325][645]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Real_WhiteBox.Real_WhiteBox to /Game/Maps/UEDPIE_0_Real_WhiteBox.Real_WhiteBox (0.020905s)
+[2020.10.20-11.54.47:334][645]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2020.10.20-11.54.47:337][645]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.20-11.54.47:337][645]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.20-11.54.47:337][645]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.20-11.54.47:337][645]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.20-11.54.47:337][645]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.20-11.54.47:337][645]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.20-11.54.47:337][645]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.20-11.54.47:337][645]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.20-11.54.47:338][645]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.20-11.54.47:338][645]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.20-11.54.47:350][645]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.20-11.54.47:350][645]LogAudioMixer: Display: 1: FrontRight
+[2020.10.20-11.54.47:399][645]LogAudioMixer: Display: Using Audio Device Högtalare (Realtek High Definition Audio)
+[2020.10.20-11.54.47:399][645]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.20-11.54.47:399][645]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.20-11.54.47:399][645]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.20-11.54.47:399][645]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.20-11.54.47:410][645]LogInit: FAudioDevice initialized.
+[2020.10.20-11.54.47:415][645]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.10.20-11.54.47:422][645]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Real_WhiteBox.Real_WhiteBox up for play (max tick rate 0) at 2020.10.20-13.54.47
+[2020.10.20-11.54.47:423][645]LogWorld: Bringing up level for play took: 0.007117
+[2020.10.20-11.54.47:423][645]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2020.10.20-11.54.47:426][645]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2020.10.20-11.54.47:426][645]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2020.10.20-11.54.47:426][645]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2020.10.20-11.54.47:426][645]LogNet: Created socket for bind address: 0.0.0.0 on port 17777
+[2020.10.20-11.54.47:426][645]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.10.20-11.54.47:426][645]LogNet: GameNetDriver IpNetDriver_1 IpNetDriver listening on port 17777
+[2020.10.20-11.54.47:427][645]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2020.10.20-11.54.47:427][645]LogBlueprintUserMessages: [ThirdPersonGameMode_C_0] Server: 0
+[2020.10.20-11.54.47:428][645]LogBlueprintUserMessages: [ThirdPersonCharacter_C_1] Server: Amount of hiders: 2
+[2020.10.20-11.54.47:428][645]LogBlueprintUserMessages: [ThirdPersonGameMode_C_0] Server: PlayerController_0
+[2020.10.20-11.54.47:428][645]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Server: Amount of hiders: 2
+[2020.10.20-11.54.47:428][645]PIE: Server logged in
+[2020.10.20-11.54.47:429][645]PIE: Play in editor total start time 0.168 seconds.
+[2020.10.20-11.54.50:681][ 22]LogOnlineSession: Warning: OSS: No game present to leave for session (GameSession)
+[2020.10.20-11.54.50:682][ 22]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.20-11.54.50:682][ 22]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Real_WhiteBox
+[2020.10.20-11.54.50:682][ 22]LogWorld: UWorld::CleanupWorld for Real_WhiteBox, bSessionEnded=true, bCleanupResources=true
+[2020.10.20-11.54.50:683][ 22]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.20-11.54.50:689][ 22]LogNet: World NetDriver shutdown IpNetDriver_1 [GameNetDriver]
+[2020.10.20-11.54.50:689][ 22]LogNet: DestroyNamedNetDriver IpNetDriver_1 [GameNetDriver]
+[2020.10.20-11.54.50:689][ 22]LogExit: GameNetDriver IpNetDriver_1 shut down
+[2020.10.20-11.54.50:689][ 22]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.20-11.54.50:691][ 22]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.20-11.54.50:699][ 22]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.20-11.54.50:715][ 22]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000222F162FD80), frame # 96022
+[2020.10.20-11.54.50:715][ 22]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000222FF496800), frame # 96022
+[2020.10.20-11.54.50:716][ 22]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2020.10.20-11.54.50:777][ 24]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2020.10.20-11.55.02:900][441]LogActorFactory: Actor Factory created Cube
+[2020.10.20-11.55.03:513][503]LogActorFactory: Actor Factory created Cube
+[2020.10.20-11.56.19:502][344]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.20-11.56.19:522][344]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.20-11.56.19:523][344]PIE: New page: PIE session: Real_WhiteBox (Oct 20, 2020, 3:56:19 PM)
+[2020.10.20-11.56.19:543][344]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Real_WhiteBox
+[2020.10.20-11.56.19:562][344]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018770s)
+[2020.10.20-11.56.19:563][344]LogAIModule: Creating AISystem for world Real_WhiteBox
+[2020.10.20-11.56.19:564][344]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000222FE354800), frame # 106344
+[2020.10.20-11.56.19:564][344]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002228A401800), frame # 106344
+[2020.10.20-11.56.19:564][344]LogPlayLevel: PIE: World Init took: (0.001466s)
+[2020.10.20-11.56.19:564][344]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Real_WhiteBox.Real_WhiteBox to /Game/Maps/UEDPIE_0_Real_WhiteBox.Real_WhiteBox (0.020549s)
+[2020.10.20-11.56.19:584][344]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2020.10.20-11.56.19:586][344]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.20-11.56.19:586][344]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.20-11.56.19:586][344]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.20-11.56.19:586][344]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.20-11.56.19:586][344]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.20-11.56.19:586][344]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.20-11.56.19:586][344]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.20-11.56.19:587][344]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.20-11.56.19:587][344]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.20-11.56.19:587][344]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.20-11.56.19:597][344]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.20-11.56.19:597][344]LogAudioMixer: Display: 1: FrontRight
+[2020.10.20-11.56.19:645][344]LogAudioMixer: Display: Using Audio Device Högtalare (Realtek High Definition Audio)
+[2020.10.20-11.56.19:646][344]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.20-11.56.19:646][344]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.20-11.56.19:646][344]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.20-11.56.19:646][344]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.20-11.56.19:657][344]LogInit: FAudioDevice initialized.
+[2020.10.20-11.56.19:668][344]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.10.20-11.56.19:676][344]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Real_WhiteBox.Real_WhiteBox up for play (max tick rate 0) at 2020.10.20-13.56.19
+[2020.10.20-11.56.19:676][344]LogWorld: Bringing up level for play took: 0.007604
+[2020.10.20-11.56.19:676][344]LogOnline: OSS: Creating online subsystem instance for: :Context_6
+[2020.10.20-11.56.19:679][344]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2020.10.20-11.56.19:679][344]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2020.10.20-11.56.19:679][344]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2020.10.20-11.56.19:679][344]LogNet: Created socket for bind address: 0.0.0.0 on port 17777
+[2020.10.20-11.56.19:679][344]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.10.20-11.56.19:679][344]LogNet: GameNetDriver IpNetDriver_2 IpNetDriver listening on port 17777
+[2020.10.20-11.56.19:680][344]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2020.10.20-11.56.19:680][344]LogBlueprintUserMessages: [ThirdPersonGameMode_C_0] Server: 0
+[2020.10.20-11.56.19:680][344]LogBlueprintUserMessages: [ThirdPersonCharacter_C_1] Server: Amount of hiders: 2
+[2020.10.20-11.56.19:680][344]LogBlueprintUserMessages: [ThirdPersonGameMode_C_0] Server: PlayerController_0
+[2020.10.20-11.56.19:681][344]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Server: Amount of hiders: 2
+[2020.10.20-11.56.19:681][344]PIE: Server logged in
+[2020.10.20-11.56.19:682][344]PIE: Play in editor total start time 0.168 seconds.
+[2020.10.20-11.56.22:442][662]LogOnlineSession: Warning: OSS: No game present to leave for session (GameSession)
+[2020.10.20-11.56.22:442][662]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.20-11.56.22:442][662]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Real_WhiteBox
+[2020.10.20-11.56.22:442][662]LogWorld: UWorld::CleanupWorld for Real_WhiteBox, bSessionEnded=true, bCleanupResources=true
+[2020.10.20-11.56.22:443][662]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.20-11.56.22:452][662]LogNet: World NetDriver shutdown IpNetDriver_2 [GameNetDriver]
+[2020.10.20-11.56.22:452][662]LogNet: DestroyNamedNetDriver IpNetDriver_2 [GameNetDriver]
+[2020.10.20-11.56.22:453][662]LogExit: GameNetDriver IpNetDriver_2 shut down
+[2020.10.20-11.56.22:453][662]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.20-11.56.22:455][662]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.20-11.56.22:478][662]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.20-11.56.22:479][662]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002228A401800), frame # 106662
+[2020.10.20-11.56.22:479][662]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000222FE354800), frame # 106662
+[2020.10.20-11.56.22:480][662]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2020.10.20-11.56.22:512][663]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2020.10.20-11.56.24:258][854]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shelf)
+[2020.10.20-11.56.28:072][287]Cmd: EDIT COPY
+[2020.10.20-11.56.28:293][311]Cmd: EDIT PASTE
+[2020.10.20-11.56.31:910][736]Cmd: EDIT COPY
+[2020.10.20-11.56.32:102][758]Cmd: EDIT PASTE
+[2020.10.20-11.56.37:410][375]Cmd: EDIT COPY
+[2020.10.20-11.56.37:652][404]Cmd: EDIT PASTE
+[2020.10.20-11.56.45:100][266]Cmd: EDIT COPY
+[2020.10.20-11.56.45:292][285]Cmd: EDIT PASTE
+[2020.10.20-11.56.48:841][690]Cmd: EDIT COPY
+[2020.10.20-11.56.49:079][718]Cmd: EDIT PASTE
+[2020.10.20-11.56.53:925][288]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shelf)
+[2020.10.20-11.56.55:075][417]Cmd: EDIT COPY
+[2020.10.20-11.56.55:266][440]Cmd: EDIT PASTE
+[2020.10.20-11.57.02:094][244]Cmd: EDIT COPY
+[2020.10.20-11.57.02:323][271]Cmd: EDIT PASTE
+[2020.10.20-11.57.09:498][106]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shelf6)
+[2020.10.20-11.57.10:181][184]Cmd: EDIT COPY
+[2020.10.20-11.57.10:372][206]Cmd: EDIT PASTE
+[2020.10.20-11.57.17:929][103]Cmd: EDIT COPY
+[2020.10.20-11.57.18:177][132]Cmd: EDIT PASTE
+[2020.10.20-11.57.28:516][346]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shelf4)
+[2020.10.20-11.57.29:529][454]Cmd: EDIT COPY
+[2020.10.20-11.57.29:746][480]Cmd: EDIT PASTE
+[2020.10.20-11.57.35:976][219]Cmd: DELETE
+[2020.10.20-11.57.35:976][219]Cmd: ACTOR DELETE
+[2020.10.20-11.57.35:980][219]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.20-11.57.35:988][219]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2020.10.20-11.57.35:990][219]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2020.10.20-11.57.36:362][263]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shelf3)
+[2020.10.20-11.57.37:377][381]Cmd: EDIT COPY
+[2020.10.20-11.57.37:575][404]Cmd: EDIT PASTE
+[2020.10.20-11.57.46:390][424]Cmd: EDIT COPY
+[2020.10.20-11.57.46:612][450]Cmd: EDIT PASTE
+[2020.10.20-11.57.52:674][142]Cmd: EDIT COPY
+[2020.10.20-11.57.52:904][169]Cmd: EDIT PASTE
+[2020.10.20-11.57.57:382][700]Cmd: EDIT COPY
+[2020.10.20-11.57.57:649][732]Cmd: EDIT PASTE
+[2020.10.20-11.58.07:914][918]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shelf10)
+[2020.10.20-11.58.08:578][984]Cmd: EDIT COPY
+[2020.10.20-11.58.08:777][  7]Cmd: EDIT PASTE
+[2020.10.20-11.58.29:799][417]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.20-11.58.29:819][417]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.20-11.58.29:820][417]PIE: New page: PIE session: Real_WhiteBox (Oct 20, 2020, 3:58:29 PM)
+[2020.10.20-11.58.29:820][417]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Real_WhiteBox
+[2020.10.20-11.58.29:839][417]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019685s)
+[2020.10.20-11.58.29:840][417]LogAIModule: Creating AISystem for world Real_WhiteBox
+[2020.10.20-11.58.29:841][417]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002228B207A00), frame # 121417
+[2020.10.20-11.58.29:841][417]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002228245FD80), frame # 121417
+[2020.10.20-11.58.29:841][417]LogPlayLevel: PIE: World Init took: (0.001349s)
+[2020.10.20-11.58.29:841][417]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Real_WhiteBox.Real_WhiteBox to /Game/Maps/UEDPIE_0_Real_WhiteBox.Real_WhiteBox (0.021255s)
+[2020.10.20-11.58.29:850][417]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2020.10.20-11.58.29:854][417]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.20-11.58.29:854][417]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.20-11.58.29:854][417]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.20-11.58.29:854][417]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.20-11.58.29:854][417]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.20-11.58.29:854][417]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.20-11.58.29:854][417]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.20-11.58.29:854][417]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.20-11.58.29:855][417]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.20-11.58.29:855][417]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.20-11.58.29:865][417]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.20-11.58.29:865][417]LogAudioMixer: Display: 1: FrontRight
+[2020.10.20-11.58.29:914][417]LogAudioMixer: Display: Using Audio Device Högtalare (Realtek High Definition Audio)
+[2020.10.20-11.58.29:914][417]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.20-11.58.29:914][417]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.20-11.58.29:915][417]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.20-11.58.29:915][417]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.20-11.58.29:916][417]LogInit: FAudioDevice initialized.
+[2020.10.20-11.58.29:931][417]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.10.20-11.58.29:939][417]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Real_WhiteBox.Real_WhiteBox up for play (max tick rate 0) at 2020.10.20-13.58.29
+[2020.10.20-11.58.29:939][417]LogWorld: Bringing up level for play took: 0.007476
+[2020.10.20-11.58.29:939][417]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2020.10.20-11.58.29:942][417]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2020.10.20-11.58.29:942][417]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2020.10.20-11.58.29:942][417]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2020.10.20-11.58.29:942][417]LogNet: Created socket for bind address: 0.0.0.0 on port 17777
+[2020.10.20-11.58.29:942][417]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.10.20-11.58.29:942][417]LogNet: GameNetDriver IpNetDriver_3 IpNetDriver listening on port 17777
+[2020.10.20-11.58.29:943][417]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2020.10.20-11.58.29:943][417]LogBlueprintUserMessages: [ThirdPersonGameMode_C_0] Server: 0
+[2020.10.20-11.58.29:943][417]LogBlueprintUserMessages: [ThirdPersonCharacter_C_1] Server: Amount of hiders: 2
+[2020.10.20-11.58.29:943][417]LogBlueprintUserMessages: [ThirdPersonGameMode_C_0] Server: PlayerController_0
+[2020.10.20-11.58.29:944][417]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Server: Amount of hiders: 2
+[2020.10.20-11.58.29:944][417]PIE: Server logged in
+[2020.10.20-11.58.29:945][417]PIE: Play in editor total start time 0.135 seconds.
+[2020.10.20-11.58.39:992][605]LogOnlineSession: Warning: OSS: No game present to leave for session (GameSession)
+[2020.10.20-11.58.39:992][605]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.20-11.58.39:992][605]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Real_WhiteBox
+[2020.10.20-11.58.39:992][605]LogWorld: UWorld::CleanupWorld for Real_WhiteBox, bSessionEnded=true, bCleanupResources=true
+[2020.10.20-11.58.39:994][605]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.20-11.58.40:002][605]LogNet: World NetDriver shutdown IpNetDriver_3 [GameNetDriver]
+[2020.10.20-11.58.40:002][605]LogNet: DestroyNamedNetDriver IpNetDriver_3 [GameNetDriver]
+[2020.10.20-11.58.40:002][605]LogExit: GameNetDriver IpNetDriver_3 shut down
+[2020.10.20-11.58.40:002][605]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.20-11.58.40:004][605]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.20-11.58.40:027][605]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.20-11.58.40:028][605]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002228245FD80), frame # 122605
+[2020.10.20-11.58.40:028][605]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002228B207A00), frame # 122605
+[2020.10.20-11.58.40:029][605]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2020.10.20-11.58.40:062][606]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2020.10.20-12.02.22:411][603]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2020.10.20-12.02.22:532][603]LogSavePackage: Moving 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Saved/Real_WhiteBox_Auto2E1593DE04117B0BEEEA24D8D86644362.tmp' to 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Saved/Autosaves/Game/Maps/Real_WhiteBox_Auto2.umap'
+[2020.10.20-12.02.22:535][603]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Real_WhiteBox' took 0.141
+[2020.10.20-12.02.22:535][603]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.141
+[2020.10.20-12.05.19:895][133]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.10.20-12.06.53:810][412]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.10.20-12.06.53:810][412]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.10.20-12.07.46:691][569]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.10.20-12.09.04:430][800]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.10.20-12.12.26:677][401]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.10.20-12.13.37:014][610]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.10.20-12.14.00:921][681]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.10.20-12.14.32:533][775]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.10.20-12.15.45:965][993]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.10.20-12.16.33:122][133]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.10.20-12.17.24:689][286]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.10.20-12.19.32:048][665]LogAudioMixer: Display: Audio Buffer Underrun detected.
