@@ -640,3 +640,5 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.10.20-09.43.36:973][  0]LogContentStreaming: Texture pool size now 1000 MB
 [2020.10.20-09.43.37:002][  0]LogSlate: Took 0.009078 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
 [2020.10.20-09.43.37:004][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/' took 0.07s
+[2020.10.20-09.46.04:960][632]LogSlate: Window 'Source Control Login' being destroyed
+[2020.10.20-09.48.43:686][192]LogLinker: Warning: Failed to read package file summary, the file "C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Blueprints\Widgets\BPW_MenuHost_BASE_976.uasset" is too small (0 bytes, expected at least 32 bytes)
