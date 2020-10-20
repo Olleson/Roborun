@@ -1093,3 +1093,29 @@ Make sure 'BPW_MenuJoin' has been compiled for  Async Task: Missing Function
 [2020.10.20-08.57.40:993][325]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
 [2020.10.20-08.58.53:920][638]LogTemp: Repeating last play command: Standalone Game
 [2020.10.20-08.58.53:938][638]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2020.10.20-09.30.02:929][718]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/Real_WhiteBox.Real_WhiteBox
+[2020.10.20-09.30.02:940][718]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2020.10.20-09.30.02:944][718]Cmd: MAP LOAD FILE="C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Maps/Real_WhiteBox.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.10.20-09.30.02:944][718]LightingResults: New page: Lighting Build
+[2020.10.20-09.30.02:944][718]LoadErrors: New page: Loading map: Real_WhiteBox.umap
+[2020.10.20-09.30.02:957][718]LogWorld: UWorld::CleanupWorld for Menu, bSessionEnded=true, bCleanupResources=true
+[2020.10.20-09.30.02:958][718]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.20-09.30.02:958][718]MapCheck: New page: Map Check
+[2020.10.20-09.30.02:958][718]LightingResults: New page: Lighting Build
+[2020.10.20-09.30.02:967][718]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002EC8F143240), frame # 146718
+[2020.10.20-09.30.02:967][718]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002ECEDF2F600), frame # 146718
+[2020.10.20-09.30.02:968][718]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2020.10.20-09.30.02:990][718]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.10.20-09.30.02:990][718]LogAIModule: Creating AISystem for world Real_WhiteBox
+[2020.10.20-09.30.02:990][718]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002EC84118800), frame # 146718
+[2020.10.20-09.30.02:990][718]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002ECA5891800), frame # 146718
+[2020.10.20-09.30.03:002][718]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2020.10.20-09.30.03:022][718]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.10.20-09.30.03:022][718]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.175ms to complete.
+[2020.10.20-09.30.03:022][718]LogFileHelpers: Loading map 'Real_WhiteBox' took 0.078
+[2020.10.20-09.30.04:517][871]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GiantCubeRamp)
+[2020.10.20-09.30.07:051][136]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Real_WhiteBox" FILE="C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Maps/Real_WhiteBox.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.10.20-09.30.07:060][136]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2020.10.20-09.30.07:218][136]LogSavePackage: Moving 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Saved/Real_WhiteBox50C13E14455C27269ECA5DA68CC99977.tmp' to 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Maps/Real_WhiteBox.umap'
+[2020.10.20-09.30.07:249][136]AssetCheck: New page: Asset Save: Real_WhiteBox
+[2020.10.20-09.30.07:250][136]LogContentValidation: Display: Validating World /Game/Maps/Real_WhiteBox.Real_WhiteBox
