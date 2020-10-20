@@ -641,3 +641,8 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.10.20-09.51.12:379][  0]LogContentStreaming: Texture pool size now 1000 MB
 [2020.10.20-09.51.12:393][  0]LogSlate: Took 0.000277 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
 [2020.10.20-09.51.12:398][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/' took 0.05s
+[2020.10.20-09.52.36:172][813]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.10.20-09.52.55:964][872]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.10.20-09.54.00:067][ 63]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.10.20-09.54.25:604][139]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.10.20-09.54.47:994][206]LogAudioMixer: Display: Audio Buffer Underrun detected.
