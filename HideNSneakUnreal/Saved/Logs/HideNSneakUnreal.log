@@ -661,3 +661,8 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.10.20-10.02.31:518][759]LogSavePackage: Moving 'C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Saved/M_test5E6569CE4979142ADDC804898F684262.tmp' to 'C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Content/Art/Materials/M_test.uasset'
 [2020.10.20-10.02.31:541][759]AssetCheck: New page: Asset Save: M_test
 [2020.10.20-10.02.31:542][759]LogContentValidation: Display: Validating Material /Game/Art/Materials/M_test.M_test
+[2020.10.20-10.06.00:176][356]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2020.10.20-10.06.00:212][356]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/VFX/Shaders/M_ShaderTest" FILE="C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Content/Art/VFX/Shaders/M_ShaderTest.uasset" SILENT=true
+[2020.10.20-10.06.00:232][356]LogSavePackage: Moving 'C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Saved/M_ShaderTestD407EF254BEFEB0CB76E3EABE9AD4E38.tmp' to 'C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Content/Art/VFX/Shaders/M_ShaderTest.uasset'
+[2020.10.20-10.06.00:250][356]AssetCheck: New page: Asset Save: M_ShaderTest
+[2020.10.20-10.06.00:250][356]LogContentValidation: Display: Validating Material /Game/Art/VFX/Shaders/M_ShaderTest.M_ShaderTest
