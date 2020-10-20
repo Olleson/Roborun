@@ -52,6 +52,7 @@ void ACPP_Character::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 void ACPP_Character::MoveForward(float axis)
 {
 	const FRotator control_rotation = Controller->GetControlRotation();
+	const FRotator control_rotation = Controller->GetControlRotation();
 }
 
 void ACPP_Character::MoveRight(float axis)
