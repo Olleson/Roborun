@@ -1381,3 +1381,239 @@ Make sure 'BPW_MenuJoin' has been compiled for  Async Task: Missing Function
 [2020.10.20-13.47.58:091][900]LogSavePackage: Moving '../../../../../../Documents/Stockholms Universitet Spelutveckling/Spel3/PROJ_Spel/PROJ_Grupp2/HideNSneakUnreal/Saved/Online6952BB574A7BEF19A08C6297226B6540.tmp' to '../../../../../../Documents/Stockholms Universitet Spelutveckling/Spel3/PROJ_Spel/PROJ_Grupp2/HideNSneakUnreal/Content/Maps/Online.umap'
 [2020.10.20-13.47.58:135][900]AssetCheck: New page: Asset Save: Online
 [2020.10.20-13.47.58:135][900]LogContentValidation: Display: Validating World /Game/Maps/Online.Online
+[2020.10.20-13.57.58:306][630]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2020.10.20-13.57.58:309][630]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Online' took 0.015
+[2020.10.20-13.57.58:310][630]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/3D/World/Meshes/w_pillarStraightModular_mesh_v01] ([1] browsable assets)...
+[2020.10.20-13.57.58:348][630]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Art/3D/World/Meshes/w_pillarStraightModular_mesh_v01.w_pillarStraightModular_mesh_v01]
+[2020.10.20-13.57.58:348][630]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/3D/World/Meshes/w_pillarStraightModular_mesh_v01]
+[2020.10.20-13.57.58:371][630]LogSavePackage: Moving '../../../../../../Documents/Stockholms Universitet Spelutveckling/Spel3/PROJ_Spel/PROJ_Grupp2/HideNSneakUnreal/Saved/w_pillarStraightModular_mesh_v015AD49C30448A3ABD57E0858BE77A45F3.tmp' to '../../../../../../Documents/Stockholms Universitet Spelutveckling/Spel3/PROJ_Spel/PROJ_Grupp2/HideNSneakUnreal/Saved/Autosaves/Game/Art/3D/World/Meshes/w_pillarStraightModular_mesh_v01_Auto3.uasset'
+[2020.10.20-13.57.58:372][630]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/3D/World/Meshes/w_conveyorBeltEndModular_mesh_v01] ([1] browsable assets)...
+[2020.10.20-13.57.58:383][630]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Art/3D/World/Meshes/w_conveyorBeltEndModular_mesh_v01.w_conveyorBeltEndModular_mesh_v01]
+[2020.10.20-13.57.58:383][630]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/3D/World/Meshes/w_conveyorBeltEndModular_mesh_v01]
+[2020.10.20-13.57.58:405][630]LogSavePackage: Moving '../../../../../../Documents/Stockholms Universitet Spelutveckling/Spel3/PROJ_Spel/PROJ_Grupp2/HideNSneakUnreal/Saved/w_conveyorBeltEndModular_mesh_v00677BF3540A808D9C537088155E1D145.tmp' to '../../../../../../Documents/Stockholms Universitet Spelutveckling/Spel3/PROJ_Spel/PROJ_Grupp2/HideNSneakUnreal/Saved/Autosaves/Game/Art/3D/World/Meshes/w_conveyorBeltEndModular_mesh_v01_Auto3.uasset'
+[2020.10.20-13.57.58:406][630]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/3D/World/Meshes/w_pillarBendDiagonalModular_mesh_v01] ([1] browsable assets)...
+[2020.10.20-13.57.58:417][630]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Art/3D/World/Meshes/w_pillarBendDiagonalModular_mesh_v01.w_pillarBendDiagonalModular_mesh_v01]
+[2020.10.20-13.57.58:417][630]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/3D/World/Meshes/w_pillarBendDiagonalModular_mesh_v01]
+[2020.10.20-13.57.58:438][630]LogSavePackage: Moving '../../../../../../Documents/Stockholms Universitet Spelutveckling/Spel3/PROJ_Spel/PROJ_Grupp2/HideNSneakUnreal/Saved/w_pillarBendDiagonalModular_mesh532F578F4D8F6D37B3B5CEABED264B8D.tmp' to '../../../../../../Documents/Stockholms Universitet Spelutveckling/Spel3/PROJ_Spel/PROJ_Grupp2/HideNSneakUnreal/Saved/Autosaves/Game/Art/3D/World/Meshes/w_pillarBendDiagonalModular_mesh_v01_Auto3.uasset'
+[2020.10.20-13.57.58:439][630]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/3D/World/Meshes/w_pillarBendStraightModular_mesh_v01] ([1] browsable assets)...
+[2020.10.20-13.57.58:449][630]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Art/3D/World/Meshes/w_pillarBendStraightModular_mesh_v01.w_pillarBendStraightModular_mesh_v01]
+[2020.10.20-13.57.58:449][630]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/3D/World/Meshes/w_pillarBendStraightModular_mesh_v01]
+[2020.10.20-13.57.58:471][630]LogSavePackage: Moving '../../../../../../Documents/Stockholms Universitet Spelutveckling/Spel3/PROJ_Spel/PROJ_Grupp2/HideNSneakUnreal/Saved/w_pillarBendStraightModular_meshF66F655E4219789203F692A4BE95A3F7.tmp' to '../../../../../../Documents/Stockholms Universitet Spelutveckling/Spel3/PROJ_Spel/PROJ_Grupp2/HideNSneakUnreal/Saved/Autosaves/Game/Art/3D/World/Meshes/w_pillarBendStraightModular_mesh_v01_Auto3.uasset'
+[2020.10.20-13.57.58:471][630]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/3D/World/Meshes/w_pillarHeadModular_mesh_v01] ([1] browsable assets)...
+[2020.10.20-13.57.58:482][630]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Art/3D/World/Meshes/w_pillarHeadModular_mesh_v01.w_pillarHeadModular_mesh_v01]
+[2020.10.20-13.57.58:482][630]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/3D/World/Meshes/w_pillarHeadModular_mesh_v01]
+[2020.10.20-13.57.58:506][630]LogSavePackage: Moving '../../../../../../Documents/Stockholms Universitet Spelutveckling/Spel3/PROJ_Spel/PROJ_Grupp2/HideNSneakUnreal/Saved/w_pillarHeadModular_mesh_v01_Aut12FA709240CA1D19F03478BEC53AD031.tmp' to '../../../../../../Documents/Stockholms Universitet Spelutveckling/Spel3/PROJ_Spel/PROJ_Grupp2/HideNSneakUnreal/Saved/Autosaves/Game/Art/3D/World/Meshes/w_pillarHeadModular_mesh_v01_Auto3.uasset'
+[2020.10.20-13.57.58:506][630]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/3D/World/Meshes/w_wallDoorModular_mesh_v01] ([1] browsable assets)...
+[2020.10.20-13.57.58:517][630]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Art/3D/World/Meshes/w_wallDoorModular_mesh_v01.w_wallDoorModular_mesh_v01]
+[2020.10.20-13.57.58:517][630]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/3D/World/Meshes/w_wallDoorModular_mesh_v01]
+[2020.10.20-13.57.58:540][630]LogSavePackage: Moving '../../../../../../Documents/Stockholms Universitet Spelutveckling/Spel3/PROJ_Spel/PROJ_Grupp2/HideNSneakUnreal/Saved/w_wallDoorModular_mesh_v01_Auto3BC2934A04D565B845BCD398E1244F3E1.tmp' to '../../../../../../Documents/Stockholms Universitet Spelutveckling/Spel3/PROJ_Spel/PROJ_Grupp2/HideNSneakUnreal/Saved/Autosaves/Game/Art/3D/World/Meshes/w_wallDoorModular_mesh_v01_Auto3.uasset'
+[2020.10.20-13.57.58:541][630]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/3D/World/Meshes/w_conveyorBeltStraightModular_mesh_v01] ([1] browsable assets)...
+[2020.10.20-13.57.58:552][630]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Art/3D/World/Meshes/w_conveyorBeltStraightModular_mesh_v01.w_conveyorBeltStraightModular_mesh_v01]
+[2020.10.20-13.57.58:552][630]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/3D/World/Meshes/w_conveyorBeltStraightModular_mesh_v01]
+[2020.10.20-13.57.58:573][630]LogSavePackage: Moving '../../../../../../Documents/Stockholms Universitet Spelutveckling/Spel3/PROJ_Spel/PROJ_Grupp2/HideNSneakUnreal/Saved/w_conveyorBeltStraightModular_meA4C2F6C240272C9FE59F6CA3DF1C4284.tmp' to '../../../../../../Documents/Stockholms Universitet Spelutveckling/Spel3/PROJ_Spel/PROJ_Grupp2/HideNSneakUnreal/Saved/Autosaves/Game/Art/3D/World/Meshes/w_conveyorBeltStraightModular_mesh_v01_Auto3.uasset'
+[2020.10.20-13.57.58:573][630]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/3D/World/Meshes/w_conveyorBeltBendModular_mesh_v01] ([1] browsable assets)...
+[2020.10.20-13.57.58:584][630]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Art/3D/World/Meshes/w_conveyorBeltBendModular_mesh_v01.w_conveyorBeltBendModular_mesh_v01]
+[2020.10.20-13.57.58:584][630]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/3D/World/Meshes/w_conveyorBeltBendModular_mesh_v01]
+[2020.10.20-13.57.58:607][630]LogSavePackage: Moving '../../../../../../Documents/Stockholms Universitet Spelutveckling/Spel3/PROJ_Spel/PROJ_Grupp2/HideNSneakUnreal/Saved/w_conveyorBeltBendModular_mesh_vFEE518F8420A9EE6D201978839230BBF.tmp' to '../../../../../../Documents/Stockholms Universitet Spelutveckling/Spel3/PROJ_Spel/PROJ_Grupp2/HideNSneakUnreal/Saved/Autosaves/Game/Art/3D/World/Meshes/w_conveyorBeltBendModular_mesh_v01_Auto3.uasset'
+[2020.10.20-13.57.58:607][630]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/3D/World/Meshes/w_door_mesh_v00] ([1] browsable assets)...
+[2020.10.20-13.57.58:618][630]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Art/3D/World/Meshes/w_door_mesh_v00.w_door_mesh_v00]
+[2020.10.20-13.57.58:618][630]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/3D/World/Meshes/w_door_mesh_v00]
+[2020.10.20-13.57.58:642][630]LogSavePackage: Moving '../../../../../../Documents/Stockholms Universitet Spelutveckling/Spel3/PROJ_Spel/PROJ_Grupp2/HideNSneakUnreal/Saved/w_door_mesh_v00_Auto3F38766424E5846B8E07877AEAB6EC77A.tmp' to '../../../../../../Documents/Stockholms Universitet Spelutveckling/Spel3/PROJ_Spel/PROJ_Grupp2/HideNSneakUnreal/Saved/Autosaves/Game/Art/3D/World/Meshes/w_door_mesh_v00_Auto3.uasset'
+[2020.10.20-13.57.58:642][630]LogFileHelpers: Auto-saving content packages took 0.332
+[2020.10.20-14.07.15:834][918]LogEditorFactories: Performing atomic reimport of [E:/Development/Autodesk Maya/Projects/PROJ_G2/assets/w_pillarStraightModular_mesh_v01.fbx]
+[2020.10.20-14.07.15:867][918]LogFbx: Loading FBX Scene from E:/Development/Autodesk Maya/Projects/PROJ_G2/assets/w_pillarStraightModular_mesh_v01.fbx
+[2020.10.20-14.07.15:876][918]LogFbx: FBX Scene Loaded Succesfully
+[2020.10.20-14.07.15:882][918]LogFbx: Display: Triangulating static mesh geo_pillar_straight
+[2020.10.20-14.07.15:907][918]LogStaticMesh: Building static mesh w_pillarStraightModular_mesh_v01...
+[2020.10.20-14.07.15:912][918]LogStaticMesh: Built static mesh [0.00s] /Game/Art/3D/World/Meshes/w_pillarStraightModular_mesh_v01.w_pillarStraightModular_mesh_v01
+[2020.10.20-14.07.15:961][918]LogEditorFactories: -- imported successfully
+[2020.10.20-14.07.15:964][918]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.10.20-14.07.15:969][918]LogEditorFactories: Performing atomic reimport of [E:/Development/Autodesk Maya/Projects/PROJ_G2/assets/w_pillarBendDiagonalModular_mesh_v01.fbx]
+[2020.10.20-14.07.16:160][918]LogFbx: Loading FBX Scene from E:/Development/Autodesk Maya/Projects/PROJ_G2/assets/w_pillarBendDiagonalModular_mesh_v01.fbx
+[2020.10.20-14.07.16:166][918]LogFbx: FBX Scene Loaded Succesfully
+[2020.10.20-14.07.16:174][918]LogFbx: Display: Triangulating static mesh geo_pillar_bend_diagonal
+[2020.10.20-14.07.16:260][918]LogStaticMesh: Building static mesh w_pillarBendDiagonalModular_mesh_v01...
+[2020.10.20-14.07.16:268][918]LogStaticMesh: Built static mesh [0.01s] /Game/Art/3D/World/Meshes/w_pillarBendDiagonalModular_mesh_v01.w_pillarBendDiagonalModular_mesh_v01
+[2020.10.20-14.07.16:341][918]LogEditorFactories: -- imported successfully
+[2020.10.20-14.07.16:343][918]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.10.20-14.07.16:349][918]LogEditorFactories: Performing atomic reimport of [E:/Development/Autodesk Maya/Projects/PROJ_G2/assets/w_pillarBendStraightModular_mesh_v01.fbx]
+[2020.10.20-14.07.16:645][918]LogFbx: Loading FBX Scene from E:/Development/Autodesk Maya/Projects/PROJ_G2/assets/w_pillarBendStraightModular_mesh_v01.fbx
+[2020.10.20-14.07.16:654][918]LogFbx: FBX Scene Loaded Succesfully
+[2020.10.20-14.07.16:661][918]LogFbx: Display: Triangulating static mesh geo_pillar_bend_straight
+[2020.10.20-14.07.16:723][918]LogStaticMesh: Building static mesh w_pillarBendStraightModular_mesh_v01...
+[2020.10.20-14.07.16:731][918]LogStaticMesh: Built static mesh [0.01s] /Game/Art/3D/World/Meshes/w_pillarBendStraightModular_mesh_v01.w_pillarBendStraightModular_mesh_v01
+[2020.10.20-14.07.16:793][918]LogEditorFactories: -- imported successfully
+[2020.10.20-14.07.16:796][918]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.10.20-14.07.16:801][918]LogEditorFactories: Performing atomic reimport of [E:/Development/Autodesk Maya/Projects/PROJ_G2/assets/w_pillarHeadModular_mesh_v01.fbx]
+[2020.10.20-14.07.17:029][918]LogFbx: Loading FBX Scene from E:/Development/Autodesk Maya/Projects/PROJ_G2/assets/w_pillarHeadModular_mesh_v01.fbx
+[2020.10.20-14.07.17:036][918]LogFbx: FBX Scene Loaded Succesfully
+[2020.10.20-14.07.17:044][918]LogFbx: Display: Triangulating static mesh geo_pillar_head
+[2020.10.20-14.07.17:109][918]LogStaticMesh: Building static mesh w_pillarHeadModular_mesh_v01...
+[2020.10.20-14.07.17:120][918]LogStaticMesh: Built static mesh [0.01s] /Game/Art/3D/World/Meshes/w_pillarHeadModular_mesh_v01.w_pillarHeadModular_mesh_v01
+[2020.10.20-14.07.17:228][918]LogEditorFactories: -- imported successfully
+[2020.10.20-14.07.17:230][918]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.10.20-14.07.21:345][  8]LogActorFactory: Actor Factory created w_pillarBendDiagonalModular_mesh_v01
+[2020.10.20-14.07.21:834][ 46]LogActorFactory: Actor Factory created w_pillarBendDiagonalModular_mesh_v01
+[2020.10.20-14.07.23:812][264]Cmd: TRANSACTION UNDO
+[2020.10.20-14.07.23:812][264]LogEditorTransaction: Undo Create Actors
+[2020.10.20-14.07.59:070][566]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2020.10.20-14.07.59:074][566]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Online' took 0.016
+[2020.10.20-14.07.59:074][566]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/3D/World/Meshes/w_pillarStraightModular_mesh_v01] ([1] browsable assets)...
+[2020.10.20-14.07.59:101][566]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Art/3D/World/Meshes/w_pillarStraightModular_mesh_v01.w_pillarStraightModular_mesh_v01]
+[2020.10.20-14.07.59:102][566]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/3D/World/Meshes/w_pillarStraightModular_mesh_v01]
+[2020.10.20-14.07.59:123][566]LogSavePackage: Moving '../../../../../../Documents/Stockholms Universitet Spelutveckling/Spel3/PROJ_Spel/PROJ_Grupp2/HideNSneakUnreal/Saved/w_pillarStraightModular_mesh_v011DFDDBE94A7F42CFE18AA58278DC7EAB.tmp' to '../../../../../../Documents/Stockholms Universitet Spelutveckling/Spel3/PROJ_Spel/PROJ_Grupp2/HideNSneakUnreal/Saved/Autosaves/Game/Art/3D/World/Meshes/w_pillarStraightModular_mesh_v01_Auto4.uasset'
+[2020.10.20-14.07.59:124][566]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/3D/World/Meshes/w_pillarBendDiagonalModular_mesh_v01] ([1] browsable assets)...
+[2020.10.20-14.07.59:134][566]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Art/3D/World/Meshes/w_pillarBendDiagonalModular_mesh_v01.w_pillarBendDiagonalModular_mesh_v01]
+[2020.10.20-14.07.59:134][566]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/3D/World/Meshes/w_pillarBendDiagonalModular_mesh_v01]
+[2020.10.20-14.07.59:156][566]LogSavePackage: Moving '../../../../../../Documents/Stockholms Universitet Spelutveckling/Spel3/PROJ_Spel/PROJ_Grupp2/HideNSneakUnreal/Saved/w_pillarBendDiagonalModular_meshCEF4BBFB448DFC4A1A6AE69C463B6E18.tmp' to '../../../../../../Documents/Stockholms Universitet Spelutveckling/Spel3/PROJ_Spel/PROJ_Grupp2/HideNSneakUnreal/Saved/Autosaves/Game/Art/3D/World/Meshes/w_pillarBendDiagonalModular_mesh_v01_Auto4.uasset'
+[2020.10.20-14.07.59:157][566]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/3D/World/Meshes/w_pillarBendStraightModular_mesh_v01] ([1] browsable assets)...
+[2020.10.20-14.07.59:168][566]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Art/3D/World/Meshes/w_pillarBendStraightModular_mesh_v01.w_pillarBendStraightModular_mesh_v01]
+[2020.10.20-14.07.59:168][566]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/3D/World/Meshes/w_pillarBendStraightModular_mesh_v01]
+[2020.10.20-14.07.59:189][566]LogSavePackage: Moving '../../../../../../Documents/Stockholms Universitet Spelutveckling/Spel3/PROJ_Spel/PROJ_Grupp2/HideNSneakUnreal/Saved/w_pillarBendStraightModular_meshE70A7B9343EE75BFD7FE1DBC6DA60D66.tmp' to '../../../../../../Documents/Stockholms Universitet Spelutveckling/Spel3/PROJ_Spel/PROJ_Grupp2/HideNSneakUnreal/Saved/Autosaves/Game/Art/3D/World/Meshes/w_pillarBendStraightModular_mesh_v01_Auto4.uasset'
+[2020.10.20-14.07.59:190][566]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/3D/World/Meshes/w_pillarHeadModular_mesh_v01] ([1] browsable assets)...
+[2020.10.20-14.07.59:202][566]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Art/3D/World/Meshes/w_pillarHeadModular_mesh_v01.w_pillarHeadModular_mesh_v01]
+[2020.10.20-14.07.59:202][566]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/3D/World/Meshes/w_pillarHeadModular_mesh_v01]
+[2020.10.20-14.07.59:226][566]LogSavePackage: Moving '../../../../../../Documents/Stockholms Universitet Spelutveckling/Spel3/PROJ_Spel/PROJ_Grupp2/HideNSneakUnreal/Saved/w_pillarHeadModular_mesh_v01_Aut401289FD405D940BFC5F91AEC2595BFF.tmp' to '../../../../../../Documents/Stockholms Universitet Spelutveckling/Spel3/PROJ_Spel/PROJ_Grupp2/HideNSneakUnreal/Saved/Autosaves/Game/Art/3D/World/Meshes/w_pillarHeadModular_mesh_v01_Auto4.uasset'
+[2020.10.20-14.07.59:227][566]LogFileHelpers: Auto-saving content packages took 0.152
+[2020.10.20-14.14.15:335][778]LogEditorFactories: Performing atomic reimport of [E:/Development/Autodesk Maya/Projects/PROJ_G2/assets/w_conveyorBeltStraightModular_mesh_v01.fbx]
+[2020.10.20-14.14.15:365][778]LogFbx: Loading FBX Scene from E:/Development/Autodesk Maya/Projects/PROJ_G2/assets/w_conveyorBeltStraightModular_mesh_v01.fbx
+[2020.10.20-14.14.15:372][778]LogFbx: FBX Scene Loaded Succesfully
+[2020.10.20-14.14.15:377][778]LogFbx: Display: Triangulating static mesh geo_conveyor_straight
+[2020.10.20-14.14.15:403][778]LogStaticMesh: Building static mesh w_conveyorBeltStraightModular_mesh_v01...
+[2020.10.20-14.14.15:408][778]LogStaticMesh: Built static mesh [0.00s] /Game/Art/3D/World/Meshes/w_conveyorBeltStraightModular_mesh_v01.w_conveyorBeltStraightModular_mesh_v01
+[2020.10.20-14.14.15:423][778]LogEditorFactories: -- imported successfully
+[2020.10.20-14.14.15:426][778]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.10.20-14.14.15:431][778]LogEditorFactories: Performing atomic reimport of [E:/Development/Autodesk Maya/Projects/PROJ_G2/assets/w_conveyorBeltBendModular_mesh_v01.fbx]
+[2020.10.20-14.14.15:624][778]LogFbx: Loading FBX Scene from E:/Development/Autodesk Maya/Projects/PROJ_G2/assets/w_conveyorBeltBendModular_mesh_v01.fbx
+[2020.10.20-14.14.15:631][778]LogFbx: FBX Scene Loaded Succesfully
+[2020.10.20-14.14.15:639][778]LogFbx: Display: Triangulating static mesh geo_conveyor_bend
+[2020.10.20-14.14.15:704][778]LogStaticMesh: Building static mesh w_conveyorBeltBendModular_mesh_v01...
+[2020.10.20-14.14.15:713][778]LogStaticMesh: Built static mesh [0.01s] /Game/Art/3D/World/Meshes/w_conveyorBeltBendModular_mesh_v01.w_conveyorBeltBendModular_mesh_v01
+[2020.10.20-14.14.15:788][778]LogEditorFactories: -- imported successfully
+[2020.10.20-14.14.15:790][778]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.10.20-14.14.15:796][778]LogEditorFactories: Performing atomic reimport of [E:/Development/Autodesk Maya/Projects/PROJ_G2/assets/w_conveyorBeltEndModular_mesh_v01.fbx]
+[2020.10.20-14.14.16:094][778]LogFbx: Loading FBX Scene from E:/Development/Autodesk Maya/Projects/PROJ_G2/assets/w_conveyorBeltEndModular_mesh_v01.fbx
+[2020.10.20-14.14.16:102][778]LogFbx: FBX Scene Loaded Succesfully
+[2020.10.20-14.14.16:108][778]LogFbx: Display: Triangulating static mesh geo_conveyor_end
+[2020.10.20-14.14.16:170][778]LogStaticMesh: Building static mesh w_conveyorBeltEndModular_mesh_v01...
+[2020.10.20-14.14.16:177][778]LogStaticMesh: Built static mesh [0.01s] /Game/Art/3D/World/Meshes/w_conveyorBeltEndModular_mesh_v01.w_conveyorBeltEndModular_mesh_v01
+[2020.10.20-14.14.16:239][778]LogEditorFactories: -- imported successfully
+[2020.10.20-14.14.16:242][778]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.10.20-14.15.47:085][180]LogActorFactory: Actor Factory created w_conveyorBeltBendModular_mesh_v01
+[2020.10.20-14.15.47:826][250]LogActorFactory: Actor Factory created w_conveyorBeltBendModular_mesh_v01
+[2020.10.20-14.15.53:110][807]LogActorFactory: Actor Factory created w_conveyorBeltStraightModular_mesh_v01
+[2020.10.20-14.15.54:098][885]LogActorFactory: Actor Factory created w_conveyorBeltStraightModular_mesh_v01
+[2020.10.20-14.16.07:712][434]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.10.20-14.16.11:321][836]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_conveyorBeltStraightModular_mesh_v01)
+[2020.10.20-14.16.16:282][399]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.10.20-14.16.17:215][497]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_conveyorBeltStraightModular_mesh_v01)
+[2020.10.20-14.16.20:917][910]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.10.20-14.16.23:323][178]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_conveyorBeltStraightModular_mesh_v01)
+[2020.10.20-14.16.32:877][225]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.10.20-14.16.47:404][901]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_conveyorBeltBendModular_mesh_v01)
+[2020.10.20-14.16.51:530][305]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_conveyorBeltStraightModular_mesh_v01)
+[2020.10.20-14.16.52:984][440]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.10.20-14.16.58:249][ 17]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_conveyorBeltBendModular_mesh_v01)
+[2020.10.20-14.17.01:072][284]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.10.20-14.17.20:878][417]LogActorFactory: Actor Factory created w_conveyorBeltEndModular_mesh_v01
+[2020.10.20-14.17.21:669][476]LogActorFactory: Actor Factory created w_conveyorBeltEndModular_mesh_v01
+[2020.10.20-14.17.26:609][ 24]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.10.20-14.17.28:672][230]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_conveyorBeltEndModular_mesh_v01)
+[2020.10.20-14.17.30:257][371]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.10.20-14.17.38:013][250]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_conveyorBeltEndModular_mesh_v01)
+[2020.10.20-14.17.42:941][748]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.10.20-14.17.52:280][815]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.10.20-14.17.55:070][ 89]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_conveyorBeltEndModular_mesh_v01)
+[2020.10.20-14.17.57:125][288]Cmd: DELETE
+[2020.10.20-14.17.57:125][288]Cmd: ACTOR DELETE
+[2020.10.20-14.17.57:127][288]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.20-14.17.57:127][288]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.20-14.17.57:128][288]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.20-14.17.57:141][288]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2020.10.20-14.17.57:144][288]LogEditorActor: Deleted 3 Actors (0.018 secs)
+[2020.10.20-14.18.23:681][670]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2020.10.20-14.18.23:709][670]LogSavePackage: Moving '../../../../../../Documents/Stockholms Universitet Spelutveckling/Spel3/PROJ_Spel/PROJ_Grupp2/HideNSneakUnreal/Saved/Online_Auto5C4AA8EAA476697A3A3277D8256B89004.tmp' to '../../../../../../Documents/Stockholms Universitet Spelutveckling/Spel3/PROJ_Spel/PROJ_Grupp2/HideNSneakUnreal/Saved/Autosaves/Game/Maps/Online_Auto5.umap'
+[2020.10.20-14.18.23:710][670]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Online' took 0.041
+[2020.10.20-14.18.23:710][670]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.041
+[2020.10.20-14.18.23:710][670]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/3D/World/Meshes/w_conveyorBeltEndModular_mesh_v01] ([1] browsable assets)...
+[2020.10.20-14.18.23:735][670]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Art/3D/World/Meshes/w_conveyorBeltEndModular_mesh_v01.w_conveyorBeltEndModular_mesh_v01]
+[2020.10.20-14.18.23:735][670]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/3D/World/Meshes/w_conveyorBeltEndModular_mesh_v01]
+[2020.10.20-14.18.23:757][670]LogSavePackage: Moving '../../../../../../Documents/Stockholms Universitet Spelutveckling/Spel3/PROJ_Spel/PROJ_Grupp2/HideNSneakUnreal/Saved/w_conveyorBeltEndModular_mesh_v09C667C564D4EC6094B8FEAB20347B1A6.tmp' to '../../../../../../Documents/Stockholms Universitet Spelutveckling/Spel3/PROJ_Spel/PROJ_Grupp2/HideNSneakUnreal/Saved/Autosaves/Game/Art/3D/World/Meshes/w_conveyorBeltEndModular_mesh_v01_Auto5.uasset'
+[2020.10.20-14.18.23:758][670]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/3D/World/Meshes/w_conveyorBeltStraightModular_mesh_v01] ([1] browsable assets)...
+[2020.10.20-14.18.23:770][670]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Art/3D/World/Meshes/w_conveyorBeltStraightModular_mesh_v01.w_conveyorBeltStraightModular_mesh_v01]
+[2020.10.20-14.18.23:770][670]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/3D/World/Meshes/w_conveyorBeltStraightModular_mesh_v01]
+[2020.10.20-14.18.23:791][670]LogSavePackage: Moving '../../../../../../Documents/Stockholms Universitet Spelutveckling/Spel3/PROJ_Spel/PROJ_Grupp2/HideNSneakUnreal/Saved/w_conveyorBeltStraightModular_me5CF228EB40D051D96EE4AFA1212D8F86.tmp' to '../../../../../../Documents/Stockholms Universitet Spelutveckling/Spel3/PROJ_Spel/PROJ_Grupp2/HideNSneakUnreal/Saved/Autosaves/Game/Art/3D/World/Meshes/w_conveyorBeltStraightModular_mesh_v01_Auto5.uasset'
+[2020.10.20-14.18.23:792][670]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/3D/World/Meshes/w_conveyorBeltBendModular_mesh_v01] ([1] browsable assets)...
+[2020.10.20-14.18.23:803][670]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Art/3D/World/Meshes/w_conveyorBeltBendModular_mesh_v01.w_conveyorBeltBendModular_mesh_v01]
+[2020.10.20-14.18.23:803][670]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/3D/World/Meshes/w_conveyorBeltBendModular_mesh_v01]
+[2020.10.20-14.18.23:826][670]LogSavePackage: Moving '../../../../../../Documents/Stockholms Universitet Spelutveckling/Spel3/PROJ_Spel/PROJ_Grupp2/HideNSneakUnreal/Saved/w_conveyorBeltBendModular_mesh_v7297CF0A4D9D6F7B201AA49A60ED24BB.tmp' to '../../../../../../Documents/Stockholms Universitet Spelutveckling/Spel3/PROJ_Spel/PROJ_Grupp2/HideNSneakUnreal/Saved/Autosaves/Game/Art/3D/World/Meshes/w_conveyorBeltBendModular_mesh_v01_Auto5.uasset'
+[2020.10.20-14.18.23:827][670]LogFileHelpers: Auto-saving content packages took 0.117
+[2020.10.20-14.18.33:936][805]Cmd: TRANSACTION UNDO
+[2020.10.20-14.18.33:936][805]LogEditorTransaction: Undo Delete Actors
+[2020.10.20-14.18.35:651][938]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.10.20-14.19.08:777][746]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_conveyorBeltStraightModular_mesh_v01)
+[2020.10.20-14.19.10:267][871]Cmd: DELETE
+[2020.10.20-14.19.10:268][871]Cmd: ACTOR DELETE
+[2020.10.20-14.19.10:269][871]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.20-14.19.10:269][871]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.20-14.19.10:269][871]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.20-14.19.10:282][871]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2020.10.20-14.19.10:284][871]LogEditorActor: Deleted 3 Actors (0.016 secs)
+[2020.10.20-14.20.03:223][642]LogEditorFactories: Performing atomic reimport of [E:/Development/Autodesk Maya/Projects/PROJ_G2/assets/w_door_mesh_v00.fbx]
+[2020.10.20-14.20.03:250][642]LogFbx: Loading FBX Scene from E:/Development/Autodesk Maya/Projects/PROJ_G2/assets/w_door_mesh_v00.fbx
+[2020.10.20-14.20.03:257][642]LogFbx: FBX Scene Loaded Succesfully
+[2020.10.20-14.20.03:265][642]LogFbx: Display: Triangulating static mesh w_door
+[2020.10.20-14.20.03:306][642]LogStaticMesh: Building static mesh w_door_mesh_v00...
+[2020.10.20-14.20.03:322][642]LogStaticMesh: Built static mesh [0.02s] /Game/Art/3D/World/Meshes/w_door_mesh_v00.w_door_mesh_v00
+[2020.10.20-14.20.03:332][642]LogEditorFactories: -- imported successfully
+[2020.10.20-14.20.03:334][642]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.10.20-14.20.42:718][762]LogEditorFactories: Performing atomic reimport of [E:/Development/Autodesk Maya/Projects/PROJ_G2/assets/w_door_mesh_v00.fbx]
+[2020.10.20-14.20.42:751][762]LogFbx: Loading FBX Scene from E:/Development/Autodesk Maya/Projects/PROJ_G2/assets/w_door_mesh_v00.fbx
+[2020.10.20-14.20.42:757][762]LogFbx: FBX Scene Loaded Succesfully
+[2020.10.20-14.20.42:766][762]LogFbx: Display: Triangulating static mesh w_door
+[2020.10.20-14.20.42:806][762]LogStaticMesh: Building static mesh w_door_mesh_v00...
+[2020.10.20-14.20.42:821][762]LogStaticMesh: Built static mesh [0.02s] /Game/Art/3D/World/Meshes/w_door_mesh_v00.w_door_mesh_v00
+[2020.10.20-14.20.42:832][762]LogEditorFactories: -- imported successfully
+[2020.10.20-14.20.42:835][762]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.10.20-14.21.10:395][239]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2020.10.20-14.21.10:417][239]LogSavePackage: Moving '../../../../../../Documents/Stockholms Universitet Spelutveckling/Spel3/PROJ_Spel/PROJ_Grupp2/HideNSneakUnreal/Saved/Online0D6187E246B0D4596DB82C9B80F4E5BB.tmp' to '../../../../../../Documents/Stockholms Universitet Spelutveckling/Spel3/PROJ_Spel/PROJ_Grupp2/HideNSneakUnreal/Content/Maps/Online.umap'
+[2020.10.20-14.21.10:469][239]AssetCheck: New page: Asset Save: Online
+[2020.10.20-14.21.10:469][239]LogContentValidation: Display: Validating World /Game/Maps/Online.Online
+[2020.10.20-14.21.14:849][549]LogSavePackage: Moving '../../../../../../Documents/Stockholms Universitet Spelutveckling/Spel3/PROJ_Spel/PROJ_Grupp2/HideNSneakUnreal/Saved/w_conveyorBeltBendModular_mesh_v65030D794EB02EF624764AAF91DCEEDB.tmp' to '../../../../../../Documents/Stockholms Universitet Spelutveckling/Spel3/PROJ_Spel/PROJ_Grupp2/HideNSneakUnreal/Content/Art/3D/World/Meshes/w_conveyorBeltBendModular_mesh_v01.uasset'
+[2020.10.20-14.21.14:868][549]LogSavePackage: Moving '../../../../../../Documents/Stockholms Universitet Spelutveckling/Spel3/PROJ_Spel/PROJ_Grupp2/HideNSneakUnreal/Saved/w_conveyorBeltEndModular_mesh_v047A3A0DE4C606608183B878FE3CE4269.tmp' to '../../../../../../Documents/Stockholms Universitet Spelutveckling/Spel3/PROJ_Spel/PROJ_Grupp2/HideNSneakUnreal/Content/Art/3D/World/Meshes/w_conveyorBeltEndModular_mesh_v01.uasset'
+[2020.10.20-14.21.14:888][549]LogSavePackage: Moving '../../../../../../Documents/Stockholms Universitet Spelutveckling/Spel3/PROJ_Spel/PROJ_Grupp2/HideNSneakUnreal/Saved/w_conveyorBeltStraightModular_me44CA44794112500549113C9F4B2993D3.tmp' to '../../../../../../Documents/Stockholms Universitet Spelutveckling/Spel3/PROJ_Spel/PROJ_Grupp2/HideNSneakUnreal/Content/Art/3D/World/Meshes/w_conveyorBeltStraightModular_mesh_v01.uasset'
+[2020.10.20-14.21.14:944][549]LogSavePackage: Moving '../../../../../../Documents/Stockholms Universitet Spelutveckling/Spel3/PROJ_Spel/PROJ_Grupp2/HideNSneakUnreal/Saved/w_door_mesh_v009F55C0F144BED0B0EFAD2EBF8551AAA9.tmp' to '../../../../../../Documents/Stockholms Universitet Spelutveckling/Spel3/PROJ_Spel/PROJ_Grupp2/HideNSneakUnreal/Content/Art/3D/World/Meshes/w_door_mesh_v00.uasset'
+[2020.10.20-14.21.14:968][549]LogSavePackage: Moving '../../../../../../Documents/Stockholms Universitet Spelutveckling/Spel3/PROJ_Spel/PROJ_Grupp2/HideNSneakUnreal/Saved/w_pillarBendDiagonalModular_meshCB15F10544A14EE5E9A4C5B6BC9385C4.tmp' to '../../../../../../Documents/Stockholms Universitet Spelutveckling/Spel3/PROJ_Spel/PROJ_Grupp2/HideNSneakUnreal/Content/Art/3D/World/Meshes/w_pillarBendDiagonalModular_mesh_v01.uasset'
+[2020.10.20-14.21.14:992][549]LogSavePackage: Moving '../../../../../../Documents/Stockholms Universitet Spelutveckling/Spel3/PROJ_Spel/PROJ_Grupp2/HideNSneakUnreal/Saved/w_pillarBendStraightModular_meshD3FED69D47DBAFE04B103D8B0DB2692D.tmp' to '../../../../../../Documents/Stockholms Universitet Spelutveckling/Spel3/PROJ_Spel/PROJ_Grupp2/HideNSneakUnreal/Content/Art/3D/World/Meshes/w_pillarBendStraightModular_mesh_v01.uasset'
+[2020.10.20-14.21.15:017][549]LogSavePackage: Moving '../../../../../../Documents/Stockholms Universitet Spelutveckling/Spel3/PROJ_Spel/PROJ_Grupp2/HideNSneakUnreal/Saved/w_pillarHeadModular_mesh_v01454881864CD28E2952A34A9197108C30.tmp' to '../../../../../../Documents/Stockholms Universitet Spelutveckling/Spel3/PROJ_Spel/PROJ_Grupp2/HideNSneakUnreal/Content/Art/3D/World/Meshes/w_pillarHeadModular_mesh_v01.uasset'
+[2020.10.20-14.21.15:041][549]LogSavePackage: Moving '../../../../../../Documents/Stockholms Universitet Spelutveckling/Spel3/PROJ_Spel/PROJ_Grupp2/HideNSneakUnreal/Saved/w_pillarStraightModular_mesh_v012F7628DA4055E885DC1A3B8C9FE9B133.tmp' to '../../../../../../Documents/Stockholms Universitet Spelutveckling/Spel3/PROJ_Spel/PROJ_Grupp2/HideNSneakUnreal/Content/Art/3D/World/Meshes/w_pillarStraightModular_mesh_v01.uasset'
+[2020.10.20-14.21.15:063][549]LogSavePackage: Moving '../../../../../../Documents/Stockholms Universitet Spelutveckling/Spel3/PROJ_Spel/PROJ_Grupp2/HideNSneakUnreal/Saved/w_wallDoorModular_mesh_v01403814CD4E6CEDFA10366F877B2C6033.tmp' to '../../../../../../Documents/Stockholms Universitet Spelutveckling/Spel3/PROJ_Spel/PROJ_Grupp2/HideNSneakUnreal/Content/Art/3D/World/Meshes/w_wallDoorModular_mesh_v01.uasset'
+[2020.10.20-14.21.15:085][549]AssetCheck: New page: Asset Save: multiple assets
+[2020.10.20-14.21.15:085][549]LogContentValidation: Display: Validating StaticMesh /Game/Art/3D/World/Meshes/w_conveyorBeltBendModular_mesh_v01.w_conveyorBeltBendModular_mesh_v01
+[2020.10.20-14.21.15:085][549]LogContentValidation: Display: Validating StaticMesh /Game/Art/3D/World/Meshes/w_conveyorBeltEndModular_mesh_v01.w_conveyorBeltEndModular_mesh_v01
+[2020.10.20-14.21.15:085][549]LogContentValidation: Display: Validating StaticMesh /Game/Art/3D/World/Meshes/w_conveyorBeltStraightModular_mesh_v01.w_conveyorBeltStraightModular_mesh_v01
+[2020.10.20-14.21.15:085][549]LogContentValidation: Display: Validating StaticMesh /Game/Art/3D/World/Meshes/w_door_mesh_v00.w_door_mesh_v00
+[2020.10.20-14.21.15:085][549]LogContentValidation: Display: Validating StaticMesh /Game/Art/3D/World/Meshes/w_pillarBendDiagonalModular_mesh_v01.w_pillarBendDiagonalModular_mesh_v01
+[2020.10.20-14.21.15:085][549]LogContentValidation: Display: Validating StaticMesh /Game/Art/3D/World/Meshes/w_pillarBendStraightModular_mesh_v01.w_pillarBendStraightModular_mesh_v01
+[2020.10.20-14.21.15:085][549]LogContentValidation: Display: Validating StaticMesh /Game/Art/3D/World/Meshes/w_pillarHeadModular_mesh_v01.w_pillarHeadModular_mesh_v01
+[2020.10.20-14.21.15:085][549]LogContentValidation: Display: Validating StaticMesh /Game/Art/3D/World/Meshes/w_pillarStraightModular_mesh_v01.w_pillarStraightModular_mesh_v01
+[2020.10.20-14.21.15:085][549]LogContentValidation: Display: Validating StaticMesh /Game/Art/3D/World/Meshes/w_wallDoorModular_mesh_v01.w_wallDoorModular_mesh_v01
+[2020.10.20-14.22.05:013][623]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2020.10.20-14.22.05:026][623]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2020.10.20-14.22.05:031][623]LightingResults: New page: Lighting Build
+[2020.10.20-14.22.05:031][623]LoadErrors: New page: Loading map: ThirdPersonExampleMap.umap
+[2020.10.20-14.22.05:076][623]LogWorld: UWorld::CleanupWorld for Online, bSessionEnded=true, bCleanupResources=true
+[2020.10.20-14.22.05:076][623]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.20-14.22.05:076][623]MapCheck: New page: Map Check
+[2020.10.20-14.22.05:076][623]LightingResults: New page: Lighting Build
+[2020.10.20-14.22.05:088][623]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000237CE962E80), frame # 70623
+[2020.10.20-14.22.05:089][623]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002380293FA00), frame # 70623
+[2020.10.20-14.22.05:089][623]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2020.10.20-14.22.05:093][623]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.10.20-14.22.05:093][623]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.10.20-14.22.05:093][623]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000237CDAF1A00), frame # 70623
+[2020.10.20-14.22.05:093][623]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000237E654BD80), frame # 70623
+[2020.10.20-14.22.05:108][623]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2020.10.20-14.22.05:145][623]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.10.20-14.22.05:145][623]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.094ms to complete.
+[2020.10.20-14.22.05:145][623]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.114
