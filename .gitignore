@@ -136,3 +136,5 @@ Plugins/*/Intermediate/*
 DerivedDataCache/*
 
 HideNSneakUnreal/Saved/
+
+HideNSneakUnreal/Saved/Logs/
