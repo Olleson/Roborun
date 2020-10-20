@@ -1626,3 +1626,19 @@ Make sure 'BPW_MenuJoin' has been compiled for  Async Task: Missing Function
 [2020.10.20-14.41.34:081][505]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WallWithDoor4)
 [2020.10.20-14.41.35:614][654]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall9)
 [2020.10.20-14.41.36:614][745]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WallWithDoor4)
+[2020.10.20-14.42.46:178][127]LogActorFactory: Actor Factory created w_conveyorBeltEndModular_mesh_v01
+[2020.10.20-14.42.46:748][190]LogActorFactory: Actor Factory created w_conveyorBeltEndModular_mesh_v01
+[2020.10.20-14.42.48:343][361]LogActorFactory: Actor Factory created w_conveyorBeltBendModular_mesh_v01
+[2020.10.20-14.42.48:742][401]LogActorFactory: Actor Factory created w_conveyorBeltBendModular_mesh_v01
+[2020.10.20-14.42.50:538][603]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_conveyorBeltEndModular_mesh_v01)
+[2020.10.20-14.42.51:275][675]Cmd: DELETE
+[2020.10.20-14.42.51:275][675]Cmd: ACTOR DELETE
+[2020.10.20-14.42.51:280][675]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.20-14.42.51:288][675]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2020.10.20-14.42.51:294][675]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2020.10.20-14.42.51:644][716]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_conveyorBeltBendModular_mesh_v01)
+[2020.10.20-14.42.51:779][728]Cmd: DELETE
+[2020.10.20-14.42.51:779][728]Cmd: ACTOR DELETE
+[2020.10.20-14.42.51:783][728]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.20-14.42.51:791][728]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2020.10.20-14.42.51:793][728]LogEditorActor: Deleted 1 Actors (0.014 secs)
