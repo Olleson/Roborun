@@ -1642,3 +1642,7 @@ Make sure 'BPW_MenuJoin' has been compiled for  Async Task: Missing Function
 [2020.10.20-14.42.51:783][728]LogEditorActor: Deleted Actor: StaticMeshActor
 [2020.10.20-14.42.51:791][728]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
 [2020.10.20-14.42.51:793][728]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2020.10.20-14.50.09:762][810]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2020.10.20-14.50.09:873][810]LogSavePackage: Moving 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Saved/Real_WhiteBox_Auto6B17CE51D4B4B18EF273476BAF704890B.tmp' to 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Saved/Autosaves/Game/Maps/Real_WhiteBox_Auto6.umap'
+[2020.10.20-14.50.09:874][810]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Real_WhiteBox' took 0.129
+[2020.10.20-14.50.09:875][810]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.129
