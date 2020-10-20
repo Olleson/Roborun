@@ -128,11 +128,11 @@ Build/*/**
 Saved/*
 
 # Compiled source files for the engine to use
-Intermediate/*
+HideNSneakUnreal/Intermediate/*
 Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
 
-HideNSneakUnreal/Saved/*
+HideNSneakUnreal/Saved/
 
