@@ -1160,3 +1160,13 @@ Make sure 'BPW_MenuJoin' has been compiled for  Async Task: Missing Function
 [2020.10.20-12.16.33:122][133]LogAudioMixer: Display: Audio Buffer Underrun detected.
 [2020.10.20-12.17.24:689][286]LogAudioMixer: Display: Audio Buffer Underrun detected.
 [2020.10.20-12.19.32:048][665]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.10.20-12.41.23:829][ 69]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2020.10.20-12.41.23:854][ 69]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Real_WhiteBox" FILE="C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Maps/Real_WhiteBox.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.10.20-12.41.23:862][ 69]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2020.10.20-12.41.23:959][ 69]LogSavePackage: Moving 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Saved/Real_WhiteBox41E832DF4D4F7FF211F452B213DE1610.tmp' to 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Maps/Real_WhiteBox.umap'
+[2020.10.20-12.41.23:982][ 69]LogFileHelpers: Saving map 'Real_WhiteBox' took 0.129
+[2020.10.20-12.41.23:993][ 69]AssetCheck: New page: Asset Save: Real_WhiteBox
+[2020.10.20-12.41.23:993][ 69]LogContentValidation: Display: Validating World /Game/Maps/Real_WhiteBox.Real_WhiteBox
+[2020.10.20-12.57.11:911][138]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.10.20-12.58.36:519][391]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.10.20-13.01.31:463][915]LogAudioMixer: Display: Audio Buffer Underrun detected.
