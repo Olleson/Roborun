@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\HideNSneakUnreal.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{42934772-1493-4BB9-BD40-E21D3EED0AB5}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\HideNSneakUnreal.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\HideNSneakUnrealEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{011ADDB8-744F-4EDA-B668-A39A90CDE801}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\HideNSneakUnreal">
+      <UniqueIdentifier>{4399418E-7ECC-4B90-B539-0BB1A5CD2875}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\HideNSneakUnreal\CPP_Character.cpp">
+      <Filter>Source\HideNSneakUnreal</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HideNSneakUnreal\CPP_Character.h">
+      <Filter>Source\HideNSneakUnreal</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\HideNSneakUnreal\HideNSneakUnreal.Build.cs">
+      <Filter>Source\HideNSneakUnreal</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\HideNSneakUnreal\HideNSneakUnreal.cpp">
+      <Filter>Source\HideNSneakUnreal</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HideNSneakUnreal\HideNSneakUnreal.h">
+      <Filter>Source\HideNSneakUnreal</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
