@@ -603,3 +603,40 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.10.20-08.37.01:867][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
 [2020.10.20-08.37.01:952][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
 [2020.10.20-08.37.02:381][  0]LogInit: Transaction tracking system initialized
+[2020.10.20-08.37.02:770][  0]BlueprintLog: New page: Editor Load
+[2020.10.20-08.37.04:609][  0]LocalizationService: Localization service is disabled
+[2020.10.20-08.37.09:489][  0]LogFileCache: Scanning file cache for directory 'C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Content/' took 0.02s
+[2020.10.20-08.37.09:489][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.10.20-08.37.09:489][  0]LogCook: Display: Mobile HDR setting 1
+[2020.10.20-08.37.14:927][  0]SourceControl: Source control is disabled
+[2020.10.20-08.37.14:940][  0]LogUnrealEdMisc: Loading editor; pre map load, took 118.935
+[2020.10.20-08.37.14:972][  0]Cmd: MAP LOAD FILE="C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.10.20-08.37.14:973][  0]LogEditorServer: Warning: Can't find file 'C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2020.10.20-08.37.14:973][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.10.20-08.37.15:026][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 53.321ms to complete.
+[2020.10.20-08.37.15:026][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.056
+[2020.10.20-08.37.16:330][  0]LogUnrealEdMisc: Total Editor Startup Time, took 120.324
+[2020.10.20-08.37.17:207][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.20-08.37.17:222][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.20-08.37.17:235][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.20-08.37.17:248][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.20-08.37.17:372][  0]LogCollectionManager: Loaded 0 collections in 0.003270 seconds
+[2020.10.20-08.37.17:539][  0]LogFileCache: Scanning file cache for directory 'C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Saved/Collections/' took 0.00s
+[2020.10.20-08.37.17:539][  0]LogFileCache: Scanning file cache for directory 'C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Content/Developers/fredr/Collections/' took 0.00s
+[2020.10.20-08.37.17:539][  0]LogFileCache: Scanning file cache for directory 'C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Content/Collections/' took 0.00s
+[2020.10.20-08.37.17:539][  0]LogContentBrowser: Native class hierarchy populated in 0.0210 seconds. Added 3427 classes and 821 folders.
+[2020.10.20-08.37.17:605][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.10.20-08.37.19:369][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2020.10.20-08.37.19:410][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 2 classes and 0 folders.
+[2020.10.20-08.37.19:866][  0]LogSlate: Took 0.039342 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.10.20-08.37.19:945][  0]LogSlate: Took 0.055360 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.10.20-08.37.19:998][  0]LogSlate: Took 0.025214 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.10.20-08.37.20:712][  0]LogRenderer: Reallocating scene render targets to support 1056x492 Format 10 NumSamples 1 (Frame:1).
+[2020.10.20-08.37.21:248][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2020.10.20-08.37.21:248][  0]LogLoad: (Engine Initialization) Total time: 125.24 seconds
+[2020.10.20-08.37.21:248][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.10.20-08.37.21:462][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.10.20-08.37.21:765][  0]LogSlate: Took 0.040626 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.10.20-08.37.21:871][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Content/' took 0.48s
+[2020.10.20-08.37.21:905][  1]LogAssetRegistry: Asset discovery search completed in 69.4826 seconds
+[2020.10.20-08.37.21:915][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000010 seconds (updated 0 objects)
