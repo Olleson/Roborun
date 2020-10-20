@@ -1336,3 +1336,315 @@ Make sure 'BPW_MenuJoin' has been compiled for  Async Task: Missing Function
 [2020.10.20-18.13.00:304][361]Cmd: MODE GRID=0
 [2020.10.20-18.13.01:104][452]Cmd: MODE GRID=1
 [2020.10.20-18.13.06:890][134]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ground5)
+[2020.10.20-18.18.39:238][433]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BiggerWalls10x18)
+[2020.10.20-18.18.42:290][768]LogStaticMesh: Building static mesh w_walkwayStraight_mesh_v01...
+[2020.10.20-18.18.42:336][768]LogStaticMesh: Built static mesh [0.05s] /Game/Art/3D/World/Meshes/Modular/w_walkwayStraight_mesh_v01.w_walkwayStraight_mesh_v01
+[2020.10.20-18.18.42:410][772]LogActorFactory: Actor Factory created w_walkwayStraight_mesh_v01
+[2020.10.20-18.18.43:139][852]LogActorFactory: Actor Factory created w_walkwayStraight_mesh_v01
+[2020.10.20-18.18.50:735][736]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge)
+[2020.10.20-18.18.52:382][915]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge2)
+[2020.10.20-18.19.24:244][470]Cmd: DELETE
+[2020.10.20-18.19.24:244][470]Cmd: ACTOR DELETE
+[2020.10.20-18.19.24:250][470]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.20-18.19.24:250][470]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.20-18.19.24:250][470]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.20-18.19.24:250][470]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.20-18.19.24:250][470]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.20-18.19.24:250][470]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.20-18.19.24:251][470]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.20-18.19.24:251][470]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.20-18.19.24:251][470]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.20-18.19.24:251][470]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.20-18.19.24:251][470]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.20-18.19.24:252][470]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.20-18.19.24:252][470]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.20-18.19.24:252][470]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.20-18.19.24:252][470]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.20-18.19.24:252][470]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.20-18.19.24:252][470]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.20-18.19.24:253][470]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.20-18.19.24:253][470]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.20-18.19.24:253][470]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.20-18.19.24:253][470]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.20-18.19.24:253][470]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.20-18.19.24:253][470]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.20-18.19.24:254][470]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.20-18.19.24:254][470]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.20-18.19.24:254][470]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.20-18.19.24:254][470]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.20-18.19.24:254][470]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.20-18.19.24:254][470]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.20-18.19.24:255][470]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.20-18.19.24:255][470]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.20-18.19.24:255][470]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.20-18.19.24:263][470]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2020.10.20-18.19.24:266][470]LogEditorActor: Deleted 32 Actors (0.021 secs)
+[2020.10.20-18.19.26:886][772]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_walkwayStraight_mesh_v01)
+[2020.10.20-18.20.20:245][988]Cmd: EDIT COPY
+[2020.10.20-18.20.20:462][ 14]Cmd: EDIT PASTE
+[2020.10.20-18.20.22:472][249]Cmd: EDIT COPY
+[2020.10.20-18.20.22:644][269]Cmd: EDIT PASTE
+[2020.10.20-18.20.26:304][667]Cmd: EDIT COPY
+[2020.10.20-18.20.26:493][682]Cmd: EDIT PASTE
+[2020.10.20-18.20.30:029][ 72]Cmd: EDIT COPY
+[2020.10.20-18.20.30:214][ 93]Cmd: EDIT PASTE
+[2020.10.20-18.20.39:761][191]Cmd: EDIT COPY
+[2020.10.20-18.20.39:938][212]Cmd: EDIT PASTE
+[2020.10.20-18.20.52:171][636]Cmd: EDIT COPY
+[2020.10.20-18.20.52:430][659]Cmd: EDIT PASTE
+[2020.10.20-18.21.00:962][651]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_walkwayStraight_mesh_v27)
+[2020.10.20-18.21.02:581][824]Cmd: EDIT COPY
+[2020.10.20-18.21.02:822][852]Cmd: EDIT PASTE
+[2020.10.20-18.21.07:366][383]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_walkwayStraight_mesh_v31)
+[2020.10.20-18.21.07:699][411]Cmd: EDIT COPY
+[2020.10.20-18.21.07:882][427]Cmd: EDIT PASTE
+[2020.10.20-18.21.07:929][428]Cmd: EDIT COPY
+[2020.10.20-18.21.15:368][291]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge71)
+[2020.10.20-18.21.22:244][ 41]Cmd: DELETE
+[2020.10.20-18.21.22:245][ 41]Cmd: ACTOR DELETE
+[2020.10.20-18.21.22:249][ 41]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.20-18.21.22:249][ 41]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.20-18.21.22:250][ 41]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.20-18.21.22:250][ 41]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.20-18.21.22:250][ 41]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.20-18.21.22:250][ 41]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.20-18.21.22:250][ 41]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.20-18.21.22:250][ 41]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.20-18.21.22:251][ 41]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.20-18.21.22:258][ 41]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2020.10.20-18.21.22:260][ 41]LogEditorActor: Deleted 9 Actors (0.016 secs)
+[2020.10.20-18.21.23:475][185]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_walkwayStraight_mesh_v32)
+[2020.10.20-18.21.23:939][236]Cmd: EDIT COPY
+[2020.10.20-18.21.24:145][260]Cmd: EDIT PASTE
+[2020.10.20-18.21.35:050][516]Cmd: EDIT COPY
+[2020.10.20-18.21.35:249][532]Cmd: EDIT PASTE
+[2020.10.20-18.21.38:126][859]Cmd: EDIT COPY
+[2020.10.20-18.21.38:296][879]Cmd: EDIT PASTE
+[2020.10.20-18.21.40:728][165]Cmd: EDIT COPY
+[2020.10.20-18.21.40:901][185]Cmd: EDIT PASTE
+[2020.10.20-18.21.43:686][503]Cmd: EDIT COPY
+[2020.10.20-18.21.43:851][516]Cmd: EDIT PASTE
+[2020.10.20-18.21.45:990][759]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_walkwayStraight_mesh_v40)
+[2020.10.20-18.21.46:344][798]Cmd: EDIT COPY
+[2020.10.20-18.21.46:505][817]Cmd: EDIT PASTE
+[2020.10.20-18.22.02:873][709]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge42)
+[2020.10.20-18.22.06:700][137]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge43)
+[2020.10.20-18.22.08:601][360]Cmd: DELETE
+[2020.10.20-18.22.08:601][360]Cmd: ACTOR DELETE
+[2020.10.20-18.22.08:606][360]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.20-18.22.08:613][360]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2020.10.20-18.22.08:616][360]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2020.10.20-18.22.11:807][733]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_walkwayStraight_mesh_v6)
+[2020.10.20-18.22.12:306][787]Cmd: EDIT COPY
+[2020.10.20-18.22.12:494][809]Cmd: EDIT PASTE
+[2020.10.20-18.22.54:438][681]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge41)
+[2020.10.20-18.22.55:540][807]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge40)
+[2020.10.20-18.23.00:303][319]Cmd: DELETE
+[2020.10.20-18.23.00:303][319]Cmd: ACTOR DELETE
+[2020.10.20-18.23.00:308][319]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.20-18.23.00:308][319]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.20-18.23.00:308][319]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.20-18.23.00:308][319]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.20-18.23.00:316][319]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2020.10.20-18.23.00:319][319]LogEditorActor: Deleted 4 Actors (0.015 secs)
+[2020.10.20-18.23.00:812][377]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_walkwayStraight_mesh_v42)
+[2020.10.20-18.23.01:393][442]Cmd: EDIT COPY
+[2020.10.20-18.23.01:604][467]Cmd: EDIT PASTE
+[2020.10.20-18.23.07:313][117]Cmd: EDIT COPY
+[2020.10.20-18.23.07:510][140]Cmd: EDIT PASTE
+[2020.10.20-18.23.12:234][680]Cmd: EDIT COPY
+[2020.10.20-18.23.12:440][697]Cmd: EDIT PASTE
+[2020.10.20-18.23.14:700][942]Cmd: EDIT COPY
+[2020.10.20-18.23.14:883][961]Cmd: EDIT PASTE
+[2020.10.20-18.23.27:905][494]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge36)
+[2020.10.20-18.23.30:176][755]Cmd: DELETE
+[2020.10.20-18.23.30:176][755]Cmd: ACTOR DELETE
+[2020.10.20-18.23.30:180][755]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.20-18.23.30:189][755]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2020.10.20-18.23.30:191][755]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2020.10.20-18.23.30:529][795]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_walkwayStraight_mesh_v46)
+[2020.10.20-18.23.31:426][898]Cmd: EDIT COPY
+[2020.10.20-18.23.31:620][921]Cmd: EDIT PASTE
+[2020.10.20-18.23.33:892][188]Cmd: TRANSACTION UNDO
+[2020.10.20-18.23.33:892][188]LogEditorTransaction: Undo Move Actors
+[2020.10.20-18.23.34:224][195]Cmd: TRANSACTION UNDO
+[2020.10.20-18.23.34:224][195]LogEditorTransaction: Undo Paste
+[2020.10.20-18.23.34:519][208]Cmd: TRANSACTION UNDO
+[2020.10.20-18.23.34:520][208]LogEditorTransaction: Undo Clicking on Actors
+[2020.10.20-18.23.35:000][259]Cmd: TRANSACTION UNDO
+[2020.10.20-18.23.35:001][259]LogEditorTransaction: Undo Delete Actors
+[2020.10.20-18.23.39:155][733]Cmd: EDIT COPY
+[2020.10.20-18.23.39:330][754]Cmd: EDIT PASTE
+[2020.10.20-18.23.43:433][223]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge44)
+[2020.10.20-18.23.44:985][401]Cmd: DELETE
+[2020.10.20-18.23.44:985][401]Cmd: ACTOR DELETE
+[2020.10.20-18.23.44:989][401]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.20-18.23.44:998][401]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2020.10.20-18.23.45:000][401]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2020.10.20-18.23.46:430][559]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_walkwayStraight_mesh_v46)
+[2020.10.20-18.23.47:366][655]Cmd: EDIT COPY
+[2020.10.20-18.23.47:539][669]Cmd: EDIT PASTE
+[2020.10.20-18.23.59:752][104]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge45)
+[2020.10.20-18.24.02:973][481]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge49)
+[2020.10.20-18.24.04:616][674]Cmd: DELETE
+[2020.10.20-18.24.04:617][674]Cmd: ACTOR DELETE
+[2020.10.20-18.24.04:621][674]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.20-18.24.04:629][674]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2020.10.20-18.24.04:632][674]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2020.10.20-18.24.04:927][709]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge50)
+[2020.10.20-18.24.05:030][718]Cmd: DELETE
+[2020.10.20-18.24.05:031][718]Cmd: ACTOR DELETE
+[2020.10.20-18.24.05:035][718]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.20-18.24.05:042][718]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2020.10.20-18.24.05:043][718]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2020.10.20-18.24.06:146][850]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_walkwayStraight_mesh_v46)
+[2020.10.20-18.24.07:028][942]Cmd: EDIT COPY
+[2020.10.20-18.24.07:217][958]Cmd: EDIT PASTE
+[2020.10.20-18.24.15:682][935]Cmd: EDIT COPY
+[2020.10.20-18.24.15:867][951]Cmd: EDIT PASTE
+[2020.10.20-18.24.21:469][588]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge46)
+[2020.10.20-18.24.24:934][983]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge47)
+[2020.10.20-18.24.26:069][107]Cmd: DELETE
+[2020.10.20-18.24.26:069][107]Cmd: ACTOR DELETE
+[2020.10.20-18.24.26:073][107]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.20-18.24.26:082][107]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2020.10.20-18.24.26:084][107]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2020.10.20-18.24.26:530][152]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_walkwayStraight_mesh_v47)
+[2020.10.20-18.24.27:162][223]Cmd: EDIT COPY
+[2020.10.20-18.24.27:366][247]Cmd: EDIT PASTE
+[2020.10.20-18.24.29:880][543]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge46)
+[2020.10.20-18.24.32:078][785]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge48)
+[2020.10.20-18.24.33:167][912]Cmd: DELETE
+[2020.10.20-18.24.33:167][912]Cmd: ACTOR DELETE
+[2020.10.20-18.24.33:171][912]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.20-18.24.33:179][912]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2020.10.20-18.24.33:182][912]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2020.10.20-18.24.33:678][971]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_walkwayStraight_mesh_v50)
+[2020.10.20-18.24.43:286][ 88]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge46)
+[2020.10.20-18.24.43:898][157]Cmd: EDIT COPY
+[2020.10.20-18.24.44:077][178]Cmd: EDIT PASTE
+[2020.10.20-18.24.46:145][420]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_walkwayStraight_mesh_v50)
+[2020.10.20-18.24.53:908][319]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ground11)
+[2020.10.20-18.24.56:837][642]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge70)
+[2020.10.20-18.24.59:369][917]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_walkwayStraight_mesh_v42)
+[2020.10.20-18.25.06:449][707]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_walkwayStraight_mesh_v50)
+[2020.10.20-18.25.06:804][740]Cmd: EDIT COPY
+[2020.10.20-18.25.06:987][760]Cmd: EDIT PASTE
+[2020.10.20-18.25.13:998][577]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge69)
+[2020.10.20-18.25.16:373][833]Cmd: DELETE
+[2020.10.20-18.25.16:373][833]Cmd: ACTOR DELETE
+[2020.10.20-18.25.16:378][833]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.20-18.25.16:378][833]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.20-18.25.16:386][833]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2020.10.20-18.25.16:388][833]LogEditorActor: Deleted 2 Actors (0.015 secs)
+[2020.10.20-18.25.16:841][887]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_walkwayStraight_mesh_v51)
+[2020.10.20-18.25.19:138][156]Cmd: EDIT COPY
+[2020.10.20-18.25.19:345][180]Cmd: EDIT PASTE
+[2020.10.20-18.25.23:758][682]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge66)
+[2020.10.20-18.25.27:149][ 62]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge65)
+[2020.10.20-18.25.28:441][210]Cmd: DELETE
+[2020.10.20-18.25.28:441][210]Cmd: ACTOR DELETE
+[2020.10.20-18.25.28:446][210]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.20-18.25.28:446][210]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.20-18.25.28:455][210]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2020.10.20-18.25.28:457][210]LogEditorActor: Deleted 2 Actors (0.015 secs)
+[2020.10.20-18.25.28:869][259]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_walkwayStraight_mesh_v51)
+[2020.10.20-18.25.30:088][396]Cmd: EDIT COPY
+[2020.10.20-18.25.30:304][421]Cmd: EDIT PASTE
+[2020.10.20-18.25.34:004][853]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge64)
+[2020.10.20-18.25.35:977][ 79]Cmd: DELETE
+[2020.10.20-18.25.35:977][ 79]Cmd: ACTOR DELETE
+[2020.10.20-18.25.35:982][ 79]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.20-18.25.35:990][ 79]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2020.10.20-18.25.35:992][ 79]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2020.10.20-18.25.36:469][129]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_walkwayStraight_mesh_v53)
+[2020.10.20-18.25.37:105][200]Cmd: EDIT COPY
+[2020.10.20-18.25.37:293][222]Cmd: EDIT PASTE
+[2020.10.20-18.25.40:180][554]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge68)
+[2020.10.20-18.25.41:929][739]Cmd: DELETE
+[2020.10.20-18.25.41:929][739]Cmd: ACTOR DELETE
+[2020.10.20-18.25.41:933][739]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.20-18.25.41:933][739]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.20-18.25.41:942][739]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2020.10.20-18.25.41:944][739]LogEditorActor: Deleted 2 Actors (0.015 secs)
+[2020.10.20-18.25.43:711][937]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_walkwayStraight_mesh_v51)
+[2020.10.20-18.25.48:440][460]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_walkwayStraight_mesh_v55)
+[2020.10.20-18.25.48:866][503]Cmd: EDIT COPY
+[2020.10.20-18.25.49:070][527]Cmd: EDIT PASTE
+[2020.10.20-18.25.54:826][196]Cmd: EDIT COPY
+[2020.10.20-18.25.55:029][220]Cmd: EDIT PASTE
+[2020.10.20-18.25.58:219][586]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge63)
+[2020.10.20-18.25.58:918][651]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge62)
+[2020.10.20-18.26.04:981][370]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_walkwayStraight_mesh_v56)
+[2020.10.20-18.26.06:118][501]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_walkwayStraight_mesh_v55)
+[2020.10.20-18.26.06:789][578]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_walkwayStraight_mesh_v56)
+[2020.10.20-18.26.09:028][836]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_walkwayStraight_mesh_v55)
+[2020.10.20-18.26.15:373][517]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge63)
+[2020.10.20-18.26.16:671][655]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge62)
+[2020.10.20-18.26.18:044][801]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge61)
+[2020.10.20-18.26.19:100][918]Cmd: DELETE
+[2020.10.20-18.26.19:100][918]Cmd: ACTOR DELETE
+[2020.10.20-18.26.19:104][918]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.20-18.26.19:113][918]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2020.10.20-18.26.19:115][918]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2020.10.20-18.26.19:704][988]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_walkwayStraight_mesh_v55)
+[2020.10.20-18.26.20:019][ 21]Cmd: EDIT COPY
+[2020.10.20-18.26.20:208][ 43]Cmd: EDIT PASTE
+[2020.10.20-18.26.20:658][ 93]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_walkwayStraight_mesh_v58)
+[2020.10.20-18.26.20:759][101]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2020.10.20-18.26.29:064][ 83]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BiggerWalls10x29)
+[2020.10.20-18.27.03:462][951]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge54)
+[2020.10.20-18.27.06:245][263]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge60)
+[2020.10.20-18.27.06:874][325]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge59)
+[2020.10.20-18.27.11:701][862]Cmd: DELETE
+[2020.10.20-18.27.11:702][862]Cmd: ACTOR DELETE
+[2020.10.20-18.27.11:706][862]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.20-18.27.11:706][862]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.20-18.27.11:706][862]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.20-18.27.11:707][862]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.20-18.27.11:715][862]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2020.10.20-18.27.11:717][862]LogEditorActor: Deleted 4 Actors (0.016 secs)
+[2020.10.20-18.27.13:133][ 24]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge54)
+[2020.10.20-18.27.17:098][460]Cmd: DELETE
+[2020.10.20-18.27.17:098][460]Cmd: ACTOR DELETE
+[2020.10.20-18.27.17:103][460]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.20-18.27.17:103][460]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.20-18.27.17:103][460]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.20-18.27.17:103][460]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.20-18.27.17:112][460]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2020.10.20-18.27.17:114][460]LogEditorActor: Deleted 4 Actors (0.016 secs)
+[2020.10.20-18.27.20:062][795]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_walkwayStraight_mesh_v58)
+[2020.10.20-18.27.21:439][935]Cmd: EDIT COPY
+[2020.10.20-18.27.21:642][955]Cmd: EDIT PASTE
+[2020.10.20-18.27.23:462][153]Cmd: EDIT COPY
+[2020.10.20-18.27.23:667][171]Cmd: EDIT PASTE
+[2020.10.20-18.27.25:091][330]Cmd: EDIT COPY
+[2020.10.20-18.27.25:302][355]Cmd: EDIT PASTE
+[2020.10.20-18.27.26:691][516]Cmd: EDIT COPY
+[2020.10.20-18.27.26:880][538]Cmd: EDIT PASTE
+[2020.10.20-18.27.29:134][790]Cmd: EDIT COPY
+[2020.10.20-18.27.29:367][810]Cmd: EDIT PASTE
+[2020.10.20-18.27.31:457][ 39]Cmd: EDIT COPY
+[2020.10.20-18.27.31:632][ 53]Cmd: EDIT PASTE
+[2020.10.20-18.27.33:466][264]Cmd: EDIT COPY
+[2020.10.20-18.27.33:661][287]Cmd: EDIT PASTE
+[2020.10.20-18.27.34:893][429]Cmd: EDIT COPY
+[2020.10.20-18.27.35:073][450]Cmd: EDIT PASTE
+[2020.10.20-18.27.44:617][556]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ground8)
+[2020.10.20-18.27.51:378][336]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge95)
+[2020.10.20-18.27.54:933][707]Cmd: POLY SELECT ADJACENT WALLS
+[2020.10.20-18.27.58:721][132]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge86)
+[2020.10.20-18.28.35:672][616]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2020.10.20-18.28.35:828][616]LogSavePackage: Moving 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Saved/Real_WhiteBox_Auto13825B231460A124E8FD12EB7BE8FD89C.tmp' to 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Saved/Autosaves/Game/Maps/Real_WhiteBox_Auto1.umap'
+[2020.10.20-18.28.35:833][616]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Real_WhiteBox' took 0.178
+[2020.10.20-18.28.35:833][616]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.178
+[2020.10.20-18.30.16:755][918]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ground6)
+[2020.10.20-18.30.22:330][547]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2020.10.20-18.30.23:835][715]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2020.10.20-18.33.53:452][880]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2020.10.20-18.33.53:475][880]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Real_WhiteBox" FILE="C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Maps/Real_WhiteBox.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.10.20-18.33.53:484][880]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2020.10.20-18.33.53:578][880]LogSavePackage: Moving 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Saved/Real_WhiteBoxDD456FF64091A4A4703A47B858970A03.tmp' to 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Maps/Real_WhiteBox.umap'
+[2020.10.20-18.33.53:603][880]LogFileHelpers: Saving map 'Real_WhiteBox' took 0.129
+[2020.10.20-18.33.53:610][880]AssetCheck: New page: Asset Save: Real_WhiteBox
+[2020.10.20-18.33.53:610][880]LogContentValidation: Display: Validating World /Game/Maps/Real_WhiteBox.Real_WhiteBox
