@@ -113,6 +113,7 @@ Plugins/*/Binaries/*
 # Builds
 Build/*
 
+
 # Whitelist PakBlacklist-<BuildConfiguration>.txt files
 !Build/*/
 Build/*/**
@@ -134,3 +135,4 @@ Plugins/*/Intermediate/*
 # Cache files for the editor to use
 DerivedDataCache/*
 
+HideNSneakUnreal/Saved/
