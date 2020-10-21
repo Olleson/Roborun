@@ -1979,3 +1979,7 @@ Make sure 'BPW_MenuJoin' has been compiled for  Async Task: Missing Function
 [2020.10.21-10.42.51:327][ 68]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Real_WhiteBox' took 0.125
 [2020.10.21-10.42.51:327][ 68]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.125
 [2020.10.21-10.43.31:164][188]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.10.21-10.52.51:869][585]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2020.10.21-10.52.52:011][585]LogSavePackage: Moving 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Saved/Real_WhiteBox_Auto6C9F116EB4586E7D4F3E8FEB3CDDE83E6.tmp' to 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Saved/Autosaves/Game/Maps/Real_WhiteBox_Auto6.umap'
+[2020.10.21-10.52.52:013][585]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Real_WhiteBox' took 0.155
+[2020.10.21-10.52.52:013][585]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.155
