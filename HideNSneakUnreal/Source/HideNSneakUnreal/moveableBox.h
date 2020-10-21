@@ -1,3 +1,4 @@
+//author: Oskar Johansson
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #pragma once
@@ -15,7 +16,7 @@ class HIDENSNEAKUNREAL_API UmoveableBox : public UActorComponent
 	UPROPERTY(EditAnywhere)
 		AActor* SelfActor;
 	UPROPERTY(EditAnywhere)
-		AActor* endpoint;
+		AActor* Endpoint;
 	UPROPERTY(EditAnywhere)
 		FVector StartPosition;
 	UPROPERTY(EditAnywhere)
@@ -30,19 +31,25 @@ class HIDENSNEAKUNREAL_API UmoveableBox : public UActorComponent
 		FVector TargetPosition;
 
 
+		
+
+
 
 		
 
 public:	
+
 	// Sets default values for this component's properties
 	UmoveableBox();
 
 protected:
 	// Called when the game starts
-	virtual void BeginPlay() override;
+		virtual void BeginPlay() override;
 
 public:	
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
+	UFUNCTION(BlueprintCallable)
+		virtual void SetActors(AActor *Self, AActor *Target);
 };

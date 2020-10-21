@@ -1,3 +1,4 @@
+//author: Oskar Johansson
 // Fill out your copyright notice in the Description page of Project Settings.
 
 
@@ -18,11 +19,19 @@ UmoveableBox::UmoveableBox()
 void UmoveableBox::BeginPlay()
 {
 	Super::BeginPlay();
+	if (SelfActor && Endpoint) {
 	StartPosition = SelfActor->GetTransform().GetLocation();
-	EndPosition = endpoint->GetTransform().GetLocation();
+	EndPosition = Endpoint->GetTransform().GetLocation();
+	TargetPosition = EndPosition;
 	movementvecktor = (EndPosition - StartPosition).GetSafeNormal() * MovementSpeed;
+	}
 	//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("wtf"));
 	// ...
+}
+
+void UmoveableBox::SetActors(AActor *selfActor, AActor *endpoint) {
+	selfActor = SelfActor;
+	endpoint = Endpoint;
 }
 
 
@@ -30,11 +39,25 @@ void UmoveableBox::BeginPlay()
 void UmoveableBox::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
-	/*if(SelfActor->ActorGetDistanceToCollision() <)*/
-	//SelfActor->OnActorHit
 
-	if ((EndPosition - SelfActor->GetTransform().GetLocation()).Size() < 10) {
-		SelfActor->SetActorLocation(SelfActor->GetTransform().GetLocation() + movementvecktor);
+	if (SelfActor && Endpoint) {
+		if ((TargetPosition - SelfActor->GetTransform().GetLocation()).Size() > MovementSpeed) {
+			SelfActor->SetActorLocation(SelfActor->GetTransform().GetLocation() + movementvecktor);
+		}
+		else
+		{
+			if (TargetPosition == StartPosition) {
+				TargetPosition = EndPosition;
+				movementvecktor = (EndPosition - StartPosition).GetSafeNormal() * MovementSpeed;
+			}
+			else {
+				TargetPosition = StartPosition;
+				movementvecktor = (StartPosition - EndPosition).GetSafeNormal() * MovementSpeed;
+			}
+		}
+	}
+	else {
+		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("You did not set the Endpoint or "));
 	}
 	//else {
 	//	if (TargetPosition == EndPosition) {
