@@ -24,10 +24,10 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 	UPROPERTY(VisibleAnywhere)
-		class UCapsuleComponent* MyComp;
+		class UBoxComponent* MyComp;
 
 	UPROPERTY(EditAnywhere)
-		bool isHider;
+		bool isSeeker;
 
 	UPROPERTY(EditAnywhere)
 		AActor* targetActor;
@@ -36,5 +36,9 @@ public:
 		ATagMechanic* targetTagMechanic;
 
 	UFUNCTION()
+		void TurnIntoSeeker();
+
+	UFUNCTION()
 		void OnCompHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit);
+
 };
