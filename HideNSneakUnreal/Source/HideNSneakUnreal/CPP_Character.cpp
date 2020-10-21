@@ -13,6 +13,9 @@ ACPP_Character::ACPP_Character()
 	bUseControllerRotationRoll = false;
 	bUseControllerRotationYaw = false;
 
+	GetCharacterMovement()->bOrientRotationToMovement = true;
+	
+
 	CameraBoom = CreateDefaultSubobject<USpringArmComponent>(TEXT("CameraBoom"));
 	CameraBoom->SetupAttachment(RootComponent);
 	CameraBoom->bUsePawnControlRotation = true;
@@ -45,17 +48,29 @@ void ACPP_Character::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 
 	PlayerInputComponent->BindAxis("Turn",this,&APawn::AddControllerYawInput);
 	PlayerInputComponent->BindAxis("LookUp", this, &APawn::AddControllerPitchInput);
+	
 	PlayerInputComponent->BindAxis("MoveForward", this, &ACPP_Character::MoveForward);
 	PlayerInputComponent->BindAxis("MoveRight", this, &ACPP_Character::MoveRight);
+
+	PlayerInputComponent->BindAction("Jump", IE_Pressed,this, &ACharacter::Jump);
+	PlayerInputComponent->BindAction("Jump", IE_Released,this, &ACharacter::StopJumping);
 }
 
 void ACPP_Character::MoveForward(float axis)
 {
 	const FRotator control_rotation = Controller->GetControlRotation();
-	const FRotator control_rotation = Controller->GetControlRotation();
+	const FRotator control_rotation_yawonly = FRotator(0, control_rotation.Yaw, 0);
+	const FVector fwd = FRotationMatrix(control_rotation_yawonly).GetUnitAxis(EAxis::X);
+
+	AddMovementInput(fwd, axis);
 }
 
 void ACPP_Character::MoveRight(float axis)
 {
+	const FRotator control_rotation = Controller->GetControlRotation();
+	const FRotator control_rotation_yawonly = FRotator(0, control_rotation.Yaw, 0);
+	const FVector right = FRotationMatrix(control_rotation_yawonly).GetUnitAxis(EAxis::Y);
+
+	AddMovementInput(right, axis);
 }
 
