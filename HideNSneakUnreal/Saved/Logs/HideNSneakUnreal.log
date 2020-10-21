@@ -1,8 +1,8 @@
-﻿Log file open, 10/20/20 16:35:38
+﻿Log file open, 10/21/20 11:44:19
 LogInit: Display: Running engine for game: HideNSneakUnreal
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.429692
+LogStats: Stats thread started at 0.315398
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -196,449 +196,690 @@ LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2020.10.20-14.35.41:326][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2020.10.20-14.35.41:326][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2020.10.20-14.35.41:326][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Engine.ini]
-[2020.10.20-14.35.41:326][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2020.10.20-14.35.41:326][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Engine.ini]
-[2020.10.20-14.35.41:326][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Engine.ini]
-[2020.10.20-14.35.41:326][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2020.10.20-14.35.41:326][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2020.10.20-14.35.41:326][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2020.10.20-14.35.41:326][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2020.10.20-14.35.41:326][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2020.10.20-14.35.41:326][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2020.10.20-14.35.41:326][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2020.10.20-14.35.41:326][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2020.10.20-14.35.41:326][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2020.10.20-14.35.41:326][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2020.10.20-14.35.41:326][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2020.10.20-14.35.41:326][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2020.10.20-14.35.41:326][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2020.10.20-14.35.41:326][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2020.10.20-14.35.41:326][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Engine.ini]
-[2020.10.20-14.35.41:326][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2020.10.20-14.35.41:326][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2020.10.20-14.35.41:326][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2020.10.20-14.35.41:326][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2020.10.20-14.35.41:327][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2020.10.20-14.35.41:327][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2020.10.20-14.35.41:327][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2020.10.20-14.35.41:327][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2020.10.20-14.35.41:327][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2020.10.20-14.35.41:327][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2020.10.20-14.35.41:327][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2020.10.20-14.35.41:327][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2020.10.20-14.35.41:327][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2020.10.20-14.35.41:327][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Engine.ini]
-[2020.10.20-14.35.41:327][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Engine.ini]
-[2020.10.20-14.35.41:333][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
-[2020.10.20-14.35.41:333][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.10.20-14.35.41:333][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.10.20-14.35.41:333][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
-[2020.10.20-14.35.41:333][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.10.20-14.35.41:333][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
-[2020.10.20-14.35.41:333][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.10.20-14.35.41:333][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.10.20-14.35.41:333][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.10.20-14.35.41:333][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.10.20-14.35.41:333][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.10.20-14.35.41:333][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.10.20-14.35.41:333][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.10.20-14.35.41:333][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.10.20-14.35.41:333][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.10.20-14.35.41:333][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.10.20-14.35.41:333][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.10.20-14.35.41:333][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.10.20-14.35.41:333][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.10.20-14.35.41:333][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.10.20-14.35.41:333][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.10.20-14.35.41:333][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.10.20-14.35.41:333][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.10.20-14.35.41:333][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.10.20-14.35.41:333][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
-[2020.10.20-14.35.41:333][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.10.20-14.35.41:333][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.10.20-14.35.41:333][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.10.20-14.35.41:333][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.10.20-14.35.41:333][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.10.20-14.35.41:333][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.10.20-14.35.41:333][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.10.20-14.35.41:333][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.10.20-14.35.41:333][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.10.20-14.35.41:333][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.10.20-14.35.41:333][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.10.20-14.35.41:333][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.10.20-14.35.41:333][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.10.20-14.35.41:333][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.10.20-14.35.41:333][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.10.20-14.35.41:333][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.10.20-14.35.41:333][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.10.20-14.35.41:334][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.10.20-14.35.41:334][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.10.20-14.35.41:334][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.10.20-14.35.41:334][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.10.20-14.35.41:334][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.10.20-14.35.41:334][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.10.20-14.35.41:334][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.10.20-14.35.41:334][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.10.20-14.35.41:334][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.10.20-14.35.41:334][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.10.20-14.35.41:334][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.10.20-14.35.41:334][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.10.20-14.35.41:334][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.10.20-14.35.41:334][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
-[2020.10.20-14.35.41:334][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.10.20-14.35.41:334][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.10.20-14.35.41:334][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.10.20-14.35.41:334][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.10.20-14.35.41:334][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.10.20-14.35.41:334][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.10.20-14.35.41:334][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.10.20-14.35.41:334][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.10.20-14.35.41:334][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.10.20-14.35.41:334][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
-[2020.10.20-14.35.41:334][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.10.20-14.35.41:334][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.10.20-14.35.41:334][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.10.20-14.35.41:334][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.10.20-14.35.41:334][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.10.20-14.35.41:334][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.10.20-14.35.41:334][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.10.20-14.35.41:334][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.10.20-14.35.41:334][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.10.20-14.35.41:334][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.10.20-14.35.41:334][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.10.20-14.35.41:334][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2020.10.20-14.35.41:334][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.10.20-14.35.41:334][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.10.20-14.35.41:334][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.10.20-14.35.41:334][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.10.20-14.35.41:334][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.10.20-14.35.41:334][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.10.20-14.35.41:334][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.10.20-14.35.41:334][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.10.20-14.35.41:334][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.10.20-14.35.41:334][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.10.20-14.35.41:334][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.10.20-14.35.41:334][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.10.20-14.35.41:334][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.10.20-14.35.41:334][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.10.20-14.35.41:335][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
-[2020.10.20-14.35.41:335][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.10.20-14.35.41:335][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.10.20-14.35.41:335][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
-[2020.10.20-14.35.41:335][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.10.20-14.35.41:335][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.10.20-14.35.41:335][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.10.20-14.35.41:335][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2020.10.20-14.35.41:335][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2020.10.20-14.35.41:335][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2020.10.20-14.35.41:335][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2020.10.20-14.35.41:335][  0]LogInit: Selected Device Profile: [Windows]
-[2020.10.20-14.35.41:335][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2020.10.20-14.35.41:335][  0]LogHAL: Display: Platform has ~ 16 GB [17161113600 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2020.10.20-14.35.41:335][  0]LogInit: Going up to parent DeviceProfile []
-[2020.10.20-14.35.41:335][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
-[2020.10.20-14.35.41:335][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.10.20-14.35.41:335][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.10.20-14.35.41:335][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
-[2020.10.20-14.35.41:335][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.10.20-14.35.41:335][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
-[2020.10.20-14.35.41:335][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.10.20-14.35.41:335][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.10.20-14.35.41:335][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.10.20-14.35.41:335][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.10.20-14.35.41:335][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.10.20-14.35.41:335][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.10.20-14.35.41:335][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.10.20-14.35.41:335][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.10.20-14.35.41:335][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.10.20-14.35.41:335][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.10.20-14.35.41:335][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.10.20-14.35.41:335][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.10.20-14.35.41:335][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.10.20-14.35.41:335][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.10.20-14.35.41:335][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.10.20-14.35.41:335][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.10.20-14.35.41:335][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.10.20-14.35.41:335][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.10.20-14.35.41:335][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
-[2020.10.20-14.35.41:335][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.10.20-14.35.41:335][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.10.20-14.35.41:335][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.10.20-14.35.41:335][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.10.20-14.35.41:336][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.10.20-14.35.41:336][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.10.20-14.35.41:336][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.10.20-14.35.41:336][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.10.20-14.35.41:336][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.10.20-14.35.41:336][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.10.20-14.35.41:336][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.10.20-14.35.41:336][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.10.20-14.35.41:336][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.10.20-14.35.41:336][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.10.20-14.35.41:336][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.10.20-14.35.41:336][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.10.20-14.35.41:336][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.10.20-14.35.41:336][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.10.20-14.35.41:336][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.10.20-14.35.41:336][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.10.20-14.35.41:336][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.10.20-14.35.41:336][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.10.20-14.35.41:336][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.10.20-14.35.41:336][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.10.20-14.35.41:336][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.10.20-14.35.41:336][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.10.20-14.35.41:336][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.10.20-14.35.41:336][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.10.20-14.35.41:336][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.10.20-14.35.41:336][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.10.20-14.35.41:336][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
-[2020.10.20-14.35.41:336][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.10.20-14.35.41:336][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.10.20-14.35.41:336][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.10.20-14.35.41:336][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.10.20-14.35.41:336][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.10.20-14.35.41:336][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.10.20-14.35.41:336][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.10.20-14.35.41:336][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.10.20-14.35.41:336][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.10.20-14.35.41:336][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
-[2020.10.20-14.35.41:336][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.10.20-14.35.41:336][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.10.20-14.35.41:336][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.10.20-14.35.41:336][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.10.20-14.35.41:336][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.10.20-14.35.41:336][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.10.20-14.35.41:336][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.10.20-14.35.41:336][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.10.20-14.35.41:336][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.10.20-14.35.41:336][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.10.20-14.35.41:336][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.10.20-14.35.41:336][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2020.10.20-14.35.41:336][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.10.20-14.35.41:336][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.10.20-14.35.41:336][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.10.20-14.35.41:337][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.10.20-14.35.41:337][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.10.20-14.35.41:337][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.10.20-14.35.41:337][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.10.20-14.35.41:337][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.10.20-14.35.41:337][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.10.20-14.35.41:337][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.10.20-14.35.41:337][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.10.20-14.35.41:337][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.10.20-14.35.41:337][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.10.20-14.35.41:337][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.10.20-14.35.41:337][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
-[2020.10.20-14.35.41:337][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.10.20-14.35.41:337][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.10.20-14.35.41:337][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
-[2020.10.20-14.35.41:337][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.10.20-14.35.41:337][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.10.20-14.35.41:337][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.10.20-14.35.41:337][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2020.10.20-14.35.41:337][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2020.10.20-14.35.41:337][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2020.10.20-14.35.41:337][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2020.10.20-14.35.41:337][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2020.10.20-14.35.41:345][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2020.10.20-14.35.41:345][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2020.10.20-14.35.41:345][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
-[2020.10.20-14.35.41:345][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Engine.ini]
-[2020.10.20-14.35.41:345][  0]LogInit: Computer: DESKTOP-BTA50U2
-[2020.10.20-14.35.41:345][  0]LogInit: User: fredr
-[2020.10.20-14.35.41:345][  0]LogInit: CPU Page size=4096, Cores=4
-[2020.10.20-14.35.41:345][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2020.10.20-14.35.41:346][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
-[2020.10.20-14.35.41:346][  0]LogMemory: Platform Memory Stats for Windows
-[2020.10.20-14.35.41:346][  0]LogMemory: Process Physical Memory: 114.99 MB used, 114.99 MB peak
-[2020.10.20-14.35.41:346][  0]LogMemory: Process Virtual Memory: 96.08 MB used, 96.08 MB peak
-[2020.10.20-14.35.41:346][  0]LogMemory: Physical Memory: 8515.99 MB used,  7850.12 MB free, 16366.11 MB total
-[2020.10.20-14.35.41:346][  0]LogMemory: Virtual Memory: 5144.88 MB used,  134212584.00 MB free, 134217728.00 MB total
-[2020.10.20-14.35.41:355][  0]LogWindows: WindowsPlatformFeatures enabled
-[2020.10.20-14.35.42:056][  0]LogInit: Physics initialised using underlying interface: PhysX
-[2020.10.20-14.35.42:057][  0]LogInit: Using OS detected language (en-GB).
-[2020.10.20-14.35.42:057][  0]LogInit: Using OS detected locale (en-GB).
-[2020.10.20-14.35.42:062][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
-[2020.10.20-14.35.42:458][  0]LogInit: Setting process to per monitor DPI aware
-[2020.10.20-14.35.42:645][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2020.10.20-14.35.42:645][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2020.10.20-14.35.47:032][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.10.20-14.35.47:032][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
-[2020.10.20-14.35.47:032][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
-[2020.10.20-14.35.47:032][  0]LogD3D11RHI: D3D11 adapters:
-[2020.10.20-14.35.47:151][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
-[2020.10.20-14.35.47:151][  0]LogD3D11RHI:       8088/0/8183 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2020.10.20-14.35.47:155][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2020.10.20-14.35.47:155][  0]LogD3D11RHI:       0/0/8183 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2020.10.20-14.35.47:155][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2020.10.20-14.35.47:169][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2020.10.20-14.35.47:169][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
-[2020.10.20-14.35.47:169][  0]LogWindows: EnumDisplayDevices:
-[2020.10.20-14.35.47:170][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
-[2020.10.20-14.35.47:170][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
-[2020.10.20-14.35.47:170][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2020.10.20-14.35.47:171][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2020.10.20-14.35.47:171][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2020.10.20-14.35.47:171][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
-[2020.10.20-14.35.47:171][  0]LogD3D11RHI:   Driver Version: 441.20 (internal:26.21.14.4120, unified:441.20)
-[2020.10.20-14.35.47:171][  0]LogD3D11RHI:      Driver Date: 11-6-2019
-[2020.10.20-14.35.47:171][  0]LogRHI: Texture pool is 5661 MB (70% of 8088 MB)
-[2020.10.20-14.35.47:251][  0]LogD3D11RHI: RHI has support for 64 bit atomics
-[2020.10.20-14.35.47:253][  0]LogD3D11RHI: [Aftermath] Enabled and primed
-[2020.10.20-14.35.47:253][  0]LogD3D11RHI: Async texture creation enabled
-[2020.10.20-14.35.47:253][  0]LogD3D11RHI: Array index from any shader is supported
-[2020.10.20-14.35.47:296][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2020.10.20-14.35.48:140][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
-[2020.10.20-14.35.48:207][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
-[2020.10.20-14.35.48:207][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
-[2020.10.20-14.35.48:207][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
-[2020.10.20-14.35.48:207][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
-[2020.10.20-14.35.48:207][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
-[2020.10.20-14.35.48:207][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
-[2020.10.20-14.35.48:207][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
-[2020.10.20-14.35.48:207][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
-[2020.10.20-14.35.48:207][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
-[2020.10.20-14.35.48:207][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
-[2020.10.20-14.35.48:357][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
-[2020.10.20-14.35.48:357][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
-[2020.10.20-14.35.48:416][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
-[2020.10.20-14.35.48:468][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
-[2020.10.20-14.35.48:517][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
-[2020.10.20-14.35.48:565][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
-[2020.10.20-14.35.48:610][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
-[2020.10.20-14.35.48:649][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
-[2020.10.20-14.35.48:693][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
-[2020.10.20-14.35.48:780][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
-[2020.10.20-14.35.48:780][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
-[2020.10.20-14.35.48:837][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
-[2020.10.20-14.35.48:837][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
-[2020.10.20-14.35.48:896][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2020.10.20-14.35.48:952][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2020.10.20-14.35.49:001][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2020.10.20-14.35.49:049][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2020.10.20-14.35.49:049][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2020.10.20-14.35.49:240][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2020.10.20-14.35.50:160][  0]LogShaderCompilers: Guid format shader working directory is -15 characters bigger than the processId version (C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Intermediate/Shaders/WorkingDirectory/12996/).
-[2020.10.20-14.35.50:160][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/fredr/AppData/Local/Temp/UnrealShaderWorkingDir/EFC6401949E60DBF6C2FEC996164CED3/'.
-[2020.10.20-14.35.50:160][  0]LogXGEController: Cleaning working directory: C:/Users/fredr/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2020.10.20-14.35.50:161][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2020.10.20-14.35.50:161][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2020.10.20-14.35.50:161][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2020.10.20-14.35.55:254][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2020.10.20-14.35.55:356][  0]LogDerivedDataCache: Loaded boot cache 0.10s 75MB C:/Users/fredr/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2020.10.20-14.35.55:357][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/fredr/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
-[2020.10.20-14.35.55:357][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2020.10.20-14.35.55:357][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2020.10.20-14.35.55:357][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.10.20-14.35.55:357][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2020.10.20-14.35.55:399][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2020.10.20-14.35.55:399][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.10.20-14.35.55:399][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2020.10.20-14.35.55:401][  0]LogDerivedDataCache: Using Local data cache path C:/Users/fredr/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2020.10.20-14.35.55:401][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2020.10.20-14.35.55:401][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2020.10.20-14.35.55:483][  0]LogSlate: Using FreeType 2.10.0
-[2020.10.20-14.35.55:503][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.10.20-14.35.56:045][  0]LogAssetRegistry: FAssetRegistry took 0.0036 seconds to start up
-[2020.10.20-14.35.56:428][  0]LogInit: Selected Device Profile: [Windows]
-[2020.10.20-14.35.57:433][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2020.10.20-14.35.57:433][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2020.10.20-14.35.57:433][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2020.10.20-14.35.57:433][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2020.10.20-14.35.57:433][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2020.10.20-14.35.57:540][  0]LogNetVersion: HideNSneakUnreal 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 3367979030)
-[2020.10.20-14.36.04:078][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000002637E4BEF80), frame # 0
-[2020.10.20-14.36.04:078][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002637E4711C0), frame # 0
-[2020.10.20-14.36.04:080][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002637E4C1C00), frame # 0
-[2020.10.20-14.36.04:250][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.100125 seconds
-[2020.10.20-14.36.04:257][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
-[2020.10.20-14.36.04:257][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
-[2020.10.20-14.36.04:257][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2020.10.20-14.36.08:769][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2020.10.20-14.36.08:820][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2020.10.20-14.36.09:697][  0]SourceControl: Source control is disabled
-[2020.10.20-14.36.09:697][  0]SourceControl: Source control is disabled
-[2020.10.20-14.36.09:751][  0]SourceControl: Source control is disabled
-[2020.10.20-14.36.09:796][  0]SourceControl: Source control is disabled
-[2020.10.20-14.36.09:873][  0]SourceControl: Source control is disabled
-[2020.10.20-14.36.13:154][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2020.10.20-14.36.13:395][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.10.20-14.36.13:395][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.10.20-14.36.13:945][  0]LogOcInput: OculusInput pre-init called
-[2020.10.20-14.36.14:048][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2020.10.20-14.36.14:048][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2020.10.20-14.36.14:482][  0]LogEngine: Initializing Engine...
-[2020.10.20-14.36.14:484][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.10.20-14.36.14:484][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
-[2020.10.20-14.36.14:485][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2020.10.20-14.36.15:303][  0]LogInit: Initializing FReadOnlyCVARCache
-[2020.10.20-14.36.15:361][  0]LogAIModule: Creating AISystem for world Untitled
-[2020.10.20-14.36.15:361][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000263013FC600), frame # 0
-[2020.10.20-14.36.15:361][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000026301421580), frame # 0
-[2020.10.20-14.36.15:400][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.10.20-14.36.15:400][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.10.20-14.36.15:400][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.10.20-14.36.15:400][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.10.20-14.36.15:400][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.10.20-14.36.15:400][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.10.20-14.36.15:400][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.10.20-14.36.15:400][  0]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.10.20-14.36.15:401][  0]LogAudio: Display: Using built-in audio occlusion.
-[2020.10.20-14.36.15:401][  0]LogAudioMixer: Display: Initializing audio mixer.
-[2020.10.20-14.36.15:478][  0]LogAudioMixer: Display: 0: FrontLeft
-[2020.10.20-14.36.15:478][  0]LogAudioMixer: Display: 1: FrontRight
-[2020.10.20-14.36.15:532][  0]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX Virtual Surround Sound)
-[2020.10.20-14.36.15:533][  0]LogAudioMixer: Display: Initializing Sound Submixes...
-[2020.10.20-14.36.15:570][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2020.10.20-14.36.15:570][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2020.10.20-14.36.15:572][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2020.10.20-14.36.15:573][  0]LogInit: FAudioDevice initialized.
-[2020.10.20-14.36.15:573][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2020.10.20-14.36.15:725][  0]LogDerivedDataCache: Saved boot cache 0.15s 75MB C:/Users/fredr/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2020.10.20-14.36.15:731][  0]LogInit: Texture streaming: Enabled
-[2020.10.20-14.36.15:910][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2020.10.20-14.36.15:910][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2020.10.20-14.36.15:912][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2020.10.20-14.36.16:143][  0]LogInit: Transaction tracking system initialized
-[2020.10.20-14.36.16:424][  0]BlueprintLog: New page: Editor Load
-[2020.10.20-14.36.17:346][  0]LocalizationService: Localization service is disabled
-[2020.10.20-14.36.18:972][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2020.10.20-14.36.18:972][  0]LogCook: Display: Mobile HDR setting 1
-[2020.10.20-14.36.19:496][  0]LogFileCache: Scanning file cache for directory 'C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Content/' took 0.01s
-[2020.10.20-14.36.24:961][  0]SourceControl: Source control is disabled
-[2020.10.20-14.36.24:961][  0]LogUnrealEdMisc: Loading editor; pre map load, took 51.132
-[2020.10.20-14.36.24:962][  0]Cmd: MAP LOAD FILE="C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.10.20-14.36.24:962][  0]LogEditorServer: Warning: Can't find file 'C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
-[2020.10.20-14.36.24:962][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.10.20-14.36.24:962][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.309ms to complete.
-[2020.10.20-14.36.24:963][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.001
-[2020.10.20-14.36.24:965][  0]LogUnrealEdMisc: Total Editor Startup Time, took 51.136
-[2020.10.20-14.36.25:171][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.10.20-14.36.25:182][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.10.20-14.36.25:192][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.10.20-14.36.25:203][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.10.20-14.36.25:249][  0]LogCollectionManager: Loaded 0 collections in 0.002676 seconds
-[2020.10.20-14.36.25:272][  0]LogFileCache: Scanning file cache for directory 'C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Saved/Collections/' took 0.00s
-[2020.10.20-14.36.25:272][  0]LogFileCache: Scanning file cache for directory 'C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Content/Developers/fredr/Collections/' took 0.00s
-[2020.10.20-14.36.25:272][  0]LogFileCache: Scanning file cache for directory 'C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Content/Collections/' took 0.00s
-[2020.10.20-14.36.25:272][  0]LogContentBrowser: Native class hierarchy populated in 0.0152 seconds. Added 3427 classes and 821 folders.
-[2020.10.20-14.36.25:275][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2020.10.20-14.36.26:754][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2020.10.20-14.36.26:755][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 0 folders.
-[2020.10.20-14.36.26:818][  0]LogSlate: Took 0.008595 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.10.20-14.36.26:828][  0]LogSlate: Took 0.007714 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2020.10.20-14.36.26:842][  0]LogSlate: Took 0.008136 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2020.10.20-14.36.27:268][  0]LogRenderer: Reallocating scene render targets to support 968x492 Format 10 NumSamples 1 (Frame:1).
-[2020.10.20-14.36.27:913][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2020.10.20-14.36.27:913][  0]LogLoad: (Engine Initialization) Total time: 54.08 seconds
-[2020.10.20-14.36.27:913][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2020.10.20-14.36.27:975][  0]LogAssetRegistry: Asset discovery search completed in 31.9314 seconds
-[2020.10.20-14.36.27:980][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
-[2020.10.20-14.36.27:982][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2020.10.20-14.36.28:049][  0]LogSlate: Took 0.007900 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.10.20-14.36.28:055][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Content/' took 0.13s
-[2020.10.20-14.40.47:467][646]LogSlate: Window 'Open Level' being destroyed
-[2020.10.20-14.41.53:372][229]LogSlate: Window 'Open Level' being destroyed
+[2020.10.21-09.44.19:697][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.10.21-09.44.19:697][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.10.21-09.44.19:697][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Engine.ini]
+[2020.10.21-09.44.19:697][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.10.21-09.44.19:697][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Engine.ini]
+[2020.10.21-09.44.19:697][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Engine.ini]
+[2020.10.21-09.44.19:697][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.10.21-09.44.19:697][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.10.21-09.44.19:697][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.10.21-09.44.19:697][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.10.21-09.44.19:697][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.10.21-09.44.19:697][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.10.21-09.44.19:697][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.10.21-09.44.19:697][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.10.21-09.44.19:697][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.10.21-09.44.19:697][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.10.21-09.44.19:697][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.10.21-09.44.19:697][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.10.21-09.44.19:697][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.10.21-09.44.19:697][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.10.21-09.44.19:697][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Engine.ini]
+[2020.10.21-09.44.19:697][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.10.21-09.44.19:697][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.10.21-09.44.19:697][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.10.21-09.44.19:697][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.10.21-09.44.19:697][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.10.21-09.44.19:697][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.10.21-09.44.19:697][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.10.21-09.44.19:697][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.10.21-09.44.19:697][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.10.21-09.44.19:697][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.10.21-09.44.19:697][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.10.21-09.44.19:697][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.10.21-09.44.19:697][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.10.21-09.44.19:697][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Engine.ini]
+[2020.10.21-09.44.19:697][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Engine.ini]
+[2020.10.21-09.44.19:704][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.10.21-09.44.19:704][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.10.21-09.44.19:704][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.10.21-09.44.19:704][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.10.21-09.44.19:704][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.10.21-09.44.19:704][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.10.21-09.44.19:704][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.10.21-09.44.19:704][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.10.21-09.44.19:704][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.10.21-09.44.19:704][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.10.21-09.44.19:704][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.10.21-09.44.19:704][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.10.21-09.44.19:704][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.10.21-09.44.19:704][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.10.21-09.44.19:704][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.10.21-09.44.19:704][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.10.21-09.44.19:704][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.10.21-09.44.19:704][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.10.21-09.44.19:704][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.10.21-09.44.19:704][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.10.21-09.44.19:705][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.10.21-09.44.19:705][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.10.21-09.44.19:705][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.10.21-09.44.19:705][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.10.21-09.44.19:705][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.10.21-09.44.19:705][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.10.21-09.44.19:705][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.10.21-09.44.19:705][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.10.21-09.44.19:705][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.10.21-09.44.19:705][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.10.21-09.44.19:705][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.10.21-09.44.19:705][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.10.21-09.44.19:705][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.10.21-09.44.19:705][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.10.21-09.44.19:705][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.10.21-09.44.19:705][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.10.21-09.44.19:705][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.10.21-09.44.19:705][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.10.21-09.44.19:705][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.10.21-09.44.19:705][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.10.21-09.44.19:705][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.10.21-09.44.19:705][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.10.21-09.44.19:705][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.10.21-09.44.19:705][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.10.21-09.44.19:705][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.10.21-09.44.19:705][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.10.21-09.44.19:705][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.10.21-09.44.19:705][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.10.21-09.44.19:705][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.10.21-09.44.19:705][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.10.21-09.44.19:705][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.10.21-09.44.19:705][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.10.21-09.44.19:705][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.10.21-09.44.19:705][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.10.21-09.44.19:705][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.10.21-09.44.19:705][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.10.21-09.44.19:705][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.10.21-09.44.19:705][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.10.21-09.44.19:705][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.10.21-09.44.19:705][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.10.21-09.44.19:706][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.10.21-09.44.19:706][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.10.21-09.44.19:706][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.10.21-09.44.19:706][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.10.21-09.44.19:706][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.10.21-09.44.19:706][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.10.21-09.44.19:706][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.10.21-09.44.19:706][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.10.21-09.44.19:706][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.10.21-09.44.19:706][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.10.21-09.44.19:706][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.10.21-09.44.19:706][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.10.21-09.44.19:706][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.10.21-09.44.19:706][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.10.21-09.44.19:706][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.10.21-09.44.19:706][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.10.21-09.44.19:706][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.10.21-09.44.19:706][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.10.21-09.44.19:706][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.10.21-09.44.19:706][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.10.21-09.44.19:706][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.10.21-09.44.19:706][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.10.21-09.44.19:706][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.10.21-09.44.19:706][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.10.21-09.44.19:706][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.10.21-09.44.19:706][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.10.21-09.44.19:706][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.10.21-09.44.19:706][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.10.21-09.44.19:706][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.10.21-09.44.19:706][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.10.21-09.44.19:706][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.10.21-09.44.19:706][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.10.21-09.44.19:706][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.10.21-09.44.19:706][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.10.21-09.44.19:706][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.10.21-09.44.19:706][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.10.21-09.44.19:706][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.10.21-09.44.19:706][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.10.21-09.44.19:706][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.10.21-09.44.19:706][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.10.21-09.44.19:706][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.10.21-09.44.19:706][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.10.21-09.44.19:706][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.10.21-09.44.19:707][  0]LogInit: Selected Device Profile: [Windows]
+[2020.10.21-09.44.19:707][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.10.21-09.44.19:707][  0]LogHAL: Display: Platform has ~ 16 GB [17161113600 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.10.21-09.44.19:707][  0]LogInit: Going up to parent DeviceProfile []
+[2020.10.21-09.44.19:707][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.10.21-09.44.19:707][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.10.21-09.44.19:707][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.10.21-09.44.19:707][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.10.21-09.44.19:707][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.10.21-09.44.19:707][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.10.21-09.44.19:707][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.10.21-09.44.19:707][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.10.21-09.44.19:707][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.10.21-09.44.19:707][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.10.21-09.44.19:707][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.10.21-09.44.19:707][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.10.21-09.44.19:707][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.10.21-09.44.19:707][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.10.21-09.44.19:707][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.10.21-09.44.19:707][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.10.21-09.44.19:707][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.10.21-09.44.19:707][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.10.21-09.44.19:707][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.10.21-09.44.19:707][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.10.21-09.44.19:707][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.10.21-09.44.19:707][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.10.21-09.44.19:707][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.10.21-09.44.19:707][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.10.21-09.44.19:707][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.10.21-09.44.19:707][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.10.21-09.44.19:707][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.10.21-09.44.19:707][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.10.21-09.44.19:707][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.10.21-09.44.19:707][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.10.21-09.44.19:707][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.10.21-09.44.19:707][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.10.21-09.44.19:707][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.10.21-09.44.19:707][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.10.21-09.44.19:707][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.10.21-09.44.19:707][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.10.21-09.44.19:707][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.10.21-09.44.19:707][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.10.21-09.44.19:708][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.10.21-09.44.19:708][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.10.21-09.44.19:708][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.10.21-09.44.19:708][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.10.21-09.44.19:708][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.10.21-09.44.19:708][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.10.21-09.44.19:708][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.10.21-09.44.19:708][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.10.21-09.44.19:708][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.10.21-09.44.19:708][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.10.21-09.44.19:708][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.10.21-09.44.19:708][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.10.21-09.44.19:708][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.10.21-09.44.19:708][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.10.21-09.44.19:708][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.10.21-09.44.19:708][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.10.21-09.44.19:708][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.10.21-09.44.19:708][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.10.21-09.44.19:708][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.10.21-09.44.19:708][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.10.21-09.44.19:708][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.10.21-09.44.19:708][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.10.21-09.44.19:708][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.10.21-09.44.19:708][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.10.21-09.44.19:708][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.10.21-09.44.19:708][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.10.21-09.44.19:708][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.10.21-09.44.19:708][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.10.21-09.44.19:708][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.10.21-09.44.19:708][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.10.21-09.44.19:708][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.10.21-09.44.19:708][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.10.21-09.44.19:708][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.10.21-09.44.19:708][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.10.21-09.44.19:708][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.10.21-09.44.19:708][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.10.21-09.44.19:708][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.10.21-09.44.19:708][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.10.21-09.44.19:708][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.10.21-09.44.19:708][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.10.21-09.44.19:708][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.10.21-09.44.19:708][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.10.21-09.44.19:708][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.10.21-09.44.19:708][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.10.21-09.44.19:708][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.10.21-09.44.19:708][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.10.21-09.44.19:708][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.10.21-09.44.19:708][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.10.21-09.44.19:708][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.10.21-09.44.19:708][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.10.21-09.44.19:708][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.10.21-09.44.19:708][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.10.21-09.44.19:708][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.10.21-09.44.19:709][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.10.21-09.44.19:709][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.10.21-09.44.19:709][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.10.21-09.44.19:709][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.10.21-09.44.19:709][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.10.21-09.44.19:709][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.10.21-09.44.19:709][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.10.21-09.44.19:709][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.10.21-09.44.19:709][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.10.21-09.44.19:709][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.10.21-09.44.19:709][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.10.21-09.44.19:709][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.10.21-09.44.19:709][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.10.21-09.44.19:709][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.10.21-09.44.19:709][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.10.21-09.44.19:709][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.10.21-09.44.19:709][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Engine.ini]
+[2020.10.21-09.44.19:709][  0]LogInit: Computer: DESKTOP-BTA50U2
+[2020.10.21-09.44.19:709][  0]LogInit: User: fredr
+[2020.10.21-09.44.19:709][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.10.21-09.44.19:709][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.10.21-09.44.19:710][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2020.10.21-09.44.19:710][  0]LogMemory: Platform Memory Stats for Windows
+[2020.10.21-09.44.19:710][  0]LogMemory: Process Physical Memory: 118.24 MB used, 118.25 MB peak
+[2020.10.21-09.44.19:710][  0]LogMemory: Process Virtual Memory: 96.17 MB used, 96.17 MB peak
+[2020.10.21-09.44.19:710][  0]LogMemory: Physical Memory: 8392.17 MB used,  7973.95 MB free, 16366.11 MB total
+[2020.10.21-09.44.19:710][  0]LogMemory: Virtual Memory: 5145.45 MB used,  134212584.00 MB free, 134217728.00 MB total
+[2020.10.21-09.44.19:719][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.10.21-09.44.19:772][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.10.21-09.44.19:774][  0]LogInit: Using OS detected language (en-GB).
+[2020.10.21-09.44.19:774][  0]LogInit: Using OS detected locale (en-GB).
+[2020.10.21-09.44.19:784][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2020.10.21-09.44.20:077][  0]LogInit: Setting process to per monitor DPI aware
+[2020.10.21-09.44.20:135][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.10.21-09.44.20:135][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.10.21-09.44.20:336][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.10.21-09.44.20:337][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.10.21-09.44.20:337][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.10.21-09.44.20:337][  0]LogD3D11RHI: D3D11 adapters:
+[2020.10.21-09.44.20:464][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2020.10.21-09.44.20:464][  0]LogD3D11RHI:       8088/0/8183 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2020.10.21-09.44.20:469][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.10.21-09.44.20:469][  0]LogD3D11RHI:       0/0/8183 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.10.21-09.44.20:469][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.10.21-09.44.20:483][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.10.21-09.44.20:483][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2020.10.21-09.44.20:483][  0]LogWindows: EnumDisplayDevices:
+[2020.10.21-09.44.20:483][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2020.10.21-09.44.20:484][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2020.10.21-09.44.20:484][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2020.10.21-09.44.20:484][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2020.10.21-09.44.20:484][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.10.21-09.44.20:485][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2020.10.21-09.44.20:485][  0]LogD3D11RHI:   Driver Version: 441.20 (internal:26.21.14.4120, unified:441.20)
+[2020.10.21-09.44.20:485][  0]LogD3D11RHI:      Driver Date: 11-6-2019
+[2020.10.21-09.44.20:485][  0]LogRHI: Texture pool is 5661 MB (70% of 8088 MB)
+[2020.10.21-09.44.20:573][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.10.21-09.44.20:575][  0]LogD3D11RHI: [Aftermath] Enabled and primed
+[2020.10.21-09.44.20:575][  0]LogD3D11RHI: Async texture creation enabled
+[2020.10.21-09.44.20:575][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.10.21-09.44.20:618][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.10.21-09.44.21:046][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.10.21-09.44.21:081][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.10.21-09.44.21:081][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.10.21-09.44.21:081][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.10.21-09.44.21:081][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.10.21-09.44.21:081][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.10.21-09.44.21:081][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.10.21-09.44.21:081][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.10.21-09.44.21:081][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.10.21-09.44.21:081][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.10.21-09.44.21:082][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.10.21-09.44.21:120][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.10.21-09.44.21:120][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.10.21-09.44.21:137][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.10.21-09.44.21:152][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.10.21-09.44.21:167][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.10.21-09.44.21:182][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.10.21-09.44.21:197][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.10.21-09.44.21:212][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.10.21-09.44.21:227][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.10.21-09.44.21:269][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.10.21-09.44.21:269][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.10.21-09.44.21:296][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.10.21-09.44.21:296][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.10.21-09.44.21:313][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.10.21-09.44.21:328][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.10.21-09.44.21:344][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.10.21-09.44.21:359][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.10.21-09.44.21:359][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.10.21-09.44.21:371][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.10.21-09.44.21:468][  0]LogShaderCompilers: Guid format shader working directory is -14 characters bigger than the processId version (C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Intermediate/Shaders/WorkingDirectory/2644/).
+[2020.10.21-09.44.21:468][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/fredr/AppData/Local/Temp/UnrealShaderWorkingDir/64C546C64073F372F11E04915D69E1CD/'.
+[2020.10.21-09.44.21:469][  0]LogXGEController: Cleaning working directory: C:/Users/fredr/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.10.21-09.44.21:469][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.10.21-09.44.21:469][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.10.21-09.44.21:469][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.10.21-09.44.22:769][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.10.21-09.44.22:889][  0]LogDerivedDataCache: Loaded boot cache 0.12s 75MB C:/Users/fredr/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.10.21-09.44.22:889][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/fredr/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.10.21-09.44.22:889][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.10.21-09.44.22:889][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.10.21-09.44.22:889][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.10.21-09.44.22:889][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.10.21-09.44.22:903][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.10.21-09.44.22:903][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.10.21-09.44.22:903][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.10.21-09.44.22:905][  0]LogDerivedDataCache: Using Local data cache path C:/Users/fredr/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.10.21-09.44.22:905][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.10.21-09.44.22:905][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.10.21-09.44.22:983][  0]LogSlate: Using FreeType 2.10.0
+[2020.10.21-09.44.22:984][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.10.21-09.44.23:031][  0]LogAssetRegistry: FAssetRegistry took 0.0038 seconds to start up
+[2020.10.21-09.44.23:417][  0]LogInit: Selected Device Profile: [Windows]
+[2020.10.21-09.44.23:588][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.10.21-09.44.23:588][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.10.21-09.44.23:588][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.10.21-09.44.23:588][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.10.21-09.44.23:588][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.10.21-09.44.23:614][  0]LogNetVersion: HideNSneakUnreal 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 3367979030)
+[2020.10.21-09.44.24:353][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000001F791413600), frame # 0
+[2020.10.21-09.44.24:353][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001F791406AC0), frame # 0
+[2020.10.21-09.44.24:356][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001F79145DC00), frame # 0
+[2020.10.21-09.44.24:469][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.102678 seconds
+[2020.10.21-09.44.24:475][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2020.10.21-09.44.24:475][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2020.10.21-09.44.24:475][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.10.21-09.44.24:989][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.10.21-09.44.24:996][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.10.21-09.44.25:116][  0]SourceControl: Source control is disabled
+[2020.10.21-09.44.25:116][  0]SourceControl: Source control is disabled
+[2020.10.21-09.44.25:121][  0]SourceControl: Source control is disabled
+[2020.10.21-09.44.25:125][  0]SourceControl: Source control is disabled
+[2020.10.21-09.44.25:135][  0]SourceControl: Source control is disabled
+[2020.10.21-09.44.25:522][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.10.21-09.44.25:553][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.10.21-09.44.25:553][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.10.21-09.44.25:633][  0]LogOcInput: OculusInput pre-init called
+[2020.10.21-09.44.25:651][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.10.21-09.44.25:651][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.10.21-09.44.25:748][  0]LogEngine: Initializing Engine...
+[2020.10.21-09.44.25:750][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.10.21-09.44.25:750][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.10.21-09.44.25:752][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.10.21-09.44.25:955][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.10.21-09.44.25:968][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.10.21-09.44.25:968][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001F795318600), frame # 0
+[2020.10.21-09.44.25:968][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001F7952D7100), frame # 0
+[2020.10.21-09.44.25:995][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.21-09.44.25:995][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.21-09.44.25:995][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.21-09.44.25:995][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.21-09.44.25:996][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.21-09.44.25:996][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.21-09.44.25:996][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.21-09.44.25:996][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.21-09.44.25:996][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.21-09.44.25:996][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.21-09.44.26:019][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.21-09.44.26:019][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.10.21-09.44.26:074][  0]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX Virtual Surround Sound)
+[2020.10.21-09.44.26:083][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.21-09.44.26:086][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.21-09.44.26:086][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.21-09.44.26:088][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.21-09.44.26:090][  0]LogInit: FAudioDevice initialized.
+[2020.10.21-09.44.26:090][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.10.21-09.44.26:313][  0]LogDerivedDataCache: Saved boot cache 0.22s 75MB C:/Users/fredr/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.10.21-09.44.26:318][  0]LogInit: Texture streaming: Enabled
+[2020.10.21-09.44.26:341][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.10.21-09.44.26:341][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.10.21-09.44.26:343][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.10.21-09.44.26:460][  0]LogInit: Transaction tracking system initialized
+[2020.10.21-09.44.26:492][  0]BlueprintLog: New page: Editor Load
+[2020.10.21-09.44.26:597][  0]LocalizationService: Localization service is disabled
+[2020.10.21-09.44.26:861][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.10.21-09.44.26:861][  0]LogCook: Display: Mobile HDR setting 1
+[2020.10.21-09.44.27:065][  0]LogFileCache: Scanning file cache for directory 'C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Content/' took 0.01s
+[2020.10.21-09.44.27:372][  0]SourceControl: Source control is disabled
+[2020.10.21-09.44.27:372][  0]LogUnrealEdMisc: Loading editor; pre map load, took 10.514
+[2020.10.21-09.44.27:372][  0]Cmd: MAP LOAD FILE="C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.10.21-09.44.27:373][  0]LogEditorServer: Warning: Can't find file 'C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2020.10.21-09.44.27:373][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.10.21-09.44.27:373][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.468ms to complete.
+[2020.10.21-09.44.27:373][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.002
+[2020.10.21-09.44.27:382][  0]LogUnrealEdMisc: Total Editor Startup Time, took 10.524
+[2020.10.21-09.44.28:104][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.21-09.44.28:175][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.21-09.44.28:186][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.21-09.44.28:198][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.21-09.44.28:316][  0]LogCollectionManager: Loaded 0 collections in 0.003386 seconds
+[2020.10.21-09.44.28:463][  0]LogFileCache: Scanning file cache for directory 'C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Saved/Collections/' took 0.00s
+[2020.10.21-09.44.28:464][  0]LogFileCache: Scanning file cache for directory 'C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Content/Developers/fredr/Collections/' took 0.00s
+[2020.10.21-09.44.28:464][  0]LogFileCache: Scanning file cache for directory 'C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Content/Collections/' took 0.00s
+[2020.10.21-09.44.28:464][  0]LogContentBrowser: Native class hierarchy populated in 0.0155 seconds. Added 3427 classes and 821 folders.
+[2020.10.21-09.44.28:511][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.10.21-09.44.30:040][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.10.21-09.44.30:109][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 2 classes and 0 folders.
+[2020.10.21-09.44.30:440][  0]LogSlate: Took 0.000434 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.10.21-09.44.30:443][  0]LogSlate: Took 0.000203 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.10.21-09.44.30:494][  0]LogSlate: Took 0.023332 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.10.21-09.44.30:959][  0]LogRenderer: Reallocating scene render targets to support 968x492 Format 10 NumSamples 1 (Frame:1).
+[2020.10.21-09.44.31:313][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2020.10.21-09.44.31:313][  0]LogLoad: (Engine Initialization) Total time: 14.46 seconds
+[2020.10.21-09.44.31:313][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.10.21-09.44.31:397][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.10.21-09.44.31:629][  0]LogSlate: Took 0.039349 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.10.21-09.44.31:686][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Content/' took 0.36s
+[2020.10.21-09.45.00:659][222]LogAssetRegistry: Asset discovery search completed in 37.6288 seconds
+[2020.10.21-09.45.00:664][222]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000001 seconds (updated 0 objects)
+[2020.10.21-09.45.10:195][268]LogStaticMesh: Building static mesh w_door_mesh_v00...
+[2020.10.21-09.45.10:200][268]LogSlate: Took 0.000188 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.10.21-09.45.10:334][268]LogStaticMesh: Built static mesh [0.14s] /Game/Art/3D/World/Meshes/w_door_mesh_v00.w_door_mesh_v00
+[2020.10.21-09.45.10:478][268]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Art/3D/World/Meshes/w_door_mesh_v00.w_door_mesh_v00
+[2020.10.21-09.45.12:484][268]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2020.10.21-09.45.12:484][268]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.21-09.45.12:976][268]LogRenderer: Reallocating scene render targets to support 1052x668 Format 10 NumSamples 1 (Frame:1).
+[2020.10.21-09.45.12:976][268]LogSlate: Took 0.023368 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.10.21-09.45.23:596][280]LogSlate: Window 'w_door_mesh_v00' being destroyed
+[2020.10.21-09.45.23:645][280]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2020.10.21-09.45.23:645][280]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.21-09.46.00:068][376]LogStaticMesh: Building static mesh w_conveyorBeltBendModular_mesh_v01...
+[2020.10.21-09.46.00:116][376]LogStaticMesh: Built static mesh [0.05s] /Game/Art/3D/World/Meshes/w_conveyorBeltBendModular_mesh_v01.w_conveyorBeltBendModular_mesh_v01
+[2020.10.21-09.46.00:129][376]LogStaticMesh: Building static mesh w_conveyorBeltEndModular_mesh_v01...
+[2020.10.21-09.46.00:172][376]LogStaticMesh: Built static mesh [0.04s] /Game/Art/3D/World/Meshes/w_conveyorBeltEndModular_mesh_v01.w_conveyorBeltEndModular_mesh_v01
+[2020.10.21-09.46.00:186][376]LogStaticMesh: Building static mesh w_conveyorBeltStraightModular_mesh_v01...
+[2020.10.21-09.46.00:217][376]LogStaticMesh: Built static mesh [0.03s] /Game/Art/3D/World/Meshes/w_conveyorBeltStraightModular_mesh_v01.w_conveyorBeltStraightModular_mesh_v01
+[2020.10.21-09.46.00:228][376]LogStaticMesh: Building static mesh w_pillarBendDiagonalModular_mesh_v01...
+[2020.10.21-09.46.00:271][376]LogStaticMesh: Built static mesh [0.04s] /Game/Art/3D/World/Meshes/w_pillarBendDiagonalModular_mesh_v01.w_pillarBendDiagonalModular_mesh_v01
+[2020.10.21-09.46.00:282][376]LogStaticMesh: Building static mesh w_pillarBendStraightModular_mesh_v01...
+[2020.10.21-09.46.00:320][376]LogStaticMesh: Built static mesh [0.04s] /Game/Art/3D/World/Meshes/w_pillarBendStraightModular_mesh_v01.w_pillarBendStraightModular_mesh_v01
+[2020.10.21-09.46.00:351][376]LogStaticMesh: Building static mesh w_pillarHeadModular_mesh_v01...
+[2020.10.21-09.46.00:398][376]LogStaticMesh: Built static mesh [0.05s] /Game/Art/3D/World/Meshes/w_pillarHeadModular_mesh_v01.w_pillarHeadModular_mesh_v01
+[2020.10.21-09.47.04:093][428]LogMetaData: Removing '/Game/Art/3D/World/Meshes/Modular/ConveyorBelts/w_conveyorBeltBendModular_mesh_v01.w_conveyorBeltBendModular_mesh_v01' ref from Metadata '/Game/Art/3D/World/Meshes/w_conveyorBeltBendModular_mesh_v01.PackageMetaData'
+[2020.10.21-09.47.04:112][428]LogMetaData: Removing '/Game/Art/3D/World/Meshes/Modular/ConveyorBelts/w_conveyorBeltEndModular_mesh_v01.w_conveyorBeltEndModular_mesh_v01' ref from Metadata '/Game/Art/3D/World/Meshes/w_conveyorBeltEndModular_mesh_v01.PackageMetaData'
+[2020.10.21-09.47.04:117][428]LogMetaData: Removing '/Game/Art/3D/World/Meshes/Modular/ConveyorBelts/w_conveyorBeltStraightModular_mesh_v01.w_conveyorBeltStraightModular_mesh_v01' ref from Metadata '/Game/Art/3D/World/Meshes/w_conveyorBeltStraightModular_mesh_v01.PackageMetaData'
+[2020.10.21-09.47.04:233][428]LogSavePackage: Moving 'C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Saved/w_conveyorBeltBendModular_mesh_vC2480679418EF4E3A035AC8CC1EC4007.tmp' to 'C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Content/Art/3D/World/Meshes/Modular/ConveyorBelts/w_conveyorBeltBendModular_mesh_v01.uasset'
+[2020.10.21-09.47.04:286][428]LogSavePackage: Moving 'C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Saved/w_conveyorBeltEndModular_mesh_v08EAFC74148B410AE2F735DAE813C52E4.tmp' to 'C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Content/Art/3D/World/Meshes/Modular/ConveyorBelts/w_conveyorBeltEndModular_mesh_v01.uasset'
+[2020.10.21-09.47.04:326][428]LogSavePackage: Moving 'C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Saved/w_conveyorBeltStraightModular_me4A45D4DE439E88EACDBC26807CFFE5B3.tmp' to 'C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Content/Art/3D/World/Meshes/Modular/ConveyorBelts/w_conveyorBeltStraightModular_mesh_v01.uasset'
+[2020.10.21-09.47.04:579][428]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2020.10.21-09.47.04:624][428]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2020.10.21-09.47.04:674][428]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2020.10.21-09.47.04:735][428]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2020.10.21-09.47.04:783][428]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2020.10.21-09.47.04:819][428]AssetCheck: New page: Asset Save: multiple assets
+[2020.10.21-09.47.04:819][428]LogContentValidation: Display: Validating StaticMesh /Game/Art/3D/World/Meshes/Modular/ConveyorBelts/w_conveyorBeltBendModular_mesh_v01.w_conveyorBeltBendModular_mesh_v01
+[2020.10.21-09.47.04:819][428]LogContentValidation: Display: Validating StaticMesh /Game/Art/3D/World/Meshes/Modular/ConveyorBelts/w_conveyorBeltEndModular_mesh_v01.w_conveyorBeltEndModular_mesh_v01
+[2020.10.21-09.47.04:819][428]LogContentValidation: Display: Validating StaticMesh /Game/Art/3D/World/Meshes/Modular/ConveyorBelts/w_conveyorBeltStraightModular_mesh_v01.w_conveyorBeltStraightModular_mesh_v01
+[2020.10.21-09.47.15:941][428]LogStaticMesh: Building static mesh w_pillarStraightModular_mesh_v01...
+[2020.10.21-09.47.15:968][428]LogStaticMesh: Built static mesh [0.03s] /Game/Art/3D/World/Meshes/w_pillarStraightModular_mesh_v01.w_pillarStraightModular_mesh_v01
+[2020.10.21-09.47.20:887][996]LogMetaData: Removing '/Game/Art/3D/World/Meshes/Modular/SteelBeams/w_pillarBendDiagonalModular_mesh_v01.w_pillarBendDiagonalModular_mesh_v01' ref from Metadata '/Game/Art/3D/World/Meshes/w_pillarBendDiagonalModular_mesh_v01.PackageMetaData'
+[2020.10.21-09.47.20:893][996]LogMetaData: Removing '/Game/Art/3D/World/Meshes/Modular/SteelBeams/w_pillarBendStraightModular_mesh_v01.w_pillarBendStraightModular_mesh_v01' ref from Metadata '/Game/Art/3D/World/Meshes/w_pillarBendStraightModular_mesh_v01.PackageMetaData'
+[2020.10.21-09.47.20:898][996]LogMetaData: Removing '/Game/Art/3D/World/Meshes/Modular/SteelBeams/w_pillarHeadModular_mesh_v01.w_pillarHeadModular_mesh_v01' ref from Metadata '/Game/Art/3D/World/Meshes/w_pillarHeadModular_mesh_v01.PackageMetaData'
+[2020.10.21-09.47.20:904][996]LogMetaData: Removing '/Game/Art/3D/World/Meshes/Modular/SteelBeams/w_pillarStraightModular_mesh_v01.w_pillarStraightModular_mesh_v01' ref from Metadata '/Game/Art/3D/World/Meshes/w_pillarStraightModular_mesh_v01.PackageMetaData'
+[2020.10.21-09.47.20:971][996]LogSavePackage: Moving 'C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Saved/w_pillarBendDiagonalModular_mesh9163C7EE4322233730D5AB9A6EDEC0B5.tmp' to 'C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Content/Art/3D/World/Meshes/Modular/SteelBeams/w_pillarBendDiagonalModular_mesh_v01.uasset'
+[2020.10.21-09.47.21:009][996]LogSavePackage: Moving 'C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Saved/w_pillarBendStraightModular_mesh756033E9407DD4AB3B7FC19C24AFD4FA.tmp' to 'C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Content/Art/3D/World/Meshes/Modular/SteelBeams/w_pillarBendStraightModular_mesh_v01.uasset'
+[2020.10.21-09.47.21:049][996]LogSavePackage: Moving 'C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Saved/w_pillarHeadModular_mesh_v019CF70DCD463E9D20ED85F9B415C51835.tmp' to 'C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Content/Art/3D/World/Meshes/Modular/SteelBeams/w_pillarHeadModular_mesh_v01.uasset'
+[2020.10.21-09.47.21:084][996]LogSavePackage: Moving 'C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Saved/w_pillarStraightModular_mesh_v0152FF094341131247301B9AB36A900CB7.tmp' to 'C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Content/Art/3D/World/Meshes/Modular/SteelBeams/w_pillarStraightModular_mesh_v01.uasset'
+[2020.10.21-09.47.21:346][996]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2020.10.21-09.47.21:400][996]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2020.10.21-09.47.21:456][996]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2020.10.21-09.47.21:507][996]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2020.10.21-09.47.21:567][996]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2020.10.21-09.47.21:617][996]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2020.10.21-09.47.21:646][996]AssetCheck: New page: Asset Save: multiple assets
+[2020.10.21-09.47.21:646][996]LogContentValidation: Display: Validating StaticMesh /Game/Art/3D/World/Meshes/Modular/SteelBeams/w_pillarBendDiagonalModular_mesh_v01.w_pillarBendDiagonalModular_mesh_v01
+[2020.10.21-09.47.21:646][996]LogContentValidation: Display: Validating StaticMesh /Game/Art/3D/World/Meshes/Modular/SteelBeams/w_pillarBendStraightModular_mesh_v01.w_pillarBendStraightModular_mesh_v01
+[2020.10.21-09.47.21:646][996]LogContentValidation: Display: Validating StaticMesh /Game/Art/3D/World/Meshes/Modular/SteelBeams/w_pillarHeadModular_mesh_v01.w_pillarHeadModular_mesh_v01
+[2020.10.21-09.47.21:646][996]LogContentValidation: Display: Validating StaticMesh /Game/Art/3D/World/Meshes/Modular/SteelBeams/w_pillarStraightModular_mesh_v01.w_pillarStraightModular_mesh_v01
+[2020.10.21-09.47.26:023][488]LogStaticMesh: Building static mesh w_wallDoorModular_mesh_v01...
+[2020.10.21-09.47.26:054][488]LogStaticMesh: Built static mesh [0.03s] /Game/Art/3D/World/Meshes/w_wallDoorModular_mesh_v01.w_wallDoorModular_mesh_v01
+[2020.10.21-09.47.53:468][424]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Art/3D/World/Meshes/Modular/SteelBeams/w_pillarBendDiagonalModular_mesh_v01.w_pillarBendDiagonalModular_mesh_v01
+[2020.10.21-09.47.53:704][424]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2020.10.21-09.47.53:704][424]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.21-09.48.09:008][  9]LogSlate: Window 'w_pillarBendDiagonalModular_mesh_v01' being destroyed
+[2020.10.21-09.48.09:016][  9]LogSlate: Window 'w_pillarBendDiagonalModular_mesh_v01' being destroyed
+[2020.10.21-09.48.09:048][  9]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2020.10.21-09.48.09:048][  9]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.21-09.48.10:267][111]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Art/3D/World/Meshes/Modular/SteelBeams/w_pillarHeadModular_mesh_v01.w_pillarHeadModular_mesh_v01
+[2020.10.21-09.48.10:501][111]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2020.10.21-09.48.10:501][111]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.21-09.48.23:556][429]LogSlate: Window 'w_pillarHeadModular_mesh_v01' being destroyed
+[2020.10.21-09.48.23:590][429]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2020.10.21-09.48.23:590][429]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.21-09.48.24:628][514]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Art/3D/World/Meshes/Modular/SteelBeams/w_pillarStraightModular_mesh_v01.w_pillarStraightModular_mesh_v01
+[2020.10.21-09.48.24:887][514]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2020.10.21-09.48.24:887][514]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.21-09.48.31:047][ 68]LogSlate: Window 'w_pillarStraightModular_mesh_v01' being destroyed
+[2020.10.21-09.48.31:082][ 68]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2020.10.21-09.48.31:082][ 68]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.21-09.49.23:153][500]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\fredr\Documents\work\PROJ\Assets\w_walkwayJunction_mesh_v01.fbx)
+[2020.10.21-09.49.23:274][500]LogFbx: Loading FBX Scene from C:\Users\fredr\Documents\work\PROJ\Assets\w_walkwayJunction_mesh_v01.fbx
+[2020.10.21-09.49.23:303][500]LogFbx: FBX Scene Loaded Succesfully
+[2020.10.21-09.49.48:748][500]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.10.21-09.49.49:071][500]LogFbx: Display: Triangulating static mesh catwalkJunction
+[2020.10.21-09.49.49:113][500]LogStaticMesh: Building static mesh w_walkwayJunction_mesh_v01...
+[2020.10.21-09.49.49:142][500]LogStaticMesh: Built static mesh [0.03s] /Game/Art/3D/World/Meshes/Modular/Walkways/w_walkwayJunction_mesh_v01.w_walkwayJunction_mesh_v01
+[2020.10.21-09.49.49:158][500]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.10.21-09.49.49:367][500]LogSlate: Took 0.047578 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.10.21-09.49.52:554][876]LogSlate: Window 'Message Log' being destroyed
+[2020.10.21-09.49.52:562][876]LogSlate: Window 'Message Log' being destroyed
+[2020.10.21-09.50.13:807][ 51]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2020.10.21-09.50.22:053][ 51]LogSlate: Window 'Save Content' being destroyed
+[2020.10.21-09.50.22:136][ 51]LogSavePackage: Moving 'C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Saved/w_walkwayJunction_mesh_v01E63020F5426C8EB703C91889A41DF75D.tmp' to 'C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Content/Art/3D/World/Meshes/Modular/Walkways/w_walkwayJunction_mesh_v01.uasset'
+[2020.10.21-09.50.22:151][ 51]Cmd: MAP LOAD FILE="C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Content/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.10.21-09.50.22:180][ 51]LightingResults: New page: Lighting Build
+[2020.10.21-09.50.22:195][ 51]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0005 seconds. Added 6 classes and 0 folders.
+[2020.10.21-09.50.22:195][ 51]LoadErrors: New page: Loading map: ThirdPersonExampleMap.umap
+[2020.10.21-09.50.22:195][ 51]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.10.21-09.50.22:195][ 51]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.21-09.50.22:195][ 51]MapCheck: New page: Map Check
+[2020.10.21-09.50.22:195][ 51]LightingResults: New page: Lighting Build
+[2020.10.21-09.50.22:240][ 51]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001F795318600), frame # 28051
+[2020.10.21-09.50.22:240][ 51]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001F7952D7100), frame # 28051
+[2020.10.21-09.50.22:241][ 51]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2020.10.21-09.50.22:419][ 51]LogStaticMesh: Building static mesh p_crateBig_mesh_v01...
+[2020.10.21-09.50.22:425][ 51]LogStaticMesh: Built static mesh [0.01s] /Game/Art/3D/Props/p_crateBig_mesh_v01.p_crateBig_mesh_v01
+[2020.10.21-09.50.22:511][ 51]LogStaticMesh: Building static mesh p_crateMedium1_mesh_v01...
+[2020.10.21-09.50.22:513][ 51]LogStaticMesh: Built static mesh [0.00s] /Game/Art/3D/Props/p_crateMedium1_mesh_v01.p_crateMedium1_mesh_v01
+[2020.10.21-09.50.22:515][ 51]LogStaticMesh: Building static mesh p_crateMedium2_mesh_v01...
+[2020.10.21-09.50.22:524][ 51]LogStaticMesh: Built static mesh [0.01s] /Game/Art/3D/Props/p_crateMedium2_mesh_v01.p_crateMedium2_mesh_v01
+[2020.10.21-09.50.22:528][ 51]LogStaticMesh: Building static mesh p_crateSmall_mesh_v01...
+[2020.10.21-09.50.22:530][ 51]LogStaticMesh: Built static mesh [0.00s] /Game/Art/3D/Props/p_crateSmall_mesh_v01.p_crateSmall_mesh_v01
+[2020.10.21-09.50.22:532][ 51]LogStaticMesh: Building static mesh w_containerDoorsOpen_mesh_v03...
+[2020.10.21-09.50.22:562][ 51]LogStaticMesh: Built static mesh [0.03s] /Game/Art/3D/World/Meshes/w_containerDoorsOpen_mesh_v03.w_containerDoorsOpen_mesh_v03
+[2020.10.21-09.50.22:566][ 51]LogStaticMesh: Building static mesh w_containerOpen_mesh_v03...
+[2020.10.21-09.50.22:575][ 51]LogStaticMesh: Built static mesh [0.01s] /Game/Art/3D/World/Meshes/w_containerOpen_mesh_v03.w_containerOpen_mesh_v03
+[2020.10.21-09.50.22:605][ 51]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.10.21-09.50.22:605][ 51]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001F7BE4CBE00), frame # 28051
+[2020.10.21-09.50.22:605][ 51]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001F7BB901800), frame # 28051
+[2020.10.21-09.50.22:631][ 51]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.10.21-09.50.22:687][ 51]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2020.10.21-09.50.22:744][ 51]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.10.21-09.50.22:744][ 51]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.19ms to complete.
+[2020.10.21-09.50.22:744][ 51]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.593
+[2020.10.21-09.50.22:745][ 51]LogSlate: Window 'Open Level' being destroyed
+[2020.10.21-09.50.22:753][ 51]AssetCheck: New page: Asset Save: w_walkwayJunction_mesh_v01
+[2020.10.21-09.50.22:753][ 51]LogContentValidation: Display: Validating StaticMesh /Game/Art/3D/World/Meshes/Modular/Walkways/w_walkwayJunction_mesh_v01.w_walkwayJunction_mesh_v01
+[2020.10.21-09.50.38:014][838]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2020.10.21-09.50.42:891][333]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2020.10.21-09.50.43:449][385]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2020.10.21-09.50.58:868][699]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\fredr\Documents\work\PROJ\Assets\w_walkwayTJunction_mesh_v01.fbx)
+[2020.10.21-09.50.58:882][699]LogFbx: Loading FBX Scene from C:\Users\fredr\Documents\work\PROJ\Assets\w_walkwayTJunction_mesh_v01.fbx
+[2020.10.21-09.50.58:892][699]LogFbx: FBX Scene Loaded Succesfully
+[2020.10.21-09.51.05:053][699]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.10.21-09.51.05:093][699]LogFbx: Display: Triangulating static mesh catwalkTJunction
+[2020.10.21-09.51.05:130][699]LogStaticMesh: Building static mesh w_walkwayTJunction_mesh_v01...
+[2020.10.21-09.51.05:163][699]LogStaticMesh: Built static mesh [0.03s] /Game/Art/3D/World/Meshes/Modular/Walkways/w_walkwayTJunction_mesh_v01.w_walkwayTJunction_mesh_v01
+[2020.10.21-09.51.05:177][699]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.10.21-09.51.05:236][699]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\fredr\Documents\work\PROJ\Assets\w_walkwayTurn_mesh_v01.fbx)
+[2020.10.21-09.51.05:253][699]LogFbx: Loading FBX Scene from C:\Users\fredr\Documents\work\PROJ\Assets\w_walkwayTurn_mesh_v01.fbx
+[2020.10.21-09.51.05:262][699]LogFbx: FBX Scene Loaded Succesfully
+[2020.10.21-09.51.06:158][699]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.10.21-09.51.06:197][699]LogFbx: Display: Triangulating static mesh catwalkTurn
+[2020.10.21-09.51.06:239][699]LogStaticMesh: Building static mesh w_walkwayTurn_mesh_v01...
+[2020.10.21-09.51.06:278][699]LogStaticMesh: Built static mesh [0.04s] /Game/Art/3D/World/Meshes/Modular/Walkways/w_walkwayTurn_mesh_v01.w_walkwayTurn_mesh_v01
+[2020.10.21-09.51.06:289][699]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.10.21-09.51.06:295][699]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\fredr\Documents\work\PROJ\Assets\w_walkwayStairs_mesh_v01.fbx)
+[2020.10.21-09.51.06:310][699]LogFbx: Loading FBX Scene from C:\Users\fredr\Documents\work\PROJ\Assets\w_walkwayStairs_mesh_v01.fbx
+[2020.10.21-09.51.06:320][699]LogFbx: FBX Scene Loaded Succesfully
+[2020.10.21-09.51.06:815][699]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.10.21-09.51.06:856][699]LogFbx: Display: Triangulating static mesh catwalkStairs
+[2020.10.21-09.51.06:902][699]LogStaticMesh: Building static mesh w_walkwayStairs_mesh_v01...
+[2020.10.21-09.51.06:945][699]LogStaticMesh: Built static mesh [0.04s] /Game/Art/3D/World/Meshes/Modular/Walkways/w_walkwayStairs_mesh_v01.w_walkwayStairs_mesh_v01
+[2020.10.21-09.51.06:959][699]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.10.21-09.51.06:968][699]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\fredr\Documents\work\PROJ\Assets\w_walkwayStraight_mesh_v01.fbx)
+[2020.10.21-09.51.06:984][699]LogFbx: Loading FBX Scene from C:\Users\fredr\Documents\work\PROJ\Assets\w_walkwayStraight_mesh_v01.fbx
+[2020.10.21-09.51.06:994][699]LogFbx: FBX Scene Loaded Succesfully
+[2020.10.21-09.51.09:817][699]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.10.21-09.51.09:861][699]LogFbx: Display: Triangulating static mesh catwalkStraight
+[2020.10.21-09.51.09:919][699]LogStaticMesh: Building static mesh w_walkwayStraight_mesh_v01...
+[2020.10.21-09.51.09:967][699]LogStaticMesh: Built static mesh [0.05s] /Game/Art/3D/World/Meshes/Modular/Walkways/w_walkwayStraight_mesh_v01.w_walkwayStraight_mesh_v01
+[2020.10.21-09.51.09:983][699]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.10.21-09.51.11:309][804]LogSlate: Window 'Message Log' being destroyed
+[2020.10.21-09.51.11:315][804]LogSlate: Window 'Message Log' being destroyed
+[2020.10.21-09.51.13:765][988]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Art/3D/World/Meshes/Modular/Walkways/w_walkwayJunction_mesh_v01.w_walkwayJunction_mesh_v01
+[2020.10.21-09.51.14:000][988]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2020.10.21-09.51.14:000][988]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.21-09.51.18:375][251]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2020.10.21-09.51.18:394][251]LogMaterial: Warning: /Engine/Transient.Material_0 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2020.10.21-09.51.18:394][251]LogMaterial: Display: 	SceneTexture expressions cannot be used in opaque materials
+[2020.10.21-09.51.59:291][708]LogSavePackage: Moving 'C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Saved/w_walkwayJunction_mesh_v01B33754984C8E7EB4F75BCEADF98047A5.tmp' to 'C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Content/Art/3D/World/Meshes/Modular/Walkways/w_walkwayJunction_mesh_v01.uasset'
+[2020.10.21-09.51.59:305][708]AssetCheck: New page: Asset Save: w_walkwayJunction_mesh_v01
+[2020.10.21-09.51.59:305][708]LogContentValidation: Display: Validating StaticMesh /Game/Art/3D/World/Meshes/Modular/Walkways/w_walkwayJunction_mesh_v01.w_walkwayJunction_mesh_v01
+[2020.10.21-09.52.08:572][200]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Art/3D/World/Meshes/Modular/Walkways/w_walkwayStairs_mesh_v01.w_walkwayStairs_mesh_v01
+[2020.10.21-09.52.08:838][200]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2020.10.21-09.52.08:838][200]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.21-09.52.14:311][495]LogRenderer: Reallocating scene render targets to support 1052x672 Format 10 NumSamples 1 (Frame:2796).
+[2020.10.21-09.52.17:452][634]LogRenderer: Reallocating scene render targets to support 1052x688 Format 10 NumSamples 1 (Frame:2892).
+[2020.10.21-09.52.17:544][634]LogRenderer: Reallocating scene render targets to support 1052x700 Format 10 NumSamples 1 (Frame:2893).
+[2020.10.21-09.52.17:627][634]LogRenderer: Reallocating scene render targets to support 1052x704 Format 10 NumSamples 1 (Frame:2894).
+[2020.10.21-09.52.17:695][634]LogRenderer: Reallocating scene render targets to support 1052x724 Format 10 NumSamples 1 (Frame:2895).
+[2020.10.21-09.52.17:777][634]LogRenderer: Reallocating scene render targets to support 1052x728 Format 10 NumSamples 1 (Frame:2896).
+[2020.10.21-09.52.21:887][850]LogRenderer: Reallocating scene render targets to support 1052x736 Format 10 NumSamples 1 (Frame:3032).
+[2020.10.21-09.52.22:955][929]LogSlate: Window 'w_walkwayJunction_mesh_v01' being destroyed
+[2020.10.21-09.52.55:401][ 38]Cmd: MODE ROTGRID=0
+[2020.10.21-09.53.03:949][573]Cmd: MODE SCALEGRID=0
+[2020.10.21-09.53.31:294][411]Cmd: MODE GRID=0
+[2020.10.21-09.54.47:451][277]LogEditorTransaction: Undo Rotate Collision
+[2020.10.21-09.55.17:407][ 35]LogEditorTransaction: Undo Rotate Collision
+[2020.10.21-09.56.13:604][661]LogEditorTransaction: Undo Translate Collision
+[2020.10.21-09.58.16:111][373]LogSavePackage: Moving 'C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Saved/w_walkwayStairs_mesh_v013001EFD642119CB151FB0996945D7A22.tmp' to 'C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Content/Art/3D/World/Meshes/Modular/Walkways/w_walkwayStairs_mesh_v01.uasset'
+[2020.10.21-09.58.16:131][373]AssetCheck: New page: Asset Save: w_walkwayStairs_mesh_v01
+[2020.10.21-09.58.16:131][373]LogContentValidation: Display: Validating StaticMesh /Game/Art/3D/World/Meshes/Modular/Walkways/w_walkwayStairs_mesh_v01.w_walkwayStairs_mesh_v01
+[2020.10.21-09.58.21:578][544]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Art/3D/World/Meshes/Modular/Walkways/w_walkwayStraight_mesh_v01.w_walkwayStraight_mesh_v01
+[2020.10.21-09.58.21:820][544]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2020.10.21-09.58.21:820][544]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.21-09.59.17:726][189]Cmd: MODE SCALEGRID=1
+[2020.10.21-09.59.27:182][679]Cmd: MODE SCALEGRID=0
+[2020.10.21-09.59.33:914][984]Cmd: MODE ROTGRID=1
+[2020.10.21-09.59.39:558][203]Cmd: MODE GRID=1
+[2020.10.21-10.00.08:017][373]LogSavePackage: Moving 'C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Saved/w_walkwayStraight_mesh_v0143DE62B74F5478396DF4C5A504566311.tmp' to 'C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Content/Art/3D/World/Meshes/Modular/Walkways/w_walkwayStraight_mesh_v01.uasset'
+[2020.10.21-10.00.08:035][373]AssetCheck: New page: Asset Save: w_walkwayStraight_mesh_v01
+[2020.10.21-10.00.08:035][373]LogContentValidation: Display: Validating StaticMesh /Game/Art/3D/World/Meshes/Modular/Walkways/w_walkwayStraight_mesh_v01.w_walkwayStraight_mesh_v01
+[2020.10.21-10.00.20:550][533]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Art/3D/World/Meshes/Modular/Walkways/w_walkwayTJunction_mesh_v01.w_walkwayTJunction_mesh_v01
+[2020.10.21-10.00.20:762][533]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2020.10.21-10.00.20:762][533]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.21-10.01.06:630][392]LogSavePackage: Moving 'C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Saved/w_walkwayTJunction_mesh_v01B275345F46481F3F7C2958BB970AD581.tmp' to 'C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Content/Art/3D/World/Meshes/Modular/Walkways/w_walkwayTJunction_mesh_v01.uasset'
+[2020.10.21-10.01.06:652][392]AssetCheck: New page: Asset Save: w_walkwayTJunction_mesh_v01
+[2020.10.21-10.01.06:652][392]LogContentValidation: Display: Validating StaticMesh /Game/Art/3D/World/Meshes/Modular/Walkways/w_walkwayTJunction_mesh_v01.w_walkwayTJunction_mesh_v01
+[2020.10.21-10.01.11:148][520]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Art/3D/World/Meshes/Modular/Walkways/w_walkwayTurn_mesh_v01.w_walkwayTurn_mesh_v01
+[2020.10.21-10.01.11:384][520]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2020.10.21-10.01.11:384][520]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.21-10.02.47:199][952]LogSavePackage: Moving 'C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Saved/w_walkwayTurn_mesh_v011EED38A44018FB712FEF0DAB2200F96E.tmp' to 'C:/Users/fredr/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Content/Art/3D/World/Meshes/Modular/Walkways/w_walkwayTurn_mesh_v01.uasset'
+[2020.10.21-10.02.47:215][952]AssetCheck: New page: Asset Save: w_walkwayTurn_mesh_v01
+[2020.10.21-10.02.47:215][952]LogContentValidation: Display: Validating StaticMesh /Game/Art/3D/World/Meshes/Modular/Walkways/w_walkwayTurn_mesh_v01.w_walkwayTurn_mesh_v01
+[2020.10.21-10.03.15:679][886]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Art/3D/World/Meshes/Modular/ConveyorBelts/w_conveyorBeltBendModular_mesh_v01.w_conveyorBeltBendModular_mesh_v01
+[2020.10.21-10.03.15:914][886]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2020.10.21-10.03.15:914][886]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.21-10.03.19:653][978]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Art/3D/World/Meshes/Modular/ConveyorBelts/w_conveyorBeltEndModular_mesh_v01.w_conveyorBeltEndModular_mesh_v01
+[2020.10.21-10.03.19:896][978]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2020.10.21-10.03.19:896][978]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.21-10.08.41:395][619]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2020.10.21-10.08.41:395][619]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.21-10.08.42:221][639]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2020.10.21-10.08.42:221][639]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.21-10.08.42:764][649]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2020.10.21-10.08.42:764][649]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.21-10.08.44:005][697]LogSlate: Window 'w_conveyorBeltEndModular_mesh_v01' being destroyed
+[2020.10.21-10.08.44:014][697]LogSlate: Window 'w_conveyorBeltEndModular_mesh_v01' being destroyed
+[2020.10.21-10.08.44:044][697]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2020.10.21-10.08.44:045][697]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.21-10.08.44:239][697]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2020.10.21-10.08.44:239][697]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.21-10.08.44:409][697]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2020.10.21-10.08.44:409][697]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.21-10.08.44:568][697]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2020.10.21-10.08.44:568][697]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.21-10.10.08:415][266]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (PostProcessVolume)
+[2020.10.21-10.10.09:918][394]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2020.10.21-10.10.19:560][988]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2020.10.21-10.10.39:155][545]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2020.10.21-10.30.34:910][468]LogAudioMixer: Display: Audio Buffer Underrun detected.
