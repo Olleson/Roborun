@@ -1295,3 +1295,4 @@ Make sure 'BPW_MenuJoin' has been compiled for  Async Task: Missing Function
 [2020.10.22-15.16.07:406][784]LogFileHelpers: Saving map 'Real_WhiteBox' took 0.167
 [2020.10.22-15.16.07:417][784]AssetCheck: New page: Asset Save: Real_WhiteBox
 [2020.10.22-15.16.07:418][784]LogContentValidation: Display: Validating World /Game/Maps/Real_WhiteBox.Real_WhiteBox
+[2020.10.22-15.20.05:618][614]LogLinker: Warning: Failed to read package file summary, the file "C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Blueprints\Widgets\BPW_MenuHost_BASE_976.uasset" is too small (0 bytes, expected at least 32 bytes)
