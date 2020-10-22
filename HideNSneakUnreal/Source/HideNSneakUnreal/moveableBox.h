@@ -16,7 +16,9 @@ class HIDENSNEAKUNREAL_API UmoveableBox : public UActorComponent
 	UPROPERTY(EditAnywhere)
 		AActor* SelfActor;
 	UPROPERTY(EditAnywhere)
-		AActor* Endpoint;
+		UStaticMeshComponent * Endpoint;
+	UPROPERTY(EditAnywhere)
+		FComponentReference ender;
 	UPROPERTY(EditAnywhere)
 		FVector StartPosition;
 	UPROPERTY(EditAnywhere)
@@ -50,6 +52,6 @@ public:
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
-	UFUNCTION(BlueprintCallable)
-		virtual void SetActors(AActor *Self, AActor *Target);
+	//UFUNCTION(BlueprintCallable)
+	//	virtual void SetActors(AActor *Self, AActor *Target);
 };

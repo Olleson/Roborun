@@ -8,23 +8,14 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
-class AActor;
 #ifdef HIDENSNEAKUNREAL_moveableBox_generated_h
 #error "moveableBox.generated.h already included, missing '#pragma once' in moveableBox.h"
 #endif
 #define HIDENSNEAKUNREAL_moveableBox_generated_h
 
 #define HideNSneakUnreal_Source_HideNSneakUnreal_moveableBox_h_14_SPARSE_DATA
-#define HideNSneakUnreal_Source_HideNSneakUnreal_moveableBox_h_14_RPC_WRAPPERS \
- \
-	DECLARE_FUNCTION(execSetActors);
-
-
-#define HideNSneakUnreal_Source_HideNSneakUnreal_moveableBox_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
- \
-	DECLARE_FUNCTION(execSetActors);
-
-
+#define HideNSneakUnreal_Source_HideNSneakUnreal_moveableBox_h_14_RPC_WRAPPERS
+#define HideNSneakUnreal_Source_HideNSneakUnreal_moveableBox_h_14_RPC_WRAPPERS_NO_PURE_DECLS
 #define HideNSneakUnreal_Source_HideNSneakUnreal_moveableBox_h_14_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUmoveableBox(); \
@@ -70,6 +61,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UmoveableBox); \
 #define HideNSneakUnreal_Source_HideNSneakUnreal_moveableBox_h_14_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__SelfActor() { return STRUCT_OFFSET(UmoveableBox, SelfActor); } \
 	FORCEINLINE static uint32 __PPO__Endpoint() { return STRUCT_OFFSET(UmoveableBox, Endpoint); } \
+	FORCEINLINE static uint32 __PPO__ender() { return STRUCT_OFFSET(UmoveableBox, ender); } \
 	FORCEINLINE static uint32 __PPO__StartPosition() { return STRUCT_OFFSET(UmoveableBox, StartPosition); } \
 	FORCEINLINE static uint32 __PPO__EndPosition() { return STRUCT_OFFSET(UmoveableBox, EndPosition); } \
 	FORCEINLINE static uint32 __PPO__movementvecktor() { return STRUCT_OFFSET(UmoveableBox, movementvecktor); } \
