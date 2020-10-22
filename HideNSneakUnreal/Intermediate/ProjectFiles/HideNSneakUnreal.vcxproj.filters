@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\HideNSneakUnreal.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{A79F87B4-235E-4419-94E1-575D0384367B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\HideNSneakUnreal.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\HideNSneakUnrealEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.gitignore" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{97766629-3A0C-4B77-98B2-7FD76A60AA56}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGameplayTags.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\HideNSneakUnreal">
+      <UniqueIdentifier>{AD9E5303-8A65-4B92-B088-E2F7DF5C10A9}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\HideNSneakUnreal\HideNSneakUnreal.Build.cs">
+      <Filter>Source\HideNSneakUnreal</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\HideNSneakUnreal\HideNSneakUnreal.cpp">
+      <Filter>Source\HideNSneakUnreal</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HideNSneakUnreal\HideNSneakUnreal.h">
+      <Filter>Source\HideNSneakUnreal</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HideNSneakUnreal\TagMechanic.cpp">
+      <Filter>Source\HideNSneakUnreal</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HideNSneakUnreal\TagMechanic.h">
+      <Filter>Source\HideNSneakUnreal</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

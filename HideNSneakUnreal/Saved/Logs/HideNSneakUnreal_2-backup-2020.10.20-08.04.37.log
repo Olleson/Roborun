@@ -1,0 +1,811 @@
+﻿Log file open, 10/20/20 10:04:06
+LogInit: Display: Running engine for game: HideNSneakUnreal
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.376032
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-13942748
+LogInit: Engine Version: 4.25.3-13942748+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 2004) (), CPU: Intel(R) Core(TM) i5-7500T CPU @ 2.70GHz, GPU: NVIDIA GeForce GTX 1060
+LogInit: Compiled (64-bit): Jul 25 2020 02:07:48
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line:  127.0.0.1:17777 -game -PIEVIACONSOLE -Multiprocess "GameUserSettingsINI=C:/Users/Olle/Documents/Game Projects/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/PIEGameUserSettings1.ini" -MultiprocessSaveConfig -MultiprocessOSS -messaging -SessionName="Play in Standalone Game" -windowed -ResX=1280 -ResY=720
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Olle/Documents/Game Projects/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.10.20-08.04.06:663][  0]LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+[2020.10.20-08.04.06:663][  0]LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.10.20-08.04.06:663][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Olle/Documents/Game Projects/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Engine.ini]
+[2020.10.20-08.04.06:663][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.10.20-08.04.06:663][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Olle/Documents/Game Projects/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Engine.ini]
+[2020.10.20-08.04.06:663][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Olle/Documents/Game Projects/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Engine.ini]
+[2020.10.20-08.04.06:663][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.10.20-08.04.06:663][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.10.20-08.04.06:663][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.10.20-08.04.06:663][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.10.20-08.04.06:663][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.10.20-08.04.06:663][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.10.20-08.04.06:663][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.10.20-08.04.06:663][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.10.20-08.04.06:663][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.10.20-08.04.06:663][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.10.20-08.04.06:663][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.10.20-08.04.06:663][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.10.20-08.04.06:663][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.10.20-08.04.06:663][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.10.20-08.04.06:663][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Olle/Documents/Game Projects/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Engine.ini]
+[2020.10.20-08.04.06:663][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.10.20-08.04.06:663][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.10.20-08.04.06:663][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.10.20-08.04.06:663][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.10.20-08.04.06:663][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.10.20-08.04.06:663][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.10.20-08.04.06:663][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.10.20-08.04.06:663][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.10.20-08.04.06:663][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.10.20-08.04.06:663][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.10.20-08.04.06:663][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.10.20-08.04.06:663][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.10.20-08.04.06:663][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.10.20-08.04.06:663][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Olle/Documents/Game Projects/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Engine.ini]
+[2020.10.20-08.04.06:663][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Olle/Documents/Game Projects/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Engine.ini]
+[2020.10.20-08.04.06:666][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Olle/Documents/Game Projects/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.10.20-08.04.06:666][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.10.20-08.04.06:666][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.10.20-08.04.06:666][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Olle/Documents/Game Projects/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.10.20-08.04.06:666][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.10.20-08.04.06:666][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Olle/Documents/Game Projects/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.10.20-08.04.06:666][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.10.20-08.04.06:666][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.10.20-08.04.06:666][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.10.20-08.04.06:666][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.10.20-08.04.06:666][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.10.20-08.04.06:666][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.10.20-08.04.06:666][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.10.20-08.04.06:666][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.10.20-08.04.06:666][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.10.20-08.04.06:666][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.10.20-08.04.06:666][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.10.20-08.04.06:666][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.10.20-08.04.06:666][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.10.20-08.04.06:666][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.10.20-08.04.06:666][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.10.20-08.04.06:666][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.10.20-08.04.06:666][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.10.20-08.04.06:666][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.10.20-08.04.06:666][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Olle/Documents/Game Projects/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.10.20-08.04.06:666][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.10.20-08.04.06:666][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.10.20-08.04.06:666][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.10.20-08.04.06:666][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.10.20-08.04.06:666][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.10.20-08.04.06:667][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.10.20-08.04.06:667][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.10.20-08.04.06:667][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.10.20-08.04.06:667][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.10.20-08.04.06:667][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.10.20-08.04.06:667][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.10.20-08.04.06:667][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.10.20-08.04.06:667][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.10.20-08.04.06:667][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.10.20-08.04.06:667][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.10.20-08.04.06:667][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.10.20-08.04.06:667][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.10.20-08.04.06:667][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.10.20-08.04.06:667][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.10.20-08.04.06:667][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.10.20-08.04.06:667][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.10.20-08.04.06:667][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.10.20-08.04.06:667][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.10.20-08.04.06:667][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.10.20-08.04.06:667][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.10.20-08.04.06:667][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.10.20-08.04.06:667][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.10.20-08.04.06:667][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.10.20-08.04.06:667][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.10.20-08.04.06:667][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.10.20-08.04.06:667][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Olle/Documents/Game Projects/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.10.20-08.04.06:667][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.10.20-08.04.06:667][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.10.20-08.04.06:667][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.10.20-08.04.06:667][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.10.20-08.04.06:667][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.10.20-08.04.06:667][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.10.20-08.04.06:667][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.10.20-08.04.06:667][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.10.20-08.04.06:667][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.10.20-08.04.06:667][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Olle/Documents/Game Projects/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.10.20-08.04.06:667][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.10.20-08.04.06:667][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.10.20-08.04.06:667][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.10.20-08.04.06:667][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.10.20-08.04.06:667][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.10.20-08.04.06:667][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.10.20-08.04.06:667][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.10.20-08.04.06:667][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.10.20-08.04.06:667][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.10.20-08.04.06:667][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.10.20-08.04.06:667][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.10.20-08.04.06:667][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.10.20-08.04.06:667][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.10.20-08.04.06:667][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.10.20-08.04.06:667][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.10.20-08.04.06:667][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.10.20-08.04.06:667][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.10.20-08.04.06:668][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.10.20-08.04.06:668][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.10.20-08.04.06:668][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.10.20-08.04.06:668][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.10.20-08.04.06:668][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.10.20-08.04.06:668][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.10.20-08.04.06:668][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.10.20-08.04.06:668][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.10.20-08.04.06:668][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.10.20-08.04.06:668][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Olle/Documents/Game Projects/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.10.20-08.04.06:668][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.10.20-08.04.06:668][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.10.20-08.04.06:668][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Olle/Documents/Game Projects/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.10.20-08.04.06:668][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.10.20-08.04.06:668][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.10.20-08.04.06:668][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.10.20-08.04.06:668][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.10.20-08.04.06:668][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.10.20-08.04.06:668][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.10.20-08.04.06:668][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.10.20-08.04.06:668][  0]LogInit: Selected Device Profile: [Windows]
+[2020.10.20-08.04.06:668][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.10.20-08.04.06:668][  0]LogHAL: Display: Platform has ~ 16 GB [17133535232 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.10.20-08.04.06:668][  0]LogInit: Going up to parent DeviceProfile []
+[2020.10.20-08.04.06:668][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Olle/Documents/Game Projects/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.10.20-08.04.06:668][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.10.20-08.04.06:668][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.10.20-08.04.06:668][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Olle/Documents/Game Projects/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.10.20-08.04.06:668][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.10.20-08.04.06:668][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Olle/Documents/Game Projects/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.10.20-08.04.06:668][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.10.20-08.04.06:668][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.10.20-08.04.06:668][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.10.20-08.04.06:668][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.10.20-08.04.06:668][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.10.20-08.04.06:668][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.10.20-08.04.06:668][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.10.20-08.04.06:668][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.10.20-08.04.06:668][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.10.20-08.04.06:668][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.10.20-08.04.06:668][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.10.20-08.04.06:668][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.10.20-08.04.06:668][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.10.20-08.04.06:668][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.10.20-08.04.06:668][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.10.20-08.04.06:668][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.10.20-08.04.06:668][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.10.20-08.04.06:668][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.10.20-08.04.06:668][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Olle/Documents/Game Projects/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.10.20-08.04.06:668][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.10.20-08.04.06:668][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.10.20-08.04.06:668][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.10.20-08.04.06:668][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.10.20-08.04.06:669][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.10.20-08.04.06:669][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.10.20-08.04.06:669][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.10.20-08.04.06:669][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.10.20-08.04.06:669][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.10.20-08.04.06:669][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.10.20-08.04.06:669][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.10.20-08.04.06:669][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.10.20-08.04.06:669][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.10.20-08.04.06:669][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.10.20-08.04.06:669][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.10.20-08.04.06:669][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.10.20-08.04.06:669][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.10.20-08.04.06:669][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.10.20-08.04.06:669][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.10.20-08.04.06:669][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.10.20-08.04.06:669][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.10.20-08.04.06:669][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.10.20-08.04.06:669][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.10.20-08.04.06:669][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.10.20-08.04.06:669][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.10.20-08.04.06:669][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.10.20-08.04.06:669][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.10.20-08.04.06:669][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.10.20-08.04.06:669][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.10.20-08.04.06:669][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.10.20-08.04.06:669][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Olle/Documents/Game Projects/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.10.20-08.04.06:669][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.10.20-08.04.06:669][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.10.20-08.04.06:669][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.10.20-08.04.06:669][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.10.20-08.04.06:669][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.10.20-08.04.06:669][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.10.20-08.04.06:669][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.10.20-08.04.06:669][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.10.20-08.04.06:669][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.10.20-08.04.06:669][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Olle/Documents/Game Projects/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.10.20-08.04.06:669][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.10.20-08.04.06:669][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.10.20-08.04.06:669][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.10.20-08.04.06:669][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.10.20-08.04.06:669][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.10.20-08.04.06:669][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.10.20-08.04.06:669][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.10.20-08.04.06:669][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.10.20-08.04.06:669][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.10.20-08.04.06:669][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.10.20-08.04.06:669][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.10.20-08.04.06:669][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.10.20-08.04.06:669][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.10.20-08.04.06:669][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.10.20-08.04.06:670][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.10.20-08.04.06:670][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.10.20-08.04.06:670][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.10.20-08.04.06:670][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.10.20-08.04.06:670][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.10.20-08.04.06:670][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.10.20-08.04.06:670][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.10.20-08.04.06:670][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.10.20-08.04.06:670][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.10.20-08.04.06:670][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.10.20-08.04.06:670][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.10.20-08.04.06:670][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.10.20-08.04.06:670][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Olle/Documents/Game Projects/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.10.20-08.04.06:670][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.10.20-08.04.06:670][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.10.20-08.04.06:670][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Olle/Documents/Game Projects/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.10.20-08.04.06:670][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.10.20-08.04.06:670][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.10.20-08.04.06:670][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.10.20-08.04.06:670][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.10.20-08.04.06:670][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.10.20-08.04.06:670][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.10.20-08.04.06:670][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.10.20-08.04.06:670][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.10.20-08.04.06:670][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.10.20-08.04.06:670][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.10.20-08.04.06:670][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.10.20-08.04.06:670][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Olle/Documents/Game Projects/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Engine.ini]
+[2020.10.20-08.04.06:670][  0]LogInit: Computer: DESKTOP-Q35ATQN
+[2020.10.20-08.04.06:670][  0]LogInit: User: Olle
+[2020.10.20-08.04.06:671][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.10.20-08.04.06:671][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.10.20-08.04.06:671][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2020.10.20-08.04.06:671][  0]LogMemory: Platform Memory Stats for Windows
+[2020.10.20-08.04.06:671][  0]LogMemory: Process Physical Memory: 114.96 MB used, 114.97 MB peak
+[2020.10.20-08.04.06:671][  0]LogMemory: Process Virtual Memory: 103.47 MB used, 103.47 MB peak
+[2020.10.20-08.04.06:671][  0]LogMemory: Physical Memory: 5599.35 MB used,  10740.46 MB free, 16339.81 MB total
+[2020.10.20-08.04.06:671][  0]LogMemory: Virtual Memory: 5136.73 MB used,  134212592.00 MB free, 134217728.00 MB total
+[2020.10.20-08.04.06:676][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.10.20-08.04.06:710][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.10.20-08.04.06:711][  0]LogInit: Using OS detected language (sv-SE).
+[2020.10.20-08.04.06:711][  0]LogInit: Using OS detected locale (sv-SE).
+[2020.10.20-08.04.06:717][  0]LogTextLocalizationManager: No localization for 'sv-SE' exists, so 'en' will be used for the language.
+[2020.10.20-08.04.06:719][  0]LogTextLocalizationManager: No localization for 'sv-SE' exists, so 'en' will be used for the locale.
+[2020.10.20-08.04.06:987][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.10.20-08.04.06:987][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.10.20-08.04.07:001][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.10.20-08.04.07:002][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.10.20-08.04.07:002][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.10.20-08.04.07:002][  0]LogD3D11RHI: D3D11 adapters:
+[2020.10.20-08.04.07:115][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060' (Feature Level 11_0)
+[2020.10.20-08.04.07:115][  0]LogD3D11RHI:       6052/0/8169 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.10.20-08.04.07:118][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.10.20-08.04.07:118][  0]LogD3D11RHI:       0/0/8169 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.10.20-08.04.07:118][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.10.20-08.04.07:126][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.10.20-08.04.07:126][  0]LogD3D11RHI:     GPU DeviceId: 0x1c20 (for the marketing name, search the web for "GPU Device Id")
+[2020.10.20-08.04.07:126][  0]LogWindows: EnumDisplayDevices:
+[2020.10.20-08.04.07:127][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060' (P:1 D:1)
+[2020.10.20-08.04.07:127][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2020.10.20-08.04.07:127][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2020.10.20-08.04.07:128][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2020.10.20-08.04.07:128][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.10.20-08.04.07:128][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060
+[2020.10.20-08.04.07:128][  0]LogD3D11RHI:   Driver Version: 452.06 (internal:27.21.14.5206, unified:452.06)
+[2020.10.20-08.04.07:128][  0]LogD3D11RHI:      Driver Date: 8-12-2020
+[2020.10.20-08.04.07:128][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2020.10.20-08.04.07:217][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.10.20-08.04.07:217][  0]LogD3D11RHI: Async texture creation enabled
+[2020.10.20-08.04.07:217][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.10.20-08.04.07:247][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2020.10.20-08.04.07:942][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.10.20-08.04.07:945][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.10.20-08.04.07:953][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.10.20-08.04.07:961][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.10.20-08.04.07:961][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.10.20-08.04.07:963][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.10.20-08.04.07:989][  0]LogShaderCompilers: Guid format shader working directory is -37 characters bigger than the processId version (../../../../../../Users/Olle/Documents/Game Projects/PROJ_Grupp2/HideNSneakUnreal/Intermediate/Shaders/WorkingDirectory/10068/).
+[2020.10.20-08.04.07:989][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Olle/AppData/Local/Temp/UnrealShaderWorkingDir/C4C292284CE3D32580719BAC4AC35AF0/'.
+[2020.10.20-08.04.07:990][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.10.20-08.04.07:990][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.10.20-08.04.07:990][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.10.20-08.04.08:944][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.10.20-08.04.09:013][  0]LogDerivedDataCache: Loaded boot cache 0.07s 76MB C:/Users/Olle/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.10.20-08.04.09:013][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Olle/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.10.20-08.04.09:013][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Olle/Documents/Game Projects/PROJ_Grupp2/HideNSneakUnreal/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.10.20-08.04.09:013][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.10.20-08.04.09:014][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Olle/Documents/Game Projects/PROJ_Grupp2/HideNSneakUnreal/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.10.20-08.04.09:014][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.10.20-08.04.09:027][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.10.20-08.04.09:027][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.10.20-08.04.09:027][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.10.20-08.04.09:028][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Olle/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.10.20-08.04.09:028][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.10.20-08.04.09:029][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.10.20-08.04.09:080][  0]LogSlate: Using FreeType 2.10.0
+[2020.10.20-08.04.09:080][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.10.20-08.04.09:212][  0]LogInit: Using OS detected language (sv-SE).
+[2020.10.20-08.04.09:212][  0]LogInit: Using OS detected locale (sv-SE).
+[2020.10.20-08.04.09:212][  0]LogTextLocalizationManager: No localization for 'sv-SE' exists, so 'en' will be used for the language.
+[2020.10.20-08.04.09:212][  0]LogTextLocalizationManager: No localization for 'sv-SE' exists, so 'en' will be used for the locale.
+[2020.10.20-08.04.09:214][  0]LogTextLocalizationManager: Compacting localization data took   0.00ms
+[2020.10.20-08.04.09:219][  0]LogAssetRegistry: FAssetRegistry took 0.0021 seconds to start up
+[2020.10.20-08.04.09:486][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.001048 seconds
+[2020.10.20-08.04.09:552][  0]LogInit: Selected Device Profile: [Windows]
+[2020.10.20-08.04.09:692][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.10.20-08.04.09:692][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.10.20-08.04.09:692][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.10.20-08.04.09:692][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.10.20-08.04.09:692][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.10.20-08.04.09:707][  0]LogNetVersion: HideNSneakUnreal 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 3367979030)
+[2020.10.20-08.04.10:023][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000002AE1D110B00), frame # 0
+[2020.10.20-08.04.10:023][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002AE1D05A980), frame # 0
+[2020.10.20-08.04.10:025][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002AE1D04FC00), frame # 0
+[2020.10.20-08.04.10:131][  0]LogCollectionManager: Loaded 0 collections in 0.002480 seconds
+[2020.10.20-08.04.10:133][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Olle/Documents/Game Projects/PROJ_Grupp2/HideNSneakUnreal/Saved/Collections/' took 0.00s
+[2020.10.20-08.04.10:133][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Olle/Documents/Game Projects/PROJ_Grupp2/HideNSneakUnreal/Content/Developers/Olle/Collections/' took 0.00s
+[2020.10.20-08.04.10:133][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Olle/Documents/Game Projects/PROJ_Grupp2/HideNSneakUnreal/Content/Collections/' took 0.00s
+[2020.10.20-08.04.10:133][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000004 seconds (updated 0 objects)
+[2020.10.20-08.04.10:199][  0]LogMoviePlayer: Initializing movie player
+[2020.10.20-08.04.10:387][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.10.20-08.04.10:391][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.10.20-08.04.10:444][  0]SourceControl: Source control is disabled
+[2020.10.20-08.04.10:444][  0]SourceControl: Source control is disabled
+[2020.10.20-08.04.10:451][  0]SourceControl: Source control is disabled
+[2020.10.20-08.04.10:596][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.10.20-08.04.10:623][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.10.20-08.04.10:623][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.10.20-08.04.10:665][  0]LogOcInput: OculusInput pre-init called
+[2020.10.20-08.04.10:680][  0]LogUObjectArray: 19083 objects as part of root set at end of initial load.
+[2020.10.20-08.04.10:680][  0]LogUObjectAllocator: 5026208 out of 0 bytes used by permanent object pool.
+[2020.10.20-08.04.10:680][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.10.20-08.04.10:752][  0]LogEngine: Initializing Engine...
+[2020.10.20-08.04.10:754][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.10.20-08.04.10:754][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.10.20-08.04.10:756][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.10.20-08.04.10:875][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.10.20-08.04.10:879][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.20-08.04.10:879][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.20-08.04.10:879][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.20-08.04.10:879][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.20-08.04.10:879][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.20-08.04.10:879][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.20-08.04.10:879][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.20-08.04.10:879][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.20-08.04.10:879][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.20-08.04.10:879][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.20-08.04.10:919][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.20-08.04.10:919][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.10.20-08.04.10:964][  0]LogAudioMixer: Display: Using Audio Device Hörlurar på headset (HyperX Virtual Surround Sound)
+[2020.10.20-08.04.10:965][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.20-08.04.10:966][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.20-08.04.10:966][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.20-08.04.10:967][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.20-08.04.10:968][  0]LogInit: FAudioDevice initialized.
+[2020.10.20-08.04.10:969][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.10.20-08.04.10:969][  0]LogInit: Texture streaming: Enabled
+[2020.10.20-08.04.11:392][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.20-08.04.11:393][  0]LogInit: Display: Game Engine Initialized.
+[2020.10.20-08.04.11:400][  0]LogNiagaraEditor: Warning: GEditor isn't valid! Particle reset commands will not work for Niagara components!
+[2020.10.20-08.04.11:450][  0]LogInit: Display: Starting Game.
+[2020.10.20-08.04.11:451][  0]LogNet: Browse: 127.0.0.1:17777/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap?Name=Player
+[2020.10.20-08.04.11:451][  0]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
+[2020.10.20-08.04.11:451][  0]LogNet: Created socket for bind address: 0.0.0.0 on port 0
+[2020.10.20-08.04.11:451][  0]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.10.20-08.04.11:451][  0]LogNet: Game client on port 17777, rate 10000
+[2020.10.20-08.04.11:473][  0]LogLoad: (Engine Initialization) Total time: 7.01 seconds
+[2020.10.20-08.04.11:473][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.10.20-08.04.11:678][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.10.20-08.04.14:086][140]LogAudio: Display: Waited 70.726997 ms for audio thread.
+[2020.10.20-08.04.14:121][140]LogAudio: Display: Waited 105.919998 ms for audio thread.
+[2020.10.20-08.04.14:156][140]LogAudio: Display: Waited 140.748199 ms for audio thread.
+[2020.10.20-08.04.14:191][140]LogAudio: Display: Waited 176.063492 ms for audio thread.
+[2020.10.20-08.04.14:229][140]LogAudio: Display: Waited 213.538101 ms for audio thread.
+[2020.10.20-08.04.14:264][140]LogAudio: Display: Waited 248.742294 ms for audio thread.
+[2020.10.20-08.04.14:299][140]LogAudio: Display: Waited 283.509094 ms for audio thread.
+[2020.10.20-08.04.14:336][140]LogAudio: Display: Waited 321.061310 ms for audio thread.
+[2020.10.20-08.04.14:338][140]LogAudio: Display: Waited 323.313599 ms for audio thread.
+[2020.10.20-08.04.14:375][141]LogAudio: Display: Waited 36.317799 ms for audio thread.
+[2020.10.20-08.04.14:411][141]LogAudio: Display: Waited 71.308395 ms for audio thread.
+[2020.10.20-08.04.14:446][141]LogAudio: Display: Waited 106.808800 ms for audio thread.
+[2020.10.20-08.04.14:456][141]LogAudio: Display: Waited 117.174904 ms for audio thread.
+[2020.10.20-08.04.15:473][202]LogAudio: Display: Waited 35.604900 ms for audio thread.
+[2020.10.20-08.04.15:509][202]LogAudio: Display: Waited 71.738098 ms for audio thread.
+[2020.10.20-08.04.15:545][202]LogAudio: Display: Waited 107.557899 ms for audio thread.
+[2020.10.20-08.04.15:567][202]LogAudio: Display: Waited 129.694199 ms for audio thread.
+[2020.10.20-08.04.15:631][210]LogAudio: Display: Waited 35.697899 ms for audio thread.
+[2020.10.20-08.04.15:658][210]LogAudio: Display: Waited 63.458599 ms for audio thread.
+[2020.10.20-08.04.17:178][218]LogAudio: Display: Waited 70.663902 ms for audio thread.
+[2020.10.20-08.04.17:214][218]LogAudio: Display: Waited 106.220604 ms for audio thread.
+[2020.10.20-08.04.17:250][218]LogAudio: Display: Waited 142.110504 ms for audio thread.
+[2020.10.20-08.04.17:286][218]LogAudio: Display: Waited 178.046799 ms for audio thread.
+[2020.10.20-08.04.17:322][218]LogAudio: Display: Waited 213.919998 ms for audio thread.
+[2020.10.20-08.04.17:358][218]LogAudio: Display: Waited 249.817886 ms for audio thread.
+[2020.10.20-08.04.17:394][218]LogAudio: Display: Waited 285.729492 ms for audio thread.
+[2020.10.20-08.04.17:429][218]LogAudio: Display: Waited 321.633698 ms for audio thread.
+[2020.10.20-08.04.17:465][218]LogAudio: Display: Waited 357.847504 ms for audio thread.
+[2020.10.20-08.04.17:501][218]LogAudio: Display: Waited 393.600616 ms for audio thread.
+[2020.10.20-08.04.17:536][218]LogAudio: Display: Waited 428.745087 ms for audio thread.
+[2020.10.20-08.04.17:574][218]LogAudio: Display: Waited 467.214996 ms for audio thread.
+[2020.10.20-08.04.17:610][218]LogAudio: Display: Waited 502.602570 ms for audio thread.
+[2020.10.20-08.04.17:645][218]LogAudio: Display: Waited 537.789246 ms for audio thread.
+[2020.10.20-08.04.17:681][218]LogAudio: Display: Waited 573.523254 ms for audio thread.
+[2020.10.20-08.04.17:716][218]LogAudio: Display: Waited 609.364624 ms for audio thread.
+[2020.10.20-08.04.17:752][218]LogAudio: Display: Waited 644.025085 ms for audio thread.
+[2020.10.20-08.04.17:787][218]LogAudio: Display: Waited 679.503357 ms for audio thread.
+[2020.10.20-08.04.17:820][218]LogAudio: Display: Waited 712.560120 ms for audio thread.
+[2020.10.20-08.04.20:042][399]LogAudio: Display: Waited 35.092701 ms for audio thread.
+[2020.10.20-08.04.20:078][399]LogAudio: Display: Waited 71.228699 ms for audio thread.
+[2020.10.20-08.04.20:114][399]LogAudio: Display: Waited 107.315102 ms for audio thread.
+[2020.10.20-08.04.20:150][399]LogAudio: Display: Waited 142.900711 ms for audio thread.
+[2020.10.20-08.04.20:186][399]LogAudio: Display: Waited 178.889206 ms for audio thread.
+[2020.10.20-08.04.20:221][399]LogAudio: Display: Waited 214.309311 ms for audio thread.
+[2020.10.20-08.04.20:258][399]LogAudio: Display: Waited 250.967407 ms for audio thread.
+[2020.10.20-08.04.20:293][399]LogAudio: Display: Waited 286.130005 ms for audio thread.
+[2020.10.20-08.04.20:329][399]LogAudio: Display: Waited 321.786102 ms for audio thread.
+[2020.10.20-08.04.20:364][399]LogAudio: Display: Waited 356.847198 ms for audio thread.
+[2020.10.20-08.04.20:400][399]LogAudio: Display: Waited 392.971619 ms for audio thread.
+[2020.10.20-08.04.20:436][399]LogAudio: Display: Waited 429.287323 ms for audio thread.
+[2020.10.20-08.04.20:472][399]LogAudio: Display: Waited 464.743195 ms for audio thread.
+[2020.10.20-08.04.20:507][399]LogAudio: Display: Waited 499.970398 ms for audio thread.
+[2020.10.20-08.04.20:538][399]LogAudio: Display: Waited 531.122620 ms for audio thread.
+[2020.10.20-08.04.20:577][401]LogAudio: Display: Waited 36.209000 ms for audio thread.
+[2020.10.20-08.04.20:613][401]LogAudio: Display: Waited 72.393700 ms for audio thread.
+[2020.10.20-08.04.20:614][401]LogAudio: Display: Waited 73.695602 ms for audio thread.
+[2020.10.20-08.04.20:657][404]LogAudio: Display: Waited 35.480999 ms for audio thread.
+[2020.10.20-08.04.20:681][404]LogAudio: Display: Waited 59.812603 ms for audio thread.
+[2020.10.20-08.04.20:795][415]LogAudio: Display: Waited 36.626400 ms for audio thread.
+[2020.10.20-08.04.20:805][415]LogAudio: Display: Waited 44.830097 ms for audio thread.
+[2020.10.20-08.04.20:842][417]LogAudio: Display: Waited 36.625900 ms for audio thread.
+[2020.10.20-08.04.20:878][417]LogAudio: Display: Waited 72.625397 ms for audio thread.
+[2020.10.20-08.04.20:916][417]LogAudio: Display: Waited 110.779205 ms for audio thread.
+[2020.10.20-08.04.20:921][417]LogAudio: Display: Waited 116.345505 ms for audio thread.
+[2020.10.20-08.04.20:958][418]LogAudio: Display: Waited 35.855000 ms for audio thread.
+[2020.10.20-08.04.20:960][418]LogAudio: Display: Waited 37.249802 ms for audio thread.
+[2020.10.20-08.04.20:997][419]LogAudio: Display: Waited 36.601902 ms for audio thread.
+[2020.10.20-08.04.21:028][419]LogAudio: Display: Waited 67.494499 ms for audio thread.
+[2020.10.20-08.04.21:064][420]LogAudio: Display: Waited 35.451099 ms for audio thread.
+[2020.10.20-08.04.21:102][420]LogAudio: Display: Waited 74.008194 ms for audio thread.
+[2020.10.20-08.04.21:139][420]LogAudio: Display: Waited 111.193497 ms for audio thread.
+[2020.10.20-08.04.21:153][420]LogAudio: Display: Waited 125.070602 ms for audio thread.
+[2020.10.20-08.04.21:190][421]LogAudio: Display: Waited 35.710403 ms for audio thread.
+[2020.10.20-08.04.21:194][421]LogAudio: Display: Waited 40.337200 ms for audio thread.
+[2020.10.20-08.04.22:357][463]LogAudio: Display: Waited 70.698898 ms for audio thread.
+[2020.10.20-08.04.22:392][463]LogAudio: Display: Waited 105.910896 ms for audio thread.
+[2020.10.20-08.04.22:428][463]LogAudio: Display: Waited 141.160904 ms for audio thread.
+[2020.10.20-08.04.22:463][463]LogAudio: Display: Waited 177.491806 ms for audio thread.
+[2020.10.20-08.04.22:499][463]LogAudio: Display: Waited 213.051712 ms for audio thread.
+[2020.10.20-08.04.22:535][463]LogAudio: Display: Waited 248.917404 ms for audio thread.
+[2020.10.20-08.04.22:571][463]LogAudio: Display: Waited 284.830811 ms for audio thread.
+[2020.10.20-08.04.22:607][463]LogAudio: Display: Waited 320.883911 ms for audio thread.
+[2020.10.20-08.04.22:642][463]LogAudio: Display: Waited 355.742004 ms for audio thread.
+[2020.10.20-08.04.22:678][463]LogAudio: Display: Waited 391.991486 ms for audio thread.
+[2020.10.20-08.04.22:713][463]LogAudio: Display: Waited 427.136017 ms for audio thread.
+[2020.10.20-08.04.22:749][463]LogAudio: Display: Waited 462.758087 ms for audio thread.
+[2020.10.20-08.04.22:784][463]LogAudio: Display: Waited 497.822205 ms for audio thread.
+[2020.10.20-08.04.22:820][463]LogAudio: Display: Waited 533.816284 ms for audio thread.
+[2020.10.20-08.04.22:855][463]LogAudio: Display: Waited 568.904724 ms for audio thread.
+[2020.10.20-08.04.22:891][463]LogAudio: Display: Waited 604.548523 ms for audio thread.
+[2020.10.20-08.04.22:926][463]LogAudio: Display: Waited 639.862793 ms for audio thread.
+[2020.10.20-08.04.22:961][463]LogAudio: Display: Waited 674.963623 ms for audio thread.
+[2020.10.20-08.04.22:997][463]LogAudio: Display: Waited 710.943237 ms for audio thread.
+[2020.10.20-08.04.23:032][463]LogAudio: Display: Waited 745.913635 ms for audio thread.
+[2020.10.20-08.04.23:068][463]LogAudio: Display: Waited 781.886841 ms for audio thread.
+[2020.10.20-08.04.23:103][463]LogAudio: Display: Waited 817.181519 ms for audio thread.
+[2020.10.20-08.04.23:139][463]LogAudio: Display: Waited 852.911987 ms for audio thread.
+[2020.10.20-08.04.23:174][463]LogAudio: Display: Waited 887.932434 ms for audio thread.
+[2020.10.20-08.04.23:198][463]LogAudio: Display: Waited 912.655701 ms for audio thread.
+[2020.10.20-08.04.24:162][536]LogAudio: Display: Waited 35.595600 ms for audio thread.
+[2020.10.20-08.04.24:199][536]LogAudio: Display: Waited 72.214699 ms for audio thread.
+[2020.10.20-08.04.24:235][536]LogAudio: Display: Waited 107.075500 ms for audio thread.
+[2020.10.20-08.04.24:271][536]LogAudio: Display: Waited 143.067001 ms for audio thread.
+[2020.10.20-08.04.24:294][536]LogAudio: Display: Waited 166.517700 ms for audio thread.
+[2020.10.20-08.04.25:871][554]LogAudio: Display: Waited 53.478798 ms for audio thread.
+[2020.10.20-08.04.25:907][555]LogAudio: Display: Waited 35.515499 ms for audio thread.
+[2020.10.20-08.04.25:931][555]LogAudio: Display: Waited 59.736500 ms for audio thread.
+[2020.10.20-08.04.25:967][556]LogAudio: Display: Waited 35.045700 ms for audio thread.
+[2020.10.20-08.04.26:003][556]LogAudio: Display: Waited 71.312103 ms for audio thread.
+[2020.10.20-08.04.26:004][556]LogAudio: Display: Waited 72.646904 ms for audio thread.
+[2020.10.20-08.04.26:041][560]LogAudio: Display: Waited 35.201401 ms for audio thread.
+[2020.10.20-08.04.26:058][560]LogAudio: Display: Waited 52.348598 ms for audio thread.
+[2020.10.20-08.04.26:147][566]LogAudio: Display: Waited 35.507000 ms for audio thread.
+[2020.10.20-08.04.26:148][566]LogAudio: Display: Waited 36.356098 ms for audio thread.
+[2020.10.20-08.04.26:197][567]LogAudio: Display: Waited 49.132401 ms for audio thread.
+[2020.10.20-08.04.26:269][568]LogAudio: Display: Waited 70.912697 ms for audio thread.
+[2020.10.20-08.04.26:304][568]LogAudio: Display: Waited 105.685799 ms for audio thread.
+[2020.10.20-08.04.26:340][568]LogAudio: Display: Waited 142.097397 ms for audio thread.
+[2020.10.20-08.04.26:375][568]LogAudio: Display: Waited 176.752106 ms for audio thread.
+[2020.10.20-08.04.26:410][568]LogAudio: Display: Waited 212.261200 ms for audio thread.
+[2020.10.20-08.04.26:428][568]LogAudio: Display: Waited 230.181610 ms for audio thread.
+[2020.10.20-08.04.26:932][805]LogAudio: Display: Waited 36.713802 ms for audio thread.
+[2020.10.20-08.04.26:935][805]LogAudio: Display: Waited 39.861000 ms for audio thread.
+[2020.10.20-08.04.28:243][592]LogAudio: Display: Waited 69.628098 ms for audio thread.
+[2020.10.20-08.04.28:268][592]LogAudio: Display: Waited 94.551697 ms for audio thread.
+[2020.10.20-08.04.29:175][804]LogAudio: Display: Waited 35.232601 ms for audio thread.
+[2020.10.20-08.04.29:181][804]LogAudio: Display: Waited 41.406502 ms for audio thread.
+[2020.10.20-08.04.30:082][984]LogAudio: Display: Waited 35.460201 ms for audio thread.
+[2020.10.20-08.04.30:117][984]LogAudio: Display: Waited 70.975800 ms for audio thread.
+[2020.10.20-08.04.30:119][984]LogAudio: Display: Waited 73.411797 ms for audio thread.
+[2020.10.20-08.04.30:276][ 34]LogAudio: Display: Waited 41.316200 ms for audio thread.
+[2020.10.20-08.04.30:319][ 34]LogAudio: Display: Waited 84.756096 ms for audio thread.
+[2020.10.20-08.04.30:360][ 34]LogAudio: Display: Waited 125.462395 ms for audio thread.
+[2020.10.20-08.04.30:367][ 34]LogAudio: Display: Waited 132.758011 ms for audio thread.
+[2020.10.20-08.04.30:479][ 52]LogAudio: Display: Waited 35.803001 ms for audio thread.
+[2020.10.20-08.04.30:516][ 52]LogAudio: Display: Waited 72.197304 ms for audio thread.
+[2020.10.20-08.04.30:552][ 52]LogAudio: Display: Waited 108.244797 ms for audio thread.
+[2020.10.20-08.04.30:588][ 52]LogAudio: Display: Waited 144.358398 ms for audio thread.
+[2020.10.20-08.04.30:623][ 52]LogAudio: Display: Waited 179.348907 ms for audio thread.
+[2020.10.20-08.04.30:661][ 52]LogAudio: Display: Waited 217.263809 ms for audio thread.
+[2020.10.20-08.04.30:701][ 52]LogAudio: Display: Waited 257.323212 ms for audio thread.
+[2020.10.20-08.04.30:736][ 52]LogAudio: Display: Waited 292.255798 ms for audio thread.
+[2020.10.20-08.04.30:772][ 52]LogAudio: Display: Waited 329.017487 ms for audio thread.
+[2020.10.20-08.04.30:808][ 52]LogAudio: Display: Waited 365.034119 ms for audio thread.
+[2020.10.20-08.04.30:844][ 52]LogAudio: Display: Waited 400.471222 ms for audio thread.
+[2020.10.20-08.04.30:867][ 52]LogAudio: Display: Waited 423.740295 ms for audio thread.
+[2020.10.20-08.04.30:904][ 53]LogAudio: Display: Waited 36.911301 ms for audio thread.
+[2020.10.20-08.04.30:939][ 53]LogAudio: Display: Waited 71.082298 ms for audio thread.
+[2020.10.20-08.04.30:975][ 53]LogAudio: Display: Waited 107.153801 ms for audio thread.
+[2020.10.20-08.04.31:011][ 53]LogAudio: Display: Waited 143.137207 ms for audio thread.
+[2020.10.20-08.04.31:040][ 53]LogAudio: Display: Waited 173.007599 ms for audio thread.
+[2020.10.20-08.04.31:659][101]LogAudio: Display: Waited 71.145401 ms for audio thread.
+[2020.10.20-08.04.31:659][101]LogAudio: Display: Waited 71.564896 ms for audio thread.
+[2020.10.20-08.04.31:681][106]LogNet: Warning: UNetConnection::Tick: Connection TIMED OUT. Closing connection.. Elapsed: 20.19, Real: 20.01, Good: 20.01, DriverTime: 20.19, Threshold: 20.00, [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: PendingNetDriver IpNetDriver_0, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.10.20-08.04.31:705][106]LogNet: Error: UEngine::BroadcastNetworkFailure: FailureType = ConnectionTimeout, ErrorString = UNetConnection::Tick: Connection TIMED OUT. Closing connection.. Elapsed: 20.19, Real: 20.01, Good: 20.01, DriverTime: 20.19, Threshold: 20.00, [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: PendingNetDriver IpNetDriver_0, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID, Driver = PendingNetDriver IpNetDriver_0
+[2020.10.20-08.04.31:705][106]LogNet: Warning: Network Failure: PendingNetDriver[ConnectionTimeout]: UNetConnection::Tick: Connection TIMED OUT. Closing connection.. Elapsed: 20.19, Real: 20.01, Good: 20.01, DriverTime: 20.19, Threshold: 20.00, [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: PendingNetDriver IpNetDriver_0, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.10.20-08.04.31:705][106]LogNet: NetworkFailure: ConnectionTimeout, Error: 'UNetConnection::Tick: Connection TIMED OUT. Closing connection.. Elapsed: 20.19, Real: 20.01, Good: 20.01, DriverTime: 20.19, Threshold: 20.00, [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: PendingNetDriver IpNetDriver_0, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID'
+[2020.10.20-08.04.31:725][106]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: PendingNetDriver IpNetDriver_0, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID, Channels: 2, Time: 2020.10.20-08.04.31
+[2020.10.20-08.04.31:725][106]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: PendingNetDriver IpNetDriver_0, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.10.20-08.04.31:725][106]LogNet: DestroyNamedNetDriver IpNetDriver_0 [PendingNetDriver]
+[2020.10.20-08.04.31:725][106]LogExit: PendingNetDriver IpNetDriver_0 shut down
+[2020.10.20-08.04.31:727][107]LogNet: Browse: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap?closed
+[2020.10.20-08.04.31:727][107]LogNet: Connection failed; returning to Entry
+[2020.10.20-08.04.31:727][107]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap?closed
+[2020.10.20-08.04.31:727][107]LogWorld: BeginTearingDown for /Temp/Untitled_0
+[2020.10.20-08.04.31:727][107]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.10.20-08.04.31:727][107]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.20-08.04.31:772][107]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: None, Driver: PendingNetDriver None, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.10.20-08.04.31:772][107]LogNet: UNetConnection::PendingConnectionLost. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: None, Driver: PendingNetDriver None, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID bPendingDestroy=0 
+[2020.10.20-08.04.31:773][107]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2020.10.20-08.04.32:064][107]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.10.20-08.04.32:064][107]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002AE11539A00), frame # 12107
+[2020.10.20-08.04.32:064][107]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002AE2091C400), frame # 12107
+[2020.10.20-08.04.32:067][107]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.10.20-08.04.32:082][107]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.10.20-10.04.32
+[2020.10.20-08.04.32:082][107]LogWorld: Bringing up level for play took: 0.012060
+[2020.10.20-08.04.32:084][107]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Amount of hiders: 1
+[2020.10.20-08.04.32:085][107]LogSlate: Took 0.000119 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.10.20-08.04.32:086][107]LogLoad: Took 0.359324 seconds to LoadMap(/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap)
+[2020.10.20-08.04.32:130][107]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
+[2020.10.20-08.04.32:130][107]LogAudio: Display: Waited 43.948700 ms for audio thread.
+[2020.10.20-08.04.32:148][107]LogAudio: Display: Waited 62.186302 ms for audio thread.
+[2020.10.20-08.04.32:230][107]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2020.10.20-08.04.32:302][108]LogRenderer: Reallocating scene render targets to support 128x128 Format 10 NumSamples 1 (Frame:1).
+[2020.10.20-08.04.32:302][108]LogAudio: Display: Waited 38.599098 ms for audio thread.
+[2020.10.20-08.04.32:355][108]LogAudio: Display: Waited 92.415306 ms for audio thread.
+[2020.10.20-08.04.32:387][108]LogAudio: Display: Waited 123.706802 ms for audio thread.
+[2020.10.20-08.04.32:620][109]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:2).
+[2020.10.20-08.04.33:349][113]LogAudio: Display: Waited 44.509300 ms for audio thread.
+[2020.10.20-08.04.33:351][113]LogAudio: Display: Waited 45.920300 ms for audio thread.
+[2020.10.20-08.04.33:912][122]LogAudio: Display: Waited 36.731300 ms for audio thread.
+[2020.10.20-08.04.33:950][122]LogAudio: Display: Waited 73.920303 ms for audio thread.
+[2020.10.20-08.04.33:985][122]LogAudio: Display: Waited 109.756905 ms for audio thread.
+[2020.10.20-08.04.34:021][122]LogAudio: Display: Waited 145.828400 ms for audio thread.
+[2020.10.20-08.04.34:059][122]LogAudio: Display: Waited 182.916504 ms for audio thread.
+[2020.10.20-08.04.34:066][122]LogAudio: Display: Waited 190.755508 ms for audio thread.
+[2020.10.20-08.04.34:297][131]LogAudio: Display: Waited 35.592899 ms for audio thread.
+[2020.10.20-08.04.34:309][131]LogAudio: Display: Waited 47.734398 ms for audio thread.
+[2020.10.20-08.04.34:425][134]LogAudio: Display: Waited 70.455795 ms for audio thread.
+[2020.10.20-08.04.34:461][134]LogAudio: Display: Waited 106.865799 ms for audio thread.
+[2020.10.20-08.04.34:497][134]LogAudio: Display: Waited 142.472198 ms for audio thread.
+[2020.10.20-08.04.34:533][134]LogAudio: Display: Waited 178.565506 ms for audio thread.
+[2020.10.20-08.04.34:569][134]LogAudio: Display: Waited 214.410095 ms for audio thread.
+[2020.10.20-08.04.34:606][134]LogAudio: Display: Waited 251.250000 ms for audio thread.
+[2020.10.20-08.04.34:625][134]LogAudio: Display: Waited 270.240601 ms for audio thread.
+[2020.10.20-08.04.34:722][137]LogAudio: Display: Waited 35.163399 ms for audio thread.
+[2020.10.20-08.04.34:759][137]LogAudio: Display: Waited 72.616798 ms for audio thread.
+[2020.10.20-08.04.34:772][137]LogAudio: Display: Waited 85.356895 ms for audio thread.
+[2020.10.20-08.04.34:836][139]LogAudio: Display: Waited 36.658398 ms for audio thread.
+[2020.10.20-08.04.34:862][139]LogAudio: Display: Waited 62.747501 ms for audio thread.
+[2020.10.20-08.04.35:673][201]LogAudio: Display: Waited 35.691299 ms for audio thread.
+[2020.10.20-08.04.36:612][255]LogAudio: Display: Waited 36.417500 ms for audio thread.
+[2020.10.20-08.04.36:642][255]LogAudio: Display: Waited 66.517006 ms for audio thread.
+[2020.10.20-08.04.36:992][259]LogAudio: Display: Waited 36.965199 ms for audio thread.
+[2020.10.20-08.04.37:032][259]LogAudio: Display: Waited 76.230301 ms for audio thread.
+[2020.10.20-08.04.37:069][259]LogAudio: Display: Waited 113.913300 ms for audio thread.
+[2020.10.20-08.04.37:105][259]LogAudio: Display: Waited 149.862000 ms for audio thread.
+[2020.10.20-08.04.37:141][259]LogAudio: Display: Waited 185.561005 ms for audio thread.
+[2020.10.20-08.04.37:181][259]LogAudio: Display: Waited 225.605499 ms for audio thread.
+[2020.10.20-08.04.37:216][259]LogAudio: Display: Waited 260.472504 ms for audio thread.
+[2020.10.20-08.04.37:219][259]LogAudio: Display: Waited 263.560608 ms for audio thread.
+[2020.10.20-08.04.37:303][263]LogAudio: Display: Waited 36.703003 ms for audio thread.
+[2020.10.20-08.04.37:305][263]LogAudio: Display: Waited 38.179001 ms for audio thread.
