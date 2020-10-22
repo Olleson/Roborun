@@ -719,3 +719,5 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.10.22-10.13.48:262][ 22]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
 [2020.10.22-10.14.02:756][588]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
 [2020.10.22-10.14.12:408][685]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2020.10.22-10.18.00:201][499]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.10.22-10.19.39:173][172]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
