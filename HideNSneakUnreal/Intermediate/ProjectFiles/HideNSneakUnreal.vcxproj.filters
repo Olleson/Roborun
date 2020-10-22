@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\HideNSneakUnreal.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{68BEDBB4-1681-47F6-85D0-81952B7F77AB}</UniqueIdentifier>
+      <UniqueIdentifier>{F17175AA-29DB-42D7-B1A5-C5F34373C35B}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\HideNSneakUnreal.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{8976FE0E-523B-4FF0-BAA7-CB149563AE30}</UniqueIdentifier>
+      <UniqueIdentifier>{E39EDF48-9C39-4575-AF37-907DCB5EA9DF}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -33,7 +33,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\HideNSneakUnreal">
-      <UniqueIdentifier>{85B3EFB3-973B-40F2-8A04-F4B798C81500}</UniqueIdentifier>
+      <UniqueIdentifier>{71C7BE9B-BFB7-4F3F-8DE2-708ED5F68598}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\HideNSneakUnreal\BatteryGameMode.cpp">
       <Filter>Source\HideNSneakUnreal</Filter>
@@ -57,6 +57,18 @@
       <Filter>Source\HideNSneakUnreal</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\HideNSneakUnreal\HideAndSneakGameState.h">
+      <Filter>Source\HideNSneakUnreal</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HideNSneakUnreal\HideNSneakCPPCharacter.cpp">
+      <Filter>Source\HideNSneakUnreal</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HideNSneakUnreal\HideNSneakCPPCharacter.h">
+      <Filter>Source\HideNSneakUnreal</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HideNSneakUnreal\HideNSneakGameModeBase.cpp">
+      <Filter>Source\HideNSneakUnreal</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HideNSneakUnreal\HideNSneakGameModeBase.h">
       <Filter>Source\HideNSneakUnreal</Filter>
     </ClInclude>
     <None Include="..\..\Source\HideNSneakUnreal\HideNSneakUnreal.Build.cs">
