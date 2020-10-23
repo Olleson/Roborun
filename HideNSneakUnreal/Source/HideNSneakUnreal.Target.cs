@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // Fill out your copyright notice in the Description page of Project Settings.
 
 using UnrealBuildTool;
@@ -13,3 +14,20 @@ public class HideNSneakUnrealTarget : TargetRules
 		ExtraModuleNames.AddRange( new string[] { "HideNSneakUnreal" } );
 	}
 }
+=======
+// Fill out your copyright notice in the Description page of Project Settings.
+
+using UnrealBuildTool;
+using System.Collections.Generic;
+
+public class HideNSneakUnrealTarget : TargetRules
+{
+	public HideNSneakUnrealTarget(TargetInfo Target) : base(Target)
+	{
+		Type = TargetType.Game;
+		DefaultBuildSettings = BuildSettingsVersion.V2;
+
+		ExtraModuleNames.AddRange( new string[] { "HideNSneakUnreal" } );
+	}
+}
+>>>>>>> Aulin

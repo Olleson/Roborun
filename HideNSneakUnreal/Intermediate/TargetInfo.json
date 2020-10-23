@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
 	"Targets": [
 		{
@@ -11,4 +12,19 @@
 			"Type": "Editor"
 		}
 	]
+=======
+{
+	"Targets": [
+		{
+			"Name": "HideNSneakUnreal",
+			"Path": "E:\\Unreal Projects\\Proj\\HideNSneakUnreal\\Source\\HideNSneakUnreal.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "HideNSneakUnrealEditor",
+			"Path": "E:\\Unreal Projects\\Proj\\HideNSneakUnreal\\Source\\HideNSneakUnrealEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+>>>>>>> Aulin
 }
