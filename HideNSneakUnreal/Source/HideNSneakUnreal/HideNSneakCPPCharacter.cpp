@@ -181,10 +181,10 @@ void AHideNSneakCPPCharacter::TurnIntoSeeker()
 
 void AHideNSneakCPPCharacter::OnCompHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit)
 {
-	if (OtherActor->IsA(AHideNSneakCPPCharacter::StaticClass()) && OtherActor != this && !Cast<AHideNSneakCPPCharacter>(OtherActor)->isSeeker && Cast<AHideNSneakCPPCharacter>(this)->isSeeker) {
+	if (OtherActor->IsA(AHideNSneakCPPCharacter::StaticClass()) && OtherActor != this && !Cast<AHideNSneakCPPCharacter>(OtherActor)->bIsSeeker && bIsSeeker) {
 		targetActor = OtherActor;
 		targetTagMechanic = Cast<AHideNSneakCPPCharacter>(targetActor);
-		TurnIntoSeeker();
+		ServerCaptureHider(targetTagMechanic);
 	}
 }
 
