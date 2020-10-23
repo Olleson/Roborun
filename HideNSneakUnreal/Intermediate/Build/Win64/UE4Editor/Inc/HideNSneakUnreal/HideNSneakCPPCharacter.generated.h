@@ -9,6 +9,10 @@
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 class AHideNSneakCPPCharacter;
+class UPrimitiveComponent;
+class AActor;
+struct FVector;
+struct FHitResult;
 #ifdef HIDENSNEAKUNREAL_HideNSneakCPPCharacter_generated_h
 #error "HideNSneakCPPCharacter.generated.h already included, missing '#pragma once' in HideNSneakCPPCharacter.h"
 #endif
@@ -22,6 +26,8 @@ class AHideNSneakCPPCharacter;
 	DECLARE_FUNCTION(execIsSeeker); \
 	DECLARE_FUNCTION(execServerCaptureHider); \
 	DECLARE_FUNCTION(execCaptureHiders); \
+	DECLARE_FUNCTION(execOnCompHit); \
+	DECLARE_FUNCTION(execTurnIntoSeeker); \
 	DECLARE_FUNCTION(execBecomeSeeker);
 
 
@@ -30,6 +36,8 @@ class AHideNSneakCPPCharacter;
 	DECLARE_FUNCTION(execIsSeeker); \
 	DECLARE_FUNCTION(execServerCaptureHider); \
 	DECLARE_FUNCTION(execCaptureHiders); \
+	DECLARE_FUNCTION(execOnCompHit); \
+	DECLARE_FUNCTION(execTurnIntoSeeker); \
 	DECLARE_FUNCTION(execBecomeSeeker);
 
 

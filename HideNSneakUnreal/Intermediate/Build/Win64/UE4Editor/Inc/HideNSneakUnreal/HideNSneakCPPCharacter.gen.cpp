@@ -17,6 +17,10 @@ void EmptyLinkFunctionForGeneratedCodeHideNSneakCPPCharacter() {}
 	HIDENSNEAKUNREAL_API UClass* Z_Construct_UClass_AHideNSneakCPPCharacter();
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	UPackage* Z_Construct_UPackage__Script_HideNSneakUnreal();
+	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
+	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
+	ENGINE_API UClass* Z_Construct_UClass_UPrimitiveComponent_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USphereComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
@@ -41,6 +45,25 @@ void EmptyLinkFunctionForGeneratedCodeHideNSneakCPPCharacter() {}
 		P_FINISH;
 		P_NATIVE_BEGIN;
 		P_THIS->CaptureHiders();
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(AHideNSneakCPPCharacter::execOnCompHit)
+	{
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_HitComp);
+		P_GET_OBJECT(AActor,Z_Param_OtherActor);
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OtherComp);
+		P_GET_STRUCT(FVector,Z_Param_NormalImpulse);
+		P_GET_STRUCT_REF(FHitResult,Z_Param_Out_Hit);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->OnCompHit(Z_Param_HitComp,Z_Param_OtherActor,Z_Param_OtherComp,Z_Param_NormalImpulse,Z_Param_Out_Hit);
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(AHideNSneakCPPCharacter::execTurnIntoSeeker)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->TurnIntoSeeker();
 		P_NATIVE_END;
 	}
 	DEFINE_FUNCTION(AHideNSneakCPPCharacter::execBecomeSeeker)
@@ -74,7 +97,9 @@ void EmptyLinkFunctionForGeneratedCodeHideNSneakCPPCharacter() {}
 			{ "BecomeSeeker", &AHideNSneakCPPCharacter::execBecomeSeeker },
 			{ "CaptureHiders", &AHideNSneakCPPCharacter::execCaptureHiders },
 			{ "IsSeeker", &AHideNSneakCPPCharacter::execIsSeeker },
+			{ "OnCompHit", &AHideNSneakCPPCharacter::execOnCompHit },
 			{ "ServerCaptureHider", &AHideNSneakCPPCharacter::execServerCaptureHider },
+			{ "TurnIntoSeeker", &AHideNSneakCPPCharacter::execTurnIntoSeeker },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 	}
@@ -168,6 +193,78 @@ void EmptyLinkFunctionForGeneratedCodeHideNSneakCPPCharacter() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_AHideNSneakCPPCharacter_OnCompHit_Statics
+	{
+		struct HideNSneakCPPCharacter_eventOnCompHit_Parms
+		{
+			UPrimitiveComponent* HitComp;
+			AActor* OtherActor;
+			UPrimitiveComponent* OtherComp;
+			FVector NormalImpulse;
+			FHitResult Hit;
+		};
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Hit_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_Hit;
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_NormalImpulse;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OtherComp_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_OtherComp;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_OtherActor;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_HitComp_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_HitComp;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AHideNSneakCPPCharacter_OnCompHit_Statics::NewProp_Hit_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_AHideNSneakCPPCharacter_OnCompHit_Statics::NewProp_Hit = { "Hit", nullptr, (EPropertyFlags)0x0010008008000182, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(HideNSneakCPPCharacter_eventOnCompHit_Parms, Hit), Z_Construct_UScriptStruct_FHitResult, METADATA_PARAMS(Z_Construct_UFunction_AHideNSneakCPPCharacter_OnCompHit_Statics::NewProp_Hit_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_AHideNSneakCPPCharacter_OnCompHit_Statics::NewProp_Hit_MetaData)) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_AHideNSneakCPPCharacter_OnCompHit_Statics::NewProp_NormalImpulse = { "NormalImpulse", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(HideNSneakCPPCharacter_eventOnCompHit_Parms, NormalImpulse), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AHideNSneakCPPCharacter_OnCompHit_Statics::NewProp_OtherComp_MetaData[] = {
+		{ "EditInline", "true" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AHideNSneakCPPCharacter_OnCompHit_Statics::NewProp_OtherComp = { "OtherComp", nullptr, (EPropertyFlags)0x0010000000080080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(HideNSneakCPPCharacter_eventOnCompHit_Parms, OtherComp), Z_Construct_UClass_UPrimitiveComponent_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_AHideNSneakCPPCharacter_OnCompHit_Statics::NewProp_OtherComp_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_AHideNSneakCPPCharacter_OnCompHit_Statics::NewProp_OtherComp_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AHideNSneakCPPCharacter_OnCompHit_Statics::NewProp_OtherActor = { "OtherActor", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(HideNSneakCPPCharacter_eventOnCompHit_Parms, OtherActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AHideNSneakCPPCharacter_OnCompHit_Statics::NewProp_HitComp_MetaData[] = {
+		{ "EditInline", "true" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AHideNSneakCPPCharacter_OnCompHit_Statics::NewProp_HitComp = { "HitComp", nullptr, (EPropertyFlags)0x0010000000080080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(HideNSneakCPPCharacter_eventOnCompHit_Parms, HitComp), Z_Construct_UClass_UPrimitiveComponent_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_AHideNSneakCPPCharacter_OnCompHit_Statics::NewProp_HitComp_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_AHideNSneakCPPCharacter_OnCompHit_Statics::NewProp_HitComp_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AHideNSneakCPPCharacter_OnCompHit_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AHideNSneakCPPCharacter_OnCompHit_Statics::NewProp_Hit,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AHideNSneakCPPCharacter_OnCompHit_Statics::NewProp_NormalImpulse,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AHideNSneakCPPCharacter_OnCompHit_Statics::NewProp_OtherComp,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AHideNSneakCPPCharacter_OnCompHit_Statics::NewProp_OtherActor,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AHideNSneakCPPCharacter_OnCompHit_Statics::NewProp_HitComp,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AHideNSneakCPPCharacter_OnCompHit_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "HideNSneakCPPCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AHideNSneakCPPCharacter_OnCompHit_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AHideNSneakCPPCharacter, nullptr, "OnCompHit", nullptr, nullptr, sizeof(HideNSneakCPPCharacter_eventOnCompHit_Parms), Z_Construct_UFunction_AHideNSneakCPPCharacter_OnCompHit_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AHideNSneakCPPCharacter_OnCompHit_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00C20401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AHideNSneakCPPCharacter_OnCompHit_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AHideNSneakCPPCharacter_OnCompHit_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AHideNSneakCPPCharacter_OnCompHit()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AHideNSneakCPPCharacter_OnCompHit_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	struct Z_Construct_UFunction_AHideNSneakCPPCharacter_OnRep_IsSeeker_Statics
 	{
 #if WITH_METADATA
@@ -223,6 +320,28 @@ void EmptyLinkFunctionForGeneratedCodeHideNSneakCPPCharacter() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_AHideNSneakCPPCharacter_TurnIntoSeeker_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AHideNSneakCPPCharacter_TurnIntoSeeker_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "HideNSneakCPPCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AHideNSneakCPPCharacter_TurnIntoSeeker_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AHideNSneakCPPCharacter, nullptr, "TurnIntoSeeker", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AHideNSneakCPPCharacter_TurnIntoSeeker_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AHideNSneakCPPCharacter_TurnIntoSeeker_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AHideNSneakCPPCharacter_TurnIntoSeeker()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AHideNSneakCPPCharacter_TurnIntoSeeker_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_AHideNSneakCPPCharacter_NoRegister()
 	{
 		return AHideNSneakCPPCharacter::StaticClass();
@@ -247,6 +366,19 @@ void EmptyLinkFunctionForGeneratedCodeHideNSneakCPPCharacter() {}
 #endif
 		static void NewProp_bIsSeeker_SetBit(void* Obj);
 		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bIsSeeker;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_targetTagMechanic_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_targetTagMechanic;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_targetActor_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_targetActor;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_isSeeker_MetaData[];
+#endif
+		static void NewProp_isSeeker_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_isSeeker;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BaseLookUpRate_MetaData[];
 #endif
@@ -283,8 +415,10 @@ void EmptyLinkFunctionForGeneratedCodeHideNSneakCPPCharacter() {}
 		{ &Z_Construct_UFunction_AHideNSneakCPPCharacter_BecomeSeeker, "BecomeSeeker" }, // 3016236252
 		{ &Z_Construct_UFunction_AHideNSneakCPPCharacter_CaptureHiders, "CaptureHiders" }, // 891211711
 		{ &Z_Construct_UFunction_AHideNSneakCPPCharacter_IsSeeker, "IsSeeker" }, // 3410833968
+		{ &Z_Construct_UFunction_AHideNSneakCPPCharacter_OnCompHit, "OnCompHit" }, // 3130080232
 		{ &Z_Construct_UFunction_AHideNSneakCPPCharacter_OnRep_IsSeeker, "OnRep_IsSeeker" }, // 887841532
 		{ &Z_Construct_UFunction_AHideNSneakCPPCharacter_ServerCaptureHider, "ServerCaptureHider" }, // 3176931346
+		{ &Z_Construct_UFunction_AHideNSneakCPPCharacter_TurnIntoSeeker, "TurnIntoSeeker" }, // 912263735
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AHideNSneakCPPCharacter_Statics::Class_MetaDataParams[] = {
@@ -327,6 +461,31 @@ void EmptyLinkFunctionForGeneratedCodeHideNSneakCPPCharacter() {}
 		((AHideNSneakCPPCharacter*)Obj)->bIsSeeker = 1;
 	}
 	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AHideNSneakCPPCharacter_Statics::NewProp_bIsSeeker = { "bIsSeeker", "OnRep_IsSeeker", (EPropertyFlags)0x0020080100020025, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AHideNSneakCPPCharacter), &Z_Construct_UClass_AHideNSneakCPPCharacter_Statics::NewProp_bIsSeeker_SetBit, METADATA_PARAMS(Z_Construct_UClass_AHideNSneakCPPCharacter_Statics::NewProp_bIsSeeker_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AHideNSneakCPPCharacter_Statics::NewProp_bIsSeeker_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AHideNSneakCPPCharacter_Statics::NewProp_targetTagMechanic_MetaData[] = {
+		{ "Category", "HideNSneakCPPCharacter" },
+		{ "ModuleRelativePath", "HideNSneakCPPCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AHideNSneakCPPCharacter_Statics::NewProp_targetTagMechanic = { "targetTagMechanic", nullptr, (EPropertyFlags)0x0010000000020001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AHideNSneakCPPCharacter, targetTagMechanic), Z_Construct_UClass_AHideNSneakCPPCharacter_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AHideNSneakCPPCharacter_Statics::NewProp_targetTagMechanic_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AHideNSneakCPPCharacter_Statics::NewProp_targetTagMechanic_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AHideNSneakCPPCharacter_Statics::NewProp_targetActor_MetaData[] = {
+		{ "Category", "HideNSneakCPPCharacter" },
+		{ "ModuleRelativePath", "HideNSneakCPPCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AHideNSneakCPPCharacter_Statics::NewProp_targetActor = { "targetActor", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AHideNSneakCPPCharacter, targetActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AHideNSneakCPPCharacter_Statics::NewProp_targetActor_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AHideNSneakCPPCharacter_Statics::NewProp_targetActor_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AHideNSneakCPPCharacter_Statics::NewProp_isSeeker_MetaData[] = {
+		{ "Category", "HideNSneakCPPCharacter" },
+		{ "ModuleRelativePath", "HideNSneakCPPCharacter.h" },
+	};
+#endif
+	void Z_Construct_UClass_AHideNSneakCPPCharacter_Statics::NewProp_isSeeker_SetBit(void* Obj)
+	{
+		((AHideNSneakCPPCharacter*)Obj)->isSeeker = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AHideNSneakCPPCharacter_Statics::NewProp_isSeeker = { "isSeeker", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AHideNSneakCPPCharacter), &Z_Construct_UClass_AHideNSneakCPPCharacter_Statics::NewProp_isSeeker_SetBit, METADATA_PARAMS(Z_Construct_UClass_AHideNSneakCPPCharacter_Statics::NewProp_isSeeker_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AHideNSneakCPPCharacter_Statics::NewProp_isSeeker_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AHideNSneakCPPCharacter_Statics::NewProp_BaseLookUpRate_MetaData[] = {
 		{ "Category", "Camera" },
@@ -392,6 +551,9 @@ void EmptyLinkFunctionForGeneratedCodeHideNSneakCPPCharacter() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHideNSneakCPPCharacter_Statics::NewProp_SpeedFactor,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHideNSneakCPPCharacter_Statics::NewProp_BaseSpeed,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHideNSneakCPPCharacter_Statics::NewProp_bIsSeeker,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHideNSneakCPPCharacter_Statics::NewProp_targetTagMechanic,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHideNSneakCPPCharacter_Statics::NewProp_targetActor,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHideNSneakCPPCharacter_Statics::NewProp_isSeeker,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHideNSneakCPPCharacter_Statics::NewProp_BaseLookUpRate,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHideNSneakCPPCharacter_Statics::NewProp_BaseTurnRate,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHideNSneakCPPCharacter_Statics::NewProp_CaptureSphereRadius,
@@ -426,7 +588,7 @@ void EmptyLinkFunctionForGeneratedCodeHideNSneakCPPCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AHideNSneakCPPCharacter, 757904649);
+	IMPLEMENT_CLASS(AHideNSneakCPPCharacter, 3314032809);
 	template<> HIDENSNEAKUNREAL_API UClass* StaticClass<AHideNSneakCPPCharacter>()
 	{
 		return AHideNSneakCPPCharacter::StaticClass();

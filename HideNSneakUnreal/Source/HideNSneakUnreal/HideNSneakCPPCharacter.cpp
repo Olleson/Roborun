@@ -10,6 +10,13 @@
 #include "GameFramework/Controller.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "Net/UnrealNetwork.h"
+#include "Components/BoxComponent.h"
+#include "Kismet/GameplayStatics.h"
+#include "GameplayTagsModule.h"
+#include "GameplayTagsSettings.h"
+#include "GameplayTags.h"
+#include "GameplayTagsManager.h"
+#include "GameFramework/Actor.h"
 
 //////////////////////////////////////////////////////////////////////////
 // AHideNSneakCPPCharacter
@@ -62,6 +69,12 @@ AHideNSneakCPPCharacter::AHideNSneakCPPCharacter()
 
 	// Note: The skeletal mesh and anim blueprint references on the Mesh component (inherited from Character) 
 	// are set in the derived blueprint asset named MyCharacter (to avoid direct content references in C++)
+}
+
+void AHideNSneakCPPCharacter::BeginPlay()
+{
+	Super::BeginPlay();
+	GetCapsuleComponent()->OnComponentHit.AddDynamic(this, &AHideNSneakCPPCharacter::OnCompHit);
 }
 
 void AHideNSneakCPPCharacter::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const {
@@ -157,6 +170,21 @@ void AHideNSneakCPPCharacter::BecomeSeeker_Implementation()
 
 	if (HasAuthority()) {
 		OnRep_IsSeeker();
+	}
+}
+
+void AHideNSneakCPPCharacter::TurnIntoSeeker()
+{
+	GEngine->AddOnScreenDebugMessage(-1, 1.0f, FColor::Red, FString::Printf(TEXT("Someone has been turned into a Seeker!")));
+	targetTagMechanic->isSeeker = true;
+}
+
+void AHideNSneakCPPCharacter::OnCompHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit)
+{
+	if (OtherActor->IsA(AHideNSneakCPPCharacter::StaticClass()) && OtherActor != this && !Cast<AHideNSneakCPPCharacter>(OtherActor)->isSeeker && Cast<AHideNSneakCPPCharacter>(this)->isSeeker) {
+		targetActor = OtherActor;
+		targetTagMechanic = Cast<AHideNSneakCPPCharacter>(targetActor);
+		TurnIntoSeeker();
 	}
 }
 

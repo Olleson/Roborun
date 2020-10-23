@@ -32,6 +32,8 @@ class HIDENSNEAKUNREAL_API AHideNSneakCPPCharacter : public ACharacter
 public:
 	AHideNSneakCPPCharacter();
 
+	void BeginPlay() override;
+
 	/** Required Network Scaffolding */
 	void GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const override;
 
@@ -48,6 +50,21 @@ public:
 		void BecomeSeeker();
 
 	void BecomeSeeker_Implementation();
+
+	UPROPERTY(EditAnywhere)
+		bool isSeeker;
+
+	UPROPERTY(EditAnywhere)
+		AActor* targetActor;
+
+	UPROPERTY(VisibleAnywhere)
+		AHideNSneakCPPCharacter* targetTagMechanic;
+
+	UFUNCTION()
+		void TurnIntoSeeker();
+
+	UFUNCTION()
+		void OnCompHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit);
 
 protected:
 
