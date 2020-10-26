@@ -970,3 +970,1091 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.10.26-12.56.05:636][139]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
 [2020.10.26-12.56.05:691][140]LogPlayLevel: Display: Destroying online subsystem :Context_6
 [2020.10.26-12.57.00:230][643]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.10.26-13.03.11:119][841]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2020.10.26-13.03.11:183][841]LogSavePackage: Moving '../../../../../../Users/osjo8879/Desktop/Proj/HideNSneakUnreal/Saved/OskarsTestZone_Auto1B1776E764A24924CCD83649CF4534C91.tmp' to '../../../../../../Users/osjo8879/Desktop/Proj/HideNSneakUnreal/Saved/Autosaves/Game/Oskar/Maps/OskarsTestZone_Auto1.umap'
+[2020.10.26-13.03.11:187][841]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Oskar/Maps/OskarsTestZone' took 0.090
+[2020.10.26-13.03.11:187][841]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.090
+[2020.10.26-13.12.46:556][642]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2020.10.26-13.12.46:717][642]LogSavePackage: Moving '../../../../../../Users/osjo8879/Desktop/Proj/HideNSneakUnreal/Saved/OskarsTestZone6827F10847DFECD3900A8FBF9171065C.tmp' to '../../../../../../Users/osjo8879/Desktop/Proj/HideNSneakUnreal/Content/Oskar/Maps/OskarsTestZone.umap'
+[2020.10.26-13.12.46:812][642]LogSavePackage: Moving '../../../../../../Users/osjo8879/Desktop/Proj/HideNSneakUnreal/Saved/OskarsTestZone_BuiltData864DA8BA4EA1C9B0FCBC1FB4D9A41E2C.tmp' to '../../../../../../Users/osjo8879/Desktop/Proj/HideNSneakUnreal/Content/Oskar/Maps/OskarsTestZone_BuiltData.uasset'
+[2020.10.26-13.12.46:823][642]AssetCheck: New page: Asset Save: multiple assets
+[2020.10.26-13.12.46:823][642]LogContentValidation: Display: Validating World /Game/Oskar/Maps/OskarsTestZone.OskarsTestZone
+[2020.10.26-13.12.46:823][642]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Oskar/Maps/OskarsTestZone_BuiltData.OskarsTestZone_BuiltData
+[2020.10.26-13.14.49:182][102]LogEditorViewport: Clicking on Actor (LMB): Returningplatform_BP_C (Returningplatform_BP5)
+[2020.10.26-13.14.49:736][164]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.10.26-13.14.50:223][215]LogEditorViewport: Clicking on Actor (LMB): Returningplatform_BP_C (Returningplatform_BP4)
+[2020.10.26-13.14.50:750][274]LogEditorViewport: Clicking on Actor (LMB): Returningplatform_BP_C (Returningplatform_BP5)
+[2020.10.26-13.15.11:482][457]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.26-13.15.11:506][457]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.26-13.15.11:506][457]PIE: New page: PIE session: OskarsTestZone (26 okt. 2020 15:15:11)
+[2020.10.26-13.15.11:535][457]LogPlayLevel: Creating play world package: /Game/Oskar/Maps/UEDPIE_0_OskarsTestZone
+[2020.10.26-13.15.11:547][457]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012245s)
+[2020.10.26-13.15.11:549][457]LogAIModule: Creating AISystem for world OskarsTestZone
+[2020.10.26-13.15.11:549][457]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000024D231E6A00), frame # 46457
+[2020.10.26-13.15.11:549][457]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000024D28824A40), frame # 46457
+[2020.10.26-13.15.11:549][457]LogPlayLevel: PIE: World Init took: (0.001885s)
+[2020.10.26-13.15.11:549][457]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Oskar/Maps/OskarsTestZone.OskarsTestZone to /Game/Oskar/Maps/UEDPIE_0_OskarsTestZone.OskarsTestZone (0.014371s)
+[2020.10.26-13.15.11:569][457]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2020.10.26-13.15.11:573][457]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.26-13.15.11:573][457]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.26-13.15.11:573][457]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.26-13.15.11:573][457]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.26-13.15.11:573][457]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.26-13.15.11:573][457]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.26-13.15.11:573][457]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.26-13.15.11:573][457]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.26-13.15.11:574][457]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.26-13.15.11:574][457]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.26-13.15.11:578][457]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.26-13.15.11:578][457]LogAudioMixer: Display: 1: FrontRight
+[2020.10.26-13.15.11:588][457]LogAudioMixer: Display: Using Audio Device Speakers (Steam Streaming Microphone)
+[2020.10.26-13.15.11:588][457]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.26-13.15.11:588][457]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.26-13.15.11:589][457]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.26-13.15.11:589][457]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.26-13.15.11:611][457]LogInit: FAudioDevice initialized.
+[2020.10.26-13.15.11:620][457]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.10.26-13.15.11:623][457]LogWorld: Bringing World /Game/Oskar/Maps/UEDPIE_0_OskarsTestZone.OskarsTestZone up for play (max tick rate 0) at 2020.10.26-14.15.11
+[2020.10.26-13.15.11:623][457]LogWorld: Bringing up level for play took: 0.002818
+[2020.10.26-13.15.11:624][457]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2020.10.26-13.15.11:627][457]PIE: Server logged in
+[2020.10.26-13.15.11:628][457]PIE: Play in editor total start time 0,123 seconds.
+[2020.10.26-13.15.49:400][870]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.26-13.15.49:400][870]LogWorld: BeginTearingDown for /Game/Oskar/Maps/UEDPIE_0_OskarsTestZone
+[2020.10.26-13.15.49:400][870]LogWorld: UWorld::CleanupWorld for OskarsTestZone, bSessionEnded=true, bCleanupResources=true
+[2020.10.26-13.15.49:401][870]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.26-13.15.49:410][870]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.26-13.15.49:411][870]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.26-13.15.49:463][870]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.26-13.15.49:465][870]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000024D28824A40), frame # 50870
+[2020.10.26-13.15.49:465][870]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000024D231E6A00), frame # 50870
+[2020.10.26-13.15.49:467][870]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2020.10.26-13.15.49:520][871]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2020.10.26-13.16.55:872][535]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.26-13.16.55:896][535]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.26-13.16.55:896][535]PIE: New page: PIE session: OskarsTestZone (26 okt. 2020 15:16:55)
+[2020.10.26-13.16.55:936][535]LogPlayLevel: Creating play world package: /Game/Oskar/Maps/UEDPIE_0_OskarsTestZone
+[2020.10.26-13.16.55:946][535]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010444s)
+[2020.10.26-13.16.55:948][535]LogAIModule: Creating AISystem for world OskarsTestZone
+[2020.10.26-13.16.55:948][535]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000024D35E61C00), frame # 53535
+[2020.10.26-13.16.55:948][535]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000024D35B75F80), frame # 53535
+[2020.10.26-13.16.55:949][535]LogPlayLevel: PIE: World Init took: (0.002235s)
+[2020.10.26-13.16.55:949][535]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Oskar/Maps/OskarsTestZone.OskarsTestZone to /Game/Oskar/Maps/UEDPIE_0_OskarsTestZone.OskarsTestZone (0.012908s)
+[2020.10.26-13.16.55:971][535]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2020.10.26-13.16.55:974][535]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.26-13.16.55:974][535]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.26-13.16.55:974][535]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.26-13.16.55:974][535]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.26-13.16.55:974][535]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.26-13.16.55:974][535]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.26-13.16.55:974][535]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.26-13.16.55:974][535]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.26-13.16.55:975][535]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.26-13.16.55:975][535]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.26-13.16.55:978][535]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.26-13.16.55:978][535]LogAudioMixer: Display: 1: FrontRight
+[2020.10.26-13.16.55:991][535]LogAudioMixer: Display: Using Audio Device Speakers (Steam Streaming Microphone)
+[2020.10.26-13.16.55:992][535]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.26-13.16.55:992][535]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.26-13.16.55:992][535]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.26-13.16.55:992][535]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.26-13.16.56:016][535]LogInit: FAudioDevice initialized.
+[2020.10.26-13.16.56:030][535]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.10.26-13.16.56:034][535]LogWorld: Bringing World /Game/Oskar/Maps/UEDPIE_0_OskarsTestZone.OskarsTestZone up for play (max tick rate 0) at 2020.10.26-14.16.56
+[2020.10.26-13.16.56:034][535]LogWorld: Bringing up level for play took: 0.004033
+[2020.10.26-13.16.56:035][535]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2020.10.26-13.16.56:039][535]PIE: Server logged in
+[2020.10.26-13.16.56:040][535]PIE: Play in editor total start time 0,145 seconds.
+[2020.10.26-13.17.05:108][616]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.26-13.17.05:108][616]LogWorld: BeginTearingDown for /Game/Oskar/Maps/UEDPIE_0_OskarsTestZone
+[2020.10.26-13.17.05:108][616]LogWorld: UWorld::CleanupWorld for OskarsTestZone, bSessionEnded=true, bCleanupResources=true
+[2020.10.26-13.17.05:109][616]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.26-13.17.05:121][616]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.26-13.17.05:122][616]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.26-13.17.05:145][616]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.26-13.17.05:174][616]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000024D35B75F80), frame # 54616
+[2020.10.26-13.17.05:174][616]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000024D35E61C00), frame # 54616
+[2020.10.26-13.17.05:175][616]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2020.10.26-13.17.05:228][617]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2020.10.26-13.17.35:888][ 82]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2020.10.26-13.17.35:934][ 82]LogSavePackage: Moving '../../../../../../Users/osjo8879/Desktop/Proj/HideNSneakUnreal/Saved/OskarsTestZone097C8C4F4F1E6B95A048478A7EC5E3F8.tmp' to '../../../../../../Users/osjo8879/Desktop/Proj/HideNSneakUnreal/Content/Oskar/Maps/OskarsTestZone.umap'
+[2020.10.26-13.17.36:019][ 82]LogSavePackage: Moving '../../../../../../Users/osjo8879/Desktop/Proj/HideNSneakUnreal/Saved/OskarsTestZone_BuiltData4CB540A0491888E85DBE9392818851C6.tmp' to '../../../../../../Users/osjo8879/Desktop/Proj/HideNSneakUnreal/Content/Oskar/Maps/OskarsTestZone_BuiltData.uasset'
+[2020.10.26-13.17.36:031][ 82]AssetCheck: New page: Asset Save: multiple assets
+[2020.10.26-13.17.36:031][ 82]LogContentValidation: Display: Validating World /Game/Oskar/Maps/OskarsTestZone.OskarsTestZone
+[2020.10.26-13.17.36:031][ 82]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Oskar/Maps/OskarsTestZone_BuiltData.OskarsTestZone_BuiltData
+[2020.10.26-13.17.42:744][857]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2020.10.26-13.17.45:172][136]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2020.10.26-13.17.45:175][136]Candidate modules for hot reload:
+[2020.10.26-13.17.45:176][136]  HideNSneakUnreal
+[2020.10.26-13.17.45:176][136]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=HideNSneakUnreal,5174 HideNSneakUnrealEditor Win64 Development -Project="C:/Users/osjo8879/Desktop/Proj/HideNSneakUnreal/HideNSneakUnreal.uproject" "C:/Users/osjo8879/Desktop/Proj/HideNSneakUnreal/HideNSneakUnreal.uproject"  -IgnoreJunk]
+[2020.10.26-13.17.45:178][136]Warning: Starting HotReload took  0.0s.
+[2020.10.26-13.17.50:691][750]CompilerResultsLog: New page: Compilation - 26 okt. 2020 15:17:50
+[2020.10.26-13.17.50:691][750]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\osjo8879\Desktop\Proj).
+[2020.10.26-13.17.50:691][750]CompilerResultsLog: Creating makefile for HideNSneakUnrealEditor (.uproject file is newer)
+[2020.10.26-13.17.50:691][750]CompilerResultsLog: Parsing headers for HideNSneakUnrealEditor
+[2020.10.26-13.17.50:691][750]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\osjo8879\Desktop\Proj\HideNSneakUnreal\HideNSneakUnreal.uproject" "C:\Users\osjo8879\Desktop\Proj\HideNSneakUnreal\Intermediate\Build\Win64\HideNSneakUnrealEditor\Development\HideNSneakUnrealEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\osjo8879\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.10.26-13.17.50:692][750]CompilerResultsLog: Error: C:/Users/osjo8879/Desktop/Proj/HideNSneakUnreal/Source/HideNSneakUnreal/CPP_Powerup.h(12) : Error: #include found after .generated.h file - the .generated.h file should always be the last #include in a header
+[2020.10.26-13.17.50:692][750]LogMainFrame: MainFrame: Module compiling took 5.518 seconds
+[2020.10.26-13.17.50:692][750]Warning: HotReload failed, recompile failed
+[2020.10.26-13.17.52:318][938]LogSlate: Took 0.010012 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.10.26-13.19.49:007][735]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2020.10.26-13.19.49:010][735]Candidate modules for hot reload:
+[2020.10.26-13.19.49:010][735]  HideNSneakUnreal
+[2020.10.26-13.19.49:010][735]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=HideNSneakUnreal,9179 HideNSneakUnrealEditor Win64 Development -Project="C:/Users/osjo8879/Desktop/Proj/HideNSneakUnreal/HideNSneakUnreal.uproject" "C:/Users/osjo8879/Desktop/Proj/HideNSneakUnreal/HideNSneakUnreal.uproject"  -IgnoreJunk]
+[2020.10.26-13.19.49:012][735]Warning: Starting HotReload took  0.0s.
+[2020.10.26-13.20.34:820][130]CompilerResultsLog: New page: Compilation - 26 okt. 2020 15:20:34
+[2020.10.26-13.20.34:820][130]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\osjo8879\Desktop\Proj).
+[2020.10.26-13.20.34:820][130]CompilerResultsLog: Creating makefile for HideNSneakUnrealEditor (.uproject file is newer)
+[2020.10.26-13.20.34:820][130]CompilerResultsLog: Parsing headers for HideNSneakUnrealEditor
+[2020.10.26-13.20.34:820][130]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\osjo8879\Desktop\Proj\HideNSneakUnreal\HideNSneakUnreal.uproject" "C:\Users\osjo8879\Desktop\Proj\HideNSneakUnreal\Intermediate\Build\Win64\HideNSneakUnrealEditor\Development\HideNSneakUnrealEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\osjo8879\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.10.26-13.20.34:820][130]CompilerResultsLog: Reflection code generated for HideNSneakUnrealEditor in 6,8892237 seconds
+[2020.10.26-13.20.34:820][130]CompilerResultsLog: Building HideNSneakUnrealEditor...
+[2020.10.26-13.20.34:820][130]CompilerResultsLog: Using Visual Studio 2019 14.27.29112 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.10.26-13.20.34:820][130]CompilerResultsLog: Building 20 actions with 16 processes...
+[2020.10.26-13.20.34:820][130]CompilerResultsLog:   [1/20] SharedPCH.Engine.ShadowErrors.cpp
+[2020.10.26-13.20.34:820][130]CompilerResultsLog:   [2/20] CPP_Powerup.cpp
+[2020.10.26-13.20.34:820][130]CompilerResultsLog:    C:\Users\osjo8879\Desktop\Proj\HideNSneakUnreal\Source\HideNSneakUnreal\CPP_Powerup.cpp(66) : error C2065: 'ACPP_Character': undeclared identifier
+[2020.10.26-13.20.34:820][130]CompilerResultsLog:    C:\Users\osjo8879\Desktop\Proj\HideNSneakUnreal\Source\HideNSneakUnreal\CPP_Powerup.cpp(66) : error C2065: 'OtherCharacter': undeclared identifier
+[2020.10.26-13.20.34:820][130]CompilerResultsLog:    C:\Users\osjo8879\Desktop\Proj\HideNSneakUnreal\Source\HideNSneakUnreal\CPP_Powerup.cpp(66) : error C2065: 'ACPP_Character': undeclared identifier
+[2020.10.26-13.20.34:820][130]CompilerResultsLog:    C:\Users\osjo8879\Desktop\Proj\HideNSneakUnreal\Source\HideNSneakUnreal\CPP_Powerup.cpp(66) : error C2672: 'Cast': no matching overloaded function found
+[2020.10.26-13.20.34:820][130]CompilerResultsLog:    C:\Users\osjo8879\Desktop\Proj\HideNSneakUnreal\Source\HideNSneakUnreal\CPP_Powerup.cpp(66) : error C2974: 'Cast': invalid template argument for 'T', type expected
+[2020.10.26-13.20.34:820][130]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Engine/World.h(104): note: see declaration of 'Cast'
+[2020.10.26-13.20.34:820][130]CompilerResultsLog:    C:\Users\osjo8879\Desktop\Proj\HideNSneakUnreal\Source\HideNSneakUnreal\CPP_Powerup.cpp(66) : error C2974: 'Cast': invalid template argument for 'To', type expected
+[2020.10.26-13.20.34:820][130]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\Templates/Casts.h(111): note: see declaration of 'Cast'
+[2020.10.26-13.20.34:820][130]CompilerResultsLog:   [3/20] HideNSneakUnreal.cpp
+[2020.10.26-13.20.34:820][130]CompilerResultsLog:   [4/20] MovingPlatform.cpp
+[2020.10.26-13.20.34:820][130]CompilerResultsLog:   [5/20] test.cpp
+[2020.10.26-13.20.34:820][130]CompilerResultsLog:   [6/20] NewActorComponent.cpp
+[2020.10.26-13.20.34:820][130]CompilerResultsLog:   [7/20] HideNSneakUnreal.init.gen.cpp
+[2020.10.26-13.20.34:820][130]CompilerResultsLog:   [8/20] testActor.cpp
+[2020.10.26-13.20.34:820][130]CompilerResultsLog:   [9/20] CPP_Character.cpp
+[2020.10.26-13.20.34:820][130]CompilerResultsLog:    C:\Users\osjo8879\Desktop\Proj\HideNSneakUnreal\Source\HideNSneakUnreal\CPP_Character.cpp(64) : error C2001: newline in constant
+[2020.10.26-13.20.34:820][130]CompilerResultsLog:    C:\Users\osjo8879\Desktop\Proj\HideNSneakUnreal\Source\HideNSneakUnreal\CPP_Character.cpp(67) : error C2143: syntax error: missing ')' before '}'
+[2020.10.26-13.20.34:820][130]CompilerResultsLog:    C:\Users\osjo8879\Desktop\Proj\HideNSneakUnreal\Source\HideNSneakUnreal\CPP_Character.cpp(64) : error C2672: 'UInputComponent::BindAction': no matching overloaded function found
+[2020.10.26-13.20.34:820][130]CompilerResultsLog:    C:\Users\osjo8879\Desktop\Proj\HideNSneakUnreal\Source\HideNSneakUnreal\CPP_Character.cpp(67) : error C2780: 'FInputActionBinding &UInputComponent::BindAction(const FName,const EInputEvent,UserClass *,DelegateType::TUObjectMethodDelegate<UserClass>::FMethodPtr,VarTypes...)': expects 5 arguments - 1 provided
+[2020.10.26-13.20.34:820][130]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Components/InputComponent.h(891): note: see declaration of 'UInputComponent::BindAction'
+[2020.10.26-13.20.34:820][130]CompilerResultsLog:    C:\Users\osjo8879\Desktop\Proj\HideNSneakUnreal\Source\HideNSneakUnreal\CPP_Character.cpp(67) : error C2780: 'FInputActionBinding &UInputComponent::BindAction(const FName,const EInputEvent,UserClass *,TBaseDelegate<void,FKey>::TUObjectMethodDelegate<UserClass>::FMethodPtr)': expects 4 arguments - 1 provided
+[2020.10.26-13.20.34:821][130]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Components/InputComponent.h(879): note: see declaration of 'UInputComponent::BindAction'
+[2020.10.26-13.20.34:821][130]CompilerResultsLog:    C:\Users\osjo8879\Desktop\Proj\HideNSneakUnreal\Source\HideNSneakUnreal\CPP_Character.cpp(67) : error C2780: 'FInputActionBinding &UInputComponent::BindAction(const FName,const EInputEvent,UserClass *,TBaseDelegate<void>::TUObjectMethodDelegate<UserClass>::FMethodPtr)': expects 4 arguments - 1 provided
+[2020.10.26-13.20.34:821][130]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Components/InputComponent.h(867): note: see declaration of 'UInputComponent::BindAction'
+[2020.10.26-13.20.34:821][130]CompilerResultsLog:    C:\Users\osjo8879\Desktop\Proj\HideNSneakUnreal\Source\HideNSneakUnreal\CPP_Character.cpp(67) : error C2143: syntax error: missing ';' before '}'
+[2020.10.26-13.20.34:821][130]CompilerResultsLog:   [10/20] moveableBox.cpp
+[2020.10.26-13.20.34:821][130]CompilerResultsLog:   [11/20] NewActorComponent.gen.cpp
+[2020.10.26-13.20.34:821][130]CompilerResultsLog:   [12/20] test.gen.cpp
+[2020.10.26-13.20.34:821][130]CompilerResultsLog:   [13/20] testActor.gen.cpp
+[2020.10.26-13.20.34:821][130]CompilerResultsLog:   [14/20] MovingPlatform.gen.cpp
+[2020.10.26-13.20.34:821][130]CompilerResultsLog:   [15/20] CPP_Powerup.gen.cpp
+[2020.10.26-13.20.34:821][130]CompilerResultsLog:   [16/20] moveableBox.gen.cpp
+[2020.10.26-13.20.34:821][130]CompilerResultsLog:   [17/20] CPP_Character.gen.cpp
+[2020.10.26-13.20.34:821][130]LogMainFrame: MainFrame: Module compiling took 45.814 seconds
+[2020.10.26-13.20.34:821][130]Warning: HotReload failed, recompile failed
+[2020.10.26-13.21.08:709][565]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2020.10.26-13.21.08:711][565]Candidate modules for hot reload:
+[2020.10.26-13.21.08:711][565]  HideNSneakUnreal
+[2020.10.26-13.21.08:712][565]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=HideNSneakUnreal,4028 HideNSneakUnrealEditor Win64 Development -Project="C:/Users/osjo8879/Desktop/Proj/HideNSneakUnreal/HideNSneakUnreal.uproject" "C:/Users/osjo8879/Desktop/Proj/HideNSneakUnreal/HideNSneakUnreal.uproject"  -IgnoreJunk]
+[2020.10.26-13.21.08:713][565]Warning: Starting HotReload took  0.0s.
+[2020.10.26-13.21.10:524][736]CompilerResultsLog: New page: Compilation - 26 okt. 2020 15:21:10
+[2020.10.26-13.21.10:524][736]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\osjo8879\Desktop\Proj).
+[2020.10.26-13.21.10:524][736]CompilerResultsLog: Building HideNSneakUnrealEditor...
+[2020.10.26-13.21.10:524][736]CompilerResultsLog: Using Visual Studio 2019 14.27.29112 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.10.26-13.21.10:524][736]CompilerResultsLog: Building 5 actions with 16 processes...
+[2020.10.26-13.21.10:524][736]CompilerResultsLog:   [1/5] CPP_Character.cpp
+[2020.10.26-13.21.10:524][736]CompilerResultsLog:    C:\Users\osjo8879\Desktop\Proj\HideNSneakUnreal\Source\HideNSneakUnreal\CPP_Character.cpp(64) : error C2001: newline in constant
+[2020.10.26-13.21.10:524][736]CompilerResultsLog:    C:\Users\osjo8879\Desktop\Proj\HideNSneakUnreal\Source\HideNSneakUnreal\CPP_Character.cpp(67) : error C2143: syntax error: missing ')' before '}'
+[2020.10.26-13.21.10:524][736]CompilerResultsLog:    C:\Users\osjo8879\Desktop\Proj\HideNSneakUnreal\Source\HideNSneakUnreal\CPP_Character.cpp(64) : error C2672: 'UInputComponent::BindAction': no matching overloaded function found
+[2020.10.26-13.21.10:524][736]CompilerResultsLog:    C:\Users\osjo8879\Desktop\Proj\HideNSneakUnreal\Source\HideNSneakUnreal\CPP_Character.cpp(67) : error C2780: 'FInputActionBinding &UInputComponent::BindAction(const FName,const EInputEvent,UserClass *,DelegateType::TUObjectMethodDelegate<UserClass>::FMethodPtr,VarTypes...)': expects 5 arguments - 1 provided
+[2020.10.26-13.21.10:524][736]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Components/InputComponent.h(891): note: see declaration of 'UInputComponent::BindAction'
+[2020.10.26-13.21.10:524][736]CompilerResultsLog:    C:\Users\osjo8879\Desktop\Proj\HideNSneakUnreal\Source\HideNSneakUnreal\CPP_Character.cpp(67) : error C2780: 'FInputActionBinding &UInputComponent::BindAction(const FName,const EInputEvent,UserClass *,TBaseDelegate<void,FKey>::TUObjectMethodDelegate<UserClass>::FMethodPtr)': expects 4 arguments - 1 provided
+[2020.10.26-13.21.10:524][736]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Components/InputComponent.h(879): note: see declaration of 'UInputComponent::BindAction'
+[2020.10.26-13.21.10:524][736]CompilerResultsLog:    C:\Users\osjo8879\Desktop\Proj\HideNSneakUnreal\Source\HideNSneakUnreal\CPP_Character.cpp(67) : error C2780: 'FInputActionBinding &UInputComponent::BindAction(const FName,const EInputEvent,UserClass *,TBaseDelegate<void>::TUObjectMethodDelegate<UserClass>::FMethodPtr)': expects 4 arguments - 1 provided
+[2020.10.26-13.21.10:524][736]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Components/InputComponent.h(867): note: see declaration of 'UInputComponent::BindAction'
+[2020.10.26-13.21.10:524][736]CompilerResultsLog:    C:\Users\osjo8879\Desktop\Proj\HideNSneakUnreal\Source\HideNSneakUnreal\CPP_Character.cpp(67) : error C2143: syntax error: missing ';' before '}'
+[2020.10.26-13.21.10:524][736]CompilerResultsLog:   [2/5] CPP_Powerup.cpp
+[2020.10.26-13.21.10:524][736]LogMainFrame: MainFrame: Module compiling took 1.815 seconds
+[2020.10.26-13.21.10:524][736]Warning: HotReload failed, recompile failed
+[2020.10.26-13.22.03:879][283]LogVSAccessor: Warning: Couldn't save all documents
+[2020.10.26-13.22.03:882][283]Candidate modules for hot reload:
+[2020.10.26-13.22.03:882][283]  HideNSneakUnreal
+[2020.10.26-13.22.03:882][283]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=HideNSneakUnreal,8451 HideNSneakUnrealEditor Win64 Development -Project="C:/Users/osjo8879/Desktop/Proj/HideNSneakUnreal/HideNSneakUnreal.uproject" "C:/Users/osjo8879/Desktop/Proj/HideNSneakUnreal/HideNSneakUnreal.uproject"  -IgnoreJunk]
+[2020.10.26-13.22.03:884][283]Warning: Starting HotReload took  0.0s.
+[2020.10.26-13.22.06:895][594]CompilerResultsLog: New page: Compilation - 26 okt. 2020 15:22:06
+[2020.10.26-13.22.06:895][594]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\osjo8879\Desktop\Proj).
+[2020.10.26-13.22.06:895][594]CompilerResultsLog: Building HideNSneakUnrealEditor...
+[2020.10.26-13.22.06:895][594]CompilerResultsLog: Using Visual Studio 2019 14.27.29112 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.10.26-13.22.06:895][594]CompilerResultsLog: Building 4 actions with 16 processes...
+[2020.10.26-13.22.06:895][594]CompilerResultsLog:   [1/4] CPP_Character.cpp
+[2020.10.26-13.22.06:895][594]CompilerResultsLog:   [2/4] UE4Editor-HideNSneakUnreal-8451.lib
+[2020.10.26-13.22.06:895][594]CompilerResultsLog:      Creating library C:\Users\osjo8879\Desktop\Proj\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal-8451.lib and object C:\Users\osjo8879\Desktop\Proj\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal-8451.exp
+[2020.10.26-13.22.06:895][594]CompilerResultsLog:   [3/4] UE4Editor-HideNSneakUnreal-8451.dll
+[2020.10.26-13.22.06:895][594]CompilerResultsLog:      Creating library C:\Users\osjo8879\Desktop\Proj\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal-8451.suppressed.lib and object C:\Users\osjo8879\Desktop\Proj\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal-8451.suppressed.exp
+[2020.10.26-13.22.06:895][594]CompilerResultsLog:   [4/4] HideNSneakUnrealEditor.target
+[2020.10.26-13.22.06:895][594]CompilerResultsLog: Total time in Parallel executor: 1,96 seconds
+[2020.10.26-13.22.06:895][594]CompilerResultsLog: Total execution time: 2,90 seconds
+[2020.10.26-13.22.06:895][594]LogMainFrame: MainFrame: Module compiling took 3.015 seconds
+[2020.10.26-13.22.06:918][594]LogClass: Could not find existing class CPP_Character in package /Script/HideNSneakUnreal for HotReload, assuming new class
+[2020.10.26-13.22.06:918][594]LogClass: Function OnCrouch is new.
+[2020.10.26-13.22.06:918][594]LogClass: Could not find existing class CPP_Powerup in package /Script/HideNSneakUnreal for HotReload, assuming new class
+[2020.10.26-13.22.06:918][594]LogClass: Function OnOverlapBegin is new.
+[2020.10.26-13.22.06:923][594]LogMaterial: Display: Missing cached shader map for material M_Basic_Wall, compiling. 
+[2020.10.26-13.22.06:947][594]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 29
+[2020.10.26-13.22.06:947][594]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 26
+[2020.10.26-13.22.06:947][594]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 23
+[2020.10.26-13.22.06:947][594]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 20
+[2020.10.26-13.22.06:947][594]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 17
+[2020.10.26-13.22.06:947][594]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 14
+[2020.10.26-13.22.06:947][594]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 11
+[2020.10.26-13.22.06:947][594]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 8
+[2020.10.26-13.22.06:947][594]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 5
+[2020.10.26-13.22.06:947][594]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 2
+[2020.10.26-13.22.06:947][594]LogContentBrowser: Native class hierarchy updated for 'HideNSneakUnreal' in 0.0005 seconds. Added 7 classes and 2 folders.
+[2020.10.26-13.22.06:948][594]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2020.10.26-13.22.07:009][594]LogContentBrowser: Native class hierarchy populated in 0.0115 seconds. Added 3434 classes and 823 folders.
+[2020.10.26-13.22.07:014][594]Display: HotReload took  3.1s.
+[2020.10.26-13.22.09:550][818]LogSlate: Window 'Message Log' being destroyed
+[2020.10.26-13.22.09:553][818]LogSlate: Window 'Message Log' being destroyed
+[2020.10.26-13.22.32:787][540]LogEditor: Attempting to add actor of class 'CPP_Powerup' to level at 2590.00,-2340.00,20.00
+[2020.10.26-13.22.33:851][648]LogEditor: Attempting to add actor of class 'CPP_Powerup' to level at 2070.00,-2190.00,20.00
+[2020.10.26-13.22.39:824][279]LogEditor: Attempting to add actor of class 'CPP_Character' to level at 2160.00,-1860.00,108.00
+[2020.10.26-13.22.40:500][336]LogEditor: Attempting to add actor of class 'CPP_Character' to level at 1810.00,-1610.00,108.00
+[2020.10.26-13.22.51:719][273]LogAssetEditorSubsystem: Opening Asset editor for Class /Script/HideNSneakUnreal.CPP_Character
+[2020.10.26-13.22.51:935][273]LogVSAccessor: Warning: Couldn't goto line number '1' in 'C:/Users/osjo8879/Desktop/Proj/HideNSneakUnreal/Source/HideNSneakUnreal/CPP_Character.h'
+[2020.10.26-13.23.19:237][357]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.10.26-13.23.19:875][421]Cmd: TRANSACTION UNDO
+[2020.10.26-13.23.19:875][421]LogEditorTransaction: Undo Clicking on Actors
+[2020.10.26-13.23.20:423][429]Cmd: TRANSACTION UNDO
+[2020.10.26-13.23.20:423][429]LogEditorTransaction: Undo Set Location
+[2020.10.26-13.23.20:873][463]Cmd: TRANSACTION UNDO
+[2020.10.26-13.23.20:873][463]LogEditorTransaction: Undo Set Location
+[2020.10.26-13.23.21:283][497]Cmd: TRANSACTION UNDO
+[2020.10.26-13.23.21:283][497]LogEditorTransaction: Undo Set Rotation
+[2020.10.26-13.23.21:668][526]Cmd: TRANSACTION UNDO
+[2020.10.26-13.23.21:668][526]LogEditorTransaction: Undo Set Rotation
+[2020.10.26-13.24.35:251][386]LogSlate: Window 'Editor Preferences' being destroyed
+[2020.10.26-13.24.35:255][386]LogSlate: Window 'Editor Preferences' being destroyed
+[2020.10.26-13.25.11:272][830]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode
+[2020.10.26-13.25.11:645][830]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 125 classes and 0 folders.
+[2020.10.26-13.25.13:043][830]LogMaterial: Display: Missing cached shader map for material PersonaFloorMat, compiling. 
+[2020.10.26-13.25.13:108][830]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 29
+[2020.10.26-13.25.13:108][830]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 26
+[2020.10.26-13.25.13:108][830]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 23
+[2020.10.26-13.25.13:109][830]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 20
+[2020.10.26-13.25.13:109][830]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 17
+[2020.10.26-13.25.13:109][830]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 14
+[2020.10.26-13.25.13:109][830]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 11
+[2020.10.26-13.25.13:109][830]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 8
+[2020.10.26-13.25.13:109][830]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 5
+[2020.10.26-13.25.13:109][830]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 2
+[2020.10.26-13.25.16:054][986]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.10.26-13.25.39:334][949]BlueprintLog: New page: Compile ThirdPersonGameMode
+[2020.10.26-13.25.39:379][949]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2020.10.26-13.25.40:399][ 32]LogSavePackage: Moving '../../../../../../Users/osjo8879/Desktop/Proj/HideNSneakUnreal/Saved/ThirdPersonGameMode32C3306C4B2CA63A6B8804B449A2DA90.tmp' to '../../../../../../Users/osjo8879/Desktop/Proj/HideNSneakUnreal/Content/ThirdPersonBP/Blueprints/ThirdPersonGameMode.uasset'
+[2020.10.26-13.25.40:415][ 32]AssetCheck: New page: Asset Save: ThirdPersonGameMode
+[2020.10.26-13.25.40:415][ 32]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode
+[2020.10.26-13.25.41:427][115]LogSlate: Window 'ThirdPersonGameMode' being destroyed
+[2020.10.26-13.25.41:431][115]LogSlate: Window 'ThirdPersonGameMode' being destroyed
+[2020.10.26-13.25.41:461][115]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2020.10.26-13.25.41:462][115]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.26-13.25.42:360][185]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.26-13.25.42:387][185]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.26-13.25.42:387][185]PIE: New page: PIE session: OskarsTestZone (26 okt. 2020 15:25:42)
+[2020.10.26-13.25.42:387][185]LogPlayLevel: Creating play world package: /Game/Oskar/Maps/UEDPIE_0_OskarsTestZone
+[2020.10.26-13.25.42:394][185]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007163s)
+[2020.10.26-13.25.42:395][185]LogAIModule: Creating AISystem for world OskarsTestZone
+[2020.10.26-13.25.42:395][185]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000024D32515000), frame # 91185
+[2020.10.26-13.25.42:395][185]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000024DBFD4F4C0), frame # 91185
+[2020.10.26-13.25.42:395][185]LogPlayLevel: PIE: World Init took: (0.001117s)
+[2020.10.26-13.25.42:395][185]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Oskar/Maps/OskarsTestZone.OskarsTestZone to /Game/Oskar/Maps/UEDPIE_0_OskarsTestZone.OskarsTestZone (0.008403s)
+[2020.10.26-13.25.42:424][185]LogUObjectHash: Compacting FUObjectHashTables data took   3.95ms
+[2020.10.26-13.25.42:427][185]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.26-13.25.42:427][185]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.26-13.25.42:427][185]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.26-13.25.42:427][185]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.26-13.25.42:428][185]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.26-13.25.42:428][185]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.26-13.25.42:428][185]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.26-13.25.42:428][185]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.26-13.25.42:428][185]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.26-13.25.42:428][185]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.26-13.25.42:433][185]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.26-13.25.42:433][185]LogAudioMixer: Display: 1: FrontRight
+[2020.10.26-13.25.42:444][185]LogAudioMixer: Display: Using Audio Device Speakers (Steam Streaming Microphone)
+[2020.10.26-13.25.42:444][185]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.26-13.25.42:444][185]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.26-13.25.42:444][185]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.26-13.25.42:445][185]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.26-13.25.42:468][185]LogInit: FAudioDevice initialized.
+[2020.10.26-13.25.42:479][185]LogLoad: Game class is 'GameMode'
+[2020.10.26-13.25.42:483][185]LogWorld: Bringing World /Game/Oskar/Maps/UEDPIE_0_OskarsTestZone.OskarsTestZone up for play (max tick rate 0) at 2020.10.26-14.25.42
+[2020.10.26-13.25.42:484][185]LogWorld: Bringing up level for play took: 0.004919
+[2020.10.26-13.25.42:484][185]LogOnline: OSS: Creating online subsystem instance for: :Context_17
+[2020.10.26-13.25.42:487][185]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2020.10.26-13.25.42:487][185]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2020.10.26-13.25.42:487][185]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2020.10.26-13.25.42:488][185]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2020.10.26-13.25.42:488][185]PIE: Server logged in
+[2020.10.26-13.25.42:489][185]PIE: Play in editor total start time 0,105 seconds.
+[2020.10.26-13.25.52:025][251]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.26-13.25.52:025][251]LogWorld: BeginTearingDown for /Game/Oskar/Maps/UEDPIE_0_OskarsTestZone
+[2020.10.26-13.25.52:026][251]LogWorld: UWorld::CleanupWorld for OskarsTestZone, bSessionEnded=true, bCleanupResources=true
+[2020.10.26-13.25.52:026][251]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.26-13.25.52:034][251]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.26-13.25.52:037][251]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.26-13.25.52:090][251]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.26-13.25.52:091][251]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000024DBFD4F4C0), frame # 92251
+[2020.10.26-13.25.52:091][251]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000024D32515000), frame # 92251
+[2020.10.26-13.25.52:094][251]LogUObjectHash: Compacting FUObjectHashTables data took   2.87ms
+[2020.10.26-13.25.52:157][252]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2020.10.26-13.27.45:780][620]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2020.10.26-13.27.45:859][620]LogSavePackage: Moving '../../../../../../Users/osjo8879/Desktop/Proj/HideNSneakUnreal/Saved/OskarsTestZone_Auto2D25A0B2447CFF0C5761D338BFBFD88CD.tmp' to '../../../../../../Users/osjo8879/Desktop/Proj/HideNSneakUnreal/Saved/Autosaves/Game/Oskar/Maps/OskarsTestZone_Auto2.umap'
+[2020.10.26-13.27.45:863][620]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Oskar/Maps/OskarsTestZone' took 0.107
+[2020.10.26-13.27.45:863][620]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.107
+[2020.10.26-13.30.10:442][852]LogSlate: Window 'Tutorials' being destroyed
+[2020.10.26-13.30.11:962][984]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode
+[2020.10.26-13.30.15:300][182]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.10.26-13.30.19:924][501]LogSlate: Window 'ThirdPersonGameMode' being destroyed
+[2020.10.26-13.30.19:927][501]LogSlate: Window 'ThirdPersonGameMode' being destroyed
+[2020.10.26-13.30.19:963][501]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2020.10.26-13.30.19:963][501]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.26-13.30.24:500][941]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.26-13.30.24:524][941]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.26-13.30.24:524][941]PIE: New page: PIE session: OskarsTestZone (26 okt. 2020 15:30:24)
+[2020.10.26-13.30.24:563][941]LogPlayLevel: Creating play world package: /Game/Oskar/Maps/UEDPIE_0_OskarsTestZone
+[2020.10.26-13.30.24:574][941]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010876s)
+[2020.10.26-13.30.24:575][941]LogAIModule: Creating AISystem for world OskarsTestZone
+[2020.10.26-13.30.24:576][941]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000024D8F5EFA00), frame # 96941
+[2020.10.26-13.30.24:576][941]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000024D811B8A40), frame # 96941
+[2020.10.26-13.30.24:576][941]LogPlayLevel: PIE: World Init took: (0.002232s)
+[2020.10.26-13.30.24:576][941]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Oskar/Maps/OskarsTestZone.OskarsTestZone to /Game/Oskar/Maps/UEDPIE_0_OskarsTestZone.OskarsTestZone (0.013331s)
+[2020.10.26-13.30.24:608][941]LogUObjectHash: Compacting FUObjectHashTables data took   3.38ms
+[2020.10.26-13.30.24:612][941]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.26-13.30.24:612][941]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.26-13.30.24:612][941]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.26-13.30.24:612][941]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.26-13.30.24:612][941]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.26-13.30.24:612][941]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.26-13.30.24:612][941]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.26-13.30.24:612][941]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.26-13.30.24:613][941]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.26-13.30.24:613][941]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.26-13.30.24:617][941]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.26-13.30.24:617][941]LogAudioMixer: Display: 1: FrontRight
+[2020.10.26-13.30.24:631][941]LogAudioMixer: Display: Using Audio Device Speakers (Steam Streaming Microphone)
+[2020.10.26-13.30.24:631][941]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.26-13.30.24:631][941]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.26-13.30.24:631][941]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.26-13.30.24:631][941]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.26-13.30.24:655][941]LogInit: FAudioDevice initialized.
+[2020.10.26-13.30.24:664][941]LogLoad: Game class is 'GameMode'
+[2020.10.26-13.30.24:669][941]LogWorld: Bringing World /Game/Oskar/Maps/UEDPIE_0_OskarsTestZone.OskarsTestZone up for play (max tick rate 0) at 2020.10.26-14.30.24
+[2020.10.26-13.30.24:669][941]LogWorld: Bringing up level for play took: 0.004977
+[2020.10.26-13.30.24:670][941]LogOnline: OSS: Creating online subsystem instance for: :Context_19
+[2020.10.26-13.30.24:672][941]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2020.10.26-13.30.24:672][941]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2020.10.26-13.30.24:672][941]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2020.10.26-13.30.24:674][941]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2020.10.26-13.30.24:674][941]PIE: Server logged in
+[2020.10.26-13.30.24:675][941]PIE: Play in editor total start time 0,151 seconds.
+[2020.10.26-13.30.26:664][158]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.26-13.30.26:664][158]LogWorld: BeginTearingDown for /Game/Oskar/Maps/UEDPIE_0_OskarsTestZone
+[2020.10.26-13.30.26:664][158]LogWorld: UWorld::CleanupWorld for OskarsTestZone, bSessionEnded=true, bCleanupResources=true
+[2020.10.26-13.30.26:665][158]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.26-13.30.26:677][158]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.26-13.30.26:680][158]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.26-13.30.26:734][158]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.26-13.30.26:735][158]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000024D811B8A40), frame # 97158
+[2020.10.26-13.30.26:735][158]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000024D8F5EFA00), frame # 97158
+[2020.10.26-13.30.26:738][158]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
+[2020.10.26-13.30.26:791][159]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2020.10.26-13.30.32:261][714]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode
+[2020.10.26-13.30.32:741][714]LogTabManager: Warning: Cannot spawn tab because no spawner is registered for 'CompilerResults'
+[2020.10.26-13.30.32:791][714]LogSlate: The tab "CompilerResults" attempted to spawn but failed for some reason. An "unrecognized tab" will be returned instead.
+[2020.10.26-13.30.35:017][899]LogSlate: Window 'CompilerResults' being destroyed
+[2020.10.26-13.30.35:021][899]LogSlate: Window 'CompilerResults' being destroyed
+[2020.10.26-13.30.36:275][ 11]BlueprintLog: New page: Compile ThirdPersonGameMode
+[2020.10.26-13.30.36:310][ 11]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2020.10.26-13.30.36:961][ 65]LogSavePackage: Moving '../../../../../../Users/osjo8879/Desktop/Proj/HideNSneakUnreal/Saved/ThirdPersonGameModeCE902AF444BBB886865F28A99055E363.tmp' to '../../../../../../Users/osjo8879/Desktop/Proj/HideNSneakUnreal/Content/ThirdPersonBP/Blueprints/ThirdPersonGameMode.uasset'
+[2020.10.26-13.30.36:974][ 65]AssetCheck: New page: Asset Save: ThirdPersonGameMode
+[2020.10.26-13.30.36:974][ 65]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode
+[2020.10.26-13.30.38:496][202]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.10.26-13.30.40:440][369]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.26-13.30.40:464][369]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.26-13.30.40:464][369]PIE: New page: PIE session: OskarsTestZone (26 okt. 2020 15:30:40)
+[2020.10.26-13.30.40:503][369]LogPlayLevel: Creating play world package: /Game/Oskar/Maps/UEDPIE_0_OskarsTestZone
+[2020.10.26-13.30.40:513][369]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010651s)
+[2020.10.26-13.30.40:515][369]LogAIModule: Creating AISystem for world OskarsTestZone
+[2020.10.26-13.30.40:515][369]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000024D8F5EF800), frame # 98369
+[2020.10.26-13.30.40:515][369]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000024DBFD4D300), frame # 98369
+[2020.10.26-13.30.40:515][369]LogPlayLevel: PIE: World Init took: (0.001554s)
+[2020.10.26-13.30.40:515][369]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Oskar/Maps/OskarsTestZone.OskarsTestZone to /Game/Oskar/Maps/UEDPIE_0_OskarsTestZone.OskarsTestZone (0.012428s)
+[2020.10.26-13.30.40:548][369]LogUObjectHash: Compacting FUObjectHashTables data took   3.38ms
+[2020.10.26-13.30.40:550][369]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.26-13.30.40:550][369]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.26-13.30.40:550][369]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.26-13.30.40:550][369]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.26-13.30.40:550][369]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.26-13.30.40:550][369]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.26-13.30.40:550][369]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.26-13.30.40:550][369]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.26-13.30.40:551][369]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.26-13.30.40:551][369]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.26-13.30.40:554][369]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.26-13.30.40:554][369]LogAudioMixer: Display: 1: FrontRight
+[2020.10.26-13.30.40:564][369]LogAudioMixer: Display: Using Audio Device Speakers (Steam Streaming Microphone)
+[2020.10.26-13.30.40:564][369]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.26-13.30.40:564][369]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.26-13.30.40:564][369]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.26-13.30.40:564][369]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.26-13.30.40:589][369]LogInit: FAudioDevice initialized.
+[2020.10.26-13.30.40:597][369]LogLoad: Game class is 'GameMode'
+[2020.10.26-13.30.40:601][369]LogWorld: Bringing World /Game/Oskar/Maps/UEDPIE_0_OskarsTestZone.OskarsTestZone up for play (max tick rate 0) at 2020.10.26-14.30.40
+[2020.10.26-13.30.40:601][369]LogWorld: Bringing up level for play took: 0.003392
+[2020.10.26-13.30.40:602][369]LogOnline: OSS: Creating online subsystem instance for: :Context_21
+[2020.10.26-13.30.40:604][369]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2020.10.26-13.30.40:604][369]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2020.10.26-13.30.40:604][369]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2020.10.26-13.30.40:605][369]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2020.10.26-13.30.40:605][369]PIE: Server logged in
+[2020.10.26-13.30.40:606][369]PIE: Play in editor total start time 0,142 seconds.
+[2020.10.26-13.30.41:934][517]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.26-13.30.41:934][517]LogWorld: BeginTearingDown for /Game/Oskar/Maps/UEDPIE_0_OskarsTestZone
+[2020.10.26-13.30.41:934][517]LogWorld: UWorld::CleanupWorld for OskarsTestZone, bSessionEnded=true, bCleanupResources=true
+[2020.10.26-13.30.41:935][517]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.26-13.30.41:948][517]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.26-13.30.41:951][517]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.26-13.30.42:008][517]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.26-13.30.42:009][517]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000024DBFD4D300), frame # 98517
+[2020.10.26-13.30.42:010][517]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000024D8F5EF800), frame # 98517
+[2020.10.26-13.30.42:013][517]LogUObjectHash: Compacting FUObjectHashTables data took   2.86ms
+[2020.10.26-13.30.42:070][518]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2020.10.26-13.31.22:454][373]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.10.26-13.31.28:843][931]BlueprintLog: New page: Compile ThirdPersonGameMode
+[2020.10.26-13.31.28:878][931]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2020.10.26-13.31.29:654][999]LogSavePackage: Moving '../../../../../../Users/osjo8879/Desktop/Proj/HideNSneakUnreal/Saved/ThirdPersonGameMode489723DD4D58971C84E217B7CAAB6100.tmp' to '../../../../../../Users/osjo8879/Desktop/Proj/HideNSneakUnreal/Content/ThirdPersonBP/Blueprints/ThirdPersonGameMode.uasset'
+[2020.10.26-13.31.29:665][999]AssetCheck: New page: Asset Save: ThirdPersonGameMode
+[2020.10.26-13.31.29:665][999]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode
+[2020.10.26-13.31.31:047][120]LogSlate: Window 'ThirdPersonGameMode' being destroyed
+[2020.10.26-13.31.31:049][120]LogSlate: Window 'ThirdPersonGameMode' being destroyed
+[2020.10.26-13.31.31:083][120]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2020.10.26-13.31.31:083][120]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.26-13.31.32:878][302]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2020.10.26-13.31.32:880][302]Candidate modules for hot reload:
+[2020.10.26-13.31.32:880][302]  HideNSneakUnreal
+[2020.10.26-13.31.32:881][302]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=HideNSneakUnreal,1906 HideNSneakUnrealEditor Win64 Development -Project="C:/Users/osjo8879/Desktop/Proj/HideNSneakUnreal/HideNSneakUnreal.uproject" "C:/Users/osjo8879/Desktop/Proj/HideNSneakUnreal/HideNSneakUnreal.uproject"  -IgnoreJunk]
+[2020.10.26-13.31.32:882][302]Warning: Starting HotReload took  0.0s.
+[2020.10.26-13.31.34:750][474]CompilerResultsLog: New page: Compilation - 26 okt. 2020 15:31:34
+[2020.10.26-13.31.34:750][474]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\osjo8879\Desktop\Proj).
+[2020.10.26-13.31.34:750][474]CompilerResultsLog: Building HideNSneakUnrealEditor...
+[2020.10.26-13.31.34:750][474]CompilerResultsLog: Using Visual Studio 2019 14.27.29112 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.10.26-13.31.34:750][474]CompilerResultsLog: Building 3 actions with 16 processes...
+[2020.10.26-13.31.34:751][474]CompilerResultsLog:   [1/3] UE4Editor-HideNSneakUnreal-1906.lib
+[2020.10.26-13.31.34:751][474]CompilerResultsLog:      Creating library C:\Users\osjo8879\Desktop\Proj\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal-1906.lib and object C:\Users\osjo8879\Desktop\Proj\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal-1906.exp
+[2020.10.26-13.31.34:751][474]CompilerResultsLog:   [2/3] UE4Editor-HideNSneakUnreal-1906.dll
+[2020.10.26-13.31.34:751][474]CompilerResultsLog:      Creating library C:\Users\osjo8879\Desktop\Proj\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal-1906.suppressed.lib and object C:\Users\osjo8879\Desktop\Proj\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal-1906.suppressed.exp
+[2020.10.26-13.31.34:751][474]CompilerResultsLog:   [3/3] HideNSneakUnrealEditor.target
+[2020.10.26-13.31.34:751][474]CompilerResultsLog: Total time in Parallel executor: 0,96 seconds
+[2020.10.26-13.31.34:751][474]CompilerResultsLog: Total execution time: 1,78 seconds
+[2020.10.26-13.31.34:751][474]LogMainFrame: MainFrame: Module compiling took 1.872 seconds
+[2020.10.26-13.31.34:791][474]LogHotReload: Re-instancing CPP_Character after hot-reload.
+[2020.10.26-13.31.34:808][474]LogContentBrowser: Native class hierarchy updated for 'HideNSneakUnreal' in 0.0005 seconds. Added 7 classes and 2 folders.
+[2020.10.26-13.31.34:811][474]Display: HotReload successful (6 functions remapped  0 scriptstructs remapped)
+[2020.10.26-13.31.34:878][474]LogContentBrowser: Native class hierarchy populated in 0.0118 seconds. Added 3434 classes and 823 folders.
+[2020.10.26-13.31.34:887][474]Display: HotReload took  2.0s.
+[2020.10.26-13.31.38:602][812]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.26-13.31.38:629][812]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.26-13.31.38:629][812]PIE: New page: PIE session: OskarsTestZone (26 okt. 2020 15:31:38)
+[2020.10.26-13.31.38:629][812]LogPlayLevel: Creating play world package: /Game/Oskar/Maps/UEDPIE_0_OskarsTestZone
+[2020.10.26-13.31.38:637][812]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007373s)
+[2020.10.26-13.31.38:639][812]LogAIModule: Creating AISystem for world OskarsTestZone
+[2020.10.26-13.31.38:639][812]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000024DB3999E00), frame # 103812
+[2020.10.26-13.31.38:639][812]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000024DB39C0B80), frame # 103812
+[2020.10.26-13.31.38:640][812]LogPlayLevel: PIE: World Init took: (0.003024s)
+[2020.10.26-13.31.38:640][812]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Oskar/Maps/OskarsTestZone.OskarsTestZone to /Game/Oskar/Maps/UEDPIE_0_OskarsTestZone.OskarsTestZone (0.010518s)
+[2020.10.26-13.31.38:735][812]LogUObjectHash: Compacting FUObjectHashTables data took   3.73ms
+[2020.10.26-13.31.38:737][812]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.26-13.31.38:737][812]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.26-13.31.38:737][812]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.26-13.31.38:737][812]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.26-13.31.38:737][812]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.26-13.31.38:737][812]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.26-13.31.38:737][812]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.26-13.31.38:738][812]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.26-13.31.38:738][812]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.26-13.31.38:738][812]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.26-13.31.38:740][812]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.26-13.31.38:740][812]LogAudioMixer: Display: 1: FrontRight
+[2020.10.26-13.31.38:753][812]LogAudioMixer: Display: Using Audio Device Speakers (Steam Streaming Microphone)
+[2020.10.26-13.31.38:753][812]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.26-13.31.38:753][812]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.26-13.31.38:753][812]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.26-13.31.38:754][812]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.26-13.31.38:778][812]LogInit: FAudioDevice initialized.
+[2020.10.26-13.31.38:788][812]LogLoad: Game class is 'GameMode'
+[2020.10.26-13.31.38:793][812]LogWorld: Bringing World /Game/Oskar/Maps/UEDPIE_0_OskarsTestZone.OskarsTestZone up for play (max tick rate 0) at 2020.10.26-14.31.38
+[2020.10.26-13.31.38:794][812]LogWorld: Bringing up level for play took: 0.005017
+[2020.10.26-13.31.38:794][812]LogOnline: OSS: Creating online subsystem instance for: :Context_22
+[2020.10.26-13.31.38:796][812]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2020.10.26-13.31.38:796][812]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2020.10.26-13.31.38:797][812]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2020.10.26-13.31.38:798][812]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2020.10.26-13.31.38:798][812]PIE: Server logged in
+[2020.10.26-13.31.38:799][812]PIE: Play in editor total start time 0,173 seconds.
+[2020.10.26-13.31.47:393][567]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.26-13.31.47:393][567]LogWorld: BeginTearingDown for /Game/Oskar/Maps/UEDPIE_0_OskarsTestZone
+[2020.10.26-13.31.47:394][567]LogWorld: UWorld::CleanupWorld for OskarsTestZone, bSessionEnded=true, bCleanupResources=true
+[2020.10.26-13.31.47:394][567]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.26-13.31.47:402][567]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.26-13.31.47:406][567]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.26-13.31.47:430][567]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.26-13.31.47:486][567]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000024DB3999E00), frame # 104567
+[2020.10.26-13.31.47:486][567]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000024DB39C0B80), frame # 104567
+[2020.10.26-13.31.47:515][567]LogUObjectHash: Compacting FUObjectHashTables data took   5.10ms
+[2020.10.26-13.31.47:575][568]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2020.10.26-13.31.48:572][672]LogEditorViewport: Clicking on Actor (LMB): CPP_Character (CPP_Character1)
+[2020.10.26-13.31.50:773][885]Cmd: DELETE
+[2020.10.26-13.31.50:773][885]Cmd: ACTOR DELETE
+[2020.10.26-13.31.50:781][885]LogEditorActor: Deleted Actor: CPP_Character
+[2020.10.26-13.31.50:813][885]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
+[2020.10.26-13.31.50:816][885]LogEditorActor: Deleted 1 Actors (0.040 secs)
+[2020.10.26-13.31.52:656][ 91]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2020.10.26-13.31.53:357][155]LogEditorViewport: Clicking on Actor (context menu): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2020.10.26-13.32.04:778][104]LogSlate: Took 0.018987 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.10.26-13.32.09:826][601]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.26-13.32.09:850][601]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.26-13.32.09:850][601]PIE: New page: PIE session: OskarsTestZone (26 okt. 2020 15:32:09)
+[2020.10.26-13.32.09:895][601]LogPlayLevel: Creating play world package: /Game/Oskar/Maps/UEDPIE_0_OskarsTestZone
+[2020.10.26-13.32.09:905][601]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010568s)
+[2020.10.26-13.32.09:907][601]LogAIModule: Creating AISystem for world OskarsTestZone
+[2020.10.26-13.32.09:907][601]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000024DB785C400), frame # 106601
+[2020.10.26-13.32.09:907][601]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000024D81CA5580), frame # 106601
+[2020.10.26-13.32.09:907][601]LogPlayLevel: PIE: World Init took: (0.001631s)
+[2020.10.26-13.32.09:907][601]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Oskar/Maps/OskarsTestZone.OskarsTestZone to /Game/Oskar/Maps/UEDPIE_0_OskarsTestZone.OskarsTestZone (0.012425s)
+[2020.10.26-13.32.09:939][601]LogUObjectHash: Compacting FUObjectHashTables data took   2.88ms
+[2020.10.26-13.32.09:947][601]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.26-13.32.09:947][601]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.26-13.32.09:947][601]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.26-13.32.09:947][601]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.26-13.32.09:947][601]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.26-13.32.09:947][601]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.26-13.32.09:947][601]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.26-13.32.09:947][601]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.26-13.32.09:948][601]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.26-13.32.09:948][601]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.26-13.32.09:951][601]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.26-13.32.09:951][601]LogAudioMixer: Display: 1: FrontRight
+[2020.10.26-13.32.09:963][601]LogAudioMixer: Display: Using Audio Device Speakers (Steam Streaming Microphone)
+[2020.10.26-13.32.09:963][601]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.26-13.32.09:964][601]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.26-13.32.09:964][601]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.26-13.32.09:964][601]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.26-13.32.09:988][601]LogInit: FAudioDevice initialized.
+[2020.10.26-13.32.09:995][601]LogLoad: Game class is 'GameMode'
+[2020.10.26-13.32.09:999][601]LogWorld: Bringing World /Game/Oskar/Maps/UEDPIE_0_OskarsTestZone.OskarsTestZone up for play (max tick rate 0) at 2020.10.26-14.32.09
+[2020.10.26-13.32.10:000][601]LogWorld: Bringing up level for play took: 0.004035
+[2020.10.26-13.32.10:000][601]LogOnline: OSS: Creating online subsystem instance for: :Context_23
+[2020.10.26-13.32.10:002][601]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2020.10.26-13.32.10:002][601]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2020.10.26-13.32.10:002][601]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2020.10.26-13.32.10:003][601]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2020.10.26-13.32.10:003][601]PIE: Server logged in
+[2020.10.26-13.32.10:005][601]PIE: Play in editor total start time 0,155 seconds.
+[2020.10.26-13.32.17:996][320]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2020.10.26-13.32.18:897][379]LogEditorViewport: Clicking on Actor (context menu): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2020.10.26-13.32.24:350][850]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2020.10.26-13.32.25:013][909]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2020.10.26-13.32.25:784][955]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube5)
+[2020.10.26-13.32.26:438][ 15]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.10.26-13.32.28:326][173]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
+[2020.10.26-13.32.28:976][239]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2020.10.26-13.32.29:424][272]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2020.10.26-13.32.30:016][327]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.10.26-13.32.43:680][638]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.26-13.32.43:680][638]LogWorld: BeginTearingDown for /Game/Oskar/Maps/UEDPIE_0_OskarsTestZone
+[2020.10.26-13.32.43:680][638]LogWorld: UWorld::CleanupWorld for OskarsTestZone, bSessionEnded=true, bCleanupResources=true
+[2020.10.26-13.32.43:681][638]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.26-13.32.43:693][638]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.26-13.32.43:696][638]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.26-13.32.43:747][638]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.26-13.32.43:748][638]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000024D81CA5580), frame # 109638
+[2020.10.26-13.32.43:748][638]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000024DB785C400), frame # 109638
+[2020.10.26-13.32.43:751][638]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2020.10.26-13.32.43:806][639]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2020.10.26-13.32.46:947][967]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.10.26-13.32.47:451][ 19]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2020.10.26-13.32.48:984][164]Cmd: TRANSACTION UNDO
+[2020.10.26-13.32.48:984][164]LogEditorTransaction: Undo Clicking on Actors
+[2020.10.26-13.32.49:359][174]Cmd: TRANSACTION UNDO
+[2020.10.26-13.32.49:359][174]LogEditorTransaction: Undo Clicking on Actors
+[2020.10.26-13.32.51:652][420]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.10.26-13.32.52:252][485]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.10.26-13.32.52:689][531]LogEditorViewport: Clicking on Actor (double click): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2020.10.26-13.33.10:881][ 34]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.10.26-13.33.11:983][143]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.26-13.33.12:006][143]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.26-13.33.12:006][143]PIE: New page: PIE session: OskarsTestZone (26 okt. 2020 15:33:12)
+[2020.10.26-13.33.12:043][143]LogPlayLevel: Creating play world package: /Game/Oskar/Maps/UEDPIE_0_OskarsTestZone
+[2020.10.26-13.33.12:050][143]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006723s)
+[2020.10.26-13.33.12:050][143]LogAIModule: Creating AISystem for world OskarsTestZone
+[2020.10.26-13.33.12:050][143]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000024DC818D200), frame # 112143
+[2020.10.26-13.33.12:050][143]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000024D35B5A340), frame # 112143
+[2020.10.26-13.33.12:051][143]LogPlayLevel: PIE: World Init took: (0.001087s)
+[2020.10.26-13.33.12:051][143]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Oskar/Maps/OskarsTestZone.OskarsTestZone to /Game/Oskar/Maps/UEDPIE_0_OskarsTestZone.OskarsTestZone (0.007963s)
+[2020.10.26-13.33.12:077][143]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2020.10.26-13.33.12:082][143]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.26-13.33.12:082][143]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.26-13.33.12:082][143]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.26-13.33.12:082][143]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.26-13.33.12:082][143]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.26-13.33.12:082][143]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.26-13.33.12:082][143]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.26-13.33.12:082][143]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.26-13.33.12:083][143]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.26-13.33.12:083][143]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.26-13.33.12:086][143]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.26-13.33.12:086][143]LogAudioMixer: Display: 1: FrontRight
+[2020.10.26-13.33.12:099][143]LogAudioMixer: Display: Using Audio Device Speakers (Steam Streaming Microphone)
+[2020.10.26-13.33.12:100][143]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.26-13.33.12:100][143]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.26-13.33.12:100][143]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.26-13.33.12:100][143]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.26-13.33.12:125][143]LogInit: FAudioDevice initialized.
+[2020.10.26-13.33.12:137][143]LogLoad: Game class is 'GameMode'
+[2020.10.26-13.33.12:141][143]LogWorld: Bringing World /Game/Oskar/Maps/UEDPIE_0_OskarsTestZone.OskarsTestZone up for play (max tick rate 0) at 2020.10.26-14.33.12
+[2020.10.26-13.33.12:142][143]LogWorld: Bringing up level for play took: 0.003920
+[2020.10.26-13.33.12:142][143]LogOnline: OSS: Creating online subsystem instance for: :Context_24
+[2020.10.26-13.33.12:144][143]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2020.10.26-13.33.12:144][143]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2020.10.26-13.33.12:144][143]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2020.10.26-13.33.12:146][143]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2020.10.26-13.33.12:146][143]PIE: Server logged in
+[2020.10.26-13.33.12:147][143]PIE: Play in editor total start time 0,141 seconds.
+[2020.10.26-13.33.27:536][722]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.26-13.33.27:536][722]LogWorld: BeginTearingDown for /Game/Oskar/Maps/UEDPIE_0_OskarsTestZone
+[2020.10.26-13.33.27:538][722]LogWorld: UWorld::CleanupWorld for OskarsTestZone, bSessionEnded=true, bCleanupResources=true
+[2020.10.26-13.33.27:539][722]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.26-13.33.27:546][722]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.26-13.33.27:550][722]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.26-13.33.27:602][722]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.26-13.33.27:603][722]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000024D35B5A340), frame # 113722
+[2020.10.26-13.33.27:604][722]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000024DC818D200), frame # 113722
+[2020.10.26-13.33.27:607][722]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
+[2020.10.26-13.33.27:661][723]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2020.10.26-13.33.31:686][184]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2020.10.26-13.33.41:724][  3]LogEditor: Attempting to add actor of class 'CPP_Character' to level at 1690.00,-1300.00,108.00
+[2020.10.26-13.33.42:362][ 55]LogEditor: Attempting to add actor of class 'CPP_Character' to level at 2160.00,-1460.00,108.00
+[2020.10.26-13.34.36:924][ 55]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.26-13.34.36:948][ 55]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.26-13.34.36:948][ 55]PIE: New page: PIE session: OskarsTestZone (26 okt. 2020 15:34:36)
+[2020.10.26-13.34.36:949][ 55]LogPlayLevel: Creating play world package: /Game/Oskar/Maps/UEDPIE_0_OskarsTestZone
+[2020.10.26-13.34.36:956][ 55]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007451s)
+[2020.10.26-13.34.36:957][ 55]LogAIModule: Creating AISystem for world OskarsTestZone
+[2020.10.26-13.34.36:957][ 55]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000024DAAE6CC00), frame # 118055
+[2020.10.26-13.34.36:957][ 55]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000024DB883EE80), frame # 118055
+[2020.10.26-13.34.36:957][ 55]LogPlayLevel: PIE: World Init took: (0.001380s)
+[2020.10.26-13.34.36:958][ 55]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Oskar/Maps/OskarsTestZone.OskarsTestZone to /Game/Oskar/Maps/UEDPIE_0_OskarsTestZone.OskarsTestZone (0.008957s)
+[2020.10.26-13.34.36:986][ 55]LogUObjectHash: Compacting FUObjectHashTables data took   2.75ms
+[2020.10.26-13.34.36:994][ 55]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.26-13.34.36:994][ 55]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.26-13.34.36:994][ 55]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.26-13.34.36:994][ 55]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.26-13.34.36:994][ 55]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.26-13.34.36:994][ 55]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.26-13.34.36:994][ 55]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.26-13.34.36:994][ 55]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.26-13.34.36:995][ 55]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.26-13.34.36:995][ 55]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.26-13.34.36:998][ 55]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.26-13.34.36:998][ 55]LogAudioMixer: Display: 1: FrontRight
+[2020.10.26-13.34.37:011][ 55]LogAudioMixer: Display: Using Audio Device Speakers (Steam Streaming Microphone)
+[2020.10.26-13.34.37:011][ 55]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.26-13.34.37:011][ 55]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.26-13.34.37:011][ 55]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.26-13.34.37:012][ 55]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.26-13.34.37:035][ 55]LogInit: FAudioDevice initialized.
+[2020.10.26-13.34.37:046][ 55]LogLoad: Game class is 'GameMode'
+[2020.10.26-13.34.37:051][ 55]LogWorld: Bringing World /Game/Oskar/Maps/UEDPIE_0_OskarsTestZone.OskarsTestZone up for play (max tick rate 0) at 2020.10.26-14.34.37
+[2020.10.26-13.34.37:051][ 55]LogWorld: Bringing up level for play took: 0.004682
+[2020.10.26-13.34.37:052][ 55]LogOnline: OSS: Creating online subsystem instance for: :Context_25
+[2020.10.26-13.34.37:054][ 55]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2020.10.26-13.34.37:054][ 55]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2020.10.26-13.34.37:054][ 55]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2020.10.26-13.34.37:055][ 55]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2020.10.26-13.34.37:055][ 55]PIE: Server logged in
+[2020.10.26-13.34.37:056][ 55]PIE: Play in editor total start time 0,108 seconds.
+[2020.10.26-13.34.41:286][223]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.26-13.34.41:286][223]LogWorld: BeginTearingDown for /Game/Oskar/Maps/UEDPIE_0_OskarsTestZone
+[2020.10.26-13.34.41:287][223]LogWorld: UWorld::CleanupWorld for OskarsTestZone, bSessionEnded=true, bCleanupResources=true
+[2020.10.26-13.34.41:287][223]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.26-13.34.41:301][223]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.26-13.34.41:304][223]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.26-13.34.41:355][223]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.26-13.34.41:356][223]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000024DB883EE80), frame # 118223
+[2020.10.26-13.34.41:356][223]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000024DAAE6CC00), frame # 118223
+[2020.10.26-13.34.41:359][223]LogUObjectHash: Compacting FUObjectHashTables data took   2.83ms
+[2020.10.26-13.34.41:444][224]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2020.10.26-13.34.48:170][774]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.10.26-13.34.51:161][986]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.26-13.34.51:185][986]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.26-13.34.51:185][986]PIE: New page: PIE session: OskarsTestZone (26 okt. 2020 15:34:51)
+[2020.10.26-13.34.51:185][986]LogPlayLevel: Creating play world package: /Game/Oskar/Maps/UEDPIE_0_OskarsTestZone
+[2020.10.26-13.34.51:192][986]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006932s)
+[2020.10.26-13.34.51:193][986]LogAIModule: Creating AISystem for world OskarsTestZone
+[2020.10.26-13.34.51:193][986]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000024DC523BE00), frame # 118986
+[2020.10.26-13.34.51:193][986]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000024D35B5B9C0), frame # 118986
+[2020.10.26-13.34.51:193][986]LogPlayLevel: PIE: World Init took: (0.001124s)
+[2020.10.26-13.34.51:193][986]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Oskar/Maps/OskarsTestZone.OskarsTestZone to /Game/Oskar/Maps/UEDPIE_0_OskarsTestZone.OskarsTestZone (0.008174s)
+[2020.10.26-13.34.51:215][986]LogUObjectHash: Compacting FUObjectHashTables data took   3.14ms
+[2020.10.26-13.34.51:219][986]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.26-13.34.51:219][986]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.26-13.34.51:219][986]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.26-13.34.51:219][986]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.26-13.34.51:219][986]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.26-13.34.51:219][986]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.26-13.34.51:219][986]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.26-13.34.51:219][986]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.26-13.34.51:219][986]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.26-13.34.51:219][986]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.26-13.34.51:221][986]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.26-13.34.51:221][986]LogAudioMixer: Display: 1: FrontRight
+[2020.10.26-13.34.51:230][986]LogAudioMixer: Display: Using Audio Device Speakers (Steam Streaming Microphone)
+[2020.10.26-13.34.51:230][986]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.26-13.34.51:230][986]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.26-13.34.51:230][986]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.26-13.34.51:231][986]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.26-13.34.51:253][986]LogInit: FAudioDevice initialized.
+[2020.10.26-13.34.51:259][986]LogLoad: Game class is 'GameMode'
+[2020.10.26-13.34.51:264][986]LogWorld: Bringing World /Game/Oskar/Maps/UEDPIE_0_OskarsTestZone.OskarsTestZone up for play (max tick rate 0) at 2020.10.26-14.34.51
+[2020.10.26-13.34.51:264][986]LogWorld: Bringing up level for play took: 0.004914
+[2020.10.26-13.34.51:266][986]LogOnline: OSS: Creating online subsystem instance for: :Context_26
+[2020.10.26-13.34.51:267][986]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2020.10.26-13.34.51:267][986]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2020.10.26-13.34.51:267][986]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2020.10.26-13.34.51:268][986]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2020.10.26-13.34.51:268][986]PIE: Server logged in
+[2020.10.26-13.34.51:269][986]PIE: Play in editor total start time 0,085 seconds.
+[2020.10.26-13.35.01:149][867]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.26-13.35.01:149][867]LogWorld: BeginTearingDown for /Game/Oskar/Maps/UEDPIE_0_OskarsTestZone
+[2020.10.26-13.35.01:150][867]LogWorld: UWorld::CleanupWorld for OskarsTestZone, bSessionEnded=true, bCleanupResources=true
+[2020.10.26-13.35.01:150][867]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.26-13.35.01:163][867]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.26-13.35.01:166][867]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.26-13.35.01:192][867]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.26-13.35.01:220][867]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000024D35B5B9C0), frame # 119867
+[2020.10.26-13.35.01:220][867]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000024DC523BE00), frame # 119867
+[2020.10.26-13.35.01:223][867]LogUObjectHash: Compacting FUObjectHashTables data took   3.06ms
+[2020.10.26-13.35.01:287][868]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2020.10.26-13.35.03:675][143]LogAssetEditorSubsystem: Opening Asset editor for Class /Script/HideNSneakUnreal.CPP_Character
+[2020.10.26-13.35.35:697][186]LogSlate: Window 'Project Settings' being destroyed
+[2020.10.26-13.35.35:701][186]LogSlate: Window 'Project Settings' being destroyed
+[2020.10.26-13.35.36:937][310]LogUObjectHash: Compacting FUObjectHashTables data took   4.27ms
+[2020.10.26-13.35.36:995][310]LogSavePackage: Moving '../../../../../../Users/osjo8879/Desktop/Proj/HideNSneakUnreal/Saved/OskarsTestZoneEDB51D1F43C06A96C3B4B0B3FBA2C346.tmp' to '../../../../../../Users/osjo8879/Desktop/Proj/HideNSneakUnreal/Content/Oskar/Maps/OskarsTestZone.umap'
+[2020.10.26-13.35.37:088][310]LogSavePackage: Moving '../../../../../../Users/osjo8879/Desktop/Proj/HideNSneakUnreal/Saved/OskarsTestZone_BuiltDataB6DD21144C3EA9E907844FA325F6AD03.tmp' to '../../../../../../Users/osjo8879/Desktop/Proj/HideNSneakUnreal/Content/Oskar/Maps/OskarsTestZone_BuiltData.uasset'
+[2020.10.26-13.35.37:105][310]AssetCheck: New page: Asset Save: multiple assets
+[2020.10.26-13.35.37:106][310]LogContentValidation: Display: Validating World /Game/Oskar/Maps/OskarsTestZone.OskarsTestZone
+[2020.10.26-13.35.37:106][310]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Oskar/Maps/OskarsTestZone_BuiltData.OskarsTestZone_BuiltData
+[2020.10.26-13.35.38:371][458]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.26-13.35.38:396][458]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.26-13.35.38:396][458]PIE: New page: PIE session: OskarsTestZone (26 okt. 2020 15:35:38)
+[2020.10.26-13.35.38:433][458]LogPlayLevel: Creating play world package: /Game/Oskar/Maps/UEDPIE_0_OskarsTestZone
+[2020.10.26-13.35.38:444][458]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010722s)
+[2020.10.26-13.35.38:445][458]LogAIModule: Creating AISystem for world OskarsTestZone
+[2020.10.26-13.35.38:445][458]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000024D8EF25C00), frame # 122458
+[2020.10.26-13.35.38:445][458]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000024DAAB4A340), frame # 122458
+[2020.10.26-13.35.38:445][458]LogPlayLevel: PIE: World Init took: (0.001779s)
+[2020.10.26-13.35.38:446][458]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Oskar/Maps/OskarsTestZone.OskarsTestZone to /Game/Oskar/Maps/UEDPIE_0_OskarsTestZone.OskarsTestZone (0.012745s)
+[2020.10.26-13.35.38:502][458]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2020.10.26-13.35.38:504][458]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.26-13.35.38:504][458]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.26-13.35.38:504][458]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.26-13.35.38:504][458]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.26-13.35.38:504][458]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.26-13.35.38:504][458]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.26-13.35.38:504][458]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.26-13.35.38:504][458]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.26-13.35.38:504][458]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.26-13.35.38:504][458]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.26-13.35.38:506][458]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.26-13.35.38:506][458]LogAudioMixer: Display: 1: FrontRight
+[2020.10.26-13.35.38:518][458]LogAudioMixer: Display: Using Audio Device Speakers (Steam Streaming Microphone)
+[2020.10.26-13.35.38:518][458]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.26-13.35.38:518][458]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.26-13.35.38:518][458]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.26-13.35.38:518][458]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.26-13.35.38:544][458]LogInit: FAudioDevice initialized.
+[2020.10.26-13.35.38:551][458]LogLoad: Game class is 'GameMode'
+[2020.10.26-13.35.38:557][458]LogWorld: Bringing World /Game/Oskar/Maps/UEDPIE_0_OskarsTestZone.OskarsTestZone up for play (max tick rate 0) at 2020.10.26-14.35.38
+[2020.10.26-13.35.38:557][458]LogWorld: Bringing up level for play took: 0.005163
+[2020.10.26-13.35.38:557][458]LogOnline: OSS: Creating online subsystem instance for: :Context_27
+[2020.10.26-13.35.38:560][458]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2020.10.26-13.35.38:560][458]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2020.10.26-13.35.38:560][458]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2020.10.26-13.35.38:561][458]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2020.10.26-13.35.38:561][458]PIE: Server logged in
+[2020.10.26-13.35.38:562][458]PIE: Play in editor total start time 0,166 seconds.
+[2020.10.26-13.35.49:965][817]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.26-13.35.49:965][817]LogWorld: BeginTearingDown for /Game/Oskar/Maps/UEDPIE_0_OskarsTestZone
+[2020.10.26-13.35.49:966][817]LogWorld: UWorld::CleanupWorld for OskarsTestZone, bSessionEnded=true, bCleanupResources=true
+[2020.10.26-13.35.49:966][817]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.26-13.35.49:978][817]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.26-13.35.49:982][817]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.26-13.35.50:005][817]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.26-13.35.50:034][817]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000024DAAB4A340), frame # 123817
+[2020.10.26-13.35.50:034][817]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000024D8EF25C00), frame # 123817
+[2020.10.26-13.35.50:036][817]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2020.10.26-13.35.50:089][818]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2020.10.26-13.36.06:680][789]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.26-13.36.06:705][789]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.26-13.36.06:705][789]PIE: New page: PIE session: OskarsTestZone (26 okt. 2020 15:36:06)
+[2020.10.26-13.36.06:726][789]LogPlayLevel: Creating play world package: /Game/Oskar/Maps/UEDPIE_0_OskarsTestZone
+[2020.10.26-13.36.06:737][789]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010910s)
+[2020.10.26-13.36.06:738][789]LogAIModule: Creating AISystem for world OskarsTestZone
+[2020.10.26-13.36.06:739][789]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000024D93FEEC00), frame # 125789
+[2020.10.26-13.36.06:739][789]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000024DC5EF5580), frame # 125789
+[2020.10.26-13.36.06:739][789]LogPlayLevel: PIE: World Init took: (0.002275s)
+[2020.10.26-13.36.06:739][789]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Oskar/Maps/OskarsTestZone.OskarsTestZone to /Game/Oskar/Maps/UEDPIE_0_OskarsTestZone.OskarsTestZone (0.013470s)
+[2020.10.26-13.36.06:765][789]LogUObjectHash: Compacting FUObjectHashTables data took   2.83ms
+[2020.10.26-13.36.06:769][789]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.26-13.36.06:769][789]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.26-13.36.06:769][789]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.26-13.36.06:769][789]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.26-13.36.06:769][789]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.26-13.36.06:769][789]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.26-13.36.06:769][789]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.26-13.36.06:769][789]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.26-13.36.06:770][789]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.26-13.36.06:770][789]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.26-13.36.06:773][789]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.26-13.36.06:773][789]LogAudioMixer: Display: 1: FrontRight
+[2020.10.26-13.36.06:785][789]LogAudioMixer: Display: Using Audio Device Speakers (Steam Streaming Microphone)
+[2020.10.26-13.36.06:785][789]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.26-13.36.06:785][789]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.26-13.36.06:785][789]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.26-13.36.06:786][789]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.26-13.36.06:809][789]LogInit: FAudioDevice initialized.
+[2020.10.26-13.36.06:819][789]LogLoad: Game class is 'GameMode'
+[2020.10.26-13.36.06:824][789]LogWorld: Bringing World /Game/Oskar/Maps/UEDPIE_0_OskarsTestZone.OskarsTestZone up for play (max tick rate 0) at 2020.10.26-14.36.06
+[2020.10.26-13.36.06:825][789]LogWorld: Bringing up level for play took: 0.004803
+[2020.10.26-13.36.06:825][789]LogOnline: OSS: Creating online subsystem instance for: :Context_28
+[2020.10.26-13.36.06:827][789]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2020.10.26-13.36.06:828][789]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2020.10.26-13.36.06:828][789]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2020.10.26-13.36.06:828][789]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2020.10.26-13.36.06:828][789]PIE: Server logged in
+[2020.10.26-13.36.06:829][789]PIE: Play in editor total start time 0,126 seconds.
+[2020.10.26-13.36.17:249][ 33]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.26-13.36.17:249][ 33]LogWorld: BeginTearingDown for /Game/Oskar/Maps/UEDPIE_0_OskarsTestZone
+[2020.10.26-13.36.17:249][ 33]LogWorld: UWorld::CleanupWorld for OskarsTestZone, bSessionEnded=true, bCleanupResources=true
+[2020.10.26-13.36.17:250][ 33]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.26-13.36.17:259][ 33]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.26-13.36.17:263][ 33]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.26-13.36.17:286][ 33]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.26-13.36.17:315][ 33]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000024DC5EF5580), frame # 127033
+[2020.10.26-13.36.17:316][ 33]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000024D93FEEC00), frame # 127033
+[2020.10.26-13.36.17:318][ 33]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
+[2020.10.26-13.36.17:375][ 34]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2020.10.26-13.36.42:898][340]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.26-13.36.42:924][340]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.26-13.36.42:924][340]PIE: New page: PIE session: OskarsTestZone (26 okt. 2020 15:36:42)
+[2020.10.26-13.36.42:952][340]LogPlayLevel: Creating play world package: /Game/Oskar/Maps/UEDPIE_0_OskarsTestZone
+[2020.10.26-13.36.42:959][340]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006846s)
+[2020.10.26-13.36.42:959][340]LogAIModule: Creating AISystem for world OskarsTestZone
+[2020.10.26-13.36.42:959][340]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000024DC0B28200), frame # 127340
+[2020.10.26-13.36.42:959][340]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000024DD3FA2AC0), frame # 127340
+[2020.10.26-13.36.42:959][340]LogPlayLevel: PIE: World Init took: (0.001147s)
+[2020.10.26-13.36.42:959][340]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Oskar/Maps/OskarsTestZone.OskarsTestZone to /Game/Oskar/Maps/UEDPIE_0_OskarsTestZone.OskarsTestZone (0.008131s)
+[2020.10.26-13.36.42:984][340]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
+[2020.10.26-13.36.42:986][340]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.26-13.36.42:986][340]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.26-13.36.42:986][340]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.26-13.36.42:986][340]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.26-13.36.42:986][340]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.26-13.36.42:986][340]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.26-13.36.42:986][340]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.26-13.36.42:986][340]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.26-13.36.42:986][340]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.26-13.36.42:986][340]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.26-13.36.42:990][340]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.26-13.36.42:990][340]LogAudioMixer: Display: 1: FrontRight
+[2020.10.26-13.36.43:000][340]LogAudioMixer: Display: Using Audio Device Speakers (Steam Streaming Microphone)
+[2020.10.26-13.36.43:001][340]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.26-13.36.43:001][340]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.26-13.36.43:001][340]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.26-13.36.43:001][340]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.26-13.36.43:024][340]LogInit: FAudioDevice initialized.
+[2020.10.26-13.36.43:042][340]LogLoad: Game class is 'GameMode'
+[2020.10.26-13.36.43:045][340]LogWorld: Bringing World /Game/Oskar/Maps/UEDPIE_0_OskarsTestZone.OskarsTestZone up for play (max tick rate 0) at 2020.10.26-14.36.43
+[2020.10.26-13.36.43:046][340]LogWorld: Bringing up level for play took: 0.003270
+[2020.10.26-13.36.43:046][340]LogOnline: OSS: Creating online subsystem instance for: :Context_29
+[2020.10.26-13.36.43:048][340]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2020.10.26-13.36.43:048][340]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2020.10.26-13.36.43:048][340]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2020.10.26-13.36.43:049][340]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2020.10.26-13.36.43:049][340]PIE: Server logged in
+[2020.10.26-13.36.43:050][340]PIE: Play in editor total start time 0,126 seconds.
+[2020.10.26-13.36.50:413][216]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.26-13.36.50:413][216]LogWorld: BeginTearingDown for /Game/Oskar/Maps/UEDPIE_0_OskarsTestZone
+[2020.10.26-13.36.50:413][216]LogWorld: UWorld::CleanupWorld for OskarsTestZone, bSessionEnded=true, bCleanupResources=true
+[2020.10.26-13.36.50:414][216]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.26-13.36.50:426][216]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.26-13.36.50:429][216]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.26-13.36.50:453][216]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.26-13.36.50:481][216]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000024DD3FA2AC0), frame # 128216
+[2020.10.26-13.36.50:481][216]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000024DC0B28200), frame # 128216
+[2020.10.26-13.36.50:484][216]LogUObjectHash: Compacting FUObjectHashTables data took   2.83ms
+[2020.10.26-13.36.50:541][217]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2020.10.26-13.38.13:448][ 54]LogEditorViewport: Clicking on Actor (LMB): CPP_Character (CPP_Character4)
+[2020.10.26-13.38.47:079][479]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2020.10.26-13.38.47:155][479]LogSavePackage: Moving '../../../../../../Users/osjo8879/Desktop/Proj/HideNSneakUnreal/Saved/OskarsTestZoneBB4D8A9B4B870B56DD9E108E973037B8.tmp' to '../../../../../../Users/osjo8879/Desktop/Proj/HideNSneakUnreal/Content/Oskar/Maps/OskarsTestZone.umap'
+[2020.10.26-13.38.47:229][479]LogSavePackage: Moving '../../../../../../Users/osjo8879/Desktop/Proj/HideNSneakUnreal/Saved/OskarsTestZone_BuiltData316BA32945E0A2EDD274C083CABE6334.tmp' to '../../../../../../Users/osjo8879/Desktop/Proj/HideNSneakUnreal/Content/Oskar/Maps/OskarsTestZone_BuiltData.uasset'
+[2020.10.26-13.38.47:243][479]AssetCheck: New page: Asset Save: multiple assets
+[2020.10.26-13.38.47:243][479]LogContentValidation: Display: Validating World /Game/Oskar/Maps/OskarsTestZone.OskarsTestZone
+[2020.10.26-13.38.47:243][479]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Oskar/Maps/OskarsTestZone_BuiltData.OskarsTestZone_BuiltData
+[2020.10.26-13.38.48:765][534]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.26-13.38.48:792][534]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.26-13.38.48:792][534]PIE: New page: PIE session: OskarsTestZone (26 okt. 2020 15:38:48)
+[2020.10.26-13.38.48:792][534]LogPlayLevel: Creating play world package: /Game/Oskar/Maps/UEDPIE_0_OskarsTestZone
+[2020.10.26-13.38.48:799][534]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006844s)
+[2020.10.26-13.38.48:800][534]LogAIModule: Creating AISystem for world OskarsTestZone
+[2020.10.26-13.38.48:800][534]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000024D8EF26A00), frame # 130534
+[2020.10.26-13.38.48:800][534]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000024DC017DF80), frame # 130534
+[2020.10.26-13.38.48:801][534]LogPlayLevel: PIE: World Init took: (0.001189s)
+[2020.10.26-13.38.48:801][534]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Oskar/Maps/OskarsTestZone.OskarsTestZone to /Game/Oskar/Maps/UEDPIE_0_OskarsTestZone.OskarsTestZone (0.008150s)
+[2020.10.26-13.38.48:827][534]LogUObjectHash: Compacting FUObjectHashTables data took   3.12ms
+[2020.10.26-13.38.48:828][534]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.26-13.38.48:828][534]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.26-13.38.48:828][534]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.26-13.38.48:828][534]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.26-13.38.48:828][534]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.26-13.38.48:828][534]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.26-13.38.48:828][534]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.26-13.38.48:828][534]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.26-13.38.48:829][534]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.26-13.38.48:829][534]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.26-13.38.48:833][534]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.26-13.38.48:833][534]LogAudioMixer: Display: 1: FrontRight
+[2020.10.26-13.38.48:845][534]LogAudioMixer: Display: Using Audio Device Speakers (Steam Streaming Microphone)
+[2020.10.26-13.38.48:845][534]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.26-13.38.48:845][534]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.26-13.38.48:845][534]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.26-13.38.48:846][534]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.26-13.38.48:869][534]LogInit: FAudioDevice initialized.
+[2020.10.26-13.38.48:883][534]LogLoad: Game class is 'GameMode'
+[2020.10.26-13.38.48:888][534]LogWorld: Bringing World /Game/Oskar/Maps/UEDPIE_0_OskarsTestZone.OskarsTestZone up for play (max tick rate 0) at 2020.10.26-14.38.48
+[2020.10.26-13.38.48:889][534]LogWorld: Bringing up level for play took: 0.004879
+[2020.10.26-13.38.48:889][534]LogOnline: OSS: Creating online subsystem instance for: :Context_30
+[2020.10.26-13.38.48:891][534]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2020.10.26-13.38.48:892][534]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2020.10.26-13.38.48:892][534]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2020.10.26-13.38.48:892][534]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2020.10.26-13.38.48:892][534]PIE: Server logged in
+[2020.10.26-13.38.48:894][534]PIE: Play in editor total start time 0,102 seconds.
+[2020.10.26-13.38.53:394][706]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.26-13.38.53:394][706]LogWorld: BeginTearingDown for /Game/Oskar/Maps/UEDPIE_0_OskarsTestZone
+[2020.10.26-13.38.53:395][706]LogWorld: UWorld::CleanupWorld for OskarsTestZone, bSessionEnded=true, bCleanupResources=true
+[2020.10.26-13.38.53:395][706]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.26-13.38.53:408][706]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.26-13.38.53:412][706]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.26-13.38.53:433][706]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.26-13.38.53:462][706]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000024DC017DF80), frame # 130706
+[2020.10.26-13.38.53:462][706]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000024D8EF26A00), frame # 130706
+[2020.10.26-13.38.53:465][706]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
+[2020.10.26-13.38.53:542][707]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2020.10.26-13.38.56:564][ 51]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.26-13.38.56:590][ 51]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.26-13.38.56:590][ 51]PIE: New page: PIE session: OskarsTestZone (26 okt. 2020 15:38:56)
+[2020.10.26-13.38.56:632][ 51]LogPlayLevel: Creating play world package: /Game/Oskar/Maps/UEDPIE_0_OskarsTestZone
+[2020.10.26-13.38.56:643][ 51]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011381s)
+[2020.10.26-13.38.56:645][ 51]LogAIModule: Creating AISystem for world OskarsTestZone
+[2020.10.26-13.38.56:645][ 51]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000024D39A5A400), frame # 131051
+[2020.10.26-13.38.56:645][ 51]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000024DC29FCF40), frame # 131051
+[2020.10.26-13.38.56:645][ 51]LogPlayLevel: PIE: World Init took: (0.001631s)
+[2020.10.26-13.38.56:645][ 51]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Oskar/Maps/OskarsTestZone.OskarsTestZone to /Game/Oskar/Maps/UEDPIE_0_OskarsTestZone.OskarsTestZone (0.013231s)
+[2020.10.26-13.38.56:669][ 51]LogUObjectHash: Compacting FUObjectHashTables data took   2.72ms
+[2020.10.26-13.38.56:672][ 51]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.26-13.38.56:672][ 51]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.26-13.38.56:672][ 51]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.26-13.38.56:672][ 51]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.26-13.38.56:672][ 51]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.26-13.38.56:672][ 51]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.26-13.38.56:673][ 51]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.26-13.38.56:673][ 51]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.26-13.38.56:673][ 51]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.26-13.38.56:673][ 51]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.26-13.38.56:676][ 51]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.26-13.38.56:676][ 51]LogAudioMixer: Display: 1: FrontRight
+[2020.10.26-13.38.56:688][ 51]LogAudioMixer: Display: Using Audio Device Speakers (Steam Streaming Microphone)
+[2020.10.26-13.38.56:689][ 51]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.26-13.38.56:689][ 51]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.26-13.38.56:689][ 51]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.26-13.38.56:689][ 51]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.26-13.38.56:712][ 51]LogInit: FAudioDevice initialized.
+[2020.10.26-13.38.56:720][ 51]LogLoad: Game class is 'GameMode'
+[2020.10.26-13.38.56:725][ 51]LogWorld: Bringing World /Game/Oskar/Maps/UEDPIE_0_OskarsTestZone.OskarsTestZone up for play (max tick rate 0) at 2020.10.26-14.38.56
+[2020.10.26-13.38.56:725][ 51]LogWorld: Bringing up level for play took: 0.004704
+[2020.10.26-13.38.56:725][ 51]LogOnline: OSS: Creating online subsystem instance for: :Context_31
+[2020.10.26-13.38.56:727][ 51]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2020.10.26-13.38.56:728][ 51]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2020.10.26-13.38.56:728][ 51]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2020.10.26-13.38.56:728][ 51]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2020.10.26-13.38.56:728][ 51]PIE: Server logged in
+[2020.10.26-13.38.56:729][ 51]PIE: Play in editor total start time 0,14 seconds.
+[2020.10.26-13.39.00:473][494]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.26-13.39.00:474][494]LogWorld: BeginTearingDown for /Game/Oskar/Maps/UEDPIE_0_OskarsTestZone
+[2020.10.26-13.39.00:474][494]LogWorld: UWorld::CleanupWorld for OskarsTestZone, bSessionEnded=true, bCleanupResources=true
+[2020.10.26-13.39.00:474][494]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.26-13.39.00:484][494]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.26-13.39.00:487][494]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.26-13.39.00:537][494]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.26-13.39.00:538][494]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000024DC29FCF40), frame # 131494
+[2020.10.26-13.39.00:538][494]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000024D39A5A400), frame # 131494
+[2020.10.26-13.39.00:541][494]LogUObjectHash: Compacting FUObjectHashTables data took   2.76ms
+[2020.10.26-13.39.00:597][495]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2020.10.26-13.39.01:509][598]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.26-13.39.01:533][598]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.26-13.39.01:534][598]PIE: New page: PIE session: OskarsTestZone (26 okt. 2020 15:39:01)
+[2020.10.26-13.39.01:583][598]LogPlayLevel: Creating play world package: /Game/Oskar/Maps/UEDPIE_0_OskarsTestZone
+[2020.10.26-13.39.01:594][598]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011499s)
+[2020.10.26-13.39.01:596][598]LogAIModule: Creating AISystem for world OskarsTestZone
+[2020.10.26-13.39.01:596][598]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000024D32515400), frame # 131598
+[2020.10.26-13.39.01:596][598]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000024D549C7240), frame # 131598
+[2020.10.26-13.39.01:597][598]LogPlayLevel: PIE: World Init took: (0.002238s)
+[2020.10.26-13.39.01:597][598]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Oskar/Maps/OskarsTestZone.OskarsTestZone to /Game/Oskar/Maps/UEDPIE_0_OskarsTestZone.OskarsTestZone (0.013955s)
+[2020.10.26-13.39.01:622][598]LogUObjectHash: Compacting FUObjectHashTables data took   2.73ms
+[2020.10.26-13.39.01:624][598]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.26-13.39.01:624][598]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.26-13.39.01:624][598]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.26-13.39.01:624][598]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.26-13.39.01:624][598]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.26-13.39.01:624][598]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.26-13.39.01:624][598]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.26-13.39.01:624][598]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.26-13.39.01:624][598]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.26-13.39.01:624][598]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.26-13.39.01:627][598]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.26-13.39.01:627][598]LogAudioMixer: Display: 1: FrontRight
+[2020.10.26-13.39.01:639][598]LogAudioMixer: Display: Using Audio Device Speakers (Steam Streaming Microphone)
+[2020.10.26-13.39.01:639][598]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.26-13.39.01:639][598]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.26-13.39.01:639][598]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.26-13.39.01:640][598]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.26-13.39.01:664][598]LogInit: FAudioDevice initialized.
+[2020.10.26-13.39.01:671][598]LogLoad: Game class is 'GameMode'
+[2020.10.26-13.39.01:676][598]LogWorld: Bringing World /Game/Oskar/Maps/UEDPIE_0_OskarsTestZone.OskarsTestZone up for play (max tick rate 0) at 2020.10.26-14.39.01
+[2020.10.26-13.39.01:677][598]LogWorld: Bringing up level for play took: 0.005227
+[2020.10.26-13.39.01:677][598]LogOnline: OSS: Creating online subsystem instance for: :Context_32
+[2020.10.26-13.39.01:680][598]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2020.10.26-13.39.01:680][598]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2020.10.26-13.39.01:680][598]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2020.10.26-13.39.01:681][598]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2020.10.26-13.39.01:681][598]PIE: Server logged in
+[2020.10.26-13.39.01:682][598]PIE: Play in editor total start time 0,149 seconds.
+[2020.10.26-13.39.04:993][990]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.26-13.39.04:993][990]LogWorld: BeginTearingDown for /Game/Oskar/Maps/UEDPIE_0_OskarsTestZone
+[2020.10.26-13.39.04:993][990]LogWorld: UWorld::CleanupWorld for OskarsTestZone, bSessionEnded=true, bCleanupResources=true
+[2020.10.26-13.39.04:994][990]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.26-13.39.05:006][990]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.26-13.39.05:009][990]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.26-13.39.05:032][990]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.26-13.39.05:060][990]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000024D549C7240), frame # 131990
+[2020.10.26-13.39.05:060][990]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000024D32515400), frame # 131990
+[2020.10.26-13.39.05:063][990]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
+[2020.10.26-13.39.05:120][991]LogPlayLevel: Display: Destroying online subsystem :Context_32
