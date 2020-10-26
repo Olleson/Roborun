@@ -1,4 +1,4 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+// Primary Author: Abdifatah Abdi
 
 
 #include "CPP_Character.h"
@@ -13,8 +13,12 @@ ACPP_Character::ACPP_Character()
 	bUseControllerRotationRoll = false;
 	bUseControllerRotationYaw = false;
 
+
+	//PlayerMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("PlayerMesh"));
+
 	GetCharacterMovement()->bOrientRotationToMovement = true;
-	
+	GetCharacterMovement()->bCrouchMaintainsBaseLocation = true;
+	GetCharacterMovement()->JumpZVelocity = 700;
 
 	CameraBoom = CreateDefaultSubobject<USpringArmComponent>(TEXT("CameraBoom"));
 	CameraBoom->SetupAttachment(RootComponent);
@@ -22,6 +26,8 @@ ACPP_Character::ACPP_Character()
 
 	PlayerCamera = CreateDefaultSubobject<UCameraComponent>(TEXT("PlayerCamera"));
 	PlayerCamera->SetupAttachment(CameraBoom,USpringArmComponent::SocketName);
+
+	
 }
 
 
@@ -54,6 +60,10 @@ void ACPP_Character::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 
 	PlayerInputComponent->BindAction("Jump", IE_Pressed,this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction("Jump", IE_Released,this, &ACharacter::StopJumping);
+	PlayerInputComponent->BindAction("Crouch", IE_Pressed,this, &ACPP_Character::OnCrouch);
+	PlayerInputComponent->BindAction(");
+
+
 }
 
 void ACPP_Character::MoveForward(float axis)
@@ -72,5 +82,24 @@ void ACPP_Character::MoveRight(float axis)
 	const FVector right = FRotationMatrix(control_rotation_yawonly).GetUnitAxis(EAxis::Y);
 
 	AddMovementInput(right, axis);
+}
+
+void ACPP_Character::OnCrouch()
+{
+	if (!Crouching) {
+		GEngine->AddOnScreenDebugMessage(-1, 1.f, FColor::Yellow, "Activate SneakMode");
+		
+		GetCharacterMovement()->Crouch();
+		GetCharacterMovement()->bWantsToCrouch = 1;
+		Crouching = true;
+	}
+	else
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 1.f, FColor::Yellow, "Deactivate SneakMode");
+		GetCharacterMovement()->UnCrouch();
+		GetCharacterMovement()->bWantsToCrouch = 0;
+		Crouching = false;
+	}
+		
 }
 

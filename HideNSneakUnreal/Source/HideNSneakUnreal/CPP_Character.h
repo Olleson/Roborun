@@ -25,9 +25,19 @@ public:
 	UPROPERTY(VisibleAnyWhere, BlueprintReadOnly, Category = Camera)
 		UCameraComponent* PlayerCamera;
 
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+		class UStaticMeshComponent* CollisionBox;
+	
+	UFUNCTION()
+	void OnCrouch();
+	
 	void MoveForward(float axis);
 	void MoveRight(float axis);
+
+	bool Crouching = false;
 	
+
 
 
 protected:
