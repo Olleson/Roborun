@@ -7,7 +7,8 @@
 #include <Components/StaticMeshComponent.h>
 #include <GameFrameWork/Actor.h>
 #include <Components/BoxComponent.h>
-
+#include <DrawDebugHelpers.h>
+#include <CPP_Character.generated.h>
 #include "CPP_Powerup.generated.h"
 
 

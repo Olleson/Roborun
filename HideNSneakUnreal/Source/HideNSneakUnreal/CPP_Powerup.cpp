@@ -13,6 +13,7 @@ ACPP_Powerup::ACPP_Powerup()
 
 	CollisionBox = CreateDefaultSubobject<UBoxComponent>(TEXT("BoxComponent"));
 	CollisionBox->SetBoxExtent(FVector(50.f, 50.f, 50.f));
+	CollisionBox->SetRelativeLocation(FVector(0.0f, 0.0f, 0.0f));
 	CollisionBox->SetCollisionProfileName("Trigger");
 	RootComponent = CollisionBox;
 
@@ -61,7 +62,10 @@ void ACPP_Powerup::Tick(float DeltaTime)
 
 void ACPP_Powerup::OnOverlapBegin(UPrimitiveComponent* OverlapComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
+	Destroy();
+	ACPP_Character* OtherCharacter = Cast<ACPP_Character>(OtherActor);
 	
+	//ACharacter* Character = Cast<AActor>(OtherActor);
 	GEngine->AddOnScreenDebugMessage(-1, 1.f, FColor::Yellow, "Overlap Begin called");
 }
 
