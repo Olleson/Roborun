@@ -1,3 +1,4 @@
+//Athor:Oskar Johansson
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #pragma once
@@ -11,6 +12,9 @@ UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class HIDENSNEAKUNREAL_API UMovingPlatform : public UActorComponent
 {
 	GENERATED_BODY()
+
+	UPROPERTY(EditAnywhere)
+		AActor* ThisActor;
 
 public:	
 	// Sets default values for this component's properties
@@ -32,4 +36,7 @@ public:
 
 	UFUNCTION(BlueprintCallable)
 		virtual bool MovePlatform(FVector targetPosition, FVector CurrentPosition, FVector EndPosition, FVector StartPosition, float MovementSpeed, FVector &TargetPositionOut, FVector &MovementVectorOut);
+
+	UFUNCTION(BlueprintCallable)
+		void SetTickAndTarget(const FVector TargetPosition);
 };

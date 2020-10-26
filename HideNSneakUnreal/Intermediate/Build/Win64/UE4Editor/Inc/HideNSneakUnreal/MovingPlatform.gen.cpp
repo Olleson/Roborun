@@ -18,7 +18,16 @@ void EmptyLinkFunctionForGeneratedCodeMovingPlatform() {}
 	ENGINE_API UClass* Z_Construct_UClass_UActorComponent();
 	UPackage* Z_Construct_UPackage__Script_HideNSneakUnreal();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
+	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 // End Cross Module References
+	DEFINE_FUNCTION(UMovingPlatform::execSetTickAndTarget)
+	{
+		P_GET_STRUCT(FVector,Z_Param_TargetPosition);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->SetTickAndTarget(Z_Param_TargetPosition);
+		P_NATIVE_END;
+	}
 	DEFINE_FUNCTION(UMovingPlatform::execMovePlatform)
 	{
 		P_GET_STRUCT(FVector,Z_Param_targetPosition);
@@ -60,6 +69,7 @@ void EmptyLinkFunctionForGeneratedCodeMovingPlatform() {}
 			{ "MovePlatform", &UMovingPlatform::execMovePlatform },
 			{ "SetMovementVector", &UMovingPlatform::execSetMovementVector },
 			{ "setSpeed", &UMovingPlatform::execsetSpeed },
+			{ "SetTickAndTarget", &UMovingPlatform::execSetTickAndTarget },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 	}
@@ -212,6 +222,46 @@ void EmptyLinkFunctionForGeneratedCodeMovingPlatform() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_UMovingPlatform_SetTickAndTarget_Statics
+	{
+		struct MovingPlatform_eventSetTickAndTarget_Parms
+		{
+			FVector TargetPosition;
+		};
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TargetPosition_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_TargetPosition;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UMovingPlatform_SetTickAndTarget_Statics::NewProp_TargetPosition_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UMovingPlatform_SetTickAndTarget_Statics::NewProp_TargetPosition = { "TargetPosition", nullptr, (EPropertyFlags)0x0010000000000082, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(MovingPlatform_eventSetTickAndTarget_Parms, TargetPosition), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UFunction_UMovingPlatform_SetTickAndTarget_Statics::NewProp_TargetPosition_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_UMovingPlatform_SetTickAndTarget_Statics::NewProp_TargetPosition_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UMovingPlatform_SetTickAndTarget_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UMovingPlatform_SetTickAndTarget_Statics::NewProp_TargetPosition,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UMovingPlatform_SetTickAndTarget_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "MovingPlatform.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UMovingPlatform_SetTickAndTarget_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UMovingPlatform, nullptr, "SetTickAndTarget", nullptr, nullptr, sizeof(MovingPlatform_eventSetTickAndTarget_Parms), Z_Construct_UFunction_UMovingPlatform_SetTickAndTarget_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UMovingPlatform_SetTickAndTarget_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04820401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UMovingPlatform_SetTickAndTarget_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UMovingPlatform_SetTickAndTarget_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UMovingPlatform_SetTickAndTarget()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UMovingPlatform_SetTickAndTarget_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_UMovingPlatform_NoRegister()
 	{
 		return UMovingPlatform::StaticClass();
@@ -223,6 +273,11 @@ void EmptyLinkFunctionForGeneratedCodeMovingPlatform() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ThisActor_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ThisActor;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
@@ -234,6 +289,7 @@ void EmptyLinkFunctionForGeneratedCodeMovingPlatform() {}
 		{ &Z_Construct_UFunction_UMovingPlatform_MovePlatform, "MovePlatform" }, // 3999872721
 		{ &Z_Construct_UFunction_UMovingPlatform_SetMovementVector, "SetMovementVector" }, // 1534168684
 		{ &Z_Construct_UFunction_UMovingPlatform_setSpeed, "setSpeed" }, // 299157167
+		{ &Z_Construct_UFunction_UMovingPlatform_SetTickAndTarget, "SetTickAndTarget" }, // 149976561
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UMovingPlatform_Statics::Class_MetaDataParams[] = {
@@ -243,6 +299,16 @@ void EmptyLinkFunctionForGeneratedCodeMovingPlatform() {}
 		{ "ModuleRelativePath", "MovingPlatform.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UMovingPlatform_Statics::NewProp_ThisActor_MetaData[] = {
+		{ "Category", "MovingPlatform" },
+		{ "ModuleRelativePath", "MovingPlatform.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UMovingPlatform_Statics::NewProp_ThisActor = { "ThisActor", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UMovingPlatform, ThisActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UMovingPlatform_Statics::NewProp_ThisActor_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UMovingPlatform_Statics::NewProp_ThisActor_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UMovingPlatform_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMovingPlatform_Statics::NewProp_ThisActor,
+	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UMovingPlatform_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UMovingPlatform>::IsAbstract,
 	};
@@ -252,11 +318,11 @@ void EmptyLinkFunctionForGeneratedCodeMovingPlatform() {}
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		FuncInfo,
-		nullptr,
+		Z_Construct_UClass_UMovingPlatform_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
 		UE_ARRAY_COUNT(FuncInfo),
-		0,
+		UE_ARRAY_COUNT(Z_Construct_UClass_UMovingPlatform_Statics::PropPointers),
 		0,
 		0x00B000A4u,
 		METADATA_PARAMS(Z_Construct_UClass_UMovingPlatform_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_UMovingPlatform_Statics::Class_MetaDataParams))
@@ -270,7 +336,7 @@ void EmptyLinkFunctionForGeneratedCodeMovingPlatform() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UMovingPlatform, 3262898270);
+	IMPLEMENT_CLASS(UMovingPlatform, 794276120);
 	template<> HIDENSNEAKUNREAL_API UClass* StaticClass<UMovingPlatform>()
 	{
 		return UMovingPlatform::StaticClass();

@@ -20,10 +20,6 @@ UmoveableBox::UmoveableBox()
 void UmoveableBox::BeginPlay()
 {
 	Super::BeginPlay();
-	if (SelfActor == this->GetOwner()) {
-		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("the same"));
-	}
-	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, FString::Printf(TEXT("selfActor =  %f"), SelfActor->GetComponents().Num() ));
 	// this is a good idea but it doesnt work as of now since the selfactor->children.num() = 0;
 	for (int i = 0; i <(SelfActor->Children.Num() - 1); i++) {
 		if (SelfActor->Children[i]->GetName()== "End") {
