@@ -1,2 +1,2 @@
-D:\HideNsneak\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\Definitions.HideNSneakUnreal.h
-D:\HideNsneak\HideNSneakUnreal\Source\HideNSneakUnreal\HideNSneakUnreal.h
+C:\Users\osjo8879\Desktop\Proj\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\Definitions.HideNSneakUnreal.h
+C:\Users\osjo8879\Desktop\Proj\HideNSneakUnreal\Source\HideNSneakUnreal\HideNSneakUnreal.h
