@@ -16,7 +16,20 @@ public class HideNSneakUnreal : ModuleRules
 		// PrivateDependencyModuleNames.AddRange(new string[] { "Slate", "SlateCore" });
 		
 		// Uncomment if you are using online features
+<<<<<<< HEAD
+<<<<<<< HEAD
 		// PrivateDependencyModuleNames.Add("OnlineSubsystem");
+=======
+=======
+<<<<<<< HEAD
+		// PrivateDependencyModuleNames.Add("OnlineSubsystem");
+=======
+		 PrivateDependencyModuleNames.Add("OnlineSubsystem");
+>>>>>>> Aulin
+=======
+>>>>>>> 7c5ce777cd00b6ee6046f129026ffbde988bab21
+		PrivateDependencyModuleNames.Add("OnlineSubsystem");
+>>>>>>> 42f0643de269f3f43e79bd4fa738a91aec78cd07
 
 		// To include OnlineSubsystemSteam, add it to the plugins section in your uproject file with the Enabled attribute set to true
 	}
