@@ -1,8 +1,38 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
 {
 	"SourceFiles": [
+<<<<<<< HEAD
+=======
+		"C:\\Users\\osjo8879\\Desktop\\Proj\\HideNSneakUnreal\\Source\\HideNSneakUnreal\\HideNSneakUnreal.Build.cs",
+		"C:\\Users\\osjo8879\\Desktop\\Proj\\HideNSneakUnreal\\Source\\HideNSneakUnreal.Target.cs",
+		"C:\\Users\\osjo8879\\Desktop\\Proj\\HideNSneakUnreal\\Source\\HideNSneakUnrealEditor.Target.cs"
+	],
+	"EngineVersion": "4.25.3"
+=======
+>>>>>>> 6448b747bd9a6770408d24df2f5a33bedb1e4913
+{
+	"SourceFiles": [
+		"C:\\Users\\Olle\\Documents\\Game Projects\\PROJ_Grupp2\\HideNSneakUnreal\\Source\\HideNSneakUnreal\\HideNSneakUnreal.Build.cs",
+		"C:\\Users\\Olle\\Documents\\Game Projects\\PROJ_Grupp2\\HideNSneakUnreal\\Source\\HideNSneakUnreal.Target.cs",
+		"C:\\Users\\Olle\\Documents\\Game Projects\\PROJ_Grupp2\\HideNSneakUnreal\\Source\\HideNSneakUnrealEditor.Target.cs"
+	],
+<<<<<<< HEAD
+	"EngineVersion": "4.25.4"
+=======
+	"EngineVersion": "4.25.3"
+>>>>>>> Aulin
+>>>>>>> 6448b747bd9a6770408d24df2f5a33bedb1e4913
+=======
+{
+	"SourceFiles": [
+>>>>>>> 7c5ce777cd00b6ee6046f129026ffbde988bab21
 		"E:\\Unreal Projects\\Proj\\HideNSneakUnreal\\Source\\HideNSneakUnreal\\HideNSneakUnreal.Build.cs",
 		"E:\\Unreal Projects\\Proj\\HideNSneakUnreal\\Source\\HideNSneakUnreal.Target.cs",
 		"E:\\Unreal Projects\\Proj\\HideNSneakUnreal\\Source\\HideNSneakUnrealEditor.Target.cs"
 	],
 	"EngineVersion": "4.25.3"
+>>>>>>> 42f0643de269f3f43e79bd4fa738a91aec78cd07
 }

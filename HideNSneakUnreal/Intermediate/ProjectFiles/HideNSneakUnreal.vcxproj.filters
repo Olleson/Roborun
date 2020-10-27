@@ -7,7 +7,11 @@
       <UniqueIdentifier>{56B27E79-3330-4514-827B-534305304807}</UniqueIdentifier>
 =======
       <UniqueIdentifier>{0C7CBB57-D3F3-4C2D-9703-69DABA97A255}</UniqueIdentifier>
+<<<<<<< HEAD
 >>>>>>> 42f0643de269f3f43e79bd4fa738a91aec78cd07
+=======
+>>>>>>> Aulin
+>>>>>>> 7c5ce777cd00b6ee6046f129026ffbde988bab21
     </Filter>
     <None Include="..\..\Source\HideNSneakUnreal.Target.cs">
       <Filter>Source</Filter>
@@ -20,7 +24,11 @@
       <UniqueIdentifier>{05BA058A-AD8F-4A4C-8609-7BD72C07AA58}</UniqueIdentifier>
 =======
       <UniqueIdentifier>{A3FDA75A-1A00-4680-AAB8-2CEA2B14F986}</UniqueIdentifier>
+<<<<<<< HEAD
 >>>>>>> 42f0643de269f3f43e79bd4fa738a91aec78cd07
+=======
+>>>>>>> Aulin
+>>>>>>> 7c5ce777cd00b6ee6046f129026ffbde988bab21
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -39,7 +47,11 @@
     <None Include="..\..\Config\DefaultGameplayTags.ini">
       <Filter>Config</Filter>
     </None>
+<<<<<<< HEAD
 >>>>>>> 42f0643de269f3f43e79bd4fa738a91aec78cd07
+=======
+>>>>>>> Aulin
+>>>>>>> 7c5ce777cd00b6ee6046f129026ffbde988bab21
     <None Include="..\..\Config\DefaultInput.ini">
       <Filter>Config</Filter>
     </None>
@@ -84,10 +96,13 @@
       <Filter>Source\HideNSneakUnreal</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\HideNSneakUnreal\testActor.h">
+<<<<<<< HEAD
       <Filter>Source\HideNSneakUnreal</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
+=======
+>>>>>>> 7c5ce777cd00b6ee6046f129026ffbde988bab21
 =======
       <UniqueIdentifier>{AA5D77A4-B3CF-4889-9012-26715072E5D5}</UniqueIdentifier>
     </Filter>
@@ -152,8 +167,13 @@
       <Filter>Source\HideNSneakUnreal</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\HideNSneakUnreal\SpawnVolume.h">
+>>>>>>> Aulin
       <Filter>Source\HideNSneakUnreal</Filter>
     </ClInclude>
   </ItemGroup>
+<<<<<<< HEAD
 </Project>
 >>>>>>> 42f0643de269f3f43e79bd4fa738a91aec78cd07
+=======
+</Project>
+>>>>>>> 7c5ce777cd00b6ee6046f129026ffbde988bab21
