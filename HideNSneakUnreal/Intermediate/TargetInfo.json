@@ -1,50 +1,14 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 42f0643de269f3f43e79bd4fa738a91aec78cd07
 {
 	"Targets": [
 		{
 			"Name": "HideNSneakUnreal",
-<<<<<<< HEAD
-			"Path": "D:\\HideNsneak\\HideNSneakUnreal\\Source\\HideNSneakUnreal.Target.cs",
-=======
-			"Path": "C:\\Users\\Olle\\Documents\\Game Projects\\PROJ_Grupp2\\HideNSneakUnreal\\Source\\HideNSneakUnreal.Target.cs",
->>>>>>> 42f0643de269f3f43e79bd4fa738a91aec78cd07
+			"Path": "E:\\Unreal Projects\\Proj\\HideNSneakUnreal\\Source\\HideNSneakUnreal.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "HideNSneakUnrealEditor",
-<<<<<<< HEAD
-			"Path": "D:\\HideNsneak\\HideNSneakUnreal\\Source\\HideNSneakUnrealEditor.Target.cs",
-<<<<<<< HEAD
-=======
-			"Path": "C:\\Users\\Olle\\Documents\\Game Projects\\PROJ_Grupp2\\HideNSneakUnreal\\Source\\HideNSneakUnrealEditor.Target.cs",
->>>>>>> 42f0643de269f3f43e79bd4fa738a91aec78cd07
-=======
+			"Path": "E:\\Unreal Projects\\Proj\\HideNSneakUnreal\\Source\\HideNSneakUnrealEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]
-=======
-{
-	"Targets": [
-		{
-			"Name": "HideNSneakUnreal",
-			"Path": "C:\\Users\\Olle\\Documents\\Game Projects\\PROJ_Grupp2\\HideNSneakUnreal\\Source\\HideNSneakUnreal.Target.cs",
-			"Type": "Game"
-		},
-		{
-			"Name": "HideNSneakUnrealEditor",
-			"Path": "C:\\Users\\Olle\\Documents\\Game Projects\\PROJ_Grupp2\\HideNSneakUnreal\\Source\\HideNSneakUnrealEditor.Target.cs",
-			"Type": "Editor"
-		}
-	]
->>>>>>> Aulin
-=======
-			"Path": "C:\\Users\\Olle\\Documents\\Game Projects\\PROJ_Grupp2\\HideNSneakUnreal\\Source\\HideNSneakUnrealEditor.Target.cs",
->>>>>>> 7c5ce777cd00b6ee6046f129026ffbde988bab21
-			"Type": "Editor"
-		}
-	]
->>>>>>> 42f0643de269f3f43e79bd4fa738a91aec78cd07
 }

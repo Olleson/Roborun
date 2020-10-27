@@ -15,31 +15,13 @@
 	],
 	"Plugins": [
 		{
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
 			"Name": "OnlineSubsystemSteam",
-			"Enabled": true
-<<<<<<< HEAD
-		},
-		{
->>>>>>> Aulin
->>>>>>> 7c5ce777cd00b6ee6046f129026ffbde988bab21
-			"Name": "AdvancedSessions",
 			"Enabled": true
 		},
 		{
 			"Name": "AdvancedSteamSessions",
-<<<<<<< HEAD
-=======
 			"Name": "OnlineSubsystemSteam",
->>>>>>> 42f0643de269f3f43e79bd4fa738a91aec78cd07
-=======
->>>>>>> 7c5ce777cd00b6ee6046f129026ffbde988bab21
 			"Enabled": true
-=======
->>>>>>> 42f0643de269f3f43e79bd4fa738a91aec78cd07
 		}
 	]
 }

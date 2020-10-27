@@ -1,43 +1,7 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 42f0643de269f3f43e79bd4fa738a91aec78cd07
 {
 	"BuildId": "13144385",
 	"Modules": 
 	{
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-		"HideNSneakUnreal": "UE4Editor-HideNSneakUnreal-2565.dll"
-	}
-=======
->>>>>>> 6448b747bd9a6770408d24df2f5a33bedb1e4913
->>>>>>> 9758f3933b07d87b05f15562af536d305f16c2b5
-{
-	"BuildId": "13144385",
-	"Modules": 
-	{
-<<<<<<< HEAD
 		"HideNSneakUnreal": "UE4Editor-HideNSneakUnreal.dll"
 	}
-=======
-<<<<<<< HEAD
-		"HideNSneakUnreal": "UE4Editor-HideNSneakUnreal.dll"
-	}
-=======
-		"HideNSneakUnreal": "UE4Editor-HideNSneakUnreal-2199.dll"
-	}
->>>>>>> Aulin
->>>>>>> 6448b747bd9a6770408d24df2f5a33bedb1e4913
-=======
->>>>>>> 7c5ce777cd00b6ee6046f129026ffbde988bab21
-		"HideNSneakUnreal": "UE4Editor-HideNSneakUnreal.dll"
-	}
->>>>>>> 42f0643de269f3f43e79bd4fa738a91aec78cd07
->>>>>>> 9758f3933b07d87b05f15562af536d305f16c2b5
 }
