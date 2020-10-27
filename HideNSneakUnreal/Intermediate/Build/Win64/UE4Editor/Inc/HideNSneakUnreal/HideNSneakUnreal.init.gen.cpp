@@ -21,8 +21,8 @@ void EmptyLinkFunctionForGeneratedCodeHideNSneakUnreal_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xCD937450,
-				0x316336A1,
+				0x250A3E9F,
+				0x42F47882,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);
