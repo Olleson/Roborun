@@ -1,8 +1,8 @@
-﻿Log file open, 10/26/20 16:13:35
+﻿Log file open, 10/27/20 12:10:20
 LogInit: Display: Running engine for game: HideNSneakUnreal
 LogPlatformFile: Not using cached read wrapper
-LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.201995
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.627650
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -145,16 +145,16 @@ LogOnline: OSS: Unable to create OnlineSubsystem module Steam
 LogOnline: OSS: Creating online subsystem instance for: NULL
 LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
 LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
-LogInit: Build: ++UE4+Release-4.25-CL-13942748
-LogInit: Engine Version: 4.25.3-13942748+++UE4+Release-4.25
+LogInit: Build: ++UE4+Release-4.25-CL-14469661
+LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
 LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
 LogInit: Net CL: 13144385
-LogInit: OS: Windows 10 (Release 1809) (), CPU: AMD Ryzen 7 1700X Eight-Core Processor         , GPU: NVIDIA GeForce GTX 1080 Ti
-LogInit: Compiled (64-bit): Jul 25 2020 02:07:48
+LogInit: OS: Windows 10 (Release 2004) (), CPU: Intel(R) Core(TM) i5-7500T CPU @ 2.70GHz, GPU: NVIDIA GeForce GTX 1060
+LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
 LogInit: Compiled with Visual C++: 19.24.28315.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.25
-LogInit: Command Line:  127.0.0.1:17777 -game -PIEVIACONSOLE -Multiprocess GameUserSettingsINI=C:/Users/osjo8879/Desktop/Proj/HideNSneakUnreal/Saved/Config/Windows/PIEGameUserSettings0.ini -MultiprocessSaveConfig -MultiprocessOSS -messaging -SessionName="Play in Standalone Game" -windowed -ResX=1280 -ResY=720
+LogInit: Command Line:  /Game/Maps/Real_WhiteBox -game -PIEVIACONSOLE -Multiprocess -server -logGameUserSettingsINI="C:/Users/Olle/Documents/Game Projects/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/PIEGameUserSettings0.ini" -MultiprocessSaveConfig -MultiprocessOSS -messaging -SessionName="Play in Standalone Game" -port=17777 -windowed
 LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/Win64/
 LogInit: Allocator: TBB
 LogInit: Installed Engine Build: 1
@@ -186,7 +186,7 @@ LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 3
 LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
 LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
 LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
-LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/osjo8879/Desktop/Proj/HideNSneakUnreal/Saved/Config/Windows/Engine.ini]
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Olle/Documents/Game Projects/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Engine.ini]
 LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
 LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
 LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
@@ -204,1159 +204,407 @@ LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2020.10.26-15.13.35:784][  0]LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
-[2020.10.26-15.13.35:784][  0]LogConfig: Setting CVar [[r.setres:1280x720]]
-[2020.10.26-15.13.35:784][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/osjo8879/Desktop/Proj/HideNSneakUnreal/Saved/Config/Windows/Engine.ini]
-[2020.10.26-15.13.35:784][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2020.10.26-15.13.35:784][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/osjo8879/Desktop/Proj/HideNSneakUnreal/Saved/Config/Windows/Engine.ini]
-[2020.10.26-15.13.35:784][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/osjo8879/Desktop/Proj/HideNSneakUnreal/Saved/Config/Windows/Engine.ini]
-[2020.10.26-15.13.35:784][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2020.10.26-15.13.35:784][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2020.10.26-15.13.35:784][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2020.10.26-15.13.35:784][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2020.10.26-15.13.35:784][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2020.10.26-15.13.35:784][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2020.10.26-15.13.35:784][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2020.10.26-15.13.35:784][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2020.10.26-15.13.35:784][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2020.10.26-15.13.35:784][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2020.10.26-15.13.35:785][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2020.10.26-15.13.35:785][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2020.10.26-15.13.35:785][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2020.10.26-15.13.35:785][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2020.10.26-15.13.35:785][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/osjo8879/Desktop/Proj/HideNSneakUnreal/Saved/Config/Windows/Engine.ini]
-[2020.10.26-15.13.35:785][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2020.10.26-15.13.35:785][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2020.10.26-15.13.35:785][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2020.10.26-15.13.35:785][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2020.10.26-15.13.35:785][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2020.10.26-15.13.35:785][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2020.10.26-15.13.35:785][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2020.10.26-15.13.35:785][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2020.10.26-15.13.35:785][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2020.10.26-15.13.35:785][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2020.10.26-15.13.35:785][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2020.10.26-15.13.35:785][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2020.10.26-15.13.35:785][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2020.10.26-15.13.35:785][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/osjo8879/Desktop/Proj/HideNSneakUnreal/Saved/Config/Windows/Engine.ini]
-[2020.10.26-15.13.35:785][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/osjo8879/Desktop/Proj/HideNSneakUnreal/Saved/Config/Windows/Engine.ini]
-[2020.10.26-15.13.35:787][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/osjo8879/Desktop/Proj/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
-[2020.10.26-15.13.35:787][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.10.26-15.13.35:787][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.10.26-15.13.35:787][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/osjo8879/Desktop/Proj/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
-[2020.10.26-15.13.35:787][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.10.26-15.13.35:787][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/osjo8879/Desktop/Proj/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
-[2020.10.26-15.13.35:787][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.10.26-15.13.35:787][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.10.26-15.13.35:787][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.10.26-15.13.35:787][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.10.26-15.13.35:787][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.10.26-15.13.35:787][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.10.26-15.13.35:787][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.10.26-15.13.35:787][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.10.26-15.13.35:787][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.10.26-15.13.35:787][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.10.26-15.13.35:787][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.10.26-15.13.35:787][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.10.26-15.13.35:787][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.10.26-15.13.35:787][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.10.26-15.13.35:787][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.10.26-15.13.35:787][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.10.26-15.13.35:787][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.10.26-15.13.35:787][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.10.26-15.13.35:787][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/osjo8879/Desktop/Proj/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
-[2020.10.26-15.13.35:787][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.10.26-15.13.35:787][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.10.26-15.13.35:787][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.10.26-15.13.35:787][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.10.26-15.13.35:787][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.10.26-15.13.35:787][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.10.26-15.13.35:787][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.10.26-15.13.35:787][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.10.26-15.13.35:787][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.10.26-15.13.35:787][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.10.26-15.13.35:788][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.10.26-15.13.35:788][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.10.26-15.13.35:788][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.10.26-15.13.35:788][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.10.26-15.13.35:788][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.10.26-15.13.35:788][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.10.26-15.13.35:788][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.10.26-15.13.35:788][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.10.26-15.13.35:788][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.10.26-15.13.35:788][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.10.26-15.13.35:788][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.10.26-15.13.35:788][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.10.26-15.13.35:788][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.10.26-15.13.35:788][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.10.26-15.13.35:788][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.10.26-15.13.35:788][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.10.26-15.13.35:788][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.10.26-15.13.35:788][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.10.26-15.13.35:788][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.10.26-15.13.35:788][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.10.26-15.13.35:788][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/osjo8879/Desktop/Proj/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
-[2020.10.26-15.13.35:788][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.10.26-15.13.35:788][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.10.26-15.13.35:788][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.10.26-15.13.35:788][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.10.26-15.13.35:788][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.10.26-15.13.35:788][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.10.26-15.13.35:788][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.10.26-15.13.35:788][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.10.26-15.13.35:788][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.10.26-15.13.35:788][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/osjo8879/Desktop/Proj/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
-[2020.10.26-15.13.35:788][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.10.26-15.13.35:788][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.10.26-15.13.35:788][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.10.26-15.13.35:788][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.10.26-15.13.35:788][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.10.26-15.13.35:788][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.10.26-15.13.35:788][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.10.26-15.13.35:788][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.10.26-15.13.35:788][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.10.26-15.13.35:788][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.10.26-15.13.35:788][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.10.26-15.13.35:788][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2020.10.26-15.13.35:788][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.10.26-15.13.35:788][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.10.26-15.13.35:788][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.10.26-15.13.35:788][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.10.26-15.13.35:788][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.10.26-15.13.35:788][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.10.26-15.13.35:788][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.10.26-15.13.35:788][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.10.26-15.13.35:788][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.10.26-15.13.35:788][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.10.26-15.13.35:788][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.10.26-15.13.35:788][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.10.26-15.13.35:788][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.10.26-15.13.35:788][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.10.26-15.13.35:788][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/osjo8879/Desktop/Proj/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
-[2020.10.26-15.13.35:788][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.10.26-15.13.35:788][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.10.26-15.13.35:788][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/osjo8879/Desktop/Proj/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
-[2020.10.26-15.13.35:788][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.10.26-15.13.35:788][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.10.26-15.13.35:788][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.10.26-15.13.35:788][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2020.10.26-15.13.35:788][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2020.10.26-15.13.35:788][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2020.10.26-15.13.35:788][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2020.10.26-15.13.35:789][  0]LogInit: Selected Device Profile: [Windows]
-[2020.10.26-15.13.35:789][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2020.10.26-15.13.35:789][  0]LogHAL: Display: Platform has ~ 32 GB [34288496640 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2020.10.26-15.13.35:789][  0]LogInit: Going up to parent DeviceProfile []
-[2020.10.26-15.13.35:789][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/osjo8879/Desktop/Proj/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
-[2020.10.26-15.13.35:789][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.10.26-15.13.35:789][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.10.26-15.13.35:789][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/osjo8879/Desktop/Proj/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
-[2020.10.26-15.13.35:789][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.10.26-15.13.35:789][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/osjo8879/Desktop/Proj/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
-[2020.10.26-15.13.35:789][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.10.26-15.13.35:789][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.10.26-15.13.35:789][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.10.26-15.13.35:789][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.10.26-15.13.35:789][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.10.26-15.13.35:789][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.10.26-15.13.35:789][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.10.26-15.13.35:789][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.10.26-15.13.35:789][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.10.26-15.13.35:789][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.10.26-15.13.35:789][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.10.26-15.13.35:789][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.10.26-15.13.35:789][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.10.26-15.13.35:789][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.10.26-15.13.35:789][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.10.26-15.13.35:789][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.10.26-15.13.35:789][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.10.26-15.13.35:789][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.10.26-15.13.35:789][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/osjo8879/Desktop/Proj/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
-[2020.10.26-15.13.35:789][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.10.26-15.13.35:789][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.10.26-15.13.35:789][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.10.26-15.13.35:789][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.10.26-15.13.35:789][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.10.26-15.13.35:789][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.10.26-15.13.35:789][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.10.26-15.13.35:789][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.10.26-15.13.35:789][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.10.26-15.13.35:789][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.10.26-15.13.35:789][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.10.26-15.13.35:789][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.10.26-15.13.35:789][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.10.26-15.13.35:789][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.10.26-15.13.35:789][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.10.26-15.13.35:789][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.10.26-15.13.35:789][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.10.26-15.13.35:789][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.10.26-15.13.35:789][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.10.26-15.13.35:789][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.10.26-15.13.35:789][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.10.26-15.13.35:789][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.10.26-15.13.35:789][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.10.26-15.13.35:789][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.10.26-15.13.35:789][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.10.26-15.13.35:789][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.10.26-15.13.35:789][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.10.26-15.13.35:789][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.10.26-15.13.35:789][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.10.26-15.13.35:789][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.10.26-15.13.35:789][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/osjo8879/Desktop/Proj/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
-[2020.10.26-15.13.35:789][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.10.26-15.13.35:790][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.10.26-15.13.35:790][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.10.26-15.13.35:790][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.10.26-15.13.35:790][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.10.26-15.13.35:790][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.10.26-15.13.35:790][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.10.26-15.13.35:790][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.10.26-15.13.35:790][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.10.26-15.13.35:790][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/osjo8879/Desktop/Proj/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
-[2020.10.26-15.13.35:790][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.10.26-15.13.35:790][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.10.26-15.13.35:790][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.10.26-15.13.35:790][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.10.26-15.13.35:790][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.10.26-15.13.35:790][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.10.26-15.13.35:790][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.10.26-15.13.35:790][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.10.26-15.13.35:790][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.10.26-15.13.35:790][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.10.26-15.13.35:790][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.10.26-15.13.35:790][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2020.10.26-15.13.35:790][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.10.26-15.13.35:790][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.10.26-15.13.35:790][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.10.26-15.13.35:790][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.10.26-15.13.35:790][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.10.26-15.13.35:790][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.10.26-15.13.35:790][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.10.26-15.13.35:790][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.10.26-15.13.35:790][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.10.26-15.13.35:790][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.10.26-15.13.35:790][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.10.26-15.13.35:790][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.10.26-15.13.35:790][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.10.26-15.13.35:790][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.10.26-15.13.35:790][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/osjo8879/Desktop/Proj/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
-[2020.10.26-15.13.35:790][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.10.26-15.13.35:790][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.10.26-15.13.35:790][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/osjo8879/Desktop/Proj/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
-[2020.10.26-15.13.35:790][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.10.26-15.13.35:790][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.10.26-15.13.35:790][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.10.26-15.13.35:790][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2020.10.26-15.13.35:790][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2020.10.26-15.13.35:790][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2020.10.26-15.13.35:790][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2020.10.26-15.13.35:790][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2020.10.26-15.13.35:790][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2020.10.26-15.13.35:790][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2020.10.26-15.13.35:790][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
-[2020.10.26-15.13.35:790][  0]LogConfig: Setting CVar [[r.LightPropagationVolume:1]]
-[2020.10.26-15.13.35:790][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/osjo8879/Desktop/Proj/HideNSneakUnreal/Saved/Config/Windows/Engine.ini]
-[2020.10.26-15.13.35:791][  0]LogInit: Computer: SPLAB-10
-[2020.10.26-15.13.35:791][  0]LogInit: User: osjo8879
-[2020.10.26-15.13.35:791][  0]LogInit: CPU Page size=4096, Cores=8
-[2020.10.26-15.13.35:791][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2020.10.26-15.13.35:791][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
-[2020.10.26-15.13.35:791][  0]LogMemory: Platform Memory Stats for Windows
-[2020.10.26-15.13.35:791][  0]LogMemory: Process Physical Memory: 116.44 MB used, 116.44 MB peak
-[2020.10.26-15.13.35:791][  0]LogMemory: Process Virtual Memory: 100.35 MB used, 100.35 MB peak
-[2020.10.26-15.13.35:791][  0]LogMemory: Physical Memory: 7384.80 MB used,  25315.26 MB free, 32700.06 MB total
-[2020.10.26-15.13.35:791][  0]LogMemory: Virtual Memory: 5202.84 MB used,  134212528.00 MB free, 134217728.00 MB total
-[2020.10.26-15.13.35:796][  0]LogWindows: WindowsPlatformFeatures enabled
-[2020.10.26-15.13.35:823][  0]LogInit: Physics initialised using underlying interface: PhysX
-[2020.10.26-15.13.35:823][  0]LogInit: Using OS detected language (en-GB).
-[2020.10.26-15.13.35:823][  0]LogInit: Using OS detected locale (sv-SE).
-[2020.10.26-15.13.35:835][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
-[2020.10.26-15.13.35:840][  0]LogTextLocalizationManager: No localization for 'sv-SE' exists, so 'en' will be used for the locale.
-[2020.10.26-15.13.36:107][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2020.10.26-15.13.36:107][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2020.10.26-15.13.36:116][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.10.26-15.13.36:116][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
-[2020.10.26-15.13.36:116][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
-[2020.10.26-15.13.36:116][  0]LogD3D11RHI: D3D11 adapters:
-[2020.10.26-15.13.36:203][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080 Ti' (Feature Level 11_0)
-[2020.10.26-15.13.36:203][  0]LogD3D11RHI:       11127/0/16350 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2020.10.26-15.13.36:205][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2020.10.26-15.13.36:205][  0]LogD3D11RHI:       0/0/16350 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2020.10.26-15.13.36:205][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2020.10.26-15.13.36:214][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2020.10.26-15.13.36:214][  0]LogD3D11RHI:     GPU DeviceId: 0x1b06 (for the marketing name, search the web for "GPU Device Id")
-[2020.10.26-15.13.36:214][  0]LogWindows: EnumDisplayDevices:
-[2020.10.26-15.13.36:214][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080 Ti' (P:1 D:1)
-[2020.10.26-15.13.36:214][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:0)
-[2020.10.26-15.13.36:215][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:0)
-[2020.10.26-15.13.36:215][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:0)
-[2020.10.26-15.13.36:215][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2020.10.26-15.13.36:215][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080 Ti
-[2020.10.26-15.13.36:215][  0]LogD3D11RHI:   Driver Version: 432.00 (internal:26.21.14.3200, unified:432.00)
-[2020.10.26-15.13.36:215][  0]LogD3D11RHI:      Driver Date: 7-24-2019
-[2020.10.26-15.13.36:215][  0]LogRHI: Texture pool is 7788 MB (70% of 11127 MB)
-[2020.10.26-15.13.36:280][  0]LogD3D11RHI: RHI has support for 64 bit atomics
-[2020.10.26-15.13.36:280][  0]LogD3D11RHI: Async texture creation enabled
-[2020.10.26-15.13.36:280][  0]LogD3D11RHI: Array index from any shader is supported
-[2020.10.26-15.13.36:384][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2020.10.26-15.13.36:676][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2020.10.26-15.13.36:679][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2020.10.26-15.13.36:689][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2020.10.26-15.13.36:697][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2020.10.26-15.13.36:697][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2020.10.26-15.13.36:700][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2020.10.26-15.13.36:722][  0]LogShaderCompilers: Guid format shader working directory is -14 characters bigger than the processId version (../../../../../../Users/osjo8879/Desktop/Proj/HideNSneakUnreal/Intermediate/Shaders/WorkingDirectory/12596/).
-[2020.10.26-15.13.36:723][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/osjo8879/AppData/Local/Temp/UnrealShaderWorkingDir/BBFE9B464F9C4BE244DA4DBB5A34B489/'.
-[2020.10.26-15.13.36:723][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2020.10.26-15.13.36:723][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2020.10.26-15.13.36:723][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2020.10.26-15.13.37:607][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2020.10.26-15.13.37:660][  0]LogDerivedDataCache: Loaded boot cache 0.05s 78MB C:/Users/osjo8879/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2020.10.26-15.13.37:661][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/osjo8879/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
-[2020.10.26-15.13.37:662][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/osjo8879/Desktop/Proj/HideNSneakUnreal/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2020.10.26-15.13.37:662][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2020.10.26-15.13.37:662][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/osjo8879/Desktop/Proj/HideNSneakUnreal/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.10.26-15.13.37:662][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2020.10.26-15.13.37:674][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2020.10.26-15.13.37:675][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.10.26-15.13.37:675][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2020.10.26-15.13.37:676][  0]LogDerivedDataCache: Using Local data cache path C:/Users/osjo8879/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2020.10.26-15.13.37:676][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2020.10.26-15.13.37:676][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2020.10.26-15.13.37:724][  0]LogSlate: Using FreeType 2.10.0
-[2020.10.26-15.13.37:725][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.10.26-15.13.37:792][  0]LogInit: Using OS detected language (en-GB).
-[2020.10.26-15.13.37:792][  0]LogInit: Using OS detected locale (sv-SE).
-[2020.10.26-15.13.37:793][  0]LogTextLocalizationManager: No localization for 'en-GB' exists, so 'en' will be used for the language.
-[2020.10.26-15.13.37:793][  0]LogTextLocalizationManager: No localization for 'sv-SE' exists, so 'en' will be used for the locale.
-[2020.10.26-15.13.37:794][  0]LogTextLocalizationManager: Compacting localization data took   0.00ms
-[2020.10.26-15.13.37:797][  0]LogAssetRegistry: FAssetRegistry took 0.0019 seconds to start up
-[2020.10.26-15.13.38:018][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.000767 seconds
-[2020.10.26-15.13.38:074][  0]LogInit: Selected Device Profile: [Windows]
-[2020.10.26-15.13.38:166][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2020.10.26-15.13.38:166][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2020.10.26-15.13.38:166][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2020.10.26-15.13.38:166][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2020.10.26-15.13.38:166][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2020.10.26-15.13.38:180][  0]LogNetVersion: HideNSneakUnreal 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 3367979030)
-[2020.10.26-15.13.38:442][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000001CC44024300), frame # 0
-[2020.10.26-15.13.38:442][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001CC43F5D440), frame # 0
-[2020.10.26-15.13.38:443][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001CC43FAAC00), frame # 0
-[2020.10.26-15.13.38:502][  0]LogCollectionManager: Loaded 0 collections in 0.002038 seconds
-[2020.10.26-15.13.38:504][  0]LogFileCache: Scanning file cache for directory 'C:/Users/osjo8879/Desktop/Proj/HideNSneakUnreal/Saved/Collections/' took 0.00s
-[2020.10.26-15.13.38:504][  0]LogFileCache: Scanning file cache for directory 'C:/Users/osjo8879/Desktop/Proj/HideNSneakUnreal/Content/Developers/osjo8879/Collections/' took 0.00s
-[2020.10.26-15.13.38:504][  0]LogFileCache: Scanning file cache for directory 'C:/Users/osjo8879/Desktop/Proj/HideNSneakUnreal/Content/Collections/' took 0.00s
-[2020.10.26-15.13.38:504][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
-[2020.10.26-15.13.38:536][  0]LogMoviePlayer: Initializing movie player
-[2020.10.26-15.13.38:683][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2020.10.26-15.13.38:686][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2020.10.26-15.13.38:722][  0]SourceControl: Source control is disabled
-[2020.10.26-15.13.38:722][  0]SourceControl: Source control is disabled
-[2020.10.26-15.13.38:726][  0]SourceControl: Source control is disabled
-[2020.10.26-15.13.38:808][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2020.10.26-15.13.38:817][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.10.26-15.13.38:817][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.10.26-15.13.38:859][  0]LogOcInput: OculusInput pre-init called
-[2020.10.26-15.13.38:880][  0]LogUObjectArray: 19287 objects as part of root set at end of initial load.
-[2020.10.26-15.13.38:880][  0]LogUObjectAllocator: 5088000 out of 0 bytes used by permanent object pool.
-[2020.10.26-15.13.38:880][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2020.10.26-15.13.38:928][  0]LogEngine: Initializing Engine...
-[2020.10.26-15.13.38:930][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.10.26-15.13.38:930][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
-[2020.10.26-15.13.38:932][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2020.10.26-15.13.39:081][  0]LogInit: Initializing FReadOnlyCVARCache
-[2020.10.26-15.13.39:086][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.10.26-15.13.39:086][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.10.26-15.13.39:086][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.10.26-15.13.39:086][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.10.26-15.13.39:086][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.10.26-15.13.39:086][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.10.26-15.13.39:086][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.10.26-15.13.39:086][  0]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.10.26-15.13.39:086][  0]LogAudio: Display: Using built-in audio occlusion.
-[2020.10.26-15.13.39:086][  0]LogAudioMixer: Display: Initializing audio mixer.
-[2020.10.26-15.13.39:103][  0]LogAudioMixer: Display: 0: FrontLeft
-[2020.10.26-15.13.39:103][  0]LogAudioMixer: Display: 1: FrontRight
-[2020.10.26-15.13.39:132][  0]LogAudioMixer: Display: Using Audio Device Speakers (Steam Streaming Microphone)
-[2020.10.26-15.13.39:132][  0]LogAudioMixer: Display: Initializing Sound Submixes...
-[2020.10.26-15.13.39:133][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2020.10.26-15.13.39:133][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2020.10.26-15.13.39:146][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2020.10.26-15.13.39:147][  0]LogInit: FAudioDevice initialized.
-[2020.10.26-15.13.39:149][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2020.10.26-15.13.39:149][  0]LogInit: Texture streaming: Enabled
-[2020.10.26-15.13.39:294][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.10.26-15.13.39:295][  0]LogInit: Display: Game Engine Initialized.
-[2020.10.26-15.13.39:295][  0]LogNiagaraEditor: Warning: GEditor isn't valid! Particle reset commands will not work for Niagara components!
-[2020.10.26-15.13.39:309][  0]LogInit: Display: Starting Game.
-[2020.10.26-15.13.39:309][  0]LogNet: Browse: 127.0.0.1:17777/Game/Maps/Menu?Name=Player
-[2020.10.26-15.13.39:310][  0]LogOnline: OSS: Creating online subsystem instance for: STEAM
-[2020.10.26-15.13.39:310][  0]LogOnline: Warning: STEAM: Steam API disabled!
-[2020.10.26-15.13.39:310][  0]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
-[2020.10.26-15.13.39:311][  0]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
-[2020.10.26-15.13.39:311][  0]LogNet: Created socket for bind address: 0.0.0.0 on port 0
-[2020.10.26-15.13.39:311][  0]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
-[2020.10.26-15.13.39:311][  0]LogNet: Game client on port 17777, rate 10000
-[2020.10.26-15.13.39:338][  0]LogLoad: (Engine Initialization) Total time: 5.65 seconds
-[2020.10.26-15.13.39:338][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2020.10.26-15.13.39:343][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2020.10.26-15.13.40:363][424]LogHandshake: SendChallengeResponse. Timestamp: 1.792607, Cookie: 035068253027178025189126184106001041115073154232159144150041
-[2020.10.26-15.13.40:386][429]LogNetVersion: HideNSneakUnreal 1.0.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 4008563563)
-[2020.10.26-15.13.40:386][429]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: PendingNetDriver IpNetDriver_0, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
-[2020.10.26-15.13.40:451][530]LogNet: Welcomed by server (Level: /Game/Maps/Menu, Game: /Game/Blueprints/GameMode/ThirdPersonGameMode.ThirdPersonGameMode_C)
-[2020.10.26-15.13.40:451][530]LogLoad: LoadMap: 127.0.0.1:17777/Game/Maps/Menu?Name=Player?game=/Game/Blueprints/GameMode/ThirdPersonGameMode.ThirdPersonGameMode_C
-[2020.10.26-15.13.40:451][530]LogWorld: BeginTearingDown for /Temp/Untitled_0
-[2020.10.26-15.13.40:451][530]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2020.10.26-15.13.40:451][530]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.10.26-15.13.40:468][530]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
-[2020.10.26-15.13.40:483][530]LogUObjectGlobals: Warning: Failed to load '/Game/Maps/Menu_BuiltData': Can't find file.
-[2020.10.26-15.13.40:483][530]LogUObjectGlobals: Warning: Failed to load '/Game/Maps/Menu_BuiltData': Can't find file.
-[2020.10.26-15.13.40:512][530]LogUObjectGlobals: Warning: While loading '../../../../../../Users/osjo8879/Desktop/Proj/HideNSneakUnreal/Content/Maps/Menu.umap' failed to load '/Game/Maps/Menu_BuiltData': Can't find file.
-[2020.10.26-15.13.40:512][530]LogUObjectGlobals: Warning: While loading '../../../../../../Users/osjo8879/Desktop/Proj/HideNSneakUnreal/Content/Maps/Menu.umap' failed to load '/Game/Maps/Menu_BuiltData': Can't find file.
-[2020.10.26-15.13.40:522][530]LogWorld: Bringing World /Game/Maps/Menu.Menu up for play (max tick rate 0) at 2020.10.26-16.13.40
-[2020.10.26-15.13.40:522][530]LogWorld: Bringing up level for play took: 0.001346
-[2020.10.26-15.13.40:523][530]LogLoad: Took 0.071730 seconds to LoadMap(/Game/Maps/Menu)
-[2020.10.26-15.13.40:523][530]LogNavigation: Warning: NavData RegistrationFailed_DataPendingKill.
-[2020.10.26-15.13.40:525][530]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
-[2020.10.26-15.13.40:525][530]LogSlate: Took 0.000132 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.10.26-15.13.40:656][541]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR
-[2020.10.26-15.13.40:833][541]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
-[2020.10.26-15.13.40:833][541]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
-[2020.10.26-15.13.45:714][878]LogOnlineSession: Warning: OSS: No game present to leave for session (GameSession)
-[2020.10.26-15.13.59:669][384]LogOnlineSession: Warning: OSS: Ignoring game search request while one is pending
-[2020.10.26-15.13.59:738][412]LogScript: Script Msg: Found a session. Ping is 5
-[2020.10.26-15.14.00:621][754]LogOnlineSession: OSS: Join session: traveling to 193.10.9.84:7777
-[2020.10.26-15.14.00:621][754]LogNet: Browse: 193.10.9.84/Game/Maps/Menu
-[2020.10.26-15.14.00:621][754]LogNet: World NetDriver shutdown IpNetDriver_0 [GameNetDriver]
-[2020.10.26-15.14.00:621][754]LogNet: DestroyNamedNetDriver IpNetDriver_0 [GameNetDriver]
-[2020.10.26-15.14.00:621][754]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_0, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:splab-10-4BCAEC6A4D250332E9F693B81D04E144, Channels: 9, Time: 2020.10.26-15.14.00
-[2020.10.26-15.14.00:621][754]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_0, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:splab-10-4BCAEC6A4D250332E9F693B81D04E144
-[2020.10.26-15.14.00:622][754]LogExit: GameNetDriver IpNetDriver_0 shut down
-[2020.10.26-15.14.00:622][754]LogOnline: OSS: Creating online subsystem instance for: STEAM
-[2020.10.26-15.14.00:622][754]LogOnline: Warning: STEAM: Steam API disabled!
-[2020.10.26-15.14.00:622][754]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
-[2020.10.26-15.14.00:622][754]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
-[2020.10.26-15.14.00:622][754]LogNet: Created socket for bind address: 0.0.0.0 on port 0
-[2020.10.26-15.14.00:622][754]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
-[2020.10.26-15.14.00:622][754]LogNet: Game client on port 7777, rate 10000
-[2020.10.26-15.14.00:623][754]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:625][755]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:627][756]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:629][757]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:632][758]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:634][759]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:637][760]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:639][761]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:642][762]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:644][763]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:647][764]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:649][765]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:652][766]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:654][767]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:656][768]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:658][769]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:661][770]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:664][771]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:666][772]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:669][773]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:671][774]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:674][775]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:676][776]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:679][777]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:681][778]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:684][779]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:686][780]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:688][781]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:691][782]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:693][783]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:696][784]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:698][785]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:701][786]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:703][787]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:706][788]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:708][789]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:710][790]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:713][791]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:715][792]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:718][793]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:720][794]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:723][795]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:725][796]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:728][797]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:730][798]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:733][799]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:736][800]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:738][801]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:740][802]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:743][803]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:745][804]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:748][805]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:750][806]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:753][807]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:755][808]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:758][809]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:760][810]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:763][811]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:765][812]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:768][813]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:770][814]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:773][815]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:775][816]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:778][817]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:780][818]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:783][819]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:786][820]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:788][821]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:791][822]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:793][823]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:796][824]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:798][825]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:801][826]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:804][827]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:806][828]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:809][829]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:811][830]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:813][831]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:816][832]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:818][833]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:821][834]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:823][835]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:826][836]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:828][837]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:831][838]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:833][839]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:836][840]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:838][841]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:840][842]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:843][843]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:846][844]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:849][845]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:851][846]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:854][847]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:857][848]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:859][849]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:862][850]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:864][851]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:866][852]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:869][853]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:872][854]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:874][855]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:876][856]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:879][857]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:881][858]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:884][859]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:887][860]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:889][861]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:892][862]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:894][863]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:897][864]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:899][865]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:902][866]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:904][867]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:907][868]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:909][869]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:912][870]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:915][871]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:917][872]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:920][873]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:922][874]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:924][875]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:927][876]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:929][877]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:932][878]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:934][879]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:937][880]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:939][881]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:942][882]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:944][883]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:947][884]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:949][885]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:952][886]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:955][887]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:957][888]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:960][889]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:963][890]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:965][891]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:967][892]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:970][893]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:973][894]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:975][895]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:977][896]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:981][897]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:983][898]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:985][899]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:988][900]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:990][901]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:993][902]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:995][903]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.00:998][904]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:000][905]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:003][906]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:005][907]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:008][908]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:010][909]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:013][910]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:015][911]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:018][912]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:020][913]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:023][914]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:025][915]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:027][916]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:030][917]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:033][918]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:035][919]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:037][920]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:040][921]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:043][922]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:045][923]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:048][924]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:050][925]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:053][926]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:055][927]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:057][928]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:060][929]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:062][930]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:065][931]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:067][932]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:069][933]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:072][934]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:074][935]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:077][936]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:080][937]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:082][938]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:085][939]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:087][940]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:089][941]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:092][942]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:094][943]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:097][944]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:099][945]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:102][946]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:105][947]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:107][948]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:110][949]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:113][950]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:115][951]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:118][952]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:121][953]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:123][954]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:126][955]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:128][956]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:131][957]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:134][958]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:137][959]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:139][960]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:142][961]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:145][962]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:147][963]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:150][964]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:153][965]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:156][966]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:158][967]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:161][968]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:164][969]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:167][970]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:169][971]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:172][972]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:174][973]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:177][974]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:180][975]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:183][976]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:185][977]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:187][978]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:190][979]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:192][980]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:195][981]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:197][982]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:200][983]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:202][984]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:205][985]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:207][986]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:210][987]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:213][988]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:216][989]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:218][990]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:221][991]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:224][992]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:226][993]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:228][994]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:231][995]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:233][996]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:236][997]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:239][998]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:242][999]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:244][  0]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:247][  1]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:249][  2]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:252][  3]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:254][  4]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:257][  5]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:259][  6]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:261][  7]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:264][  8]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:266][  9]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:268][ 10]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:271][ 11]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:274][ 12]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:276][ 13]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:278][ 14]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:281][ 15]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:283][ 16]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:287][ 17]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:289][ 18]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:292][ 19]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:294][ 20]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:297][ 21]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:299][ 22]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:302][ 23]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:304][ 24]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:307][ 25]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:309][ 26]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:311][ 27]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:314][ 28]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:316][ 29]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:319][ 30]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:322][ 31]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:324][ 32]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:327][ 33]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:329][ 34]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:332][ 35]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:334][ 36]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:337][ 37]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:339][ 38]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:342][ 39]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:345][ 40]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:348][ 41]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:350][ 42]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:353][ 43]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:356][ 44]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:359][ 45]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:362][ 46]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:365][ 47]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:367][ 48]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:370][ 49]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:372][ 50]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:374][ 51]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:377][ 52]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:379][ 53]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:382][ 54]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:385][ 55]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:388][ 56]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:391][ 57]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:394][ 58]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:396][ 59]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:399][ 60]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:402][ 61]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:404][ 62]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:407][ 63]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:409][ 64]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:412][ 65]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:414][ 66]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:417][ 67]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:419][ 68]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:422][ 69]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:424][ 70]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:427][ 71]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:430][ 72]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:432][ 73]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:435][ 74]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:437][ 75]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:440][ 76]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:442][ 77]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:444][ 78]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:447][ 79]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:449][ 80]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:451][ 81]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:454][ 82]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:456][ 83]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:459][ 84]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:461][ 85]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:464][ 86]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:466][ 87]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:469][ 88]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:471][ 89]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:473][ 90]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:476][ 91]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:478][ 92]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:481][ 93]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:483][ 94]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:485][ 95]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:488][ 96]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:491][ 97]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:493][ 98]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:496][ 99]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:498][100]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:501][101]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:503][102]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:506][103]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:509][104]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:511][105]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:514][106]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:517][107]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:519][108]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:521][109]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:523][110]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:527][111]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:528][112]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:532][113]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:534][114]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:536][115]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:539][116]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:542][117]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:544][118]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:546][119]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:549][120]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:551][121]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:554][122]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:557][123]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:560][124]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:563][125]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:565][126]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:567][127]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:569][128]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:572][129]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:574][130]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:577][131]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:579][132]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:582][133]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:585][134]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:587][135]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:589][136]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:592][137]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:594][138]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:597][139]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:599][140]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:602][141]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:605][142]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:607][143]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:609][144]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:612][145]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:614][146]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:617][147]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:619][148]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:622][149]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:624][150]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:626][151]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:628][152]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:631][153]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:634][154]LogHandshake: SendChallengeResponse. Timestamp: 16.142494, Cookie: 126071120094206046237030235013088169107081060225199077227187
-[2020.10.26-15.14.01:634][154]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:637][155]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:639][156]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:642][157]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:644][158]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:647][159]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:650][160]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:652][161]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:655][162]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 193.10.9.84:7777, Name: IpConnection_1, Driver: PendingNetDriver IpNetDriver_1, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
-[2020.10.26-15.14.01:655][162]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:657][163]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:660][164]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:662][165]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:665][166]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:667][167]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:670][168]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:672][169]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:675][170]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:677][171]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:680][172]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:682][173]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:685][174]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:687][175]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:689][176]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:691][177]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:694][178]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:696][179]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.10.26-15.14.01:698][180]LogNet: Welcomed by server (Level: /Game/Maps/Real_WhiteBox, Game: /Game/Blueprints/GameMode/ThirdPersonGameMode.ThirdPersonGameMode_C)
-[2020.10.26-15.14.01:699][180]LogLoad: LoadMap: 193.10.9.84/Game/Maps/Real_WhiteBox?game=/Game/Blueprints/GameMode/ThirdPersonGameMode.ThirdPersonGameMode_C
-[2020.10.26-15.14.01:699][180]LogWorld: BeginTearingDown for /Game/Maps/Menu
-[2020.10.26-15.14.01:700][180]LogWorld: UWorld::CleanupWorld for Menu, bSessionEnded=true, bCleanupResources=true
-[2020.10.26-15.14.01:700][180]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.10.26-15.14.01:741][180]LogAudio: Display: Waited 40.974598 ms for audio thread.
-[2020.10.26-15.14.01:776][180]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
-[2020.10.26-15.14.01:831][180]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR
-[2020.10.26-15.14.02:141][180]LogWorld: Bringing World /Game/Maps/Real_WhiteBox.Real_WhiteBox up for play (max tick rate 0) at 2020.10.26-16.14.02
-[2020.10.26-15.14.02:141][180]LogWorld: Bringing up level for play took: 0.029130
-[2020.10.26-15.14.02:144][180]LogLoad: Took 0.445510 seconds to LoadMap(/Game/Maps/Real_WhiteBox)
-[2020.10.26-15.14.13:246][538]LogSlate: Window 'HideNSneakUnreal (64-bit Development PCD3D_SM5) ' being destroyed
-[2020.10.26-15.14.13:247][538]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2020.10.26-15.14.13:251][538]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.10.26-15.14.13:251][538]LogEngine: All Windows Closed
-[2020.10.26-15.14.13:251][538]LogWindows: FPlatformMisc::RequestExit(0)
-[2020.10.26-15.14.13:251][538]LogCore: Engine exit requested (reason: Win RequestExit)
-[2020.10.26-15.14.13:251][539]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
-[2020.10.26-15.14.13:253][539]LogAudio: Display: Shutting down audio device while 2 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
-[2020.10.26-15.14.13:294][539]LogInit: Display: PreExit Game.
-[2020.10.26-15.14.13:357][539]LogWorld: BeginTearingDown for /Game/Maps/Real_WhiteBox
-[2020.10.26-15.14.13:357][539]LogNet: World NetDriver shutdown IpNetDriver_1 [GameNetDriver]
-[2020.10.26-15.14.13:357][539]LogNet: DestroyNamedNetDriver IpNetDriver_1 [GameNetDriver]
-[2020.10.26-15.14.13:357][539]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 193.10.9.84:7777, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:splab-10-4BCAEC6A4D250332E9F693B81D04E144, Channels: 12, Time: 2020.10.26-15.14.13
-[2020.10.26-15.14.13:357][539]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 193.10.9.84:7777, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:splab-10-4BCAEC6A4D250332E9F693B81D04E144
-[2020.10.26-15.14.13:357][539]LogExit: GameNetDriver IpNetDriver_1 shut down
-[2020.10.26-15.14.13:358][539]LogWorld: UWorld::CleanupWorld for Real_WhiteBox, bSessionEnded=true, bCleanupResources=true
-[2020.10.26-15.14.13:363][539]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.10.26-15.14.13:966][539]LogExit: Preparing to exit.
-[2020.10.26-15.14.14:703][539]LogMoviePlayer: Shutting down movie player
-[2020.10.26-15.14.14:818][539]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.10.26-15.14.14:832][539]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
-[2020.10.26-15.14.14:832][539]LogExit: Game engine shut down
-[2020.10.26-15.14.14:855][539]LogAISub: UAISubsystem::~UAISubsystem AISubsystem (000001CC44024300), frame # 9539
-[2020.10.26-15.14.14:855][539]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001CC43F5D440), frame # 9539
-[2020.10.26-15.14.14:855][539]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001CC43FAAC00), frame # 9539
-[2020.10.26-15.14.14:898][539]LogExit: Object subsystem successfully closed.
-[2020.10.26-15.14.14:933][539]LogShaderCompilers: Display: Shaders left to compile 0
-[2020.10.26-15.14.14:956][539]LogModuleManager: Shutting down and abandoning module GameplayDebugger (508)
-[2020.10.26-15.14.14:956][539]LogModuleManager: Shutting down and abandoning module Voice (506)
-[2020.10.26-15.14.14:956][539]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (502)
-[2020.10.26-15.14.14:956][539]LogModuleManager: Shutting down and abandoning module SequenceRecorder (500)
-[2020.10.26-15.14.14:956][539]LogModuleManager: Shutting down and abandoning module AutomationController (498)
-[2020.10.26-15.14.14:956][539]LogModuleManager: Shutting down and abandoning module AutomationWorker (496)
-[2020.10.26-15.14.14:956][539]LogModuleManager: Shutting down and abandoning module OculusMR (494)
-[2020.10.26-15.14.14:956][539]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (492)
-[2020.10.26-15.14.14:956][539]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (490)
-[2020.10.26-15.14.14:956][539]LogModuleManager: Shutting down and abandoning module WebMMedia (488)
-[2020.10.26-15.14.14:956][539]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (486)
-[2020.10.26-15.14.14:957][539]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (484)
-[2020.10.26-15.14.14:957][539]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
-[2020.10.26-15.14.14:957][539]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (480)
-[2020.10.26-15.14.14:957][539]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (478)
-[2020.10.26-15.14.14:957][539]LogModuleManager: Shutting down and abandoning module PlanarCut (476)
-[2020.10.26-15.14.14:957][539]LogModuleManager: Shutting down and abandoning module CharacterAI (474)
-[2020.10.26-15.14.14:957][539]LogModuleManager: Shutting down and abandoning module SessionServices (472)
-[2020.10.26-15.14.14:957][539]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (470)
-[2020.10.26-15.14.14:957][539]LogModuleManager: Shutting down and abandoning module LiveCoding (468)
-[2020.10.26-15.14.14:957][539]LogModuleManager: Shutting down and abandoning module LevelSequence (466)
-[2020.10.26-15.14.14:957][539]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (464)
-[2020.10.26-15.14.14:957][539]LogModuleManager: Shutting down and abandoning module MovieScene (462)
-[2020.10.26-15.14.14:957][539]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (460)
-[2020.10.26-15.14.14:957][539]LogModuleManager: Shutting down and abandoning module PortalServices (458)
-[2020.10.26-15.14.14:957][539]LogModuleManager: Shutting down and abandoning module PortalRpc (456)
-[2020.10.26-15.14.14:957][539]LogModuleManager: Shutting down and abandoning module MessagingRpc (454)
-[2020.10.26-15.14.14:957][539]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (452)
-[2020.10.26-15.14.14:957][539]LogModuleManager: Shutting down and abandoning module AudioMixerCore (451)
-[2020.10.26-15.14.14:957][539]LogModuleManager: Shutting down and abandoning module ProfilerService (448)
-[2020.10.26-15.14.15:192][539]LogModuleManager: Shutting down and abandoning module TaskGraph (446)
-[2020.10.26-15.14.15:193][539]LogModuleManager: Shutting down and abandoning module Synthesis (444)
-[2020.10.26-15.14.15:193][539]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (442)
-[2020.10.26-15.14.15:193][539]LogModuleManager: Shutting down and abandoning module OculusInput (440)
-[2020.10.26-15.14.15:193][539]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (438)
-[2020.10.26-15.14.15:193][539]LogModuleManager: Shutting down and abandoning module GooglePAD (436)
-[2020.10.26-15.14.15:193][539]LogModuleManager: Shutting down and abandoning module EditableMesh (434)
-[2020.10.26-15.14.15:193][539]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (432)
-[2020.10.26-15.14.15:193][539]LogModuleManager: Shutting down and abandoning module CableComponent (430)
-[2020.10.26-15.14.15:193][539]LogModuleManager: Shutting down and abandoning module AudioCapture (428)
-[2020.10.26-15.14.15:193][539]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (427)
-[2020.10.26-15.14.15:193][539]LogModuleManager: Shutting down and abandoning module AssetTags (424)
-[2020.10.26-15.14.15:193][539]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (422)
-[2020.10.26-15.14.15:193][539]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (420)
-[2020.10.26-15.14.15:193][539]LogModuleManager: Shutting down and abandoning module AppleImageUtils (418)
-[2020.10.26-15.14.15:193][539]LogModuleManager: Shutting down and abandoning module AndroidPermission (416)
-[2020.10.26-15.14.15:193][539]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (414)
-[2020.10.26-15.14.15:193][539]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (412)
-[2020.10.26-15.14.15:193][539]LogModuleManager: Shutting down and abandoning module TemplateSequence (410)
-[2020.10.26-15.14.15:193][539]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineRenderPasses (408)
-[2020.10.26-15.14.15:193][539]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineSettings (406)
-[2020.10.26-15.14.15:193][539]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineCore (404)
-[2020.10.26-15.14.15:193][539]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (403)
-[2020.10.26-15.14.15:197][539]LogModuleManager: Shutting down and abandoning module MediaCompositing (400)
-[2020.10.26-15.14.15:197][539]LogModuleManager: Shutting down and abandoning module ImgMedia (398)
-[2020.10.26-15.14.15:197][539]LogModuleManager: Shutting down and abandoning module MagicLeapSharedWorld (396)
-[2020.10.26-15.14.15:198][539]LogModuleManager: Shutting down and abandoning module MagicLeapLightEstimation (394)
-[2020.10.26-15.14.15:198][539]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (392)
-[2020.10.26-15.14.15:198][539]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (390)
-[2020.10.26-15.14.15:198][539]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (388)
-[2020.10.26-15.14.15:198][539]LogModuleManager: Shutting down and abandoning module MeshSolverUtilities (386)
-[2020.10.26-15.14.15:198][539]LogModuleManager: Shutting down and abandoning module MeshConversion (384)
-[2020.10.26-15.14.15:198][539]LogModuleManager: Shutting down and abandoning module DynamicMesh (382)
-[2020.10.26-15.14.15:198][539]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (380)
-[2020.10.26-15.14.15:198][539]LogModuleManager: Shutting down and abandoning module GeometricObjects (378)
-[2020.10.26-15.14.15:198][539]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (376)
-[2020.10.26-15.14.15:198][539]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (375)
-[2020.10.26-15.14.15:198][539]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (372)
-[2020.10.26-15.14.15:198][539]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (371)
-[2020.10.26-15.14.15:198][539]LogModuleManager: Shutting down and abandoning module GeometryCache (368)
-[2020.10.26-15.14.15:198][539]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (367)
-[2020.10.26-15.14.15:198][539]LogModuleManager: Shutting down and abandoning module ChaosNiagara (364)
-[2020.10.26-15.14.15:198][539]LogModuleManager: Shutting down and abandoning module ChaosCloth (362)
-[2020.10.26-15.14.15:198][539]LogModuleManager: Shutting down and abandoning module BackChannel (360)
-[2020.10.26-15.14.15:198][539]LogModuleManager: Shutting down and abandoning module AutomationUtils (358)
-[2020.10.26-15.14.15:198][539]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (356)
-[2020.10.26-15.14.15:198][539]LogModuleManager: Shutting down and abandoning module HotReload (355)
-[2020.10.26-15.14.15:198][539]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (352)
-[2020.10.26-15.14.15:198][539]LogModuleManager: Shutting down and abandoning module UObjectPlugin (350)
-[2020.10.26-15.14.15:198][539]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (348)
-[2020.10.26-15.14.15:198][539]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (346)
-[2020.10.26-15.14.15:198][539]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (344)
-[2020.10.26-15.14.15:199][539]LogModuleManager: Shutting down and abandoning module SourceControl (343)
-[2020.10.26-15.14.15:199][539]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (340)
-[2020.10.26-15.14.15:199][539]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (338)
-[2020.10.26-15.14.15:199][539]LogModuleManager: Shutting down and abandoning module HideNSneakUnreal (336)
-[2020.10.26-15.14.15:199][539]LogModuleManager: Shutting down and abandoning module SoundFields (334)
-[2020.10.26-15.14.15:199][539]LogModuleManager: Shutting down and abandoning module SignificanceManager (332)
-[2020.10.26-15.14.15:199][539]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (330)
-[2020.10.26-15.14.15:199][539]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (328)
-[2020.10.26-15.14.15:199][539]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (324)
-[2020.10.26-15.14.15:199][539]LogModuleManager: Shutting down and abandoning module ActorSequence (322)
-[2020.10.26-15.14.15:199][539]LogModuleManager: Shutting down and abandoning module UdpMessaging (320)
-[2020.10.26-15.14.15:300][539]LogModuleManager: Shutting down and abandoning module TcpMessaging (318)
-[2020.10.26-15.14.15:700][539]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (316)
-[2020.10.26-15.14.15:700][539]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (314)
-[2020.10.26-15.14.15:701][539]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (312)
-[2020.10.26-15.14.15:701][539]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (310)
-[2020.10.26-15.14.15:701][539]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (308)
-[2020.10.26-15.14.15:701][539]LogMagicLeapPlanes: Planes tracker already destroyed.
-[2020.10.26-15.14.15:701][539]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (306)
-[2020.10.26-15.14.15:701][539]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (304)
-[2020.10.26-15.14.15:701][539]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (302)
-[2020.10.26-15.14.15:701][539]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (300)
-[2020.10.26-15.14.15:701][539]LogModuleManager: Shutting down and abandoning module MagicLeapController (298)
-[2020.10.26-15.14.15:701][539]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
-[2020.10.26-15.14.15:701][539]LogModuleManager: Shutting down and abandoning module MagicLeapARPinImpl (296)
-[2020.10.26-15.14.15:701][539]LogModuleManager: Shutting down and abandoning module MagicLeapAR (294)
-[2020.10.26-15.14.15:701][539]LogModuleManager: Shutting down and abandoning module AugmentedReality (293)
-[2020.10.26-15.14.15:701][539]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (290)
-[2020.10.26-15.14.15:701][539]LogModuleManager: Shutting down and abandoning module Niagara (288)
-[2020.10.26-15.14.15:701][539]LogModuleManager: Shutting down and abandoning module SignalProcessing (287)
-[2020.10.26-15.14.15:701][539]LogModuleManager: Shutting down and abandoning module NiagaraEditor (285)
-[2020.10.26-15.14.15:702][539]LogModuleManager: Shutting down and abandoning module NiagaraCore (282)
-[2020.10.26-15.14.15:702][539]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (280)
-[2020.10.26-15.14.15:702][539]LogModuleManager: Shutting down and abandoning module FacialAnimation (278)
-[2020.10.26-15.14.15:702][539]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (276)
-[2020.10.26-15.14.15:702][539]LogModuleManager: Shutting down and abandoning module TreeMap (275)
-[2020.10.26-15.14.15:702][539]LogModuleManager: Shutting down and abandoning module AnimationSharing (272)
-[2020.10.26-15.14.15:702][539]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (270)
-[2020.10.26-15.14.15:702][539]LogModuleManager: Shutting down and abandoning module AdvancedSteamSessions (268)
-[2020.10.26-15.14.15:702][539]LogModuleManager: Shutting down and abandoning module AdvancedSessions (266)
-[2020.10.26-15.14.15:702][539]LogModuleManager: Shutting down and abandoning module Paper2D (264)
-[2020.10.26-15.14.15:702][539]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (262)
-[2020.10.26-15.14.15:702][539]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (260)
-[2020.10.26-15.14.15:702][539]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (258)
-[2020.10.26-15.14.15:702][539]LogModuleManager: Shutting down and abandoning module PacketHandler (256)
-[2020.10.26-15.14.15:702][539]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (254)
-[2020.10.26-15.14.15:702][539]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (252)
-[2020.10.26-15.14.15:702][539]LogModuleManager: Shutting down and abandoning module MediaAssets (250)
-[2020.10.26-15.14.15:702][539]LogModuleManager: Shutting down and abandoning module Overlay (248)
-[2020.10.26-15.14.15:702][539]LogModuleManager: Shutting down and abandoning module OverlayEditor (247)
-[2020.10.26-15.14.15:702][539]LogModuleManager: Shutting down and abandoning module VREditor (244)
-[2020.10.26-15.14.15:703][539]LogModuleManager: Shutting down and abandoning module StringTableEditor (242)
-[2020.10.26-15.14.15:703][539]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (240)
-[2020.10.26-15.14.15:703][539]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (238)
-[2020.10.26-15.14.15:703][539]LogModuleManager: Shutting down and abandoning module FunctionalTesting (236)
-[2020.10.26-15.14.15:703][539]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (234)
-[2020.10.26-15.14.15:703][539]LogModuleManager: Shutting down and abandoning module UMG (232)
-[2020.10.26-15.14.15:703][539]LogModuleManager: Shutting down and abandoning module UMGEditor (231)
-[2020.10.26-15.14.15:703][539]LogModuleManager: Shutting down and abandoning module Sequencer (230)
-[2020.10.26-15.14.15:703][539]LogModuleManager: Shutting down and abandoning module MessageLog (227)
-[2020.10.26-15.14.15:703][539]LogModuleManager: Shutting down and abandoning module MaterialEditor (225)
-[2020.10.26-15.14.15:703][539]LogModuleManager: Shutting down and abandoning module ContentBrowser (224)
-[2020.10.26-15.14.15:703][539]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (223)
-[2020.10.26-15.14.15:703][539]LogModuleManager: Shutting down and abandoning module CollectionManager (221)
-[2020.10.26-15.14.15:703][539]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (220)
-[2020.10.26-15.14.15:704][539]LogModuleManager: Shutting down and abandoning module SlateReflector (212)
-[2020.10.26-15.14.15:704][539]LogModuleManager: Shutting down and abandoning module Slate (210)
-[2020.10.26-15.14.15:704][539]LogModuleManager: Shutting down and abandoning module SlateCore (208)
-[2020.10.26-15.14.15:704][539]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (206)
-[2020.10.26-15.14.15:704][539]LogModuleManager: Shutting down and abandoning module EditorStyle (204)
-[2020.10.26-15.14.15:705][539]LogModuleManager: Shutting down and abandoning module UnrealEd (202)
-[2020.10.26-15.14.15:705][539]LogModuleManager: Shutting down and abandoning module MRMesh (200)
-[2020.10.26-15.14.15:705][539]LogModuleManager: Shutting down and abandoning module Messaging (198)
-[2020.10.26-15.14.15:705][539]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
-[2020.10.26-15.14.15:705][539]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
-[2020.10.26-15.14.15:705][539]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
-[2020.10.26-15.14.15:705][539]LogModuleManager: Shutting down and abandoning module Networking (190)
-[2020.10.26-15.14.15:705][539]LogModuleManager: Shutting down and abandoning module Core (188)
-[2020.10.26-15.14.15:705][539]LogModuleManager: Shutting down and abandoning module MovieSceneTools (186)
-[2020.10.26-15.14.15:705][539]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
-[2020.10.26-15.14.15:705][539]LogModuleManager: Shutting down and abandoning module MeshBuilder (182)
-[2020.10.26-15.14.15:705][539]LogModuleManager: Shutting down and abandoning module MeshUtilities (180)
-[2020.10.26-15.14.15:705][539]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (179)
-[2020.10.26-15.14.15:705][539]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (178)
-[2020.10.26-15.14.15:705][539]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (177)
-[2020.10.26-15.14.15:705][539]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (175)
-[2020.10.26-15.14.15:705][539]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (173)
-[2020.10.26-15.14.15:705][539]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (171)
-[2020.10.26-15.14.15:705][539]LogModuleManager: Shutting down and abandoning module MaterialBaking (167)
-[2020.10.26-15.14.15:705][539]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (162)
-[2020.10.26-15.14.15:705][539]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (160)
-[2020.10.26-15.14.15:706][539]LogModuleManager: Shutting down and abandoning module DerivedDataCache (158)
-[2020.10.26-15.14.15:706][539]LogModuleManager: Shutting down and abandoning module XGEController (156)
-[2020.10.26-15.14.15:706][539]LogModuleManager: Shutting down and abandoning module TargetPlatform (154)
-[2020.10.26-15.14.15:706][539]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (153)
-[2020.10.26-15.14.15:706][539]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (151)
-[2020.10.26-15.14.15:706][539]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (149)
-[2020.10.26-15.14.15:706][539]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (147)
-[2020.10.26-15.14.15:706][539]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (145)
-[2020.10.26-15.14.15:706][539]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (143)
-[2020.10.26-15.14.15:706][539]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (141)
-[2020.10.26-15.14.15:706][539]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (139)
-[2020.10.26-15.14.15:706][539]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (137)
-[2020.10.26-15.14.15:706][539]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (135)
-[2020.10.26-15.14.15:706][539]LogModuleManager: Shutting down and abandoning module ImageWrapper (134)
-[2020.10.26-15.14.15:706][539]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (131)
-[2020.10.26-15.14.15:706][539]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (129)
-[2020.10.26-15.14.15:706][539]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (127)
-[2020.10.26-15.14.15:706][539]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (125)
-[2020.10.26-15.14.15:706][539]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (123)
-[2020.10.26-15.14.15:706][539]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (121)
-[2020.10.26-15.14.15:706][539]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (119)
-[2020.10.26-15.14.15:706][539]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (117)
-[2020.10.26-15.14.15:706][539]LogModuleManager: Shutting down and abandoning module InputCore (114)
-[2020.10.26-15.14.15:706][539]LogModuleManager: Shutting down and abandoning module Settings (112)
-[2020.10.26-15.14.15:706][539]LogModuleManager: Shutting down and abandoning module PhysXCooking (110)
-[2020.10.26-15.14.15:706][539]LogModuleManager: Shutting down and abandoning module ChaosSolvers (108)
-[2020.10.26-15.14.15:706][539]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (107)
-[2020.10.26-15.14.15:706][539]LogModuleManager: Shutting down and abandoning module Chaos (104)
-[2020.10.26-15.14.15:706][539]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (102)
-[2020.10.26-15.14.15:706][539]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (101)
-[2020.10.26-15.14.15:706][539]LogModuleManager: Shutting down and abandoning module AVEncoder (100)
-[2020.10.26-15.14.15:707][539]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (96)
-[2020.10.26-15.14.15:707][539]LogModuleManager: Shutting down and abandoning module SteamVRInput (94)
-[2020.10.26-15.14.15:707][539]LogModuleManager: Shutting down and abandoning module SteamVR (92)
-[2020.10.26-15.14.15:707][539]LogHMD: Freeing OpenVRDLLHandle.
-[2020.10.26-15.14.15:707][539]LogModuleManager: Shutting down and abandoning module OculusHMD (90)
-[2020.10.26-15.14.15:707][539]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (88)
-[2020.10.26-15.14.15:707][539]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (86)
-[2020.10.26-15.14.15:707][539]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (84)
-[2020.10.26-15.14.15:707][539]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (80)
-[2020.10.26-15.14.15:708][539]LogModuleManager: Shutting down and abandoning module SteamShared (74)
-[2020.10.26-15.14.15:708][539]LogSteamShared: Freeing the Steam Loaded Modules...
-[2020.10.26-15.14.15:708][539]LogModuleManager: Shutting down and abandoning module XMPP (71)
-[2020.10.26-15.14.15:708][539]LogModuleManager: Shutting down and abandoning module WebSockets (70)
-[2020.10.26-15.14.15:723][539]LogModuleManager: Shutting down and abandoning module HTTP (67)
-[2020.10.26-15.14.15:745][539]LogModuleManager: Shutting down and abandoning module SSL (66)
-[2020.10.26-15.14.15:747][539]LogModuleManager: Shutting down and abandoning module WmfMedia (62)
-[2020.10.26-15.14.15:749][539]LogModuleManager: Shutting down and abandoning module Media (61)
-[2020.10.26-15.14.15:750][539]LogModuleManager: Shutting down and abandoning module MagicLeap (58)
-[2020.10.26-15.14.15:750][539]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (56)
-[2020.10.26-15.14.15:750][539]LogModuleManager: Shutting down and abandoning module NiagaraShader (54)
-[2020.10.26-15.14.15:750][539]LogModuleManager: Shutting down and abandoning module VariantManagerContent (52)
-[2020.10.26-15.14.15:750][539]LogModuleManager: Shutting down and abandoning module DatasmithContent (50)
-[2020.10.26-15.14.15:750][539]LogModuleManager: Shutting down and abandoning module AISupportModule (48)
-[2020.10.26-15.14.15:750][539]LogModuleManager: Shutting down and abandoning module DesktopPlatform (46)
-[2020.10.26-15.14.15:751][539]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (44)
-[2020.10.26-15.14.15:751][539]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (42)
-[2020.10.26-15.14.15:751][539]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
-[2020.10.26-15.14.15:751][539]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
-[2020.10.26-15.14.15:751][539]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
-[2020.10.26-15.14.15:751][539]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
-[2020.10.26-15.14.15:751][539]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
-[2020.10.26-15.14.15:751][539]LogModuleManager: Shutting down and abandoning module RenderCore (30)
-[2020.10.26-15.14.15:751][539]LogModuleManager: Shutting down and abandoning module Landscape (28)
-[2020.10.26-15.14.15:751][539]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
-[2020.10.26-15.14.15:751][539]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
-[2020.10.26-15.14.15:751][539]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
-[2020.10.26-15.14.15:751][539]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
-[2020.10.26-15.14.15:751][539]LogModuleManager: Shutting down and abandoning module Renderer (18)
-[2020.10.26-15.14.15:751][539]LogModuleManager: Shutting down and abandoning module Engine (16)
-[2020.10.26-15.14.15:752][539]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
-[2020.10.26-15.14.15:752][539]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
-[2020.10.26-15.14.15:752][539]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
-[2020.10.26-15.14.15:752][539]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
-[2020.10.26-15.14.15:752][539]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
-[2020.10.26-15.14.15:752][539]LogModuleManager: Shutting down and abandoning module PakFile (4)
-[2020.10.26-15.14.15:752][539]LogModuleManager: Shutting down and abandoning module RSA (3)
-[2020.10.26-15.14.16:115][539]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
-[2020.10.26-15.14.16:116][539]LogD3D11RHI: Shutdown
-[2020.10.26-15.14.16:116][539]LogD3D11RHI: CleanupD3DDevice
-[2020.10.26-15.14.16:138][539]LogExit: Exiting.
-[2020.10.26-15.14.16:150][539]Log file closed, 10/26/20 16:14:16
+[2020.10.27-11.10.20:928][  0]LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+[2020.10.27-11.10.20:928][  0]LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.10.27-11.10.20:928][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Olle/Documents/Game Projects/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Engine.ini]
+[2020.10.27-11.10.20:928][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.10.27-11.10.20:928][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Olle/Documents/Game Projects/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Engine.ini]
+[2020.10.27-11.10.20:928][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Olle/Documents/Game Projects/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Engine.ini]
+[2020.10.27-11.10.20:928][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.10.27-11.10.20:928][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.10.27-11.10.20:928][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.10.27-11.10.20:928][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.10.27-11.10.20:928][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.10.27-11.10.20:928][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.10.27-11.10.20:928][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.10.27-11.10.20:928][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.10.27-11.10.20:928][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.10.27-11.10.20:928][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.10.27-11.10.20:929][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.10.27-11.10.20:929][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.10.27-11.10.20:929][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.10.27-11.10.20:929][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.10.27-11.10.20:929][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Olle/Documents/Game Projects/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Engine.ini]
+[2020.10.27-11.10.20:929][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.10.27-11.10.20:929][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.10.27-11.10.20:929][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.10.27-11.10.20:929][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.10.27-11.10.20:929][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.10.27-11.10.20:929][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.10.27-11.10.20:929][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.10.27-11.10.20:929][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.10.27-11.10.20:929][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.10.27-11.10.20:929][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.10.27-11.10.20:929][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.10.27-11.10.20:929][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.10.27-11.10.20:929][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.10.27-11.10.20:929][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Olle/Documents/Game Projects/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Engine.ini]
+[2020.10.27-11.10.20:929][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Olle/Documents/Game Projects/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Engine.ini]
+[2020.10.27-11.10.20:929][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Olle/Documents/Game Projects/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.10.27-11.10.20:929][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.10.27-11.10.20:929][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.10.27-11.10.20:929][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Olle/Documents/Game Projects/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.10.27-11.10.20:929][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.10.27-11.10.20:929][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Olle/Documents/Game Projects/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.10.27-11.10.20:929][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.10.27-11.10.20:929][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.10.27-11.10.20:929][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.10.27-11.10.20:929][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.10.27-11.10.20:929][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.10.27-11.10.20:929][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.10.27-11.10.20:929][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.10.27-11.10.20:929][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.10.27-11.10.20:929][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.10.27-11.10.20:929][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.10.27-11.10.20:929][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.10.27-11.10.20:929][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.10.27-11.10.20:929][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.10.27-11.10.20:929][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.10.27-11.10.20:929][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.10.27-11.10.20:929][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.10.27-11.10.20:929][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.10.27-11.10.20:929][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.10.27-11.10.20:929][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Olle/Documents/Game Projects/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.10.27-11.10.20:929][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.10.27-11.10.20:929][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.10.27-11.10.20:929][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.10.27-11.10.20:929][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.10.27-11.10.20:929][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.10.27-11.10.20:929][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.10.27-11.10.20:929][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.10.27-11.10.20:929][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.10.27-11.10.20:929][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.10.27-11.10.20:929][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.10.27-11.10.20:929][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.10.27-11.10.20:930][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.10.27-11.10.20:930][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.10.27-11.10.20:930][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.10.27-11.10.20:930][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.10.27-11.10.20:930][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.10.27-11.10.20:930][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.10.27-11.10.20:930][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.10.27-11.10.20:930][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.10.27-11.10.20:930][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.10.27-11.10.20:930][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.10.27-11.10.20:930][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.10.27-11.10.20:930][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.10.27-11.10.20:930][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.10.27-11.10.20:930][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.10.27-11.10.20:930][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.10.27-11.10.20:930][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.10.27-11.10.20:930][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.10.27-11.10.20:930][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.10.27-11.10.20:930][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.10.27-11.10.20:930][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Olle/Documents/Game Projects/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.10.27-11.10.20:930][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.10.27-11.10.20:930][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.10.27-11.10.20:930][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.10.27-11.10.20:930][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.10.27-11.10.20:930][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.10.27-11.10.20:930][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.10.27-11.10.20:930][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.10.27-11.10.20:930][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.10.27-11.10.20:930][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.10.27-11.10.20:930][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Olle/Documents/Game Projects/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.10.27-11.10.20:930][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.10.27-11.10.20:930][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.10.27-11.10.20:930][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.10.27-11.10.20:930][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.10.27-11.10.20:930][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.10.27-11.10.20:930][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.10.27-11.10.20:930][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.10.27-11.10.20:930][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.10.27-11.10.20:930][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.10.27-11.10.20:930][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.10.27-11.10.20:930][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.10.27-11.10.20:930][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.10.27-11.10.20:930][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.10.27-11.10.20:930][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.10.27-11.10.20:930][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.10.27-11.10.20:931][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.10.27-11.10.20:931][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.10.27-11.10.20:931][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.10.27-11.10.20:931][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.10.27-11.10.20:931][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.10.27-11.10.20:931][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.10.27-11.10.20:931][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.10.27-11.10.20:931][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.10.27-11.10.20:931][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.10.27-11.10.20:931][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.10.27-11.10.20:931][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.10.27-11.10.20:931][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Olle/Documents/Game Projects/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.10.27-11.10.20:931][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.10.27-11.10.20:931][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.10.27-11.10.20:931][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Olle/Documents/Game Projects/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.10.27-11.10.20:931][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.10.27-11.10.20:931][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.10.27-11.10.20:931][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.10.27-11.10.20:931][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.10.27-11.10.20:931][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.10.27-11.10.20:931][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.10.27-11.10.20:931][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.10.27-11.10.20:931][  0]LogInit: Selected Device Profile: [Windows]
+[2020.10.27-11.10.20:931][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.10.27-11.10.20:931][  0]LogHAL: Display: Platform has ~ 16 GB [17133535232 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.10.27-11.10.20:931][  0]LogInit: Going up to parent DeviceProfile []
+[2020.10.27-11.10.20:931][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Olle/Documents/Game Projects/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.10.27-11.10.20:931][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.10.27-11.10.20:931][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.10.27-11.10.20:931][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Olle/Documents/Game Projects/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.10.27-11.10.20:931][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.10.27-11.10.20:931][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Olle/Documents/Game Projects/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.10.27-11.10.20:931][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.10.27-11.10.20:931][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.10.27-11.10.20:931][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.10.27-11.10.20:931][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.10.27-11.10.20:931][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.10.27-11.10.20:931][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.10.27-11.10.20:931][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.10.27-11.10.20:931][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.10.27-11.10.20:931][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.10.27-11.10.20:931][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.10.27-11.10.20:931][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.10.27-11.10.20:931][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.10.27-11.10.20:931][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.10.27-11.10.20:931][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.10.27-11.10.20:931][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.10.27-11.10.20:931][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.10.27-11.10.20:931][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.10.27-11.10.20:931][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.10.27-11.10.20:931][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Olle/Documents/Game Projects/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.10.27-11.10.20:931][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.10.27-11.10.20:931][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.10.27-11.10.20:931][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.10.27-11.10.20:931][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.10.27-11.10.20:932][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.10.27-11.10.20:932][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.10.27-11.10.20:932][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.10.27-11.10.20:932][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.10.27-11.10.20:932][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.10.27-11.10.20:932][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.10.27-11.10.20:932][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.10.27-11.10.20:932][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.10.27-11.10.20:932][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.10.27-11.10.20:932][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.10.27-11.10.20:932][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.10.27-11.10.20:932][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.10.27-11.10.20:932][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.10.27-11.10.20:932][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.10.27-11.10.20:932][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.10.27-11.10.20:932][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.10.27-11.10.20:932][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.10.27-11.10.20:932][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.10.27-11.10.20:932][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.10.27-11.10.20:932][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.10.27-11.10.20:932][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.10.27-11.10.20:932][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.10.27-11.10.20:932][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.10.27-11.10.20:932][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.10.27-11.10.20:932][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.10.27-11.10.20:932][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.10.27-11.10.20:932][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Olle/Documents/Game Projects/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.10.27-11.10.20:932][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.10.27-11.10.20:932][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.10.27-11.10.20:932][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.10.27-11.10.20:932][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.10.27-11.10.20:932][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.10.27-11.10.20:932][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.10.27-11.10.20:932][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.10.27-11.10.20:932][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.10.27-11.10.20:932][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.10.27-11.10.20:932][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Olle/Documents/Game Projects/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.10.27-11.10.20:932][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.10.27-11.10.20:932][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.10.27-11.10.20:932][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.10.27-11.10.20:932][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.10.27-11.10.20:932][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.10.27-11.10.20:932][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.10.27-11.10.20:932][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.10.27-11.10.20:932][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.10.27-11.10.20:932][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.10.27-11.10.20:932][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.10.27-11.10.20:932][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.10.27-11.10.20:932][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.10.27-11.10.20:932][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.10.27-11.10.20:932][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.10.27-11.10.20:932][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.10.27-11.10.20:932][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.10.27-11.10.20:932][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.10.27-11.10.20:932][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.10.27-11.10.20:932][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.10.27-11.10.20:932][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.10.27-11.10.20:932][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.10.27-11.10.20:932][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.10.27-11.10.20:933][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.10.27-11.10.20:933][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.10.27-11.10.20:933][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.10.27-11.10.20:933][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.10.27-11.10.20:933][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Olle/Documents/Game Projects/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.10.27-11.10.20:933][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.10.27-11.10.20:933][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.10.27-11.10.20:933][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Olle/Documents/Game Projects/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.10.27-11.10.20:933][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.10.27-11.10.20:933][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.10.27-11.10.20:933][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.10.27-11.10.20:933][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.10.27-11.10.20:933][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.10.27-11.10.20:933][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.10.27-11.10.20:933][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.10.27-11.10.20:933][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.10.27-11.10.20:933][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.10.27-11.10.20:933][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.10.27-11.10.20:933][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.10.27-11.10.20:933][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Olle/Documents/Game Projects/PROJ_Grupp2/HideNSneakUnreal/Saved/Config/Windows/Engine.ini]
+[2020.10.27-11.10.20:933][  0]LogInit: Computer: DESKTOP-Q35ATQN
+[2020.10.27-11.10.20:933][  0]LogInit: User: Olle
+[2020.10.27-11.10.20:934][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.10.27-11.10.20:934][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.10.27-11.10.20:934][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2020.10.27-11.10.20:934][  0]LogMemory: Platform Memory Stats for Windows
+[2020.10.27-11.10.20:934][  0]LogMemory: Process Physical Memory: 114.42 MB used, 114.42 MB peak
+[2020.10.27-11.10.20:934][  0]LogMemory: Process Virtual Memory: 103.43 MB used, 103.43 MB peak
+[2020.10.27-11.10.20:934][  0]LogMemory: Physical Memory: 7154.14 MB used,  9185.68 MB free, 16339.81 MB total
+[2020.10.27-11.10.20:934][  0]LogMemory: Virtual Memory: 5125.29 MB used,  134212600.00 MB free, 134217728.00 MB total
+[2020.10.27-11.10.20:937][  0]LogWindows: WindowsPlatformFeatures disabled or dedicated server build
+[2020.10.27-11.10.20:957][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.10.27-11.10.20:957][  0]LogInit: Using OS detected language (sv-SE).
+[2020.10.27-11.10.20:957][  0]LogInit: Using OS detected locale (sv-SE).
+[2020.10.27-11.10.20:962][  0]LogTextLocalizationManager: No localization for 'sv-SE' exists, so 'en' will be used for the language.
+[2020.10.27-11.10.20:966][  0]LogTextLocalizationManager: No localization for 'sv-SE' exists, so 'en' will be used for the locale.
+[2020.10.27-11.10.21:893][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.10.27-11.10.21:898][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.10.27-11.10.21:910][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.10.27-11.10.21:920][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.10.27-11.10.21:921][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.10.27-11.10.21:929][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.10.27-11.10.22:001][  0]LogShaderCompilers: Guid format shader working directory is -37 characters bigger than the processId version (../../../../../../Users/Olle/Documents/Game Projects/PROJ_Grupp2/HideNSneakUnreal/Intermediate/Shaders/WorkingDirectory/11868/).
+[2020.10.27-11.10.22:001][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Olle/AppData/Local/Temp/UnrealShaderWorkingDir/36106C37406571A76CA392A764F6456D/'.
+[2020.10.27-11.10.22:002][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.10.27-11.10.22:002][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.10.27-11.10.22:002][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.10.27-11.10.22:596][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.10.27-11.10.22:657][  0]LogDerivedDataCache: Loaded boot cache 0.06s 76MB C:/Users/Olle/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.10.27-11.10.22:730][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Olle/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.10.27-11.10.22:730][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Olle/Documents/Game Projects/PROJ_Grupp2/HideNSneakUnreal/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.10.27-11.10.22:730][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.10.27-11.10.22:730][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Olle/Documents/Game Projects/PROJ_Grupp2/HideNSneakUnreal/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.10.27-11.10.22:730][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.10.27-11.10.22:743][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.10.27-11.10.22:743][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.10.27-11.10.22:743][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.10.27-11.10.22:745][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Olle/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.10.27-11.10.22:745][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.10.27-11.10.22:745][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.10.27-11.10.22:748][  0]LogInit: Using OS detected language (sv-SE).
+[2020.10.27-11.10.22:748][  0]LogInit: Using OS detected locale (sv-SE).
+[2020.10.27-11.10.22:748][  0]LogTextLocalizationManager: No localization for 'sv-SE' exists, so 'en' will be used for the language.
+[2020.10.27-11.10.22:748][  0]LogTextLocalizationManager: No localization for 'sv-SE' exists, so 'en' will be used for the locale.
+[2020.10.27-11.10.22:749][  0]LogTextLocalizationManager: Compacting localization data took   0.00ms
+[2020.10.27-11.10.22:753][  0]LogAssetRegistry: FAssetRegistry took 0.0020 seconds to start up
+[2020.10.27-11.10.22:986][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.001033 seconds
+[2020.10.27-11.10.23:046][  0]LogInit: Selected Device Profile: [Windows]
+[2020.10.27-11.10.23:095][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.10.27-11.10.23:095][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.10.27-11.10.23:095][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.10.27-11.10.23:095][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.10.27-11.10.23:095][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.10.27-11.10.23:110][  0]LogNetVersion: HideNSneakUnreal 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 3367979030)
+[2020.10.27-11.10.23:225][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000001FEE9994780), frame # 0
+[2020.10.27-11.10.23:225][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001FEE99182C0), frame # 0
+[2020.10.27-11.10.23:226][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001FEE9989600), frame # 0
+[2020.10.27-11.10.23:301][  0]LogCollectionManager: Loaded 0 collections in 0.010505 seconds
+[2020.10.27-11.10.23:316][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Olle/Documents/Game Projects/PROJ_Grupp2/HideNSneakUnreal/Saved/Collections/' took 0.01s
+[2020.10.27-11.10.23:316][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Olle/Documents/Game Projects/PROJ_Grupp2/HideNSneakUnreal/Content/Developers/Olle/Collections/' took 0.00s
+[2020.10.27-11.10.23:316][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Olle/Documents/Game Projects/PROJ_Grupp2/HideNSneakUnreal/Content/Collections/' took 0.00s
+[2020.10.27-11.10.23:316][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000004 seconds (updated 0 objects)
+[2020.10.27-11.10.23:506][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.10.27-11.10.23:510][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.10.27-11.10.23:553][  0]SourceControl: Source control is disabled
+[2020.10.27-11.10.23:553][  0]SourceControl: Source control is disabled
+[2020.10.27-11.10.23:563][  0]SourceControl: Source control is disabled
+[2020.10.27-11.10.23:703][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.10.27-11.10.23:722][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.10.27-11.10.23:723][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.10.27-11.10.23:766][  0]LogOcInput: OculusInput pre-init called
+[2020.10.27-11.10.23:782][  0]LogUObjectArray: 19126 objects as part of root set at end of initial load.
+[2020.10.27-11.10.23:782][  0]LogUObjectAllocator: 5028304 out of 0 bytes used by permanent object pool.
+[2020.10.27-11.10.23:782][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.10.27-11.10.23:895][  0]LogEngine: Initializing Engine...
+[2020.10.27-11.10.23:897][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.10.27-11.10.23:913][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.10.27-11.10.23:913][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.10.27-11.10.23:913][  0]LogInit: Texture streaming: Disabled
+[2020.10.27-11.10.27:662][  0]LogInit: Display: Game Engine Initialized.
+[2020.10.27-11.10.27:663][  0]LogNiagaraEditor: Warning: GEditor isn't valid! Particle reset commands will not work for Niagara components!
+[2020.10.27-11.10.28:012][  0]LogInit: Display: Starting Game.
+[2020.10.27-11.10.28:130][  0]LogNet: Browse: /Game/Maps/Real_WhiteBox?Name=Player
+[2020.10.27-11.10.28:130][  0]LogLoad: LoadMap: /Game/Maps/Real_WhiteBox?Name=Player
+[2020.10.27-11.10.28:130][  0]LogWorld: BeginTearingDown for /Temp/Untitled_0
+[2020.10.27-11.10.28:988][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.10.27-11.10.29:092][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2020.10.27-11.10.29:150][  0]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR
+[2020.10.27-11.10.29:461][  0]LogAIModule: Creating AISystem for world Real_WhiteBox
+[2020.10.27-11.10.29:462][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001FEE2CA0C00), frame # 0
+[2020.10.27-11.10.29:462][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001FEE2D402C0), frame # 0
+[2020.10.27-11.10.29:561][  0]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.10.27-11.10.29:562][  0]LogOnline: OSS: Creating online subsystem instance for: STEAM
+[2020.10.27-11.10.29:562][  0]LogOnline: Warning: STEAM: Steam API disabled!
+[2020.10.27-11.10.29:562][  0]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2020.10.27-11.10.29:607][  0]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2020.10.27-11.10.29:607][  0]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2020.10.27-11.10.29:607][  0]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2020.10.27-11.10.29:607][  0]LogNet: Created socket for bind address: 0.0.0.0 on port 17777
+[2020.10.27-11.10.29:608][  0]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.10.27-11.10.29:608][  0]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 17777
+[2020.10.27-11.10.29:685][  0]LogWorld: Bringing World /Game/Maps/Real_WhiteBox.Real_WhiteBox up for play (max tick rate 30) at 2020.10.27-12.10.29
+[2020.10.27-11.10.30:328][  0]LogWorld: Bringing up level for play took: 0.720438
+[2020.10.27-11.10.30:753][  0]LogOnlineVoice: OSS: Invalid user specified in StopNetworkedVoice(0)
+[2020.10.27-11.10.30:770][  0]LogBlueprintUserMessages: [ThirdPersonGameMode_C_0] 0
+[2020.10.27-11.10.30:771][  0]LogBlueprintUserMessages: [ThirdPersonGameMode_C_0] PlayerController_0
+[2020.10.27-11.10.30:790][  0]LogLoad: Took 2.659308 seconds to LoadMap(/Game/Maps/Real_WhiteBox)
+[2020.10.27-11.10.30:814][  0]LogLoad: (Engine Initialization) Total time: 12.94 seconds
+[2020.10.27-11.10.30:814][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.10.27-11.10.30:853][  0]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:53752
+[2020.10.27-11.10.30:946][  0]LogHandshake: SendConnectChallenge. Timestamp: 0.034466, Cookie: 023038083135235161043195085176001066038184064044072233135175
+[2020.10.27-11.10.30:946][  0]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:53753
+[2020.10.27-11.10.30:946][  0]LogHandshake: SendConnectChallenge. Timestamp: 0.034466, Cookie: 228011066186010160145184171056015222018008101040220225128251
+[2020.10.27-11.10.31:343][  1]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:53752
+[2020.10.27-11.10.31:343][  1]LogHandshake: SendChallengeAck. InCookie: 023038083135235161043195085176001066038184064044072233135175
+[2020.10.27-11.10.31:344][  1]LogNet: Server accepting post-challenge connection from: 127.0.0.1:53752
+[2020.10.27-11.10.31:344][  1]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.10.27-11.10.31:358][  1]LogNet: NotifyAcceptedConnection: Name: Real_WhiteBox, TimeStamp: 10/27/20 12:10:31, [UNetConnection] RemoteAddr: 127.0.0.1:53752, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.10.27-11.10.31:358][  1]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:53752, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.10.27-11.10.31:358][  1]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:53753
+[2020.10.27-11.10.31:358][  1]LogHandshake: SendChallengeAck. InCookie: 228011066186010160145184171056015222018008101040220225128251
+[2020.10.27-11.10.31:358][  1]LogNet: Server accepting post-challenge connection from: 127.0.0.1:53753
+[2020.10.27-11.10.31:359][  1]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.10.27-11.10.31:359][  1]LogNet: NotifyAcceptedConnection: Name: Real_WhiteBox, TimeStamp: 10/27/20 12:10:31, [UNetConnection] RemoteAddr: 127.0.0.1:53753, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.10.27-11.10.31:359][  1]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:53753, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.10.27-11.10.31:732][  2]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/Real_WhiteBox.Real_WhiteBox: Accepted
+[2020.10.27-11.10.31:742][  2]LogNet: Remote platform little endian=1
+[2020.10.27-11.10.31:742][  2]LogNet: This platform little endian=1
+[2020.10.27-11.10.31:742][  2]LogNetVersion: HideNSneakUnreal 1.0.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 4008563563)
+[2020.10.27-11.10.31:742][  2]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/Real_WhiteBox.Real_WhiteBox: Accepted
+[2020.10.27-11.10.31:742][  2]LogNet: Remote platform little endian=1
+[2020.10.27-11.10.31:742][  2]LogNet: This platform little endian=1
+[2020.10.27-11.10.31:780][  3]LogNet: Login request: ?Name=DESKTOP-Q35ATQN-BF9F6D9541B7998CB974FA8D7DAE7A71 userId: NULL:DESKTOP-Q35ATQN-BF9F6D9541B7998CB974FA8D7DAE7A71 platform: NULL
+[2020.10.27-11.10.31:781][  3]LogNet: Login request: ?Name=DESKTOP-Q35ATQN-DB402A1946E74192ADDDDBA5D917EA42 userId: NULL:DESKTOP-Q35ATQN-DB402A1946E74192ADDDDBA5D917EA42 platform: NULL
+[2020.10.27-11.10.32:312][ 17]LogNet: Client netspeed is 10000
+[2020.10.27-11.10.32:312][ 17]LogNet: Join request: /Game/Maps/Real_WhiteBox?Name=DESKTOP-Q35ATQN-DB402A1946E74192ADDDDBA5D917EA42?SplitscreenCount=1
+[2020.10.27-11.10.32:359][ 17]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.10.27-11.10.32:665][ 17]LogNet: Join succeeded: DESKTOP-Q35ATQN-DB40
+[2020.10.27-11.10.32:665][ 17]LogNet: Client netspeed is 10000
+[2020.10.27-11.10.32:665][ 17]LogNet: Join request: /Game/Maps/Real_WhiteBox?Name=DESKTOP-Q35ATQN-BF9F6D9541B7998CB974FA8D7DAE7A71?SplitscreenCount=1
+[2020.10.27-11.10.32:666][ 17]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.10.27-11.10.32:667][ 17]LogNet: Join succeeded: DESKTOP-Q35ATQN-BF9F
+[2020.10.27-11.10.32:747][ 18]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.096158 > MaxSimulationTimeStep (0.050) for 'ThirdPersonCharacter_C_1', movement 'Walking'
+[2020.10.27-11.10.58:213][768]LogNet: UChannel::ReceivedSequencedBunch: Bunch.bClose == true. ChIndex == 0. Calling ConditionalCleanUp.
+[2020.10.27-11.10.58:213][768]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:53752, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PlayerController_2, Owner: PlayerController_2, UniqueId: NULL:DESKTOP-Q35ATQN-BF9F6D9541B7998CB974FA8D7DAE7A71
+[2020.10.27-11.10.58:213][768]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:53752, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PlayerController_2, Owner: PlayerController_2, UniqueId: NULL:DESKTOP-Q35ATQN-BF9F6D9541B7998CB974FA8D7DAE7A71, Channels: 14, Time: 2020.10.27-11.10.58
+[2020.10.27-11.10.58:213][768]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:53752, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PlayerController_2, Owner: PlayerController_2, UniqueId: NULL:DESKTOP-Q35ATQN-BF9F6D9541B7998CB974FA8D7DAE7A71
+[2020.10.27-11.10.58:213][768]LogOnlineSession: Warning: OSS: No game present to leave for session (GameSession)
+[2020.10.27-11.10.59:287][800]LogNet: UChannel::ReceivedSequencedBunch: Bunch.bClose == true. ChIndex == 0. Calling ConditionalCleanUp.
+[2020.10.27-11.10.59:287][800]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:53753, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:DESKTOP-Q35ATQN-DB402A1946E74192ADDDDBA5D917EA42
+[2020.10.27-11.10.59:287][800]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:53753, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:DESKTOP-Q35ATQN-DB402A1946E74192ADDDDBA5D917EA42, Channels: 12, Time: 2020.10.27-11.10.59
+[2020.10.27-11.10.59:287][800]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:53753, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:DESKTOP-Q35ATQN-DB402A1946E74192ADDDDBA5D917EA42
+[2020.10.27-11.10.59:287][800]LogOnlineSession: Warning: OSS: No game present to leave for session (GameSession)
