@@ -62,12 +62,17 @@ void EmptyLinkFunctionForGeneratedCodeHideNSneakUnreal_init() {}
 				0,
 				PKG_CompiledIn | 0x00000000,
 <<<<<<< HEAD
+<<<<<<< HEAD
 				0x61435B83,
 				0xCE095D9D,
 =======
 				0xCD937450,
 				0x316336A1,
 >>>>>>> 6448b747bd9a6770408d24df2f5a33bedb1e4913
+=======
+				0x250A3E9F,
+				0x42F47882,
+>>>>>>> 42f0643de269f3f43e79bd4fa738a91aec78cd07
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

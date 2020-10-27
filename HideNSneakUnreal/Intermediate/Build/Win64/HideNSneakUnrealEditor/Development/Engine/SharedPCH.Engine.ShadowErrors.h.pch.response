@@ -1,6 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 42f0643de269f3f43e79bd4fa738a91aec78cd07
 /Zc:inline
 /nologo
 /Oi
@@ -257,11 +260,16 @@
 /I ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include
 /I ThirdParty\PhysX3\APEX_1.4\shared\internal\include
 /I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE"
+<<<<<<< HEAD
 /I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"
+=======
+/I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.2\include\um"
+>>>>>>> 42f0643de269f3f43e79bd4fa738a91aec78cd07
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
+<<<<<<< HEAD
 /I C:\Users\osjo8879\Desktop\Proj\HideNSneakUnreal\Intermediate\Build\Win64\HideNSneakUnrealEditor\Development\Engine
 /Yc"C:\Users\osjo8879\Desktop\Proj\HideNSneakUnreal\Intermediate\Build\Win64\HideNSneakUnrealEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
 /Fp"C:\Users\osjo8879\Desktop\Proj\HideNSneakUnreal\Intermediate\Build\Win64\HideNSneakUnrealEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
@@ -543,4 +551,13 @@
 =======
 >>>>>>> Aulin
 >>>>>>> 6448b747bd9a6770408d24df2f5a33bedb1e4913
+=======
+/I "E:\Unreal Projects\Proj\HideNSneakUnreal\Intermediate\Build\Win64\HideNSneakUnrealEditor\Development\Engine"
+/Yc"E:\Unreal Projects\Proj\HideNSneakUnreal\Intermediate\Build\Win64\HideNSneakUnrealEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"E:\Unreal Projects\Proj\HideNSneakUnreal\Intermediate\Build\Win64\HideNSneakUnrealEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+"E:\Unreal Projects\Proj\HideNSneakUnreal\Intermediate\Build\Win64\HideNSneakUnrealEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.cpp"
+/Fo"E:\Unreal Projects\Proj\HideNSneakUnreal\Intermediate\Build\Win64\HideNSneakUnrealEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+/TP
+/GR-
+>>>>>>> 42f0643de269f3f43e79bd4fa738a91aec78cd07
 /W4

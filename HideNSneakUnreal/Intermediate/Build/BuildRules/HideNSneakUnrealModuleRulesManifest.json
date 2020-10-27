@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 {
@@ -22,4 +23,13 @@
 	"EngineVersion": "4.25.3"
 >>>>>>> Aulin
 >>>>>>> 6448b747bd9a6770408d24df2f5a33bedb1e4913
+=======
+{
+	"SourceFiles": [
+		"E:\\Unreal Projects\\Proj\\HideNSneakUnreal\\Source\\HideNSneakUnreal\\HideNSneakUnreal.Build.cs",
+		"E:\\Unreal Projects\\Proj\\HideNSneakUnreal\\Source\\HideNSneakUnreal.Target.cs",
+		"E:\\Unreal Projects\\Proj\\HideNSneakUnreal\\Source\\HideNSneakUnrealEditor.Target.cs"
+	],
+	"EngineVersion": "4.25.3"
+>>>>>>> 42f0643de269f3f43e79bd4fa738a91aec78cd07
 }

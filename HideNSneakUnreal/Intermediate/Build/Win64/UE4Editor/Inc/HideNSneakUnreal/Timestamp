@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 C:\Users\Olle\Documents\Game Projects\PROJ_Grupp2\HideNSneakUnreal\Source\HideNSneakUnreal\moveableBox.h
 C:\Users\Olle\Documents\Game Projects\PROJ_Grupp2\HideNSneakUnreal\Source\HideNSneakUnreal\Pablo.h
 C:\Users\Olle\Documents\Game Projects\PROJ_Grupp2\HideNSneakUnreal\Source\HideNSneakUnreal\MovingPlatform.h
@@ -26,3 +27,14 @@ C:\Users\Olle\Documents\Game Projects\PROJ_Grupp2\HideNSneakUnreal\Source\HideNS
 C:\Users\Olle\Documents\Game Projects\PROJ_Grupp2\HideNSneakUnreal\Source\HideNSneakUnreal\TagMechanic.h
 >>>>>>> Aulin
 >>>>>>> 6448b747bd9a6770408d24df2f5a33bedb1e4913
+=======
+E:\Unreal Projects\Proj\HideNSneakUnreal\Source\HideNSneakUnreal\BatteryGameMode.h
+E:\Unreal Projects\Proj\HideNSneakUnreal\Source\HideNSneakUnreal\BatteryPickup.h
+E:\Unreal Projects\Proj\HideNSneakUnreal\Source\HideNSneakUnreal\HideAndSneakGameState.h
+E:\Unreal Projects\Proj\HideNSneakUnreal\Source\HideNSneakUnreal\HideNSneakCPPCharacter.h
+E:\Unreal Projects\Proj\HideNSneakUnreal\Source\HideNSneakUnreal\HideNSneakGameModeBase.h
+E:\Unreal Projects\Proj\HideNSneakUnreal\Source\HideNSneakUnreal\SpawnVolume.h
+E:\Unreal Projects\Proj\HideNSneakUnreal\Source\HideNSneakUnreal\Pickup.h
+E:\Unreal Projects\Proj\HideNSneakUnreal\Source\HideNSneakUnreal\CPPCharacter.h
+E:\Unreal Projects\Proj\HideNSneakUnreal\Source\HideNSneakUnreal\OnlineGameInstance.h
+>>>>>>> 42f0643de269f3f43e79bd4fa738a91aec78cd07

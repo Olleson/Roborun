@@ -1,5 +1,13 @@
+<<<<<<< HEAD
 C:\Users\Olle\Documents\Game Projects\PROJ_Grupp2\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\Definitions.HideNSneakUnreal.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Camera/CameraComponent.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraComponent.generated.h
 C:\Users\Olle\Documents\Game Projects\PROJ_Grupp2\HideNSneakUnreal\Source\HideNSneakUnreal\HideNSneakPlayerCharacter.h
 C:\Users\Olle\Documents\Game Projects\PROJ_Grupp2\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Inc\HideNSneakUnreal\HideNSneakPlayerCharacter.generated.h
+=======
+C:\Users\Olle\Documents\Game Projects\PROJ_Grupp2\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\Definitions.HideNSneakUnreal.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Camera/CameraComponent.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraComponent.generated.h
+C:\Users\Olle\Documents\Game Projects\PROJ_Grupp2\HideNSneakUnreal\Source\HideNSneakUnreal\HideNSneakPlayerCharacter.h
+C:\Users\Olle\Documents\Game Projects\PROJ_Grupp2\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Inc\HideNSneakUnreal\HideNSneakPlayerCharacter.generated.h
+>>>>>>> b939ee367d28a153160cfc89249552dbdefadda1

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /NOLOGO
 /errorReport:prompt
 /MACHINE:x64
@@ -13,4 +14,21 @@
 "C:\Users\Olle\Documents\Game Projects\PROJ_Grupp2\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\TagMechanic.gen.cpp.obj"
 "C:\Users\Olle\Documents\Game Projects\PROJ_Grupp2\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\Default.rc2.res"
 /OUT:"C:\Users\Olle\Documents\Game Projects\PROJ_Grupp2\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal-0681.lib"
+=======
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-HideNSneakUnreal-0681.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\Olle\Documents\Game Projects\PROJ_Grupp2\HideNSneakUnreal\Intermediate\Build\Win64\HideNSneakUnrealEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\Olle\Documents\Game Projects\PROJ_Grupp2\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\HideNSneakUnreal.cpp.obj"
+"C:\Users\Olle\Documents\Game Projects\PROJ_Grupp2\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\TagMechanic.cpp.obj"
+"C:\Users\Olle\Documents\Game Projects\PROJ_Grupp2\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\HideNSneakUnreal.init.gen.cpp.obj"
+"C:\Users\Olle\Documents\Game Projects\PROJ_Grupp2\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\TagMechanic.gen.cpp.obj"
+"C:\Users\Olle\Documents\Game Projects\PROJ_Grupp2\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\Default.rc2.res"
+/OUT:"C:\Users\Olle\Documents\Game Projects\PROJ_Grupp2\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal-0681.lib"
+>>>>>>> b939ee367d28a153160cfc89249552dbdefadda1
 /INCLUDE:IMPLEMENT_MODULE_HideNSneakUnreal
