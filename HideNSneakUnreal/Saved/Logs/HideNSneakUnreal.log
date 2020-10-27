@@ -456,6 +456,7 @@ LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 [2020.10.27-11.09.55:628][  0]LogConfig: Setting CVar [[r.VSync:0]]
 [2020.10.27-11.09.55:628][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
@@ -2850,6 +2851,8 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 =======
 <<<<<<< HEAD
 >>>>>>> 4d4424273ef191c6eee054de0150d1cdad49ced3
+=======
+>>>>>>> parent of a000342... bRUUUUUUUUUUUUH
 [2020.10.26-14.30.18:310][  0]LogConfig: Setting CVar [[r.VSync:0]]
 [2020.10.26-14.30.18:310][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
 [2020.10.26-14.30.18:310][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/osjo8879/Desktop/Proj/HideNSneakUnreal/Saved/Config/Windows/Engine.ini]
@@ -6154,6 +6157,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.10.26-16.01.51:097][ 78]LogSavePackage: Moving '../../../../../../Users/osjo8879/Desktop/Proj/HideNSneakUnreal/Saved/ThirdPersonExampleMap_Auto17824598546E4CE88C92423BBBE5A368A.tmp' to '../../../../../../Users/osjo8879/Desktop/Proj/HideNSneakUnreal/Saved/Autosaves/Game/Maps/ThirdPersonExampleMap_Auto1.umap'
 [2020.10.26-16.01.51:106][ 78]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/ThirdPersonExampleMap' took 0.107
 [2020.10.26-16.01.51:106][ 78]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.107
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 [2020.10.27-11.09.55:628][  0]LogConfig: Setting CVar [[r.VSync:0]]
@@ -8920,3 +8924,5 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 >>>>>>> 42f0643de269f3f43e79bd4fa738a91aec78cd07
 >>>>>>> 7c5ce777cd00b6ee6046f129026ffbde988bab21
 >>>>>>> 4d4424273ef191c6eee054de0150d1cdad49ced3
+=======
+>>>>>>> parent of a000342... bRUUUUUUUUUUUUH
