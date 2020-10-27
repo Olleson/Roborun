@@ -1,5 +1,9 @@
 /MANIFEST:EMBED
+<<<<<<< HEAD
 /MANIFESTINPUT:"C:\Program Files\Epic Games\UE_4.25\Engine\Build\Windows\Resources\Default-Win64.manifest"
+=======
+/MANIFESTINPUT:"E:\Epic Games\UE_4.25\Engine\Build\Windows\Resources\Default-Win64.manifest"
+>>>>>>> Aulin
 /NOLOGO
 /DEBUG
 /errorReport:prompt
@@ -19,7 +23,11 @@
 /DELAYLOAD:"d3d12.dll"
 /DELAYLOAD:"DBGHELP.DLL"
 /LIBPATH:"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\lib\x64"
+<<<<<<< HEAD
 /LIBPATH:"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\lib\um\x64"
+=======
+/LIBPATH:"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.2\lib\um\x64"
+>>>>>>> Aulin
 /LIBPATH:"C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\ucrt\x64"
 /LIBPATH:"C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64"
 /NODEFAULTLIB:"LIBCMT"
@@ -33,6 +41,7 @@
 /NODEFAULTLIB:"LIBCD"
 /NODEFAULTLIB:"LIBCPD"
 /FUNCTIONPADMIN
+<<<<<<< HEAD
 "C:\Users\osjo8879\Desktop\Proj\HideNSneakUnreal\Intermediate\Build\Win64\HideNSneakUnrealEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
 "C:\Users\osjo8879\Desktop\Proj\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\HideNSneakUnreal.cpp.obj"
 "C:\Users\osjo8879\Desktop\Proj\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\moveableBox.cpp.obj"
@@ -47,6 +56,33 @@
 "C:\Users\osjo8879\Desktop\Proj\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\test.gen.cpp.obj"
 "C:\Users\osjo8879\Desktop\Proj\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\testActor.gen.cpp.obj"
 "C:\Users\osjo8879\Desktop\Proj\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\Default.rc2.res"
+=======
+"E:\Unreal Projects\Proj\HideNSneakUnreal\Intermediate\Build\Win64\HideNSneakUnrealEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"E:\Unreal Projects\Proj\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\BatteryGameMode.cpp.obj"
+"E:\Unreal Projects\Proj\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\BatteryPickup.cpp.obj"
+"E:\Unreal Projects\Proj\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\CPPCharacter.cpp.obj"
+"E:\Unreal Projects\Proj\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\HideAndSneakGameState.cpp.obj"
+"E:\Unreal Projects\Proj\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\HideNSneakCPPCharacter.cpp.obj"
+"E:\Unreal Projects\Proj\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\HideNSneakGameModeBase.cpp.obj"
+"E:\Unreal Projects\Proj\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\HideNSneakUnreal.cpp.obj"
+"E:\Unreal Projects\Proj\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\MyTestClass.cpp.obj"
+"E:\Unreal Projects\Proj\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\OnlineGameInstance.cpp.obj"
+"E:\Unreal Projects\Proj\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\Pickup.cpp.obj"
+"E:\Unreal Projects\Proj\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\SpawnVolume.cpp.obj"
+"E:\Unreal Projects\Proj\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\TagMechanic.cpp.obj"
+"E:\Unreal Projects\Proj\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\BatteryGameMode.gen.cpp.obj"
+"E:\Unreal Projects\Proj\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\BatteryPickup.gen.cpp.obj"
+"E:\Unreal Projects\Proj\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\CPPCharacter.gen.cpp.obj"
+"E:\Unreal Projects\Proj\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\HideAndSneakGameState.gen.cpp.obj"
+"E:\Unreal Projects\Proj\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\HideNSneakCPPCharacter.gen.cpp.obj"
+"E:\Unreal Projects\Proj\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\HideNSneakGameModeBase.gen.cpp.obj"
+"E:\Unreal Projects\Proj\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\HideNSneakUnreal.init.gen.cpp.obj"
+"E:\Unreal Projects\Proj\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\OnlineGameInstance.gen.cpp.obj"
+"E:\Unreal Projects\Proj\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\Pickup.gen.cpp.obj"
+"E:\Unreal Projects\Proj\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\SpawnVolume.gen.cpp.obj"
+"E:\Unreal Projects\Proj\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\TagMechanic.gen.cpp.obj"
+"E:\Unreal Projects\Proj\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\Default.rc2.res"
+>>>>>>> Aulin
 "delayimp.lib"
 "wininet.lib"
 "rpcrt4.lib"
@@ -71,6 +107,7 @@
 "setupapi.lib"
 "dwmapi.lib"
 "imm32.lib"
+<<<<<<< HEAD
 "C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\UE4Editor-Engine.lib"
 "C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Development\Core\UE4Editor-Core.lib"
 "C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Development\CoreUObject\UE4Editor-CoreUObject.lib"
@@ -78,5 +115,15 @@
 /OUT:"C:\Users\osjo8879\Desktop\Proj\HideNSneakUnreal\Binaries\Win64\UE4Editor-HideNSneakUnreal.dll"
 /IMPLIB:"C:\Users\osjo8879\Desktop\Proj\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal.suppressed.lib"
 /PDB:"C:\Users\osjo8879\Desktop\Proj\HideNSneakUnreal\Binaries\Win64\UE4Editor-HideNSneakUnreal.pdb"
+=======
+"E:\Epic Games\UE_4.25\Engine\Plugins\Online\OnlineSubsystem\Intermediate\Build\Win64\UE4Editor\Development\OnlineSubsystem\UE4Editor-OnlineSubsystem.lib"
+"E:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\UE4Editor-Engine.lib"
+"E:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Development\Core\UE4Editor-Core.lib"
+"E:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Development\CoreUObject\UE4Editor-CoreUObject.lib"
+"E:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Development\InputCore\UE4Editor-InputCore.lib"
+/OUT:"E:\Unreal Projects\Proj\HideNSneakUnreal\Binaries\Win64\UE4Editor-HideNSneakUnreal.dll"
+/IMPLIB:"E:\Unreal Projects\Proj\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal.suppressed.lib"
+/PDB:"E:\Unreal Projects\Proj\HideNSneakUnreal\Binaries\Win64\UE4Editor-HideNSneakUnreal.pdb"
+>>>>>>> Aulin
 /ignore:4078
 /INCLUDE:IMPLEMENT_MODULE_HideNSneakUnreal
