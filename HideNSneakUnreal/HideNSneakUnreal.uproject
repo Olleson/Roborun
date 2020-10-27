@@ -15,6 +15,13 @@
 	],
 	"Plugins": [
 		{
+<<<<<<< HEAD
+=======
+			"Name": "OnlineSubsystemSteam",
+			"Enabled": true
+		},
+		{
+>>>>>>> Aulin
 			"Name": "AdvancedSessions",
 			"Enabled": true
 		},
