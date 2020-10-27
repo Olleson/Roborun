@@ -2,7 +2,7 @@
 	"FileVersion": 3,
 	"EngineAssociation": "4.25",
 	"Category": "",
-<<<<<<< HEAD
+
 	"Description": "",
 	"Plugins": [
 		{
@@ -10,7 +10,5 @@
 			"Enabled": true
 		}
 	]
-=======
-	"Description": ""
->>>>>>> dd6029cffd72e7298d63a084fb702e3b4f866e55
+
 }
