@@ -22,8 +22,4 @@ protected:
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
-
-
-	UFUNCTION(BlueprintCallable, Category = Misc, meta = (WorldContext = WorldContextObject))
-		static bool RandomFunc(UObject* WorldContextObject);
 };

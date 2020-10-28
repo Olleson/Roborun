@@ -1,90 +1,26 @@
-<<<<<<< HEAD
-﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\HideNsneak).
+﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Olle\Documents\PROJ_Grupp2).
+UnrealBuildTool : warning : Couldn't parse '<<<<<<< HEAD' in UnrealBuildTool.ConfigFileSection of C:\Users\Olle\Documents\PROJ_Grupp2\HideNSneakUnreal\Config\DefaultEngine.ini
+UnrealBuildTool : warning : Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of C:\Users\Olle\Documents\PROJ_Grupp2\HideNSneakUnreal\Config\DefaultEngine.ini
+UnrealBuildTool : warning : Couldn't parse '>>>>>>> 42f0643de269f3f43e79bd4fa738a91aec78cd07' in UnrealBuildTool.ConfigFileSection of C:\Users\Olle\Documents\PROJ_Grupp2\HideNSneakUnreal\Config\DefaultEngine.ini
+UnrealBuildTool : warning : Couldn't parse '<<<<<<< HEAD' in UnrealBuildTool.ConfigFileSection of C:\Users\Olle\Documents\PROJ_Grupp2\HideNSneakUnreal\Config\DefaultEngine.ini
+UnrealBuildTool : warning : Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of C:\Users\Olle\Documents\PROJ_Grupp2\HideNSneakUnreal\Config\DefaultEngine.ini
+UnrealBuildTool : warning : Couldn't parse '>>>>>>> 42f0643de269f3f43e79bd4fa738a91aec78cd07' in UnrealBuildTool.ConfigFileSection of C:\Users\Olle\Documents\PROJ_Grupp2\HideNSneakUnreal\Config\DefaultEngine.ini
   Parsing headers for HideNSneakUnrealEditor
-    Running UnrealHeaderTool "D:\HideNsneak\HideNSneakUnreal\HideNSneakUnreal.uproject" "D:\HideNsneak\HideNSneakUnreal\Intermediate\Build\Win64\HideNSneakUnrealEditor\Development\HideNSneakUnrealEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Oskar\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
-  Reflection code generated for HideNSneakUnrealEditor in 6,1331631 seconds
+    Running UnrealHeaderTool "C:\Users\Olle\Documents\PROJ_Grupp2\HideNSneakUnreal\HideNSneakUnreal.uproject" "C:\Users\Olle\Documents\PROJ_Grupp2\HideNSneakUnreal\Intermediate\Build\Win64\HideNSneakUnrealEditor\Development\HideNSneakUnrealEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Olle\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+  Reflection code generated for HideNSneakUnrealEditor in 15,1866856 seconds
   Building HideNSneakUnrealEditor...
-  Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 5 actions with 16 processes...
-    [1/5] MovingPlatform.cpp
-    [2/5] MovingPlatform.gen.cpp
-    [3/5] UE4Editor-HideNSneakUnreal-0104.lib
-       Creating library D:\HideNsneak\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal-0104.lib and object D:\HideNsneak\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal-0104.exp
-    [4/5] UE4Editor-HideNSneakUnreal-0104.dll
-       Creating library D:\HideNsneak\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal-0104.suppressed.lib and object D:\HideNsneak\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal-0104.suppressed.exp
-    [5/5] HideNSneakUnrealEditor.target
-  Total time in Parallel executor: 1,58 seconds
-  Total execution time: 8,54 seconds
-=======
-﻿  Using 'git status' to determine working set for adaptive non-unity build (E:\Unreal Projects\Proj).
-  Creating makefile for HideNSneakUnrealEditor (.uproject file is newer)
-  Parsing headers for HideNSneakUnrealEditor
-    Running UnrealHeaderTool "E:\Unreal Projects\Proj\HideNSneakUnreal\HideNSneakUnreal.uproject" "E:\Unreal Projects\Proj\HideNSneakUnreal\Intermediate\Build\Win64\HideNSneakUnrealEditor\Development\HideNSneakUnrealEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Alexander Aulin\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
-  Reflection code generated for HideNSneakUnrealEditor in 6.2943368 seconds
-  Building HideNSneakUnrealEditor...
-  Using Visual Studio 2019 14.27.29112 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-<<<<<<< HEAD
-  Building 27 actions with 6 processes...
-    [1/27] SharedPCH.Engine.ShadowErrors.cpp
-    [2/27] HideAndSneakGameState.cpp
-    [3/27] HideNSneakGameModeBase.cpp
-    [4/27] BatteryPickup.cpp
-    [5/27] BatteryGameMode.cpp
-    [6/27] HideNSneakUnreal.cpp
-    [7/27] MyTestClass.cpp
-    [8/27] CPPCharacter.cpp
-    [9/27] BatteryGameMode.gen.cpp
-    [10/27] Pickup.cpp
-    [11/27] BatteryPickup.gen.cpp
-    [12/27] OnlineGameInstance.cpp
-    [13/27] HideNSneakCPPCharacter.cpp
-    [14/27] CPPCharacter.gen.cpp
-    [15/27] HideNSneakUnreal.init.gen.cpp
-    [16/27] HideNSneakCPPCharacter.gen.cpp
-    [17/27] HideAndSneakGameState.gen.cpp
-    [18/27] HideNSneakGameModeBase.gen.cpp
-    [19/27] OnlineGameInstance.gen.cpp
-    [20/27] Pickup.gen.cpp
-    [21/27] SpawnVolume.gen.cpp
-    [22/27] TagMechanic.gen.cpp
-    [23/27] SpawnVolume.cpp
-    [24/27] TagMechanic.cpp
-    [25/27] UE4Editor-HideNSneakUnreal-0028.lib
-       Creating library E:\Unreal Projects\Proj\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal-0028.lib and object E:\Unreal Projects\Proj\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal-0028.exp
-    [26/27] UE4Editor-HideNSneakUnreal-0028.dll
-       Creating library E:\Unreal Projects\Proj\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal-0028.suppressed.lib and object E:\Unreal Projects\Proj\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal-0028.suppressed.exp
-    [27/27] HideNSneakUnrealEditor.target
-  Total time in Parallel executor: 29,34 seconds
-  Total execution time: 36,08 seconds
->>>>>>> Aulin
-=======
-  Building 24 actions with 6 processes...
-    [1/24] SharedPCH.Engine.ShadowErrors.cpp
-    [2/24] BatteryPickup.cpp
-    [3/24] HideNSneakGameModeBase.cpp
-    [4/24] HideAndSneakGameState.cpp
-    [5/24] BatteryGameMode.cpp
-    [6/24] HideNSneakUnreal.cpp
-    [7/24] CPPCharacter.cpp
-    [8/24] Pickup.cpp
-    [9/24] BatteryGameMode.gen.cpp
-    [10/24] OnlineGameInstance.cpp
-    [11/24] HideNSneakCPPCharacter.cpp
-    [12/24] CPPCharacter.gen.cpp
-    [13/24] HideAndSneakGameState.gen.cpp
-    [14/24] HideNSneakCPPCharacter.gen.cpp
-    [15/24] HideNSneakUnreal.init.gen.cpp
-    [16/24] HideNSneakGameModeBase.gen.cpp
-    [17/24] OnlineGameInstance.gen.cpp
-    [18/24] SpawnVolume.gen.cpp
-    [19/24] Pickup.gen.cpp
-    [20/24] BatteryPickup.gen.cpp
-    [21/24] SpawnVolume.cpp
-    [22/24] UE4Editor-HideNSneakUnreal.lib
-       Creating library E:\Unreal Projects\Proj\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal.lib and object E:\Unreal Projects\Proj\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal.exp
-    [23/24] UE4Editor-HideNSneakUnreal.dll
-       Creating library E:\Unreal Projects\Proj\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal.suppressed.lib and object E:\Unreal Projects\Proj\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal.suppressed.exp
-    [24/24] HideNSneakUnrealEditor.target
-  Total time in Parallel executor: 29.61 seconds
-  Total execution time: 37.96 seconds
->>>>>>> 42f0643de269f3f43e79bd4fa738a91aec78cd07
+  Using Visual Studio 2019 14.27.29112 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 8 actions with 4 processes...
+    [1/8] RandomizeSeeker.gen.cpp
+    [2/8] HideNSneakUnreal.init.gen.cpp
+    [3/8] HideNSneakCPPCharacter.gen.cpp
+    [4/8] RandomizeSeeker.cpp
+    [5/8] HideNSneakCPPCharacter.cpp
+    [6/8] UE4Editor-HideNSneakUnreal-0003.lib
+       Creating library C:\Users\Olle\Documents\PROJ_Grupp2\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal-0003.lib and object C:\Users\Olle\Documents\PROJ_Grupp2\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal-0003.exp
+    [7/8] UE4Editor-HideNSneakUnreal-0003.dll
+       Creating library C:\Users\Olle\Documents\PROJ_Grupp2\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal-0003.suppressed.lib and object C:\Users\Olle\Documents\PROJ_Grupp2\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal-0003.suppressed.exp
+RandomizeSeeker.gen.cpp.obj : error LNK2019: unresolved external symbol "public: static bool __cdecl ARandomizeSeeker::RandomFunc(class UObject *)" (?RandomFunc@ARandomizeSeeker@@SA_NPEAVUObject@@@Z) referenced in function "public: static void __cdecl ARandomizeSeeker::execRandomFunc(class UObject *,struct FFrame &,void * const)" (?execRandomFunc@ARandomizeSeeker@@SAXPEAVUObject@@AEAUFFrame@@QEAX@Z)
+C:\Users\Olle\Documents\PROJ_Grupp2\HideNSneakUnreal\Binaries\Win64\UE4Editor-HideNSneakUnreal-0003.dll : fatal error LNK1120: 1 unresolved externals
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(46,5): error MSB3073: The command "C:\WINDOWS\System32\chcp.com 65001 >NUL 
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(46,5): error MSB3073:  "C:\Program Files\Epic Games\UE_4.25\Engine\Build\BatchFiles\Build.bat" HideNSneakUnrealEditor Win64 Development -Project="C:\Users\Olle\Documents\PROJ_Grupp2\HideNSneakUnreal\HideNSneakUnreal.uproject" -WaitMutex -FromMsBuild" exited with code 6.
