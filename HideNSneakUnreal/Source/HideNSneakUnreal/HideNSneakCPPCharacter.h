@@ -55,6 +55,9 @@ public:
 		bool isSeeker;
 
 	UPROPERTY(EditAnywhere)
+		bool hasBeenSeeker;
+
+	UPROPERTY(EditAnywhere)
 		AActor* targetActor;
 
 	UPROPERTY(VisibleAnywhere)
