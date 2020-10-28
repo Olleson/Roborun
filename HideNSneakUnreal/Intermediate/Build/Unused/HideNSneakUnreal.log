@@ -1,16 +1,29 @@
-﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\HideNsneak).
-  Parsing headers for HideNSneakUnrealEditor
-    Running UnrealHeaderTool "D:\HideNsneak\HideNSneakUnreal\HideNSneakUnreal.uproject" "D:\HideNsneak\HideNSneakUnreal\Intermediate\Build\Win64\HideNSneakUnrealEditor\Development\HideNSneakUnrealEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Oskar\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
-  Reflection code generated for HideNSneakUnrealEditor in 6,1331631 seconds
-  Building HideNSneakUnrealEditor...
-  Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 5 actions with 16 processes...
-    [1/5] MovingPlatform.cpp
-    [2/5] MovingPlatform.gen.cpp
-    [3/5] UE4Editor-HideNSneakUnreal-0104.lib
-       Creating library D:\HideNsneak\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal-0104.lib and object D:\HideNsneak\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal-0104.exp
-    [4/5] UE4Editor-HideNSneakUnreal-0104.dll
-       Creating library D:\HideNsneak\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal-0104.suppressed.lib and object D:\HideNsneak\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal-0104.suppressed.exp
-    [5/5] HideNSneakUnrealEditor.target
-  Total time in Parallel executor: 1,58 seconds
-  Total execution time: 8,54 seconds
+﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\simon\Documents\PROJ_Grupp2).
+  Creating makefile for HideNSneakUnreal (no existing makefile)
+  Parsing headers for HideNSneakUnreal
+    Running UnrealHeaderTool "C:\Users\simon\Documents\PROJ_Grupp2\HideNSneakUnreal\HideNSneakUnreal.uproject" "C:\Users\simon\Documents\PROJ_Grupp2\HideNSneakUnreal\Intermediate\Build\Win64\HideNSneakUnreal\Development\HideNSneakUnreal.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\simon\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+  Reflection code generated for HideNSneakUnreal in 4.7625327 seconds
+  Building HideNSneakUnreal...
+  Using Visual Studio 2019 14.27.29112 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 18 actions with 8 processes...
+    [1/18] Default.rc2
+    [2/18] SharedPCH.Engine.ShadowErrors.cpp
+    [3/18] HideNSneakUnreal.cpp
+    [4/18] moveableBox.cpp
+    [5/18] NewActorComponent.cpp
+    [6/18] MovingPlatform.cpp
+    [7/18] HideNSneakUnreal.init.gen.cpp
+    [8/18] test.cpp
+    [9/18] moveableBox.gen.cpp
+    [10/18] batman.cpp
+    [11/18] testActor.cpp
+    [12/18] MovingPlatform.gen.cpp
+    [13/18] testActor.gen.cpp
+    [14/18] test.gen.cpp
+    [15/18] NewActorComponent.gen.cpp
+    [16/18] batman.gen.cpp
+    [17/18] HideNSneakUnreal.exe
+       Creating library C:\Users\simon\Documents\PROJ_Grupp2\HideNSneakUnreal\Binaries\Win64\HideNSneakUnreal.lib and object C:\Users\simon\Documents\PROJ_Grupp2\HideNSneakUnreal\Binaries\Win64\HideNSneakUnreal.exp
+    [18/18] HideNSneakUnreal.target
+  Total time in Parallel executor: 52.34 seconds
+  Total execution time: 64.01 seconds
