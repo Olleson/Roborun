@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "HideNSneakUnreal",
+			"Path": "D:\\HideNsneak\\HideNSneakUnreal\\Source\\HideNSneakUnreal.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "HideNSneakUnrealEditor",
+			"Path": "D:\\HideNsneak\\HideNSneakUnreal\\Source\\HideNSneakUnrealEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

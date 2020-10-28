@@ -2,13 +2,15 @@
 	"FileVersion": 3,
 	"EngineAssociation": "4.25",
 	"Category": "",
-
 	"Description": "",
-	"Plugins": [
+	"Modules": [
 		{
-			"Name": "AdvancedSessions",
-			"Enabled": true
+			"Name": "HideNSneakUnreal",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
 		}
 	]
-
 }

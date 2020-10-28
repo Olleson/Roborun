@@ -1,0 +1,3 @@
+C:\Users\osjo8879\Desktop\Proj\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\Definitions.HideNSneakUnreal.h
+C:\Users\osjo8879\Desktop\Proj\HideNSneakUnreal\Source\HideNSneakUnreal\NewActorComponent.h
+C:\Users\osjo8879\Desktop\Proj\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Inc\HideNSneakUnreal\NewActorComponent.generated.h
