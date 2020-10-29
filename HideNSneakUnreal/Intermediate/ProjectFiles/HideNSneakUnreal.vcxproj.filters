@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\HideNSneakUnreal.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{42934772-1493-4BB9-BD40-E21D3EED0AB5}</UniqueIdentifier>
+      <UniqueIdentifier>{CEEA6BC0-016F-4104-8C99-76DD42B74CD0}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\HideNSneakUnreal.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{011ADDB8-744F-4EDA-B668-A39A90CDE801}</UniqueIdentifier>
+      <UniqueIdentifier>{66F0C568-4186-458C-8320-EF0E3FE919D1}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,12 +30,18 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\HideNSneakUnreal">
-      <UniqueIdentifier>{4399418E-7ECC-4B90-B539-0BB1A5CD2875}</UniqueIdentifier>
+      <UniqueIdentifier>{EA72B3F6-F267-459E-B3C4-46E5574EC1EA}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\HideNSneakUnreal\CPP_Character.cpp">
       <Filter>Source\HideNSneakUnreal</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\HideNSneakUnreal\CPP_Character.h">
+      <Filter>Source\HideNSneakUnreal</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HideNSneakUnreal\CPP_Powerup.cpp">
+      <Filter>Source\HideNSneakUnreal</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HideNSneakUnreal\CPP_Powerup.h">
       <Filter>Source\HideNSneakUnreal</Filter>
     </ClInclude>
     <None Include="..\..\Source\HideNSneakUnreal\HideNSneakUnreal.Build.cs">

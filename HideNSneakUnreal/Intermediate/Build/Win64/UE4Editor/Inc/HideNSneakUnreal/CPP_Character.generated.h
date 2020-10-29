@@ -14,8 +14,16 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define HIDENSNEAKUNREAL_CPP_Character_generated_h
 
 #define HideNSneakUnreal_Source_HideNSneakUnreal_CPP_Character_h_16_SPARSE_DATA
-#define HideNSneakUnreal_Source_HideNSneakUnreal_CPP_Character_h_16_RPC_WRAPPERS
-#define HideNSneakUnreal_Source_HideNSneakUnreal_CPP_Character_h_16_RPC_WRAPPERS_NO_PURE_DECLS
+#define HideNSneakUnreal_Source_HideNSneakUnreal_CPP_Character_h_16_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execOnCrouch);
+
+
+#define HideNSneakUnreal_Source_HideNSneakUnreal_CPP_Character_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execOnCrouch);
+
+
 #define HideNSneakUnreal_Source_HideNSneakUnreal_CPP_Character_h_16_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesACPP_Character(); \
