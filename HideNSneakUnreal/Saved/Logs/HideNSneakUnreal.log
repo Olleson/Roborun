@@ -2347,3 +2347,18 @@ Scale3D: 1.000000 1.000000 1.000000
 [2020.10.29-13.31.47:073][ 31]LogEditorActor: Deleted Actor: StaticMeshActor
 [2020.10.29-13.31.47:108][ 31]LogUObjectHash: Compacting FUObjectHashTables data took   3.41ms
 [2020.10.29-13.31.47:113][ 31]LogEditorActor: Deleted 1 Actors (0.071 secs)
+[2020.10.29-13.41.00:114][835]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2020.10.29-13.41.00:784][835]LogSavePackage: Moving '../../../../HideNSneak2/HideNSneakUnreal/Saved/FirstPlayable_WhiteBox_Auto10F8B1C4C462EECCB5E4A8D9999DAD206.tmp' to '../../../../HideNSneak2/HideNSneakUnreal/Saved/Autosaves/Game/Maps/FirstPlayable_WhiteBox_Auto1.umap'
+[2020.10.29-13.41.00:787][835]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/FirstPlayable_WhiteBox' took 0.707
+[2020.10.29-13.41.00:787][835]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.707
+[2020.10.29-13.46.59:480][572]LogSlate: Window 'Color Picker' being destroyed
+[2020.10.29-13.47.06:163][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_HideNSneakCPPCharacter" FILE="../../../../HideNSneak2/HideNSneakUnreal/Content/Blueprints/BP_HideNSneakCPPCharacter.uasset" SILENT=true
+[2020.10.29-13.47.06:187][318]LogSavePackage: Moving '../../../../HideNSneak2/HideNSneakUnreal/Saved/BP_HideNSneakCPPCharacter10DF54A04FA04F56050A94962EDA2074.tmp' to '../../../../HideNSneak2/HideNSneakUnreal/Content/Blueprints/BP_HideNSneakCPPCharacter.uasset'
+[2020.10.29-13.47.06:207][318]AssetCheck: New page: Asset Save: BP_HideNSneakCPPCharacter
+[2020.10.29-13.47.06:207][318]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_HideNSneakCPPCharacter.BP_HideNSneakCPPCharacter
+[2020.10.29-13.48.15:440][492]BlueprintLog: New page: Compile BP_HideNSneakCPPCharacter
+[2020.10.29-13.48.15:514][492]LogUObjectHash: Compacting FUObjectHashTables data took   4.70ms
+[2020.10.29-13.48.16:621][591]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_HideNSneakCPPCharacter" FILE="../../../../HideNSneak2/HideNSneakUnreal/Content/Blueprints/BP_HideNSneakCPPCharacter.uasset" SILENT=true
+[2020.10.29-13.48.16:644][591]LogSavePackage: Moving '../../../../HideNSneak2/HideNSneakUnreal/Saved/BP_HideNSneakCPPCharacterE6430D5C42C5B8EEA4EBED99A0B45D7D.tmp' to '../../../../HideNSneak2/HideNSneakUnreal/Content/Blueprints/BP_HideNSneakCPPCharacter.uasset'
+[2020.10.29-13.48.16:671][591]AssetCheck: New page: Asset Save: BP_HideNSneakCPPCharacter
+[2020.10.29-13.48.16:671][591]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_HideNSneakCPPCharacter.BP_HideNSneakCPPCharacter
