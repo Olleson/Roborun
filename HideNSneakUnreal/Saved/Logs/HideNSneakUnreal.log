@@ -1676,3 +1676,97 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.10.29-14.38.38:635][394]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
 [2020.10.29-14.38.45:422][157]LogAssetEditorSubsystem: Opening Asset editor for Class /Script/HideNSneakUnreal.HideNSneakCPPCharacter
 [2020.10.29-14.39.05:490][166]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.10.29-14.56.42:003][206]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.10.29-14.56.46:088][218]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.10.29-15.05.21:683][836]LogUObjectHash: Compacting FUObjectHashTables data took   3.78ms
+[2020.10.29-15.05.21:720][836]LogSavePackage: Moving '../../../../../../Users/Olle/Documents/PROJ_Grupp2/HideNSneakUnreal/Saved/Level_HideNSneak031607204E946FD0133542A38FE7AA8A.tmp' to '../../../../../../Users/Olle/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Maps/Level_HideNSneak.umap'
+[2020.10.29-15.05.21:793][836]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level_HideNSneak_BuiltData" FILE="../../../../../../Users/Olle/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Maps/Level_HideNSneak_BuiltData.uasset" SILENT=true
+[2020.10.29-15.05.21:916][836]LogSavePackage: Moving '../../../../../../Users/Olle/Documents/PROJ_Grupp2/HideNSneakUnreal/Saved/Level_HideNSneak_BuiltData7172D52C44B03C84A0E20AB82F1753AE.tmp' to '../../../../../../Users/Olle/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Maps/Level_HideNSneak_BuiltData.uasset'
+[2020.10.29-15.05.21:930][836]AssetCheck: New page: Asset Save: multiple assets
+[2020.10.29-15.05.21:930][836]LogContentValidation: Display: Validating World /Game/Maps/Level_HideNSneak.Level_HideNSneak
+[2020.10.29-15.05.21:931][836]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Level_HideNSneak_BuiltData.Level_HideNSneak_BuiltData
+[2020.10.29-15.05.22:587][903]LogUObjectHash: Compacting FUObjectHashTables data took   3.41ms
+[2020.10.29-15.05.22:751][903]LogSlate: Window 'HideNSneakUnreal - Unreal Editor' being destroyed
+[2020.10.29-15.05.22:957][904]Cmd: QUIT_EDITOR
+[2020.10.29-15.05.22:957][904]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2020.10.29-15.05.22:966][904]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2020.10.29-15.05.23:432][904]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.10.29-15.05.23:444][904]LogExit: Preparing to exit.
+[2020.10.29-15.05.23:997][904]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2020.10.29-15.05.24:012][904]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2020.10.29-15.05.24:021][904]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2020.10.29-15.05.24:022][904]LogExit: Editor shut down
+[2020.10.29-15.05.24:024][904]LogExit: Transaction tracking system shut down
+[2020.10.29-15.05.24:685][904]LogAISub: UAISubsystem::~UAISubsystem AISubsystem (000001A7BC30D340), frame # 46904
+[2020.10.29-15.05.24:685][904]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001A7BC270E00), frame # 46904
+[2020.10.29-15.05.24:686][904]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001A7BC2D4800), frame # 46904
+[2020.10.29-15.05.24:698][904]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001A7B2207E00), frame # 46904
+[2020.10.29-15.05.24:698][904]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001A7B2227B00), frame # 46904
+[2020.10.29-15.05.24:739][904]LogExit: Object subsystem successfully closed.
+[2020.10.29-15.05.24:765][904]LogShaderCompilers: Display: Shaders left to compile 0
+[2020.10.29-15.05.24:798][904]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (802)
+[2020.10.29-15.05.24:798][904]LogModuleManager: Shutting down and abandoning module Voice (800)
+[2020.10.29-15.05.24:798][904]LogModuleManager: Shutting down and abandoning module BlueprintGraph (798)
+[2020.10.29-15.05.24:798][904]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (796)
+[2020.10.29-15.05.24:798][904]LogModuleManager: Shutting down and abandoning module SceneOutliner (794)
+[2020.10.29-15.05.24:798][904]LogModuleManager: Shutting down and abandoning module AddContentDialog (792)
+[2020.10.29-15.05.24:799][904]LogModuleManager: Shutting down and abandoning module WidgetCarousel (791)
+[2020.10.29-15.05.24:799][904]LogModuleManager: Shutting down and abandoning module EditorWidgets (788)
+[2020.10.29-15.05.24:799][904]LogModuleManager: Shutting down and abandoning module CollectionManager (786)
+[2020.10.29-15.05.24:799][904]LogModuleManager: Shutting down and abandoning module StatsViewer (784)
+[2020.10.29-15.05.24:799][904]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (782)
+[2020.10.29-15.05.24:799][904]LogModuleManager: Shutting down and abandoning module FoliageEdit (780)
+[2020.10.29-15.05.24:799][904]LogModuleManager: Shutting down and abandoning module LandscapeEditor (778)
+[2020.10.29-15.05.24:799][904]LogModuleManager: Shutting down and abandoning module MeshPaintMode (776)
+[2020.10.29-15.05.24:799][904]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (774)
+[2020.10.29-15.05.24:799][904]LogModuleManager: Shutting down and abandoning module ActorPickerMode (772)
+[2020.10.29-15.05.24:799][904]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (770)
+[2020.10.29-15.05.24:799][904]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (768)
+[2020.10.29-15.05.24:800][904]LogModuleManager: Shutting down and abandoning module AutomationWorker (766)
+[2020.10.29-15.05.24:800][904]LogModuleManager: Shutting down and abandoning module SteamVREditor (764)
+[2020.10.29-15.05.24:800][904]LogModuleManager: Shutting down and abandoning module OculusMR (762)
+[2020.10.29-15.05.24:800][904]LogModuleManager: Shutting down and abandoning module GooglePADEditor (760)
+[2020.10.29-15.05.24:800][904]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (758)
+[2020.10.29-15.05.24:800][904]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (756)
+[2020.10.29-15.05.24:800][904]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (754)
+[2020.10.29-15.05.24:800][904]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (752)
+[2020.10.29-15.05.24:800][904]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (750)
+[2020.10.29-15.05.24:800][904]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (748)
+[2020.10.29-15.05.24:800][904]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (746)
+[2020.10.29-15.05.24:800][904]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (744)
+[2020.10.29-15.05.24:800][904]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (742)
+[2020.10.29-15.05.24:800][904]LogModuleManager: Shutting down and abandoning module WebMMedia (740)
+[2020.10.29-15.05.24:800][904]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (738)
+[2020.10.29-15.05.24:800][904]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (736)
+[2020.10.29-15.05.24:800][904]LogModuleManager: Shutting down and abandoning module SequenceRecorder (735)
+[2020.10.29-15.05.24:800][904]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (732)
+[2020.10.29-15.05.24:800][904]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (730)
+[2020.10.29-15.05.24:800][904]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (728)
+[2020.10.29-15.05.24:800][904]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (726)
+[2020.10.29-15.05.24:800][904]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (724)
+[2020.10.29-15.05.24:800][904]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (722)
+[2020.10.29-15.05.24:800][904]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (720)
+[2020.10.29-15.05.24:800][904]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (718)
+[2020.10.29-15.05.24:800][904]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (716)
+[2020.10.29-15.05.24:800][904]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (714)
+[2020.10.29-15.05.24:800][904]LogModuleManager: Shutting down and abandoning module PlanarCut (712)
+[2020.10.29-15.05.24:800][904]LogModuleManager: Shutting down and abandoning module CharacterAI (710)
+[2020.10.29-15.05.24:800][904]LogModuleManager: Shutting down and abandoning module TextureAlignMode (708)
+[2020.10.29-15.05.24:800][904]LogModuleManager: Shutting down and abandoning module BspMode (706)
+[2020.10.29-15.05.24:800][904]LogModuleManager: Shutting down and abandoning module PlacementMode (705)
+[2020.10.29-15.05.24:800][904]LogModuleManager: Shutting down and abandoning module GeometryMode (702)
+[2020.10.29-15.05.24:800][904]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (700)
+[2020.10.29-15.05.24:800][904]LogModuleManager: Shutting down and abandoning module SmartSnapping (698)
+[2020.10.29-15.05.24:801][904]LogModuleManager: Shutting down and abandoning module SessionServices (696)
+[2020.10.29-15.05.24:801][904]LogModuleManager: Shutting down and abandoning module MeshPaint (694)
+[2020.10.29-15.05.24:801][904]LogModuleManager: Shutting down and abandoning module ViewportSnapping (692)
+[2020.10.29-15.05.24:801][904]LogModuleManager: Shutting down and abandoning module ViewportInteraction (690)
+[2020.10.29-15.05.24:801][904]LogModuleManager: Shutting down and abandoning module ClothPainter (688)
+[2020.10.29-15.05.24:801][904]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (687)
+[2020.10.29-15.05.24:801][904]LogModuleManager: Shutting down and abandoning module LogVisualizer (684)
+[2020.10.29-15.05.24:801][904]LogModuleManager: Shutting down and abandoning module IntroTutorials (682)
+[2020.10.29-15.05.24:801][904]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (681)
+[2020.10.29-15.05.24:801][904]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (678)
+[2020.10.29-15.05.24:801][904]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (676)
+[2020.10.29-15.05.24:801][904]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (674)
+[2020.10.29-15.05.24:801][904]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (673)
