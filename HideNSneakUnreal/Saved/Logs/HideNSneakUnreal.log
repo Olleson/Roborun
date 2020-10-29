@@ -1932,3 +1932,125 @@ Make sure 'BPW_Player_UI_C' has been compiled for  Set MiniMapWidget
 [2020.10.29-20.06.36:279][775]EditorErrors: Warning: Error saving '../../../../../../Users/paah4127/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Content/Maps/Menu.umap'
 [2020.10.29-20.06.40:699][177]LogSlate: Window 'Message Log' being destroyed
 [2020.10.29-20.06.40:746][177]LogSlate: Window 'Message Log' being destroyed
+[2020.10.29-20.07.56:573][915]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/Menu.Menu
+[2020.10.29-20.07.56:661][915]LogUObjectHash: Compacting FUObjectHashTables data took   3.17ms
+[2020.10.29-20.07.56:664][915]Cmd: MAP LOAD FILE="../../../../../../Users/paah4127/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Content/Maps/Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.10.29-20.07.56:664][915]LightingResults: New page: Lighting Build
+[2020.10.29-20.07.56:664][915]LoadErrors: New page: Loading map: Menu.umap
+[2020.10.29-20.07.56:689][915]LogWorld: UWorld::CleanupWorld for Menu, bSessionEnded=true, bCleanupResources=true
+[2020.10.29-20.07.56:689][915]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.29-20.07.56:689][915]MapCheck: New page: Map Check
+[2020.10.29-20.07.56:689][915]LightingResults: New page: Lighting Build
+[2020.10.29-20.07.56:713][915]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000217AC0F2E80), frame # 210915
+[2020.10.29-20.07.56:713][915]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000217B1432A00), frame # 210915
+[2020.10.29-20.07.56:716][915]LogUObjectHash: Compacting FUObjectHashTables data took   3.23ms
+[2020.10.29-20.07.56:746][915]LogAIModule: Creating AISystem for world Menu
+[2020.10.29-20.07.56:746][915]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000217D2032A00), frame # 210915
+[2020.10.29-20.07.56:746][915]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000217D1CC9F80), frame # 210915
+[2020.10.29-20.07.56:876][915]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.10.29-20.07.56:908][915]LogUObjectHash: Compacting FUObjectHashTables data took   3.09ms
+[2020.10.29-20.07.56:966][915]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.10.29-20.07.56:966][915]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,183ms to complete.
+[2020.10.29-20.07.56:966][915]LogFileHelpers: Loading map 'Menu' took 0.302
+[2020.10.29-20.08.01:624][304]LogLinker: Warning: While loading '../../../../../../Users/paah4127/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Content/Maps/Level_HideNSneak.umap' failed to load '/Game/Maps/Level_HideNSneak_BuiltData': Can't find file.
+[2020.10.29-20.08.01:624][304]LogLinker: Warning: While loading '../../../../../../Users/paah4127/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Content/Maps/Level_HideNSneak.umap' failed to load '/Game/Maps/Level_HideNSneak_BuiltData': Can't find file.
+[2020.10.29-20.08.01:625][304]LogLinker: Warning: While loading '../../../../../../Users/paah4127/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Content/Maps/Level_HideNSneak.umap' failed to load '/Game/Maps/Level_HideNSneak_BuiltData': Can't find file.
+[2020.10.29-20.08.01:625][304]LogLinker: Warning: While loading '../../../../../../Users/paah4127/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Content/Maps/Level_HideNSneak.umap' failed to load '/Game/Maps/Level_HideNSneak_BuiltData': Can't find file.
+[2020.10.29-20.08.01:626][304]LogLinker: Warning: While loading '../../../../../../Users/paah4127/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Content/Maps/Level_HideNSneak.umap' failed to load '/Game/Maps/Level_HideNSneak_BuiltData': Can't find file.
+[2020.10.29-20.08.01:627][304]LoadErrors: Failed to load /Game/Maps/Level_HideNSneak_BuiltData.Level_HideNSneak_BuiltData Referenced by PersistentLevel
+[2020.10.29-20.08.01:627][304]LogLinker: Warning: While loading '../../../../../../Users/paah4127/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Content/Maps/Level_HideNSneak.umap' failed to load '/Game/Maps/Level_HideNSneak_BuiltData': Can't find file.
+[2020.10.29-20.08.01:631][304]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/Level_HideNSneak.Level_HideNSneak
+[2020.10.29-20.08.01:654][304]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2020.10.29-20.08.01:655][304]Cmd: MAP LOAD FILE="../../../../../../Users/paah4127/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Content/Maps/Level_HideNSneak.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.10.29-20.08.01:656][304]LightingResults: New page: Lighting Build
+[2020.10.29-20.08.01:656][304]LoadErrors: New page: Loading map: Level_HideNSneak.umap
+[2020.10.29-20.08.01:657][304]LogWorld: UWorld::CleanupWorld for Menu, bSessionEnded=true, bCleanupResources=true
+[2020.10.29-20.08.01:657][304]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.29-20.08.01:657][304]MapCheck: New page: Map Check
+[2020.10.29-20.08.01:657][304]LightingResults: New page: Lighting Build
+[2020.10.29-20.08.01:677][304]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000217D1CC9F80), frame # 211304
+[2020.10.29-20.08.01:677][304]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000217D2032A00), frame # 211304
+[2020.10.29-20.08.01:679][304]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2020.10.29-20.08.01:836][304]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.10.29-20.08.01:837][304]LogAIModule: Creating AISystem for world Level_HideNSneak
+[2020.10.29-20.08.01:837][304]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000217A7F47800), frame # 211304
+[2020.10.29-20.08.01:837][304]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000217D1CA9F80), frame # 211304
+[2020.10.29-20.08.01:864][304]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2020.10.29-20.08.01:926][304]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.10.29-20.08.01:926][304]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,184ms to complete.
+[2020.10.29-20.08.01:926][304]LogFileHelpers: Loading map 'Level_HideNSneak' took 0.271
+[2020.10.29-20.08.03:564][405]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/FirstPlayable_WhiteBox.FirstPlayable_WhiteBox
+[2020.10.29-20.08.03:597][405]LogUObjectHash: Compacting FUObjectHashTables data took   2.77ms
+[2020.10.29-20.08.03:599][405]Cmd: MAP LOAD FILE="../../../../../../Users/paah4127/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Content/Maps/FirstPlayable_WhiteBox.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.10.29-20.08.03:599][405]LightingResults: New page: Lighting Build
+[2020.10.29-20.08.03:599][405]LoadErrors: New page: Loading map: FirstPlayable_WhiteBox.umap
+[2020.10.29-20.08.03:599][405]LogWorld: UWorld::CleanupWorld for Level_HideNSneak, bSessionEnded=true, bCleanupResources=true
+[2020.10.29-20.08.03:599][405]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.29-20.08.03:599][405]MapCheck: New page: Map Check
+[2020.10.29-20.08.03:599][405]LightingResults: New page: Lighting Build
+[2020.10.29-20.08.03:618][405]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000217D1CA9F80), frame # 211405
+[2020.10.29-20.08.03:618][405]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000217A7F47800), frame # 211405
+[2020.10.29-20.08.03:621][405]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2020.10.29-20.08.04:021][405]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.10.29-20.08.04:021][405]LogAIModule: Creating AISystem for world FirstPlayable_WhiteBox
+[2020.10.29-20.08.04:021][405]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000217C2E81C00), frame # 211405
+[2020.10.29-20.08.04:021][405]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002178C0B0400), frame # 211405
+[2020.10.29-20.08.04:065][405]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
+[2020.10.29-20.08.04:119][405]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.10.29-20.08.04:120][405]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,541ms to complete.
+[2020.10.29-20.08.04:120][405]LogFileHelpers: Loading map 'FirstPlayable_WhiteBox' took 0.522
+[2020.10.29-20.08.08:655][801]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Blueprints/Widgets/BPW_Player_UI.BPW_Player_UI
+[2020.10.29-20.08.55:971][931]BlueprintLog: New page: Compile BPW_Player_UI
+[2020.10.29-20.08.56:007][931]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2020.10.29-20.08.56:736][982]LogSavePackage: Moving '../../../../../../Users/paah4127/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Saved/BPW_Player_UIB3D2A7EF45AADE6CAECB7A89E9B50F71.tmp' to '../../../../../../Users/paah4127/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Content/Blueprints/Widgets/BPW_Player_UI.uasset'
+[2020.10.29-20.08.56:797][982]AssetCheck: New page: Asset Save: BPW_Player_UI
+[2020.10.29-20.08.56:797][982]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/Widgets/BPW_Player_UI.BPW_Player_UI
+[2020.10.29-20.09.01:324][348]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/Menu.Menu
+[2020.10.29-20.09.01:348][348]LogUObjectHash: Compacting FUObjectHashTables data took   3.03ms
+[2020.10.29-20.09.01:350][348]Cmd: MAP LOAD FILE="../../../../../../Users/paah4127/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Content/Maps/Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.10.29-20.09.01:350][348]LightingResults: New page: Lighting Build
+[2020.10.29-20.09.01:350][348]LoadErrors: New page: Loading map: Menu.umap
+[2020.10.29-20.09.01:395][348]LogWorld: UWorld::CleanupWorld for FirstPlayable_WhiteBox, bSessionEnded=true, bCleanupResources=true
+[2020.10.29-20.09.01:396][348]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.29-20.09.01:397][348]MapCheck: New page: Map Check
+[2020.10.29-20.09.01:397][348]LightingResults: New page: Lighting Build
+[2020.10.29-20.09.01:455][348]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002178C0B0400), frame # 216348
+[2020.10.29-20.09.01:455][348]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000217C2E81C00), frame # 216348
+[2020.10.29-20.09.01:459][348]LogUObjectHash: Compacting FUObjectHashTables data took   4.35ms
+[2020.10.29-20.09.01:586][348]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.10.29-20.09.01:586][348]LogAIModule: Creating AISystem for world Menu
+[2020.10.29-20.09.01:586][348]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000217CF7CE800), frame # 216348
+[2020.10.29-20.09.01:586][348]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000217AA814680), frame # 216348
+[2020.10.29-20.09.01:621][348]LogUObjectHash: Compacting FUObjectHashTables data took   3.08ms
+[2020.10.29-20.09.01:683][348]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.10.29-20.09.01:683][348]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,181ms to complete.
+[2020.10.29-20.09.01:683][348]LogFileHelpers: Loading map 'Menu' took 0.333
+[2020.10.29-20.09.03:223][475]LogTemp: Repeating last play command: Standalone Game
+[2020.10.29-20.09.03:270][475]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2020.10.29-20.10.04:879][803]LogTemp: Repeating last play command: Standalone Game
+[2020.10.29-20.10.04:933][803]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2020.10.29-20.10.27:302][888]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_HideNSneakCPPCharacter.BP_HideNSneakCPPCharacter
+[2020.10.29-20.10.50:700][624]LogSavePackage: Moving '../../../../../../Users/paah4127/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Saved/BP_HideNSneakCPPCharacter3D4EA42B457D23B1A79006BBFC0327DB.tmp' to '../../../../../../Users/paah4127/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Content/Blueprints/BP_HideNSneakCPPCharacter.uasset'
+[2020.10.29-20.10.50:757][624]AssetCheck: New page: Asset Save: BP_HideNSneakCPPCharacter
+[2020.10.29-20.10.50:757][624]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_HideNSneakCPPCharacter.BP_HideNSneakCPPCharacter
+[2020.10.29-20.11.25:762][916]LogTemp: Repeating last play command: Standalone Game
+[2020.10.29-20.11.25:812][916]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2020.10.29-20.12.35:021][113]BlueprintLog: New page: Compile BPW_Player_UI
+[2020.10.29-20.12.35:078][113]LogUObjectHash: Compacting FUObjectHashTables data took   2.66ms
+[2020.10.29-20.12.36:622][240]LogTemp: Repeating last play command: Standalone Game
+[2020.10.29-20.12.36:678][240]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2020.10.29-20.12.38:187][240]LogSlate: Window 'Save Content' being destroyed
+[2020.10.29-20.12.38:333][240]LogSavePackage: Moving '../../../../../../Users/paah4127/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Saved/BPW_Player_UIB54C0A324C9AA2E88D9C31B5190240E1.tmp' to '../../../../../../Users/paah4127/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Content/Blueprints/Widgets/BPW_Player_UI.uasset'
+[2020.10.29-20.12.38:422][241]AssetCheck: New page: Asset Save: BPW_Player_UI
+[2020.10.29-20.12.38:422][241]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/Widgets/BPW_Player_UI.BPW_Player_UI
+[2020.10.29-20.13.15:641][ 29]LogUObjectHash: Compacting FUObjectHashTables data took   2.75ms
+[2020.10.29-20.13.17:556][207]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Menu" FILE="../../../../../../Users/paah4127/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Content/Maps/Menu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.10.29-20.13.17:588][207]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2020.10.29-20.13.17:628][207]LogSavePackage: Moving '../../../../../../Users/paah4127/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Saved/MenuA9CF397A4D8CDFF48FE83097DFAF9CC4.tmp' to '../../../../../../Users/paah4127/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Content/Maps/Menu.umap'
+[2020.10.29-20.13.17:628][207]LogFileManager: Warning: DeleteFile was unable to delete '../../../../../../Users/paah4127/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Content/Maps/Menu.umap', retrying in .5s...
+[2020.10.29-20.13.18:129][207]LogFileManager: Error: Error deleting file '../../../../../../Users/paah4127/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Content/Maps/Menu.umap'.
+[2020.10.29-20.13.18:129][207]LogSavePackage: Error: Error saving '../../../../../../Users/paah4127/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Content/Maps/Menu.umap'
+[2020.10.29-20.13.18:133][207]EditorErrors: New page: Save Output
+[2020.10.29-20.13.18:133][207]EditorErrors: Warning: Error saving '../../../../../../Users/paah4127/Documents/GitHub/PROJ_Grupp2/HideNSneakUnreal/Content/Maps/Menu.umap'
+[2020.10.29-20.13.19:686][322]LogSlate: Window 'Message Log' being destroyed
+[2020.10.29-20.13.19:733][322]LogSlate: Window 'Message Log' being destroyed
