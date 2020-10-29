@@ -6,11 +6,11 @@
 #include "Components/CapsuleComponent.h"
 #include "Components/InputComponent.h"
 #include "Components/SphereComponent.h"
+#include "Components/BoxComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "GameFramework/Controller.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "Net/UnrealNetwork.h"
-#include "Components/BoxComponent.h"
 #include "Kismet/GameplayStatics.h"
 #include "GameplayTagsModule.h"
 #include "GameplayTagsSettings.h"
@@ -176,6 +176,7 @@ void AHideNSneakCPPCharacter::BecomeSeeker_Implementation()
 void AHideNSneakCPPCharacter::TurnIntoSeeker()
 {
 	GEngine->AddOnScreenDebugMessage(-1, 1.0f, FColor::Red, FString::Printf(TEXT("Someone has been turned into a Seeker!")));
+
 	targetTagMechanic->isSeeker = true;
 }
 
