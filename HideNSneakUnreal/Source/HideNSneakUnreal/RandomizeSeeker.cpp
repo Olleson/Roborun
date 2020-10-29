@@ -37,7 +37,7 @@ void RandomizeSeeker() {
 				continue;
 			}
 			else {
-				tempPlayer->TurnIntoSeeker();
+				tempPlayer->BecomeSeeker();
 				break;
 			}
 		}

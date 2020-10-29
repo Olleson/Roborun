@@ -1,16 +1,15 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-
 #include "HideNSneakCPPCharacter.h"
 #include "Camera/CameraComponent.h"
 #include "Components/CapsuleComponent.h"
 #include "Components/InputComponent.h"
 #include "Components/SphereComponent.h"
-#include "Components/BoxComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "GameFramework/Controller.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "Net/UnrealNetwork.h"
+#include "Components/BoxComponent.h"
 #include "Kismet/GameplayStatics.h"
 #include "GameplayTagsModule.h"
 #include "GameplayTagsSettings.h"
@@ -52,14 +51,6 @@ AHideNSneakCPPCharacter::AHideNSneakCPPCharacter()
 	FollowCamera->SetupAttachment(CameraBoom, USpringArmComponent::SocketName); // Attach the camera to the end of the boom and let the boom adjust to match the controller orientation
 	FollowCamera->bUsePawnControlRotation = false; // Camera does not rotate relative to arm
 
-	//Set a default value for the sphere radius
-	CaptureSphereRadius = 200.0f;
-
-	//Create the capture Sphere
-	CaptureSphere = CreateDefaultSubobject<USphereComponent>(TEXT("CollectionSphere"));
-	CaptureSphere->SetupAttachment(RootComponent);
-	CaptureSphere->SetSphereRadius(CaptureSphereRadius);
-
 	// Characters are hiders by default
 	bIsSeeker = false;
 
@@ -80,7 +71,6 @@ void AHideNSneakCPPCharacter::BeginPlay()
 void AHideNSneakCPPCharacter::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const {
 	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
 
-	DOREPLIFETIME(AHideNSneakCPPCharacter, CaptureSphereRadius);
 	DOREPLIFETIME(AHideNSneakCPPCharacter, bIsSeeker);
 }
 
@@ -93,8 +83,8 @@ void AHideNSneakCPPCharacter::SetupPlayerInputComponent(class UInputComponent* P
 	check(PlayerInputComponent);
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
-	PlayerInputComponent->BindAction("CaptureHiders", IE_Released, this, &AHideNSneakCPPCharacter::CaptureHiders);
-	PlayerInputComponent->BindAction("BecomeSeeker", IE_Released, this, &AHideNSneakCPPCharacter::BecomeSeeker_Implementation);
+	PlayerInputComponent->BindAction("BecomeSeeker", IE_Released, this, &AHideNSneakCPPCharacter::BecomeSeeker);
+	PlayerInputComponent->BindAction("ResetPlayersToHiders", IE_Released, this, &AHideNSneakCPPCharacter::ResetPlayersToHiders);
 
 	PlayerInputComponent->BindAxis("MoveForward", this, &AHideNSneakCPPCharacter::MoveForward);
 	PlayerInputComponent->BindAxis("MoveRight", this, &AHideNSneakCPPCharacter::MoveRight);
@@ -112,32 +102,14 @@ void AHideNSneakCPPCharacter::SetupPlayerInputComponent(class UInputComponent* P
 	PlayerInputComponent->BindTouch(IE_Released, this, &AHideNSneakCPPCharacter::TouchStopped);
 }
 
-void AHideNSneakCPPCharacter::CaptureHiders()
-{
-	if (bIsSeeker) {
-		TArray<AActor*> CollectedActors;
-		CaptureSphere->GetOverlappingActors(CollectedActors);
-
-		for (size_t i = 0; i < CollectedActors.Num(); i++)
-		{
-			if (AHideNSneakCPPCharacter* Hider = Cast<AHideNSneakCPPCharacter>(CollectedActors[i])) {
-				ServerCaptureHider(Hider);
-			}
-		}
-	}
-}
-
 void AHideNSneakCPPCharacter::ServerCaptureHider_Implementation(AHideNSneakCPPCharacter* Hider)
 {
-	if (HasAuthority()) {
-		if (!Hider->IsSeeker()) {
-			Hider->BecomeSeeker_Implementation();
-
-			if (Hider == this) {
-				// Fake the On rep notify for the listen server if it is a hider that gets captured,
-				// as the Server doesn't get on rep notify automatically
-				OnRep_IsSeeker();
-			}
+	if (HasAuthority() && !Hider->IsSeeker()) {
+		Hider->ServerBecomeSeeker_Implementation();
+		if (Hider == this) {
+			// Fake the On rep notify for the listen server if it is a hider that gets captured,
+			// as the Server doesn't get on rep notify automatically
+			OnRep_IsSeeker();
 		}
 	}
 }
@@ -164,20 +136,54 @@ void AHideNSneakCPPCharacter::LookUpAtRate(float Rate)
 	AddControllerPitchInput(Rate * BaseLookUpRate * GetWorld()->GetDeltaSeconds());
 }
 
-void AHideNSneakCPPCharacter::BecomeSeeker_Implementation()
+void AHideNSneakCPPCharacter::BecomeHider_Implementation()
 {
-	bIsSeeker = true;
+	if (bIsSeeker) {
+		ServerBecomeHider();
+	}
+}
 
+void AHideNSneakCPPCharacter::ServerBecomeHider_Implementation()
+{
+	bIsSeeker = false;
 	if (HasAuthority()) {
 		OnRep_IsSeeker();
 	}
 }
 
-void AHideNSneakCPPCharacter::TurnIntoSeeker()
+void AHideNSneakCPPCharacter::BecomeSeeker_Implementation()
 {
-	GEngine->AddOnScreenDebugMessage(-1, 1.0f, FColor::Red, FString::Printf(TEXT("Someone has been turned into a Seeker!")));
+	if (!bIsSeeker) {
+		ServerBecomeSeeker();
+	}
+}
 
-	targetTagMechanic->isSeeker = true;
+void AHideNSneakCPPCharacter::ServerBecomeSeeker_Implementation()
+{
+	bIsSeeker = true;
+	if (HasAuthority()) {
+		OnRep_IsSeeker();
+	}
+}
+
+void AHideNSneakCPPCharacter::ResetPlayersToHiders_Implementation()
+{
+	ServerResetPlayersToHiders();
+}
+
+void AHideNSneakCPPCharacter::ServerResetPlayersToHiders_Implementation()
+{
+	if (HasAuthority()) {
+		UWorld* World = GetWorld();
+		check(World);
+		for (FConstControllerIterator It = World->GetControllerIterator(); It; ++It) {
+			if (APlayerController* PlayerController = Cast<APlayerController>(*It)) {
+				if (AHideNSneakCPPCharacter* Character = Cast<AHideNSneakCPPCharacter>(PlayerController->GetPawn())) {
+					Character->BecomeHider();
+				}
+			}
+		}
+	}
 }
 
 void AHideNSneakCPPCharacter::OnCompHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit)
