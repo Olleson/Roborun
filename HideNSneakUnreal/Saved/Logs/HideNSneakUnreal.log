@@ -1334,3 +1334,7 @@ Scale3D: 1.000000 1.000000 1.000000
 [2020.10.29-15.04.34:611][325]LogSavePackage: Moving '../../../../HideNSneak2/HideNSneakUnreal/Saved/BP_HideNSneakCPPCharacter261B6053469D20516E6F5EBEAE8846B7.tmp' to '../../../../HideNSneak2/HideNSneakUnreal/Content/Blueprints/BP_HideNSneakCPPCharacter.uasset'
 [2020.10.29-15.04.34:631][325]AssetCheck: New page: Asset Save: BP_HideNSneakCPPCharacter
 [2020.10.29-15.04.34:631][325]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_HideNSneakCPPCharacter.BP_HideNSneakCPPCharacter
+[2020.10.29-15.05.10:905][542]LogUObjectHash: Compacting FUObjectHashTables data took   2.99ms
+[2020.10.29-15.05.11:384][542]LogSavePackage: Moving '../../../../HideNSneak2/HideNSneakUnreal/Saved/FirstPlayable_WhiteBox_Auto1F0AAD5354ECD33FC95B027B1E548CC06.tmp' to '../../../../HideNSneak2/HideNSneakUnreal/Saved/Autosaves/Game/Maps/FirstPlayable_WhiteBox_Auto1.umap'
+[2020.10.29-15.05.11:388][542]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/FirstPlayable_WhiteBox' took 0.511
+[2020.10.29-15.05.11:388][542]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.511
