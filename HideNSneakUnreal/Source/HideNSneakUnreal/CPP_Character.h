@@ -31,6 +31,8 @@ public:
 	
 	UFUNCTION()
 	void OnCrouch();
+
+
 	
 	void MoveForward(float axis);
 	void MoveRight(float axis);

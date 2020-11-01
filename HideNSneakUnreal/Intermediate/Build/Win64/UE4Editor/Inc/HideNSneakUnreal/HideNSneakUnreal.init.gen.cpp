@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeHideNSneakUnreal_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xEE477542,
+				0x957692D8,
 				0xF319C394,
 				METADATA_PARAMS(nullptr, 0)
 			};

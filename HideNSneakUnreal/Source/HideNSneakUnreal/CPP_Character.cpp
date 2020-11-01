@@ -61,7 +61,7 @@ void ACPP_Character::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 	PlayerInputComponent->BindAction("Jump", IE_Pressed,this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction("Jump", IE_Released,this, &ACharacter::StopJumping);
 	PlayerInputComponent->BindAction("Crouch", IE_Pressed,this, &ACPP_Character::OnCrouch);
-	PlayerInputComponent->BindAction(");
+	
 
 
 }
@@ -102,4 +102,7 @@ void ACPP_Character::OnCrouch()
 	}
 		
 }
+
+
+
 
