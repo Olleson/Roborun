@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\HideNSneakUnreal.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{8F9A31A7-44B7-42C7-9C63-0B18DBDF55A9}</UniqueIdentifier>
+      <UniqueIdentifier>{D15A6B09-9FC6-4174-AE37-00CD315060CD}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\HideNSneakUnreal.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{F7BC49E7-ED49-4102-8D0D-1AD06E0A96AD}</UniqueIdentifier>
+      <UniqueIdentifier>{95C6FB8F-5FB7-401E-A4DE-0F3F9CA76A90}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -33,7 +33,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\HideNSneakUnreal">
-      <UniqueIdentifier>{882203EB-A010-49D7-981A-93E885A2E503}</UniqueIdentifier>
+      <UniqueIdentifier>{A8C28702-92F4-44B0-B7C1-72CFD9B75700}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\HideNSneakUnreal\BatteryGameMode.cpp">
       <Filter>Source\HideNSneakUnreal</Filter>
@@ -69,6 +69,24 @@
       <Filter>Source\HideNSneakUnreal</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\HideNSneakUnreal\HideNSneakGameModeBase.h">
+      <Filter>Source\HideNSneakUnreal</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HideNSneakUnreal\HideNSneakHUDCPP.cpp">
+      <Filter>Source\HideNSneakUnreal</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HideNSneakUnreal\HideNSneakHUDCPP.h">
+      <Filter>Source\HideNSneakUnreal</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HideNSneakUnreal\HideNSneakTextChatStateCpp.cpp">
+      <Filter>Source\HideNSneakUnreal</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HideNSneakUnreal\HideNSneakTextChatStateCpp.h">
+      <Filter>Source\HideNSneakUnreal</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HideNSneakUnreal\HideNSneakTextChatWidget.cpp">
+      <Filter>Source\HideNSneakUnreal</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HideNSneakUnreal\HideNSneakTextChatWidget.h">
       <Filter>Source\HideNSneakUnreal</Filter>
     </ClInclude>
     <None Include="..\..\Source\HideNSneakUnreal\HideNSneakUnreal.Build.cs">
