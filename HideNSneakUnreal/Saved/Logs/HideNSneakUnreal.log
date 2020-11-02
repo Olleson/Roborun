@@ -7740,3 +7740,624 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.11.02-16.14.51:375][239]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
 [2020.11.02-16.14.51:407][240]LogPlayLevel: Display: Destroying online subsystem :Context_84
 [2020.11.02-16.15.07:791][ 84]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ground23)
+[2020.11.02-16.17.02:881][  8]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2020.11.02-16.17.02:910][  8]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2020.11.02-16.17.03:118][  8]LogSavePackage: Moving 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Saved/FirstPlayable_WhiteBox9BCF30DD40E8352A0FF51BA1E58E230C.tmp' to 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Maps/FirstPlayable_WhiteBox.umap'
+[2020.11.02-16.17.03:168][  8]LogFileHelpers: Saving map 'FirstPlayable_WhiteBox' took 0.267
+[2020.11.02-16.17.03:181][  8]AssetCheck: New page: Asset Save: FirstPlayable_WhiteBox
+[2020.11.02-16.17.03:181][  8]LogContentValidation: Display: Validating World /Game/Maps/FirstPlayable_WhiteBox.FirstPlayable_WhiteBox
+[2020.11.02-16.17.14:254][260]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/HogWildArvid.HogWildArvid
+[2020.11.02-16.17.14:264][260]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2020.11.02-16.17.14:270][260]Cmd: MAP LOAD FILE="C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Maps/HogWildArvid.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.11.02-16.17.14:270][260]LightingResults: New page: Lighting Build
+[2020.11.02-16.17.14:270][260]LoadErrors: New page: Loading map: HogWildArvid.umap
+[2020.11.02-16.17.14:307][260]LogWorld: UWorld::CleanupWorld for FirstPlayable_WhiteBox, bSessionEnded=true, bCleanupResources=true
+[2020.11.02-16.17.14:307][260]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.02-16.17.14:307][260]MapCheck: New page: Map Check
+[2020.11.02-16.17.14:308][260]LightingResults: New page: Lighting Build
+[2020.11.02-16.17.14:327][260]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000258B303A200), frame # 1576260
+[2020.11.02-16.17.14:327][260]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000258C2E9DC00), frame # 1576260
+[2020.11.02-16.17.14:329][260]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2020.11.02-16.17.14:589][260]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.11.02-16.17.14:589][260]LogAIModule: Creating AISystem for world HogWildArvid
+[2020.11.02-16.17.14:589][260]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002591704E600), frame # 1576260
+[2020.11.02-16.17.14:589][260]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000259077CA5C0), frame # 1576260
+[2020.11.02-16.17.14:601][260]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2020.11.02-16.17.14:622][260]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.11.02-16.17.14:622][260]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.185ms to complete.
+[2020.11.02-16.17.14:623][260]LogFileHelpers: Loading map 'HogWildArvid' took 0.353
+[2020.11.02-16.17.52:581][588]Cmd: TRANSACTION UNDO
+[2020.11.02-16.17.52:581][588]LogEditorTransaction: Undo Move Actors
+[2020.11.02-16.17.52:665][588]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2020.11.02-16.17.52:683][588]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 9
+[2020.11.02-16.17.52:683][588]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 8
+[2020.11.02-16.17.52:683][588]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 7
+[2020.11.02-16.17.52:683][588]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 6
+[2020.11.02-16.17.53:267][609]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 5
+[2020.11.02-16.17.53:472][625]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 4
+[2020.11.02-16.17.53:594][635]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 3
+[2020.11.02-16.17.53:617][637]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2020.11.02-16.17.53:933][660]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2020.11.02-16.17.54:328][689]MaterialEditorStats: Base pass shader: 119 instructions
+[2020.11.02-16.17.54:328][689]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2020.11.02-16.17.54:328][689]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.11.02-16.17.54:328][689]MaterialEditorStats: Texture samplers: 2/16
+[2020.11.02-16.18.28:652][535]LogEditorViewport: Clicking Background
+[2020.11.02-16.18.30:315][733]Cmd: ACTOR SELECT ALL
+[2020.11.02-16.18.50:721][121]LogEditorViewport: Clicking Background
+[2020.11.02-16.18.51:550][219]Cmd: ACTOR SELECT ALL
+[2020.11.02-16.19.20:776][442]Cmd: TRANSACTION UNDO
+[2020.11.02-16.19.20:776][442]LogEditorTransaction: Undo Move Actors
+[2020.11.02-16.19.20:870][442]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2020.11.02-16.19.20:878][442]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 9
+[2020.11.02-16.19.20:878][442]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 8
+[2020.11.02-16.19.20:878][442]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 7
+[2020.11.02-16.19.20:879][442]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 6
+[2020.11.02-16.19.21:464][461]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 5
+[2020.11.02-16.19.21:636][475]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 4
+[2020.11.02-16.19.21:718][482]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 3
+[2020.11.02-16.19.21:751][485]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2020.11.02-16.19.22:073][510]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2020.11.02-16.19.22:456][544]MaterialEditorStats: Base pass shader: 119 instructions
+[2020.11.02-16.19.22:456][544]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2020.11.02-16.19.22:456][544]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.11.02-16.19.22:456][544]MaterialEditorStats: Texture samplers: 2/16
+[2020.11.02-16.19.50:023][636]Cmd: TRANSACTION UNDO
+[2020.11.02-16.19.50:023][636]LogEditorTransaction: Undo Move Actors
+[2020.11.02-16.19.50:118][636]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2020.11.02-16.19.50:133][636]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 9
+[2020.11.02-16.19.50:133][636]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 8
+[2020.11.02-16.19.50:133][636]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 7
+[2020.11.02-16.19.50:134][636]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 6
+[2020.11.02-16.19.50:718][655]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 5
+[2020.11.02-16.19.50:899][672]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 4
+[2020.11.02-16.19.50:991][676]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 3
+[2020.11.02-16.19.51:025][679]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2020.11.02-16.19.51:327][693]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2020.11.02-16.19.51:701][723]MaterialEditorStats: Base pass shader: 119 instructions
+[2020.11.02-16.19.51:701][723]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2020.11.02-16.19.51:701][723]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.11.02-16.19.51:702][723]MaterialEditorStats: Texture samplers: 2/16
+[2020.11.02-16.20.09:993][409]Cmd: EDIT COPY
+[2020.11.02-16.20.16:467][112]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/FirstPlayable_WhiteBox.FirstPlayable_WhiteBox
+[2020.11.02-16.20.16:487][112]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2020.11.02-16.20.21:770][112]LogSlate: Window 'Save Content' being destroyed
+[2020.11.02-16.20.21:780][112]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/HogWildArvid" FILE="C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Maps/HogWildArvid.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.11.02-16.20.21:789][112]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2020.11.02-16.20.21:887][112]LogSavePackage: Moving 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Saved/HogWildArvid3A192DCE40A448EFBAAEDFAC80515B99.tmp' to 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Maps/HogWildArvid.umap'
+[2020.11.02-16.20.21:914][112]LogFileHelpers: Saving map 'HogWildArvid' took 0.135
+[2020.11.02-16.20.21:915][112]Cmd: MAP LOAD FILE="C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Maps/FirstPlayable_WhiteBox.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.11.02-16.20.21:915][112]LightingResults: New page: Lighting Build
+[2020.11.02-16.20.21:915][112]LoadErrors: New page: Loading map: FirstPlayable_WhiteBox.umap
+[2020.11.02-16.20.21:917][112]LogWorld: UWorld::CleanupWorld for HogWildArvid, bSessionEnded=true, bCleanupResources=true
+[2020.11.02-16.20.21:917][112]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.02-16.20.21:918][112]MapCheck: New page: Map Check
+[2020.11.02-16.20.21:918][112]LightingResults: New page: Lighting Build
+[2020.11.02-16.20.21:927][112]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000259077CA5C0), frame # 1596112
+[2020.11.02-16.20.21:927][112]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002591704E600), frame # 1596112
+[2020.11.02-16.20.21:928][112]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2020.11.02-16.20.22:300][112]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.11.02-16.20.22:300][112]LogAIModule: Creating AISystem for world FirstPlayable_WhiteBox
+[2020.11.02-16.20.22:300][112]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000025931A4EA00), frame # 1596112
+[2020.11.02-16.20.22:300][112]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002593540AE80), frame # 1596112
+[2020.11.02-16.20.22:314][112]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2020.11.02-16.20.22:335][112]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.11.02-16.20.22:335][112]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.235ms to complete.
+[2020.11.02-16.20.22:335][112]LogFileHelpers: Loading map 'FirstPlayable_WhiteBox' took 0.421
+[2020.11.02-16.20.22:379][112]AssetCheck: New page: Asset Save: HogWildArvid
+[2020.11.02-16.20.22:379][112]LogContentValidation: Display: Validating World /Game/Maps/HogWildArvid.HogWildArvid
+[2020.11.02-16.20.23:618][241]Cmd: EDIT PASTE
+[2020.11.02-16.21.59:545][ 60]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ground23)
+[2020.11.02-16.22.00:765][189]Cmd: DELETE
+[2020.11.02-16.22.00:765][189]Cmd: ACTOR DELETE
+[2020.11.02-16.22.00:778][189]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.11.02-16.22.00:801][189]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2020.11.02-16.22.00:808][189]LogEditorActor: Deleted 1 Actors (0.043 secs)
+[2020.11.02-16.22.03:862][545]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_containerClosed_mesh_v47)
+[2020.11.02-16.22.04:623][622]Cmd: DELETE
+[2020.11.02-16.22.04:623][622]Cmd: ACTOR DELETE
+[2020.11.02-16.22.04:635][622]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.11.02-16.22.04:644][622]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2020.11.02-16.22.04:646][622]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2020.11.02-16.22.05:109][676]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_containerClosed_mesh_v46)
+[2020.11.02-16.22.05:320][697]Cmd: DELETE
+[2020.11.02-16.22.05:320][697]Cmd: ACTOR DELETE
+[2020.11.02-16.22.05:332][697]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.11.02-16.22.05:340][697]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2020.11.02-16.22.05:342][697]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2020.11.02-16.22.05:674][736]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_containerClosed_mesh_v45)
+[2020.11.02-16.22.05:794][746]Cmd: DELETE
+[2020.11.02-16.22.05:794][746]Cmd: ACTOR DELETE
+[2020.11.02-16.22.05:806][746]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.11.02-16.22.05:814][746]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2020.11.02-16.22.05:816][746]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2020.11.02-16.22.06:073][776]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_containerClosed_mesh_v44)
+[2020.11.02-16.22.06:174][784]Cmd: DELETE
+[2020.11.02-16.22.06:174][784]Cmd: ACTOR DELETE
+[2020.11.02-16.22.06:186][784]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.11.02-16.22.06:194][784]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2020.11.02-16.22.06:195][784]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2020.11.02-16.22.06:503][820]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_containerDoorsOpen_mesh_v7)
+[2020.11.02-16.22.06:647][833]Cmd: DELETE
+[2020.11.02-16.22.06:647][833]Cmd: ACTOR DELETE
+[2020.11.02-16.22.06:659][833]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.11.02-16.22.06:668][833]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2020.11.02-16.22.06:669][833]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2020.11.02-16.22.07:516][933]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_containerOpen_mesh_v13)
+[2020.11.02-16.22.07:838][967]Cmd: DELETE
+[2020.11.02-16.22.07:838][967]Cmd: ACTOR DELETE
+[2020.11.02-16.22.07:849][967]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.11.02-16.22.07:858][967]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2020.11.02-16.22.07:859][967]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2020.11.02-16.22.11:205][359]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (p_crateBig_mesh_v70)
+[2020.11.02-16.22.11:556][385]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube8)
+[2020.11.02-16.22.12:771][515]Cmd: DELETE
+[2020.11.02-16.22.12:771][515]Cmd: ACTOR DELETE
+[2020.11.02-16.22.12:782][515]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.11.02-16.22.12:790][515]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2020.11.02-16.22.12:793][515]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2020.11.02-16.22.14:828][746]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ground10)
+[2020.11.02-16.22.15:648][830]Cmd: DELETE
+[2020.11.02-16.22.15:648][830]Cmd: ACTOR DELETE
+[2020.11.02-16.22.15:659][830]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.11.02-16.22.15:668][830]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2020.11.02-16.22.15:670][830]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2020.11.02-16.22.17:683][ 63]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ground18)
+[2020.11.02-16.22.19:042][199]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ground8)
+[2020.11.02-16.22.21:958][535]Cmd: DELETE
+[2020.11.02-16.22.21:958][535]Cmd: ACTOR DELETE
+[2020.11.02-16.22.21:970][535]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.11.02-16.22.21:978][535]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2020.11.02-16.22.21:981][535]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2020.11.02-16.22.26:447][ 47]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube44)
+[2020.11.02-16.22.27:092][112]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube44)
+[2020.11.02-16.22.28:128][233]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube44)
+[2020.11.02-16.22.28:454][270]Cmd: DELETE
+[2020.11.02-16.22.28:454][270]Cmd: ACTOR DELETE
+[2020.11.02-16.22.28:466][270]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.11.02-16.22.28:475][270]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2020.11.02-16.22.28:478][270]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2020.11.02-16.22.29:051][338]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube81)
+[2020.11.02-16.22.29:939][440]Cmd: DELETE
+[2020.11.02-16.22.29:940][440]Cmd: ACTOR DELETE
+[2020.11.02-16.22.29:952][440]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.11.02-16.22.29:960][440]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2020.11.02-16.22.29:962][440]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2020.11.02-16.22.34:864][ 13]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (p_crateBig_mesh_v69)
+[2020.11.02-16.22.35:362][ 58]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube42)
+[2020.11.02-16.22.36:000][128]Cmd: DELETE
+[2020.11.02-16.22.36:000][128]Cmd: ACTOR DELETE
+[2020.11.02-16.22.36:011][128]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.11.02-16.22.36:020][128]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2020.11.02-16.22.36:023][128]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2020.11.02-16.23.51:376][109]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (w_containerClosed_mesh_v102)
+[2020.11.02-16.23.53:868][365]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube43)
+[2020.11.02-16.24.27:121][165]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall91)
+[2020.11.02-16.24.31:779][700]Cmd: DELETE
+[2020.11.02-16.24.31:779][700]Cmd: ACTOR DELETE
+[2020.11.02-16.24.31:791][700]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.11.02-16.24.31:808][700]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2020.11.02-16.24.31:812][700]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2020.11.02-16.24.32:126][730]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall100)
+[2020.11.02-16.24.32:254][741]Cmd: DELETE
+[2020.11.02-16.24.32:254][741]Cmd: ACTOR DELETE
+[2020.11.02-16.24.32:266][741]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.11.02-16.24.32:277][741]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2020.11.02-16.24.32:278][741]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2020.11.02-16.24.32:745][796]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall101)
+[2020.11.02-16.24.32:907][811]Cmd: DELETE
+[2020.11.02-16.24.32:907][811]Cmd: ACTOR DELETE
+[2020.11.02-16.24.32:919][811]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.11.02-16.24.32:931][811]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2020.11.02-16.24.32:932][811]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2020.11.02-16.24.33:382][864]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall102)
+[2020.11.02-16.24.33:901][922]Cmd: DELETE
+[2020.11.02-16.24.33:901][922]Cmd: ACTOR DELETE
+[2020.11.02-16.24.33:912][922]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.11.02-16.24.33:923][922]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2020.11.02-16.24.33:924][922]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2020.11.02-16.24.46:137][348]Cmd: TRANSACTION UNDO
+[2020.11.02-16.24.46:137][348]LogEditorTransaction: Undo Delete Actors
+[2020.11.02-16.24.46:151][348]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2020.11.02-16.24.46:160][348]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 9
+[2020.11.02-16.24.46:160][348]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 8
+[2020.11.02-16.24.46:160][348]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 7
+[2020.11.02-16.24.46:160][348]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 6
+[2020.11.02-16.24.46:631][358]Cmd: TRANSACTION UNDO
+[2020.11.02-16.24.46:632][358]LogEditorTransaction: Undo Clicking on Actors
+[2020.11.02-16.24.46:635][358]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2020.11.02-16.24.46:732][360]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 9
+[2020.11.02-16.24.46:780][365]Cmd: TRANSACTION UNDO
+[2020.11.02-16.24.46:780][365]LogEditorTransaction: Undo Delete Actors
+[2020.11.02-16.24.46:801][365]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2020.11.02-16.24.46:904][367]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 9
+[2020.11.02-16.24.47:033][379]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 8
+[2020.11.02-16.24.47:043][380]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 7
+[2020.11.02-16.24.47:117][387]Cmd: TRANSACTION UNDO
+[2020.11.02-16.24.47:117][387]LogEditorTransaction: Undo Clicking on Actors
+[2020.11.02-16.24.47:124][387]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2020.11.02-16.24.47:440][411]Cmd: TRANSACTION UNDO
+[2020.11.02-16.24.47:440][411]LogEditorTransaction: Undo Delete Actors
+[2020.11.02-16.24.47:466][411]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 9
+[2020.11.02-16.24.47:468][411]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2020.11.02-16.24.47:543][412]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 9
+[2020.11.02-16.24.47:645][419]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 8
+[2020.11.02-16.24.47:667][421]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 7
+[2020.11.02-16.24.47:756][429]Cmd: TRANSACTION UNDO
+[2020.11.02-16.24.47:756][429]LogEditorTransaction: Undo Clicking on Actors
+[2020.11.02-16.24.47:768][429]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2020.11.02-16.24.48:000][447]Cmd: TRANSACTION UNDO
+[2020.11.02-16.24.48:000][447]LogEditorTransaction: Undo Delete Actors
+[2020.11.02-16.24.48:036][447]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2020.11.02-16.24.48:103][448]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 9
+[2020.11.02-16.24.48:277][459]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 8
+[2020.11.02-16.24.48:278][459]Cmd: TRANSACTION UNDO
+[2020.11.02-16.24.48:278][459]LogEditorTransaction: Undo Clicking on Actors
+[2020.11.02-16.24.48:295][459]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2020.11.02-16.24.48:357][460]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 9
+[2020.11.02-16.24.48:357][460]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 8
+[2020.11.02-16.24.48:866][496]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 7
+[2020.11.02-16.24.48:899][499]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 6
+[2020.11.02-16.24.48:990][507]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 5
+[2020.11.02-16.24.49:131][519]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 4
+[2020.11.02-16.24.49:193][524]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall100)
+[2020.11.02-16.24.49:275][525]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 3
+[2020.11.02-16.24.49:549][546]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 2
+[2020.11.02-16.24.49:606][551]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1
+[2020.11.02-16.24.50:116][599]MaterialEditorStats: Base pass shader: 119 instructions
+[2020.11.02-16.24.50:116][599]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2020.11.02-16.24.50:116][599]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.11.02-16.24.50:116][599]MaterialEditorStats: Texture samplers: 2/16
+[2020.11.02-16.25.13:044][141]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube63)
+[2020.11.02-16.25.23:657][364]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall53)
+[2020.11.02-16.25.44:296][695]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall103)
+[2020.11.02-16.26.23:788][277]Cmd: TRANSACTION UNDO
+[2020.11.02-16.26.23:788][277]LogEditorTransaction: Undo Move Actors
+[2020.11.02-16.26.23:792][277]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2020.11.02-16.26.23:800][277]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 9
+[2020.11.02-16.26.23:800][277]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 8
+[2020.11.02-16.26.23:800][277]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 7
+[2020.11.02-16.26.23:800][277]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 6
+[2020.11.02-16.26.24:096][284]Cmd: TRANSACTION UNDO
+[2020.11.02-16.26.24:096][284]LogEditorTransaction: Undo Move Actors
+[2020.11.02-16.26.24:101][284]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2020.11.02-16.26.24:283][287]Cmd: TRANSACTION UNDO
+[2020.11.02-16.26.24:283][287]LogEditorTransaction: Undo Move Actors
+[2020.11.02-16.26.24:289][287]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2020.11.02-16.26.24:375][287]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 9
+[2020.11.02-16.26.24:468][295]Cmd: TRANSACTION UNDO
+[2020.11.02-16.26.24:468][295]LogEditorTransaction: Undo Move Actors
+[2020.11.02-16.26.24:476][295]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2020.11.02-16.26.24:503][296]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 9
+[2020.11.02-16.26.24:600][304]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 8
+[2020.11.02-16.26.24:613][305]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 7
+[2020.11.02-16.26.25:051][338]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 6
+[2020.11.02-16.26.25:104][342]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 5
+[2020.11.02-16.26.25:231][353]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 4
+[2020.11.02-16.26.25:253][355]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 3
+[2020.11.02-16.26.25:704][387]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 2
+[2020.11.02-16.26.25:771][392]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1
+[2020.11.02-16.26.26:236][431]MaterialEditorStats: Base pass shader: 119 instructions
+[2020.11.02-16.26.26:236][431]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2020.11.02-16.26.26:237][431]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.11.02-16.26.26:237][431]MaterialEditorStats: Texture samplers: 2/16
+[2020.11.02-16.26.26:345][444]Cmd: TRANSACTION UNDO
+[2020.11.02-16.26.26:345][444]LogEditorTransaction: Undo Scale Actors
+[2020.11.02-16.26.26:348][444]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2020.11.02-16.26.26:385][445]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 9
+[2020.11.02-16.26.26:385][445]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 8
+[2020.11.02-16.26.26:385][445]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 7
+[2020.11.02-16.26.26:385][445]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 6
+[2020.11.02-16.26.26:808][474]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 5
+[2020.11.02-16.26.27:001][487]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 4
+[2020.11.02-16.26.27:132][498]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 3
+[2020.11.02-16.26.27:157][500]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2020.11.02-16.26.27:448][523]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2020.11.02-16.26.27:871][558]MaterialEditorStats: Base pass shader: 119 instructions
+[2020.11.02-16.26.27:871][558]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2020.11.02-16.26.27:871][558]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.11.02-16.26.27:871][558]MaterialEditorStats: Texture samplers: 2/16
+[2020.11.02-16.26.28:416][609]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall102)
+[2020.11.02-16.26.34:604][292]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall53)
+[2020.11.02-16.26.40:660][962]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube63)
+[2020.11.02-16.26.45:012][448]Cmd: TRANSACTION UNDO
+[2020.11.02-16.26.45:012][448]LogEditorTransaction: Undo Move Actors
+[2020.11.02-16.26.45:014][448]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2020.11.02-16.26.45:026][448]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 9
+[2020.11.02-16.26.45:026][448]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 8
+[2020.11.02-16.26.45:026][448]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 7
+[2020.11.02-16.26.45:026][448]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 6
+[2020.11.02-16.26.45:444][456]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 5
+[2020.11.02-16.26.45:600][465]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 4
+[2020.11.02-16.26.45:754][478]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 3
+[2020.11.02-16.26.45:780][480]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2020.11.02-16.26.46:038][501]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2020.11.02-16.26.46:469][539]MaterialEditorStats: Base pass shader: 119 instructions
+[2020.11.02-16.26.46:469][539]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2020.11.02-16.26.46:469][539]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.11.02-16.26.46:469][539]MaterialEditorStats: Texture samplers: 2/16
+[2020.11.02-16.26.47:993][711]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube23)
+[2020.11.02-16.27.03:185][459]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_containerClosed_mesh_v65)
+[2020.11.02-16.27.04:181][561]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_containerClosed_mesh_v64)
+[2020.11.02-16.27.15:061][799]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube32)
+[2020.11.02-16.27.21:555][539]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ground25)
+[2020.11.02-16.27.32:076][706]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube23)
+[2020.11.02-16.27.41:785][801]Cmd: EDIT COPY
+[2020.11.02-16.27.42:035][817]Cmd: EDIT PASTE
+[2020.11.02-16.27.57:738][595]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2020.11.02-16.28.05:657][502]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_containerOpen_mesh_v20)
+[2020.11.02-16.28.06:103][542]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_containerOpen_mesh_v19)
+[2020.11.02-16.28.06:548][590]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_containerOpen_mesh_v18)
+[2020.11.02-16.28.17:788][864]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (p_crateBig_mesh_v72)
+[2020.11.02-16.28.18:460][939]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_containerClosed_mesh_v102)
+[2020.11.02-16.28.19:975][102]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_containerOpen_mesh_v20)
+[2020.11.02-16.28.24:788][657]Cmd: EDIT COPY
+[2020.11.02-16.28.24:972][672]Cmd: EDIT PASTE
+[2020.11.02-16.28.26:418][823]Cmd: TRANSACTION UNDO
+[2020.11.02-16.28.26:418][823]LogEditorTransaction: Undo Move Actors
+[2020.11.02-16.28.26:420][823]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2020.11.02-16.28.26:433][823]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 9
+[2020.11.02-16.28.26:433][823]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 8
+[2020.11.02-16.28.26:433][823]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 7
+[2020.11.02-16.28.26:433][823]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 6
+[2020.11.02-16.28.27:001][835]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 5
+[2020.11.02-16.28.27:185][851]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 4
+[2020.11.02-16.28.27:263][858]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 3
+[2020.11.02-16.28.27:296][861]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2020.11.02-16.28.27:678][892]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2020.11.02-16.28.28:061][926]MaterialEditorStats: Base pass shader: 119 instructions
+[2020.11.02-16.28.28:061][926]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2020.11.02-16.28.28:061][926]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.11.02-16.28.28:061][926]MaterialEditorStats: Texture samplers: 2/16
+[2020.11.02-16.28.31:051][280]Cmd: EDIT COPY
+[2020.11.02-16.28.31:228][301]Cmd: EDIT PASTE
+[2020.11.02-16.28.46:117][941]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_containerOpen_mesh_v24)
+[2020.11.02-16.28.48:510][209]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_containerOpen_mesh_v25)
+[2020.11.02-16.28.53:150][704]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_containerOpen_mesh_v24)
+[2020.11.02-16.28.58:540][312]Cmd: EDIT COPY
+[2020.11.02-16.28.58:765][338]Cmd: EDIT PASTE
+[2020.11.02-16.29.59:769][373]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube24)
+[2020.11.02-16.30.12:888][793]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_conveyorBeltStraightModular_mesh_v68)
+[2020.11.02-16.30.13:400][841]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_conveyorBeltStraightModular_mesh_v70)
+[2020.11.02-16.30.13:987][907]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_conveyorBeltStraightModular_mesh_v72)
+[2020.11.02-16.30.14:710][989]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_conveyorBeltStraightModular_mesh_v73)
+[2020.11.02-16.30.19:868][564]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_containerOpen_mesh_v26)
+[2020.11.02-16.30.34:855][265]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
+[2020.11.02-16.31.53:023][292]LogEditorViewport: Clicking on Actor (LMB): ActivateableElevator_C (ActivateableElevator2)
+[2020.11.02-16.31.57:962][849]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube24)
+[2020.11.02-16.32.00:277][ 97]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2020.11.02-16.32.27:164][130]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube27)
+[2020.11.02-16.32.28:791][299]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube6)
+[2020.11.02-16.32.40:609][680]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube35)
+[2020.11.02-16.33.01:822][134]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube15)
+[2020.11.02-16.33.02:222][177]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ground33)
+[2020.11.02-16.33.20:353][305]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube86)
+[2020.11.02-16.33.20:901][352]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube74)
+[2020.11.02-16.33.21:292][393]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube90)
+[2020.11.02-16.33.21:951][467]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube94)
+[2020.11.02-16.33.52:965][984]LogTemp: Repeating last play command: Selected Viewport
+[2020.11.02-16.33.52:987][984]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.02-16.33.52:987][984]PIE: New page: PIE session: FirstPlayable_WhiteBox (Nov 2, 2020, 6:33:52 PM)
+[2020.11.02-16.33.52:987][984]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox
+[2020.11.02-16.33.53:050][984]LogPlayLevel: PIE: StaticDuplicateObject took: (0.062120s)
+[2020.11.02-16.33.53:051][984]LogAIModule: Creating AISystem for world FirstPlayable_WhiteBox
+[2020.11.02-16.33.53:051][984]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002597913A400), frame # 1684984
+[2020.11.02-16.33.53:051][984]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000025976B1E700), frame # 1684984
+[2020.11.02-16.33.53:052][984]LogPlayLevel: PIE: World Init took: (0.002143s)
+[2020.11.02-16.33.53:052][984]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstPlayable_WhiteBox.FirstPlayable_WhiteBox to /Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox.FirstPlayable_WhiteBox (0.064619s)
+[2020.11.02-16.33.53:067][984]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2020.11.02-16.33.53:072][984]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.02-16.33.53:072][984]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.02-16.33.53:072][984]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.02-16.33.53:072][984]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.02-16.33.53:072][984]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.02-16.33.53:072][984]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.02-16.33.53:072][984]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.02-16.33.53:072][984]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.02-16.33.53:072][984]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.02-16.33.53:072][984]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.02-16.33.53:083][984]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.02-16.33.53:083][984]LogAudioMixer: Display: 1: FrontRight
+[2020.11.02-16.33.53:133][984]LogAudioMixer: Display: Using Audio Device Högtalare (Realtek High Definition Audio)
+[2020.11.02-16.33.53:133][984]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.02-16.33.53:133][984]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.02-16.33.53:133][984]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.02-16.33.53:134][984]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.02-16.33.53:144][984]LogInit: FAudioDevice initialized.
+[2020.11.02-16.33.53:157][984]LogLoad: Game class is 'BP_HideNSneakGameModeBase_C'
+[2020.11.02-16.33.53:182][984]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox.FirstPlayable_WhiteBox up for play (max tick rate 0) at 2020.11.02-17.33.53
+[2020.11.02-16.33.53:182][984]LogWorld: Bringing up level for play took: 0.024802
+[2020.11.02-16.33.53:183][984]LogOnline: OSS: Creating online subsystem instance for: :Context_85
+[2020.11.02-16.33.53:186][984]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2020.11.02-16.33.53:186][984]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2020.11.02-16.33.53:187][984]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2020.11.02-16.33.53:187][984]LogNet: Created socket for bind address: 0.0.0.0 on port 17777
+[2020.11.02-16.33.53:187][984]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.11.02-16.33.53:187][984]LogNet: GameNetDriver IpNetDriver_74 IpNetDriver listening on port 17777
+[2020.11.02-16.33.53:188][984]PIE: Server logged in
+[2020.11.02-16.33.53:189][984]PIE: Play in editor total start time 0.212 seconds.
+[2020.11.02-16.34.05:714][468]LogOnlineSession: Warning: OSS: No game present to leave for session (GameSession)
+[2020.11.02-16.34.05:715][468]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.02-16.34.05:715][468]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox
+[2020.11.02-16.34.05:715][468]LogWorld: UWorld::CleanupWorld for FirstPlayable_WhiteBox, bSessionEnded=true, bCleanupResources=true
+[2020.11.02-16.34.05:719][468]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.02-16.34.05:725][468]LogNet: World NetDriver shutdown IpNetDriver_74 [GameNetDriver]
+[2020.11.02-16.34.05:725][468]LogNet: DestroyNamedNetDriver IpNetDriver_74 [GameNetDriver]
+[2020.11.02-16.34.05:725][468]LogExit: GameNetDriver IpNetDriver_74 shut down
+[2020.11.02-16.34.05:726][468]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.02-16.34.05:728][468]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.02-16.34.05:757][468]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.02-16.34.05:759][468]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000025976B1E700), frame # 1686468
+[2020.11.02-16.34.05:759][468]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002597913A400), frame # 1686468
+[2020.11.02-16.34.05:762][468]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2020.11.02-16.34.05:794][469]LogPlayLevel: Display: Destroying online subsystem :Context_85
+[2020.11.02-16.34.48:103][331]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
+[2020.11.02-16.34.52:863][893]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube28)
+[2020.11.02-16.34.54:296][ 59]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
+[2020.11.02-16.36.03:277][213]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2020.11.02-16.36.03:536][213]LogSavePackage: Moving 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Saved/FirstPlayable_WhiteBox_Auto7AD51335A42DFB53C50578BAFD0BA2D85.tmp' to 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Saved/Autosaves/Game/Maps/FirstPlayable_WhiteBox_Auto7.umap'
+[2020.11.02-16.36.03:539][213]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/FirstPlayable_WhiteBox' took 0.276
+[2020.11.02-16.36.03:539][213]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.276
+[2020.11.02-16.36.48:368][711]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube80)
+[2020.11.02-16.36.49:129][784]Cmd: DELETE
+[2020.11.02-16.36.49:129][784]Cmd: ACTOR DELETE
+[2020.11.02-16.36.49:141][784]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.11.02-16.36.49:152][784]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2020.11.02-16.36.49:154][784]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2020.11.02-16.37.01:171][187]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube74)
+[2020.11.02-16.37.02:345][303]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube84)
+[2020.11.02-16.37.26:208][110]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2020.11.02-16.37.26:238][110]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2020.11.02-16.37.26:521][110]LogSavePackage: Moving 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Saved/FirstPlayable_WhiteBoxF175921946113CC24FC1C5B678279750.tmp' to 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Maps/FirstPlayable_WhiteBox.umap'
+[2020.11.02-16.37.26:607][110]LogFileHelpers: Saving map 'FirstPlayable_WhiteBox' took 0.382
+[2020.11.02-16.37.26:623][110]AssetCheck: New page: Asset Save: FirstPlayable_WhiteBox
+[2020.11.02-16.37.26:623][110]LogContentValidation: Display: Validating World /Game/Maps/FirstPlayable_WhiteBox.FirstPlayable_WhiteBox
+[2020.11.02-16.37.50:104][653]LogTemp: Repeating last play command: Selected Viewport
+[2020.11.02-16.37.50:125][653]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.02-16.37.50:125][653]PIE: New page: PIE session: FirstPlayable_WhiteBox (Nov 2, 2020, 6:37:50 PM)
+[2020.11.02-16.37.50:148][653]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox
+[2020.11.02-16.37.50:226][653]LogPlayLevel: PIE: StaticDuplicateObject took: (0.078503s)
+[2020.11.02-16.37.50:228][653]LogAIModule: Creating AISystem for world FirstPlayable_WhiteBox
+[2020.11.02-16.37.50:228][653]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002597FC53800), frame # 1705653
+[2020.11.02-16.37.50:228][653]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002592C9D47C0), frame # 1705653
+[2020.11.02-16.37.50:229][653]LogPlayLevel: PIE: World Init took: (0.002998s)
+[2020.11.02-16.37.50:230][653]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstPlayable_WhiteBox.FirstPlayable_WhiteBox to /Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox.FirstPlayable_WhiteBox (0.082242s)
+[2020.11.02-16.37.50:261][653]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2020.11.02-16.37.50:271][653]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.02-16.37.50:271][653]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.02-16.37.50:271][653]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.02-16.37.50:271][653]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.02-16.37.50:271][653]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.02-16.37.50:271][653]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.02-16.37.50:271][653]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.02-16.37.50:271][653]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.02-16.37.50:271][653]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.02-16.37.50:271][653]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.02-16.37.50:282][653]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.02-16.37.50:282][653]LogAudioMixer: Display: 1: FrontRight
+[2020.11.02-16.37.50:331][653]LogAudioMixer: Display: Using Audio Device Högtalare (Realtek High Definition Audio)
+[2020.11.02-16.37.50:331][653]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.02-16.37.50:331][653]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.02-16.37.50:331][653]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.02-16.37.50:332][653]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.02-16.37.50:343][653]LogInit: FAudioDevice initialized.
+[2020.11.02-16.37.50:351][653]LogLoad: Game class is 'BP_HideNSneakGameModeBase_C'
+[2020.11.02-16.37.50:383][653]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox.FirstPlayable_WhiteBox up for play (max tick rate 0) at 2020.11.02-17.37.50
+[2020.11.02-16.37.50:384][653]LogWorld: Bringing up level for play took: 0.031256
+[2020.11.02-16.37.50:384][653]LogOnline: OSS: Creating online subsystem instance for: :Context_86
+[2020.11.02-16.37.50:387][653]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2020.11.02-16.37.50:387][653]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2020.11.02-16.37.50:387][653]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2020.11.02-16.37.50:387][653]LogNet: Created socket for bind address: 0.0.0.0 on port 17777
+[2020.11.02-16.37.50:388][653]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.11.02-16.37.50:388][653]LogNet: GameNetDriver IpNetDriver_75 IpNetDriver listening on port 17777
+[2020.11.02-16.37.50:389][653]PIE: Server logged in
+[2020.11.02-16.37.50:390][653]PIE: Play in editor total start time 0.275 seconds.
+[2020.11.02-16.38.46:884][409]LogOnlineSession: Warning: OSS: No game present to leave for session (GameSession)
+[2020.11.02-16.38.46:884][409]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.02-16.38.46:884][409]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox
+[2020.11.02-16.38.46:885][409]LogWorld: UWorld::CleanupWorld for FirstPlayable_WhiteBox, bSessionEnded=true, bCleanupResources=true
+[2020.11.02-16.38.46:888][409]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.02-16.38.46:896][409]LogNet: World NetDriver shutdown IpNetDriver_75 [GameNetDriver]
+[2020.11.02-16.38.46:896][409]LogNet: DestroyNamedNetDriver IpNetDriver_75 [GameNetDriver]
+[2020.11.02-16.38.46:896][409]LogExit: GameNetDriver IpNetDriver_75 shut down
+[2020.11.02-16.38.46:896][409]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.02-16.38.46:899][409]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.02-16.38.46:906][409]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.02-16.38.46:930][409]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002592C9D47C0), frame # 1712409
+[2020.11.02-16.38.46:930][409]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002597FC53800), frame # 1712409
+[2020.11.02-16.38.46:933][409]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2020.11.02-16.38.46:975][410]LogPlayLevel: Display: Destroying online subsystem :Context_86
+[2020.11.02-16.38.48:680][598]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_containerOpen_mesh_v25)
+[2020.11.02-16.38.56:120][432]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_containerOpen_mesh_v26)
+[2020.11.02-16.39.16:143][748]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_containerOpen_mesh_v24)
+[2020.11.02-16.39.29:994][354]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_containerOpen_mesh_v19)
+[2020.11.02-16.39.31:762][524]LogHttp: Warning: 000002593E02D600: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B04CDB19E-4C9C-0627-0E32-9A91520F8ED5%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=e9c8b55947daa6120f3bd9a45237483b%7Cbf9036c116b8442fb26a12eeb6187cfe%7Cd15cc131-dae9-4a73-9c3f-5ce988f487b8&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.11.02-16.39.31:762][524]LogHttp: Warning: 000002593E02D600: request failed, libcurl error: 0 (No error)
+[2020.11.02-16.39.31:762][524]LogHttp: Warning: 000002593E02D600: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x258fd0cff70 [can pipeline])
+[2020.11.02-16.39.31:762][524]LogHttp: Warning: 000002593E02D600: libcurl info message cache 1 (Re-using existing connection! (#100) with host datarouter.ol.epicgames.com)
+[2020.11.02-16.39.31:762][524]LogHttp: Warning: 000002593E02D600: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (54.88.211.84) port 443 (#100))
+[2020.11.02-16.39.31:763][524]LogHttp: Warning: 000002593E02D600: libcurl info message cache 3 (We are completely uploaded and fine)
+[2020.11.02-16.39.31:763][524]LogHttp: Warning: 000002593E02D600: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2020.11.02-16.39.31:763][524]LogHttp: Warning: 000002593E02D600: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2020.11.02-16.39.31:763][524]LogHttp: Warning: 000002593E02D600: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2020.11.02-16.39.31:763][524]LogHttp: Warning: 000002593E02D600: libcurl info message cache 7 (Closing connection 100)
+[2020.11.02-16.39.31:763][524]LogHttp: Warning: 000002593E02D600: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2020.11.02-16.39.31:771][525]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B04CDB19E-4C9C-0627-0E32-9A91520F8ED5%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=e9c8b55947daa6120f3bd9a45237483b%7Cbf9036c116b8442fb26a12eeb6187cfe%7Cd15cc131-dae9-4a73-9c3f-5ce988f487b8&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.11.02-16.39.42:065][689]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_containerOpen_mesh_v20)
+[2020.11.02-16.39.50:623][687]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_containerClosed_mesh_v66)
+[2020.11.02-16.39.56:106][290]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_containerClosed_mesh_v65)
+[2020.11.02-16.39.56:379][310]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_containerClosed_mesh_v64)
+[2020.11.02-16.39.57:347][403]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_containerClosed_mesh_v66)
+[2020.11.02-16.39.58:218][486]Cmd: EDIT COPY
+[2020.11.02-16.39.58:442][502]Cmd: EDIT PASTE
+[2020.11.02-16.40.02:829][985]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_containerOpen_mesh_v19)
+[2020.11.02-16.40.18:499][774]LogTemp: Repeating last play command: Selected Viewport
+[2020.11.02-16.40.18:520][774]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.02-16.40.18:521][774]PIE: New page: PIE session: FirstPlayable_WhiteBox (Nov 2, 2020, 6:40:18 PM)
+[2020.11.02-16.40.18:559][774]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox
+[2020.11.02-16.40.18:693][774]LogPlayLevel: PIE: StaticDuplicateObject took: (0.134190s)
+[2020.11.02-16.40.18:694][774]LogAIModule: Creating AISystem for world FirstPlayable_WhiteBox
+[2020.11.02-16.40.18:694][774]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000259717BE200), frame # 1722774
+[2020.11.02-16.40.18:694][774]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002593A6A4540), frame # 1722774
+[2020.11.02-16.40.18:695][774]LogPlayLevel: PIE: World Init took: (0.001443s)
+[2020.11.02-16.40.18:695][774]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstPlayable_WhiteBox.FirstPlayable_WhiteBox to /Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox.FirstPlayable_WhiteBox (0.136087s)
+[2020.11.02-16.40.18:706][774]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2020.11.02-16.40.18:715][774]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.02-16.40.18:715][774]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.02-16.40.18:715][774]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.02-16.40.18:715][774]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.02-16.40.18:715][774]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.02-16.40.18:715][774]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.02-16.40.18:715][774]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.02-16.40.18:715][774]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.02-16.40.18:715][774]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.02-16.40.18:715][774]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.02-16.40.18:726][774]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.02-16.40.18:726][774]LogAudioMixer: Display: 1: FrontRight
+[2020.11.02-16.40.18:774][774]LogAudioMixer: Display: Using Audio Device Högtalare (Realtek High Definition Audio)
+[2020.11.02-16.40.18:775][774]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.02-16.40.18:775][774]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.02-16.40.18:775][774]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.02-16.40.18:775][774]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.02-16.40.18:786][774]LogInit: FAudioDevice initialized.
+[2020.11.02-16.40.18:792][774]LogLoad: Game class is 'BP_HideNSneakGameModeBase_C'
+[2020.11.02-16.40.18:818][774]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox.FirstPlayable_WhiteBox up for play (max tick rate 0) at 2020.11.02-17.40.18
+[2020.11.02-16.40.18:819][774]LogWorld: Bringing up level for play took: 0.025545
+[2020.11.02-16.40.18:819][774]LogOnline: OSS: Creating online subsystem instance for: :Context_87
+[2020.11.02-16.40.18:822][774]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2020.11.02-16.40.18:822][774]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2020.11.02-16.40.18:822][774]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2020.11.02-16.40.18:822][774]LogNet: Created socket for bind address: 0.0.0.0 on port 17777
+[2020.11.02-16.40.18:822][774]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.11.02-16.40.18:822][774]LogNet: GameNetDriver IpNetDriver_76 IpNetDriver listening on port 17777
+[2020.11.02-16.40.18:823][774]PIE: Server logged in
+[2020.11.02-16.40.18:824][774]PIE: Play in editor total start time 0.314 seconds.
+[2020.11.02-16.40.33:505][521]LogOnlineSession: Warning: OSS: No game present to leave for session (GameSession)
+[2020.11.02-16.40.33:505][521]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.02-16.40.33:505][521]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox
+[2020.11.02-16.40.33:506][521]LogWorld: UWorld::CleanupWorld for FirstPlayable_WhiteBox, bSessionEnded=true, bCleanupResources=true
+[2020.11.02-16.40.33:509][521]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.02-16.40.33:515][521]LogNet: World NetDriver shutdown IpNetDriver_76 [GameNetDriver]
+[2020.11.02-16.40.33:516][521]LogNet: DestroyNamedNetDriver IpNetDriver_76 [GameNetDriver]
+[2020.11.02-16.40.33:516][521]LogExit: GameNetDriver IpNetDriver_76 shut down
+[2020.11.02-16.40.33:516][521]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.02-16.40.33:518][521]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.02-16.40.33:544][521]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.02-16.40.33:546][521]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002593A6A4540), frame # 1724521
+[2020.11.02-16.40.33:546][521]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000259717BE200), frame # 1724521
+[2020.11.02-16.40.33:549][521]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2020.11.02-16.40.33:580][522]LogPlayLevel: Display: Destroying online subsystem :Context_87
+[2020.11.02-16.40.38:473][ 75]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2020.11.02-16.40.38:505][ 75]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2020.11.02-16.40.38:766][ 75]LogSavePackage: Moving 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Saved/FirstPlayable_WhiteBox41E7AA9441D8DC0AF3EDFAAA5974DEC8.tmp' to 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Maps/FirstPlayable_WhiteBox.umap'
+[2020.11.02-16.40.38:816][ 75]LogFileHelpers: Saving map 'FirstPlayable_WhiteBox' took 0.320
+[2020.11.02-16.40.38:834][ 75]AssetCheck: New page: Asset Save: FirstPlayable_WhiteBox
+[2020.11.02-16.40.38:834][ 75]LogContentValidation: Display: Validating World /Game/Maps/FirstPlayable_WhiteBox.FirstPlayable_WhiteBox
+[2020.11.02-18.00.20:045][160]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube12)
+[2020.11.02-18.00.35:575][923]LogEditorViewport: Clicking on Actor (LMB): ActivateableElevator_C (ActivateableElevator2)
+[2020.11.02-18.00.49:393][128]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.11.02-18.02.55:630][503]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.11.02-18.03.32:592][  2]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_bigScaffoldingBeam_mesh_v2)
+[2020.11.02-18.04.42:248][217]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.11.02-18.06.20:454][973]LogAudioMixer: Display: Audio Buffer Underrun detected.
