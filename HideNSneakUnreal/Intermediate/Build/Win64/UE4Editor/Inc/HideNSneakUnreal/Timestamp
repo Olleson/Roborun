@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 C:\Users\Olle\Documents\PROJ_Grupp2\HideNSneakUnreal\Source\HideNSneakUnreal\HideAndSneakGameState.h
 C:\Users\Olle\Documents\PROJ_Grupp2\HideNSneakUnreal\Source\HideNSneakUnreal\HideNSneakCPPCharacter.h
 C:\Users\Olle\Documents\PROJ_Grupp2\HideNSneakUnreal\Source\HideNSneakUnreal\HideNSneakGameModeBase.h
@@ -31,3 +32,23 @@ E:\Unreal Projects\Proj\HideNSneakUnreal\Source\HideNSneakUnreal\OnlineGameInsta
 E:\Unreal Projects\Proj\HideNSneakUnreal\Source\HideNSneakUnreal\CPPCharacter.h
 E:\Unreal Projects\Proj\HideNSneakUnreal\Source\HideNSneakUnreal\HideNSneakCPPCharacter.h
 >>>>>>> 245d11cbb70544f6774cb72546e048d1c4a41b10
+=======
+C:\Users\Olle\Documents\PROJ_Grupp2\HideNSneakUnreal\Source\HideNSneakUnreal\BatteryGameMode.h
+C:\Users\Olle\Documents\PROJ_Grupp2\HideNSneakUnreal\Source\HideNSneakUnreal\BatteryPickup.h
+C:\Users\Olle\Documents\PROJ_Grupp2\HideNSneakUnreal\Source\HideNSneakUnreal\HideAndSneakGameState.h
+C:\Users\Olle\Documents\PROJ_Grupp2\HideNSneakUnreal\Source\HideNSneakUnreal\HideNSneakCPPCharacter.h
+C:\Users\Olle\Documents\PROJ_Grupp2\HideNSneakUnreal\Source\HideNSneakUnreal\HideNSneakGameModeBase.h
+C:\Users\Olle\Documents\PROJ_Grupp2\HideNSneakUnreal\Source\HideNSneakUnreal\HideNSneakHUDCPP.h
+C:\Users\Olle\Documents\PROJ_Grupp2\HideNSneakUnreal\Source\HideNSneakUnreal\HideNSneakTextChatStateCpp.h
+C:\Users\Olle\Documents\PROJ_Grupp2\HideNSneakUnreal\Source\HideNSneakUnreal\CPPCharacter.h
+C:\Users\Olle\Documents\PROJ_Grupp2\HideNSneakUnreal\Source\HideNSneakUnreal\moveableBox.h
+C:\Users\Olle\Documents\PROJ_Grupp2\HideNSneakUnreal\Source\HideNSneakUnreal\MovingPlatform.h
+C:\Users\Olle\Documents\PROJ_Grupp2\HideNSneakUnreal\Source\HideNSneakUnreal\NewActorComponent.h
+C:\Users\Olle\Documents\PROJ_Grupp2\HideNSneakUnreal\Source\HideNSneakUnreal\OnlineGameInstance.h
+C:\Users\Olle\Documents\PROJ_Grupp2\HideNSneakUnreal\Source\HideNSneakUnreal\Pablo.h
+C:\Users\Olle\Documents\PROJ_Grupp2\HideNSneakUnreal\Source\HideNSneakUnreal\Pickup.h
+C:\Users\Olle\Documents\PROJ_Grupp2\HideNSneakUnreal\Source\HideNSneakUnreal\RandomizeSeeker.h
+C:\Users\Olle\Documents\PROJ_Grupp2\HideNSneakUnreal\Source\HideNSneakUnreal\SpawnVolume.h
+C:\Users\Olle\Documents\PROJ_Grupp2\HideNSneakUnreal\Source\HideNSneakUnreal\test.h
+C:\Users\Olle\Documents\PROJ_Grupp2\HideNSneakUnreal\Source\HideNSneakUnreal\testActor.h
+>>>>>>> 6066d1995abef378e5effcee0ef1d47a8256d657

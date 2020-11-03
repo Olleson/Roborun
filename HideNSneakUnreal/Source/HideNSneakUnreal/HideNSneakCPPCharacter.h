@@ -19,16 +19,6 @@ class HIDENSNEAKUNREAL_API AHideNSneakCPPCharacter : public ACharacter
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 		class UCameraComponent* FollowCamera;
 
-	/** Collection Sphere */
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Seeker, meta = (AllowPrivateAccess = "true"))
-		class USphereComponent* CaptureSphere;
-
-	// Variable collection sphere radius, can be changed in the editor
-	UPROPERTY(Replicated, VisibleAnywhere, Category = Seeker, meta = (AllowPrivateAcces = "true"))
-		float CaptureSphereRadius;
-
-
-
 public:
 	AHideNSneakCPPCharacter();
 
@@ -45,23 +35,51 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera)
 		float BaseLookUpRate;
 
-	// Turns a hider into a seeker
-	UFUNCTION(NetMulticast, Reliable, BlueprintCallable, Category = "Seeker")
+	UPROPERTY(EditAnywhere)
+		bool hasBeenSeeker;
+
+	// Client Request to turn into a hider
+	UFUNCTION(Client, Reliable, BlueprintCallable, Category = "Seeker")
+		void BecomeHider();
+
+	void BecomeHider_Implementation();
+
+	// Server side handling of making a player become hider
+	UFUNCTION(Server, Reliable, BlueprintCallable, Category = "Seeker")
+		void ServerBecomeHider();
+
+	void ServerBecomeHider_Implementation();
+
+	// Client request to turn into a seeker
+	UFUNCTION(Client, Reliable, BlueprintCallable, Category = "Seeker")
 		void BecomeSeeker();
 
 	void BecomeSeeker_Implementation();
 
-	UPROPERTY(EditAnywhere)
-		bool isSeeker;
+	// Server side handling of turning a hider into a seeker
+	UFUNCTION(Server, Reliable, BlueprintCallable, Category = "Seeker")
+		void ServerBecomeSeeker();
+
+	// The function that is actually called on the server, must be appended with _Implementation to compile
+	void ServerBecomeSeeker_Implementation();
+
+	// Client request to reset all players into hiders
+	UFUNCTION(Client, Reliable, BlueprintCallable, Category = "Seeker")
+		void ResetPlayersToHiders();
+
+	void ResetPlayersToHiders_Implementation();
+
+	// Server side handling of reseting all players into hiders
+	UFUNCTION(Server, Reliable, BlueprintCallable, Category = "Seeker")
+		void ServerResetPlayersToHiders();
+
+	void ServerResetPlayersToHiders_Implementation();
 
 	UPROPERTY(EditAnywhere)
 		AActor* targetActor;
 
 	UPROPERTY(VisibleAnywhere)
 		AHideNSneakCPPCharacter* targetTagMechanic;
-
-	UFUNCTION()
-		void TurnIntoSeeker();
 
 	UFUNCTION()
 		void OnCompHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit);
@@ -114,8 +132,8 @@ protected:
 	float SpeedFactor;
 
 	// Entry to capturing hiders
-	UFUNCTION(BlueprintCallable, Category = "Seeker")
-	void CaptureHiders();
+	/*UFUNCTION(BlueprintCallable, Category = "Seeker")
+	void CaptureHiders();*/
 
 	// Server side handling of capturing hiders
 	UFUNCTION(Reliable, Server)
@@ -128,8 +146,6 @@ public:
 	FORCEINLINE class USpringArmComponent* GetCameraBoom() const { return CameraBoom; }
 	/** Returns FollowCamera subobject **/
 	FORCEINLINE class UCameraComponent* GetFollowCamera() const { return FollowCamera; }
-	/** Returns CollectionSphere subobject **/
-	FORCEINLINE class USphereComponent* GetCaptureSphere() const { return CaptureSphere; }
 	// Returns true if the character is a seeker
 	UFUNCTION(BlueprintPure, Category = "Seeker")
 	bool IsSeeker() const { return bIsSeeker; }

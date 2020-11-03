@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6066d1995abef378e5effcee0ef1d47a8256d657
 C:\Users\Olle\Documents\PROJ_Grupp2\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\Definitions.HideNSneakUnreal.h
 C:\Users\Olle\Documents\PROJ_Grupp2\HideNSneakUnreal\Source\HideNSneakUnreal\CPPCharacter.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
@@ -39,6 +42,7 @@ C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\In
 C:\Users\Olle\Documents\PROJ_Grupp2\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Inc\HideNSneakUnreal\Pickup.generated.h
 C:\Users\Olle\Documents\PROJ_Grupp2\HideNSneakUnreal\Source\HideNSneakUnreal\BatteryPickup.h
 C:\Users\Olle\Documents\PROJ_Grupp2\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Inc\HideNSneakUnreal\BatteryPickup.generated.h
+<<<<<<< HEAD
 =======
 E:\Unreal Projects\Proj\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\Definitions.HideNSneakUnreal.h
 E:\Unreal Projects\Proj\HideNSneakUnreal\Source\HideNSneakUnreal\CPPCharacter.h
@@ -81,3 +85,5 @@ E:\Unreal Projects\Proj\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Inc\
 E:\Unreal Projects\Proj\HideNSneakUnreal\Source\HideNSneakUnreal\BatteryPickup.h
 E:\Unreal Projects\Proj\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Inc\HideNSneakUnreal\BatteryPickup.generated.h
 >>>>>>> 245d11cbb70544f6774cb72546e048d1c4a41b10
+=======
+>>>>>>> 6066d1995abef378e5effcee0ef1d47a8256d657

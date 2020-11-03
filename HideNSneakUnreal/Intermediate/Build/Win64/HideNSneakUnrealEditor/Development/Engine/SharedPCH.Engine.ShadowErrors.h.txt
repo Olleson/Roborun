@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6066d1995abef378e5effcee0ef1d47a8256d657
 C:/Users/Olle/Documents/PROJ_Grupp2/HideNSneakUnreal/Intermediate/Build/Win64/HideNSneakUnrealEditor/Development/Engine/SharedPCH.Engine.ShadowErrors.h
 C:/Program Files/Epic Games/UE_4.25/Engine/Source/Runtime/Engine/Public/EngineSharedPCH.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Core\Public\Containers/ContainersFwd.h
