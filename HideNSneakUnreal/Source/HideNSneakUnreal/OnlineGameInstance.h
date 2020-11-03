@@ -4,8 +4,12 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "OnlineSubsystem.h"
 #include "Interfaces/OnlineSessionInterface.h"
+#include "OnlineSessionSettings.h"
 #include "Engine/GameInstance.h"
+#include "Engine/World.h"
+#include "Kismet/GameplayStatics.h"
 #include "OnlineGameInstance.generated.h"
 
 /**
@@ -41,5 +45,9 @@ protected:
 
 	// Finds available sessions
 	UFUNCTION(BlueprintCallable, Category = "OnlineLobby")
-		void JoinServer();
+		void FindServers();
+
+	// Joins a session
+	UFUNCTION(BlueprintCallable, Category = "OnlineLobby")
+		void JoinServer(int ServerIndex);
 };

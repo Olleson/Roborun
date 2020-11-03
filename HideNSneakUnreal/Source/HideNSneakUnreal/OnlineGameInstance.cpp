@@ -3,10 +3,6 @@
 
 
 #include "OnlineGameInstance.h"
-#include "OnlineSubsystem.h"
-#include "OnlineSessionSettings.h"
-#include "Engine/World.h"
-#include "Kismet/GameplayStatics.h"
 
 UOnlineGameInstance::UOnlineGameInstance() {
 
@@ -71,7 +67,7 @@ void UOnlineGameInstance::CreateServer()
 
 }
 
-void UOnlineGameInstance::JoinServer()
+void UOnlineGameInstance::FindServers()
 {
 	SessionSearch = MakeShareable(new FOnlineSessionSearch());
 	if (IOnlineSubsystem::Get()->GetSubsystemName() != "NULL") {
@@ -85,4 +81,13 @@ void UOnlineGameInstance::JoinServer()
 	SessionSearch->QuerySettings.Set(SEARCH_PRESENCE, true, EOnlineComparisonOp::Equals);
 
 	SessionInterface->FindSessions(0, SessionSearch.ToSharedRef());
+}
+
+void UOnlineGameInstance::JoinServer(int ServerIndex)
+{
+	TArray<FOnlineSessionSearchResult> SearchResults = SessionSearch->SearchResults;
+
+	if (SearchResults.Num() < ServerIndex && ServerIndex > 0) {
+
+	}
 }
