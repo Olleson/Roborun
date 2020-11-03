@@ -1,0 +1,1692 @@
+﻿Log file open, 11/02/20 01:31:50
+LogInit: Display: Running engine for game: HideNSneakUnreal
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 1.030837
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AdvancedSessions
+LogPluginManager: Mounting plugin AdvancedSteamSessions
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemSteam
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin ResonanceAudio
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamShared
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe -Mode=QueryTargets -Project="C:/Users/Abdi/Desktop/Projects/SU/Proj/HideNSneakUnreal/HideNSneakUnreal.uproject" -Output="C:/Users/Abdi/Desktop/Projects/SU/Proj/HideNSneakUnreal/Intermediate/TargetInfo.json"]
+LogInit: Warning: Incompatible or missing module: HideNSneakUnreal
+Running C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe Development Win64 -Project="C:/Users/Abdi/Desktop/Projects/SU/Proj/HideNSneakUnreal/HideNSneakUnreal.uproject" -TargetType=Editor -Progress -NoEngineChanges -NoHotReloadFromIDE
+Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Abdi\Desktop\Projects\SU\Proj).
+Creating makefile for HideNSneakUnrealEditor (game project files are newer)
+@progress push 5%
+Parsing headers for HideNSneakUnrealEditor
+  Running UnrealHeaderTool "C:\Users\Abdi\Desktop\Projects\SU\Proj\HideNSneakUnreal\HideNSneakUnreal.uproject" "C:\Users\Abdi\Desktop\Projects\SU\Proj\HideNSneakUnreal\Intermediate\Build\Win64\HideNSneakUnrealEditor\Development\HideNSneakUnrealEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Abdi\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+Reflection code generated for HideNSneakUnrealEditor in 15,2881837 seconds
+@progress pop
+Building HideNSneakUnrealEditor...
+Using Visual Studio 2019 14.27.29112 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+Building 10 actions with 12 processes...
+  @progress 'Compiling C++ source code...' 0%
+  @progress 'Compiling C++ source code...' 10%
+  [1/10] SharedPCH.Engine.ShadowErrors.cpp
+  @progress 'Compiling C++ source code...' 20%
+  [2/10] HideNSneakUnreal.cpp
+  @progress 'Compiling C++ source code...' 30%
+  [3/10] HideNSneakUnreal.init.gen.cpp
+  @progress 'Compiling C++ source code...' 40%
+  [4/10] CPP_Powerup.cpp
+  @progress 'Compiling C++ source code...' 50%
+  [5/10] CPP_Powerup.gen.cpp
+  @progress 'Compiling C++ source code...' 60%
+  [6/10] CPP_Character.gen.cpp
+  @progress 'Compiling C++ source code...' 70%
+  [7/10] CPP_Character.cpp
+  @progress 'Compiling C++ source code...' 80%
+  [8/10] UE4Editor-HideNSneakUnreal.lib
+     Creating library C:\Users\Abdi\Desktop\Projects\SU\Proj\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal.lib and object C:\Users\Abdi\Desktop\Projects\SU\Proj\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal.exp
+  @progress 'Compiling C++ source code...' 90%
+  [9/10] UE4Editor-HideNSneakUnreal.dll
+     Creating library C:\Users\Abdi\Desktop\Projects\SU\Proj\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal.suppressed.lib and object C:\Users\Abdi\Desktop\Projects\SU\Proj\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal.suppressed.exp
+  @progress 'Compiling C++ source code...' 100%
+  [10/10] HideNSneakUnrealEditor.target
+Total time in Parallel executor: 41,80 seconds
+Total execution time: 61,72 seconds
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogSteamShared: Display: Loading Steam SDK 1.47
+LogSteamShared: Steam SDK Loaded!
+LogOnline: OSS: Creating online subsystem instance for: Steam
+LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+LogOnline: OSS: Unable to create OnlineSubsystem module Steam
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-13942748
+LogInit: Engine Version: 4.25.3-13942748+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 2004) (), CPU: AMD Ryzen 5 2600 Six-Core Processor            , GPU: Radeon RX 580 Series
+LogInit: Compiled (64-bit): Jul 25 2020 02:07:48
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Abdi/Desktop/Projects/SU/Proj/HideNSneakUnreal/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.11.02-00.32.57:497][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.11.02-00.32.57:497][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.11.02-00.32.57:498][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Abdi/Desktop/Projects/SU/Proj/HideNSneakUnreal/Saved/Config/Windows/Engine.ini]
+[2020.11.02-00.32.57:498][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.11.02-00.32.57:498][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Abdi/Desktop/Projects/SU/Proj/HideNSneakUnreal/Saved/Config/Windows/Engine.ini]
+[2020.11.02-00.32.57:498][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Abdi/Desktop/Projects/SU/Proj/HideNSneakUnreal/Saved/Config/Windows/Engine.ini]
+[2020.11.02-00.32.57:498][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.11.02-00.32.57:498][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.11.02-00.32.57:498][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.11.02-00.32.57:498][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.11.02-00.32.57:498][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.11.02-00.32.57:498][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.11.02-00.32.57:498][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.11.02-00.32.57:498][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.11.02-00.32.57:498][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.11.02-00.32.57:498][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.11.02-00.32.57:498][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.11.02-00.32.57:498][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.11.02-00.32.57:498][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.11.02-00.32.57:498][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.11.02-00.32.57:498][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Abdi/Desktop/Projects/SU/Proj/HideNSneakUnreal/Saved/Config/Windows/Engine.ini]
+[2020.11.02-00.32.57:498][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.11.02-00.32.57:498][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.11.02-00.32.57:498][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.11.02-00.32.57:498][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.11.02-00.32.57:498][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.11.02-00.32.57:498][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.11.02-00.32.57:498][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.11.02-00.32.57:498][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.11.02-00.32.57:498][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.11.02-00.32.57:498][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.11.02-00.32.57:498][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.11.02-00.32.57:498][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.11.02-00.32.57:498][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.11.02-00.32.57:498][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Abdi/Desktop/Projects/SU/Proj/HideNSneakUnreal/Saved/Config/Windows/Engine.ini]
+[2020.11.02-00.32.57:498][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Abdi/Desktop/Projects/SU/Proj/HideNSneakUnreal/Saved/Config/Windows/Engine.ini]
+[2020.11.02-00.32.57:504][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Abdi/Desktop/Projects/SU/Proj/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.11.02-00.32.57:504][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.11.02-00.32.57:504][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.11.02-00.32.57:504][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Abdi/Desktop/Projects/SU/Proj/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.11.02-00.32.57:504][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.11.02-00.32.57:504][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Abdi/Desktop/Projects/SU/Proj/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.11.02-00.32.57:504][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.11.02-00.32.57:504][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.11.02-00.32.57:504][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.11.02-00.32.57:504][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.11.02-00.32.57:504][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.11.02-00.32.57:504][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.11.02-00.32.57:504][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.11.02-00.32.57:504][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.11.02-00.32.57:504][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.11.02-00.32.57:504][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.11.02-00.32.57:504][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.11.02-00.32.57:504][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.11.02-00.32.57:504][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.11.02-00.32.57:504][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.11.02-00.32.57:504][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.11.02-00.32.57:504][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.11.02-00.32.57:504][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.11.02-00.32.57:504][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.11.02-00.32.57:504][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Abdi/Desktop/Projects/SU/Proj/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.11.02-00.32.57:504][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.11.02-00.32.57:504][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.11.02-00.32.57:504][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.11.02-00.32.57:504][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.11.02-00.32.57:504][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.11.02-00.32.57:504][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.11.02-00.32.57:504][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.11.02-00.32.57:504][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.11.02-00.32.57:504][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.11.02-00.32.57:504][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.11.02-00.32.57:504][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.11.02-00.32.57:504][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.11.02-00.32.57:504][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.11.02-00.32.57:504][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.11.02-00.32.57:504][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.11.02-00.32.57:504][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.11.02-00.32.57:504][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.11.02-00.32.57:504][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.11.02-00.32.57:504][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.11.02-00.32.57:504][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.11.02-00.32.57:505][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.11.02-00.32.57:505][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.11.02-00.32.57:505][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.11.02-00.32.57:505][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.11.02-00.32.57:505][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.11.02-00.32.57:505][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.11.02-00.32.57:505][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.11.02-00.32.57:505][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.11.02-00.32.57:505][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.11.02-00.32.57:505][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.11.02-00.32.57:505][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Abdi/Desktop/Projects/SU/Proj/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.11.02-00.32.57:505][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.11.02-00.32.57:505][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.11.02-00.32.57:505][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.11.02-00.32.57:505][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.11.02-00.32.57:505][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.11.02-00.32.57:505][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.11.02-00.32.57:505][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.11.02-00.32.57:505][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.11.02-00.32.57:505][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.11.02-00.32.57:505][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Abdi/Desktop/Projects/SU/Proj/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.11.02-00.32.57:505][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.11.02-00.32.57:505][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.11.02-00.32.57:505][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.11.02-00.32.57:505][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.11.02-00.32.57:505][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.11.02-00.32.57:505][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.11.02-00.32.57:505][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.11.02-00.32.57:505][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.11.02-00.32.57:505][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.11.02-00.32.57:505][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.11.02-00.32.57:505][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.11.02-00.32.57:505][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.11.02-00.32.57:505][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.11.02-00.32.57:505][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.11.02-00.32.57:505][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.11.02-00.32.57:505][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.11.02-00.32.57:505][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.11.02-00.32.57:505][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.11.02-00.32.57:505][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.11.02-00.32.57:505][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.11.02-00.32.57:505][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.11.02-00.32.57:505][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.11.02-00.32.57:505][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.11.02-00.32.57:505][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.11.02-00.32.57:505][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.11.02-00.32.57:505][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.11.02-00.32.57:505][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Abdi/Desktop/Projects/SU/Proj/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.11.02-00.32.57:505][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.11.02-00.32.57:505][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.11.02-00.32.57:505][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Abdi/Desktop/Projects/SU/Proj/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.11.02-00.32.57:505][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.11.02-00.32.57:505][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.11.02-00.32.57:505][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.11.02-00.32.57:505][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.11.02-00.32.57:505][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.11.02-00.32.57:505][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.11.02-00.32.57:505][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.11.02-00.32.57:506][  0]LogInit: Selected Device Profile: [Windows]
+[2020.11.02-00.32.57:506][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.11.02-00.32.57:507][  0]LogHAL: Display: Platform has ~ 8 GB [8515862528 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.11.02-00.32.57:507][  0]LogInit: Going up to parent DeviceProfile []
+[2020.11.02-00.32.57:507][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Abdi/Desktop/Projects/SU/Proj/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.11.02-00.32.57:507][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.11.02-00.32.57:507][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.11.02-00.32.57:507][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Abdi/Desktop/Projects/SU/Proj/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.11.02-00.32.57:507][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.11.02-00.32.57:507][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Abdi/Desktop/Projects/SU/Proj/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.11.02-00.32.57:507][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.11.02-00.32.57:507][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.11.02-00.32.57:507][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.11.02-00.32.57:507][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.11.02-00.32.57:507][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.11.02-00.32.57:507][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.11.02-00.32.57:507][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.11.02-00.32.57:507][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.11.02-00.32.57:507][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.11.02-00.32.57:507][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.11.02-00.32.57:507][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.11.02-00.32.57:507][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.11.02-00.32.57:507][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.11.02-00.32.57:507][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.11.02-00.32.57:507][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.11.02-00.32.57:507][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.11.02-00.32.57:507][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.11.02-00.32.57:507][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.11.02-00.32.57:507][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Abdi/Desktop/Projects/SU/Proj/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.11.02-00.32.57:508][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.11.02-00.32.57:508][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.11.02-00.32.57:508][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.11.02-00.32.57:508][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.11.02-00.32.57:508][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.11.02-00.32.57:508][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.11.02-00.32.57:508][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.11.02-00.32.57:508][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.11.02-00.32.57:508][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.11.02-00.32.57:508][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.11.02-00.32.57:508][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.11.02-00.32.57:508][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.11.02-00.32.57:508][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.11.02-00.32.57:508][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.11.02-00.32.57:508][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.11.02-00.32.57:508][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.11.02-00.32.57:508][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.11.02-00.32.57:508][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.11.02-00.32.57:508][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.11.02-00.32.57:508][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.11.02-00.32.57:508][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.11.02-00.32.57:508][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.11.02-00.32.57:508][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.11.02-00.32.57:508][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.11.02-00.32.57:508][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.11.02-00.32.57:508][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.11.02-00.32.57:508][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.11.02-00.32.57:508][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.11.02-00.32.57:508][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.11.02-00.32.57:508][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.11.02-00.32.57:508][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Abdi/Desktop/Projects/SU/Proj/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.11.02-00.32.57:508][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.11.02-00.32.57:508][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.11.02-00.32.57:508][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.11.02-00.32.57:508][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.11.02-00.32.57:508][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.11.02-00.32.57:508][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.11.02-00.32.57:508][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.11.02-00.32.57:508][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.11.02-00.32.57:508][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.11.02-00.32.57:508][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Abdi/Desktop/Projects/SU/Proj/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.11.02-00.32.57:508][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.11.02-00.32.57:508][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.11.02-00.32.57:508][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.11.02-00.32.57:508][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.11.02-00.32.57:508][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.11.02-00.32.57:508][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.11.02-00.32.57:508][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.11.02-00.32.57:508][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.11.02-00.32.57:508][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.11.02-00.32.57:508][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.11.02-00.32.57:508][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.11.02-00.32.57:508][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.11.02-00.32.57:508][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.11.02-00.32.57:508][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.11.02-00.32.57:508][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.11.02-00.32.57:508][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.11.02-00.32.57:508][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.11.02-00.32.57:508][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.11.02-00.32.57:508][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.11.02-00.32.57:508][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.11.02-00.32.57:508][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.11.02-00.32.57:508][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.11.02-00.32.57:508][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.11.02-00.32.57:508][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.11.02-00.32.57:508][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.11.02-00.32.57:508][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.11.02-00.32.57:508][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Abdi/Desktop/Projects/SU/Proj/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.11.02-00.32.57:508][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.11.02-00.32.57:508][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.11.02-00.32.57:508][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Abdi/Desktop/Projects/SU/Proj/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.11.02-00.32.57:508][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.11.02-00.32.57:508][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.11.02-00.32.57:508][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.11.02-00.32.57:508][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.11.02-00.32.57:508][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.11.02-00.32.57:509][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.11.02-00.32.57:509][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.11.02-00.32.57:509][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.11.02-00.32.57:509][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.11.02-00.32.57:509][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.11.02-00.32.57:509][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.11.02-00.32.57:509][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Abdi/Desktop/Projects/SU/Proj/HideNSneakUnreal/Saved/Config/Windows/Engine.ini]
+[2020.11.02-00.32.57:510][  0]LogInit: Computer: DESKTOP-NERU82J
+[2020.11.02-00.32.57:510][  0]LogInit: User: Abdi
+[2020.11.02-00.32.57:510][  0]LogInit: CPU Page size=4096, Cores=6
+[2020.11.02-00.32.57:510][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.11.02-00.32.57:511][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2020.11.02-00.32.57:511][  0]LogMemory: Platform Memory Stats for Windows
+[2020.11.02-00.32.57:511][  0]LogMemory: Process Physical Memory: 121.91 MB used, 121.92 MB peak
+[2020.11.02-00.32.57:511][  0]LogMemory: Process Virtual Memory: 99.79 MB used, 99.79 MB peak
+[2020.11.02-00.32.57:511][  0]LogMemory: Physical Memory: 5538.65 MB used,  2582.71 MB free, 8121.36 MB total
+[2020.11.02-00.32.57:511][  0]LogMemory: Virtual Memory: 5230.96 MB used,  134212496.00 MB free, 134217728.00 MB total
+[2020.11.02-00.32.57:518][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.11.02-00.32.57:628][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.11.02-00.32.57:632][  0]LogInit: Using OS detected language (sv-SE).
+[2020.11.02-00.32.57:632][  0]LogInit: Using OS detected locale (sv-SE).
+[2020.11.02-00.32.57:669][  0]LogTextLocalizationManager: No localization for 'sv-SE' exists, so 'en' will be used for the language.
+[2020.11.02-00.32.57:941][  0]LogInit: Setting process to per monitor DPI aware
+[2020.11.02-00.32.58:045][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.11.02-00.32.58:045][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.11.02-00.32.58:405][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.11.02-00.32.58:405][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.11.02-00.32.58:405][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.11.02-00.32.58:405][  0]LogD3D11RHI: D3D11 adapters:
+[2020.11.02-00.32.58:469][  0]LogD3D11RHI:    0. 'Radeon RX 580 Series' (Feature Level 11_0)
+[2020.11.02-00.32.58:469][  0]LogD3D11RHI:       8171/0/4060 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2020.11.02-00.32.58:472][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.11.02-00.32.58:472][  0]LogD3D11RHI:       0/0/4060 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.11.02-00.32.58:472][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.11.02-00.32.58:485][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.11.02-00.32.58:485][  0]LogD3D11RHI:     GPU DeviceId: 0x67df (for the marketing name, search the web for "GPU Device Id")
+[2020.11.02-00.32.58:485][  0]LogWindows: EnumDisplayDevices:
+[2020.11.02-00.32.58:485][  0]LogWindows:    0. 'Radeon RX 580 Series' (P:1 D:1)
+[2020.11.02-00.32.58:486][  0]LogWindows:    1. 'Radeon RX 580 Series' (P:0 D:0)
+[2020.11.02-00.32.58:486][  0]LogWindows:    2. 'Radeon RX 580 Series' (P:0 D:0)
+[2020.11.02-00.32.58:486][  0]LogWindows:    3. 'Radeon RX 580 Series' (P:0 D:0)
+[2020.11.02-00.32.58:487][  0]LogWindows:    4. 'Radeon RX 580 Series' (P:0 D:0)
+[2020.11.02-00.32.58:487][  0]LogWindows:    5. 'Radeon RX 580 Series' (P:0 D:0)
+[2020.11.02-00.32.58:488][  0]LogWindows:    6. 'Radeon RX 580 Series' (P:0 D:0)
+[2020.11.02-00.32.58:488][  0]LogWindows:    7. 'Radeon RX 580 Series' (P:0 D:0)
+[2020.11.02-00.32.58:488][  0]LogWindows: DebugString: FoundDriverCount:8 
+[2020.11.02-00.32.58:488][  0]LogD3D11RHI:     Adapter Name: Radeon RX 580 Series
+[2020.11.02-00.32.58:488][  0]LogD3D11RHI:   Driver Version: Adrenalin 2020 20.4.2 (internal:26.20.15029.27017, unified:26.20.15029.27017)
+[2020.11.02-00.32.58:488][  0]LogD3D11RHI:      Driver Date: 5-15-2020
+[2020.11.02-00.32.58:489][  0]LogRHI: Texture pool is 5182 MB (70% of 7403 MB)
+[2020.11.02-00.32.58:575][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.11.02-00.32.58:575][  0]LogD3D11RHI: Async texture creation enabled
+[2020.11.02-00.32.58:575][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.11.02-00.32.58:617][  0]LogD3D11RHI: GPU Timing Frequency: 25.000000 (Debug: 2 1)
+[2020.11.02-00.32.58:993][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.11.02-00.32.59:028][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.11.02-00.32.59:028][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.11.02-00.32.59:028][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.11.02-00.32.59:028][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.11.02-00.32.59:028][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.11.02-00.32.59:028][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.11.02-00.32.59:028][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.11.02-00.32.59:028][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.11.02-00.32.59:028][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.11.02-00.32.59:028][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.11.02-00.32.59:066][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.11.02-00.32.59:066][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.11.02-00.32.59:080][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.11.02-00.32.59:094][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.11.02-00.32.59:107][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.11.02-00.32.59:119][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.11.02-00.32.59:133][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.11.02-00.32.59:146][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.11.02-00.32.59:159][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.11.02-00.32.59:195][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.11.02-00.32.59:195][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.11.02-00.32.59:223][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.11.02-00.32.59:223][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.11.02-00.32.59:240][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.11.02-00.32.59:260][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.11.02-00.32.59:281][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.11.02-00.32.59:295][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.11.02-00.32.59:295][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.11.02-00.32.59:313][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.11.02-00.32.59:461][  0]LogShaderCompilers: Guid format shader working directory is -26 characters bigger than the processId version (../../../../../../Users/Abdi/Desktop/Projects/SU/Proj/HideNSneakUnreal/Intermediate/Shaders/WorkingDirectory/17368/).
+[2020.11.02-00.32.59:462][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Abdi/AppData/Local/Temp/UnrealShaderWorkingDir/A87084E04FCAA87833204BB35BC4FE6D/'.
+[2020.11.02-00.32.59:464][  0]LogXGEController: Cleaning working directory: C:/Users/Abdi/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.11.02-00.32.59:464][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.11.02-00.32.59:464][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.11.02-00.32.59:464][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.11.02-00.33.00:517][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.11.02-00.33.00:602][  0]LogDerivedDataCache: Loaded boot cache 0.08s 76MB C:/Users/Abdi/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.11.02-00.33.00:602][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Abdi/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.11.02-00.33.00:602][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Abdi/Desktop/Projects/SU/Proj/HideNSneakUnreal/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.11.02-00.33.00:602][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.11.02-00.33.00:602][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Abdi/Desktop/Projects/SU/Proj/HideNSneakUnreal/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.11.02-00.33.00:602][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.11.02-00.33.00:615][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.11.02-00.33.00:615][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.11.02-00.33.00:615][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.11.02-00.33.00:618][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Abdi/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.11.02-00.33.00:618][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.11.02-00.33.00:618][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.11.02-00.33.00:689][  0]LogSlate: Using FreeType 2.10.0
+[2020.11.02-00.33.00:692][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.11.02-00.33.00:738][  0]LogAssetRegistry: FAssetRegistry took 0.0054 seconds to start up
+[2020.11.02-00.33.01:231][  0]LogInit: Selected Device Profile: [Windows]
+[2020.11.02-00.33.01:436][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.11.02-00.33.01:436][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.11.02-00.33.01:436][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.11.02-00.33.01:436][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.11.02-00.33.01:436][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.11.02-00.33.01:483][  0]LogNetVersion: HideNSneakUnreal 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 3367979030)
+[2020.11.02-00.33.02:251][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000001D35E1C0340), frame # 0
+[2020.11.02-00.33.02:252][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001D35E0FAAC0), frame # 0
+[2020.11.02-00.33.02:255][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001D35E145E00), frame # 0
+[2020.11.02-00.33.02:346][  0]LogPackageLocalizationCache: Processed 20 localized package path(s) for 1 prioritized culture(s) in 0.070926 seconds
+[2020.11.02-00.33.02:355][  0]LogUObjectArray: 15925 objects as part of root set at end of initial load.
+[2020.11.02-00.33.02:355][  0]LogUObjectAllocator: 3977056 out of 0 bytes used by permanent object pool.
+[2020.11.02-00.33.02:355][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.11.02-00.33.03:298][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.11.02-00.33.03:310][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.11.02-00.33.03:530][  0]SourceControl: Source control is disabled
+[2020.11.02-00.33.03:530][  0]SourceControl: Source control is disabled
+[2020.11.02-00.33.03:542][  0]SourceControl: Source control is disabled
+[2020.11.02-00.33.03:549][  0]SourceControl: Source control is disabled
+[2020.11.02-00.33.03:563][  0]SourceControl: Source control is disabled
+[2020.11.02-00.33.04:157][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.11.02-00.33.04:200][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.11.02-00.33.04:200][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.11.02-00.33.04:306][  0]LogOcInput: OculusInput pre-init called
+[2020.11.02-00.33.04:332][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.11.02-00.33.04:332][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.11.02-00.33.04:496][  0]LogEngine: Initializing Engine...
+[2020.11.02-00.33.04:499][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.11.02-00.33.04:499][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.11.02-00.33.04:503][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.001 s
+[2020.11.02-00.33.04:755][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.11.02-00.33.04:790][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.11.02-00.33.04:790][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001D3679F3C00), frame # 0
+[2020.11.02-00.33.04:790][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001D3679EFB00), frame # 0
+[2020.11.02-00.33.04:806][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.02-00.33.04:806][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.02-00.33.04:806][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.02-00.33.04:806][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.02-00.33.04:806][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.02-00.33.04:806][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.02-00.33.04:806][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.02-00.33.04:807][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.02-00.33.04:808][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.02-00.33.04:808][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.02-00.33.04:832][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.02-00.33.04:832][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.11.02-00.33.04:919][  0]LogAudioMixer: Display: Using Audio Device Högtalare (Realtek(R) Audio)
+[2020.11.02-00.33.04:925][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.02-00.33.04:930][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.02-00.33.04:930][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.02-00.33.04:933][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.02-00.33.04:935][  0]LogInit: FAudioDevice initialized.
+[2020.11.02-00.33.04:936][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.11.02-00.33.05:026][  0]LogDerivedDataCache: Saved boot cache 0.09s 76MB C:/Users/Abdi/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.11.02-00.33.05:027][  0]LogInit: Texture streaming: Enabled
+[2020.11.02-00.33.05:065][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.11.02-00.33.05:065][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.11.02-00.33.05:068][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.11.02-00.33.05:153][  0]LogInit: Transaction tracking system initialized
+[2020.11.02-00.33.05:212][  0]BlueprintLog: New page: Editor Load
+[2020.11.02-00.33.05:426][  0]LocalizationService: Localization service is disabled
+[2020.11.02-00.33.05:787][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.11.02-00.33.05:787][  0]LogCook: Display: Mobile HDR setting 1
+[2020.11.02-00.33.06:110][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Abdi/Desktop/Projects/SU/Proj/HideNSneakUnreal/Content/' took 0.01s
+[2020.11.02-00.33.06:441][  0]SourceControl: Source control is disabled
+[2020.11.02-00.33.06:442][  0]LogUnrealEdMisc: Loading editor; pre map load, took 85.717
+[2020.11.02-00.33.06:443][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Abdi/Desktop/Projects/SU/Proj/HideNSneakUnreal/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.11.02-00.33.06:444][  0]LightingResults: New page: Lighting Build
+[2020.11.02-00.33.06:449][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.11.02-00.33.06:450][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.02-00.33.06:450][  0]MapCheck: New page: Map Check
+[2020.11.02-00.33.06:451][  0]LightingResults: New page: Lighting Build
+[2020.11.02-00.33.06:471][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001D3679F3C00), frame # 0
+[2020.11.02-00.33.06:471][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001D3679EFB00), frame # 0
+[2020.11.02-00.33.06:472][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2020.11.02-00.33.06:645][  0]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR
+[2020.11.02-00.33.06:954][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.11.02-00.33.06:954][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001D355E13E00), frame # 0
+[2020.11.02-00.33.06:955][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001D355DC3B00), frame # 0
+[2020.11.02-00.33.06:990][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.11.02-00.33.07:063][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2020.11.02-00.33.07:065][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.11.02-00.33.07:066][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,667ms to complete.
+[2020.11.02-00.33.07:066][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.624
+[2020.11.02-00.33.07:093][  0]LogUnrealEdMisc: Total Editor Startup Time, took 86.370
+[2020.11.02-00.33.07:262][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.02-00.33.07:274][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.02-00.33.07:285][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.02-00.33.07:297][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.02-00.33.07:315][  0]LogCollectionManager: Loaded 0 collections in 0.002445 seconds
+[2020.11.02-00.33.07:360][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Abdi/Desktop/Projects/SU/Proj/HideNSneakUnreal/Saved/Collections/' took 0.00s
+[2020.11.02-00.33.07:361][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Abdi/Desktop/Projects/SU/Proj/HideNSneakUnreal/Content/Developers/Abdi/Collections/' took 0.00s
+[2020.11.02-00.33.07:361][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Abdi/Desktop/Projects/SU/Proj/HideNSneakUnreal/Content/Collections/' took 0.00s
+[2020.11.02-00.33.07:361][  0]LogContentBrowser: Native class hierarchy populated in 0.0191 seconds. Added 3464 classes and 839 folders.
+[2020.11.02-00.33.07:371][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2020.11.02-00.33.07:599][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2020.11.02-00.33.07:604][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 2 classes and 0 folders.
+[2020.11.02-00.33.07:804][  0]LogSlate: Took 0.000713 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.11.02-00.33.07:808][  0]LogSlate: Took 0.000768 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.11.02-00.33.07:819][  0]LogSlate: Took 0.001137 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.11.02-00.33.07:932][  0]LogRenderer: Reallocating scene render targets to support 1236x668 Format 10 NumSamples 1 (Frame:1).
+[2020.11.02-00.33.08:064][  0]LogSlate: Took 0.001530 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.11.02-00.33.08:189][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2020.11.02-00.33.08:189][  0]LogLoad: (Engine Initialization) Total time: 87.46 seconds
+[2020.11.02-00.33.08:189][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.11.02-00.33.08:258][  0]LogAssetRegistry: Asset discovery search completed in 7.5224 seconds
+[2020.11.02-00.33.08:265][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
+[2020.11.02-00.33.08:273][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.11.02-00.33.08:338][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Abdi/Desktop/Projects/SU/Proj/HideNSneakUnreal/Content/' took 0.13s
+[2020.11.02-00.33.10:418][211]LogSlate: Took 0.000183 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.11.02-00.33.10:431][211]LogAssetEditorSubsystem: Opening Asset editor for Class /Script/HideNSneakUnreal.CPP_Character
+[2020.11.02-00.33.10:435][211]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2020.11.02-00.33.10:444][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:445][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:445][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:445][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:445][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:445][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:445][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:445][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:445][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:445][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:445][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:445][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:445][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:446][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:446][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:446][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:446][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:446][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:446][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:446][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:446][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:446][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:446][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:446][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:446][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:447][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:447][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:447][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:447][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:447][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:447][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:447][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:447][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:447][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:447][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:447][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:447][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:448][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:448][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:448][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:448][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:448][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:448][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:448][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:448][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:448][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:448][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:448][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:448][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:449][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:449][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:449][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:449][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:449][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:449][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:449][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:449][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:449][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:449][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:449][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:449][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:449][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:450][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:450][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:450][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:450][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:450][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:450][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:450][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:450][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:450][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:450][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:450][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:450][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:451][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:451][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:451][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:451][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:451][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:451][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:451][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:451][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:451][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:451][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:451][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:452][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:452][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:452][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:452][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:452][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:452][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:452][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:452][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:452][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:452][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:452][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:452][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:453][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:453][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:453][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:453][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:453][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:453][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:453][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:453][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:453][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:453][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:453][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:455][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:456][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:457][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:457][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:457][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:492][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:494][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:504][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:504][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:510][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:515][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:516][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:521][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:531][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:533][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:533][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:533][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:535][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:535][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:541][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:541][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:545][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:546][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:548][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:548][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:548][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:548][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:548][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:549][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:549][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:549][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:549][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:549][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:549][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:549][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:549][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:549][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:549][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:549][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:549][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:550][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:550][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:550][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:550][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:550][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:550][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:550][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:550][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:550][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:550][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:551][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:551][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:551][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:551][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:551][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:551][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:551][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:551][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:551][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:551][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:551][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:551][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:552][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:552][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:552][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:552][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:552][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:552][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:552][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:552][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:552][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:552][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:552][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:552][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:553][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:553][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:553][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:553][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:553][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:553][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:553][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:553][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:553][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:553][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:553][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:553][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:554][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:554][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:554][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:554][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:554][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:554][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:554][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:554][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:554][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:554][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:554][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:554][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:555][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:555][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:555][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:555][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:555][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:555][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:555][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:555][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:555][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:555][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:555][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:555][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:556][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:556][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:556][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:556][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:556][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:556][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:556][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:556][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:556][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:556][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:556][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:556][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:557][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:557][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:557][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:557][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:557][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:557][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:557][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:557][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:557][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:559][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:560][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:560][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:560][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:560][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:584][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:586][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:596][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:597][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:603][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:607][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:608][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:613][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:623][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:625][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:625][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:625][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:627][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:627][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:633][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:633][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:637][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.10:638][211]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:056][336]LogAssetEditorSubsystem: Opening Asset editor for Class /Script/HideNSneakUnreal.CPP_Powerup
+[2020.11.02-00.33.12:057][336]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2020.11.02-00.33.12:067][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:067][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:067][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:067][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:067][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:067][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:067][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:067][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:068][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:068][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:068][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:068][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:068][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:068][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:068][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:068][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:068][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:068][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:068][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:068][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:069][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:069][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:069][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:069][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:069][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:069][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:069][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:069][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:069][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:069][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:069][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:069][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:069][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:070][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:070][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:070][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:070][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:070][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:070][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:070][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:070][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:070][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:070][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:070][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:070][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:071][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:071][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:071][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:071][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:071][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:071][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:071][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:071][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:071][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:071][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:072][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:072][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:072][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:072][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:072][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:072][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:072][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:072][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:072][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:072][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:072][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:072][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:073][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:073][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:073][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:073][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:073][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:073][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:073][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:073][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:073][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:073][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:073][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:073][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:074][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:074][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:074][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:074][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:074][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:074][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:074][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:074][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:074][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:074][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:074][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:074][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:075][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:075][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:075][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:075][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:075][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:075][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:075][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:075][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:075][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:075][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:075][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:075][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:076][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:076][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:076][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:076][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:076][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:077][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:078][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:079][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:079][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:079][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:103][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:105][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:115][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:116][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:122][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:126][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:127][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:132][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:142][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:144][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:144][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:144][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:146][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:146][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:152][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:153][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:157][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:157][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:159][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:160][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:160][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:160][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:160][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:160][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:160][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:160][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:160][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:160][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:160][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:160][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:160][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:161][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:161][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:161][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:161][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:161][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:161][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:161][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:161][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:161][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:161][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:161][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:162][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:162][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:162][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:162][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:162][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:162][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:162][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:162][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:162][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:162][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:162][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:162][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:163][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:163][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:163][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:163][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:163][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:163][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:163][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:163][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:163][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:163][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:163][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:163][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:164][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:164][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:164][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:164][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:164][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:164][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:164][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:164][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:164][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:164][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:164][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:164][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:165][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:165][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:165][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:165][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:165][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:165][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:165][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:165][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:165][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:165][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:165][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:165][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:166][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:166][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:166][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:166][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:166][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:166][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:166][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:166][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:166][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:166][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:166][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:166][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:166][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:167][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:167][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:167][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:167][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:167][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:167][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:167][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:167][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:167][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:167][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:167][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:168][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:168][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:168][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:168][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:168][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:168][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:168][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:168][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:168][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:168][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:168][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:168][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:170][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:171][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:172][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:172][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:172][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:195][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:198][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:208][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:208][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:214][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:218][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:220][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:225][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:235][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:237][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:237][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:237][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:239][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:239][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:245][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:246][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:250][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.12:250][336]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:080][396]LogAssetEditorSubsystem: Opening Asset editor for Class /Script/HideNSneakUnreal.CPP_Powerup
+[2020.11.02-00.33.13:081][396]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2020.11.02-00.33.13:089][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:089][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:089][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:089][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:089][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:089][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:089][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:090][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:090][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:090][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:090][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:090][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:090][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:090][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:090][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:090][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:090][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:090][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:090][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:091][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:091][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:091][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:091][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:091][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:091][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:091][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:091][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:091][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:091][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:091][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:091][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:092][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:092][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:092][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:092][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:092][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:092][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:092][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:092][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:092][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:092][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:092][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:092][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:093][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:093][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:093][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:093][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:093][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:093][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:093][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:093][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:093][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:093][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:093][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:093][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:094][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:094][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:094][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:094][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:094][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:094][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:094][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:094][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:094][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:094][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:094][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:094][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:095][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:095][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:095][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:095][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:095][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:095][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:095][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:095][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:095][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:095][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:095][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:095][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:096][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:096][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:096][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:096][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:096][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:096][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:096][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:096][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:096][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:096][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:096][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:096][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:097][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:097][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:097][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:097][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:097][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:097][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:097][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:097][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:097][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:097][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:097][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:097][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:098][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:098][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:098][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:098][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:098][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:099][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:100][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:101][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:101][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:101][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:125][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:127][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:138][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:138][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:144][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:148][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:149][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:154][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:164][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:166][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:166][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:166][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:168][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:168][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:174][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:174][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:178][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:179][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:181][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:181][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:181][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:181][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:181][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:181][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:181][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:181][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:182][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:182][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:182][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:182][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:182][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:182][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:182][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:182][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:182][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:182][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:182][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:182][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:183][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:183][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:183][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:183][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:183][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:183][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:183][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:183][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:183][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:183][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:183][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:183][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:184][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:184][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:184][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:184][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:184][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:184][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:184][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:184][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:184][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:184][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:184][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:185][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:185][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:185][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:185][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:185][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:185][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:185][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:185][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:185][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:185][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:185][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:185][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:186][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:186][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:186][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:186][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:186][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:186][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:186][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:186][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:186][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:186][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:186][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:186][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:187][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:187][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:187][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:187][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:187][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:187][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:187][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:187][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:187][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:187][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:187][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:187][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:188][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:188][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:188][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:188][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:188][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:188][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:188][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:188][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:188][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:188][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:188][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:188][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:189][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:189][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:189][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:189][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:189][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:189][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:189][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:189][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:189][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:189][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:189][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:189][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:190][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:190][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:190][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:190][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:190][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:191][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:192][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:193][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:193][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:193][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:217][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:219][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:229][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:229][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:237][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:241][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:243][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:248][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:258][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:259][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:260][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:260][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:262][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:262][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:267][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:268][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:272][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.33.13:272][396]LogVSAccessor: Warning: Couldn't access module table
+[2020.11.02-00.34.37:355][348]LogEditor: Attempting to add actor of class 'CPP_Powerup' to level at -250.00,790.00,130.00
+[2020.11.02-00.34.38:281][385]LogEditor: Attempting to add actor of class 'CPP_Powerup' to level at -420.00,550.00,130.00
+[2020.11.02-00.34.41:976][552]LogTemp: Repeating last play command: Selected Viewport
+[2020.11.02-00.34.42:014][552]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.02-00.34.42:020][552]PIE: New page: PIE session: ThirdPersonExampleMap (2 nov. 2020 02:34:42)
+[2020.11.02-00.34.42:029][552]LogOnline: OSS: Creating online subsystem instance for: Steam
+[2020.11.02-00.34.42:029][552]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2020.11.02-00.34.42:029][552]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.11.02-00.34.42:033][552]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.11.02-00.34.42:035][552]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.11.02-00.34.42:086][552]LogPlayLevel: PIE: StaticDuplicateObject took: (0.050847s)
+[2020.11.02-00.34.42:090][552]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.11.02-00.34.42:091][552]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001D31A1BBE00), frame # 1552
+[2020.11.02-00.34.42:091][552]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001D35D7CF240), frame # 1552
+[2020.11.02-00.34.42:091][552]LogPlayLevel: PIE: World Init took: (0.004941s)
+[2020.11.02-00.34.42:091][552]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.056301s)
+[2020.11.02-00.34.42:109][552]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2020.11.02-00.34.42:117][552]LogLoad: Game class is 'GameInstance_C'
+[2020.11.02-00.34.42:132][552]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.11.02-01.34.42
+[2020.11.02-00.34.42:134][552]LogWorld: Bringing up level for play took: 0.008053
+[2020.11.02-00.34.42:140][552]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2020.11.02-00.34.42:140][552]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2020.11.02-00.34.42:142][552]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2020.11.02-00.34.42:143][552]LogNet: Created socket for bind address: 0.0.0.0 on port 17777
+[2020.11.02-00.34.42:143][552]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.11.02-00.34.42:145][552]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 17777
+[2020.11.02-00.34.42:145][552]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2020.11.02-00.34.42:150][552]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2020.11.02-00.34.42:152][552]PIE: Server logged in
+[2020.11.02-00.34.42:153][552]PIE: Play in editor total start time 0,144 seconds.
+[2020.11.02-00.34.42:153][552]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap
+[2020.11.02-00.34.42:187][552]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034087s)
+[2020.11.02-00.34.42:190][552]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.11.02-00.34.42:190][552]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001D31A49C800), frame # 1552
+[2020.11.02-00.34.42:190][552]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001D367BFF100), frame # 1552
+[2020.11.02-00.34.42:191][552]LogPlayLevel: PIE: World Init took: (0.003679s)
+[2020.11.02-00.34.42:191][552]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap (0.038171s)
+[2020.11.02-00.34.42:209][552]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2020.11.02-00.34.42:213][552]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.02-00.34.42:213][552]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.02-00.34.42:213][552]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.02-00.34.42:213][552]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.02-00.34.42:213][552]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.02-00.34.42:213][552]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.02-00.34.42:213][552]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.02-00.34.42:213][552]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.02-00.34.42:214][552]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.02-00.34.42:214][552]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.02-00.34.42:221][552]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.02-00.34.42:221][552]LogAudioMixer: Display: 1: FrontRight
+[2020.11.02-00.34.42:311][552]LogAudioMixer: Display: Using Audio Device Högtalare (Realtek(R) Audio)
+[2020.11.02-00.34.42:311][552]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.02-00.34.42:311][552]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.02-00.34.42:311][552]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.02-00.34.42:313][552]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.02-00.34.42:342][552]LogInit: FAudioDevice initialized.
+[2020.11.02-00.34.42:358][552]LogLoad: Game class is 'GameInstance_C'
+[2020.11.02-00.34.42:364][552]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.11.02-01.34.42
+[2020.11.02-00.34.42:365][552]LogWorld: Bringing up level for play took: 0.005135
+[2020.11.02-00.34.42:366][552]LogOnline: OSS: Creating online subsystem instance for: :Context_3
+[2020.11.02-00.34.42:386][552]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0014 seconds. Added 20 classes and 0 folders.
+[2020.11.02-00.34.42:387][552]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2020.11.02-00.34.42:387][552]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2020.11.02-00.34.42:387][552]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2020.11.02-00.34.42:389][552]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2020.11.02-00.34.42:389][552]PIE: Server logged in
+[2020.11.02-00.34.42:392][552]PIE: Play in editor total start time 0,383 seconds.
+[2020.11.02-00.34.42:404][552]LogOnline: OSS: Creating online subsystem instance for: :Context_2
+[2020.11.02-00.34.46:846][745]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.02-00.34.46:847][745]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap
+[2020.11.02-00.34.46:848][745]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.11.02-00.34.46:850][745]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.02-00.34.46:871][745]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.11.02-00.34.46:871][745]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.11.02-00.34.46:873][745]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.02-00.34.46:873][745]LogNet: World NetDriver shutdown IpNetDriver_0 [GameNetDriver]
+[2020.11.02-00.34.46:873][745]LogNet: DestroyNamedNetDriver IpNetDriver_0 [GameNetDriver]
+[2020.11.02-00.34.46:874][745]LogExit: GameNetDriver IpNetDriver_0 shut down
+[2020.11.02-00.34.46:876][745]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.02-00.34.46:881][745]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.02-00.34.46:900][745]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.02-00.34.46:970][745]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001D367BFF100), frame # 1745
+[2020.11.02-00.34.46:970][745]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001D31A49C800), frame # 1745
+[2020.11.02-00.34.46:972][745]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001D35D7CF240), frame # 1745
+[2020.11.02-00.34.46:972][745]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001D31A1BBE00), frame # 1745
+[2020.11.02-00.34.46:976][745]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2020.11.02-00.34.47:063][746]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2020.11.02-00.34.47:063][746]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2020.11.02-00.34.48:448][831]LogEditorViewport: Clicking on Actor (LMB): CPP_Powerup (CPP_Powerup1)
+[2020.11.02-00.34.55:570][112]LogSlate: Took 0.001608 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.11.02-00.35.00:979][145]LogSlate: Window 'Create Blueprint From Selection' being destroyed
+[2020.11.02-00.35.03:455][255]LogSlate: WidgetSwitcher ('None') active index changed to -1
+[2020.11.02-00.35.03:456][255]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2020.11.02-00.35.03:498][255]LogSlate: Took 0.001431 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.11.02-00.35.14:308][696]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2020.11.02-00.35.25:279][199]Running C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="C:/Users/Abdi/Desktop/Projects/SU/Proj/HideNSneakUnreal/HideNSneakUnreal.uproject" -game -rocket -progress
+[2020.11.02-00.35.26:092][199]Discovering modules, targets and source code for project...
+[2020.11.02-00.35.31:849][199]Binding IntelliSense data...
+[2020.11.02-00.35.36:506][199]Binding IntelliSense data... 100%
+[2020.11.02-00.35.36:506][199]Writing project files...
+[2020.11.02-00.35.43:781][199]Writing project files... 100%
+[2020.11.02-00.35.43:986][199]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2020.11.02-00.35.43:992][199]Candidate modules for hot reload:
+[2020.11.02-00.35.43:992][199]  HideNSneakUnreal
+[2020.11.02-00.35.43:992][199]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=HideNSneakUnreal,3284 HideNSneakUnrealEditor Win64 Development -Project="C:/Users/Abdi/Desktop/Projects/SU/Proj/HideNSneakUnreal/HideNSneakUnreal.uproject" "C:/Users/Abdi/Desktop/Projects/SU/Proj/HideNSneakUnreal/HideNSneakUnreal.uproject"  -IgnoreJunk]
+[2020.11.02-00.36.01:891][199]CompilerResultsLog: New page: Compilation - 2 nov. 2020 02:36:01
+[2020.11.02-00.36.01:892][199]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Abdi\Desktop\Projects\SU\Proj).
+[2020.11.02-00.36.01:892][199]CompilerResultsLog: Creating makefile for HideNSneakUnrealEditor (no existing makefile)
+[2020.11.02-00.36.01:892][199]CompilerResultsLog: Parsing headers for HideNSneakUnrealEditor
+[2020.11.02-00.36.01:892][199]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Abdi\Desktop\Projects\SU\Proj\HideNSneakUnreal\HideNSneakUnreal.uproject" "C:\Users\Abdi\Desktop\Projects\SU\Proj\HideNSneakUnreal\Intermediate\Build\Win64\HideNSneakUnrealEditor\Development\HideNSneakUnrealEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Abdi\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.11.02-00.36.01:892][199]CompilerResultsLog: Reflection code generated for HideNSneakUnrealEditor in 8,6926175 seconds
+[2020.11.02-00.36.01:892][199]CompilerResultsLog: Building HideNSneakUnrealEditor...
+[2020.11.02-00.36.01:892][199]CompilerResultsLog: Using Visual Studio 2019 14.27.29112 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.11.02-00.36.01:892][199]CompilerResultsLog: Building 6 actions with 12 processes...
+[2020.11.02-00.36.01:892][199]CompilerResultsLog:   [1/6] HideNSneakUnreal.init.gen.cpp
+[2020.11.02-00.36.01:892][199]CompilerResultsLog:   [2/6] CPP_SpeedBoost.cpp
+[2020.11.02-00.36.01:892][199]CompilerResultsLog:   [3/6] CPP_SpeedBoost.gen.cpp
+[2020.11.02-00.36.01:892][199]CompilerResultsLog:   [4/6] UE4Editor-HideNSneakUnreal-3284.lib
+[2020.11.02-00.36.01:892][199]CompilerResultsLog:      Creating library C:\Users\Abdi\Desktop\Projects\SU\Proj\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal-3284.lib and object C:\Users\Abdi\Desktop\Projects\SU\Proj\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal-3284.exp
+[2020.11.02-00.36.01:892][199]CompilerResultsLog:   [5/6] UE4Editor-HideNSneakUnreal-3284.dll
+[2020.11.02-00.36.01:892][199]CompilerResultsLog:      Creating library C:\Users\Abdi\Desktop\Projects\SU\Proj\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal-3284.suppressed.lib and object C:\Users\Abdi\Desktop\Projects\SU\Proj\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal-3284.suppressed.exp
+[2020.11.02-00.36.01:892][199]CompilerResultsLog:   [6/6] HideNSneakUnrealEditor.target
+[2020.11.02-00.36.01:892][199]CompilerResultsLog: Total time in Parallel executor: 6,50 seconds
+[2020.11.02-00.36.01:892][199]CompilerResultsLog: Total execution time: 17,79 seconds
+[2020.11.02-00.36.01:892][199]LogMainFrame: MainFrame: Module compiling took 17.906 seconds
+[2020.11.02-00.36.01:904][199]LogClass: Could not find existing class CPP_SpeedBoost in package /Script/HideNSneakUnreal for HotReload, assuming new class
+[2020.11.02-00.36.01:912][199]LogHotReload: Re-instancing CPP_Character after hot-reload.
+[2020.11.02-00.36.01:927][199]LogContentBrowser: Native class hierarchy updated for 'HideNSneakUnreal' in 0.0007 seconds. Added 3 classes and 2 folders.
+[2020.11.02-00.36.01:929][199]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2020.11.02-00.36.02:017][199]LogContentBrowser: Native class hierarchy populated in 0.0176 seconds. Added 3465 classes and 839 folders.
+[2020.11.02-00.36.02:018][199]Display: HotReload took 18.0s.
+[2020.11.02-00.36.02:024][199]Warning: HotReload operation took 18.0s.
+[2020.11.02-00.36.02:265][199]LogSlate: Window 'Add C++ Class' being destroyed
+[2020.11.02-00.36.02:280][199]LogHotReload: New module detected: UE4Editor-HideNSneakUnreal-3284.dll
+[2020.11.02-00.36.02:381][200]LogHotReload: Starting Hot-Reload from IDE
+[2020.11.02-00.36.02:497][200]LogContentBrowser: Native class hierarchy updated for 'HideNSneakUnreal' in 0.0006 seconds. Added 3 classes and 2 folders.
+[2020.11.02-00.36.02:499][200]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.11.02-00.36.02:519][200]LogContentBrowser: Native class hierarchy populated in 0.0130 seconds. Added 3465 classes and 839 folders.
+[2020.11.02-00.36.02:523][200]Display: HotReload took  0.1s.
+[2020.11.02-00.37.06:565][349]LogHotReload: New module detected: UE4Editor-HideNSneakUnreal-0002.dll
+[2020.11.02-00.37.07:594][353]LogHotReload: Starting Hot-Reload from IDE
+[2020.11.02-00.37.07:618][353]LogClass: Could not find existing class CPP_Character in package /Script/HideNSneakUnreal for HotReload, assuming new class
+[2020.11.02-00.37.07:618][353]LogClass: Function OnCrouch is new.
+[2020.11.02-00.37.07:632][353]LogHotReload: Re-instancing CPP_Character after hot-reload.
+[2020.11.02-00.37.07:641][353]LogContentBrowser: Native class hierarchy updated for 'HideNSneakUnreal' in 0.0005 seconds. Added 3 classes and 2 folders.
+[2020.11.02-00.37.07:643][353]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2020.11.02-00.37.07:710][353]LogContentBrowser: Native class hierarchy populated in 0.0186 seconds. Added 3465 classes and 839 folders.
+[2020.11.02-00.37.07:719][353]Display: HotReload took  0.1s.
+[2020.11.02-00.37.51:293][235]LogHotReload: New module detected: UE4Editor-HideNSneakUnreal-0003.dll
+[2020.11.02-00.37.52:033][238]LogHotReload: Starting Hot-Reload from IDE
+[2020.11.02-00.37.52:122][238]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2020.11.02-00.37.52:124][238]LogWindows: Windows GetLastError: Åtgärden har slutförts. (0)
+[2020.11.02-00.37.54:962][238]LogWindows: Error: === Critical error: ===
+[2020.11.02-00.37.54:962][238]LogWindows: Error: 
+[2020.11.02-00.37.54:962][238]LogWindows: Error: Fatal error: [File:D:/Build/++UE4+Licensee/Sync/Engine/Source/Runtime/CoreUObject/Private/UObject/UObjectGlobals.cpp] [Line: 2335] 
+[2020.11.02-00.37.54:963][238]LogWindows: Error: Objects have the same fully qualified name but different paths.
+[2020.11.02-00.37.54:963][238]LogWindows: Error: 	New Object: CPP_Character /Engine/Transient.Default__CPP_Character
+[2020.11.02-00.37.54:963][238]LogWindows: Error: 	Existing Object: HOTRELOADED_CPP_Character_0 /Engine/Transient.Default__CPP_Character
+[2020.11.02-00.37.54:963][238]LogWindows: Error: 
+[2020.11.02-00.37.54:963][238]LogWindows: Error: 
+[2020.11.02-00.37.54:963][238]LogWindows: Error: [Callstack] 0x00007ff863113e49 KERNELBASE.dll!UnknownFunction []
+[2020.11.02-00.37.54:963][238]LogWindows: Error: [Callstack] 0x00007ff837c0e9e6 UE4Editor-Core.dll!UnknownFunction []
+[2020.11.02-00.37.54:963][238]LogWindows: Error: [Callstack] 0x00007ff837c11dc8 UE4Editor-Core.dll!UnknownFunction []
+[2020.11.02-00.37.54:963][238]LogWindows: Error: [Callstack] 0x00007ff83799e53d UE4Editor-Core.dll!UnknownFunction []
+[2020.11.02-00.37.54:963][238]LogWindows: Error: [Callstack] 0x00007ff81fcddffa UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.11.02-00.37.54:963][238]LogWindows: Error: [Callstack] 0x00007ff84dc6460c UE4Editor-HideNSneakUnreal-0003.dll!ACPP_Character::__VTableCtorCaller() [C:\Users\Abdi\Desktop\Projects\SU\Proj\HideNSneakUnreal\Source\HideNSneakUnreal\CPP_Character.h:16]
+[2020.11.02-00.37.54:963][238]LogWindows: Error: [Callstack] 0x00007ff81fa4f2fb UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.11.02-00.37.54:963][238]LogWindows: Error: [Callstack] 0x00007ff81fa4c0ed UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.11.02-00.37.54:963][238]LogWindows: Error: [Callstack] 0x00007ff84dc65c5b UE4Editor-HideNSneakUnreal-0003.dll!ACPP_Character::GetPrivateStaticClass() [C:\Users\Abdi\Desktop\Projects\SU\Proj\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Inc\HideNSneakUnreal\CPP_Character.gen.cpp:160]
+[2020.11.02-00.37.54:963][238]LogWindows: Error: [Callstack] 0x00007ff84dc65aef UE4Editor-HideNSneakUnreal-0003.dll!TClassCompiledInDefer<ACPP_Character>::Register() [C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject\UObjectBase.h:288]
+[2020.11.02-00.37.54:963][238]LogWindows: Error: [Callstack] 0x00007ff81fce64d3 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.11.02-00.37.54:963][238]LogWindows: Error: [Callstack] 0x00007ff81fcc5b9e UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.11.02-00.37.54:963][238]LogWindows: Error: [Callstack] 0x00007ff81fbe43d5 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.11.02-00.37.54:963][238]LogWindows: Error: [Callstack] 0x00007ff8379d987a UE4Editor-Core.dll!UnknownFunction []
+[2020.11.02-00.37.54:963][238]LogWindows: Error: [Callstack] 0x00007ff8379f9a00 UE4Editor-Core.dll!UnknownFunction []
+[2020.11.02-00.37.54:963][238]LogWindows: Error: [Callstack] 0x00007ff8379f8b18 UE4Editor-Core.dll!UnknownFunction []
+[2020.11.02-00.37.54:963][238]LogWindows: Error: [Callstack] 0x00007fffdb5cb9b2 UE4Editor-HotReload.dll!UnknownFunction []
+[2020.11.02-00.37.54:963][238]LogWindows: Error: [Callstack] 0x00007fffdb5cb708 UE4Editor-HotReload.dll!UnknownFunction []
+[2020.11.02-00.37.54:963][238]LogWindows: Error: [Callstack] 0x00007fffdb5dc3e1 UE4Editor-HotReload.dll!UnknownFunction []
+[2020.11.02-00.37.54:963][238]LogWindows: Error: [Callstack] 0x00007ff83775d0a9 UE4Editor-Core.dll!UnknownFunction []
+[2020.11.02-00.37.54:963][238]LogWindows: Error: [Callstack] 0x00007ff6cfcea213 UE4Editor.exe!UnknownFunction []
+[2020.11.02-00.37.54:963][238]LogWindows: Error: [Callstack] 0x00007ff6cfcfba7c UE4Editor.exe!UnknownFunction []
+[2020.11.02-00.37.54:963][238]LogWindows: Error: [Callstack] 0x00007ff6cfcfbb5a UE4Editor.exe!UnknownFunction []
+[2020.11.02-00.37.54:963][238]LogWindows: Error: [Callstack] 0x00007ff6cfd0e31d UE4Editor.exe!UnknownFunction []
+[2020.11.02-00.37.54:963][238]LogWindows: Error: [Callstack] 0x00007ff6cfd1145a UE4Editor.exe!UnknownFunction []
+[2020.11.02-00.37.54:963][238]LogWindows: Error: [Callstack] 0x00007ff8653a6fd4 KERNEL32.DLL!UnknownFunction []
+[2020.11.02-00.37.54:963][238]LogWindows: Error: [Callstack] 0x00007ff86595cec1 ntdll.dll!UnknownFunction []
+[2020.11.02-00.37.54:963][238]LogWindows: Error: 
+[2020.11.02-00.37.54:993][238]LogExit: Executing StaticShutdownAfterError
+[2020.11.02-00.37.55:009][238]LogWindows: FPlatformMisc::RequestExit(1)
+[2020.11.02-00.37.55:009][238]LogCore: Engine exit requested (reason: Win RequestExit)
+[2020.11.02-00.37.55:019][238]Log file closed, 11/02/20 01:37:55

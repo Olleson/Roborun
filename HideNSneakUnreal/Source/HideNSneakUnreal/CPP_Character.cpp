@@ -14,7 +14,7 @@ ACPP_Character::ACPP_Character()
 	bUseControllerRotationYaw = false;
 
 
-	//PlayerMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("PlayerMesh"));
+	//PlayerMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("PlayerMesh"));s
 
 	GetCharacterMovement()->bOrientRotationToMovement = true;
 	GetCharacterMovement()->bCrouchMaintainsBaseLocation = true;

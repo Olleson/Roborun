@@ -118,8 +118,10 @@ void EmptyLinkFunctionForGeneratedCodeCPP_Character() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACPP_Character_Statics::NewProp_CameraBoom_MetaData[] = {
 		{ "Category", "Camera" },
+		{ "Comment", "//Test comment\n" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "CPP_Character.h" },
+		{ "ToolTip", "Test comment" },
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACPP_Character_Statics::NewProp_CameraBoom = { "CameraBoom", nullptr, (EPropertyFlags)0x00100000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACPP_Character, CameraBoom), Z_Construct_UClass_USpringArmComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACPP_Character_Statics::NewProp_CameraBoom_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACPP_Character_Statics::NewProp_CameraBoom_MetaData)) };
@@ -155,7 +157,7 @@ void EmptyLinkFunctionForGeneratedCodeCPP_Character() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ACPP_Character, 3410613798);
+	IMPLEMENT_CLASS(ACPP_Character, 1258533552);
 	template<> HIDENSNEAKUNREAL_API UClass* StaticClass<ACPP_Character>()
 	{
 		return ACPP_Character::StaticClass();

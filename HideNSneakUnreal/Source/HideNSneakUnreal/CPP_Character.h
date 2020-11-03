@@ -18,6 +18,7 @@ class HIDENSNEAKUNREAL_API ACPP_Character : public ACharacter
 public:
 	// Sets default values for this character's properties
 	ACPP_Character();
+	//Test comment
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera)
 		USpringArmComponent* CameraBoom;
