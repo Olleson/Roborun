@@ -1230,3 +1230,1249 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.11.03-16.34.36:421][610]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
 [2020.11.03-16.34.36:444][611]LogPlayLevel: Display: Destroying online subsystem :Context_10
 [2020.11.03-16.34.36:445][611]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2020.11.03-16.36.11:490][308]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/FirstPlayable_WhiteBox.FirstPlayable_WhiteBox
+[2020.11.03-16.36.11:515][308]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2020.11.03-16.36.11:520][308]Cmd: MAP LOAD FILE="C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Maps/FirstPlayable_WhiteBox.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.11.03-16.36.11:520][308]LightingResults: New page: Lighting Build
+[2020.11.03-16.36.11:520][308]LoadErrors: New page: Loading map: FirstPlayable_WhiteBox.umap
+[2020.11.03-16.36.11:551][308]LogWorld: UWorld::CleanupWorld for Level_HideNSneak, bSessionEnded=true, bCleanupResources=true
+[2020.11.03-16.36.11:551][308]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.03-16.36.11:552][308]MapCheck: New page: Map Check
+[2020.11.03-16.36.11:552][308]LightingResults: New page: Lighting Build
+[2020.11.03-16.36.11:568][308]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000018A33C71600), frame # 53308
+[2020.11.03-16.36.11:568][308]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000018A1D6BFB00), frame # 53308
+[2020.11.03-16.36.11:570][308]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2020.11.03-16.36.11:825][308]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.11.03-16.36.11:826][308]LogAIModule: Creating AISystem for world FirstPlayable_WhiteBox
+[2020.11.03-16.36.11:826][308]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018A5A7FB200), frame # 53308
+[2020.11.03-16.36.11:826][308]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018A5A33D800), frame # 53308
+[2020.11.03-16.36.11:864][308]LogUObjectHash: Compacting FUObjectHashTables data took   3.62ms
+[2020.11.03-16.36.11:898][308]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.11.03-16.36.11:899][308]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.491ms to complete.
+[2020.11.03-16.36.11:899][308]LogFileHelpers: Loading map 'FirstPlayable_WhiteBox' took 0.379
+[2020.11.03-16.36.13:913][476]LogTemp: Repeating last play command: Selected Viewport
+[2020.11.03-16.36.13:928][476]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.03-16.36.13:928][476]PIE: New page: PIE session: FirstPlayable_WhiteBox (Nov 3, 2020, 6:36:13 PM)
+[2020.11.03-16.36.13:928][476]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox
+[2020.11.03-16.36.14:004][476]LogPlayLevel: PIE: StaticDuplicateObject took: (0.075911s)
+[2020.11.03-16.36.14:005][476]LogAIModule: Creating AISystem for world FirstPlayable_WhiteBox
+[2020.11.03-16.36.14:005][476]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018A1D1D6400), frame # 53476
+[2020.11.03-16.36.14:005][476]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018A8039B380), frame # 53476
+[2020.11.03-16.36.14:006][476]LogPlayLevel: PIE: World Init took: (0.001445s)
+[2020.11.03-16.36.14:006][476]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstPlayable_WhiteBox.FirstPlayable_WhiteBox to /Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox.FirstPlayable_WhiteBox (0.077660s)
+[2020.11.03-16.36.14:024][476]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2020.11.03-16.36.14:027][476]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.03-16.36.14:027][476]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.03-16.36.14:027][476]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.03-16.36.14:027][476]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.03-16.36.14:027][476]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.03-16.36.14:027][476]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.03-16.36.14:027][476]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.03-16.36.14:027][476]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.03-16.36.14:028][476]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.03-16.36.14:028][476]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.03-16.36.14:041][476]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.03-16.36.14:041][476]LogAudioMixer: Display: 1: FrontRight
+[2020.11.03-16.36.14:101][476]LogAudioMixer: Display: Using Audio Device Högtalare (Realtek High Definition Audio)
+[2020.11.03-16.36.14:101][476]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.03-16.36.14:101][476]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.03-16.36.14:101][476]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.03-16.36.14:102][476]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.03-16.36.14:114][476]LogInit: FAudioDevice initialized.
+[2020.11.03-16.36.14:121][476]LogLoad: Game class is 'BP_HideNSneakGameModeBase_C'
+[2020.11.03-16.36.14:170][476]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox.FirstPlayable_WhiteBox up for play (max tick rate 0) at 2020.11.03-17.36.14
+[2020.11.03-16.36.14:170][476]LogWorld: Bringing up level for play took: 0.048570
+[2020.11.03-16.36.14:170][476]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2020.11.03-16.36.14:174][476]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2020.11.03-16.36.14:174][476]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2020.11.03-16.36.14:175][476]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2020.11.03-16.36.14:175][476]LogNet: Created socket for bind address: 0.0.0.0 on port 17777
+[2020.11.03-16.36.14:175][476]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.11.03-16.36.14:175][476]LogNet: GameNetDriver IpNetDriver_8 IpNetDriver listening on port 17777
+[2020.11.03-16.36.14:178][476]PIE: Server logged in
+[2020.11.03-16.36.14:180][476]PIE: Play in editor total start time 0.259 seconds.
+[2020.11.03-16.36.14:182][476]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.03-16.36.14:182][476]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.03-16.36.14:182][476]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.03-16.36.14:182][476]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.03-16.36.14:182][476]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.03-16.36.14:182][476]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.03-16.36.14:182][476]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.03-16.36.14:182][476]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.03-16.36.14:183][476]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.03-16.36.14:183][476]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.03-16.36.14:196][476]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.03-16.36.14:196][476]LogAudioMixer: Display: 1: FrontRight
+[2020.11.03-16.36.14:248][476]LogAudioMixer: Display: Using Audio Device Högtalare (Realtek High Definition Audio)
+[2020.11.03-16.36.14:249][476]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.03-16.36.14:249][476]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.03-16.36.14:249][476]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.03-16.36.14:249][476]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.03-16.36.14:262][476]LogInit: FAudioDevice initialized.
+[2020.11.03-16.36.14:318][476]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.03-16.36.14:318][476]LogNet: Browse: 127.0.0.1:17777//Game/Lobby/LobbyLevel
+[2020.11.03-16.36.14:318][476]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
+[2020.11.03-16.36.14:319][476]LogNet: Created socket for bind address: 0.0.0.0 on port 0
+[2020.11.03-16.36.14:319][476]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.11.03-16.36.14:319][476]LogNet: Game client on port 17777, rate 10000
+[2020.11.03-16.36.14:321][476]PIE: Client logged in
+[2020.11.03-16.36.14:324][476]PIE: Play in editor total start time 0.404 seconds.
+[2020.11.03-16.36.15:327][552]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:62565
+[2020.11.03-16.36.15:327][552]LogHandshake: SendConnectChallenge. Timestamp: 1.422318, Cookie: 201128254041184173005104094254242012009055129203227080063156
+[2020.11.03-16.36.15:328][552]LogHandshake: SendChallengeResponse. Timestamp: 1.422318, Cookie: 201128254041184173005104094254242012009055129203227080063156
+[2020.11.03-16.36.15:335][553]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:62565
+[2020.11.03-16.36.15:335][553]LogHandshake: SendChallengeAck. InCookie: 201128254041184173005104094254242012009055129203227080063156
+[2020.11.03-16.36.15:335][553]LogNet: Server accepting post-challenge connection from: 127.0.0.1:62565
+[2020.11.03-16.36.15:336][553]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.11.03-16.36.15:336][553]LogNet: NotifyAcceptedConnection: Name: FirstPlayable_WhiteBox, TimeStamp: 11/03/20 17:36:15, [UNetConnection] RemoteAddr: 127.0.0.1:62565, Name: IpConnection_9, Driver: GameNetDriver IpNetDriver_8, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.11.03-16.36.15:336][553]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:62565, Name: IpConnection_9, Driver: GameNetDriver IpNetDriver_8, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.11.03-16.36.15:337][553]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_8, Driver: PendingNetDriver IpNetDriver_9, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.11.03-16.36.15:344][554]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox.FirstPlayable_WhiteBox: Accepted
+[2020.11.03-16.36.15:344][554]LogNet: Remote platform little endian=1
+[2020.11.03-16.36.15:344][554]LogNet: This platform little endian=1
+[2020.11.03-16.36.15:345][554]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2020.11.03-16.36.15:352][555]LogNet: Login request: ?Name=DESKTOP-UB26K35-169D37CB412946F2FF118C8878C37293 userId: NULL:DESKTOP-UB26K35-169D37CB412946F2FF118C8878C37293 platform: NULL
+[2020.11.03-16.36.15:353][555]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox, Game: /Game/Blueprints/BP_HideNSneakGameModeBase.BP_HideNSneakGameModeBase_C)
+[2020.11.03-16.36.15:353][555]LogLoad: LoadMap: 127.0.0.1:17777//Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox?game=/Game/Blueprints/BP_HideNSneakGameModeBase.BP_HideNSneakGameModeBase_C
+[2020.11.03-16.36.15:353][555]LogWorld: BeginTearingDown for /Temp/Untitled_5
+[2020.11.03-16.36.15:353][555]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.11.03-16.36.15:353][555]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.03-16.36.15:372][555]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2020.11.03-16.36.15:436][555]LogAIModule: Creating AISystem for world FirstPlayable_WhiteBox
+[2020.11.03-16.36.15:436][555]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018A67061C00), frame # 53555
+[2020.11.03-16.36.15:436][555]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018A47DCE700), frame # 53555
+[2020.11.03-16.36.15:460][555]LogWorld: Bringing World /Game/Maps/UEDPIE_1_FirstPlayable_WhiteBox.FirstPlayable_WhiteBox up for play (max tick rate 0) at 2020.11.03-17.36.15
+[2020.11.03-16.36.15:461][555]LogWorld: Bringing up level for play took: 0.023545
+[2020.11.03-16.36.15:463][555]LogLoad: Took 0.110330 seconds to LoadMap(/Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox)
+[2020.11.03-16.36.15:476][556]LogNet: Client netspeed is 10000
+[2020.11.03-16.36.15:476][556]LogNet: Join request: /Game/Lobby/LobbyLevel?Name=DESKTOP-UB26K35-169D37CB412946F2FF118C8878C37293?SplitscreenCount=1
+[2020.11.03-16.36.15:477][556]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.11.03-16.36.15:478][556]LogNet: Join succeeded: DESKTOP-UB26K35-169D
+[2020.11.03-16.36.17:183][585]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.11.03-16.36.17:217][589]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.11.03-16.36.18:858][748]LogSlate: Window 'HideNSneakUnreal Preview [NetMode: Client 2] (64-bit/Windows) ' being destroyed
+[2020.11.03-16.36.18:871][748]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_1_FirstPlayable_WhiteBox
+[2020.11.03-16.36.18:892][748]LogWorld: UWorld::CleanupWorld for FirstPlayable_WhiteBox, bSessionEnded=true, bCleanupResources=true
+[2020.11.03-16.36.18:899][748]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.03-16.36.18:905][748]LogNet: World NetDriver shutdown IpNetDriver_9 [GameNetDriver]
+[2020.11.03-16.36.18:906][748]LogNet: DestroyNamedNetDriver IpNetDriver_9 [GameNetDriver]
+[2020.11.03-16.36.18:906][748]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_8, Driver: GameNetDriver IpNetDriver_9, IsServer: NO, PC: HideNSneakPlayerController_C_0, Owner: HideNSneakPlayerController_C_0, UniqueId: NULL:DESKTOP-UB26K35-169D37CB412946F2FF118C8878C37293, Channels: 9, Time: 2020.11.03-16.36.18
+[2020.11.03-16.36.18:906][748]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_8, Driver: GameNetDriver IpNetDriver_9, IsServer: NO, PC: HideNSneakPlayerController_C_0, Owner: HideNSneakPlayerController_C_0, UniqueId: NULL:DESKTOP-UB26K35-169D37CB412946F2FF118C8878C37293
+[2020.11.03-16.36.18:906][748]LogExit: GameNetDriver IpNetDriver_9 shut down
+[2020.11.03-16.36.18:906][748]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox
+[2020.11.03-16.36.18:907][748]LogOnlineSession: Warning: OSS: No game present to leave for session (GameSession)
+[2020.11.03-16.36.18:907][748]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.03-16.36.18:907][748]LogWorld: UWorld::CleanupWorld for FirstPlayable_WhiteBox, bSessionEnded=true, bCleanupResources=true
+[2020.11.03-16.36.18:912][748]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.03-16.36.18:921][748]LogNet: World NetDriver shutdown IpNetDriver_8 [GameNetDriver]
+[2020.11.03-16.36.18:922][748]LogNet: DestroyNamedNetDriver IpNetDriver_8 [GameNetDriver]
+[2020.11.03-16.36.18:922][748]LogNet: UNetConnection::Cleanup: Closing open connection. [UNetConnection] RemoteAddr: 127.0.0.1:62565, Name: IpConnection_9, Driver: GameNetDriver IpNetDriver_8, IsServer: YES, PC: HideNSneakPlayerController_C_1, Owner: HideNSneakPlayerController_C_1, UniqueId: NULL:DESKTOP-UB26K35-169D37CB412946F2FF118C8878C37293
+[2020.11.03-16.36.18:922][748]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:62565, Name: IpConnection_9, Driver: GameNetDriver IpNetDriver_8, IsServer: YES, PC: HideNSneakPlayerController_C_1, Owner: HideNSneakPlayerController_C_1, UniqueId: NULL:DESKTOP-UB26K35-169D37CB412946F2FF118C8878C37293, Channels: 9, Time: 2020.11.03-16.36.18
+[2020.11.03-16.36.18:922][748]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:62565, Name: IpConnection_9, Driver: GameNetDriver IpNetDriver_8, IsServer: YES, PC: HideNSneakPlayerController_C_1, Owner: HideNSneakPlayerController_C_1, UniqueId: NULL:DESKTOP-UB26K35-169D37CB412946F2FF118C8878C37293
+[2020.11.03-16.36.18:922][748]LogExit: GameNetDriver IpNetDriver_8 shut down
+[2020.11.03-16.36.18:923][748]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.03-16.36.18:927][748]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.03-16.36.18:943][748]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.03-16.36.18:997][748]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000018A1D1D6400), frame # 53748
+[2020.11.03-16.36.18:997][748]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000018A8039B380), frame # 53748
+[2020.11.03-16.36.18:999][748]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000018A67061C00), frame # 53748
+[2020.11.03-16.36.18:999][748]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000018A47DCE700), frame # 53748
+[2020.11.03-16.36.19:001][748]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2020.11.03-16.36.19:067][749]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2020.11.03-16.36.19:067][749]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2020.11.03-16.36.22:623][107]LogTemp: Repeating last play command: Selected Viewport
+[2020.11.03-16.36.22:637][107]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.03-16.36.22:637][107]PIE: New page: PIE session: FirstPlayable_WhiteBox (Nov 3, 2020, 6:36:22 PM)
+[2020.11.03-16.36.22:637][107]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox
+[2020.11.03-16.36.22:694][107]LogPlayLevel: PIE: StaticDuplicateObject took: (0.056694s)
+[2020.11.03-16.36.22:695][107]LogAIModule: Creating AISystem for world FirstPlayable_WhiteBox
+[2020.11.03-16.36.22:695][107]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018A42630E00), frame # 54107
+[2020.11.03-16.36.22:695][107]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018A4F9C7740), frame # 54107
+[2020.11.03-16.36.22:696][107]LogPlayLevel: PIE: World Init took: (0.001740s)
+[2020.11.03-16.36.22:696][107]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstPlayable_WhiteBox.FirstPlayable_WhiteBox to /Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox.FirstPlayable_WhiteBox (0.058805s)
+[2020.11.03-16.36.22:714][107]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2020.11.03-16.36.22:717][107]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.03-16.36.22:717][107]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.03-16.36.22:717][107]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.03-16.36.22:717][107]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.03-16.36.22:717][107]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.03-16.36.22:717][107]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.03-16.36.22:717][107]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.03-16.36.22:717][107]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.03-16.36.22:717][107]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.03-16.36.22:717][107]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.03-16.36.22:727][107]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.03-16.36.22:727][107]LogAudioMixer: Display: 1: FrontRight
+[2020.11.03-16.36.22:775][107]LogAudioMixer: Display: Using Audio Device Högtalare (Realtek High Definition Audio)
+[2020.11.03-16.36.22:775][107]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.03-16.36.22:775][107]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.03-16.36.22:775][107]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.03-16.36.22:775][107]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.03-16.36.22:787][107]LogInit: FAudioDevice initialized.
+[2020.11.03-16.36.22:799][107]LogLoad: Game class is 'BP_HideNSneakGameModeBase_C'
+[2020.11.03-16.36.22:822][107]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox.FirstPlayable_WhiteBox up for play (max tick rate 0) at 2020.11.03-17.36.22
+[2020.11.03-16.36.22:822][107]LogWorld: Bringing up level for play took: 0.022703
+[2020.11.03-16.36.22:822][107]LogOnline: OSS: Creating online subsystem instance for: :Context_14
+[2020.11.03-16.36.22:827][107]PIE: Server logged in
+[2020.11.03-16.36.22:827][107]PIE: Play in editor total start time 0.197 seconds.
+[2020.11.03-16.36.22:827][107]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_FirstPlayable_WhiteBox
+[2020.11.03-16.36.22:900][107]LogPlayLevel: PIE: StaticDuplicateObject took: (0.073277s)
+[2020.11.03-16.36.22:901][107]LogAIModule: Creating AISystem for world FirstPlayable_WhiteBox
+[2020.11.03-16.36.22:901][107]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018AA4905200), frame # 54107
+[2020.11.03-16.36.22:901][107]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018A5AE9FD80), frame # 54107
+[2020.11.03-16.36.22:902][107]LogPlayLevel: PIE: World Init took: (0.001934s)
+[2020.11.03-16.36.22:902][107]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstPlayable_WhiteBox.FirstPlayable_WhiteBox to /Game/Maps/UEDPIE_1_FirstPlayable_WhiteBox.FirstPlayable_WhiteBox (0.075566s)
+[2020.11.03-16.36.22:923][107]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2020.11.03-16.36.22:925][107]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.03-16.36.22:925][107]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.03-16.36.22:925][107]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.03-16.36.22:925][107]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.03-16.36.22:925][107]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.03-16.36.22:925][107]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.03-16.36.22:925][107]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.03-16.36.22:925][107]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.03-16.36.22:926][107]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.03-16.36.22:926][107]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.03-16.36.22:938][107]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.03-16.36.22:938][107]LogAudioMixer: Display: 1: FrontRight
+[2020.11.03-16.36.22:987][107]LogAudioMixer: Display: Using Audio Device Högtalare (Realtek High Definition Audio)
+[2020.11.03-16.36.22:987][107]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.03-16.36.22:987][107]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.03-16.36.22:987][107]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.03-16.36.22:988][107]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.03-16.36.23:004][107]LogInit: FAudioDevice initialized.
+[2020.11.03-16.36.23:067][107]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.03-16.36.23:068][107]LogLoad: Game class is 'BP_HideNSneakGameModeBase_C'
+[2020.11.03-16.36.23:120][107]LogWorld: Bringing World /Game/Maps/UEDPIE_1_FirstPlayable_WhiteBox.FirstPlayable_WhiteBox up for play (max tick rate 0) at 2020.11.03-17.36.23
+[2020.11.03-16.36.23:121][107]LogWorld: Bringing up level for play took: 0.052335
+[2020.11.03-16.36.23:121][107]LogOnline: OSS: Creating online subsystem instance for: :Context_15
+[2020.11.03-16.36.23:131][107]PIE: Server logged in
+[2020.11.03-16.36.23:133][107]PIE: Play in editor total start time 0.504 seconds.
+[2020.11.03-16.36.24:544][222]LogSlate: Window 'HideNSneakUnreal Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2020.11.03-16.36.24:555][222]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_1_FirstPlayable_WhiteBox
+[2020.11.03-16.36.24:582][222]LogWorld: UWorld::CleanupWorld for FirstPlayable_WhiteBox, bSessionEnded=true, bCleanupResources=true
+[2020.11.03-16.36.24:585][222]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.03-16.36.24:595][222]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox
+[2020.11.03-16.36.24:595][222]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.03-16.36.24:596][222]LogWorld: UWorld::CleanupWorld for FirstPlayable_WhiteBox, bSessionEnded=true, bCleanupResources=true
+[2020.11.03-16.36.24:600][222]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.03-16.36.24:605][222]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.03-16.36.24:609][222]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.03-16.36.24:662][222]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.03-16.36.24:670][222]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000018A5AE9FD80), frame # 54222
+[2020.11.03-16.36.24:670][222]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000018AA4905200), frame # 54222
+[2020.11.03-16.36.24:673][222]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000018A4F9C7740), frame # 54222
+[2020.11.03-16.36.24:673][222]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000018A42630E00), frame # 54222
+[2020.11.03-16.36.24:677][222]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2020.11.03-16.36.24:725][223]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2020.11.03-16.36.24:725][223]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2020.11.03-16.36.29:875][778]LogTemp: Repeating last play command: Selected Viewport
+[2020.11.03-16.36.29:889][778]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.03-16.36.29:889][778]PIE: New page: PIE session: FirstPlayable_WhiteBox (Nov 3, 2020, 6:36:29 PM)
+[2020.11.03-16.36.29:889][778]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox
+[2020.11.03-16.36.29:944][778]LogPlayLevel: PIE: StaticDuplicateObject took: (0.055184s)
+[2020.11.03-16.36.29:945][778]LogAIModule: Creating AISystem for world FirstPlayable_WhiteBox
+[2020.11.03-16.36.29:945][778]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018A33C73A00), frame # 54778
+[2020.11.03-16.36.29:945][778]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018A41EA7C40), frame # 54778
+[2020.11.03-16.36.29:946][778]LogPlayLevel: PIE: World Init took: (0.001451s)
+[2020.11.03-16.36.29:946][778]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstPlayable_WhiteBox.FirstPlayable_WhiteBox to /Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox.FirstPlayable_WhiteBox (0.056979s)
+[2020.11.03-16.36.29:966][778]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2020.11.03-16.36.29:967][778]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.03-16.36.29:968][778]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.03-16.36.29:968][778]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.03-16.36.29:968][778]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.03-16.36.29:968][778]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.03-16.36.29:968][778]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.03-16.36.29:968][778]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.03-16.36.29:968][778]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.03-16.36.29:968][778]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.03-16.36.29:968][778]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.03-16.36.29:978][778]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.03-16.36.29:978][778]LogAudioMixer: Display: 1: FrontRight
+[2020.11.03-16.36.30:024][778]LogAudioMixer: Display: Using Audio Device Högtalare (Realtek High Definition Audio)
+[2020.11.03-16.36.30:024][778]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.03-16.36.30:024][778]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.03-16.36.30:024][778]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.03-16.36.30:025][778]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.03-16.36.30:036][778]LogInit: FAudioDevice initialized.
+[2020.11.03-16.36.30:046][778]LogLoad: Game class is 'BP_HideNSneakGameModeBase_C'
+[2020.11.03-16.36.30:073][778]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox.FirstPlayable_WhiteBox up for play (max tick rate 0) at 2020.11.03-17.36.30
+[2020.11.03-16.36.30:074][778]LogWorld: Bringing up level for play took: 0.027095
+[2020.11.03-16.36.30:074][778]LogOnline: OSS: Creating online subsystem instance for: :Context_16
+[2020.11.03-16.36.30:078][778]PIE: Server logged in
+[2020.11.03-16.36.30:079][778]PIE: Play in editor total start time 0.197 seconds.
+[2020.11.03-16.36.32:028][991]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.03-16.36.32:028][991]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox
+[2020.11.03-16.36.32:029][991]LogWorld: UWorld::CleanupWorld for FirstPlayable_WhiteBox, bSessionEnded=true, bCleanupResources=true
+[2020.11.03-16.36.32:033][991]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.03-16.36.32:047][991]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.03-16.36.32:051][991]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.03-16.36.32:100][991]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.03-16.36.32:102][991]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000018A41EA7C40), frame # 54991
+[2020.11.03-16.36.32:102][991]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000018A33C73A00), frame # 54991
+[2020.11.03-16.36.32:106][991]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2020.11.03-16.36.32:140][992]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2020.11.03-16.36.47:706][752]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.11.03-16.36.47:706][752]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.11.03-16.36.47:706][752]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.11.03-16.36.47:706][752]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.11.03-16.36.48:450][830]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.11.03-16.36.48:450][830]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.11.03-16.36.48:450][830]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.11.03-16.36.48:450][830]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.11.03-16.36.49:373][925]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.11.03-16.36.49:373][925]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.11.03-16.36.49:373][925]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.11.03-16.36.49:373][925]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.11.03-16.36.50:479][ 42]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.11.03-16.36.50:479][ 42]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.11.03-16.36.50:479][ 42]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.11.03-16.36.50:480][ 42]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.11.03-16.36.50:683][ 64]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2020.11.03-16.36.54:249][409]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.11.03-16.36.54:250][409]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.11.03-16.36.54:250][409]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.11.03-16.36.54:250][409]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.11.03-16.36.58:417][871]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.11.03-16.37.01:946][272]LogTemp: Repeating last play command: Selected Viewport
+[2020.11.03-16.37.01:963][272]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.03-16.37.01:963][272]PIE: New page: PIE session: FirstPlayable_WhiteBox (Nov 3, 2020, 6:37:01 PM)
+[2020.11.03-16.37.02:001][272]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox
+[2020.11.03-16.37.02:133][272]LogPlayLevel: PIE: StaticDuplicateObject took: (0.131825s)
+[2020.11.03-16.37.02:135][272]LogAIModule: Creating AISystem for world FirstPlayable_WhiteBox
+[2020.11.03-16.37.02:136][272]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018A4F543E00), frame # 58272
+[2020.11.03-16.37.02:136][272]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018A42CA16C0), frame # 58272
+[2020.11.03-16.37.02:136][272]LogPlayLevel: PIE: World Init took: (0.003140s)
+[2020.11.03-16.37.02:137][272]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstPlayable_WhiteBox.FirstPlayable_WhiteBox to /Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox.FirstPlayable_WhiteBox (0.135555s)
+[2020.11.03-16.37.02:162][272]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2020.11.03-16.37.02:170][272]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.03-16.37.02:170][272]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.03-16.37.02:170][272]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.03-16.37.02:170][272]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.03-16.37.02:170][272]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.03-16.37.02:170][272]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.03-16.37.02:170][272]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.03-16.37.02:170][272]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.03-16.37.02:171][272]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.03-16.37.02:171][272]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.03-16.37.02:185][272]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.03-16.37.02:185][272]LogAudioMixer: Display: 1: FrontRight
+[2020.11.03-16.37.02:245][272]LogAudioMixer: Display: Using Audio Device Högtalare (Realtek High Definition Audio)
+[2020.11.03-16.37.02:246][272]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.03-16.37.02:246][272]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.03-16.37.02:246][272]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.03-16.37.02:246][272]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.03-16.37.02:262][272]LogInit: FAudioDevice initialized.
+[2020.11.03-16.37.02:273][272]LogLoad: Game class is 'BP_HideNSneakGameModeBase_C'
+[2020.11.03-16.37.02:322][272]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox.FirstPlayable_WhiteBox up for play (max tick rate 0) at 2020.11.03-17.37.02
+[2020.11.03-16.37.02:323][272]LogWorld: Bringing up level for play took: 0.048630
+[2020.11.03-16.37.02:323][272]LogOnline: OSS: Creating online subsystem instance for: :Context_17
+[2020.11.03-16.37.02:329][272]PIE: Server logged in
+[2020.11.03-16.37.02:330][272]PIE: Play in editor total start time 0.378 seconds.
+[2020.11.03-16.39.18:529][532]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.03-16.39.18:529][532]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox
+[2020.11.03-16.39.18:530][532]LogWorld: UWorld::CleanupWorld for FirstPlayable_WhiteBox, bSessionEnded=true, bCleanupResources=true
+[2020.11.03-16.39.18:534][532]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.03-16.39.18:540][532]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.03-16.39.18:543][532]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.03-16.39.18:578][532]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.03-16.39.18:580][532]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000018A42CA16C0), frame # 74532
+[2020.11.03-16.39.18:580][532]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000018A4F543E00), frame # 74532
+[2020.11.03-16.39.18:584][532]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2020.11.03-16.39.18:615][533]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2020.11.03-16.39.20:424][719]LogTemp: Repeating last play command: Selected Viewport
+[2020.11.03-16.39.20:437][719]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.03-16.39.20:438][719]PIE: New page: PIE session: FirstPlayable_WhiteBox (Nov 3, 2020, 6:39:20 PM)
+[2020.11.03-16.39.20:461][719]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox
+[2020.11.03-16.39.20:522][719]LogPlayLevel: PIE: StaticDuplicateObject took: (0.060409s)
+[2020.11.03-16.39.20:523][719]LogAIModule: Creating AISystem for world FirstPlayable_WhiteBox
+[2020.11.03-16.39.20:523][719]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018A67060600), frame # 74719
+[2020.11.03-16.39.20:523][719]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018A4FAB6E80), frame # 74719
+[2020.11.03-16.39.20:523][719]LogPlayLevel: PIE: World Init took: (0.001490s)
+[2020.11.03-16.39.20:524][719]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstPlayable_WhiteBox.FirstPlayable_WhiteBox to /Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox.FirstPlayable_WhiteBox (0.062236s)
+[2020.11.03-16.39.20:543][719]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2020.11.03-16.39.20:545][719]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.03-16.39.20:545][719]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.03-16.39.20:545][719]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.03-16.39.20:545][719]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.03-16.39.20:545][719]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.03-16.39.20:545][719]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.03-16.39.20:545][719]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.03-16.39.20:545][719]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.03-16.39.20:546][719]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.03-16.39.20:546][719]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.03-16.39.20:556][719]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.03-16.39.20:556][719]LogAudioMixer: Display: 1: FrontRight
+[2020.11.03-16.39.20:604][719]LogAudioMixer: Display: Using Audio Device Högtalare (Realtek High Definition Audio)
+[2020.11.03-16.39.20:605][719]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.03-16.39.20:605][719]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.03-16.39.20:605][719]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.03-16.39.20:605][719]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.03-16.39.20:617][719]LogInit: FAudioDevice initialized.
+[2020.11.03-16.39.20:625][719]LogLoad: Game class is 'BP_HideNSneakGameModeBase_C'
+[2020.11.03-16.39.20:649][719]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox.FirstPlayable_WhiteBox up for play (max tick rate 0) at 2020.11.03-17.39.20
+[2020.11.03-16.39.20:649][719]LogWorld: Bringing up level for play took: 0.023646
+[2020.11.03-16.39.20:650][719]LogOnline: OSS: Creating online subsystem instance for: :Context_18
+[2020.11.03-16.39.20:654][719]PIE: Server logged in
+[2020.11.03-16.39.20:655][719]PIE: Play in editor total start time 0.224 seconds.
+[2020.11.03-16.42.19:998][160]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.03-16.42.19:998][160]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox
+[2020.11.03-16.42.19:999][160]LogWorld: UWorld::CleanupWorld for FirstPlayable_WhiteBox, bSessionEnded=true, bCleanupResources=true
+[2020.11.03-16.42.20:003][160]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.03-16.42.20:017][160]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.03-16.42.20:023][160]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.03-16.42.20:074][160]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.03-16.42.20:077][160]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000018A4FAB6E80), frame # 96160
+[2020.11.03-16.42.20:077][160]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000018A67060600), frame # 96160
+[2020.11.03-16.42.20:081][160]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2020.11.03-16.42.20:117][161]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2020.11.03-16.42.47:734][647]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_conveyorBeltStraightModular_mesh_v167)
+[2020.11.03-16.43.27:847][472]LogTemp: Repeating last play command: Selected Viewport
+[2020.11.03-16.43.27:861][472]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.03-16.43.27:861][472]PIE: New page: PIE session: FirstPlayable_WhiteBox (Nov 3, 2020, 6:43:27 PM)
+[2020.11.03-16.43.27:882][472]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox
+[2020.11.03-16.43.27:938][472]LogPlayLevel: PIE: StaticDuplicateObject took: (0.056797s)
+[2020.11.03-16.43.27:940][472]LogAIModule: Creating AISystem for world FirstPlayable_WhiteBox
+[2020.11.03-16.43.27:940][472]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018A84E90400), frame # 102472
+[2020.11.03-16.43.27:940][472]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018A4F610E00), frame # 102472
+[2020.11.03-16.43.27:940][472]LogPlayLevel: PIE: World Init took: (0.001477s)
+[2020.11.03-16.43.27:940][472]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstPlayable_WhiteBox.FirstPlayable_WhiteBox to /Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox.FirstPlayable_WhiteBox (0.058608s)
+[2020.11.03-16.43.27:961][472]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2020.11.03-16.43.27:968][472]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.03-16.43.27:968][472]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.03-16.43.27:968][472]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.03-16.43.27:969][472]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.03-16.43.27:969][472]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.03-16.43.27:969][472]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.03-16.43.27:969][472]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.03-16.43.27:969][472]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.03-16.43.27:969][472]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.03-16.43.27:969][472]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.03-16.43.27:979][472]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.03-16.43.27:979][472]LogAudioMixer: Display: 1: FrontRight
+[2020.11.03-16.43.28:029][472]LogAudioMixer: Display: Using Audio Device Högtalare (Realtek High Definition Audio)
+[2020.11.03-16.43.28:029][472]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.03-16.43.28:029][472]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.03-16.43.28:029][472]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.03-16.43.28:030][472]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.03-16.43.28:041][472]LogInit: FAudioDevice initialized.
+[2020.11.03-16.43.28:048][472]LogLoad: Game class is 'BP_HideNSneakGameModeBase_C'
+[2020.11.03-16.43.28:081][472]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox.FirstPlayable_WhiteBox up for play (max tick rate 0) at 2020.11.03-17.43.28
+[2020.11.03-16.43.28:082][472]LogWorld: Bringing up level for play took: 0.033386
+[2020.11.03-16.43.28:082][472]LogOnline: OSS: Creating online subsystem instance for: :Context_20
+[2020.11.03-16.43.28:088][472]PIE: Server logged in
+[2020.11.03-16.43.28:089][472]PIE: Play in editor total start time 0.235 seconds.
+[2020.11.03-16.45.17:799][557]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.03-16.45.17:799][557]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox
+[2020.11.03-16.45.17:800][557]LogWorld: UWorld::CleanupWorld for FirstPlayable_WhiteBox, bSessionEnded=true, bCleanupResources=true
+[2020.11.03-16.45.17:804][557]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.03-16.45.17:810][557]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.03-16.45.17:814][557]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.03-16.45.17:848][557]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.03-16.45.17:849][557]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000018A4F610E00), frame # 115557
+[2020.11.03-16.45.17:849][557]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000018A84E90400), frame # 115557
+[2020.11.03-16.45.17:855][557]LogUObjectHash: Compacting FUObjectHashTables data took   2.78ms
+[2020.11.03-16.45.17:882][558]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2020.11.03-16.45.25:423][436]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_walkwayStairs_mesh_v7)
+[2020.11.03-16.45.27:407][649]Cmd: DELETE
+[2020.11.03-16.45.27:407][649]Cmd: ACTOR DELETE
+[2020.11.03-16.45.27:420][649]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.11.03-16.45.27:436][649]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2020.11.03-16.45.27:439][649]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2020.11.03-16.45.27:821][693]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_walkwayTJunction_mesh_v26)
+[2020.11.03-16.45.28:110][721]Cmd: DELETE
+[2020.11.03-16.45.28:110][721]Cmd: ACTOR DELETE
+[2020.11.03-16.45.28:140][721]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.11.03-16.45.28:162][721]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2020.11.03-16.45.28:163][721]LogEditorActor: Deleted 1 Actors (0.053 secs)
+[2020.11.03-16.45.36:641][706]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_walkwayStraight_mesh_v12)
+[2020.11.03-16.45.36:946][736]Cmd: EDIT COPY
+[2020.11.03-16.45.37:136][751]Cmd: EDIT PASTE
+[2020.11.03-16.45.59:227][254]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_walkwayStraight_mesh_v14)
+[2020.11.03-16.46.14:904][ 28]Cmd: EDIT COPY
+[2020.11.03-16.46.15:122][ 42]Cmd: EDIT PASTE
+[2020.11.03-16.46.22:666][886]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_walkwayJunction_mesh_v8)
+[2020.11.03-16.46.25:596][207]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_walkwayStairs_mesh_v26)
+[2020.11.03-16.46.30:531][769]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_walkwayJunction_mesh_v8)
+[2020.11.03-16.46.34:694][235]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_walkwayStairs_mesh_v26)
+[2020.11.03-16.46.39:891][800]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_walkwayJunction_mesh_v8)
+[2020.11.03-16.46.55:466][626]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_walkwayStairs_mesh_v24)
+[2020.11.03-16.46.58:078][906]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_walkwayJunction_mesh_v7)
+[2020.11.03-16.47.01:437][295]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_walkwayStairs_mesh_v24)
+[2020.11.03-16.47.02:252][384]LogEditorBookmarks: Warning: FBookmarkTypeToolsImpl::JumpToBookmark - Null Bookmark at index 5
+[2020.11.03-16.47.21:451][618]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_walkwayJunction_mesh_v7)
+[2020.11.03-16.47.24:724][986]Cmd: DELETE
+[2020.11.03-16.47.24:724][986]Cmd: ACTOR DELETE
+[2020.11.03-16.47.24:737][986]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.11.03-16.47.24:754][986]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2020.11.03-16.47.24:758][986]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2020.11.03-16.47.28:002][356]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_walkwayStraight_mesh_v18)
+[2020.11.03-16.47.31:066][698]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_walkwayStraight_mesh_v14)
+[2020.11.03-16.47.31:344][727]Cmd: EDIT COPY
+[2020.11.03-16.47.31:565][743]Cmd: EDIT PASTE
+[2020.11.03-16.47.58:312][730]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_walkwayStairs_mesh_v24)
+[2020.11.03-16.48.44:420][158]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_ventHatch_mesh_v01)
+[2020.11.03-16.49.13:279][524]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_ventHatch_mesh_v01)
+[2020.11.03-16.49.20:615][319]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_ventJunction_mesh_v01)
+[2020.11.03-16.49.21:014][351]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_ventStraight_mesh_v5)
+[2020.11.03-16.49.24:767][761]Cmd: EDIT COPY
+[2020.11.03-16.49.25:047][793]Cmd: EDIT PASTE
+[2020.11.03-16.49.26:490][945]Cmd: EDIT COPY
+[2020.11.03-16.49.26:704][970]Cmd: EDIT PASTE
+[2020.11.03-16.49.50:931][570]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_ventStraight_mesh_v01)
+[2020.11.03-16.49.55:419][ 95]Cmd: TRANSACTION UNDO
+[2020.11.03-16.49.55:419][ 95]LogEditorTransaction: Undo Move Actors
+[2020.11.03-16.49.56:249][141]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (w_ventHatch_mesh_v01)
+[2020.11.03-16.50.01:138][670]LogActorFactory: Actor Factory created w_ventBend_mesh_v01
+[2020.11.03-16.50.03:783][961]LogActorFactory: Actor Factory created w_ventBend_mesh_v01
+[2020.11.03-16.50.29:534][889]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube17)
+[2020.11.03-16.50.31:344][ 87]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_ventBend_mesh_v6)
+[2020.11.03-16.50.34:970][495]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_ventStraight_mesh_v2)
+[2020.11.03-16.50.42:114][321]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_ventStraight_mesh_v6)
+[2020.11.03-16.50.44:158][534]Cmd: EDIT COPY
+[2020.11.03-16.50.44:375][552]Cmd: EDIT PASTE
+[2020.11.03-16.50.56:642][960]Cmd: EDIT COPY
+[2020.11.03-16.50.56:829][981]Cmd: EDIT PASTE
+[2020.11.03-16.50.59:025][222]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_ventBend_mesh_v6)
+[2020.11.03-16.50.59:453][265]Cmd: EDIT COPY
+[2020.11.03-16.50.59:670][287]Cmd: EDIT PASTE
+[2020.11.03-16.51.11:153][609]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_ventStraight_mesh_v01)
+[2020.11.03-16.51.13:501][858]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_ventStraight_mesh_v20)
+[2020.11.03-16.51.13:857][893]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_ventBend_mesh_v7)
+[2020.11.03-16.51.27:667][462]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_ventStraight_mesh_v20)
+[2020.11.03-16.51.28:415][528]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_ventBend_mesh_v7)
+[2020.11.03-16.51.34:806][238]LogEditorBookmarks: Warning: FBookmarkTypeToolsImpl::JumpToBookmark - Null Bookmark at index 5
+[2020.11.03-16.51.39:404][779]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_ventStraight_mesh_v20)
+[2020.11.03-16.51.41:070][958]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_ventBend_mesh_v7)
+[2020.11.03-16.51.43:463][213]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_ventBend_mesh_v7)
+[2020.11.03-16.51.43:848][256]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_ventStraight_mesh_v20)
+[2020.11.03-16.51.44:564][328]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_ventBend_mesh_v7)
+[2020.11.03-16.51.46:745][576]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_ventStraight_mesh_v20)
+[2020.11.03-16.51.48:443][758]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_ventStraight_mesh_v01)
+[2020.11.03-16.51.51:470][ 74]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_ventStraight_mesh_v01)
+[2020.11.03-16.51.53:311][259]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Kitchen stuff2)
+[2020.11.03-16.51.56:226][568]LogTemp: Repeating last play command: Selected Viewport
+[2020.11.03-16.51.56:242][568]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.03-16.51.56:242][568]PIE: New page: PIE session: FirstPlayable_WhiteBox (Nov 3, 2020, 6:51:56 PM)
+[2020.11.03-16.51.56:242][568]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox
+[2020.11.03-16.51.56:302][568]LogPlayLevel: PIE: StaticDuplicateObject took: (0.059660s)
+[2020.11.03-16.51.56:303][568]LogAIModule: Creating AISystem for world FirstPlayable_WhiteBox
+[2020.11.03-16.51.56:303][568]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018ABBA15C00), frame # 160568
+[2020.11.03-16.51.56:303][568]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018ABD2BA700), frame # 160568
+[2020.11.03-16.51.56:303][568]LogPlayLevel: PIE: World Init took: (0.001666s)
+[2020.11.03-16.51.56:304][568]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstPlayable_WhiteBox.FirstPlayable_WhiteBox to /Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox.FirstPlayable_WhiteBox (0.061598s)
+[2020.11.03-16.51.56:328][568]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2020.11.03-16.51.56:331][568]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.03-16.51.56:331][568]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.03-16.51.56:331][568]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.03-16.51.56:331][568]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.03-16.51.56:331][568]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.03-16.51.56:331][568]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.03-16.51.56:331][568]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.03-16.51.56:331][568]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.03-16.51.56:332][568]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.03-16.51.56:332][568]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.03-16.51.56:346][568]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.03-16.51.56:346][568]LogAudioMixer: Display: 1: FrontRight
+[2020.11.03-16.51.56:408][568]LogAudioMixer: Display: Using Audio Device Högtalare (Realtek High Definition Audio)
+[2020.11.03-16.51.56:409][568]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.03-16.51.56:409][568]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.03-16.51.56:409][568]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.03-16.51.56:409][568]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.03-16.51.56:422][568]LogInit: FAudioDevice initialized.
+[2020.11.03-16.51.56:433][568]LogLoad: Game class is 'BP_HideNSneakGameModeBase_C'
+[2020.11.03-16.51.56:479][568]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox.FirstPlayable_WhiteBox up for play (max tick rate 0) at 2020.11.03-17.51.56
+[2020.11.03-16.51.56:479][568]LogWorld: Bringing up level for play took: 0.045249
+[2020.11.03-16.51.56:479][568]LogOnline: OSS: Creating online subsystem instance for: :Context_21
+[2020.11.03-16.51.56:486][568]PIE: Server logged in
+[2020.11.03-16.51.56:487][568]PIE: Play in editor total start time 0.254 seconds.
+[2020.11.03-16.52.02:339][228]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.03-16.52.02:339][228]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox
+[2020.11.03-16.52.02:339][228]LogWorld: UWorld::CleanupWorld for FirstPlayable_WhiteBox, bSessionEnded=true, bCleanupResources=true
+[2020.11.03-16.52.02:343][228]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.03-16.52.02:350][228]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.03-16.52.02:353][228]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.03-16.52.02:388][228]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.03-16.52.02:390][228]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000018ABD2BA700), frame # 161228
+[2020.11.03-16.52.02:390][228]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000018ABBA15C00), frame # 161228
+[2020.11.03-16.52.02:394][228]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2020.11.03-16.52.02:423][229]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2020.11.03-16.52.13:914][533]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_ventHatch_mesh_v01)
+[2020.11.03-16.52.26:758][966]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Kitchen stuff2)
+[2020.11.03-16.53.09:767][ 23]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall)
+[2020.11.03-16.53.37:123][195]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ground35)
+[2020.11.03-16.53.44:063][986]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube46)
+[2020.11.03-16.53.50:300][696]Cmd: EDIT COPY
+[2020.11.03-16.53.50:496][718]Cmd: EDIT PASTE
+[2020.11.03-16.53.56:620][413]Cmd: EDIT COPY
+[2020.11.03-16.53.56:854][432]Cmd: EDIT PASTE
+[2020.11.03-16.53.58:911][649]Cmd: TRANSACTION UNDO
+[2020.11.03-16.53.58:911][649]LogEditorTransaction: Undo Move Actors
+[2020.11.03-16.54.18:640][889]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube49)
+[2020.11.03-16.54.35:490][820]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ground34)
+[2020.11.03-16.54.38:871][184]LogTemp: Repeating last play command: Selected Viewport
+[2020.11.03-16.54.38:887][184]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.03-16.54.38:887][184]PIE: New page: PIE session: FirstPlayable_WhiteBox (Nov 3, 2020, 6:54:38 PM)
+[2020.11.03-16.54.38:887][184]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox
+[2020.11.03-16.54.38:947][184]LogPlayLevel: PIE: StaticDuplicateObject took: (0.059137s)
+[2020.11.03-16.54.38:948][184]LogAIModule: Creating AISystem for world FirstPlayable_WhiteBox
+[2020.11.03-16.54.38:948][184]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018AADA77E00), frame # 179184
+[2020.11.03-16.54.38:948][184]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018AAD4DD6C0), frame # 179184
+[2020.11.03-16.54.38:948][184]LogPlayLevel: PIE: World Init took: (0.001598s)
+[2020.11.03-16.54.38:949][184]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstPlayable_WhiteBox.FirstPlayable_WhiteBox to /Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox.FirstPlayable_WhiteBox (0.061027s)
+[2020.11.03-16.54.38:970][184]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2020.11.03-16.54.38:972][184]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.03-16.54.38:972][184]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.03-16.54.38:972][184]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.03-16.54.38:972][184]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.03-16.54.38:972][184]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.03-16.54.38:972][184]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.03-16.54.38:972][184]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.03-16.54.38:973][184]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.03-16.54.38:973][184]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.03-16.54.38:973][184]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.03-16.54.38:984][184]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.03-16.54.38:984][184]LogAudioMixer: Display: 1: FrontRight
+[2020.11.03-16.54.39:046][184]LogAudioMixer: Display: Using Audio Device Högtalare (Realtek High Definition Audio)
+[2020.11.03-16.54.39:046][184]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.03-16.54.39:047][184]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.03-16.54.39:047][184]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.03-16.54.39:047][184]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.03-16.54.39:060][184]LogInit: FAudioDevice initialized.
+[2020.11.03-16.54.39:071][184]LogLoad: Game class is 'BP_HideNSneakGameModeBase_C'
+[2020.11.03-16.54.39:123][184]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox.FirstPlayable_WhiteBox up for play (max tick rate 0) at 2020.11.03-17.54.39
+[2020.11.03-16.54.39:124][184]LogWorld: Bringing up level for play took: 0.051561
+[2020.11.03-16.54.39:124][184]LogOnline: OSS: Creating online subsystem instance for: :Context_22
+[2020.11.03-16.54.39:131][184]PIE: Server logged in
+[2020.11.03-16.54.39:133][184]PIE: Play in editor total start time 0.255 seconds.
+[2020.11.03-16.54.47:479][141]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.03-16.54.47:480][141]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox
+[2020.11.03-16.54.47:481][141]LogWorld: UWorld::CleanupWorld for FirstPlayable_WhiteBox, bSessionEnded=true, bCleanupResources=true
+[2020.11.03-16.54.47:488][141]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.03-16.54.47:500][141]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.03-16.54.47:506][141]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.03-16.54.47:553][141]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.03-16.54.47:555][141]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000018AAD4DD6C0), frame # 180141
+[2020.11.03-16.54.47:555][141]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000018AADA77E00), frame # 180141
+[2020.11.03-16.54.47:559][141]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2020.11.03-16.54.47:594][142]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2020.11.03-16.54.58:260][347]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall)
+[2020.11.03-16.55.36:955][864]LogTemp: Repeating last play command: Selected Viewport
+[2020.11.03-16.55.36:972][864]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.03-16.55.36:972][864]PIE: New page: PIE session: FirstPlayable_WhiteBox (Nov 3, 2020, 6:55:36 PM)
+[2020.11.03-16.55.36:992][864]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox
+[2020.11.03-16.55.37:048][864]LogPlayLevel: PIE: StaticDuplicateObject took: (0.057265s)
+[2020.11.03-16.55.37:050][864]LogAIModule: Creating AISystem for world FirstPlayable_WhiteBox
+[2020.11.03-16.55.37:050][864]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018AAB95E400), frame # 185864
+[2020.11.03-16.55.37:050][864]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018AB0284900), frame # 185864
+[2020.11.03-16.55.37:050][864]LogPlayLevel: PIE: World Init took: (0.001622s)
+[2020.11.03-16.55.37:050][864]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstPlayable_WhiteBox.FirstPlayable_WhiteBox to /Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox.FirstPlayable_WhiteBox (0.059263s)
+[2020.11.03-16.55.37:074][864]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2020.11.03-16.55.37:076][864]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.03-16.55.37:076][864]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.03-16.55.37:076][864]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.03-16.55.37:076][864]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.03-16.55.37:076][864]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.03-16.55.37:076][864]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.03-16.55.37:076][864]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.03-16.55.37:076][864]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.03-16.55.37:077][864]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.03-16.55.37:077][864]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.03-16.55.37:088][864]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.03-16.55.37:088][864]LogAudioMixer: Display: 1: FrontRight
+[2020.11.03-16.55.37:135][864]LogAudioMixer: Display: Using Audio Device Högtalare (Realtek High Definition Audio)
+[2020.11.03-16.55.37:135][864]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.03-16.55.37:135][864]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.03-16.55.37:135][864]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.03-16.55.37:135][864]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.03-16.55.37:147][864]LogInit: FAudioDevice initialized.
+[2020.11.03-16.55.37:160][864]LogLoad: Game class is 'BP_HideNSneakGameModeBase_C'
+[2020.11.03-16.55.37:193][864]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox.FirstPlayable_WhiteBox up for play (max tick rate 0) at 2020.11.03-17.55.37
+[2020.11.03-16.55.37:194][864]LogWorld: Bringing up level for play took: 0.033789
+[2020.11.03-16.55.37:195][864]LogOnline: OSS: Creating online subsystem instance for: :Context_23
+[2020.11.03-16.55.37:200][864]PIE: Server logged in
+[2020.11.03-16.55.37:202][864]PIE: Play in editor total start time 0.24 seconds.
+[2020.11.03-16.55.42:249][430]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.03-16.55.42:249][430]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox
+[2020.11.03-16.55.42:249][430]LogWorld: UWorld::CleanupWorld for FirstPlayable_WhiteBox, bSessionEnded=true, bCleanupResources=true
+[2020.11.03-16.55.42:254][430]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.03-16.55.42:261][430]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.03-16.55.42:265][430]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.03-16.55.42:283][430]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.03-16.55.42:301][430]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000018AB0284900), frame # 186430
+[2020.11.03-16.55.42:302][430]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000018AAB95E400), frame # 186430
+[2020.11.03-16.55.42:305][430]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2020.11.03-16.55.42:334][431]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2020.11.03-16.56.03:489][863]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube19)
+[2020.11.03-16.56.06:210][175]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube58)
+[2020.11.03-16.56.12:166][810]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube26)
+[2020.11.03-16.56.31:412][993]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall)
+[2020.11.03-16.57.15:829][ 35]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube22)
+[2020.11.03-16.57.32:243][921]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube22)
+[2020.11.03-16.57.32:292][924]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2020.11.03-16.57.41:880][ 58]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ground25)
+[2020.11.03-16.57.50:405][ 21]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube26)
+[2020.11.03-16.58.19:044][320]LogTemp: Repeating last play command: Selected Viewport
+[2020.11.03-16.58.19:060][320]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.03-16.58.19:060][320]PIE: New page: PIE session: FirstPlayable_WhiteBox (Nov 3, 2020, 6:58:19 PM)
+[2020.11.03-16.58.19:082][320]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox
+[2020.11.03-16.58.19:141][320]LogPlayLevel: PIE: StaticDuplicateObject took: (0.059024s)
+[2020.11.03-16.58.19:142][320]LogAIModule: Creating AISystem for world FirstPlayable_WhiteBox
+[2020.11.03-16.58.19:142][320]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018ABEDA3E00), frame # 204320
+[2020.11.03-16.58.19:143][320]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018AAF1ABD80), frame # 204320
+[2020.11.03-16.58.19:143][320]LogPlayLevel: PIE: World Init took: (0.001856s)
+[2020.11.03-16.58.19:143][320]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstPlayable_WhiteBox.FirstPlayable_WhiteBox to /Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox.FirstPlayable_WhiteBox (0.061182s)
+[2020.11.03-16.58.19:164][320]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2020.11.03-16.58.19:166][320]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.03-16.58.19:166][320]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.03-16.58.19:167][320]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.03-16.58.19:167][320]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.03-16.58.19:167][320]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.03-16.58.19:167][320]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.03-16.58.19:167][320]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.03-16.58.19:167][320]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.03-16.58.19:167][320]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.03-16.58.19:167][320]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.03-16.58.19:177][320]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.03-16.58.19:177][320]LogAudioMixer: Display: 1: FrontRight
+[2020.11.03-16.58.19:227][320]LogAudioMixer: Display: Using Audio Device Högtalare (Realtek High Definition Audio)
+[2020.11.03-16.58.19:227][320]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.03-16.58.19:227][320]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.03-16.58.19:227][320]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.03-16.58.19:228][320]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.03-16.58.19:239][320]LogInit: FAudioDevice initialized.
+[2020.11.03-16.58.19:247][320]LogLoad: Game class is 'BP_HideNSneakGameModeBase_C'
+[2020.11.03-16.58.19:284][320]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox.FirstPlayable_WhiteBox up for play (max tick rate 0) at 2020.11.03-17.58.19
+[2020.11.03-16.58.19:285][320]LogWorld: Bringing up level for play took: 0.037248
+[2020.11.03-16.58.19:285][320]LogOnline: OSS: Creating online subsystem instance for: :Context_24
+[2020.11.03-16.58.19:293][320]PIE: Server logged in
+[2020.11.03-16.58.19:295][320]PIE: Play in editor total start time 0.244 seconds.
+[2020.11.03-16.59.15:329][975]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.03-16.59.15:329][975]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox
+[2020.11.03-16.59.15:329][975]LogWorld: UWorld::CleanupWorld for FirstPlayable_WhiteBox, bSessionEnded=true, bCleanupResources=true
+[2020.11.03-16.59.15:334][975]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.03-16.59.15:342][975]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.03-16.59.15:346][975]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.03-16.59.15:380][975]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.03-16.59.15:382][975]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000018AAF1ABD80), frame # 210975
+[2020.11.03-16.59.15:382][975]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000018ABEDA3E00), frame # 210975
+[2020.11.03-16.59.15:386][975]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2020.11.03-16.59.15:416][976]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2020.11.03-16.59.16:882][125]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall104)
+[2020.11.03-16.59.41:443][865]LogTemp: Repeating last play command: Selected Viewport
+[2020.11.03-16.59.41:459][865]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.03-16.59.41:460][865]PIE: New page: PIE session: FirstPlayable_WhiteBox (Nov 3, 2020, 6:59:41 PM)
+[2020.11.03-16.59.41:460][865]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox
+[2020.11.03-16.59.41:517][865]LogPlayLevel: PIE: StaticDuplicateObject took: (0.057439s)
+[2020.11.03-16.59.41:519][865]LogAIModule: Creating AISystem for world FirstPlayable_WhiteBox
+[2020.11.03-16.59.41:519][865]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018AAAE0DE00), frame # 213865
+[2020.11.03-16.59.41:519][865]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018A5C9A02C0), frame # 213865
+[2020.11.03-16.59.41:519][865]LogPlayLevel: PIE: World Init took: (0.001771s)
+[2020.11.03-16.59.41:519][865]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstPlayable_WhiteBox.FirstPlayable_WhiteBox to /Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox.FirstPlayable_WhiteBox (0.059543s)
+[2020.11.03-16.59.41:539][865]LogUObjectHash: Compacting FUObjectHashTables data took   3.39ms
+[2020.11.03-16.59.41:546][865]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.03-16.59.41:546][865]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.03-16.59.41:546][865]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.03-16.59.41:546][865]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.03-16.59.41:546][865]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.03-16.59.41:546][865]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.03-16.59.41:546][865]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.03-16.59.41:546][865]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.03-16.59.41:547][865]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.03-16.59.41:547][865]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.03-16.59.41:559][865]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.03-16.59.41:560][865]LogAudioMixer: Display: 1: FrontRight
+[2020.11.03-16.59.41:619][865]LogAudioMixer: Display: Using Audio Device Högtalare (Realtek High Definition Audio)
+[2020.11.03-16.59.41:620][865]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.03-16.59.41:620][865]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.03-16.59.41:620][865]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.03-16.59.41:620][865]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.03-16.59.41:634][865]LogInit: FAudioDevice initialized.
+[2020.11.03-16.59.41:641][865]LogLoad: Game class is 'BP_HideNSneakGameModeBase_C'
+[2020.11.03-16.59.41:679][865]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox.FirstPlayable_WhiteBox up for play (max tick rate 0) at 2020.11.03-17.59.41
+[2020.11.03-16.59.41:680][865]LogWorld: Bringing up level for play took: 0.038064
+[2020.11.03-16.59.41:680][865]LogOnline: OSS: Creating online subsystem instance for: :Context_26
+[2020.11.03-16.59.41:685][865]PIE: Server logged in
+[2020.11.03-16.59.41:686][865]PIE: Play in editor total start time 0.236 seconds.
+[2020.11.03-17.03.16:679][574]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.03-17.03.16:679][574]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox
+[2020.11.03-17.03.16:680][574]LogWorld: UWorld::CleanupWorld for FirstPlayable_WhiteBox, bSessionEnded=true, bCleanupResources=true
+[2020.11.03-17.03.16:688][574]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.03-17.03.16:701][574]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.03-17.03.16:706][574]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.03-17.03.16:758][574]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.03-17.03.16:760][574]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000018A5C9A02C0), frame # 239574
+[2020.11.03-17.03.16:760][574]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000018AAAE0DE00), frame # 239574
+[2020.11.03-17.03.16:764][574]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2020.11.03-17.03.16:798][575]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2020.11.03-17.03.17:879][687]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2020.11.03-17.06.08:802][761]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2020.11.03-17.06.09:161][761]LogSavePackage: Moving 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Saved/FirstPlayable_WhiteBox_Auto10C6EE2924D37AAA626E17C95EA236DC9.tmp' to 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Saved/Autosaves/Game/Maps/FirstPlayable_WhiteBox_Auto1.umap'
+[2020.11.03-17.06.09:166][761]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/FirstPlayable_WhiteBox' took 0.383
+[2020.11.03-17.06.09:167][761]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.383
+[2020.11.03-17.06.47:137][265]LogTemp: Repeating last play command: Selected Viewport
+[2020.11.03-17.06.47:154][265]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.03-17.06.47:154][265]PIE: New page: PIE session: FirstPlayable_WhiteBox (Nov 3, 2020, 7:06:47 PM)
+[2020.11.03-17.06.47:182][265]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox
+[2020.11.03-17.06.47:254][265]LogPlayLevel: PIE: StaticDuplicateObject took: (0.071737s)
+[2020.11.03-17.06.47:255][265]LogAIModule: Creating AISystem for world FirstPlayable_WhiteBox
+[2020.11.03-17.06.47:255][265]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018AAAE0F000), frame # 264265
+[2020.11.03-17.06.47:255][265]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018A5E9ADBC0), frame # 264265
+[2020.11.03-17.06.47:256][265]LogPlayLevel: PIE: World Init took: (0.001979s)
+[2020.11.03-17.06.47:256][265]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstPlayable_WhiteBox.FirstPlayable_WhiteBox to /Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox.FirstPlayable_WhiteBox (0.074139s)
+[2020.11.03-17.06.47:281][265]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2020.11.03-17.06.47:290][265]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.03-17.06.47:290][265]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.03-17.06.47:290][265]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.03-17.06.47:290][265]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.03-17.06.47:290][265]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.03-17.06.47:290][265]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.03-17.06.47:290][265]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.03-17.06.47:290][265]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.03-17.06.47:290][265]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.03-17.06.47:290][265]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.03-17.06.47:301][265]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.03-17.06.47:301][265]LogAudioMixer: Display: 1: FrontRight
+[2020.11.03-17.06.47:351][265]LogAudioMixer: Display: Using Audio Device Högtalare (Realtek High Definition Audio)
+[2020.11.03-17.06.47:351][265]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.03-17.06.47:351][265]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.03-17.06.47:351][265]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.03-17.06.47:352][265]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.03-17.06.47:363][265]LogInit: FAudioDevice initialized.
+[2020.11.03-17.06.47:374][265]LogLoad: Game class is 'BP_HideNSneakGameModeBase_C'
+[2020.11.03-17.06.47:398][265]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox.FirstPlayable_WhiteBox up for play (max tick rate 0) at 2020.11.03-18.06.47
+[2020.11.03-17.06.47:399][265]LogWorld: Bringing up level for play took: 0.024463
+[2020.11.03-17.06.47:399][265]LogOnline: OSS: Creating online subsystem instance for: :Context_27
+[2020.11.03-17.06.47:403][265]PIE: Server logged in
+[2020.11.03-17.06.47:404][265]PIE: Play in editor total start time 0.26 seconds.
+[2020.11.03-17.07.05:339][372]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.03-17.07.05:340][372]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox
+[2020.11.03-17.07.05:340][372]LogWorld: UWorld::CleanupWorld for FirstPlayable_WhiteBox, bSessionEnded=true, bCleanupResources=true
+[2020.11.03-17.07.05:344][372]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.03-17.07.05:356][372]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.03-17.07.05:360][372]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.03-17.07.05:377][372]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.03-17.07.05:397][372]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000018A5E9ADBC0), frame # 266372
+[2020.11.03-17.07.05:397][372]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000018AAAE0F000), frame # 266372
+[2020.11.03-17.07.05:400][372]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2020.11.03-17.07.05:429][373]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2020.11.03-17.07.11:674][100]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (OfficeTable)
+[2020.11.03-17.07.13:795][303]Cmd: EDIT COPY
+[2020.11.03-17.07.13:997][317]Cmd: EDIT PASTE
+[2020.11.03-17.07.24:150][426]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_conveyorBeltStraightModular_mesh_v73)
+[2020.11.03-17.07.56:032][ 78]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_walkwayStraight_mesh_v10)
+[2020.11.03-17.08.26:191][321]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_walkwayStairs_mesh_v9)
+[2020.11.03-17.08.26:944][386]Cmd: EDIT COPY
+[2020.11.03-17.08.27:158][410]Cmd: EDIT PASTE
+[2020.11.03-17.08.35:697][361]Cmd: TRANSACTION UNDO
+[2020.11.03-17.08.35:697][361]LogEditorTransaction: Undo Move Actors
+[2020.11.03-17.09.03:512][494]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_walkwayStraight_mesh_v01)
+[2020.11.03-17.09.25:502][924]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_walkwayStraight_mesh_v01)
+[2020.11.03-17.09.26:267][  5]Cmd: DELETE
+[2020.11.03-17.09.26:267][  5]Cmd: ACTOR DELETE
+[2020.11.03-17.09.26:280][  5]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.11.03-17.09.26:298][  5]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2020.11.03-17.09.26:311][  5]LogEditorActor: Deleted 1 Actors (0.043 secs)
+[2020.11.03-17.09.34:904][730]LogActorFactory: Actor Factory created w_walkwayTurn_mesh_v01
+[2020.11.03-17.09.38:414][122]LogActorFactory: Actor Factory created w_walkwayTurn_mesh_v01
+[2020.11.03-17.09.49:458][387]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_walkwayStraight_mesh_v2)
+[2020.11.03-17.10.06:381][279]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (w_walkwayStraight_mesh_v10)
+[2020.11.03-17.10.07:654][416]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (w_walkwayStraight_mesh_v2)
+[2020.11.03-17.10.18:037][563]LogTemp: Repeating last play command: Selected Viewport
+[2020.11.03-17.10.18:055][563]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.03-17.10.18:055][563]PIE: New page: PIE session: FirstPlayable_WhiteBox (Nov 3, 2020, 7:10:18 PM)
+[2020.11.03-17.10.18:082][563]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox
+[2020.11.03-17.10.18:140][563]LogPlayLevel: PIE: StaticDuplicateObject took: (0.057975s)
+[2020.11.03-17.10.18:141][563]LogAIModule: Creating AISystem for world FirstPlayable_WhiteBox
+[2020.11.03-17.10.18:141][563]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018A42169000), frame # 286563
+[2020.11.03-17.10.18:142][563]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018AB7FBE700), frame # 286563
+[2020.11.03-17.10.18:142][563]LogPlayLevel: PIE: World Init took: (0.001666s)
+[2020.11.03-17.10.18:142][563]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstPlayable_WhiteBox.FirstPlayable_WhiteBox to /Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox.FirstPlayable_WhiteBox (0.060090s)
+[2020.11.03-17.10.18:168][563]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2020.11.03-17.10.18:178][563]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.03-17.10.18:178][563]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.03-17.10.18:178][563]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.03-17.10.18:178][563]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.03-17.10.18:178][563]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.03-17.10.18:178][563]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.03-17.10.18:178][563]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.03-17.10.18:178][563]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.03-17.10.18:179][563]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.03-17.10.18:179][563]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.03-17.10.18:190][563]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.03-17.10.18:190][563]LogAudioMixer: Display: 1: FrontRight
+[2020.11.03-17.10.18:242][563]LogAudioMixer: Display: Using Audio Device Högtalare (Realtek High Definition Audio)
+[2020.11.03-17.10.18:242][563]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.03-17.10.18:242][563]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.03-17.10.18:242][563]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.03-17.10.18:243][563]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.03-17.10.18:255][563]LogInit: FAudioDevice initialized.
+[2020.11.03-17.10.18:268][563]LogLoad: Game class is 'BP_HideNSneakGameModeBase_C'
+[2020.11.03-17.10.18:315][563]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox.FirstPlayable_WhiteBox up for play (max tick rate 0) at 2020.11.03-18.10.18
+[2020.11.03-17.10.18:316][563]LogWorld: Bringing up level for play took: 0.046733
+[2020.11.03-17.10.18:316][563]LogOnline: OSS: Creating online subsystem instance for: :Context_28
+[2020.11.03-17.10.18:321][563]PIE: Server logged in
+[2020.11.03-17.10.18:322][563]PIE: Play in editor total start time 0.278 seconds.
+[2020.11.03-17.10.28:779][780]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.03-17.10.28:780][780]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox
+[2020.11.03-17.10.28:780][780]LogWorld: UWorld::CleanupWorld for FirstPlayable_WhiteBox, bSessionEnded=true, bCleanupResources=true
+[2020.11.03-17.10.28:785][780]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.03-17.10.28:790][780]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.03-17.10.28:794][780]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.03-17.10.28:828][780]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.03-17.10.28:831][780]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000018AB7FBE700), frame # 287780
+[2020.11.03-17.10.28:831][780]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000018A42169000), frame # 287780
+[2020.11.03-17.10.28:834][780]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2020.11.03-17.10.28:864][781]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2020.11.03-17.10.33:792][353]LogTemp: Repeating last play command: Selected Viewport
+[2020.11.03-17.10.33:806][353]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.03-17.10.33:806][353]PIE: New page: PIE session: FirstPlayable_WhiteBox (Nov 3, 2020, 7:10:33 PM)
+[2020.11.03-17.10.33:806][353]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox
+[2020.11.03-17.10.33:862][353]LogPlayLevel: PIE: StaticDuplicateObject took: (0.057047s)
+[2020.11.03-17.10.33:863][353]LogAIModule: Creating AISystem for world FirstPlayable_WhiteBox
+[2020.11.03-17.10.33:863][353]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018A52742600), frame # 288353
+[2020.11.03-17.10.33:863][353]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018AA102EAC0), frame # 288353
+[2020.11.03-17.10.33:864][353]LogPlayLevel: PIE: World Init took: (0.001421s)
+[2020.11.03-17.10.33:864][353]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstPlayable_WhiteBox.FirstPlayable_WhiteBox to /Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox.FirstPlayable_WhiteBox (0.058720s)
+[2020.11.03-17.10.33:883][353]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2020.11.03-17.10.33:887][353]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.03-17.10.33:887][353]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.03-17.10.33:887][353]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.03-17.10.33:887][353]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.03-17.10.33:887][353]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.03-17.10.33:887][353]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.03-17.10.33:887][353]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.03-17.10.33:887][353]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.03-17.10.33:887][353]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.03-17.10.33:887][353]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.03-17.10.33:897][353]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.03-17.10.33:897][353]LogAudioMixer: Display: 1: FrontRight
+[2020.11.03-17.10.33:944][353]LogAudioMixer: Display: Using Audio Device Högtalare (Realtek High Definition Audio)
+[2020.11.03-17.10.33:945][353]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.03-17.10.33:945][353]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.03-17.10.33:945][353]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.03-17.10.33:945][353]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.03-17.10.33:957][353]LogInit: FAudioDevice initialized.
+[2020.11.03-17.10.33:967][353]LogLoad: Game class is 'BP_HideNSneakGameModeBase_C'
+[2020.11.03-17.10.33:991][353]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox.FirstPlayable_WhiteBox up for play (max tick rate 0) at 2020.11.03-18.10.33
+[2020.11.03-17.10.33:992][353]LogWorld: Bringing up level for play took: 0.024089
+[2020.11.03-17.10.33:992][353]LogOnline: OSS: Creating online subsystem instance for: :Context_29
+[2020.11.03-17.10.33:996][353]PIE: Server logged in
+[2020.11.03-17.10.33:997][353]PIE: Play in editor total start time 0.199 seconds.
+[2020.11.03-17.10.37:860][786]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.03-17.10.37:860][786]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox
+[2020.11.03-17.10.37:861][786]LogWorld: UWorld::CleanupWorld for FirstPlayable_WhiteBox, bSessionEnded=true, bCleanupResources=true
+[2020.11.03-17.10.37:869][786]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.03-17.10.37:881][786]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.03-17.10.37:886][786]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.03-17.10.37:941][786]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.03-17.10.37:944][786]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000018AA102EAC0), frame # 288786
+[2020.11.03-17.10.37:944][786]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000018A52742600), frame # 288786
+[2020.11.03-17.10.37:948][786]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2020.11.03-17.10.37:989][787]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2020.11.03-17.10.40:684][ 75]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2020.11.03-17.10.40:714][ 75]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2020.11.03-17.10.41:008][ 75]LogSavePackage: Moving 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Saved/FirstPlayable_WhiteBox5C467E674E8646F596B36AB64D6F52F5.tmp' to 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Maps/FirstPlayable_WhiteBox.umap'
+[2020.11.03-17.10.41:033][ 75]LogFileHelpers: Saving map 'FirstPlayable_WhiteBox' took 0.335
+[2020.11.03-17.10.41:048][ 75]AssetCheck: New page: Asset Save: FirstPlayable_WhiteBox
+[2020.11.03-17.10.41:048][ 75]LogContentValidation: Display: Validating World /Game/Maps/FirstPlayable_WhiteBox.FirstPlayable_WhiteBox
+[2020.11.03-17.11.03:881][692]LogActorFactory: Actor Factory created w_walkwayStraight_mesh_v01
+[2020.11.03-17.11.04:570][764]LogActorFactory: Actor Factory created w_walkwayStraight_mesh_v01
+[2020.11.03-17.11.20:678][601]Cmd: EDIT COPY
+[2020.11.03-17.11.20:923][622]Cmd: EDIT PASTE
+[2020.11.03-17.11.35:195][243]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_walkwayStraight_mesh_v20)
+[2020.11.03-17.11.35:839][291]Cmd: EDIT COPY
+[2020.11.03-17.11.36:040][311]Cmd: EDIT PASTE
+[2020.11.03-17.11.48:692][715]Cmd: EDIT COPY
+[2020.11.03-17.11.48:940][743]Cmd: EDIT PASTE
+[2020.11.03-17.12.02:043][172]Cmd: EDIT COPY
+[2020.11.03-17.12.02:313][191]Cmd: EDIT PASTE
+[2020.11.03-17.12.17:604][974]Cmd: EDIT COPY
+[2020.11.03-17.12.17:845][989]Cmd: EDIT PASTE
+[2020.11.03-17.12.19:521][157]Cmd: EDIT COPY
+[2020.11.03-17.12.19:782][185]Cmd: EDIT PASTE
+[2020.11.03-17.12.23:141][543]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_walkwayStraight_mesh_v24)
+[2020.11.03-17.12.24:671][704]Cmd: EDIT COPY
+[2020.11.03-17.12.24:924][733]Cmd: EDIT PASTE
+[2020.11.03-17.12.34:176][789]Cmd: EDIT COPY
+[2020.11.03-17.12.34:402][810]Cmd: EDIT PASTE
+[2020.11.03-17.12.35:882][954]Cmd: EDIT COPY
+[2020.11.03-17.12.36:063][974]Cmd: EDIT PASTE
+[2020.11.03-17.12.45:923][ 69]Cmd: EDIT COPY
+[2020.11.03-17.12.46:136][ 87]Cmd: EDIT PASTE
+[2020.11.03-17.12.50:195][527]Cmd: EDIT COPY
+[2020.11.03-17.12.50:392][549]Cmd: EDIT PASTE
+[2020.11.03-17.12.54:728][ 28]Cmd: EDIT COPY
+[2020.11.03-17.12.54:957][ 45]Cmd: EDIT PASTE
+[2020.11.03-17.13.06:335][311]Cmd: EDIT COPY
+[2020.11.03-17.13.06:539][327]Cmd: EDIT PASTE
+[2020.11.03-17.13.08:582][533]Cmd: EDIT COPY
+[2020.11.03-17.13.08:799][557]Cmd: EDIT PASTE
+[2020.11.03-17.13.21:360][960]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_walkwayStraight_mesh_v27)
+[2020.11.03-17.13.23:916][226]Cmd: EDIT COPY
+[2020.11.03-17.13.24:170][251]Cmd: EDIT PASTE
+[2020.11.03-17.13.34:885][455]Cmd: EDIT COPY
+[2020.11.03-17.13.35:137][477]Cmd: EDIT PASTE
+[2020.11.03-17.13.40:346][ 46]LogTemp: Repeating last play command: Selected Viewport
+[2020.11.03-17.13.40:363][ 46]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.03-17.13.40:363][ 46]PIE: New page: PIE session: FirstPlayable_WhiteBox (Nov 3, 2020, 7:13:40 PM)
+[2020.11.03-17.13.40:402][ 46]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox
+[2020.11.03-17.13.40:555][ 46]LogPlayLevel: PIE: StaticDuplicateObject took: (0.152866s)
+[2020.11.03-17.13.40:558][ 46]LogAIModule: Creating AISystem for world FirstPlayable_WhiteBox
+[2020.11.03-17.13.40:559][ 46]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018A994A6800), frame # 309046
+[2020.11.03-17.13.40:559][ 46]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018A477E3880), frame # 309046
+[2020.11.03-17.13.40:560][ 46]LogPlayLevel: PIE: World Init took: (0.004484s)
+[2020.11.03-17.13.40:560][ 46]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstPlayable_WhiteBox.FirstPlayable_WhiteBox to /Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox.FirstPlayable_WhiteBox (0.157942s)
+[2020.11.03-17.13.40:597][ 46]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2020.11.03-17.13.40:612][ 46]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.03-17.13.40:612][ 46]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.03-17.13.40:612][ 46]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.03-17.13.40:612][ 46]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.03-17.13.40:612][ 46]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.03-17.13.40:612][ 46]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.03-17.13.40:612][ 46]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.03-17.13.40:612][ 46]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.03-17.13.40:613][ 46]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.03-17.13.40:613][ 46]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.03-17.13.40:626][ 46]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.03-17.13.40:626][ 46]LogAudioMixer: Display: 1: FrontRight
+[2020.11.03-17.13.40:690][ 46]LogAudioMixer: Display: Using Audio Device Högtalare (Realtek High Definition Audio)
+[2020.11.03-17.13.40:690][ 46]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.03-17.13.40:690][ 46]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.03-17.13.40:690][ 46]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.03-17.13.40:690][ 46]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.03-17.13.40:705][ 46]LogInit: FAudioDevice initialized.
+[2020.11.03-17.13.40:713][ 46]LogLoad: Game class is 'BP_HideNSneakGameModeBase_C'
+[2020.11.03-17.13.40:755][ 46]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox.FirstPlayable_WhiteBox up for play (max tick rate 0) at 2020.11.03-18.13.40
+[2020.11.03-17.13.40:757][ 46]LogWorld: Bringing up level for play took: 0.042725
+[2020.11.03-17.13.40:757][ 46]LogOnline: OSS: Creating online subsystem instance for: :Context_30
+[2020.11.03-17.13.40:764][ 46]PIE: Server logged in
+[2020.11.03-17.13.40:765][ 46]PIE: Play in editor total start time 0.413 seconds.
+[2020.11.03-17.13.42:509][207]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.03-17.13.42:509][207]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox
+[2020.11.03-17.13.42:510][207]LogWorld: UWorld::CleanupWorld for FirstPlayable_WhiteBox, bSessionEnded=true, bCleanupResources=true
+[2020.11.03-17.13.42:515][207]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.03-17.13.42:520][207]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.03-17.13.42:524][207]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.03-17.13.42:559][207]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.03-17.13.42:566][207]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000018A477E3880), frame # 309207
+[2020.11.03-17.13.42:566][207]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000018A994A6800), frame # 309207
+[2020.11.03-17.13.42:570][207]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2020.11.03-17.13.42:600][208]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2020.11.03-17.14.02:295][490]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.11.03-17.14.03:577][636]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.11.03-17.14.04:845][764]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.11.03-17.14.10:268][399]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.11.03-17.14.11:403][526]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.11.03-17.14.13:408][734]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_bigScaffoldingBeam_mesh_v103)
+[2020.11.03-17.14.14:448][844]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart2)
+[2020.11.03-17.14.15:686][981]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.11.03-17.14.16:552][ 76]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.11.03-17.14.17:674][202]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2020.11.03-17.14.31:708][823]LogTemp: Repeating last play command: Selected Viewport
+[2020.11.03-17.14.31:724][823]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.03-17.14.31:724][823]PIE: New page: PIE session: FirstPlayable_WhiteBox (Nov 3, 2020, 7:14:31 PM)
+[2020.11.03-17.14.31:724][823]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox
+[2020.11.03-17.14.31:784][823]LogPlayLevel: PIE: StaticDuplicateObject took: (0.059843s)
+[2020.11.03-17.14.31:785][823]LogAIModule: Creating AISystem for world FirstPlayable_WhiteBox
+[2020.11.03-17.14.31:785][823]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018AAB5B3200), frame # 314823
+[2020.11.03-17.14.31:785][823]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018ABEDDC2C0), frame # 314823
+[2020.11.03-17.14.31:786][823]LogPlayLevel: PIE: World Init took: (0.001468s)
+[2020.11.03-17.14.31:786][823]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstPlayable_WhiteBox.FirstPlayable_WhiteBox to /Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox.FirstPlayable_WhiteBox (0.061647s)
+[2020.11.03-17.14.31:805][823]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2020.11.03-17.14.31:814][823]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.03-17.14.31:814][823]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.03-17.14.31:814][823]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.03-17.14.31:814][823]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.03-17.14.31:815][823]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.03-17.14.31:815][823]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.03-17.14.31:815][823]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.03-17.14.31:815][823]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.03-17.14.31:815][823]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.03-17.14.31:815][823]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.03-17.14.31:825][823]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.03-17.14.31:825][823]LogAudioMixer: Display: 1: FrontRight
+[2020.11.03-17.14.31:872][823]LogAudioMixer: Display: Using Audio Device Högtalare (Realtek High Definition Audio)
+[2020.11.03-17.14.31:872][823]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.03-17.14.31:872][823]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.03-17.14.31:872][823]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.03-17.14.31:872][823]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.03-17.14.31:884][823]LogInit: FAudioDevice initialized.
+[2020.11.03-17.14.31:892][823]LogLoad: Game class is 'BP_HideNSneakGameModeBase_C'
+[2020.11.03-17.14.31:917][823]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox.FirstPlayable_WhiteBox up for play (max tick rate 0) at 2020.11.03-18.14.31
+[2020.11.03-17.14.31:917][823]LogWorld: Bringing up level for play took: 0.024907
+[2020.11.03-17.14.31:918][823]LogOnline: OSS: Creating online subsystem instance for: :Context_31
+[2020.11.03-17.14.31:922][823]PIE: Server logged in
+[2020.11.03-17.14.31:923][823]PIE: Play in editor total start time 0.208 seconds.
+[2020.11.03-17.14.36:106][274]LogEditorViewport: Clicking on Actor (LMB): BP_HideNSneakCPPCharacter_C (BP_HideNSneakCPPCharacter)
+[2020.11.03-17.14.46:322][176]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_HideNSneakCPPCharacter.BP_HideNSneakCPPCharacter
+[2020.11.03-17.15.29:457][840]LogSlate: Window 'BP_HideNSneakCPPCharacter' being destroyed
+[2020.11.03-17.15.29:470][840]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2020.11.03-17.15.29:470][840]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.03-17.15.31:450][977]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/MyCPPCharacter.MyCPPCharacter
+[2020.11.03-17.15.36:387][225]LogSlate: Window 'MyCPPCharacter' being destroyed
+[2020.11.03-17.15.36:408][225]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2020.11.03-17.15.36:408][225]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.03-17.15.40:683][563]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Character/Character.Character
+[2020.11.03-17.16.03:536][841]LogSlate: Window 'Character' being destroyed
+[2020.11.03-17.16.03:549][841]LogSlate: Window 'Character' being destroyed
+[2020.11.03-17.16.03:556][841]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2020.11.03-17.16.03:556][841]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.03-17.16.12:179][609]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.03-17.16.12:179][609]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox
+[2020.11.03-17.16.12:180][609]LogWorld: UWorld::CleanupWorld for FirstPlayable_WhiteBox, bSessionEnded=true, bCleanupResources=true
+[2020.11.03-17.16.12:184][609]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.03-17.16.12:195][609]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.03-17.16.12:199][609]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.03-17.16.12:218][609]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.03-17.16.12:236][609]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000018ABEDDC2C0), frame # 321609
+[2020.11.03-17.16.12:236][609]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000018AAB5B3200), frame # 321609
+[2020.11.03-17.16.12:242][609]LogUObjectHash: Compacting FUObjectHashTables data took   3.04ms
+[2020.11.03-17.16.12:280][610]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2020.11.03-17.16.22:707][840]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_ventStraight_mesh_v7)
+[2020.11.03-17.16.27:935][432]Cmd: EDIT COPY
+[2020.11.03-17.16.28:134][452]Cmd: EDIT PASTE
+[2020.11.03-17.16.38:738][675]LogTemp: Repeating last play command: Selected Viewport
+[2020.11.03-17.16.38:755][675]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.03-17.16.38:755][675]PIE: New page: PIE session: FirstPlayable_WhiteBox (Nov 3, 2020, 7:16:38 PM)
+[2020.11.03-17.16.38:755][675]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox
+[2020.11.03-17.16.38:815][675]LogPlayLevel: PIE: StaticDuplicateObject took: (0.059787s)
+[2020.11.03-17.16.38:816][675]LogAIModule: Creating AISystem for world FirstPlayable_WhiteBox
+[2020.11.03-17.16.38:816][675]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018AA82BFC00), frame # 324675
+[2020.11.03-17.16.38:816][675]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018ABD345F80), frame # 324675
+[2020.11.03-17.16.38:816][675]LogPlayLevel: PIE: World Init took: (0.001565s)
+[2020.11.03-17.16.38:816][675]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstPlayable_WhiteBox.FirstPlayable_WhiteBox to /Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox.FirstPlayable_WhiteBox (0.061614s)
+[2020.11.03-17.16.38:840][675]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2020.11.03-17.16.38:847][675]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.03-17.16.38:847][675]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.03-17.16.38:847][675]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.03-17.16.38:847][675]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.03-17.16.38:847][675]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.03-17.16.38:847][675]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.03-17.16.38:847][675]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.03-17.16.38:847][675]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.03-17.16.38:848][675]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.03-17.16.38:848][675]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.03-17.16.38:858][675]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.03-17.16.38:858][675]LogAudioMixer: Display: 1: FrontRight
+[2020.11.03-17.16.38:908][675]LogAudioMixer: Display: Using Audio Device Högtalare (Realtek High Definition Audio)
+[2020.11.03-17.16.38:909][675]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.03-17.16.38:909][675]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.03-17.16.38:909][675]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.03-17.16.38:909][675]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.03-17.16.38:921][675]LogInit: FAudioDevice initialized.
+[2020.11.03-17.16.38:926][675]LogLoad: Game class is 'BP_HideNSneakGameModeBase_C'
+[2020.11.03-17.16.38:964][675]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox.FirstPlayable_WhiteBox up for play (max tick rate 0) at 2020.11.03-18.16.38
+[2020.11.03-17.16.38:965][675]LogWorld: Bringing up level for play took: 0.038869
+[2020.11.03-17.16.38:966][675]LogOnline: OSS: Creating online subsystem instance for: :Context_38
+[2020.11.03-17.16.38:973][675]PIE: Server logged in
+[2020.11.03-17.16.38:974][675]PIE: Play in editor total start time 0.229 seconds.
+[2020.11.03-17.17.01:200][298]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.03-17.17.01:200][298]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox
+[2020.11.03-17.17.01:201][298]LogWorld: UWorld::CleanupWorld for FirstPlayable_WhiteBox, bSessionEnded=true, bCleanupResources=true
+[2020.11.03-17.17.01:205][298]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.03-17.17.01:212][298]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.03-17.17.01:216][298]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.03-17.17.01:250][298]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.03-17.17.01:253][298]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000018ABD345F80), frame # 327298
+[2020.11.03-17.17.01:253][298]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000018AA82BFC00), frame # 327298
+[2020.11.03-17.17.01:257][298]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2020.11.03-17.17.01:290][299]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2020.11.03-17.17.18:732][260]LogTemp: Repeating last play command: Selected Viewport
+[2020.11.03-17.17.18:746][260]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.03-17.17.18:746][260]PIE: New page: PIE session: FirstPlayable_WhiteBox (Nov 3, 2020, 7:17:18 PM)
+[2020.11.03-17.17.18:772][260]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox
+[2020.11.03-17.17.18:849][260]LogPlayLevel: PIE: StaticDuplicateObject took: (0.076676s)
+[2020.11.03-17.17.18:852][260]LogAIModule: Creating AISystem for world FirstPlayable_WhiteBox
+[2020.11.03-17.17.18:852][260]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018A5A516800), frame # 329260
+[2020.11.03-17.17.18:852][260]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018A80398F40), frame # 329260
+[2020.11.03-17.17.18:853][260]LogPlayLevel: PIE: World Init took: (0.004137s)
+[2020.11.03-17.17.18:853][260]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstPlayable_WhiteBox.FirstPlayable_WhiteBox to /Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox.FirstPlayable_WhiteBox (0.081347s)
+[2020.11.03-17.17.18:882][260]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2020.11.03-17.17.18:887][260]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.03-17.17.18:887][260]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.03-17.17.18:887][260]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.03-17.17.18:887][260]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.03-17.17.18:887][260]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.03-17.17.18:887][260]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.03-17.17.18:887][260]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.03-17.17.18:887][260]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.03-17.17.18:887][260]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.03-17.17.18:887][260]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.03-17.17.18:897][260]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.03-17.17.18:897][260]LogAudioMixer: Display: 1: FrontRight
+[2020.11.03-17.17.18:945][260]LogAudioMixer: Display: Using Audio Device Högtalare (Realtek High Definition Audio)
+[2020.11.03-17.17.18:946][260]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.03-17.17.18:946][260]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.03-17.17.18:946][260]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.03-17.17.18:946][260]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.03-17.17.18:960][260]LogInit: FAudioDevice initialized.
+[2020.11.03-17.17.18:969][260]LogLoad: Game class is 'BP_HideNSneakGameModeBase_C'
+[2020.11.03-17.17.19:016][260]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox.FirstPlayable_WhiteBox up for play (max tick rate 0) at 2020.11.03-18.17.19
+[2020.11.03-17.17.19:017][260]LogWorld: Bringing up level for play took: 0.047714
+[2020.11.03-17.17.19:018][260]LogOnline: OSS: Creating online subsystem instance for: :Context_39
+[2020.11.03-17.17.19:023][260]PIE: Server logged in
+[2020.11.03-17.17.19:024][260]PIE: Play in editor total start time 0.285 seconds.
+[2020.11.03-17.17.19:691][306]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.03-17.17.19:691][306]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox
+[2020.11.03-17.17.19:692][306]LogWorld: UWorld::CleanupWorld for FirstPlayable_WhiteBox, bSessionEnded=true, bCleanupResources=true
+[2020.11.03-17.17.19:700][306]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.03-17.17.19:707][306]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.03-17.17.19:713][306]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.03-17.17.19:753][306]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.03-17.17.19:756][306]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000018A80398F40), frame # 329306
+[2020.11.03-17.17.19:756][306]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000018A5A516800), frame # 329306
+[2020.11.03-17.17.19:762][306]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
+[2020.11.03-17.17.19:794][307]LogPlayLevel: Display: Destroying online subsystem :Context_39
+[2020.11.03-17.17.25:442][953]LogTemp: Repeating last play command: Selected Viewport
+[2020.11.03-17.17.25:455][953]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.03-17.17.25:455][953]PIE: New page: PIE session: FirstPlayable_WhiteBox (Nov 3, 2020, 7:17:25 PM)
+[2020.11.03-17.17.25:456][953]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox
+[2020.11.03-17.17.25:526][953]LogPlayLevel: PIE: StaticDuplicateObject took: (0.069947s)
+[2020.11.03-17.17.25:528][953]LogAIModule: Creating AISystem for world FirstPlayable_WhiteBox
+[2020.11.03-17.17.25:528][953]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018A5477C800), frame # 329953
+[2020.11.03-17.17.25:528][953]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018A5A518B80), frame # 329953
+[2020.11.03-17.17.25:529][953]LogPlayLevel: PIE: World Init took: (0.003693s)
+[2020.11.03-17.17.25:530][953]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstPlayable_WhiteBox.FirstPlayable_WhiteBox to /Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox.FirstPlayable_WhiteBox (0.074208s)
+[2020.11.03-17.17.25:556][953]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2020.11.03-17.17.25:559][953]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.03-17.17.25:559][953]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.03-17.17.25:559][953]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.03-17.17.25:559][953]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.03-17.17.25:559][953]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.03-17.17.25:559][953]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.03-17.17.25:559][953]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.03-17.17.25:559][953]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.03-17.17.25:559][953]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.03-17.17.25:559][953]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.03-17.17.25:569][953]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.03-17.17.25:569][953]LogAudioMixer: Display: 1: FrontRight
+[2020.11.03-17.17.25:616][953]LogAudioMixer: Display: Using Audio Device Högtalare (Realtek High Definition Audio)
+[2020.11.03-17.17.25:616][953]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.03-17.17.25:616][953]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.03-17.17.25:616][953]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.03-17.17.25:616][953]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.03-17.17.25:629][953]LogInit: FAudioDevice initialized.
+[2020.11.03-17.17.25:639][953]LogLoad: Game class is 'BP_HideNSneakGameModeBase_C'
+[2020.11.03-17.17.25:673][953]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox.FirstPlayable_WhiteBox up for play (max tick rate 0) at 2020.11.03-18.17.25
+[2020.11.03-17.17.25:675][953]LogWorld: Bringing up level for play took: 0.035428
+[2020.11.03-17.17.25:675][953]LogOnline: OSS: Creating online subsystem instance for: :Context_40
+[2020.11.03-17.17.25:680][953]PIE: Server logged in
+[2020.11.03-17.17.25:681][953]PIE: Play in editor total start time 0.233 seconds.
+[2020.11.03-17.19.35:129][443]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.03-17.19.35:129][443]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FirstPlayable_WhiteBox
+[2020.11.03-17.19.35:130][443]LogWorld: UWorld::CleanupWorld for FirstPlayable_WhiteBox, bSessionEnded=true, bCleanupResources=true
+[2020.11.03-17.19.35:135][443]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.03-17.19.35:143][443]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.03-17.19.35:147][443]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.03-17.19.35:184][443]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.03-17.19.35:187][443]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000018A5A518B80), frame # 345443
+[2020.11.03-17.19.35:187][443]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000018A5477C800), frame # 345443
+[2020.11.03-17.19.35:190][443]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2020.11.03-17.19.35:222][444]LogPlayLevel: Display: Destroying online subsystem :Context_40
+[2020.11.03-17.20.44:315][792]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2020.11.03-17.20.44:361][792]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2020.11.03-17.20.44:834][792]LogSavePackage: Moving 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Saved/FirstPlayable_WhiteBoxCDE85A514B3D38D816A03BB35B21A13B.tmp' to 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Maps/FirstPlayable_WhiteBox.umap'
+[2020.11.03-17.20.44:869][792]LogFileHelpers: Saving map 'FirstPlayable_WhiteBox' took 0.524
+[2020.11.03-17.20.44:883][792]AssetCheck: New page: Asset Save: FirstPlayable_WhiteBox
+[2020.11.03-17.20.44:883][792]LogContentValidation: Display: Validating World /Game/Maps/FirstPlayable_WhiteBox.FirstPlayable_WhiteBox
