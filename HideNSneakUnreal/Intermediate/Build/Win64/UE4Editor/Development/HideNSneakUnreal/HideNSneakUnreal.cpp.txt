@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 C:\Users\Olle\Documents\PROJ_Grupp2\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\Definitions.HideNSneakUnreal.h
 C:\Users\Olle\Documents\PROJ_Grupp2\HideNSneakUnreal\Source\HideNSneakUnreal\HideNSneakUnreal.h
+=======
+E:\Unreal Projects\Proj\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\Definitions.HideNSneakUnreal.h
+E:\Unreal Projects\Proj\HideNSneakUnreal\Source\HideNSneakUnreal\HideNSneakUnreal.h
+>>>>>>> 245d11cbb70544f6774cb72546e048d1c4a41b10
