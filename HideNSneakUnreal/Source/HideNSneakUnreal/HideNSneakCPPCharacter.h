@@ -35,6 +35,9 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera)
 		float BaseLookUpRate;
 
+	UPROPERTY(EditAnywhere)
+		bool hasBeenSeeker;
+
 	// Client Request to turn into a hider
 	UFUNCTION(Client, Reliable, BlueprintCallable, Category = "Seeker")
 		void BecomeHider();

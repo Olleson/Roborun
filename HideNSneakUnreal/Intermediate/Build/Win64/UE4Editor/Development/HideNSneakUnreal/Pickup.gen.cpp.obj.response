@@ -32,34 +32,34 @@
 /wd4244
 /wd4838
 /I .
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\Slate
+/I Runtime
+/I Runtime\Slate\Public
+/I Runtime\TraceLog\Public
+/I Runtime\Core\Public
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\CoreUObject
+/I Runtime\CoreUObject\Public
+/I Runtime\ApplicationCore\Public
+/I Runtime\RHI\Public
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\InputCore
+/I Runtime\InputCore\Classes
+/I Runtime\InputCore\Public
+/I Runtime\Json\Public
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\SlateCore
+/I Runtime\SlateCore\Public
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\ImageWrapper
+/I Runtime\ImageWrapper\Public
 /I ..\Plugins\Online\OnlineSubsystem\Intermediate\Build\Win64\UE4Editor\Inc\OnlineSubsystem
 /I ..\Plugins\Online\OnlineSubsystem
 /I ..\Plugins\Online\OnlineSubsystem\Source
 /I ..\Plugins\Online\OnlineSubsystem\Source\Public
-/I Runtime
-/I Runtime\Json\Public
-/I Runtime\TraceLog\Public
-/I Runtime\Core\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\Engine
 /I Runtime\Engine\Classes
 /I Runtime\Engine\Public
-/I ..\Intermediate\Build\Win64\UE4Editor\Inc\CoreUObject
-/I Runtime\CoreUObject\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\NetCore
 /I Runtime\Net
 /I Runtime\Net\Core\Classes
 /I Runtime\Net\Core\Public
-/I Runtime\ApplicationCore\Public
-/I Runtime\RHI\Public
-/I ..\Intermediate\Build\Win64\UE4Editor\Inc\SlateCore
-/I Runtime\SlateCore\Public
-/I ..\Intermediate\Build\Win64\UE4Editor\Inc\InputCore
-/I Runtime\InputCore\Classes
-/I Runtime\InputCore\Public
-/I ..\Intermediate\Build\Win64\UE4Editor\Inc\Slate
-/I Runtime\Slate\Public
-/I ..\Intermediate\Build\Win64\UE4Editor\Inc\ImageWrapper
-/I Runtime\ImageWrapper\Public
 /I Runtime\Messaging\Public
 /I Runtime\MessagingCommon\Public
 /I Runtime\RenderCore\Public
@@ -234,8 +234,8 @@
 /I Runtime\Experimental\GeometryCollectionSimulationCore\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\ClothingSystemRuntimeInterface
 /I Runtime\ClothingSystemRuntimeInterface\Public
-/I C:\Users\arvid\Documents\PROJ_Grupp2_Ny\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Inc\HideNSneakUnreal
-/I C:\Users\arvid\Documents\PROJ_Grupp2_Ny\HideNSneakUnreal\Source
+/I C:\Users\Olle\Documents\PROJ_Grupp2\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Inc\HideNSneakUnreal
+/I C:\Users\Olle\Documents\PROJ_Grupp2\HideNSneakUnreal\Source
 /I ThirdParty\PhysX3\PxShared\include
 /I ThirdParty\PhysX3\PxShared\include\cudamanager
 /I ThirdParty\PhysX3\PxShared\include\filebuf
@@ -259,18 +259,18 @@
 /I ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public
 /I ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include
 /I ThirdParty\PhysX3\APEX_1.4\shared\internal\include
-/I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\INCLUDE"
-/I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
-/FI"C:\Users\arvid\Documents\PROJ_Grupp2_Ny\HideNSneakUnreal\Intermediate\Build\Win64\HideNSneakUnrealEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Yu"C:\Users\arvid\Documents\PROJ_Grupp2_Ny\HideNSneakUnreal\Intermediate\Build\Win64\HideNSneakUnrealEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"C:\Users\arvid\Documents\PROJ_Grupp2_Ny\HideNSneakUnreal\Intermediate\Build\Win64\HideNSneakUnrealEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-"C:\Users\arvid\Documents\PROJ_Grupp2_Ny\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Inc\HideNSneakUnreal\Pickup.gen.cpp"
-/FI"C:\Users\arvid\Documents\PROJ_Grupp2_Ny\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\Definitions.HideNSneakUnreal.h"
-/Fo"C:\Users\arvid\Documents\PROJ_Grupp2_Ny\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\Pickup.gen.cpp.obj"
+/I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE"
+/I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.2\include\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"
+/FI"C:\Users\Olle\Documents\PROJ_Grupp2\HideNSneakUnreal\Intermediate\Build\Win64\HideNSneakUnrealEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Yu"C:\Users\Olle\Documents\PROJ_Grupp2\HideNSneakUnreal\Intermediate\Build\Win64\HideNSneakUnrealEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"C:\Users\Olle\Documents\PROJ_Grupp2\HideNSneakUnreal\Intermediate\Build\Win64\HideNSneakUnrealEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+"C:\Users\Olle\Documents\PROJ_Grupp2\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Inc\HideNSneakUnreal\Pickup.gen.cpp"
+/FI"C:\Users\Olle\Documents\PROJ_Grupp2\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\Definitions.HideNSneakUnreal.h"
+/Fo"C:\Users\Olle\Documents\PROJ_Grupp2\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\Pickup.gen.cpp.obj"
 /TP
 /GR-
 /W4
