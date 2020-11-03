@@ -2,10 +2,6 @@
 	"BuildId": "13144385",
 	"Modules": 
 	{
-<<<<<<< HEAD
 		"HideNSneakUnreal": "UE4Editor-HideNSneakUnreal.dll"
-=======
-		"HideNSneakUnreal": "UE4Editor-HideNSneakUnreal-2427.dll"
->>>>>>> 6066d1995abef378e5effcee0ef1d47a8256d657
 	}
 }
