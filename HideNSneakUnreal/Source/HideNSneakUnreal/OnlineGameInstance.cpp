@@ -5,7 +5,7 @@
 #include "OnlineGameInstance.h"
 
 UOnlineGameInstance::UOnlineGameInstance() {
-
+	MySessionName = "My Session";
 }
 
 void UOnlineGameInstance::Init()
@@ -28,11 +28,30 @@ void UOnlineGameInstance::OnCreateSessionComplete(FName ServerName, bool Succede
 
 void UOnlineGameInstance::OnFindSessionsComplete(bool Succeded)
 {
+	SearchingForServerDelegate.Broadcast(false);
 	if (Succeded) {
 		TArray<FOnlineSessionSearchResult> SearchResults = SessionSearch->SearchResults;
 
-		if (SearchResults.Num()) {
-			SessionInterface->JoinSession(0, "MySession", SearchResults[0]);
+		for (size_t i = 0; i < SearchResults.Num(); i++)
+		{
+			FOnlineSessionSearchResult Result = SearchResults[i];
+			if (!Result.IsValid()) {
+				continue;
+			}
+
+			FServerInfo Info;
+			FString ServerName = "Empty Server Name";
+			FString HostName = "Empty Host Name";
+
+			Result.Session.SessionSettings.Get(FName("SERVER_NAME_KEY"), ServerName);
+			Result.Session.SessionSettings.Get(FName("SERVER_HOSTNAME_KEY"), HostName);
+
+			Info.ServerName = ServerName;
+			Info.MaxPlayers = SearchResults[i].Session.SessionSettings.NumPublicConnections;
+			Info.CurrentPlayers = SearchResults[i].Session.NumOpenPublicConnections;
+			Info.ServerArrayIndex = i;
+
+			ServerListDel.Broadcast(Info);
 		}
 	}
 }
@@ -48,7 +67,7 @@ void UOnlineGameInstance::OnJoinSessionComplete(FName SessionName, EOnJoinSessio
 	}
 }
 
-void UOnlineGameInstance::CreateServer()
+void UOnlineGameInstance::CreateServer(FString ServerName, FString HostName)
 {
 	FOnlineSessionSettings SessionSettings;
 	SessionSettings.bAllowJoinInProgress = true;
@@ -62,13 +81,16 @@ void UOnlineGameInstance::CreateServer()
 	SessionSettings.bShouldAdvertise = true;
 	SessionSettings.bUsesPresence = true;
 	SessionSettings.NumPublicConnections = 10;
+	SessionSettings.Set(FName("SERVER_NAME_KEY"), ServerName, EOnlineDataAdvertisementType::ViaOnlineServiceAndPing);
+	SessionSettings.Set(FName("SERVER_HOSTNAME_KEY"), HostName, EOnlineDataAdvertisementType::ViaOnlineServiceAndPing);
 
-	SessionInterface->CreateSession(0, FName("My Session"), SessionSettings);
+	SessionInterface->CreateSession(0, MySessionName, SessionSettings);
 
 }
 
 void UOnlineGameInstance::FindServers()
 {
+	SearchingForServerDelegate.Broadcast(true);
 	SessionSearch = MakeShareable(new FOnlineSessionSearch());
 	if (IOnlineSubsystem::Get()->GetSubsystemName() != "NULL") {
 		SessionSearch->bIsLanQuery = false;
@@ -83,11 +105,12 @@ void UOnlineGameInstance::FindServers()
 	SessionInterface->FindSessions(0, SessionSearch.ToSharedRef());
 }
 
-void UOnlineGameInstance::JoinServer(int ServerIndex)
+void UOnlineGameInstance::JoinServer(int32 ServerIndex)
 {
-	TArray<FOnlineSessionSearchResult> SearchResults = SessionSearch->SearchResults;
-
-	if (SearchResults.Num() < ServerIndex && ServerIndex > 0) {
-
+	if (SessionSearch->SearchResults.Num() < ServerIndex && ServerIndex > 0) {
+		FOnlineSessionSearchResult Result = SessionSearch->SearchResults[ServerIndex];
+		if (Result.IsValid()) {
+			SessionInterface->JoinSession(0, MySessionName, Result);
+		}
 	}
 }
