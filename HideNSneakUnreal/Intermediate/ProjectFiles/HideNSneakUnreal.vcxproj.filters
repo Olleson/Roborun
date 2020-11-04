@@ -60,7 +60,7 @@
   <ItemGroup>
     <None Include="..\..\HideNSneakUnreal.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{0C7CBB57-D3F3-4C2D-9703-69DABA97A255}</UniqueIdentifier>
+      <UniqueIdentifier>{74D1C4CA-6B89-4ED3-8AB8-070E14ADF216}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\HideNSneakUnreal.Target.cs">
       <Filter>Source</Filter>
@@ -69,7 +69,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{A3FDA75A-1A00-4680-AAB8-2CEA2B14F986}</UniqueIdentifier>
+      <UniqueIdentifier>{964707B6-657D-4D21-93C2-EAE4F4CCBD6C}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -90,8 +90,14 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\HideNSneakUnreal">
-      <UniqueIdentifier>{AA5D77A4-B3CF-4889-9012-26715072E5D5}</UniqueIdentifier>
+      <UniqueIdentifier>{F9C5408F-1AF3-496F-8ADB-18CC66F6DC06}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\HideNSneakUnreal\batman.cpp">
+      <Filter>Source\HideNSneakUnreal</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HideNSneakUnreal\batman.h">
+      <Filter>Source\HideNSneakUnreal</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\HideNSneakUnreal\BatteryGameMode.cpp">
       <Filter>Source\HideNSneakUnreal</Filter>
     </ClCompile>
@@ -137,16 +143,34 @@
     <ClInclude Include="..\..\Source\HideNSneakUnreal\HideNSneakUnreal.h">
       <Filter>Source\HideNSneakUnreal</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\HideNSneakUnreal\MyTestClass.cpp">
+    <ClCompile Include="..\..\Source\HideNSneakUnreal\moveableBox.cpp">
       <Filter>Source\HideNSneakUnreal</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\HideNSneakUnreal\MyTestClass.h">
+    <ClInclude Include="..\..\Source\HideNSneakUnreal\moveableBox.h">
+      <Filter>Source\HideNSneakUnreal</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HideNSneakUnreal\MovingPlatform.cpp">
+      <Filter>Source\HideNSneakUnreal</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HideNSneakUnreal\MovingPlatform.h">
+      <Filter>Source\HideNSneakUnreal</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HideNSneakUnreal\NewActorComponent.cpp">
+      <Filter>Source\HideNSneakUnreal</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HideNSneakUnreal\NewActorComponent.h">
       <Filter>Source\HideNSneakUnreal</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\HideNSneakUnreal\OnlineGameInstance.cpp">
       <Filter>Source\HideNSneakUnreal</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\HideNSneakUnreal\OnlineGameInstance.h">
+      <Filter>Source\HideNSneakUnreal</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HideNSneakUnreal\Pablo.cpp">
+      <Filter>Source\HideNSneakUnreal</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HideNSneakUnreal\Pablo.h">
       <Filter>Source\HideNSneakUnreal</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\HideNSneakUnreal\Pickup.cpp">
@@ -159,6 +183,18 @@
       <Filter>Source\HideNSneakUnreal</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\HideNSneakUnreal\SpawnVolume.h">
+      <Filter>Source\HideNSneakUnreal</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HideNSneakUnreal\test.cpp">
+      <Filter>Source\HideNSneakUnreal</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HideNSneakUnreal\test.h">
+      <Filter>Source\HideNSneakUnreal</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HideNSneakUnreal\testActor.cpp">
+      <Filter>Source\HideNSneakUnreal</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HideNSneakUnreal\testActor.h">
       <Filter>Source\HideNSneakUnreal</Filter>
     </ClInclude>
   </ItemGroup>

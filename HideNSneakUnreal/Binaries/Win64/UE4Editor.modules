@@ -1,16 +1,7 @@
-<<<<<<< HEAD
 {
 	"BuildId": "13144385",
 	"Modules": 
 	{
-		"HideNSneakUnreal": "UE4Editor-HideNSneakUnreal-0222.dll"
+		"HideNSneakUnreal": "UE4Editor-HideNSneakUnreal.dll"
 	}
-=======
-{
-	"BuildId": "13144385",
-	"Modules": 
-	{
-		"HideNSneakUnreal": "UE4Editor-HideNSneakUnreal-0027.dll"
-	}
->>>>>>> Aulin
 }
