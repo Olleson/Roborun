@@ -16,6 +16,7 @@
 #include "GameplayTags.h"
 #include "GameplayTagsManager.h"
 #include "GameFramework/Actor.h"
+#include "DrawDebugHelpers.h"
 
 //////////////////////////////////////////////////////////////////////////
 // AHideNSneakCPPCharacter
@@ -221,5 +222,61 @@ void AHideNSneakCPPCharacter::MoveRight(float Value)
 		const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y);
 		// add movement in that direction
 		AddMovementInput(Direction, Value);
+	}
+}
+
+//void AHideNSneakCPPCharacter::Test() {
+//	 Set up parameters for getting the player viewport
+//	FVector PlayerViewPointLocation;
+//	FRotator PlayerViewPointRotation;
+//
+//	 Get player viewport and set these parameters
+//	GetWorld()->GetFirstPlayerController()->GetPlayerViewPoint(
+//		OUT PlayerViewPointLocation,
+//		OUT PlayerViewPointRotation
+//	);
+//
+//	 Parameter for how far out the the line trace reaches
+//	float Reach = 100.f;
+//	FVector LineTraceEnd = PlayerViewPointLocation + PlayerViewPointRotation.Vector() * Reach;
+//
+//	 Set parameters to use line tracing
+//	FHitResult Hit;
+//	FCollisionQueryParams TraceParams(FName(TEXT("")), false, GetOwner());  // false to ignore complex collisions and GetOwner() to ignore self
+//
+// Raycast out to this distance
+//	GetWorld()->LineTraceSingleByObjectType(
+//		OUT Hit,
+//		PlayerViewPointLocation,
+//		LineTraceEnd,
+//		FCollisionObjectQueryParams(ECollisionChannel::ECC_PhysicsBody),
+//		TraceParams
+//	);
+//
+//	 See what if anything has been hit and return what
+//	AActor* ActorHit = Hit.GetActor();
+//
+//	if (ActorHit)
+//		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Orange, FString::Printf(TEXT("Line trace has hit: %s"), *(ActorHit->GetName())));
+//}
+
+void AHideNSneakCPPCharacter::Tick(float DeltaSeconds) {
+	Super::Tick(DeltaSeconds);
+
+	FHitResult OutHit;
+	FVector Start = GetActorLocation();
+
+	Start.Z += 100.f;
+	//Start.Y += 100.f;
+
+	FVector ForwardVector = GetActorForwardVector();
+	FVector End = ((ForwardVector * 500.f) + Start);
+	FCollisionQueryParams CollisionParams;
+
+	DrawDebugLine(GetWorld(), Start, End, FColor::Green, false, 1, 0, 5);
+
+	if (ActorLineTraceSingle(OutHit, Start, End, ECC_WorldStatic, CollisionParams))
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 1.f, FColor::Green, FString::Printf(TEXT("The Component Being Hit is: %s"), *OutHit.GetComponent()->GetName()));
 	}
 }

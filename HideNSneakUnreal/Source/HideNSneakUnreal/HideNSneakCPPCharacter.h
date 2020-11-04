@@ -149,4 +149,9 @@ public:
 	// Returns true if the character is a seeker
 	UFUNCTION(BlueprintPure, Category = "Seeker")
 	bool IsSeeker() const { return bIsSeeker; }
+
+	//UFUNCTION()
+	//	void Test();
+	UFUNCTION()
+		virtual void Tick(float DeltaSeconds);
 };
