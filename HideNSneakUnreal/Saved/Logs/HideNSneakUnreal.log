@@ -1874,3 +1874,15 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.11.05-09.53.00:556][836]LogSavePackage: Moving '../../../../../../Users/arvid/Documents/PROJ_Grupp2_Ny/HideNSneakUnreal/Saved/FirstPlayable_WhiteBox1CEF111640B2EC6279A9E6A369D21AB9.tmp' to '../../../../../../Users/arvid/Documents/PROJ_Grupp2_Ny/HideNSneakUnreal/Content/Maps/FirstPlayable_WhiteBox.umap'
 [2020.11.05-09.53.00:595][836]AssetCheck: New page: Asset Save: FirstPlayable_WhiteBox
 [2020.11.05-09.53.00:595][836]LogContentValidation: Display: Validating World /Game/Maps/FirstPlayable_WhiteBox.FirstPlayable_WhiteBox
+[2020.11.05-11.37.30:748][920]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_wallDoorModular_mesh_v14)
+[2020.11.05-11.37.31:095][953]Cmd: TRANSACTION UNDO
+[2020.11.05-11.37.31:095][953]LogEditorTransaction: Undo Clicking on Actors
+[2020.11.05-11.39.02:817][860]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2020.11.05-11.39.03:014][860]LogSavePackage: Moving '../../../../../../Users/arvid/Documents/PROJ_Grupp2_Ny/HideNSneakUnreal/Saved/FirstPlayable_WhiteBox_Auto1A3760CBE4730D49176B1A88258C6B563.tmp' to '../../../../../../Users/arvid/Documents/PROJ_Grupp2_Ny/HideNSneakUnreal/Saved/Autosaves/Game/Maps/FirstPlayable_WhiteBox_Auto1.umap'
+[2020.11.05-11.39.03:020][860]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/FirstPlayable_WhiteBox' took 0.213
+[2020.11.05-11.39.03:020][860]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.213
+[2020.11.05-11.40.44:011][230]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2020.11.05-11.40.44:189][230]LogSavePackage: Moving '../../../../../../Users/arvid/Documents/PROJ_Grupp2_Ny/HideNSneakUnreal/Saved/FirstPlayable_WhiteBox629326824D4687717250CF9C862DA70B.tmp' to '../../../../../../Users/arvid/Documents/PROJ_Grupp2_Ny/HideNSneakUnreal/Content/Maps/FirstPlayable_WhiteBox.umap'
+[2020.11.05-11.40.44:227][230]AssetCheck: New page: Asset Save: FirstPlayable_WhiteBox
+[2020.11.05-11.40.44:227][230]LogContentValidation: Display: Validating World /Game/Maps/FirstPlayable_WhiteBox.FirstPlayable_WhiteBox
+[2020.11.05-11.40.45:205][345]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ground18)
