@@ -57,7 +57,7 @@ protected:
 	FName MySessionName;
 
 	UPROPERTY(BlueprintAssignable)
-		FServerDelegate ServerListDel;
+		FServerDelegate ServerListDelegate;
 
 	UPROPERTY(BlueprintAssignable)
 		FServerSearchingDelegate SearchingForServerDelegate;

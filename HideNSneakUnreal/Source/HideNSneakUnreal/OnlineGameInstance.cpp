@@ -10,7 +10,9 @@ UOnlineGameInstance::UOnlineGameInstance() {
 
 void UOnlineGameInstance::Init()
 {
-	if (IOnlineSubsystem* Subsystem = IOnlineSubsystem::Get()) {
+	Super::Init();
+	if (IOnlineSubsystem* Subsystem = IOnlineSubsystem::Get("Steam")) {
+		GEngine->AddOnScreenDebugMessage(-1, 7.0f, FColor::Red, FString("Subsystem name: " + Subsystem->GetSubsystemName().ToString()));
 		SessionInterface = Subsystem->GetSessionInterface();
 		if (SessionInterface.IsValid()) {
 			//Bind Delegates Here
@@ -34,8 +36,10 @@ void UOnlineGameInstance::OnFindSessionsComplete(bool Succeded)
 
 		for (size_t i = 0; i < SearchResults.Num(); i++)
 		{
+			GEngine->AddOnScreenDebugMessage(-1, 7.0f, FColor::Red, FString("Looping Through Results"));
 			FOnlineSessionSearchResult Result = SearchResults[i];
 			if (!Result.IsValid()) {
+				GEngine->AddOnScreenDebugMessage(-1, 7.0f, FColor::Red, FString("Invalid Result"));
 				continue;
 			}
 
@@ -51,7 +55,9 @@ void UOnlineGameInstance::OnFindSessionsComplete(bool Succeded)
 			Info.CurrentPlayers = SearchResults[i].Session.NumOpenPublicConnections;
 			Info.ServerArrayIndex = i;
 
-			ServerListDel.Broadcast(Info);
+			GEngine->AddOnScreenDebugMessage(-1, 7.0f, FColor::Red, ServerName + " has been found");
+			//JoinServer(0);
+			ServerListDelegate.Broadcast(Info);
 		}
 	}
 }
@@ -74,9 +80,11 @@ void UOnlineGameInstance::CreateServer(FString ServerName, FString HostName)
 	SessionSettings.bIsDedicated = false;
 	if (IOnlineSubsystem::Get()->GetSubsystemName() != "NULL") {
 		SessionSettings.bIsLANMatch = false;
+		GEngine->AddOnScreenDebugMessage(-1, 7.0f, FColor::Red, FString("Hosting an online match"));
 	}
 	else {
 		SessionSettings.bIsLANMatch = true;
+		GEngine->AddOnScreenDebugMessage(-1, 7.0f, FColor::Red, FString("Hosting a LAN match"));
 	}
 	SessionSettings.bShouldAdvertise = true;
 	SessionSettings.bUsesPresence = true;
@@ -92,12 +100,15 @@ void UOnlineGameInstance::FindServers()
 {
 	SearchingForServerDelegate.Broadcast(true);
 	SessionSearch = MakeShareable(new FOnlineSessionSearch());
+	GEngine->AddOnScreenDebugMessage(-1, 7.0f, FColor::Red, FString("Subsystem name: " + IOnlineSubsystem::Get()->GetSubsystemName().ToString()));
 	if (IOnlineSubsystem::Get()->GetSubsystemName() != "NULL") {
 		SessionSearch->bIsLanQuery = false;
+		GEngine->AddOnScreenDebugMessage(-1, 7.0f, FColor::Red, FString("Searching for an online match"));
 	}
 	else
 	{
 		SessionSearch->bIsLanQuery = true;
+		GEngine->AddOnScreenDebugMessage(-1, 7.0f, FColor::Red, FString("Searching for a LAN match"));
 	}
 	SessionSearch->MaxSearchResults = 10000;
 	SessionSearch->QuerySettings.Set(SEARCH_PRESENCE, true, EOnlineComparisonOp::Equals);
@@ -107,9 +118,12 @@ void UOnlineGameInstance::FindServers()
 
 void UOnlineGameInstance::JoinServer(int32 ServerIndex)
 {
-	if (SessionSearch->SearchResults.Num() < ServerIndex && ServerIndex > 0) {
+	GEngine->AddOnScreenDebugMessage(-1, 7.0f, FColor::Red, FString("Joining Server..."));
+	if (SessionSearch->SearchResults.Num() > ServerIndex && ServerIndex >= 0) {
+		GEngine->AddOnScreenDebugMessage(-1, 7.0f, FColor::Red, FString("Attempting to connect"));
 		FOnlineSessionSearchResult Result = SessionSearch->SearchResults[ServerIndex];
 		if (Result.IsValid()) {
+			GEngine->AddOnScreenDebugMessage(-1, 7.0f, FColor::Red, FString("Connecting..."));
 			SessionInterface->JoinSession(0, MySessionName, Result);
 		}
 	}

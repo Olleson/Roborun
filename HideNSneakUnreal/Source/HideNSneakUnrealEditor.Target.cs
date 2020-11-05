@@ -9,7 +9,7 @@ public class HideNSneakUnrealEditorTarget : TargetRules
 	{
 		Type = TargetType.Editor;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
-
-		ExtraModuleNames.AddRange( new string[] { "HideNSneakUnreal" } );
+		bUsesSteam = true;
+		ExtraModuleNames.AddRange( new string[] { "HideNSneakUnreal", "OnlineSubsystemSteam" } );
 	}
 }
