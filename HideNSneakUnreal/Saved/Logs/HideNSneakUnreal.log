@@ -4898,3 +4898,94 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.11.05-15.19.48:516][161]MaterialEditorStats: Base pass shader without light map: 33 instructions
 [2020.11.05-15.19.48:516][161]MaterialEditorStats: Base pass vertex shader: 40 instructions
 [2020.11.05-15.19.48:516][161]MaterialEditorStats: Texture samplers: 0/16
+[2020.11.05-15.22.05:743][493]LogMaterialEditor: Saving and Compiling material PP_SeeThroughWalls
+[2020.11.05-15.22.06:310][493]LogMaterial: Display: Missing cached shader map for material PP_SeeThroughWalls, compiling. 
+[2020.11.05-15.22.06:332][493]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 4
+[2020.11.05-15.22.06:332][493]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3
+[2020.11.05-15.22.06:332][493]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2
+[2020.11.05-15.22.06:339][493]LogMaterial: Display: Missing cached shader map for material PP_SeeThroughWalls, compiling. 
+[2020.11.05-15.22.06:367][493]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2020.11.05-15.22.06:375][493]TextureStreamingBuild: Display: Compiling optional shaders took 0.000 seconds.
+[2020.11.05-15.22.06:393][493]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2020.11.05-15.22.06:978][493]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 7
+[2020.11.05-15.22.06:978][493]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 6
+[2020.11.05-15.22.06:978][493]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3
+[2020.11.05-15.22.07:537][493]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1
+[2020.11.05-15.22.07:584][493]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Materials/PP_SeeThroughWalls" FILE="../../../../../../Users/Olle/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Art/Materials/PP_SeeThroughWalls.uasset" SILENT=true
+[2020.11.05-15.22.07:609][493]LogSavePackage: Moving '../../../../../../Users/Olle/Documents/PROJ_Grupp2/HideNSneakUnreal/Saved/PP_SeeThroughWalls07CDE79D48BA004562302390A70350A7.tmp' to '../../../../../../Users/Olle/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Art/Materials/PP_SeeThroughWalls.uasset'
+[2020.11.05-15.22.07:639][493]AssetCheck: New page: Asset Save: PP_SeeThroughWalls
+[2020.11.05-15.22.07:639][493]LogContentValidation: Display: Validating Material /Game/Art/Materials/PP_SeeThroughWalls.PP_SeeThroughWalls
+[2020.11.05-15.22.08:495][587]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2020.11.05-15.22.08:495][587]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.05-15.22.09:590][708]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2020.11.05-15.22.09:625][708]LogSavePackage: Moving '../../../../../../Users/Olle/Documents/PROJ_Grupp2/HideNSneakUnreal/Saved/Level_HideNSneak46E50DF84025EEBCCEADF1A5F44FEE7E.tmp' to '../../../../../../Users/Olle/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Maps/Level_HideNSneak.umap'
+[2020.11.05-15.22.09:673][708]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level_HideNSneak_BuiltData" FILE="../../../../../../Users/Olle/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Maps/Level_HideNSneak_BuiltData.uasset" SILENT=true
+[2020.11.05-15.22.09:726][708]LogSavePackage: Moving '../../../../../../Users/Olle/Documents/PROJ_Grupp2/HideNSneakUnreal/Saved/Level_HideNSneak_BuiltData7447D58E407372AE91CBC29235FF7ED5.tmp' to '../../../../../../Users/Olle/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Maps/Level_HideNSneak_BuiltData.uasset'
+[2020.11.05-15.22.09:740][708]AssetCheck: New page: Asset Save: multiple assets
+[2020.11.05-15.22.09:740][708]LogContentValidation: Display: Validating World /Game/Maps/Level_HideNSneak.Level_HideNSneak
+[2020.11.05-15.22.09:741][708]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Level_HideNSneak_BuiltData.Level_HideNSneak_BuiltData
+[2020.11.05-15.22.10:929][838]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2020.11.05-15.22.11:118][838]LogSlate: Window 'HideNSneakUnreal - Unreal Editor' being destroyed
+[2020.11.05-15.22.11:616][839]Cmd: QUIT_EDITOR
+[2020.11.05-15.22.11:616][839]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2020.11.05-15.22.11:715][839]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2020.11.05-15.22.12:433][839]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.11.05-15.22.12:450][839]LogExit: Preparing to exit.
+[2020.11.05-15.22.13:882][839]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.11.05-15.22.13:882][839]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.11.05-15.22.13:882][839]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.11.05-15.22.13:882][839]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.11.05-15.22.13:882][839]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.11.05-15.22.13:882][839]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.11.05-15.22.13:882][839]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.11.05-15.22.13:882][839]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2020.11.05-15.22.13:883][839]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2020.11.05-15.22.13:883][839]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.11.05-15.22.13:883][839]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.11.05-15.22.13:883][839]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.11.05-15.22.13:883][839]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.11.05-15.22.13:883][839]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.11.05-15.22.13:883][839]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.11.05-15.22.13:883][839]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.11.05-15.22.13:883][839]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2020.11.05-15.22.13:883][839]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2020.11.05-15.22.13:883][839]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2020.11.05-15.22.13:883][839]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2020.11.05-15.22.13:883][839]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2020.11.05-15.22.14:074][839]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2020.11.05-15.22.14:660][839]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2020.11.05-15.22.14:674][839]LogExit: Editor shut down
+[2020.11.05-15.22.14:676][839]LogExit: Transaction tracking system shut down
+[2020.11.05-15.22.17:921][839]LogAISub: UAISubsystem::~UAISubsystem AISubsystem (00000202E662F780), frame # 218839
+[2020.11.05-15.22.17:921][839]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000202E6634F40), frame # 218839
+[2020.11.05-15.22.18:004][839]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000202E6689C00), frame # 218839
+[2020.11.05-15.22.22:351][839]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000202D7DCFE00), frame # 218839
+[2020.11.05-15.22.22:351][839]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000202E99D9E40), frame # 218839
+[2020.11.05-15.22.22:499][839]LogExit: Object subsystem successfully closed.
+[2020.11.05-15.22.23:659][839]LogShaderCompilers: Display: Shaders left to compile 0
+[2020.11.05-15.22.32:786][839]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (817)
+[2020.11.05-15.22.32:786][839]LogModuleManager: Shutting down and abandoning module HideNSneakUnreal (815)
+[2020.11.05-15.22.32:786][839]LogModuleManager: Shutting down and abandoning module BlueprintGraph (814)
+[2020.11.05-15.22.32:786][839]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (800)
+[2020.11.05-15.22.32:786][839]LogModuleManager: Shutting down and abandoning module Voice (798)
+[2020.11.05-15.22.32:828][839]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (796)
+[2020.11.05-15.22.32:828][839]LogModuleManager: Shutting down and abandoning module SceneOutliner (794)
+[2020.11.05-15.22.32:828][839]LogModuleManager: Shutting down and abandoning module AddContentDialog (792)
+[2020.11.05-15.22.32:927][839]LogModuleManager: Shutting down and abandoning module WidgetCarousel (791)
+[2020.11.05-15.22.32:927][839]LogModuleManager: Shutting down and abandoning module EditorWidgets (788)
+[2020.11.05-15.22.32:927][839]LogModuleManager: Shutting down and abandoning module CollectionManager (786)
+[2020.11.05-15.22.32:984][839]LogModuleManager: Shutting down and abandoning module StatsViewer (784)
+[2020.11.05-15.22.33:057][839]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (782)
+[2020.11.05-15.22.33:057][839]LogModuleManager: Shutting down and abandoning module FoliageEdit (780)
+[2020.11.05-15.22.33:219][839]LogModuleManager: Shutting down and abandoning module LandscapeEditor (778)
+[2020.11.05-15.22.33:621][839]LogModuleManager: Shutting down and abandoning module MeshPaintMode (776)
+[2020.11.05-15.22.33:681][839]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (774)
+[2020.11.05-15.22.33:682][839]LogModuleManager: Shutting down and abandoning module ActorPickerMode (772)
+[2020.11.05-15.22.33:682][839]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (770)
+[2020.11.05-15.22.33:832][839]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (768)
+[2020.11.05-15.22.33:883][839]LogModuleManager: Shutting down and abandoning module AutomationWorker (766)
+[2020.11.05-15.22.34:060][839]LogModuleManager: Shutting down and abandoning module SteamVREditor (764)
+[2020.11.05-15.22.34:060][839]LogModuleManager: Shutting down and abandoning module OculusMR (762)
+[2020.11.05-15.22.34:107][839]LogModuleManager: Shutting down and abandoning module GooglePADEditor (760)
+[2020.11.05-15.22.34:107][839]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (758)
+[2020.11.05-15.22.34:107][839]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (756)
