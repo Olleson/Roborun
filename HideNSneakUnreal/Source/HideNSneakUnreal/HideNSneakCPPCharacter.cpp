@@ -17,6 +17,7 @@
 #include "GameplayTagsManager.h"
 #include "GameFramework/Actor.h"
 #include "DrawDebugHelpers.h"
+#include "GameController.h"
 
 //////////////////////////////////////////////////////////////////////////
 // AHideNSneakCPPCharacter
@@ -67,6 +68,16 @@ void AHideNSneakCPPCharacter::BeginPlay()
 {
 	Super::BeginPlay();
 	GetCapsuleComponent()->OnComponentHit.AddDynamic(this, &AHideNSneakCPPCharacter::OnCompHit);
+
+	TSubclassOf<AActor> AHideNSneakCPPCharacter; // Needs to be populated somehow (e.g. by exposing to blueprints as uproperty and setting it there
+
+	UGameplayStatics::GetAllActorsOfClass(GetWorld(), AHideNSneakCPPCharacter::StaticClass(), FoundActors);
+
+	for each (AActor* var in FoundActors) {
+		if (var == this) {
+			FoundActors.Remove(this);
+		}
+	}
 }
 
 void AHideNSneakCPPCharacter::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const {
@@ -225,49 +236,11 @@ void AHideNSneakCPPCharacter::MoveRight(float Value)
 	}
 }
 
-//void AHideNSneakCPPCharacter::Test() {
-//	 Set up parameters for getting the player viewport
-//	FVector PlayerViewPointLocation;
-//	FRotator PlayerViewPointRotation;
-//
-//	 Get player viewport and set these parameters
-//	GetWorld()->GetFirstPlayerController()->GetPlayerViewPoint(
-//		OUT PlayerViewPointLocation,
-//		OUT PlayerViewPointRotation
-//	);
-//
-//	 Parameter for how far out the the line trace reaches
-//	float Reach = 100.f;
-//	FVector LineTraceEnd = PlayerViewPointLocation + PlayerViewPointRotation.Vector() * Reach;
-//
-//	 Set parameters to use line tracing
-//	FHitResult Hit;
-//	FCollisionQueryParams TraceParams(FName(TEXT("")), false, GetOwner());  // false to ignore complex collisions and GetOwner() to ignore self
-//
-// Raycast out to this distance
-//	GetWorld()->LineTraceSingleByObjectType(
-//		OUT Hit,
-//		PlayerViewPointLocation,
-//		LineTraceEnd,
-//		FCollisionObjectQueryParams(ECollisionChannel::ECC_PhysicsBody),
-//		TraceParams
-//	);
-//
-//	 See what if anything has been hit and return what
-//	AActor* ActorHit = Hit.GetActor();
-//
-//	if (ActorHit)
-//		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Orange, FString::Printf(TEXT("Line trace has hit: %s"), *(ActorHit->GetName())));
-//}
-
 void AHideNSneakCPPCharacter::Tick(float DeltaSeconds) {
 	Super::Tick(DeltaSeconds);
 
 	FHitResult OutHit;
 	FVector Start = GetActorLocation();
-
-	Start.Z += 100.f;
-	//Start.Y += 100.f;
 
 	FVector ForwardVector = GetActorForwardVector();
 	FVector End = ((ForwardVector * 500.f) + Start);
@@ -275,8 +248,13 @@ void AHideNSneakCPPCharacter::Tick(float DeltaSeconds) {
 
 	DrawDebugLine(GetWorld(), Start, End, FColor::Green, false, 1, 0, 5);
 
-	if (ActorLineTraceSingle(OutHit, Start, End, ECC_WorldStatic, CollisionParams))
+
+	for each (AActor* act in FoundActors)
 	{
+		End != act->GetActorLocation() ? act->GetActorLocation() : End;
+	}
+
+	if (ActorLineTraceSingle(OutHit, Start, End, ECC_WorldStatic, CollisionParams) && OutHit.GetActor() != this) {
 		GEngine->AddOnScreenDebugMessage(-1, 1.f, FColor::Green, FString::Printf(TEXT("The Component Being Hit is: %s"), *OutHit.GetComponent()->GetName()));
 	}
 }

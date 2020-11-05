@@ -154,4 +154,7 @@ public:
 	//	void Test();
 	UFUNCTION()
 		virtual void Tick(float DeltaSeconds);
+	//Array of all actors in scene
+	UPROPERTY(VisibleAnywhere)
+		TArray<AActor*> FoundActors;
 };
