@@ -4,6 +4,7 @@
 #include "CPP_Powerup.h"
 #include <Components/BoxComponent.h>
 #include <Engine/Engine.h>
+#include <Runtime/Engine/Classes/Kismet/GameplayStatics.h>
 
 // Sets default values
 ACPP_Powerup::ACPP_Powerup()
@@ -12,7 +13,7 @@ ACPP_Powerup::ACPP_Powerup()
 	PrimaryActorTick.bCanEverTick = true;
 
 	CollisionBox = CreateDefaultSubobject<UBoxComponent>(TEXT("BoxComponent"));
-	CollisionBox->SetBoxExtent(FVector(50.f, 50.f, 50.f));
+	CollisionBox->SetBoxExtent(FVector(70.f, 70.f, 70.f));
 	CollisionBox->SetRelativeLocation(FVector(0.0f, 0.0f, 0.0f));
 	CollisionBox->SetCollisionProfileName("Trigger");
 	RootComponent = CollisionBox;
@@ -49,7 +50,10 @@ ACPP_Powerup::ACPP_Powerup()
 // Called when the game starts or when spawned
 void ACPP_Powerup::BeginPlay()
 {
+
 	Super::BeginPlay();
+
+	Character = Cast<ACPP_Character>(UGameplayStatics::GetPlayerCharacter(GetWorld(), 0));
 	
 }
 
@@ -62,6 +66,11 @@ void ACPP_Powerup::Tick(float DeltaTime)
 
 void ACPP_Powerup::OnOverlapBegin(UPrimitiveComponent* OverlapComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
+
+	Character->GetCharacterMovement()->MaxWalkSpeed = 2000;
+	Character->GetCharacterMovement()->JumpZVelocity = 1000;
+	Character->JumpMaxCount = 2;
+	Character->GetMesh()->SetVisibility(false);
 	Destroy();
 		
 }

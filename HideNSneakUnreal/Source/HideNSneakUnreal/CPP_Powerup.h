@@ -3,6 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "CPP_Character.h"
 #include "GameFramework/Actor.h"
 #include <Components/StaticMeshComponent.h>
 #include <GameFrameWork/Actor.h>
@@ -16,7 +17,7 @@ class HIDENSNEAKUNREAL_API ACPP_Powerup : public AActor
 {
 	GENERATED_BODY()
 	
-public:	
+public:	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
 	// Sets default values for this actor's propertie
 	ACPP_Powerup();
 
@@ -29,6 +30,9 @@ protected:
 
 public:	
 	// Called every frame
+	ACPP_Character* Character;
+
+
 	virtual void Tick(float DeltaTime) override;
 	
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
