@@ -1886,3 +1886,23 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.11.05-11.40.44:227][230]AssetCheck: New page: Asset Save: FirstPlayable_WhiteBox
 [2020.11.05-11.40.44:227][230]LogContentValidation: Display: Validating World /Game/Maps/FirstPlayable_WhiteBox.FirstPlayable_WhiteBox
 [2020.11.05-11.40.45:205][345]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ground18)
+[2020.11.05-12.15.06:185][783]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/ArvidOfficebuilding.ArvidOfficebuilding
+[2020.11.05-12.15.06:194][783]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2020.11.05-12.15.06:196][783]Cmd: MAP LOAD FILE="../../../../../../Users/arvid/Documents/PROJ_Grupp2_Ny/HideNSneakUnreal/Content/Maps/ArvidOfficebuilding.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.11.05-12.15.06:196][783]LightingResults: New page: Lighting Build
+[2020.11.05-12.15.06:196][783]LoadErrors: New page: Loading map: ArvidOfficebuilding.umap
+[2020.11.05-12.15.06:224][783]LogWorld: UWorld::CleanupWorld for FirstPlayable_WhiteBox, bSessionEnded=true, bCleanupResources=true
+[2020.11.05-12.15.06:225][783]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.05-12.15.06:225][783]MapCheck: New page: Map Check
+[2020.11.05-12.15.06:225][783]LightingResults: New page: Lighting Build
+[2020.11.05-12.15.06:237][783]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001EA9E5D6E80), frame # 114783
+[2020.11.05-12.15.06:237][783]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001EAAA837A00), frame # 114783
+[2020.11.05-12.15.06:239][783]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2020.11.05-12.15.06:446][783]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.11.05-12.15.06:446][783]LogAIModule: Creating AISystem for world ArvidOfficebuilding
+[2020.11.05-12.15.06:446][783]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001EA8BB59E00), frame # 114783
+[2020.11.05-12.15.06:446][783]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001EB15D46340), frame # 114783
+[2020.11.05-12.15.06:458][783]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2020.11.05-12.15.06:482][783]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.11.05-12.15.06:482][783]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,13ms to complete.
+[2020.11.05-12.15.06:482][783]LogFileHelpers: Loading map 'ArvidOfficebuilding' took 0.286
