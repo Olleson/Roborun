@@ -72,12 +72,6 @@ void AHideNSneakCPPCharacter::BeginPlay()
 	TSubclassOf<AActor> AHideNSneakCPPCharacter; // Needs to be populated somehow (e.g. by exposing to blueprints as uproperty and setting it there
 
 	UGameplayStatics::GetAllActorsOfClass(GetWorld(), AHideNSneakCPPCharacter::StaticClass(), FoundActors);
-
-	for each (AActor* var in FoundActors) {
-		if (var == this) {
-			FoundActors.Remove(this);
-		}
-	}
 }
 
 void AHideNSneakCPPCharacter::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const {
@@ -239,6 +233,12 @@ void AHideNSneakCPPCharacter::MoveRight(float Value)
 void AHideNSneakCPPCharacter::Tick(float DeltaSeconds) {
 	Super::Tick(DeltaSeconds);
 
+	for (int i = 0; i < FoundActors.Num(); i++) {
+		if (FoundActors[i] == this) {
+			FoundActors.Remove(this);
+		}
+	}
+
 	FHitResult OutHit;
 	FVector Start = GetActorLocation();
 
@@ -246,13 +246,11 @@ void AHideNSneakCPPCharacter::Tick(float DeltaSeconds) {
 	FVector End = ((ForwardVector * 500.f) + Start);
 	FCollisionQueryParams CollisionParams;
 
-	DrawDebugLine(GetWorld(), Start, End, FColor::Green, false, 1, 0, 5);
-
-
-	for each (AActor* act in FoundActors)
-	{
-		End != act->GetActorLocation() ? act->GetActorLocation() : End;
+	for (int i = 0; i < FoundActors.Num(); i++) {
+		End = FoundActors[i]->GetActorLocation();
 	}
+
+	DrawDebugLine(GetWorld(), Start, End, FColor::Green, false, 1, 0, 1);
 
 	if (ActorLineTraceSingle(OutHit, Start, End, ECC_WorldStatic, CollisionParams) && OutHit.GetActor() != this) {
 		GEngine->AddOnScreenDebugMessage(-1, 1.f, FColor::Green, FString::Printf(TEXT("The Component Being Hit is: %s"), *OutHit.GetComponent()->GetName()));
