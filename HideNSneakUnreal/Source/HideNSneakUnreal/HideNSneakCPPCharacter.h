@@ -157,4 +157,9 @@ public:
 	//Array of all actors in scene
 	UPROPERTY(VisibleAnywhere)
 		TArray<AActor*> FoundActors;
+
+	UFUNCTION(BlueprintCallable)
+	void GiveHidersOutline();
+
+	//bool CanDrawLines = false;
 };

@@ -69,7 +69,7 @@ void AHideNSneakCPPCharacter::BeginPlay()
 	Super::BeginPlay();
 	GetCapsuleComponent()->OnComponentHit.AddDynamic(this, &AHideNSneakCPPCharacter::OnCompHit);
 
-	TSubclassOf<AActor> AHideNSneakCPPCharacter; // Needs to be populated somehow (e.g. by exposing to blueprints as uproperty and setting it there
+	/*TSubclassOf<AActor> AHideNSneakCPPCharacter;*/
 
 	UGameplayStatics::GetAllActorsOfClass(GetWorld(), AHideNSneakCPPCharacter::StaticClass(), FoundActors);
 }
@@ -233,26 +233,69 @@ void AHideNSneakCPPCharacter::MoveRight(float Value)
 void AHideNSneakCPPCharacter::Tick(float DeltaSeconds) {
 	Super::Tick(DeltaSeconds);
 
-	for (int i = 0; i < FoundActors.Num(); i++) {
+	/*for (int i = 0; i < FoundActors.Num(); i++) {
 		if (FoundActors[i] == this) {
 			FoundActors.Remove(this);
 		}
-	}
+	}*/
 
-	FHitResult OutHit;
-	FVector Start = GetActorLocation();
 
-	FVector ForwardVector = GetActorForwardVector();
-	FVector End = ((ForwardVector * 500.f) + Start);
-	FCollisionQueryParams CollisionParams;
+	///*if(CanDrawLines)*/
+	//	DrawLines();
 
-	for (int i = 0; i < FoundActors.Num(); i++) {
-		End = FoundActors[i]->GetActorLocation();
-	}
-
-	DrawDebugLine(GetWorld(), Start, End, FColor::Green, false, 1, 0, 1);
-
-	if (ActorLineTraceSingle(OutHit, Start, End, ECC_WorldStatic, CollisionParams) && OutHit.GetActor() != this) {
-		GEngine->AddOnScreenDebugMessage(-1, 1.f, FColor::Green, FString::Printf(TEXT("The Component Being Hit is: %s"), *OutHit.GetComponent()->GetName()));
-	}
+	//if (HasAuthority() )
+	//	DrawLines();
 }
+
+
+void AHideNSneakCPPCharacter::GiveHidersOutline()
+{
+}
+
+//void AHideNSneakCPPCharacter::DrawLines() {
+//
+//	/*CanDrawLines = !CanDrawLines;*/
+//
+//	if (!bIsSeeker)
+//		return;
+//
+//	/*for (int i = 0; i < FoundActors.Num(); i++) {
+//		
+//	}*/
+//
+//	FHitResult OutHit;
+//	FVector Start = GetActorLocation();
+//	FVector End;
+//	FCollisionQueryParams CollisionParams;
+//
+//	//if (HasAuthority() && !Hider->IsSeeker()) {
+//	//	Hider->ServerBecomeSeeker_Implementation();
+//	//	if (Hider == this) {
+//	//		// Fake the On rep notify for the listen server if it is a hider that gets captured,
+//	//		// as the Server doesn't get on rep notify automatically
+//	//		OnRep_IsSeeker();
+//		}
+//	}
+//
+//	for (int i = 0; i < FoundActors.Num(); i++) {
+//		if (FoundActors[i] != this && bIsSeeker) {
+//			End = FoundActors[i]->GetActorLocation();
+//			//GEngine->AddOnScreenDebugMessage(-1, 1.f, FColor::Green, FString::Printf(TEXT("Babadook: %i %i %i"), End.X, End.Y, End.Z));
+//
+//			DrawDebugLine(GetWorld(), Start, End, FColor::Green, false, 0.1, 0, 5);
+//
+//			if (HasAuthority()) {
+//				DrawDebugLine(GetWorld(), Start, End, FColor::Green, false, 0.1, 0, 5);
+//			}
+//		}
+//	}
+//
+//	/*if (ActorLineTraceSingle(OutHit, Start, End, ECC_WorldStatic, FCollisionQueryParams(true)) ) {
+//		GEngine->AddOnScreenDebugMessage(-1, 1.f, FColor::Green, FString::Printf(TEXT("The Component Being Hit is: %s"), *OutHit.GetActor()->GetName()));
+//	}*/
+//
+//	//bool bIsHit = GetWorld()->LineTraceSingleByChannel(OutHit, Start, End, ECC_WorldStatic, FCollisionQueryParams(true));
+//	if (GetWorld()->LineTraceSingleByChannel(OutHit, Start, End, ECC_WorldStatic, FCollisionQueryParams(true)) && *OutHit.GetActor()->GetName() != this->GetName()) {
+//		GEngine->AddOnScreenDebugMessage(-1, 1.f, FColor::Green, FString::Printf(TEXT("The Component Being Hit is: %s"), *OutHit.GetActor()->GetName()));
+//	}
+//}
