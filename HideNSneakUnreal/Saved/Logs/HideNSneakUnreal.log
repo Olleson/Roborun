@@ -1870,3 +1870,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.11.05-09.52.02:651][920]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001EB0514FA00), frame # 59920
 [2020.11.05-09.52.02:654][920]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
 [2020.11.05-09.52.02:706][921]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2020.11.05-09.53.00:365][836]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2020.11.05-09.53.00:556][836]LogSavePackage: Moving '../../../../../../Users/arvid/Documents/PROJ_Grupp2_Ny/HideNSneakUnreal/Saved/FirstPlayable_WhiteBox1CEF111640B2EC6279A9E6A369D21AB9.tmp' to '../../../../../../Users/arvid/Documents/PROJ_Grupp2_Ny/HideNSneakUnreal/Content/Maps/FirstPlayable_WhiteBox.umap'
+[2020.11.05-09.53.00:595][836]AssetCheck: New page: Asset Save: FirstPlayable_WhiteBox
+[2020.11.05-09.53.00:595][836]LogContentValidation: Display: Validating World /Game/Maps/FirstPlayable_WhiteBox.FirstPlayable_WhiteBox
