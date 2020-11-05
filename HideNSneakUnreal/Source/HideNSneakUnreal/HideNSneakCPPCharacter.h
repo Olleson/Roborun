@@ -72,6 +72,24 @@ public:
 
 	void ServerResetPlayersToHiders_Implementation();
 
+	UFUNCTION(Client, unreliable, BlueprintCallable, Category = "Hider")
+		void UseDecoyAbility();
+	void UseDecoyAbility_Implementation();
+
+	// Acces to the timer for handling the duration of the stealth
+	FTimerHandle DecoyTimerHandle;
+
+	UPROPERTY(EditAnywhere)
+		float StealthDuration;
+
+	UFUNCTION(Client, unreliable, Category = "hider")
+		void DecoyOver();
+	void DecoyOver_Implementation();
+
+	UFUNCTION( Client, unreliable, category = "hider")
+		void DecoyCooldownOver();
+	void DecoyCooldownOver_Implementation();
+
 	UPROPERTY(EditAnywhere)
 		AActor* targetActor;
 
@@ -82,6 +100,8 @@ public:
 		void OnCompHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit);
 
 protected:
+	UPROPERTY(EditAnywhere)
+	TSubclassOf<class AHideNSneakCPPCharacter> Decoy;
 
 	/** Called for forwards/backward input */
 	void MoveForward(float Value);
