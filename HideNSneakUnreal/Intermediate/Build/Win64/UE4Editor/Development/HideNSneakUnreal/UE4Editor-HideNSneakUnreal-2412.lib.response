@@ -3,7 +3,7 @@
 /MACHINE:x64
 /SUBSYSTEM:WINDOWS
 /DEF
-/NAME:"UE4Editor-HideNSneakUnreal-0034.dll"
+/NAME:"UE4Editor-HideNSneakUnreal-2412.dll"
 /IGNORE:4221
 /NODEFAULTLIB
 "N:\PROJ\HideNSneakUnreal\Intermediate\Build\Win64\HideNSneakUnrealEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
@@ -18,5 +18,5 @@
 "N:\PROJ\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\CPP_SpeedBoost.gen.cpp.obj"
 "N:\PROJ\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\HideNSneakUnreal.init.gen.cpp.obj"
 "N:\PROJ\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\Default.rc2.res"
-/OUT:"N:\PROJ\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal-0034.lib"
+/OUT:"N:\PROJ\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal-2412.lib"
 /INCLUDE:IMPLEMENT_MODULE_HideNSneakUnreal

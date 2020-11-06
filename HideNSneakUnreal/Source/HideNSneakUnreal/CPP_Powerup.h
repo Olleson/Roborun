@@ -27,6 +27,16 @@ public:
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
+	
+	//if true then the players powerup is activated
+	bool bPowerActive = true;
+
+	//Handles the time the power is active
+	FTimerHandle PowerTimerHandle;
+
+	void ResetPowers();
+
+
 
 public:	
 	// Called every frame
