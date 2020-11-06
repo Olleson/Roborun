@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\HideNSneakUnreal.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{4D4411B6-9349-4122-BD29-A235B6728B26}</UniqueIdentifier>
+      <UniqueIdentifier>{EFE6AA01-D346-4BBD-8FDE-908D75474D5C}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\HideNSneakUnreal.Target.cs">
       <Filter>Source</Filter>
@@ -11,9 +11,16 @@
     <None Include="..\..\Source\HideNSneakUnrealEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.gitignore" />
     <Filter Include="Source\HideNSneakUnreal">
-      <UniqueIdentifier>{F1DC5A94-3940-41AB-8E8C-E4DB9686E122}</UniqueIdentifier>
+      <UniqueIdentifier>{55D8ED26-B4B7-43E4-AF10-73C328882C9F}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\HideNSneakUnreal\batman.cpp">
+      <Filter>Source\HideNSneakUnreal</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HideNSneakUnreal\batman.h">
+      <Filter>Source\HideNSneakUnreal</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\HideNSneakUnreal\BatteryGameMode.cpp">
       <Filter>Source\HideNSneakUnreal</Filter>
     </ClCompile>
@@ -101,6 +108,15 @@
     <ClInclude Include="..\..\Source\HideNSneakUnreal\SpawnVolume.h">
       <Filter>Source\HideNSneakUnreal</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\HideNSneakUnreal\TagMechanic.cpp">
+      <Filter>Source\HideNSneakUnreal</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HideNSneakUnreal\TagMechanic.h">
+      <Filter>Source\HideNSneakUnreal</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\HideNSneakUnreal\TagMechanic.zip">
+      <Filter>Source\HideNSneakUnreal</Filter>
+    </None>
     <ClCompile Include="..\..\Source\HideNSneakUnreal\test.cpp">
       <Filter>Source\HideNSneakUnreal</Filter>
     </ClCompile>
