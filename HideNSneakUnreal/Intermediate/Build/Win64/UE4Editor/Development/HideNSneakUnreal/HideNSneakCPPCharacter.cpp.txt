@@ -13,6 +13,8 @@ D:\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.g
 D:\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CapsuleComponent.generated.h
 D:\UE_4.25\Engine\Source\Runtime\Engine\Classes\Components/SphereComponent.h
 D:\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SphereComponent.generated.h
+D:\UE_4.25\Engine\Source\Runtime\Engine\Classes\Components/LineBatchComponent.h
+D:\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\LineBatchComponent.generated.h
 D:\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/CharacterMovementComponent.h
 D:\UE_4.25\Engine\Source\Runtime\Engine\Classes\AI/Navigation/NavigationAvoidanceTypes.h
 D:\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\NavigationAvoidanceTypes.generated.h
@@ -59,3 +61,6 @@ D:\UE_4.25\Engine\Source\Runtime\GameplayTags\Public\GameplayTags.h
 D:\UE_4.25\Engine\Source\Runtime\Core\Public\Misc/MonolithicHeaderBoilerplate.h
 D:\UE_4.25\Engine\Source\Runtime\GameplayTags\Classes\GameplayTagAssetInterface.h
 D:\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GameplayTags\GameplayTagAssetInterface.generated.h
+D:\UE_4.25\Engine\Source\Runtime\Engine\Public\DrawDebugHelpers.h
+D:\HideNSneak2\HideNSneakUnreal\Source\HideNSneakUnreal\GameController.h
+D:\HideNSneak2\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Inc\HideNSneakUnreal\GameController.generated.h
