@@ -159,7 +159,10 @@ public:
 		TArray<AActor*> FoundActors;
 
 	UFUNCTION(BlueprintCallable)
-	void GiveHidersOutline();
+		void GiveHidersOutline();
+
+	UFUNCTION()
+		void DrawLines();
 
 	//bool CanDrawLines = false;
 };
