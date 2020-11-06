@@ -1,6 +1,5 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-
 #include "HideNSneakCPPCharacter.h"
 #include "Camera/CameraComponent.h"
 #include "Components/CapsuleComponent.h"
@@ -106,17 +105,12 @@ void AHideNSneakCPPCharacter::SetupPlayerInputComponent(class UInputComponent* P
 
 void AHideNSneakCPPCharacter::ServerCaptureHider_Implementation(AHideNSneakCPPCharacter* Hider)
 {
-	
-	if (HasAuthority()) {
-		if (!Hider->IsSeeker()) {
-			Hider->ServerBecomeSeeker_Implementation();
-
-			if (Hider == this) {
-				// Fake the On rep notify for the listen server if it is a hider that gets captured,
-				// as the Server doesn't get on rep notify automatically
-				
-				OnRep_IsSeeker();
-			}
+	if (HasAuthority() && !Hider->IsSeeker()) {
+		Hider->ServerBecomeSeeker_Implementation();
+		if (Hider == this) {
+			// Fake the On rep notify for the listen server if it is a hider that gets captured,
+			// as the Server doesn't get on rep notify automatically
+			OnRep_IsSeeker();
 		}
 	}
 }
@@ -183,7 +177,6 @@ void AHideNSneakCPPCharacter::ServerResetPlayersToHiders_Implementation()
 	if (HasAuthority()) {
 		UWorld* World = GetWorld();
 		check(World);
-
 		for (FConstControllerIterator It = World->GetControllerIterator(); It; ++It) {
 			if (APlayerController* PlayerController = Cast<APlayerController>(*It)) {
 				if (AHideNSneakCPPCharacter* Character = Cast<AHideNSneakCPPCharacter>(PlayerController->GetPawn())) {

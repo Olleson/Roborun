@@ -13,5 +13,8 @@ UCLASS()
 class HIDENSNEAKUNREAL_API AHideNSneakGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
+
+public:
+	AHideNSneakGameModeBase();
 	
 };
