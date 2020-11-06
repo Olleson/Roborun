@@ -17,6 +17,7 @@
 #include "GameplayTags.h"
 #include "GameplayTagsManager.h"
 #include "GameFramework/Actor.h"
+#include "Engine/World.h"
 
 //////////////////////////////////////////////////////////////////////////
 // AHideNSneakCPPCharacter
@@ -193,36 +194,55 @@ void AHideNSneakCPPCharacter::ServerResetPlayersToHiders_Implementation()
 	}
 }
 
+//make character go stealth + spawn a decoy character
 void AHideNSneakCPPCharacter::UseDecoyAbility_Implementation() {
-	//make character go stealth + spawn a decoy element
-	this->SetActorHiddenInGame(true);
-	//timer for delaying when the other part of the function is called
-	GetWorldTimerManager().SetTimer(DecoyTimerHandle, this, &AHideNSneakCPPCharacter::DecoyOver_Implementation, StealthDuration, false);
-
-	if (HasAuthority() && Decoy != NULL) {
-	//GetWorldTimerManager().SetTimer(DecoyTimerHandle, this, &AHideNSneakCPPCharacter::DecoyCooldownOver_Implementation, StealthDuration, false);
-		if (UWorld* const World = GetWorld()) {
-			FActorSpawnParameters SpawnParameters;
-			SpawnParameters.Owner = this;
-			SpawnParameters.Instigator = GetInstigator();
-			FVector SpawnLocation = this->GetActorLocation();
-			FRotator SpawnRotation = this->GetActorRotation();
-			AHideNSneakCPPCharacter * const DecoyActor = World->SpawnActor<AHideNSneakCPPCharacter>(Decoy, SpawnLocation, SpawnRotation, SpawnParameters);
-			DecoyActor->SetLifeSpan(StealthDuration);
-			DecoyActor->GetCharacterMovement()->Velocity = this->GetVelocity();
+	if (DecoyAvailible) {
+		this->SetActorHiddenInGame(true);
+		//timer for delaying when the other part of the function is called
+		GetWorldTimerManager().SetTimer(StealthTimerHandle, this, &AHideNSneakCPPCharacter::DecoyStealthOver_Implementation, StealthDuration, false);
+		if (Decoy != NULL) {
+				DecoyAvailible = false;			
+		//GetWorldTimerManager().SetTimer(DecoyTimerHandle, this, &AHideNSneakCPPCharacter::DecoyCooldownOver_Implementation, StealthDuration, false);
+			if (UWorld* const World = GetWorld()) {
+				FActorSpawnParameters SpawnParameters;
+				SpawnParameters.Owner = this;
+				SpawnParameters.Instigator = GetInstigator();
+				FVector SpawnLocation = this->GetActorLocation();
+				FRotator SpawnRotation = this->GetActorRotation();
+				AHideNSneakCPPCharacter * const DecoyActor = World->SpawnActor<AHideNSneakCPPCharacter>(Decoy, SpawnLocation, SpawnRotation, SpawnParameters);
+				DecoyActor->SetLifeSpan(DecoyDuration);
+				DecoyActor->GetCharacterMovement()->Velocity = this->GetVelocity();
+				DecoyActor->MovementValue = 1.0f;
+				DecoyActor->SetActorTickEnabled(true);
+				GetWorldTimerManager().SetTimer(DecoyCooldownHandle, this, &AHideNSneakCPPCharacter::DecoyCooldownOver_Implementation, DecoyCooldown, false);
+			}
 		}
 	}
 }
 
-void AHideNSneakCPPCharacter::DecoyOver_Implementation()
+//make charcter go unstealth.
+void AHideNSneakCPPCharacter::DecoyStealthOver_Implementation()
 {
-	//make charcter go unstealth. and make the decoy element dissapear
 	this->SetActorHiddenInGame(false);
+	GetWorldTimerManager().ClearTimer(StealthTimerHandle);
+	GetWorldTimerManager().ClearTimer(DecoyTimerHandle);
 }
 
 void AHideNSneakCPPCharacter::DecoyCooldownOver_Implementation()
 {
+	DecoyAvailible = true;
+	GetWorldTimerManager().ClearTimer(DecoyCooldownHandle);
 }
+
+void AHideNSneakCPPCharacter::MoveDecoy_Implementation()
+{
+	if ((Controller != NULL))
+	{
+		AddMovementInput(this->GetActorForwardVector(), MovementValue);
+	}
+}
+
+
 
 void AHideNSneakCPPCharacter::OnCompHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit)
 {

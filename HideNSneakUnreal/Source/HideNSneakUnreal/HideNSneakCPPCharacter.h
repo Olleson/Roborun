@@ -72,23 +72,43 @@ public:
 
 	void ServerResetPlayersToHiders_Implementation();
 
+	UPROPERTY(EditAnywhere)
+		bool DecoyAvailible = true;
+
 	UFUNCTION(Client, unreliable, BlueprintCallable, Category = "Hider")
 		void UseDecoyAbility();
 	void UseDecoyAbility_Implementation();
 
 	// Acces to the timer for handling the duration of the stealth
 	FTimerHandle DecoyTimerHandle;
+	//acces to the timer for handling the cooldown of the decoy
+	FTimerHandle DecoyCooldownHandle;
+	//acces to the timer for handling the duration of the Stealth
+	FTimerHandle StealthTimerHandle;
 
 	UPROPERTY(EditAnywhere)
-		float StealthDuration;
+		float DecoyCooldown = 60.0f;
 
-	UFUNCTION(Client, unreliable, Category = "hider")
-		void DecoyOver();
-	void DecoyOver_Implementation();
+	UPROPERTY(EditAnywhere)
+		float StealthDuration = 3.0f;
 
-	UFUNCTION( Client, unreliable, category = "hider")
+	UPROPERTY(EditAnywhere)
+		float DecoyDuration = 5.0f;
+
+	UPROPERTY(EditAnywhere)
+		float MovementValue = 1.0f;
+
+	UFUNCTION(Client, unreliable, Category = "Hider")
+		void DecoyStealthOver();
+	void DecoyStealthOver_Implementation();
+
+	UFUNCTION( Client, unreliable, category = "´Hider")
 		void DecoyCooldownOver();
 	void DecoyCooldownOver_Implementation();
+
+	UFUNCTION(Client, unreliable,BlueprintCallable , Category = "Hider")
+		void MoveDecoy();
+	void MoveDecoy_Implementation();
 
 	UPROPERTY(EditAnywhere)
 		AActor* targetActor;
