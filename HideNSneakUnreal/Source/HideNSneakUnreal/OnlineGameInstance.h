@@ -4,10 +4,42 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "OnlineSubsystem.h"
 #include "Interfaces/OnlineSessionInterface.h"
+#include "OnlineSessionSettings.h"
 #include "Engine/GameInstance.h"
+#include "Engine/World.h"
+#include "Kismet/GameplayStatics.h"
 #include "OnlineGameInstance.generated.h"
 
+USTRUCT(BlueprintType)
+struct FServerInfo {
+
+	GENERATED_BODY()
+
+public:
+	UPROPERTY(BlueprintReadOnly)
+	FString ServerName;
+
+	UPROPERTY(BlueprintReadOnly)
+		FString PlayerCountStr;
+
+	UPROPERTY(BlueprintReadOnly)
+	int32 CurrentPlayers;
+
+	UPROPERTY(BlueprintReadOnly)
+	int32 MaxPlayers;
+
+	UPROPERTY(BlueprintReadOnly)
+		int32 ServerArrayIndex;
+
+	void SetPlayerCount() {
+		PlayerCountStr = FString(FString::FromInt(CurrentPlayers) + "/" + FString::FromInt(MaxPlayers));
+	}
+};
+
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FServerDelegate, FServerInfo, ServerListDelegate);
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FServerSearchingDelegate, bool, SearchingForServerDelegate);
 /**
  * 
  */
@@ -21,6 +53,14 @@ public:
 
 protected:
 	virtual void Init() override;
+
+	FName MySessionName;
+
+	UPROPERTY(BlueprintAssignable)
+		FServerDelegate ServerListDelegate;
+
+	UPROPERTY(BlueprintAssignable)
+		FServerSearchingDelegate SearchingForServerDelegate;
 
 	// Delegate for finalizing session creation
 	virtual void OnCreateSessionComplete(FName ServerName, bool Succeded);
@@ -37,9 +77,13 @@ protected:
 
 	// Creates a session and sets session settings
 	UFUNCTION(BlueprintCallable, Category = "OnlineLobby")
-		void CreateServer();
+		void CreateServer(FString ServerName, FString HostName);
 
 	// Finds available sessions
 	UFUNCTION(BlueprintCallable, Category = "OnlineLobby")
-		void JoinServer();
+		void FindServers();
+
+	// Joins a session
+	UFUNCTION(BlueprintCallable, Category = "OnlineLobby")
+		void JoinServer(int32 ServerIndex);
 };

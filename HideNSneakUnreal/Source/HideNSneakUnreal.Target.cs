@@ -9,7 +9,7 @@ public class HideNSneakUnrealTarget : TargetRules
 	{
 		Type = TargetType.Game;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
-
-		ExtraModuleNames.AddRange( new string[] { "HideNSneakUnreal" } );
+		bUsesSteam = true;
+		ExtraModuleNames.AddRange( new string[] { "HideNSneakUnreal", "OnlineSubsystemSteam" } );
 	}
 }

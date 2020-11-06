@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\HideNSneakUnreal.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{4D4411B6-9349-4122-BD29-A235B6728B26}</UniqueIdentifier>
+      <UniqueIdentifier>{1A21C6F0-FA80-4C9A-BF87-C7D7F7F35115}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\HideNSneakUnreal.Target.cs">
       <Filter>Source</Filter>
@@ -11,8 +11,29 @@
     <None Include="..\..\Source\HideNSneakUnrealEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{1C17CA6A-DEC4-4A15-8CF9-68A6CE1BDF13}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGameplayTags.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
     <Filter Include="Source\HideNSneakUnreal">
-      <UniqueIdentifier>{F1DC5A94-3940-41AB-8E8C-E4DB9686E122}</UniqueIdentifier>
+      <UniqueIdentifier>{09AF2C90-8723-45AB-8DA8-00346E6387F5}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\HideNSneakUnreal\BatteryGameMode.cpp">
       <Filter>Source\HideNSneakUnreal</Filter>
