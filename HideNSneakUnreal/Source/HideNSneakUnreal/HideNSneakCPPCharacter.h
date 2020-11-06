@@ -149,4 +149,20 @@ public:
 	// Returns true if the character is a seeker
 	UFUNCTION(BlueprintPure, Category = "Seeker")
 	bool IsSeeker() const { return bIsSeeker; }
+
+	//UFUNCTION()
+	//	void Test();
+	UFUNCTION()
+		virtual void Tick(float DeltaSeconds);
+	//Array of all actors in scene
+	UPROPERTY(VisibleAnywhere)
+		TArray<AActor*> FoundActors;
+
+	UFUNCTION(BlueprintCallable)
+		void GiveHidersOutline();
+
+	UFUNCTION()
+		void DrawLines();
+
+	//bool CanDrawLines = false;
 };
