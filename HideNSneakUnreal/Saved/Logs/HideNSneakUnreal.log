@@ -1240,3 +1240,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.11.06-10.36.23:174][767]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000275FA30C800), frame # 118767
 [2020.11.06-10.36.23:176][767]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
 [2020.11.06-10.36.23:217][768]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2020.11.06-10.40.25:445][838]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2020.11.06-10.40.25:617][838]LogSavePackage: Moving '../../../../../../Users/arvid/Documents/PROJ_Grupp2_Ny/HideNSneakUnreal/Saved/Alpha_playable_whitebox_Auto2E5C737844950A977EAA8D0B0332CB09B.tmp' to '../../../../../../Users/arvid/Documents/PROJ_Grupp2_Ny/HideNSneakUnreal/Saved/Autosaves/Game/Maps/Alpha_playable_whitebox_Auto2.umap'
+[2020.11.06-10.40.25:620][838]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Alpha_playable_whitebox' took 0.186
+[2020.11.06-10.40.25:620][838]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.186
