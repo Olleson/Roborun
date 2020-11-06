@@ -25,7 +25,7 @@ void UOnlineGameInstance::Init()
 
 void UOnlineGameInstance::OnCreateSessionComplete(FName ServerName, bool Succeded)
 {
-	GetWorld()->ServerTravel("/Game/Maps/Real_WhiteBox?listen");
+	GetWorld()->ServerTravel("/Game/Maps/Alpha_playable_whitebox?listen");
 }
 
 void UOnlineGameInstance::OnFindSessionsComplete(bool Succeded)
