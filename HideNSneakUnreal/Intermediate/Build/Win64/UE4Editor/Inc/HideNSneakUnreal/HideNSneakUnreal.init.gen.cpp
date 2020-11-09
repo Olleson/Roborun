@@ -13,6 +13,8 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeHideNSneakUnreal_init() {}
 	HIDENSNEAKUNREAL_API UFunction* Z_Construct_UDelegateFunction_HideNSneakUnreal_ServerDelegate__DelegateSignature();
 	HIDENSNEAKUNREAL_API UFunction* Z_Construct_UDelegateFunction_HideNSneakUnreal_ServerSearchingDelegate__DelegateSignature();
+	HIDENSNEAKUNREAL_API UFunction* Z_Construct_UDelegateFunction_HideNSneakUnreal_SteamServerDelegate__DelegateSignature();
+	HIDENSNEAKUNREAL_API UFunction* Z_Construct_UDelegateFunction_HideNSneakUnreal_SteamServerSearchingDelegate__DelegateSignature();
 	UPackage* Z_Construct_UPackage__Script_HideNSneakUnreal()
 	{
 		static UPackage* ReturnPackage = nullptr;
@@ -21,14 +23,16 @@ void EmptyLinkFunctionForGeneratedCodeHideNSneakUnreal_init() {}
 			static UObject* (*const SingletonFuncArray[])() = {
 				(UObject* (*)())Z_Construct_UDelegateFunction_HideNSneakUnreal_ServerDelegate__DelegateSignature,
 				(UObject* (*)())Z_Construct_UDelegateFunction_HideNSneakUnreal_ServerSearchingDelegate__DelegateSignature,
+				(UObject* (*)())Z_Construct_UDelegateFunction_HideNSneakUnreal_SteamServerDelegate__DelegateSignature,
+				(UObject* (*)())Z_Construct_UDelegateFunction_HideNSneakUnreal_SteamServerSearchingDelegate__DelegateSignature,
 			};
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/HideNSneakUnreal",
 				SingletonFuncArray,
 				UE_ARRAY_COUNT(SingletonFuncArray),
 				PKG_CompiledIn | 0x00000000,
-				0x520C9293,
-				0xD1720162,
+				0xD1E29C80,
+				0x919085ED,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);
