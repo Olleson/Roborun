@@ -190,44 +190,28 @@ void AHideNSneakCPPCharacter::ServerResetPlayersToHiders_Implementation()
 //make character go stealth + spawn a decoy character
 void AHideNSneakCPPCharacter::UseDecoyAbility_Implementation() {
 	if (DecoyAvailible) {
-		this->SetActorHiddenInGame(true); //server
-		GetWorldTimerManager().SetTimer(StealthTimerHandle, this, &AHideNSneakCPPCharacter::DecoyStealthOver_Implementation, StealthDuration, false); //local
+		this->SetActorHiddenInGame(true);
+		//timer for delaying when the other part of the function is called
+		GetWorldTimerManager().SetTimer(StealthTimerHandle, this, &AHideNSneakCPPCharacter::DecoyStealthOver_Implementation, StealthDuration, false);
 		if (Decoy != NULL) {
-				DecoyAvailible = false;			//local
+				DecoyAvailible = false;			
+		//GetWorldTimerManager().SetTimer(DecoyTimerHandle, this, &AHideNSneakCPPCharacter::DecoyCooldownOver_Implementation, StealthDuration, false);
 			if (UWorld* const World = GetWorld()) {
-				FActorSpawnParameters SpawnParameters; //local
-				SpawnParameters.Owner = this;//local
-				SpawnParameters.Instigator = GetInstigator(); //local 
-				FTransform SpawnTransform = this->GetTransform(); //local
-
-
-				//ServerDecoy_Implementation(SpawnTransform, this->GetVelocity(), 1.0f);
-				AHideNSneakCPPCharacter* const DecoyActor = World->SpawnActor<AHideNSneakCPPCharacter>(Decoy, SpawnTransform, SpawnParameters); //server
-				DecoyActor->SetLifeSpan(DecoyDuration); //server
-				DecoyActor->GetCharacterMovement()->Velocity = this->GetVelocity(); 
-				DecoyActor->MovementValue = 1.0f; //server
-				DecoyActor->SetActorTickEnabled(true); //server
-				GetWorldTimerManager().SetTimer(DecoyCooldownHandle, this, &AHideNSneakCPPCharacter::DecoyCooldownOver_Implementation, DecoyCooldown, false); //local
+				FActorSpawnParameters SpawnParameters;
+				SpawnParameters.Owner = this;
+				SpawnParameters.Instigator = GetInstigator();
+				FVector SpawnLocation = this->GetActorLocation();
+				FRotator SpawnRotation = this->GetActorRotation();
+				AHideNSneakCPPCharacter * const DecoyActor = World->SpawnActor<AHideNSneakCPPCharacter>(Decoy, SpawnLocation, SpawnRotation, SpawnParameters);
+				DecoyActor->SetLifeSpan(DecoyDuration);
+				DecoyActor->GetCharacterMovement()->Velocity = this->GetVelocity();
+				DecoyActor->MovementValue = 1.0f;
+				DecoyActor->SetActorTickEnabled(true);
+				GetWorldTimerManager().SetTimer(DecoyCooldownHandle, this, &AHideNSneakCPPCharacter::DecoyCooldownOver_Implementation, DecoyCooldown, false);
 			}
 		}
 	}
 }
-
-//void AHideNSneakCPPCharacter::ServerDecoy_Implementation(FTransform SpawnTransform,FVector Velocity, float MValue)
-//{
-//	if (HasAuthority()) {
-//		if (UWorld* const World = GetWorld()) {
-//			FActorSpawnParameters SpawnParameters;
-//			SpawnParameters.Owner = this;
-//			SpawnParameters.Instigator = GetInstigator();
-//			AHideNSneakCPPCharacter * const DecoyActor = World->SpawnActor<AHideNSneakCPPCharacter>(Decoy, SpawnTransform, SpawnParameters);
-//			DecoyActor->SetLifeSpan(DecoyDuration);
-//			DecoyActor->GetCharacterMovement()->Velocity = Velocity;
-//			DecoyActor->MovementValue = MValue;
-//			DecoyActor->SetActorTickEnabled(true);
-//		}
-//	}
-//}
 
 //make charcter go unstealth.
 void AHideNSneakCPPCharacter::DecoyStealthOver_Implementation()
@@ -237,14 +221,12 @@ void AHideNSneakCPPCharacter::DecoyStealthOver_Implementation()
 	GetWorldTimerManager().ClearTimer(DecoyTimerHandle);
 }
 
-//make Decoy availible again after the cooldown is over
 void AHideNSneakCPPCharacter::DecoyCooldownOver_Implementation()
 {
 	DecoyAvailible = true;
 	GetWorldTimerManager().ClearTimer(DecoyCooldownHandle);
 }
 
-// making the spawned decoy move
 void AHideNSneakCPPCharacter::MoveDecoy_Implementation()
 {
 	if ((Controller != NULL))
@@ -252,6 +234,8 @@ void AHideNSneakCPPCharacter::MoveDecoy_Implementation()
 		AddMovementInput(this->GetActorForwardVector(), MovementValue);
 	}
 }
+
+
 
 void AHideNSneakCPPCharacter::OnCompHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit)
 {

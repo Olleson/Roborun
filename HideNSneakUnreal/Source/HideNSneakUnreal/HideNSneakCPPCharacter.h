@@ -11,9 +11,9 @@ class HIDENSNEAKUNREAL_API AHideNSneakCPPCharacter : public ACharacter
 {
 	GENERATED_BODY()
 
-	/** Camera boom positioning the camera behind the character */
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
-	class USpringArmComponent* CameraBoom;
+		/** Camera boom positioning the camera behind the character */
+		UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
+		class USpringArmComponent* CameraBoom;
 
 	/** Follow camera */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
@@ -81,10 +81,6 @@ public:
 	UFUNCTION(Client, unreliable, BlueprintCallable, Category = "Hider")
 		void UseDecoyAbility();
 	void UseDecoyAbility_Implementation();
-
-	//UFUNCTION(Server, reliable, Category = "Hider")
-	//	void ServerDecoy(FTransform SpawnTransform, FVector Velocity, float MValue);
-	//void ServerDecoy_Implementation(FTransform SpawnTransform, FVector Velocity, float MValue);
 
 	// Acces to the timer for handling the duration of the stealth
 	FTimerHandle DecoyTimerHandle;
