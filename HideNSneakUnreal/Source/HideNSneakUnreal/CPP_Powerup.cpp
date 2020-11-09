@@ -78,9 +78,6 @@ void ACPP_Powerup::OnOverlapBegin(UPrimitiveComponent* OverlapComponent, AActor*
 	
 	if (bPowerActive){
 		bPowerActive = false;
-		Character->GetCharacterMovement()->MaxWalkSpeed = 2000;
-		Character->GetCharacterMovement()->JumpZVelocity = 1000;
-		Character->JumpMaxCount = 2;
 		Character->GetMesh()->SetVisibility(false);
 		Destroy();
 		GetWorld()->GetTimerManager().SetTimer(PowerTimerHandle, this, &ACPP_Powerup::ResetPowers, 5.0f, false);
