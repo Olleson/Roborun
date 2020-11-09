@@ -40,7 +40,7 @@ void ACPP_MovementBoost::BeginPlay()
 {
 	Super::BeginPlay();
 
-	Character = Cast<ACPP_Character>(UGameplayStatics::GetPlayerController(GetWorld(),0));
+	Character = Cast<ACPP_Character>(UGameplayStatics::GetPlayerCharacter(GetWorld(),0));
 	
 }
 
@@ -53,11 +53,12 @@ void ACPP_MovementBoost::Tick(float DeltaTime)
 
 void ACPP_MovementBoost::OnOverlapBegin(UPrimitiveComponent* OverlapComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
-	ACPP_Character* OverlapCharacter = Cast<ACPP_Character>(OtherActor);
 	
-	if (OtherActor !=NULL) {
-		OverlapCharacter->GetCharacterMovement()->MaxWalkSpeed = 2000;
-		Destroy();
+	
+	if (bPowerActive&& Character != NULL) {
+		bPowerActive = false;
+		Character->GetCharacterMovement()->MaxWalkSpeed = 2000;
+		GetWorld()->GetTimerManager().SetTimer(PowerTimerHandle, this, &ACPP_MovementBoost::ResetPowers, 5.0f, false);
 		}
 		
 	
@@ -65,3 +66,13 @@ void ACPP_MovementBoost::OnOverlapBegin(UPrimitiveComponent* OverlapComponent, A
 
 
 }
+
+void  ACPP_MovementBoost::ResetPowers()
+{
+	bPowerActive = true;
+	Character->GetCharacterMovement()->MaxWalkSpeed = 600;
+	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Eureka!"));
+
+}
+
+

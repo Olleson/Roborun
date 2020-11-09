@@ -57,14 +57,6 @@ void ACPP_Powerup::BeginPlay()
 	
 }
 
-void ACPP_Powerup::ResetPowers()
-{
-	bPowerActive = false;
-	Character->GetCharacterMovement()->MaxWalkSpeed = 600;
-	Character->GetCharacterMovement()->JumpZVelocity = 700;
-	Character->JumpMaxCount = 1;
-	Character->GetMesh()->SetVisibility(true);
-}
 
 // Called every frame
 void ACPP_Powerup::Tick(float DeltaTime)
@@ -76,14 +68,28 @@ void ACPP_Powerup::Tick(float DeltaTime)
 void ACPP_Powerup::OnOverlapBegin(UPrimitiveComponent* OverlapComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
 	
-	if (bPowerActive){
+	if (bPowerActive&& Character!=NULL){
 		bPowerActive = false;
+		GetWorld()->GetTimerManager().SetTimer(PowerTimerHandle, this, &ACPP_Powerup::ResetPowers, 5.0f, false);	
 		Character->GetMesh()->SetVisibility(false);
-		Destroy();
-		GetWorld()->GetTimerManager().SetTimer(PowerTimerHandle, this, &ACPP_Powerup::ResetPowers, 5.0f, false);
+		
+		
 	}
 
 	
 	
 }
+
+void ACPP_Powerup::ResetPowers()
+{
+	bPowerActive = true;
+	Character->GetCharacterMovement()->MaxWalkSpeed = 600;
+	Character->GetCharacterMovement()->JumpZVelocity = 700;
+	Character->JumpMaxCount = 1;
+	Character->GetMesh()->SetVisibility(true);
+
+	GetWorld()->GetTimerManager().ClearTimer(PowerTimerHandle);
+	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Eureka!"));
+	
+	}
 

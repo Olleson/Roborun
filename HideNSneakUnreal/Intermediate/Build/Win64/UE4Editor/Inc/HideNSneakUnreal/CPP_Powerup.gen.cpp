@@ -35,11 +35,19 @@ void EmptyLinkFunctionForGeneratedCodeCPP_Powerup() {}
 		P_THIS->OnOverlapBegin(Z_Param_OverlapComponent,Z_Param_OtherActor,Z_Param_OtherComp,Z_Param_OtherBodyIndex,Z_Param_bFromSweep,Z_Param_Out_SweepResult);
 		P_NATIVE_END;
 	}
+	DEFINE_FUNCTION(ACPP_Powerup::execResetPowers)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->ResetPowers();
+		P_NATIVE_END;
+	}
 	void ACPP_Powerup::StaticRegisterNativesACPP_Powerup()
 	{
 		UClass* Class = ACPP_Powerup::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "OnOverlapBegin", &ACPP_Powerup::execOnOverlapBegin },
+			{ "ResetPowers", &ACPP_Powerup::execResetPowers },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 	}
@@ -124,6 +132,28 @@ void EmptyLinkFunctionForGeneratedCodeCPP_Powerup() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_ACPP_Powerup_ResetPowers_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ACPP_Powerup_ResetPowers_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "CPP_Powerup.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ACPP_Powerup_ResetPowers_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ACPP_Powerup, nullptr, "ResetPowers", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00080401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ACPP_Powerup_ResetPowers_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ACPP_Powerup_ResetPowers_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ACPP_Powerup_ResetPowers()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ACPP_Powerup_ResetPowers_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_ACPP_Powerup_NoRegister()
 	{
 		return ACPP_Powerup::StaticClass();
@@ -149,6 +179,7 @@ void EmptyLinkFunctionForGeneratedCodeCPP_Powerup() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_ACPP_Powerup_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_ACPP_Powerup_OnOverlapBegin, "OnOverlapBegin" }, // 1362590973
+		{ &Z_Construct_UFunction_ACPP_Powerup_ResetPowers, "ResetPowers" }, // 611277710
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACPP_Powerup_Statics::Class_MetaDataParams[] = {
@@ -194,7 +225,7 @@ void EmptyLinkFunctionForGeneratedCodeCPP_Powerup() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ACPP_Powerup, 1691173003);
+	IMPLEMENT_CLASS(ACPP_Powerup, 613471997);
 	template<> HIDENSNEAKUNREAL_API UClass* StaticClass<ACPP_Powerup>()
 	{
 		return ACPP_Powerup::StaticClass();

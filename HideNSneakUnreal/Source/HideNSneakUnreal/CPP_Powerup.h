@@ -33,7 +33,7 @@ protected:
 
 	//Handles the time the power is active
 	FTimerHandle PowerTimerHandle;
-
+	UFUNCTION()
 	void ResetPowers();
 
 

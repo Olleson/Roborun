@@ -19,12 +19,14 @@ struct FHitResult;
 #define HideNSneakUnreal_Source_HideNSneakUnreal_CPP_MovementBoost_h_17_SPARSE_DATA
 #define HideNSneakUnreal_Source_HideNSneakUnreal_CPP_MovementBoost_h_17_RPC_WRAPPERS \
  \
-	DECLARE_FUNCTION(execOnOverlapBegin);
+	DECLARE_FUNCTION(execOnOverlapBegin); \
+	DECLARE_FUNCTION(execResetPowers);
 
 
 #define HideNSneakUnreal_Source_HideNSneakUnreal_CPP_MovementBoost_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
  \
-	DECLARE_FUNCTION(execOnOverlapBegin);
+	DECLARE_FUNCTION(execOnOverlapBegin); \
+	DECLARE_FUNCTION(execResetPowers);
 
 
 #define HideNSneakUnreal_Source_HideNSneakUnreal_CPP_MovementBoost_h_17_INCLASS_NO_PURE_DECLS \

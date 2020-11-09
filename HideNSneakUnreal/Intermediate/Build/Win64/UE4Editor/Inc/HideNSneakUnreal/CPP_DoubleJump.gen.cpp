@@ -72,7 +72,7 @@ void EmptyLinkFunctionForGeneratedCodeCPP_DoubleJump() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ACPP_DoubleJump, 2847202175);
+	IMPLEMENT_CLASS(ACPP_DoubleJump, 2824298825);
 	template<> HIDENSNEAKUNREAL_API UClass* StaticClass<ACPP_DoubleJump>()
 	{
 		return ACPP_DoubleJump::StaticClass();
