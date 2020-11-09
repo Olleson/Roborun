@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\HideNSneakUnreal.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{91F600CA-1867-4C5C-A5E3-B82A7301C538}</UniqueIdentifier>
+      <UniqueIdentifier>{55892B7A-78DA-41B1-BFC9-BFC1AA5DEC32}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\HideNSneakUnreal.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{C4BFB4F9-9635-4AC1-BCF8-17683ECBA865}</UniqueIdentifier>
+      <UniqueIdentifier>{F846CC14-8E8C-4D91-9948-74607386C295}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\HideNSneakUnreal">
-      <UniqueIdentifier>{464390CD-6564-4F6A-86E7-A8506315DC09}</UniqueIdentifier>
+      <UniqueIdentifier>{4D0E0FB0-294A-46D6-AC26-E19902698441}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\HideNSneakUnreal\CPP_Character.cpp">
       <Filter>Source\HideNSneakUnreal</Filter>
@@ -42,6 +42,18 @@
       <Filter>Source\HideNSneakUnreal</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\HideNSneakUnreal\CPP_DoubleJump.h">
+      <Filter>Source\HideNSneakUnreal</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HideNSneakUnreal\CPP_JumpTwice.cpp">
+      <Filter>Source\HideNSneakUnreal</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HideNSneakUnreal\CPP_JumpTwice.h">
+      <Filter>Source\HideNSneakUnreal</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HideNSneakUnreal\CPP_MovementBoost.cpp">
+      <Filter>Source\HideNSneakUnreal</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HideNSneakUnreal\CPP_MovementBoost.h">
       <Filter>Source\HideNSneakUnreal</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\HideNSneakUnreal\CPP_Powerup.cpp">

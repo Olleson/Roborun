@@ -1,22 +1,18 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (N:\PROJ).
-  Creating makefile for HideNSneakUnrealEditor (game project files are newer)
   Parsing headers for HideNSneakUnrealEditor
     Running UnrealHeaderTool "N:\PROJ\HideNSneakUnreal\HideNSneakUnreal.uproject" "N:\PROJ\HideNSneakUnreal\Intermediate\Build\Win64\HideNSneakUnrealEditor\Development\HideNSneakUnrealEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\abab8270\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
-  Reflection code generated for HideNSneakUnrealEditor in 8,2371375 seconds
+  Reflection code generated for HideNSneakUnrealEditor in 6,6301554 seconds
   Building HideNSneakUnrealEditor...
   Using Visual Studio 2019 14.27.29112 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 10 actions with 16 processes...
-    [1/10] CPP_SpeedBoost.cpp
-    [2/10] HideNSneakUnreal.init.gen.cpp
-    [3/10] CPP_DoubleJump.cpp
-    [4/10] CPP_SpeedBoost.gen.cpp
-    [5/10] CPP_DoubleJump.gen.cpp
-    [6/10] CPP_Powerup.gen.cpp
-    [7/10] CPP_Powerup.cpp
-    [8/10] UE4Editor-HideNSneakUnreal-0041.lib
-       Creating library N:\PROJ\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal-0041.lib and object N:\PROJ\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal-0041.exp
-    [9/10] UE4Editor-HideNSneakUnreal-0041.dll
-       Creating library N:\PROJ\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal-0041.suppressed.lib and object N:\PROJ\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal-0041.suppressed.exp
-    [10/10] HideNSneakUnrealEditor.target
-  Total time in Parallel executor: 20,19 seconds
-  Total execution time: 32,17 seconds
+  Building 6 actions with 16 processes...
+    [1/6] HideNSneakUnreal.init.gen.cpp
+    [2/6] CPP_JumpTwice.cpp
+    [3/6] CPP_JumpTwice.gen.cpp
+    [4/6] UE4Editor-HideNSneakUnreal-0044.lib
+       Creating library N:\PROJ\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal-0044.lib and object N:\PROJ\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal-0044.exp
+    [5/6] UE4Editor-HideNSneakUnreal-0044.dll
+       Creating library N:\PROJ\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal-0044.suppressed.lib and object N:\PROJ\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal-0044.suppressed.exp
+CPP_JumpTwice.gen.cpp.obj : error LNK2019: unresolved external symbol "public: void __cdecl ACPP_JumpTwice::OnOverlapBegin(class UPrimitiveComponent *,class AActor *,class UPrimitiveComponent *,int,bool,struct FHitResult const &)" (?OnOverlapBegin@ACPP_JumpTwice@@QEAAXPEAVUPrimitiveComponent@@PEAVAActor@@0H_NAEBUFHitResult@@@Z) referenced in function "public: static void __cdecl ACPP_JumpTwice::execOnOverlapBegin(class UObject *,struct FFrame &,void * const)" (?execOnOverlapBegin@ACPP_JumpTwice@@SAXPEAVUObject@@AEAUFFrame@@QEAX@Z)
+N:\PROJ\HideNSneakUnreal\Binaries\Win64\UE4Editor-HideNSneakUnreal-0044.dll : fatal error LNK1120: 1 unresolved externals
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(46,5): error MSB3073: The command "C:\WINDOWS\System32\chcp.com 65001 >NUL 
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(46,5): error MSB3073:  "C:\Program Files\Epic Games\UE_4.25\Engine\Build\BatchFiles\Build.bat" HideNSneakUnrealEditor Win64 Development -Project="N:\PROJ\HideNSneakUnreal\HideNSneakUnreal.uproject" -WaitMutex -FromMsBuild" exited with code 6.
