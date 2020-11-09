@@ -82,6 +82,14 @@ public:
 		void UseDecoyAbility();
 	void UseDecoyAbility_Implementation();
 
+	UFUNCTION(Server, reliable)
+		void ServerDecoyStealthOver(AActor *MyActor);
+	void ServerDecoyStealthOver_Implementation(AActor *MyActor);
+
+	UFUNCTION(Server, reliable)
+		void ServerDecoyAbility(AActor *SpawnActor, FTransform DecoyTransform, FVector DecoyVelocity, float DecoyMovementValue);
+	void ServerDecoyAbility_Implementation(AActor *SpawnActor, FTransform DecoyTransform, FVector DecoyVelocity, float DecoyMovementValue);
+
 	// Acces to the timer for handling the duration of the stealth
 	FTimerHandle DecoyTimerHandle;
 	//acces to the timer for handling the cooldown of the decoy
@@ -101,7 +109,7 @@ public:
 	UPROPERTY(EditAnywhere)
 		float MovementValue = 1.0f;
 
-	UFUNCTION(Client, unreliable, Category = "Hider")
+	UFUNCTION(Server, unreliable, Category = "Hider")
 		void DecoyStealthOver();
 	void DecoyStealthOver_Implementation();
 
@@ -112,6 +120,7 @@ public:
 	UFUNCTION(Client, unreliable,BlueprintCallable , Category = "Hider")
 		void MoveDecoy();
 	void MoveDecoy_Implementation();
+
 
 	UPROPERTY(EditAnywhere)
 		AActor* targetActor;
