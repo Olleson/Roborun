@@ -18,7 +18,7 @@
 #include "GameplayTagsManager.h"
 #include "GameFramework/Actor.h"
 #include "DrawDebugHelpers.h"
-#include "GameController.h"
+#include "RoundController.h"
 
 //////////////////////////////////////////////////////////////////////////
 // AHideNSneakCPPCharacter
@@ -69,10 +69,8 @@ void AHideNSneakCPPCharacter::BeginPlay()
 {
 	Super::BeginPlay();
 	GetCapsuleComponent()->OnComponentHit.AddDynamic(this, &AHideNSneakCPPCharacter::OnCompHit);
-
-	/*TSubclassOf<AActor> AHideNSneakCPPCharacter;*/
-
-	UGameplayStatics::GetAllActorsOfClass(GetWorld(), AHideNSneakCPPCharacter::StaticClass(), FoundActors);
+	RoundController = Cast<ARoundController>(UGameplayStatics::GetActorOfClass(GetWorld(), ARoundController::StaticClass()));
+	//UGameplayStatics::GetAllActorsOfClass(GetWorld(), ARoundController::StaticClass(), RoundController);
 }
 
 void AHideNSneakCPPCharacter::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const {
@@ -111,8 +109,10 @@ void AHideNSneakCPPCharacter::SetupPlayerInputComponent(class UInputComponent* P
 
 void AHideNSneakCPPCharacter::ServerCaptureHider_Implementation(AHideNSneakCPPCharacter* Hider)
 {
+	//RoundController->AddHiderToSeekerTeam(Hider);
+
 	if (HasAuthority() && !Hider->IsSeeker()) {
-		Hider->ServerBecomeSeeker_Implementation();
+		Hider->ServerBecomeSeeker();
 		if (Hider == this) {
 			// Fake the On rep notify for the listen server if it is a hider that gets captured,
 			// as the Server doesn't get on rep notify automatically
@@ -160,14 +160,15 @@ void AHideNSneakCPPCharacter::ServerBecomeHider_Implementation()
 
 void AHideNSneakCPPCharacter::BecomeSeeker_Implementation()
 {
-	if (!bIsSeeker) {
+	if (!bIsSeeker) 
 		ServerBecomeSeeker();
-	}
 }
 
 void AHideNSneakCPPCharacter::ServerBecomeSeeker_Implementation()
 {
 	bIsSeeker = true;
+	//RoundController->AddHiderToSeekerTeam(this);
+	
 	if (HasAuthority()) {
 		OnRep_IsSeeker();
 	}
@@ -186,6 +187,7 @@ void AHideNSneakCPPCharacter::ServerResetPlayersToHiders_Implementation()
 		for (FConstControllerIterator It = World->GetControllerIterator(); It; ++It) {
 			if (APlayerController* PlayerController = Cast<APlayerController>(*It)) {
 				if (AHideNSneakCPPCharacter* Character = Cast<AHideNSneakCPPCharacter>(PlayerController->GetPawn())) {
+					//RoundController->FillArrays();
 					Character->BecomeHider();
 				}
 			}
@@ -196,9 +198,10 @@ void AHideNSneakCPPCharacter::ServerResetPlayersToHiders_Implementation()
 void AHideNSneakCPPCharacter::OnCompHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit)
 {
 	if (OtherActor->IsA(AHideNSneakCPPCharacter::StaticClass()) && OtherActor != this && !Cast<AHideNSneakCPPCharacter>(OtherActor)->bIsSeeker && bIsSeeker) {
-		targetActor = OtherActor;
-		targetTagMechanic = Cast<AHideNSneakCPPCharacter>(targetActor);
+		targetTagMechanic = Cast<AHideNSneakCPPCharacter>(OtherActor);
 		ServerCaptureHider(targetTagMechanic);
+
+		//RoundController->AddHiderToSeekerTeam(targetTagMechanic);
 	}
 }
 
@@ -229,50 +232,4 @@ void AHideNSneakCPPCharacter::MoveRight(float Value)
 		// add movement in that direction
 		AddMovementInput(Direction, Value);
 	}
-}
-
-void AHideNSneakCPPCharacter::Tick(float DeltaSeconds) {
-	Super::Tick(DeltaSeconds);
-
-	/*if(CanDrawLines)*/
-		DrawLines();
-
-	if (HasAuthority() )
-		DrawLines();
-}
-
-
-void AHideNSneakCPPCharacter::GiveHidersOutline()
-{
-
-}
-
-void AHideNSneakCPPCharacter::DrawLines() {
-
-	if (!bIsSeeker)
-		return;
-
-	FHitResult OutHit;
-	FVector Start = GetActorLocation();
-	FVector End;
-	FCollisionQueryParams CollisionParams;
-
-	//if (HasAuthority() && !Hider->IsSeeker()) {
-	//	Hider->ServerBecomeSeeker_Implementation();
-	//	if (Hider == this) {
-	//		// Fake the On rep notify for the listen server if it is a hider that gets captured,
-	//		// as the Server doesn't get on rep notify automatically
-	//		OnRep_IsSeeker();
-
-	for (int i = 0; i < FoundActors.Num(); i++) {
-		if (FoundActors[i] != this && !Cast<AHideNSneakCPPCharacter>(FoundActors[i])->IsSeeker()) {
-			End = FoundActors[i]->GetActorLocation();
-			
-			GetWorld()->LineBatcher->DrawLine(Start, End, FColor::Green, SDPG_World, 5, 0.01);
-		}
-	}
-	
-	//if (GetWorld()->LineTraceSingleByChannel(OutHit, Start, End, ECC_WorldStatic, FCollisionQueryParams(true)) && *OutHit.GetActor()->GetName() != this->GetName()) {
-	//	GEngine->AddOnScreenDebugMessage(-1, 1.f, FColor::Green, FString::Printf(TEXT("The Component Being Hit is: %s"), *OutHit.GetActor()->GetName()));
-	//}
 }
