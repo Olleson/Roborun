@@ -70,7 +70,9 @@ void AHideNSneakCPPCharacter::BeginPlay()
 	Super::BeginPlay();
 	GetCapsuleComponent()->OnComponentHit.AddDynamic(this, &AHideNSneakCPPCharacter::OnCompHit);
 	RoundController = Cast<ARoundController>(UGameplayStatics::GetActorOfClass(GetWorld(), ARoundController::StaticClass()));
-	//UGameplayStatics::GetAllActorsOfClass(GetWorld(), ARoundController::StaticClass(), RoundController);
+	
+	RoundController->Players.Add(this);
+	RoundController->Hiders.Add(this);
 }
 
 void AHideNSneakCPPCharacter::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const {
@@ -184,14 +186,10 @@ void AHideNSneakCPPCharacter::ServerResetPlayersToHiders_Implementation()
 	if (HasAuthority()) {
 		UWorld* World = GetWorld();
 		check(World);
-		for (FConstControllerIterator It = World->GetControllerIterator(); It; ++It) {
-			if (APlayerController* PlayerController = Cast<APlayerController>(*It)) {
-				if (AHideNSneakCPPCharacter* Character = Cast<AHideNSneakCPPCharacter>(PlayerController->GetPawn())) {
-					//RoundController->FillArrays();
+		for (FConstControllerIterator It = World->GetControllerIterator(); It; ++It) 
+			if (APlayerController* PlayerController = Cast<APlayerController>(*It)) 
+				if (AHideNSneakCPPCharacter* Character = Cast<AHideNSneakCPPCharacter>(PlayerController->GetPawn()))
 					Character->BecomeHider();
-				}
-			}
-		}
 	}
 }
 
@@ -200,8 +198,6 @@ void AHideNSneakCPPCharacter::OnCompHit(UPrimitiveComponent* HitComp, AActor* Ot
 	if (OtherActor->IsA(AHideNSneakCPPCharacter::StaticClass()) && OtherActor != this && !Cast<AHideNSneakCPPCharacter>(OtherActor)->bIsSeeker && bIsSeeker) {
 		targetTagMechanic = Cast<AHideNSneakCPPCharacter>(OtherActor);
 		ServerCaptureHider(targetTagMechanic);
-
-		//RoundController->AddHiderToSeekerTeam(targetTagMechanic);
 	}
 }
 

@@ -36,6 +36,14 @@ public:
 	//List of all players in the game.
 		int MinimumAmountOfPlayers;
 
+	UPROPERTY(EditAnywhere)
+		//Game length in seconds.
+		int GameLengthInSeconds;
+
+	UPROPERTY(EditAnywhere)
+		//Game length in seconds.
+		float TimeWhenRoundEnds;
+
 	UFUNCTION(Category = "Round Controller")
 	//Fills the arrays Players, Hiders, & Seekers.
 		void FillArrays();
