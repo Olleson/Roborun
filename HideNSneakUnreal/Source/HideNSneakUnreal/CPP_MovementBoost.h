@@ -1,5 +1,4 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
+//Primary Author: Abdifatah Abdi
 #pragma once
 
 #include "CoreMinimal.h"
@@ -43,7 +42,7 @@ public:
 	ACPP_Character* Character;
 
 
-
+	//CollisionBox
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 		class UBoxComponent* CollisionBox;
 

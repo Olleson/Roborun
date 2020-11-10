@@ -1,5 +1,4 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
+//Primary Author: Abdifatah Abdi
 
 #include "CPP_MovementBoost.h"
 #include <Components/BoxComponent.h>
@@ -25,6 +24,7 @@ ACPP_MovementBoost::ACPP_MovementBoost()
 	UStaticMeshComponent* Mesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("MovementSpeed"));
 	Mesh->SetupAttachment(RootComponent);
 
+	//Set the location and size of the mesh
 	static ConstructorHelpers::FObjectFinder<UStaticMesh> Powerup(TEXT("/Game/StarterContent/Shapes/Shape_NarrowCapsule.Shape_NarrowCapsule"));
 	if (Powerup.Succeeded()) {
 		Mesh->SetStaticMesh(Powerup.Object);
@@ -54,7 +54,7 @@ void ACPP_MovementBoost::Tick(float DeltaTime)
 void ACPP_MovementBoost::OnOverlapBegin(UPrimitiveComponent* OverlapComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
 	
-	
+	//Add the speedboost.
 	if (bPowerActive&& Character != NULL) {
 		bPowerActive = false;
 		Character->GetCharacterMovement()->MaxWalkSpeed = 2000;
@@ -67,6 +67,7 @@ void ACPP_MovementBoost::OnOverlapBegin(UPrimitiveComponent* OverlapComponent, A
 
 }
 
+//Remove the Speedboost
 void  ACPP_MovementBoost::ResetPowers()
 {
 	bPowerActive = true;

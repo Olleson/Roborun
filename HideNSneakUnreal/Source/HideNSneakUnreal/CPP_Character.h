@@ -1,4 +1,4 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+// Primary Author: Abdifatah Abdi
 
 #pragma once
 
@@ -30,6 +30,7 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 		class UStaticMeshComponent* CollisionBox;
 	
+	//The crouch function
 	UFUNCTION()
 	void OnCrouch();
 
@@ -38,6 +39,7 @@ public:
 	void MoveForward(float axis);
 	void MoveRight(float axis);
 
+	//Boolean that checks if player is crouching
 	bool Crouching = false;
 	
 

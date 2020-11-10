@@ -45,7 +45,9 @@ void EmptyLinkFunctionForGeneratedCodeCPP_Character() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ACPP_Character_OnCrouch_Statics::Function_MetaDataParams[] = {
+		{ "Comment", "//The crouch function\n" },
 		{ "ModuleRelativePath", "CPP_Character.h" },
+		{ "ToolTip", "The crouch function" },
 	};
 #endif
 	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ACPP_Character_OnCrouch_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ACPP_Character, nullptr, "OnCrouch", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ACPP_Character_OnCrouch_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ACPP_Character_OnCrouch_Statics::Function_MetaDataParams)) };
@@ -90,7 +92,7 @@ void EmptyLinkFunctionForGeneratedCodeCPP_Character() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_HideNSneakUnreal,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_ACPP_Character_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_ACPP_Character_OnCrouch, "OnCrouch" }, // 1081686730
+		{ &Z_Construct_UFunction_ACPP_Character_OnCrouch, "OnCrouch" }, // 2635809350
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACPP_Character_Statics::Class_MetaDataParams[] = {
@@ -157,7 +159,7 @@ void EmptyLinkFunctionForGeneratedCodeCPP_Character() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ACPP_Character, 1258533552);
+	IMPLEMENT_CLASS(ACPP_Character, 4046068820);
 	template<> HIDENSNEAKUNREAL_API UClass* StaticClass<ACPP_Character>()
 	{
 		return ACPP_Character::StaticClass();

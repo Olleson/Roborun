@@ -1,13 +1,7 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (N:\PROJ).
   Building HideNSneakUnrealEditor...
   Using Visual Studio 2019 14.27.29112 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 5 actions with 16 processes...
-    [1/5] CPP_MovementBoost.cpp
-    [2/5] CPP_Powerup.cpp
-    [3/5] UE4Editor-HideNSneakUnreal-0084.lib
-       Creating library N:\PROJ\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal-0084.lib and object N:\PROJ\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal-0084.exp
-    [4/5] UE4Editor-HideNSneakUnreal-0084.dll
-       Creating library N:\PROJ\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal-0084.suppressed.lib and object N:\PROJ\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal-0084.suppressed.exp
-    [5/5] HideNSneakUnrealEditor.target
-  Total time in Parallel executor: 24,87 seconds
-  Total execution time: 25,91 seconds
+  Building 1 action with 16 processes...
+    [1/1] HideNSneakUnrealEditor.target
+  Total time in Parallel executor: 0,25 seconds
+  Total execution time: 1,11 seconds

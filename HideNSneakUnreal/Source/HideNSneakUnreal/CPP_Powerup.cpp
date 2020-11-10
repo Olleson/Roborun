@@ -1,4 +1,4 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+// Primary Author: Abdifatah
 
 
 #include "CPP_Powerup.h"
@@ -53,6 +53,7 @@ void ACPP_Powerup::BeginPlay()
 
 	Super::BeginPlay();
 
+	//
 	Character = Cast<ACPP_Character>(UGameplayStatics::GetPlayerCharacter(GetWorld(), 0));
 	
 }
@@ -67,10 +68,10 @@ void ACPP_Powerup::Tick(float DeltaTime)
 
 void ACPP_Powerup::OnOverlapBegin(UPrimitiveComponent* OverlapComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
-	
+	//Give the player invisibility for x amount of seconds.
 	if (bPowerActive&& Character!=NULL){
 		bPowerActive = false;
-		GetWorld()->GetTimerManager().SetTimer(PowerTimerHandle, this, &ACPP_Powerup::ResetPowers, 5.0f, false);	
+		GetWorld()->GetTimerManager().SetTimer(PowerTimerHandle, this, &ACPP_Powerup::ResetPowers, duration, false);	
 		Character->GetMesh()->SetVisibility(false);
 		
 		
@@ -80,6 +81,7 @@ void ACPP_Powerup::OnOverlapBegin(UPrimitiveComponent* OverlapComponent, AActor*
 	
 }
 
+//Removes the invisibility
 void ACPP_Powerup::ResetPowers()
 {
 	bPowerActive = true;
@@ -87,9 +89,6 @@ void ACPP_Powerup::ResetPowers()
 	Character->GetCharacterMovement()->JumpZVelocity = 700;
 	Character->JumpMaxCount = 1;
 	Character->GetMesh()->SetVisibility(true);
-
 	GetWorld()->GetTimerManager().ClearTimer(PowerTimerHandle);
-	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Eureka!"));
-	
 	}
 

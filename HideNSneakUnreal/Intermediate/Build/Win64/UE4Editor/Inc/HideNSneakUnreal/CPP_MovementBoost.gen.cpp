@@ -190,8 +190,10 @@ void EmptyLinkFunctionForGeneratedCodeCPP_MovementBoost() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACPP_MovementBoost_Statics::NewProp_CollisionBox_MetaData[] = {
 		{ "Category", "CPP_MovementBoost" },
+		{ "Comment", "//CollisionBox\n" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "CPP_MovementBoost.h" },
+		{ "ToolTip", "CollisionBox" },
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACPP_MovementBoost_Statics::NewProp_CollisionBox = { "CollisionBox", nullptr, (EPropertyFlags)0x00100000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACPP_MovementBoost, CollisionBox), Z_Construct_UClass_UBoxComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACPP_MovementBoost_Statics::NewProp_CollisionBox_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACPP_MovementBoost_Statics::NewProp_CollisionBox_MetaData)) };
@@ -225,7 +227,7 @@ void EmptyLinkFunctionForGeneratedCodeCPP_MovementBoost() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ACPP_MovementBoost, 4019660948);
+	IMPLEMENT_CLASS(ACPP_MovementBoost, 3861651949);
 	template<> HIDENSNEAKUNREAL_API UClass* StaticClass<ACPP_MovementBoost>()
 	{
 		return ACPP_MovementBoost::StaticClass();

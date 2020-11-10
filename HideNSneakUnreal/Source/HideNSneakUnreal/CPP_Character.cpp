@@ -14,7 +14,7 @@ ACPP_Character::ACPP_Character()
 	bUseControllerRotationYaw = false;
 
 
-	//PlayerMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("PlayerMesh"));s
+	//PlayerMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("PlayerMesh"));
 
 	GetCharacterMovement()->bOrientRotationToMovement = true;
 	GetCharacterMovement()->bCrouchMaintainsBaseLocation = true;
@@ -43,7 +43,7 @@ void ACPP_Character::BeginPlay()
 void ACPP_Character::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
+	
 }
 
 // Called to bind functionality to input
@@ -66,6 +66,7 @@ void ACPP_Character::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 
 }
 
+
 void ACPP_Character::MoveForward(float axis)
 {
 	const FRotator control_rotation = Controller->GetControlRotation();
@@ -84,6 +85,8 @@ void ACPP_Character::MoveRight(float axis)
 	AddMovementInput(right, axis);
 }
 
+
+//Crouch function.
 void ACPP_Character::OnCrouch()
 {
 	if (!Crouching) {
