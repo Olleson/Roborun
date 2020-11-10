@@ -79,16 +79,19 @@ public:
 		bool DecoyAvailible = true;
 
 	UFUNCTION(Client, unreliable, BlueprintCallable, Category = "Hider")
+		//make character go stealth + spawn a decoy character
 		void UseDecoyAbility();
 	void UseDecoyAbility_Implementation();
 
 	UFUNCTION(Server, reliable)
-		void ServerDecoyStealthOver(AActor *MyActor);
-	void ServerDecoyStealthOver_Implementation(AActor *MyActor);
+		//Turns the character visible on all clients on the server
+		void ServerDecoyStealthOver(AHideNSneakCPPCharacter *MyActor);
+	void ServerDecoyStealthOver_Implementation(AHideNSneakCPPCharacter*MyActor);
 
 	UFUNCTION(Server, reliable)
-		void ServerDecoyAbility(AActor *SpawnActor, FTransform DecoyTransform, FVector DecoyVelocity, float DecoyMovementValue);
-	void ServerDecoyAbility_Implementation(AActor *SpawnActor, FTransform DecoyTransform, FVector DecoyVelocity, float DecoyMovementValue);
+		//server side for handling the making of the character go stealth + spawn a decoy character
+		void ServerDecoyAbility(AHideNSneakCPPCharacter *SpawnActor, FTransform DecoyTransform, FVector DecoyVelocity, float DecoyMovementValue);
+	void ServerDecoyAbility_Implementation(AHideNSneakCPPCharacter *SpawnActor, FTransform DecoyTransform, FVector DecoyVelocity, float DecoyMovementValue);
 
 	// Acces to the timer for handling the duration of the stealth
 	FTimerHandle DecoyTimerHandle;
@@ -98,26 +101,33 @@ public:
 	FTimerHandle StealthTimerHandle;
 
 	UPROPERTY(EditAnywhere)
+		//The Cooldown of the Decoy
 		float DecoyCooldown = 60.0f;
 
 	UPROPERTY(EditAnywhere)
+		//The duration of the stealth when you use the decoy ability
 		float StealthDuration = 3.0f;
 
 	UPROPERTY(EditAnywhere)
+		//How many seconds the decoy lives after it has been spawned
 		float DecoyDuration = 5.0f;
 
 	UPROPERTY(EditAnywhere)
-		float MovementValue = 1.0f;
+		//Standard movementvalue for the decoy when it spawns
+		float DecoyMovementValue = 1.0f;
 
-	UFUNCTION(Server, unreliable, Category = "Hider")
+	UFUNCTION(Client, unreliable, Category = "Hider")
+		//Turning the referenced character back to visible for all clients
 		void DecoyStealthOver();
 	void DecoyStealthOver_Implementation();
 
 	UFUNCTION( Client, unreliable, category = "´Hider")
+		//clears the timer for the cooldown reset and makes the decoy ability availible again
 		void DecoyCooldownOver();
 	void DecoyCooldownOver_Implementation();
 
 	UFUNCTION(Client, unreliable,BlueprintCallable , Category = "Hider")
+		//moves the decoy
 		void MoveDecoy();
 	void MoveDecoy_Implementation();
 

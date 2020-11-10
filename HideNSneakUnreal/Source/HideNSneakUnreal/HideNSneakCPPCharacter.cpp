@@ -207,23 +207,29 @@ void AHideNSneakCPPCharacter::UseDecoyAbility_Implementation() {
 				//DecoyActor->GetCharacterMovement()->Velocity = DecoyVelocity; //server
 				//DecoyActor->MovementValue = 1.0f;  //server
 				//DecoyActor->SetActorTickEnabled(true); //server
-				ServerDecoyAbility_Implementation(this, Decoytransform, DecoyVelocity, 1.0f);
+				if (this->GetInputAxisValue("MoveForward") != 0 || this->GetInputAxisValue("MoveRight") != 0) {
+					ServerDecoyAbility(this, Decoytransform, DecoyVelocity, 1.0f);
+				}
+				else
+				{
+					ServerDecoyAbility(this, Decoytransform, DecoyVelocity, 0.0f);
+				}
 				GetWorldTimerManager().SetTimer(DecoyCooldownHandle, this, &AHideNSneakCPPCharacter::DecoyCooldownOver_Implementation, DecoyCooldown, false);//local
 			}
 		}
 	}
 }
 
-void AHideNSneakCPPCharacter::ServerDecoyStealthOver_Implementation(AActor *MyActor)
+//Turning the referenced character back to visible for all clients
+void AHideNSneakCPPCharacter::ServerDecoyStealthOver_Implementation(AHideNSneakCPPCharacter *MyActor)
 {
-	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("körs denna alls?"));
 	if (HasAuthority()) {
-		//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("körs denna server?"));
 		MyActor->SetActorHiddenInGame(false);
 	}
 }
 
-void AHideNSneakCPPCharacter::ServerDecoyAbility_Implementation(AActor *SpawnActor, FTransform DecoyTransform, FVector DecoyVelocity, float DecoyMovementValue)
+//server side for handling the making of the character go stealth + spawn a decoy character
+void AHideNSneakCPPCharacter::ServerDecoyAbility_Implementation(AHideNSneakCPPCharacter *SpawnActor, FTransform DecoyTransform, FVector DecoyVelocity, float DecoyMovementValue)
 {
 	if (HasAuthority()) {
 		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("wtf"));
@@ -233,42 +239,41 @@ void AHideNSneakCPPCharacter::ServerDecoyAbility_Implementation(AActor *SpawnAct
 			SpawnParameters.Owner = SpawnActor;
 			SpawnParameters.Instigator = GetInstigator();
 			AHideNSneakCPPCharacter* const DecoyActor = World->SpawnActor<AHideNSneakCPPCharacter>(Decoy, DecoyTransform, SpawnParameters);
+			DecoyActor->MoveIgnoreActorAdd(SpawnActor);
+			SpawnActor->MoveIgnoreActorAdd(DecoyActor);
 			DecoyActor->SetLifeSpan(DecoyDuration); //server
 			DecoyActor->GetCharacterMovement()->Velocity = DecoyVelocity; //server
 			if (DecoyMovementValue != 0.0f) {
-				DecoyActor->MovementValue = DecoyMovementValue;  //server
+				DecoyActor->DecoyMovementValue = DecoyMovementValue;  //server
 				DecoyActor->SetActorTickEnabled(true); //server
 			}
 		}
 	}
 }
 
-
 //make charcter go unstealth.
 void AHideNSneakCPPCharacter::DecoyStealthOver_Implementation()
 {
-	ServerDecoyStealthOver_Implementation(this->GetOwner());
-	//this->SetActorHiddenInGame(false); //server
+	ServerDecoyStealthOver(this);
 	GetWorldTimerManager().ClearTimer(StealthTimerHandle);
 	GetWorldTimerManager().ClearTimer(DecoyTimerHandle);
 }
 
+//clears the timer for the cooldown reset and makes the decoy ability availible again
 void AHideNSneakCPPCharacter::DecoyCooldownOver_Implementation()
 {
 	DecoyAvailible = true;
 	GetWorldTimerManager().ClearTimer(DecoyCooldownHandle);
 }
 
+//moves the decoy 
 void AHideNSneakCPPCharacter::MoveDecoy_Implementation()
 {
 	if ((Controller != NULL))
 	{
-		AddMovementInput(this->GetActorForwardVector(), MovementValue);
+		AddMovementInput(this->GetActorForwardVector(), DecoyMovementValue);
 	}
 }
-
-
-
 
 void AHideNSneakCPPCharacter::OnCompHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit)
 {
