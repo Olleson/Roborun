@@ -1,2 +1,0 @@
-N:\PROJ\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\Definitions.HideNSneakUnreal.h
-N:\PROJ\HideNSneakUnreal\Source\HideNSneakUnreal\HideNSneakUnreal.h
