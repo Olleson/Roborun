@@ -188,10 +188,11 @@ void AHideNSneakCPPCharacter::ServerResetPlayersToHiders_Implementation()
 	}
 }
 
+
 //make character go stealth + spawn a decoy character
 void AHideNSneakCPPCharacter::UseDecoyAbility_Implementation() { 
 	if (DecoyAvailible) {
-		//this->SetActorHiddenInGame(true); //server
+	
 		//timer for delaying when the other part of the function is called
 		GetWorldTimerManager().SetTimer(StealthTimerHandle, this, &AHideNSneakCPPCharacter::DecoyStealthOver_Implementation, StealthDuration, false); //local
 		if (Decoy != NULL) {
@@ -229,23 +230,23 @@ void AHideNSneakCPPCharacter::ServerDecoyStealthOver_Implementation(AHideNSneakC
 }
 
 //server side for handling the making of the character go stealth + spawn a decoy character
-void AHideNSneakCPPCharacter::ServerDecoyAbility_Implementation(AHideNSneakCPPCharacter *SpawnActor, FTransform DecoyTransform, FVector DecoyVelocity, float DecoyMovementValue)
+void AHideNSneakCPPCharacter::ServerDecoyAbility_Implementation(AHideNSneakCPPCharacter *SpawnActor, FTransform DecoyTransform, FVector DecoyVelocity, float MovementValue)
 {
 	if (HasAuthority()) {
-		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("wtf"));
+
 		SpawnActor->SetActorHiddenInGame(true);
 		if (UWorld* const World = GetWorld()) {
-			FActorSpawnParameters SpawnParameters; //local
+			FActorSpawnParameters SpawnParameters;
 			SpawnParameters.Owner = SpawnActor;
 			SpawnParameters.Instigator = GetInstigator();
 			AHideNSneakCPPCharacter* const DecoyActor = World->SpawnActor<AHideNSneakCPPCharacter>(Decoy, DecoyTransform, SpawnParameters);
 			DecoyActor->MoveIgnoreActorAdd(SpawnActor);
 			SpawnActor->MoveIgnoreActorAdd(DecoyActor);
-			DecoyActor->SetLifeSpan(DecoyDuration); //server
-			DecoyActor->GetCharacterMovement()->Velocity = DecoyVelocity; //server
-			if (DecoyMovementValue != 0.0f) {
-				DecoyActor->DecoyMovementValue = DecoyMovementValue;  //server
-				DecoyActor->SetActorTickEnabled(true); //server
+			DecoyActor->SetLifeSpan(DecoyDuration);
+			DecoyActor->GetCharacterMovement()->Velocity = DecoyVelocity;
+			if (MovementValue != 0.0f) {
+				DecoyActor->DecoyMovementValue = MovementValue;
+				DecoyActor->SetActorTickEnabled(true); 
 			}
 		}
 	}

@@ -90,8 +90,8 @@ public:
 
 	UFUNCTION(Server, reliable)
 		//server side for handling the making of the character go stealth + spawn a decoy character
-		void ServerDecoyAbility(AHideNSneakCPPCharacter *SpawnActor, FTransform DecoyTransform, FVector DecoyVelocity, float DecoyMovementValue);
-	void ServerDecoyAbility_Implementation(AHideNSneakCPPCharacter *SpawnActor, FTransform DecoyTransform, FVector DecoyVelocity, float DecoyMovementValue);
+		void ServerDecoyAbility(AHideNSneakCPPCharacter *SpawnActor, FTransform DecoyTransform, FVector DecoyVelocity, float MovementValue);
+	void ServerDecoyAbility_Implementation(AHideNSneakCPPCharacter *SpawnActor, FTransform DecoyTransform, FVector DecoyVelocity, float MovementValue);
 
 	// Acces to the timer for handling the duration of the stealth
 	FTimerHandle DecoyTimerHandle;
@@ -208,20 +208,4 @@ public:
 	// Returns true if the character is a seeker
 	UFUNCTION(BlueprintPure, Category = "Seeker")
 	bool IsSeeker() const { return bIsSeeker; }
-
-	//UFUNCTION()
-	//	void Test();
-	UFUNCTION()
-		virtual void Tick(float DeltaSeconds);
-	//Array of all actors in scene
-	UPROPERTY(VisibleAnywhere)
-		TArray<AActor*> FoundActors;
-
-	UFUNCTION(BlueprintCallable)
-		void GiveHidersOutline();
-
-	UFUNCTION()
-		void DrawLines();
-
-	//bool CanDrawLines = false;
 };
