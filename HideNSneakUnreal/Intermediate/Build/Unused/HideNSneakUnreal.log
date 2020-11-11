@@ -1,20 +1,11 @@
-﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\HideNSneak2).
-  Parsing headers for HideNSneakUnrealEditor
-    Running UnrealHeaderTool "D:\HideNSneak2\HideNSneakUnreal\HideNSneakUnreal.uproject" "D:\HideNSneak2\HideNSneakUnreal\Intermediate\Build\Win64\HideNSneakUnrealEditor\Development\HideNSneakUnrealEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Oskar\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
-  Reflection code generated for HideNSneakUnrealEditor in 6,1720895 seconds
+﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Abdi\Desktop\Projects\SU\ProjSpelet).
   Building HideNSneakUnrealEditor...
-  Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 9 actions with 16 processes...
-    [1/9] GameController.gen.cpp
-    [2/9] HideNSneakCPPCharacter.gen.cpp
-    [3/9] HideNSneakUnreal.init.gen.cpp
-    [4/9] RandomizeSeeker.cpp
-    [5/9] GameController.cpp
-    [6/9] HideNSneakCPPCharacter.cpp
-    [7/9] UE4Editor-HideNSneakUnreal-0026.lib
-       Creating library D:\HideNSneak2\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal-0026.lib and object D:\HideNSneak2\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal-0026.exp
-    [8/9] UE4Editor-HideNSneakUnreal-0026.dll
-       Creating library D:\HideNSneak2\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal-0026.suppressed.lib and object D:\HideNSneak2\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal-0026.suppressed.exp
-    [9/9] HideNSneakUnrealEditor.target
-  Total time in Parallel executor: 6,51 seconds
-  Total execution time: 13,65 seconds
+  Using Visual Studio 2019 14.27.29112 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 4 actions with 12 processes...
+    [1/4] CPP_MovementBoost.cpp
+C:\Users\Abdi\Desktop\Projects\SU\ProjSpelet\HideNSneakUnreal\Source\HideNSneakUnreal\CPP_MovementBoost.cpp(62): error C2027: use of undefined type 'UCharacterMovementComponent'
+    C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h(24): note: see declaration of 'UCharacterMovementComponent'
+C:\Users\Abdi\Desktop\Projects\SU\ProjSpelet\HideNSneakUnreal\Source\HideNSneakUnreal\CPP_MovementBoost.cpp(76): error C2027: use of undefined type 'UCharacterMovementComponent'
+    C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h(24): note: see declaration of 'UCharacterMovementComponent'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(46,5): error MSB3073: The command "C:\WINDOWS\System32\chcp.com 65001 >NUL 
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(46,5): error MSB3073:  "C:\Program Files\Epic Games\UE_4.25\Engine\Build\BatchFiles\Build.bat" HideNSneakUnrealEditor Win64 Development -Project="C:\Users\Abdi\Desktop\Projects\SU\ProjSpelet\HideNSneakUnreal\HideNSneakUnreal.uproject" -WaitMutex -FromMsBuild" exited with code 6.

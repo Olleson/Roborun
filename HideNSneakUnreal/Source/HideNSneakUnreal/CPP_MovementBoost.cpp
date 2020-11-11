@@ -40,7 +40,7 @@ void ACPP_MovementBoost::BeginPlay()
 {
 	Super::BeginPlay();
 
-	Character = Cast<ACPP_Character>(UGameplayStatics::GetPlayerCharacter(GetWorld(),0));
+	
 	
 }
 
@@ -53,6 +53,8 @@ void ACPP_MovementBoost::Tick(float DeltaTime)
 
 void ACPP_MovementBoost::OnOverlapBegin(UPrimitiveComponent* OverlapComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
+
+	Character = Cast<AHideNSneakCPPCharacter>(OtherActor);
 	
 	//Add the speedboost.
 	if (bPowerActive&& Character != NULL) {
