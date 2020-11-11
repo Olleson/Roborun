@@ -22,10 +22,10 @@ void USteamOnlineGameInstance::Init() {
 		}
 	}
 }
-
+//Add the name of the level you want to spawn in this function (finish it with ?Listen)
 void USteamOnlineGameInstance::OnCreateSessionComplete(FName ServerName, bool Succeded)
 {
-	GetWorld()->ServerTravel("/Game/Maps/Real_WhiteBox?listen");
+	GetWorld()->ServerTravel("/Game/Maps/Alpha_playable_whitebox?listen");
 }
 
 void USteamOnlineGameInstance::OnJoinSessionComplete(FName SessionName, EOnJoinSessionCompleteResult::Type Result)

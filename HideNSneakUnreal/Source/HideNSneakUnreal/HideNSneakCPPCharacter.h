@@ -116,17 +116,17 @@ public:
 		//Standard movementvalue for the decoy when it spawns
 		float DecoyMovementValue = 1.0f;
 
-	UFUNCTION(Client, unreliable, Category = "Hider")
+	UFUNCTION(Client, reliable, Category = "Hider")
 		//Turning the referenced character back to visible for all clients
 		void DecoyStealthOver();
 	void DecoyStealthOver_Implementation();
 
-	UFUNCTION( Client, unreliable, category = "´Hider")
+	UFUNCTION( Client, reliable, category = "´Hider")
 		//clears the timer for the cooldown reset and makes the decoy ability availible again
 		void DecoyCooldownOver();
 	void DecoyCooldownOver_Implementation();
 
-	UFUNCTION(Client, unreliable,BlueprintCallable , Category = "Hider")
+	UFUNCTION(Client, reliable, BlueprintCallable , Category = "Hider")
 		//moves the decoy
 		void MoveDecoy();
 	void MoveDecoy_Implementation();

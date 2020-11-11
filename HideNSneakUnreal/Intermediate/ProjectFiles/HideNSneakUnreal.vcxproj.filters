@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\HideNSneakUnreal.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{C1D4815E-997E-4056-AC33-B2130E3A65B0}</UniqueIdentifier>
+      <UniqueIdentifier>{0104E4FA-735C-4525-9204-CB716C759F37}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\HideNSneakUnreal.Target.cs">
       <Filter>Source</Filter>
@@ -13,7 +13,7 @@
     </None>
     <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{98C47CFB-C67C-4BEE-A52A-B2797A016317}</UniqueIdentifier>
+      <UniqueIdentifier>{EBBF22E2-F60F-4D23-A4CC-E30D8BE18A90}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -34,7 +34,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\HideNSneakUnreal">
-      <UniqueIdentifier>{CB28D785-CA3E-4CE5-A22C-AA91EE0B9635}</UniqueIdentifier>
+      <UniqueIdentifier>{84EC7F94-2E6F-4E45-AF7D-680BA9721C3B}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\HideNSneakUnreal\batman.cpp">
       <Filter>Source\HideNSneakUnreal</Filter>
@@ -157,6 +157,12 @@
       <Filter>Source\HideNSneakUnreal</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\HideNSneakUnreal\SpawnVolume.h">
+      <Filter>Source\HideNSneakUnreal</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HideNSneakUnreal\SteamOnlineGameInstance.cpp">
+      <Filter>Source\HideNSneakUnreal</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HideNSneakUnreal\SteamOnlineGameInstance.h">
       <Filter>Source\HideNSneakUnreal</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\HideNSneakUnreal\TagMechanic.cpp">
