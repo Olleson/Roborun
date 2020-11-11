@@ -7,7 +7,6 @@
 #include <Components/StaticMeshComponent.h>
 #include <GameFrameWork/Actor.h>
 #include <Components/BoxComponent.h>
-#include <DrawDebugHelpers.h>
 #include "CPP_MovementBoost.generated.h"
 
 UCLASS()
