@@ -5740,3 +5740,7 @@ Scale3D: 1.000000 1.000000 1.000000
 [2020.11.11-15.25.37:153][909]LogSavePackage: Moving '../../../../../../Users/arvid/Documents/PROJ_Grupp2_Ny/HideNSneakUnreal/Saved/Alpha_playable_whitebox_Auto8E4CE412048FE4ED79C3A01A1264F0CC4.tmp' to '../../../../../../Users/arvid/Documents/PROJ_Grupp2_Ny/HideNSneakUnreal/Saved/Autosaves/Game/Maps/Alpha_playable_whitebox_Auto8.umap'
 [2020.11.11-15.25.37:155][909]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Alpha_playable_whitebox' took 0.253
 [2020.11.11-15.25.37:155][909]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.253
+[2020.11.11-15.27.37:700][108]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2020.11.11-15.27.37:927][108]LogSavePackage: Moving '../../../../../../Users/arvid/Documents/PROJ_Grupp2_Ny/HideNSneakUnreal/Saved/Alpha_playable_whitebox968FFFDB45DE365B8103BCA8C3BAFC56.tmp' to '../../../../../../Users/arvid/Documents/PROJ_Grupp2_Ny/HideNSneakUnreal/Content/Maps/Alpha_playable_whitebox.umap'
+[2020.11.11-15.27.37:980][108]AssetCheck: New page: Asset Save: Alpha_playable_whitebox
+[2020.11.11-15.27.37:980][108]LogContentValidation: Display: Validating World /Game/Maps/Alpha_playable_whitebox.Alpha_playable_whitebox
