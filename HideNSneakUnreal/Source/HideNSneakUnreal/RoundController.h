@@ -15,47 +15,43 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-public:	
+public:
 	ARoundController();
-	// Called every frame
-	virtual void Tick(float DeltaTime) override;
 
-	UPROPERTY(EditAnywhere)
-	//List of all players in the game.
+	UPROPERTY(BlueprintReadWrite, Category = "Round Controller", EditAnywhere)
+		//List of all players in the game.
 		TArray<AHideNSneakCPPCharacter*> Players;
 
-	UPROPERTY(EditAnywhere)
-	//List of all Hiders in the game.
+	UPROPERTY(BlueprintReadWrite, Category = "Round Controller", EditAnywhere)
+		//List of all Hiders in the game.
 		TArray<AHideNSneakCPPCharacter*> Hiders;
 
-	UPROPERTY(EditAnywhere)
-	//List of all Seekers in the game.
+	UPROPERTY(BlueprintReadWrite, Category = "Round Controller", EditAnywhere)
+		//List of all Seekers in the game.
 		TArray<AHideNSneakCPPCharacter*> Seekers;
 
-	UPROPERTY(EditAnywhere)
-	//List of all players in the game.
+	UPROPERTY(BlueprintReadWrite, Category = "Round Controller", EditAnywhere)
+		//The smallest amount of players that can be in a round before it is over.
 		int MinimumAmountOfPlayers;
 
-	UPROPERTY(EditAnywhere)
-		//Game length in seconds.
-		int GameLengthInSeconds;
-
-	UPROPERTY(EditAnywhere)
-		//Game length in seconds.
-		float TimeWhenRoundEnds;
-
-	UFUNCTION(Category = "Round Controller")
-	//Fills the arrays Players, Hiders, & Seekers.
-		void FillArrays();
-
-	UFUNCTION(Category = "Round Controller")
-	//Adds the Hider to the Seeker team.
-		void AddHiderToSeekerTeam(AHideNSneakCPPCharacter* tempChar);
-	//Ends the round
-	UFUNCTION(Category = "Round Controller")
-		void EndRound();
 
 	UFUNCTION(BlueprintCallable, Category = "Round Controller")
-	//Blueprint test function bla bla bla
+		//Adds a Hider to the Seeker Team
 		void BPAddHiderToSeekerTeam(AHideNSneakCPPCharacter* tempChar);
+
+	UFUNCTION(BlueprintCallable, Category = "Round Controller")
+		//Adds a Seeker to the Hider Team
+		void BPAddHiderToHiderTeam(AHideNSneakCPPCharacter* tempChar);
+
+	UFUNCTION(BlueprintCallable, Category = "Round Controller")
+		//Ends the current round and resets the players to Hiders
+		void BPEndRound();
+
+	UFUNCTION(BlueprintCallable, Category = "Round Controller")
+		//Starts another round
+		void BPStartAnotherRound();
+
+	UFUNCTION(BlueprintCallable, Category = "Round Controller")
+		//Returns the current round controller
+		ARoundController* BPGetRoundController();
 };

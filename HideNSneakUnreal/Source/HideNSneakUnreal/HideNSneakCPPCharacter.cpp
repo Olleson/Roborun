@@ -71,8 +71,8 @@ void AHideNSneakCPPCharacter::BeginPlay()
 	GetCapsuleComponent()->OnComponentHit.AddDynamic(this, &AHideNSneakCPPCharacter::OnCompHit);
 	RoundController = Cast<ARoundController>(UGameplayStatics::GetActorOfClass(GetWorld(), ARoundController::StaticClass()));
 	
-	RoundController->Players.Add(this);
-	RoundController->Hiders.Add(this);
+	//RoundController->Players.Add(this);
+	//RoundController->Hiders.Add(this);
 }
 
 void AHideNSneakCPPCharacter::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const {
@@ -169,7 +169,6 @@ void AHideNSneakCPPCharacter::BecomeSeeker_Implementation()
 void AHideNSneakCPPCharacter::ServerBecomeSeeker_Implementation()
 {
 	bIsSeeker = true;
-	//RoundController->AddHiderToSeekerTeam(this);
 	
 	if (HasAuthority()) {
 		OnRep_IsSeeker();
