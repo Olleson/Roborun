@@ -16,7 +16,12 @@
 #include "GameplayTags.h"
 #include "GameplayTagsManager.h"
 #include "GameFramework/Actor.h"
+<<<<<<< HEAD
 #include "Engine/World.h"
+=======
+#include "DrawDebugHelpers.h"
+#include "RoundController.h"
+>>>>>>> a9d035aebf83a53ce5d892f07713c7ec26a3ea50
 
 //////////////////////////////////////////////////////////////////////////
 // AHideNSneakCPPCharacter
@@ -67,6 +72,13 @@ void AHideNSneakCPPCharacter::BeginPlay()
 {
 	Super::BeginPlay();
 	GetCapsuleComponent()->OnComponentHit.AddDynamic(this, &AHideNSneakCPPCharacter::OnCompHit);
+<<<<<<< HEAD
+=======
+	RoundController = Cast<ARoundController>(UGameplayStatics::GetActorOfClass(GetWorld(), ARoundController::StaticClass()));
+	
+	//RoundController->Players.Add(this);
+	//RoundController->Hiders.Add(this);
+>>>>>>> a9d035aebf83a53ce5d892f07713c7ec26a3ea50
 }
 
 void AHideNSneakCPPCharacter::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const {
@@ -105,8 +117,10 @@ void AHideNSneakCPPCharacter::SetupPlayerInputComponent(class UInputComponent* P
 
 void AHideNSneakCPPCharacter::ServerCaptureHider_Implementation(AHideNSneakCPPCharacter* Hider)
 {
+	//RoundController->AddHiderToSeekerTeam(Hider);
+
 	if (HasAuthority() && !Hider->IsSeeker()) {
-		Hider->ServerBecomeSeeker_Implementation();
+		Hider->ServerBecomeSeeker();
 		if (Hider == this) {
 			// Fake the On rep notify for the listen server if it is a hider that gets captured,
 			// as the Server doesn't get on rep notify automatically
@@ -155,14 +169,14 @@ void AHideNSneakCPPCharacter::ServerBecomeHider_Implementation()
 
 void AHideNSneakCPPCharacter::BecomeSeeker_Implementation()
 {
-	if (!bIsSeeker) {
+	if (!bIsSeeker) 
 		ServerBecomeSeeker();
-	}
 }
 
 void AHideNSneakCPPCharacter::ServerBecomeSeeker_Implementation()
 {
 	bIsSeeker = true;
+	
 	if (HasAuthority()) {
 		OnRep_IsSeeker();
 	}
@@ -178,13 +192,10 @@ void AHideNSneakCPPCharacter::ServerResetPlayersToHiders_Implementation()
 	if (HasAuthority()) {
 		UWorld* World = GetWorld();
 		check(World);
-		for (FConstControllerIterator It = World->GetControllerIterator(); It; ++It) {
-			if (APlayerController* PlayerController = Cast<APlayerController>(*It)) {
-				if (AHideNSneakCPPCharacter* Character = Cast<AHideNSneakCPPCharacter>(PlayerController->GetPawn())) {
+		for (FConstControllerIterator It = World->GetControllerIterator(); It; ++It) 
+			if (APlayerController* PlayerController = Cast<APlayerController>(*It)) 
+				if (AHideNSneakCPPCharacter* Character = Cast<AHideNSneakCPPCharacter>(PlayerController->GetPawn()))
 					Character->BecomeHider();
-				}
-			}
-		}
 	}
 }
 
@@ -279,8 +290,7 @@ void AHideNSneakCPPCharacter::MoveDecoy_Implementation()
 void AHideNSneakCPPCharacter::OnCompHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit)
 {
 	if (OtherActor->IsA(AHideNSneakCPPCharacter::StaticClass()) && OtherActor != this && !Cast<AHideNSneakCPPCharacter>(OtherActor)->bIsSeeker && bIsSeeker) {
-		targetActor = OtherActor;
-		targetTagMechanic = Cast<AHideNSneakCPPCharacter>(targetActor);
+		targetTagMechanic = Cast<AHideNSneakCPPCharacter>(OtherActor);
 		ServerCaptureHider(targetTagMechanic);
 	}
 }

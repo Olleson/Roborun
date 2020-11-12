@@ -4,6 +4,8 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "RoundController.h"
+#include <HideNSneakUnreal\RoundController.h>
 #include "HideNSneakCPPCharacter.generated.h"
 
 UCLASS()
@@ -205,7 +207,15 @@ public:
 	FORCEINLINE class USpringArmComponent* GetCameraBoom() const { return CameraBoom; }
 	/** Returns FollowCamera subobject **/
 	FORCEINLINE class UCameraComponent* GetFollowCamera() const { return FollowCamera; }
-	// Returns true if the character is a seeker
 	UFUNCTION(BlueprintPure, Category = "Seeker")
+<<<<<<< HEAD
 	bool IsSeeker() const { return bIsSeeker; }
 };
+=======
+	// Returns true if the character is a seeker
+		bool IsSeeker() const { return bIsSeeker; };
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Round Controller")
+	//RoundController that controls when the round should start and end.
+		ARoundController *RoundController;
+};
+>>>>>>> a9d035aebf83a53ce5d892f07713c7ec26a3ea50
