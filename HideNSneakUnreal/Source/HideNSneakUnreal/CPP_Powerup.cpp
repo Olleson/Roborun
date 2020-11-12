@@ -4,7 +4,6 @@
 #include "CPP_Powerup.h"
 #include <Components/BoxComponent.h>
 #include <Engine/Engine.h>
-
 #include <Runtime/Engine/Classes/Kismet/GameplayStatics.h>
 
 // Sets default values
@@ -20,7 +19,7 @@ ACPP_Powerup::ACPP_Powerup()
 	RootComponent = CollisionBox;
 
 	CollisionBox->OnComponentBeginOverlap.AddDynamic(this,&ACPP_Powerup::OnOverlapBegin);
-	
+
 	//Setting the mesh
 
 	UStaticMeshComponent* Mesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("My PowerUp"));
@@ -56,6 +55,9 @@ void ACPP_Powerup::OnOverlapBegin(UPrimitiveComponent* OverlapComponent, AActor*
 	
 	//Give the player invisibility for x amount of seconds.
 	if (bPowerActive&& Character!=NULL){
+		this->CollisionBox->DestroyComponent();
+		this->SetActorHiddenInGame(true);
+		this->SetActorEnableCollision(false);
 		bPowerActive = false;
 		GetWorld()->GetTimerManager().SetTimer(PowerTimerHandle, this, &ACPP_Powerup::ResetPowers, duration, false);	
 		Character->GetMesh()->SetVisibility(false);
@@ -75,5 +77,6 @@ void ACPP_Powerup::ResetPowers()
 	Character->JumpMaxCount = 1;
 	Character->GetMesh()->SetVisibility(true);
 	GetWorld()->GetTimerManager().ClearTimer(PowerTimerHandle);
+	this->Destroy();
 	}
 
