@@ -1,8 +1,8 @@
-﻿Log file open, 11/12/20 19:48:35
+﻿Log file open, 11/12/20 20:20:01
 LogInit: Display: Running engine for game: HideNSneakUnreal
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.376519
+LogStats: Stats thread started at 0.292705
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -200,1139 +200,499 @@ LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2020.11.12-18.48.36:004][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2020.11.12-18.48.36:004][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2020.11.12-18.48.36:004][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/HideNSneak2/HideNSneakUnreal/Saved/Config/Windows/Engine.ini]
-[2020.11.12-18.48.36:004][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2020.11.12-18.48.36:004][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/HideNSneak2/HideNSneakUnreal/Saved/Config/Windows/Engine.ini]
-[2020.11.12-18.48.36:004][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/HideNSneak2/HideNSneakUnreal/Saved/Config/Windows/Engine.ini]
-[2020.11.12-18.48.36:004][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2020.11.12-18.48.36:004][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2020.11.12-18.48.36:004][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2020.11.12-18.48.36:004][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2020.11.12-18.48.36:004][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2020.11.12-18.48.36:004][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2020.11.12-18.48.36:004][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2020.11.12-18.48.36:004][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2020.11.12-18.48.36:004][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2020.11.12-18.48.36:004][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2020.11.12-18.48.36:004][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2020.11.12-18.48.36:004][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2020.11.12-18.48.36:004][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2020.11.12-18.48.36:004][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2020.11.12-18.48.36:004][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/HideNSneak2/HideNSneakUnreal/Saved/Config/Windows/Engine.ini]
-[2020.11.12-18.48.36:004][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2020.11.12-18.48.36:004][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2020.11.12-18.48.36:004][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2020.11.12-18.48.36:004][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2020.11.12-18.48.36:004][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2020.11.12-18.48.36:004][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2020.11.12-18.48.36:004][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2020.11.12-18.48.36:004][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2020.11.12-18.48.36:004][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2020.11.12-18.48.36:004][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2020.11.12-18.48.36:004][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2020.11.12-18.48.36:004][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2020.11.12-18.48.36:004][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2020.11.12-18.48.36:004][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/HideNSneak2/HideNSneakUnreal/Saved/Config/Windows/Engine.ini]
-[2020.11.12-18.48.36:004][  0]LogConfig: Setting CVar [[p.EnableMultiplayerWorldOriginRebasing:1]]
-[2020.11.12-18.48.36:004][  0]LogConfig: Setting CVar [[n.VerifyPeer:0]]
-[2020.11.12-18.48.36:004][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/HideNSneak2/HideNSneakUnreal/Saved/Config/Windows/Engine.ini]
-[2020.11.12-18.48.36:007][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/HideNSneak2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
-[2020.11.12-18.48.36:007][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.11.12-18.48.36:007][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.11.12-18.48.36:007][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/HideNSneak2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
-[2020.11.12-18.48.36:007][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.11.12-18.48.36:007][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/HideNSneak2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
-[2020.11.12-18.48.36:007][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.11.12-18.48.36:007][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.11.12-18.48.36:008][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.11.12-18.48.36:008][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.11.12-18.48.36:008][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.11.12-18.48.36:008][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.11.12-18.48.36:008][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.11.12-18.48.36:008][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.11.12-18.48.36:008][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.11.12-18.48.36:008][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.11.12-18.48.36:008][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.11.12-18.48.36:008][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.11.12-18.48.36:008][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.11.12-18.48.36:008][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.11.12-18.48.36:008][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.11.12-18.48.36:008][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.11.12-18.48.36:008][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.11.12-18.48.36:008][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.11.12-18.48.36:008][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/HideNSneak2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
-[2020.11.12-18.48.36:008][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.11.12-18.48.36:008][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.11.12-18.48.36:008][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.11.12-18.48.36:008][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.11.12-18.48.36:008][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.11.12-18.48.36:008][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.11.12-18.48.36:008][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.11.12-18.48.36:008][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.11.12-18.48.36:008][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.11.12-18.48.36:008][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.11.12-18.48.36:008][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.11.12-18.48.36:008][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.11.12-18.48.36:008][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.11.12-18.48.36:008][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.11.12-18.48.36:008][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.11.12-18.48.36:008][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.11.12-18.48.36:008][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.11.12-18.48.36:008][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.11.12-18.48.36:008][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.11.12-18.48.36:008][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.11.12-18.48.36:008][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.11.12-18.48.36:008][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.11.12-18.48.36:008][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.11.12-18.48.36:008][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.11.12-18.48.36:008][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.11.12-18.48.36:008][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.11.12-18.48.36:008][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.11.12-18.48.36:008][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.11.12-18.48.36:008][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.11.12-18.48.36:008][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.11.12-18.48.36:008][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/HideNSneak2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
-[2020.11.12-18.48.36:008][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.11.12-18.48.36:008][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.11.12-18.48.36:008][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.11.12-18.48.36:008][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.11.12-18.48.36:008][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.11.12-18.48.36:008][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.11.12-18.48.36:008][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.11.12-18.48.36:008][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.11.12-18.48.36:008][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.11.12-18.48.36:008][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/HideNSneak2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
-[2020.11.12-18.48.36:008][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.11.12-18.48.36:008][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.11.12-18.48.36:009][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.11.12-18.48.36:009][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.11.12-18.48.36:009][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.11.12-18.48.36:009][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.11.12-18.48.36:009][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.11.12-18.48.36:009][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.11.12-18.48.36:009][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.11.12-18.48.36:009][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.11.12-18.48.36:009][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.11.12-18.48.36:009][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2020.11.12-18.48.36:009][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.11.12-18.48.36:009][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.11.12-18.48.36:009][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.11.12-18.48.36:009][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.11.12-18.48.36:009][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.11.12-18.48.36:009][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.11.12-18.48.36:009][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.11.12-18.48.36:009][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.11.12-18.48.36:009][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.11.12-18.48.36:009][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.11.12-18.48.36:009][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.11.12-18.48.36:009][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.11.12-18.48.36:009][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.11.12-18.48.36:009][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.11.12-18.48.36:009][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/HideNSneak2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
-[2020.11.12-18.48.36:009][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.11.12-18.48.36:009][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.11.12-18.48.36:009][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/HideNSneak2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
-[2020.11.12-18.48.36:009][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.11.12-18.48.36:009][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.11.12-18.48.36:009][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.11.12-18.48.36:009][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2020.11.12-18.48.36:009][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2020.11.12-18.48.36:009][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2020.11.12-18.48.36:009][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2020.11.12-18.48.36:009][  0]LogInit: Selected Device Profile: [Windows]
-[2020.11.12-18.48.36:009][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2020.11.12-18.48.36:009][  0]LogHAL: Display: Platform has ~ 16 GB [17128341504 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2020.11.12-18.48.36:009][  0]LogInit: Going up to parent DeviceProfile []
-[2020.11.12-18.48.36:009][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/HideNSneak2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
-[2020.11.12-18.48.36:009][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.11.12-18.48.36:009][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.11.12-18.48.36:009][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/HideNSneak2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
-[2020.11.12-18.48.36:009][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.11.12-18.48.36:009][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/HideNSneak2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
-[2020.11.12-18.48.36:009][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.11.12-18.48.36:009][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.11.12-18.48.36:009][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.11.12-18.48.36:009][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.11.12-18.48.36:009][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.11.12-18.48.36:009][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.11.12-18.48.36:009][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.11.12-18.48.36:009][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.11.12-18.48.36:010][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.11.12-18.48.36:010][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.11.12-18.48.36:010][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.11.12-18.48.36:010][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.11.12-18.48.36:010][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.11.12-18.48.36:010][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.11.12-18.48.36:010][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.11.12-18.48.36:010][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.11.12-18.48.36:010][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.11.12-18.48.36:010][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.11.12-18.48.36:010][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/HideNSneak2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
-[2020.11.12-18.48.36:010][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.11.12-18.48.36:010][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.11.12-18.48.36:010][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.11.12-18.48.36:010][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.11.12-18.48.36:010][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.11.12-18.48.36:010][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.11.12-18.48.36:010][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.11.12-18.48.36:010][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.11.12-18.48.36:010][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.11.12-18.48.36:010][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.11.12-18.48.36:010][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.11.12-18.48.36:010][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.11.12-18.48.36:010][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.11.12-18.48.36:010][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.11.12-18.48.36:010][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.11.12-18.48.36:010][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.11.12-18.48.36:010][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.11.12-18.48.36:010][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.11.12-18.48.36:010][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.11.12-18.48.36:010][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.11.12-18.48.36:010][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.11.12-18.48.36:010][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.11.12-18.48.36:010][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.11.12-18.48.36:010][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.11.12-18.48.36:010][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.11.12-18.48.36:010][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.11.12-18.48.36:010][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.11.12-18.48.36:010][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.11.12-18.48.36:010][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.11.12-18.48.36:010][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.11.12-18.48.36:010][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/HideNSneak2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
-[2020.11.12-18.48.36:010][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.11.12-18.48.36:010][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.11.12-18.48.36:010][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.11.12-18.48.36:010][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.11.12-18.48.36:010][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.11.12-18.48.36:010][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.11.12-18.48.36:010][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.11.12-18.48.36:010][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.11.12-18.48.36:010][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.11.12-18.48.36:010][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/HideNSneak2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
-[2020.11.12-18.48.36:010][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.11.12-18.48.36:010][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.11.12-18.48.36:010][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.11.12-18.48.36:010][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.11.12-18.48.36:010][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.11.12-18.48.36:010][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.11.12-18.48.36:010][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.11.12-18.48.36:010][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.11.12-18.48.36:010][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.11.12-18.48.36:010][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.11.12-18.48.36:010][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.11.12-18.48.36:011][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2020.11.12-18.48.36:011][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.11.12-18.48.36:011][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.11.12-18.48.36:011][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.11.12-18.48.36:011][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.11.12-18.48.36:011][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.11.12-18.48.36:011][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.11.12-18.48.36:011][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.11.12-18.48.36:011][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.11.12-18.48.36:011][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.11.12-18.48.36:011][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.11.12-18.48.36:011][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.11.12-18.48.36:011][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.11.12-18.48.36:011][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.11.12-18.48.36:011][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.11.12-18.48.36:011][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/HideNSneak2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
-[2020.11.12-18.48.36:011][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.11.12-18.48.36:011][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.11.12-18.48.36:011][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/HideNSneak2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
-[2020.11.12-18.48.36:011][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.11.12-18.48.36:011][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.11.12-18.48.36:011][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.11.12-18.48.36:011][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2020.11.12-18.48.36:011][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2020.11.12-18.48.36:011][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2020.11.12-18.48.36:011][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2020.11.12-18.48.36:011][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2020.11.12-18.48.36:011][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2020.11.12-18.48.36:011][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2020.11.12-18.48.36:011][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
-[2020.11.12-18.48.36:011][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/HideNSneak2/HideNSneakUnreal/Saved/Config/Windows/Engine.ini]
-[2020.11.12-18.48.36:011][  0]LogInit: Computer: DESKTOP-I42L79B
-[2020.11.12-18.48.36:011][  0]LogInit: User: Oskar
-[2020.11.12-18.48.36:011][  0]LogInit: CPU Page size=4096, Cores=8
-[2020.11.12-18.48.36:011][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2020.11.12-18.48.36:012][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
-[2020.11.12-18.48.36:012][  0]LogMemory: Platform Memory Stats for Windows
-[2020.11.12-18.48.36:012][  0]LogMemory: Process Physical Memory: 116.26 MB used, 116.26 MB peak
-[2020.11.12-18.48.36:012][  0]LogMemory: Process Virtual Memory: 98.00 MB used, 98.00 MB peak
-[2020.11.12-18.48.36:012][  0]LogMemory: Physical Memory: 10219.11 MB used,  6115.75 MB free, 16334.86 MB total
-[2020.11.12-18.48.36:012][  0]LogMemory: Virtual Memory: 5184.89 MB used,  134212544.00 MB free, 134217728.00 MB total
-[2020.11.12-18.48.36:020][  0]LogWindows: WindowsPlatformFeatures enabled
-[2020.11.12-18.48.36:065][  0]LogInit: Physics initialised using underlying interface: PhysX
-[2020.11.12-18.48.36:072][  0]LogInit: Using OS detected language (en-GB).
-[2020.11.12-18.48.36:072][  0]LogInit: Using OS detected locale (en-SE).
-[2020.11.12-18.48.36:075][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
-[2020.11.12-18.48.36:279][  0]LogInit: Setting process to per monitor DPI aware
-[2020.11.12-18.48.36:342][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2020.11.12-18.48.36:342][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2020.11.12-18.48.36:491][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.11.12-18.48.36:491][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
-[2020.11.12-18.48.36:491][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
-[2020.11.12-18.48.36:491][  0]LogD3D11RHI: D3D11 adapters:
-[2020.11.12-18.48.36:581][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
-[2020.11.12-18.48.36:581][  0]LogD3D11RHI:       8088/0/8167 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2020.11.12-18.48.36:584][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2020.11.12-18.48.36:584][  0]LogD3D11RHI:       0/0/8167 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2020.11.12-18.48.36:584][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2020.11.12-18.48.36:595][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2020.11.12-18.48.36:595][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
-[2020.11.12-18.48.36:595][  0]LogWindows: EnumDisplayDevices:
-[2020.11.12-18.48.36:595][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
-[2020.11.12-18.48.36:596][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2020.11.12-18.48.36:596][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2020.11.12-18.48.36:596][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2020.11.12-18.48.36:597][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2020.11.12-18.48.36:597][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
-[2020.11.12-18.48.36:597][  0]LogD3D11RHI:   Driver Version: 432.00 (internal:26.21.14.3200, unified:432.00)
-[2020.11.12-18.48.36:597][  0]LogD3D11RHI:      Driver Date: 7-24-2019
-[2020.11.12-18.48.36:597][  0]LogRHI: Texture pool is 5661 MB (70% of 8088 MB)
-[2020.11.12-18.48.36:658][  0]LogD3D11RHI: RHI has support for 64 bit atomics
-[2020.11.12-18.48.36:659][  0]LogD3D11RHI: [Aftermath] Enabled and primed
-[2020.11.12-18.48.36:659][  0]LogD3D11RHI: Async texture creation enabled
-[2020.11.12-18.48.36:659][  0]LogD3D11RHI: Array index from any shader is supported
-[2020.11.12-18.48.36:728][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2020.11.12-18.48.37:493][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
-[2020.11.12-18.48.37:519][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
-[2020.11.12-18.48.37:519][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
-[2020.11.12-18.48.37:519][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
-[2020.11.12-18.48.37:520][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
-[2020.11.12-18.48.37:520][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
-[2020.11.12-18.48.37:520][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
-[2020.11.12-18.48.37:520][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
-[2020.11.12-18.48.37:520][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
-[2020.11.12-18.48.37:520][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
-[2020.11.12-18.48.37:520][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
-[2020.11.12-18.48.37:548][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
-[2020.11.12-18.48.37:549][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
-[2020.11.12-18.48.37:561][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
-[2020.11.12-18.48.37:573][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
-[2020.11.12-18.48.37:585][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
-[2020.11.12-18.48.37:596][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
-[2020.11.12-18.48.37:607][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
-[2020.11.12-18.48.37:619][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
-[2020.11.12-18.48.37:630][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
-[2020.11.12-18.48.37:662][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
-[2020.11.12-18.48.37:662][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
-[2020.11.12-18.48.37:681][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
-[2020.11.12-18.48.37:681][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
-[2020.11.12-18.48.37:692][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2020.11.12-18.48.37:704][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2020.11.12-18.48.37:715][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2020.11.12-18.48.37:727][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2020.11.12-18.48.37:727][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2020.11.12-18.48.37:738][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2020.11.12-18.48.37:807][  0]LogShaderCompilers: Guid format shader working directory is 6 characters bigger than the processId version (../../../../HideNSneak2/HideNSneakUnreal/Intermediate/Shaders/WorkingDirectory/1584/).
-[2020.11.12-18.48.37:807][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Oskar/AppData/Local/Temp/UnrealShaderWorkingDir/D185300F43B1280BBE1F728E74640639/'.
-[2020.11.12-18.48.37:807][  0]LogXGEController: Cleaning working directory: C:/Users/Oskar/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2020.11.12-18.48.37:808][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2020.11.12-18.48.37:808][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2020.11.12-18.48.37:808][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2020.11.12-18.48.38:707][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2020.11.12-18.48.38:759][  0]LogDerivedDataCache: Loaded boot cache 0.05s 76MB C:/Users/Oskar/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2020.11.12-18.48.38:759][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Oskar/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
-[2020.11.12-18.48.38:760][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../HideNSneak2/HideNSneakUnreal/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2020.11.12-18.48.38:760][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2020.11.12-18.48.38:760][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../HideNSneak2/HideNSneakUnreal/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.11.12-18.48.38:760][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2020.11.12-18.48.38:772][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2020.11.12-18.48.38:773][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.11.12-18.48.38:773][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2020.11.12-18.48.38:774][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Oskar/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2020.11.12-18.48.38:775][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2020.11.12-18.48.38:775][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2020.11.12-18.48.38:837][  0]LogSlate: Using FreeType 2.10.0
-[2020.11.12-18.48.38:837][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.11.12-18.48.38:862][  0]LogAssetRegistry: FAssetRegistry took 0.0032 seconds to start up
-[2020.11.12-18.48.39:141][  0]LogLinker: Warning: Failed to read package file summary, the file "../../../../HideNSneak2/HideNSneakUnreal/Content/Blueprints/Widgets/BPW_MenuHost_BASE_976.uasset" is too small (0 bytes, expected at least 32 bytes)
-[2020.11.12-18.48.39:141][  0]LogInit: Selected Device Profile: [Windows]
-[2020.11.12-18.48.39:269][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2020.11.12-18.48.39:269][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2020.11.12-18.48.39:269][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2020.11.12-18.48.39:269][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2020.11.12-18.48.39:269][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2020.11.12-18.48.39:288][  0]LogNetVersion: HideNSneakUnreal 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 3367979030)
-[2020.11.12-18.48.39:837][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000001E9D5855200), frame # 0
-[2020.11.12-18.48.39:837][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E9D57E07C0), frame # 0
-[2020.11.12-18.48.39:838][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E9D57FDE00), frame # 0
-[2020.11.12-18.48.39:893][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.047601 seconds
-[2020.11.12-18.48.39:900][  0]LogUObjectArray: 15926 objects as part of root set at end of initial load.
-[2020.11.12-18.48.39:900][  0]LogUObjectAllocator: 3967488 out of 0 bytes used by permanent object pool.
-[2020.11.12-18.48.39:900][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2020.11.12-18.48.40:320][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2020.11.12-18.48.40:325][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2020.11.12-18.48.40:367][  0]LogSteamShared: Display: Loading Steam SDK 1.47
-[2020.11.12-18.48.40:368][  0]LogSteamShared: Steam SDK Loaded!
-[2020.11.12-18.48.40:480][  0]SourceControl: Source control is disabled
-[2020.11.12-18.48.40:480][  0]SourceControl: Source control is disabled
-[2020.11.12-18.48.40:484][  0]SourceControl: Source control is disabled
-[2020.11.12-18.48.40:488][  0]SourceControl: Source control is disabled
-[2020.11.12-18.48.40:497][  0]SourceControl: Source control is disabled
-[2020.11.12-18.48.40:801][  0]LogOnline: Oculus: Oculus Startup!
-[2020.11.12-18.48.40:811][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2020.11.12-18.48.40:837][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.11.12-18.48.40:837][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.11.12-18.48.40:897][  0]LogOcInput: OculusInput pre-init called
-[2020.11.12-18.48.40:910][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2020.11.12-18.48.40:910][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2020.11.12-18.48.40:987][  0]LogEngine: Initializing Engine...
-[2020.11.12-18.48.40:989][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.11.12-18.48.40:989][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
-[2020.11.12-18.48.40:990][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2020.11.12-18.48.41:113][  0]LogInit: Initializing FReadOnlyCVARCache
-[2020.11.12-18.48.41:121][  0]LogAIModule: Creating AISystem for world Untitled
-[2020.11.12-18.48.41:122][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E9DD01DA00), frame # 0
-[2020.11.12-18.48.41:122][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E9DD06D440), frame # 0
-[2020.11.12-18.48.41:237][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.11.12-18.48.41:237][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.11.12-18.48.41:237][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.11.12-18.48.41:237][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.11.12-18.48.41:237][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.11.12-18.48.41:237][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.11.12-18.48.41:237][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.11.12-18.48.41:237][  0]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.11.12-18.48.41:238][  0]LogAudio: Display: Using built-in audio occlusion.
-[2020.11.12-18.48.41:238][  0]LogAudioMixer: Display: Initializing audio mixer.
-[2020.11.12-18.48.41:260][  0]LogAudioMixer: Display: 0: FrontLeft
-[2020.11.12-18.48.41:260][  0]LogAudioMixer: Display: 1: FrontRight
-[2020.11.12-18.48.41:321][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
-[2020.11.12-18.48.41:325][  0]LogAudioMixer: Display: Initializing Sound Submixes...
-[2020.11.12-18.48.41:327][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2020.11.12-18.48.41:327][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2020.11.12-18.48.41:328][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2020.11.12-18.48.41:329][  0]LogInit: FAudioDevice initialized.
-[2020.11.12-18.48.41:330][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2020.11.12-18.48.41:527][  0]LogDerivedDataCache: Saved boot cache 0.20s 76MB C:/Users/Oskar/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2020.11.12-18.48.41:529][  0]LogInit: Texture streaming: Enabled
-[2020.11.12-18.48.41:551][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2020.11.12-18.48.41:551][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2020.11.12-18.48.41:553][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2020.11.12-18.48.41:605][  0]LogInit: Transaction tracking system initialized
-[2020.11.12-18.48.41:631][  0]BlueprintLog: New page: Editor Load
-[2020.11.12-18.48.41:714][  0]LocalizationService: Localization service is disabled
-[2020.11.12-18.48.41:881][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2020.11.12-18.48.41:881][  0]LogCook: Display: Mobile HDR setting 1
-[2020.11.12-18.48.42:038][  0]LogFileCache: Scanning file cache for directory 'D:/HideNSneak2/HideNSneakUnreal/Content/' took 0.01s
-[2020.11.12-18.48.42:222][  0]SourceControl: Source control is disabled
-[2020.11.12-18.48.42:222][  0]LogUnrealEdMisc: Loading editor; pre map load, took 8.027
-[2020.11.12-18.48.42:222][  0]Cmd: MAP LOAD FILE="../../../../HideNSneak2/HideNSneakUnreal/Content/Maps/Level_HideNSneak.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.11.12-18.48.42:222][  0]LightingResults: New page: Lighting Build
-[2020.11.12-18.48.42:223][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2020.11.12-18.48.42:223][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.11.12-18.48.42:223][  0]MapCheck: New page: Map Check
-[2020.11.12-18.48.42:223][  0]LightingResults: New page: Lighting Build
-[2020.11.12-18.48.42:254][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001E9DD01DA00), frame # 0
-[2020.11.12-18.48.42:254][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001E9DD06D440), frame # 0
-[2020.11.12-18.48.42:255][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
-[2020.11.12-18.48.42:468][  0]LogLinker: Warning: While loading '../../../../HideNSneak2/HideNSneakUnreal/Content/Maps/Level_HideNSneak.umap' failed to load '/Game/Maps/Level_HideNSneak_BuiltData': Can't find file.
-[2020.11.12-18.48.42:468][  0]LogLinker: Warning: While loading '../../../../HideNSneak2/HideNSneakUnreal/Content/Maps/Level_HideNSneak.umap' failed to load '/Game/Maps/Level_HideNSneak_BuiltData': Can't find file.
-[2020.11.12-18.48.42:477][  0]LogLinker: Warning: While loading '../../../../HideNSneak2/HideNSneakUnreal/Content/Maps/Level_HideNSneak.umap' failed to load '/Game/Maps/Level_HideNSneak_BuiltData': Can't find file.
-[2020.11.12-18.48.42:477][  0]LogLinker: Warning: While loading '../../../../HideNSneak2/HideNSneakUnreal/Content/Maps/Level_HideNSneak.umap' failed to load '/Game/Maps/Level_HideNSneak_BuiltData': Can't find file.
-[2020.11.12-18.48.42:554][  0]LogLinker: Warning: While loading '../../../../HideNSneak2/HideNSneakUnreal/Content/Maps/Level_HideNSneak.umap' failed to load '/Game/Maps/Level_HideNSneak_BuiltData': Can't find file.
-[2020.11.12-18.48.42:554][  0]LoadErrors: Failed to load /Game/Maps/Level_HideNSneak_BuiltData.Level_HideNSneak_BuiltData Referenced by PersistentLevel
-[2020.11.12-18.48.42:554][  0]LogLinker: Warning: While loading '../../../../HideNSneak2/HideNSneakUnreal/Content/Maps/Level_HideNSneak.umap' failed to load '/Game/Maps/Level_HideNSneak_BuiltData': Can't find file.
-[2020.11.12-18.48.42:554][  0]LoadErrors: Failed to load /Game/Maps/Level_HideNSneak_BuiltData.Level_HideNSneak_BuiltData Referenced by PersistentLevel
-[2020.11.12-18.48.42:641][  0]LogAIModule: Creating AISystem for world Level_HideNSneak
-[2020.11.12-18.48.42:641][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E9C8ADCE00), frame # 0
-[2020.11.12-18.48.42:641][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E9C8B1AD40), frame # 0
-[2020.11.12-18.48.42:648][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.11.12-18.48.42:668][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
-[2020.11.12-18.48.42:669][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.11.12-18.48.42:669][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,146ms to complete.
-[2020.11.12-18.48.42:669][  0]LogFileHelpers: Loading map 'Level_HideNSneak' took 0.447
-[2020.11.12-18.48.42:672][  0]LogUnrealEdMisc: Total Editor Startup Time, took 8.477
-[2020.11.12-18.48.42:871][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.11.12-18.48.42:879][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.11.12-18.48.42:888][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.11.12-18.48.42:897][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.11.12-18.48.42:904][  0]LogCollectionManager: Loaded 0 collections in 0.000929 seconds
-[2020.11.12-18.48.42:923][  0]LogFileCache: Scanning file cache for directory 'D:/HideNSneak2/HideNSneakUnreal/Saved/Collections/' took 0.00s
-[2020.11.12-18.48.42:924][  0]LogFileCache: Scanning file cache for directory 'D:/HideNSneak2/HideNSneakUnreal/Content/Developers/Oskar/Collections/' took 0.00s
-[2020.11.12-18.48.42:924][  0]LogFileCache: Scanning file cache for directory 'D:/HideNSneak2/HideNSneakUnreal/Content/Collections/' took 0.00s
-[2020.11.12-18.48.42:924][  0]LogContentBrowser: Native class hierarchy populated in 0.0125 seconds. Added 3484 classes and 836 folders.
-[2020.11.12-18.48.42:929][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2020.11.12-18.48.42:981][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2020.11.12-18.48.42:990][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 2 classes and 0 folders.
-[2020.11.12-18.48.43:615][  0]LogSlate: Took 0.000181 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.11.12-18.48.43:618][  0]LogSlate: Took 0.000130 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2020.11.12-18.48.43:623][  0]LogSlate: Took 0.000159 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2020.11.12-18.48.43:701][  0]LogRenderer: Reallocating scene render targets to support 2316x1280 Format 10 NumSamples 1 (Frame:1).
-[2020.11.12-18.48.43:956][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2020.11.12-18.48.43:956][  0]LogLoad: (Engine Initialization) Total time: 9.76 seconds
-[2020.11.12-18.48.43:956][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2020.11.12-18.48.44:014][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2020.11.12-18.48.44:193][  0]LogSlate: Took 0.000149 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
-[2020.11.12-18.48.44:227][  1]LogAssetRegistry: Asset discovery search completed in 5.3658 seconds
-[2020.11.12-18.48.44:234][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000004 seconds (updated 0 objects)
-[2020.11.12-18.49.49:706][875]LogSlate: Window 'Message Log' being destroyed
-[2020.11.12-18.49.49:721][875]LogSlate: Window 'Message Log' being destroyed
-[2020.11.12-18.49.50:815][955]LogSlate: Took 0.000201 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.11.12-18.49.51:057][955]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/Alpha_playable_whitebox.Alpha_playable_whitebox
-[2020.11.12-18.49.51:086][955]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
-[2020.11.12-18.49.51:088][955]Cmd: MAP LOAD FILE="../../../../HideNSneak2/HideNSneakUnreal/Content/Maps/Alpha_playable_whitebox.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.11.12-18.49.51:089][955]LightingResults: New page: Lighting Build
-[2020.11.12-18.49.51:089][955]LoadErrors: New page: Loading map: Alpha_playable_whitebox.umap
-[2020.11.12-18.49.51:135][955]LogWorld: UWorld::CleanupWorld for Level_HideNSneak, bSessionEnded=true, bCleanupResources=true
-[2020.11.12-18.49.51:135][955]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.11.12-18.49.51:135][955]MapCheck: New page: Map Check
-[2020.11.12-18.49.51:135][955]LightingResults: New page: Lighting Build
-[2020.11.12-18.49.51:152][955]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001E9C8ADCE00), frame # 955
-[2020.11.12-18.49.51:152][955]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001E9C8B1AD40), frame # 955
-[2020.11.12-18.49.51:153][955]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
-[2020.11.12-18.49.51:388][955]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.11.12-18.49.51:388][955]LogAIModule: Creating AISystem for world Alpha_playable_whitebox
-[2020.11.12-18.49.51:389][955]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001EA14CAC800), frame # 955
-[2020.11.12-18.49.51:389][955]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001EA14000680), frame # 955
-[2020.11.12-18.49.51:415][955]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
-[2020.11.12-18.49.51:433][955]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.11.12-18.49.51:433][955]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,199ms to complete.
-[2020.11.12-18.49.51:433][955]LogFileHelpers: Loading map 'Alpha_playable_whitebox' took 0.346
-[2020.11.12-18.49.53:641][114]Candidate modules for hot reload:
-[2020.11.12-18.49.53:641][114]  HideNSneakUnreal
-[2020.11.12-18.49.53:641][114]Launching UnrealBuildTool... [D:/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=HideNSneakUnreal,569 HideNSneakUnrealEditor Win64 Development -Project="D:/HideNSneak2/HideNSneakUnreal/HideNSneakUnreal.uproject" "D:/HideNSneak2/HideNSneakUnreal/HideNSneakUnreal.uproject"  -IgnoreJunk]
-[2020.11.12-18.49.53:740][114]Warning: Starting HotReload took  0.1s.
-[2020.11.12-18.50.51:519][436]LogEditorViewport: Clicking on Actor (LMB): CPP_Powerup (CPP_Powerup2)
-[2020.11.12-18.50.52:299][495]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ground21)
-[2020.11.12-18.50.53:092][556]LogEditorViewport: Clicking on Actor (LMB): CPP_Powerup (CPP_Powerup1)
-[2020.11.12-18.50.53:703][603]LogEditorViewport: Clicking on Actor (LMB): CPP_Powerup (CPP_Powerup2)
-[2020.11.12-18.50.54:267][647]LogEditorViewport: Clicking on Actor (LMB): CPP_Powerup (CPP_Powerup1)
-[2020.11.12-18.50.54:719][681]LogEditorViewport: Clicking on Actor (LMB): CPP_Powerup (CPP_Powerup2)
-[2020.11.12-18.50.55:273][724]LogEditorViewport: Clicking on Actor (LMB): CPP_Powerup (CPP_Powerup1)
-[2020.11.12-18.50.55:738][759]LogEditorViewport: Clicking on Actor (LMB): CPP_Powerup (CPP_Powerup2)
-[2020.11.12-18.50.56:289][801]LogEditorViewport: Clicking on Actor (LMB): CPP_Powerup (CPP_Powerup1)
-[2020.11.12-18.50.56:764][837]LogEditorViewport: Clicking on Actor (LMB): CPP_Powerup (CPP_Powerup2)
-[2020.11.12-18.50.57:295][878]LogEditorViewport: Clicking on Actor (LMB): CPP_Powerup (CPP_Powerup1)
-[2020.11.12-18.50.57:758][913]LogEditorViewport: Clicking on Actor (LMB): CPP_Powerup (CPP_Powerup2)
-[2020.11.12-18.51.00:929][179]LogEditorViewport: Clicking on Actor (LMB): CPP_Powerup (CPP_Powerup1)
-[2020.11.12-18.51.01:641][236]LogEditorViewport: Clicking on Actor (LMB): CPP_Powerup (CPP_Powerup2)
-[2020.11.12-18.51.02:542][293]LogEditorViewport: Clicking on Actor (LMB): CPP_Powerup (CPP_Powerup1)
-[2020.11.12-18.51.03:166][342]LogEditorViewport: Clicking on Actor (LMB): CPP_Powerup (CPP_Powerup2)
-[2020.11.12-18.51.03:819][393]LogEditorViewport: Clicking on Actor (LMB): CPP_Powerup (CPP_Powerup1)
-[2020.11.12-18.51.04:629][458]LogEditorViewport: Clicking on Actor (LMB): CPP_Powerup (CPP_Powerup2)
-[2020.11.12-18.51.44:621][ 62]CompilerResultsLog: New page: Compilation - 12 Nov 2020, 20:51:44
-[2020.11.12-18.51.44:621][ 62]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\HideNSneak2).
-[2020.11.12-18.51.44:621][ 62]CompilerResultsLog: Building HideNSneakUnrealEditor...
-[2020.11.12-18.51.44:621][ 62]CompilerResultsLog: Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-[2020.11.12-18.51.44:621][ 62]CompilerResultsLog: Building 4 actions with 16 processes...
-[2020.11.12-18.51.44:621][ 62]LogMainFrame: MainFrame: Module compiling took 111.002 seconds
-[2020.11.12-18.51.44:621][ 62]Warning: HotReload failed, recompile failed
-[2020.11.12-18.52.58:166][531]LogSlate: Window 'Message Log' being destroyed
-[2020.11.12-18.52.58:181][531]LogSlate: Window 'Message Log' being destroyed
-[2020.11.12-18.53.02:309][731]LogSlate: Window 'Plugins' being destroyed
-[2020.11.12-18.53.02:323][731]LogSlate: Window 'Plugins' being destroyed
-[2020.11.12-18.53.02:323][731]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/' was aborted.
-[2020.11.12-18.53.02:633][744]LogSlate: Took 0.000179 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2020.11.12-18.55.01:759][378]Candidate modules for hot reload:
-[2020.11.12-18.55.01:759][378]  HideNSneakUnreal
-[2020.11.12-18.55.01:759][378]Launching UnrealBuildTool... [D:/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=HideNSneakUnreal,7624 HideNSneakUnrealEditor Win64 Development -Project="D:/HideNSneak2/HideNSneakUnreal/HideNSneakUnreal.uproject" "D:/HideNSneak2/HideNSneakUnreal/HideNSneakUnreal.uproject"  -IgnoreJunk]
-[2020.11.12-18.55.01:857][378]Warning: Starting HotReload took  0.1s.
-[2020.11.12-18.55.04:745][573]CompilerResultsLog: New page: Compilation - 12 Nov 2020, 20:55:04
-[2020.11.12-18.55.04:745][573]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\HideNSneak2).
-[2020.11.12-18.55.04:745][573]CompilerResultsLog: Building HideNSneakUnrealEditor...
-[2020.11.12-18.55.04:745][573]CompilerResultsLog: Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-[2020.11.12-18.55.04:745][573]CompilerResultsLog: Building 3 actions with 16 processes...
-[2020.11.12-18.55.04:745][573]CompilerResultsLog:   [1/3] UE4Editor-HideNSneakUnreal-7624.lib
-[2020.11.12-18.55.04:745][573]CompilerResultsLog:      Creating library D:\HideNSneak2\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal-7624.lib and object D:\HideNSneak2\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal-7624.exp
-[2020.11.12-18.55.04:745][573]CompilerResultsLog:   [2/3] UE4Editor-HideNSneakUnreal-7624.dll
-[2020.11.12-18.55.04:745][573]CompilerResultsLog:      Creating library D:\HideNSneak2\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal-7624.suppressed.lib and object D:\HideNSneak2\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal-7624.suppressed.exp
-[2020.11.12-18.55.04:745][573]CompilerResultsLog:   [3/3] HideNSneakUnrealEditor.target
-[2020.11.12-18.55.04:745][573]CompilerResultsLog: Total time in Parallel executor: 1,89 seconds
-[2020.11.12-18.55.04:745][573]CompilerResultsLog: Total execution time: 2,71 seconds
-[2020.11.12-18.55.04:745][573]LogMainFrame: MainFrame: Module compiling took 3.010 seconds
-[2020.11.12-18.55.04:802][573]LogClass: ServerInfo HotReload.
-[2020.11.12-18.55.04:802][573]LogClass: SteamServerInfo HotReload.
-[2020.11.12-18.55.04:820][573]LogHotReload: Re-instancing HideNSneakCPPCharacter after hot-reload.
-[2020.11.12-18.55.05:007][573]LogContentBrowser: Native class hierarchy updated for 'HideNSneakUnreal' in 0.0005 seconds. Added 23 classes and 2 folders.
-[2020.11.12-18.55.05:009][573]Display: HotReload successful (53 functions remapped  2 scriptstructs remapped)
-[2020.11.12-18.55.05:292][573]LogContentBrowser: Native class hierarchy populated in 0.0126 seconds. Added 3484 classes and 836 folders.
-[2020.11.12-18.55.05:342][573]Display: HotReload took  3.6s.
-[2020.11.12-18.55.07:031][672]LogTemp: Repeating last play command: Selected Viewport
-[2020.11.12-18.55.07:046][672]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.11.12-18.55.07:046][672]PIE: New page: PIE session: Alpha_playable_whitebox (12 Nov 2020, 20:55:07)
-[2020.11.12-18.55.07:048][672]LogOnline: OSS: Creating online subsystem instance for: NULL
-[2020.11.12-18.55.07:049][672]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
-[2020.11.12-18.55.07:049][672]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Alpha_playable_whitebox
-[2020.11.12-18.55.07:114][672]LogPlayLevel: PIE: StaticDuplicateObject took: (0.064749s)
-[2020.11.12-18.55.07:115][672]LogAIModule: Creating AISystem for world Alpha_playable_whitebox
-[2020.11.12-18.55.07:115][672]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E991DA7C00), frame # 13672
-[2020.11.12-18.55.07:116][672]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001EA0607FD80), frame # 13672
-[2020.11.12-18.55.07:116][672]LogPlayLevel: PIE: World Init took: (0.001959s)
-[2020.11.12-18.55.07:116][672]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Alpha_playable_whitebox.Alpha_playable_whitebox to /Game/Maps/UEDPIE_0_Alpha_playable_whitebox.Alpha_playable_whitebox (0.067017s)
-[2020.11.12-18.55.07:208][672]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
-[2020.11.12-18.55.07:210][672]LogOnline: OSS: Creating online subsystem instance for: Steam
-[2020.11.12-18.55.07:210][672]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
-[2020.11.12-18.55.07:210][672]LogOnline: OSS: Unable to create OnlineSubsystem module Steam
-[2020.11.12-18.55.07:210][672]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.11.12-18.55.07:210][672]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.11.12-18.55.07:210][672]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.11.12-18.55.07:211][672]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.11.12-18.55.07:211][672]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.11.12-18.55.07:211][672]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.11.12-18.55.07:211][672]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.11.12-18.55.07:211][672]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.11.12-18.55.07:211][672]LogAudio: Display: Using built-in audio occlusion.
-[2020.11.12-18.55.07:211][672]LogAudioMixer: Display: Initializing audio mixer.
-[2020.11.12-18.55.07:221][672]LogAudioMixer: Display: 0: FrontLeft
-[2020.11.12-18.55.07:221][672]LogAudioMixer: Display: 1: FrontRight
-[2020.11.12-18.55.07:255][672]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
-[2020.11.12-18.55.07:256][672]LogAudioMixer: Display: Initializing Sound Submixes...
-[2020.11.12-18.55.07:256][672]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2020.11.12-18.55.07:256][672]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2020.11.12-18.55.07:257][672]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2020.11.12-18.55.07:275][672]LogInit: FAudioDevice initialized.
-[2020.11.12-18.55.07:286][672]LogLoad: Game class is 'BP_HideNSneakGameModeBase_C'
-[2020.11.12-18.55.07:317][672]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Alpha_playable_whitebox.Alpha_playable_whitebox up for play (max tick rate 0) at 2020.11.12-19.55.07
-[2020.11.12-18.55.07:318][672]LogWorld: Bringing up level for play took: 0.030846
-[2020.11.12-18.55.07:319][672]LogOnline: OSS: Creating online subsystem instance for: :Context_3
-[2020.11.12-18.55.07:352][672]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 20 classes and 0 folders.
-[2020.11.12-18.55.07:358][672]PIE: Server logged in
-[2020.11.12-18.55.07:359][672]PIE: Play in editor total start time 0,318 seconds.
-[2020.11.12-18.55.39:106][652]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.11.12-18.55.39:106][652]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Alpha_playable_whitebox
-[2020.11.12-18.55.39:107][652]LogWorld: UWorld::CleanupWorld for Alpha_playable_whitebox, bSessionEnded=true, bCleanupResources=true
-[2020.11.12-18.55.39:112][652]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.11.12-18.55.39:122][652]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2020.11.12-18.55.39:124][652]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.11.12-18.55.39:166][652]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.11.12-18.55.39:172][652]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001E991DA7C00), frame # 15652
-[2020.11.12-18.55.39:172][652]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001EA0607FD80), frame # 15652
-[2020.11.12-18.55.39:173][652]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
-[2020.11.12-18.55.39:227][653]LogPlayLevel: Display: Destroying online subsystem :Context_3
-[2020.11.12-18.56.17:944][808]LogTemp: Repeating last play command: Selected Viewport
-[2020.11.12-18.56.17:956][808]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.11.12-18.56.17:956][808]PIE: New page: PIE session: Alpha_playable_whitebox (12 Nov 2020, 20:56:17)
-[2020.11.12-18.56.17:956][808]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Alpha_playable_whitebox
-[2020.11.12-18.56.18:016][808]LogPlayLevel: PIE: StaticDuplicateObject took: (0.059755s)
-[2020.11.12-18.56.18:017][808]LogAIModule: Creating AISystem for world Alpha_playable_whitebox
-[2020.11.12-18.56.18:017][808]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E9F85DB400), frame # 15808
-[2020.11.12-18.56.18:017][808]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001EA1403A340), frame # 15808
-[2020.11.12-18.56.18:017][808]LogPlayLevel: PIE: World Init took: (0.001631s)
-[2020.11.12-18.56.18:018][808]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Alpha_playable_whitebox.Alpha_playable_whitebox to /Game/Maps/UEDPIE_0_Alpha_playable_whitebox.Alpha_playable_whitebox (0.061644s)
-[2020.11.12-18.56.18:034][808]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
-[2020.11.12-18.56.18:036][808]LogOnline: OSS: Creating online subsystem instance for: Steam
-[2020.11.12-18.56.18:036][808]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
-[2020.11.12-18.56.18:036][808]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.11.12-18.56.18:036][808]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.11.12-18.56.18:036][808]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.11.12-18.56.18:036][808]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.11.12-18.56.18:036][808]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.11.12-18.56.18:036][808]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.11.12-18.56.18:036][808]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.11.12-18.56.18:036][808]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.11.12-18.56.18:037][808]LogAudio: Display: Using built-in audio occlusion.
-[2020.11.12-18.56.18:037][808]LogAudioMixer: Display: Initializing audio mixer.
-[2020.11.12-18.56.18:049][808]LogAudioMixer: Display: 0: FrontLeft
-[2020.11.12-18.56.18:049][808]LogAudioMixer: Display: 1: FrontRight
-[2020.11.12-18.56.18:090][808]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
-[2020.11.12-18.56.18:090][808]LogAudioMixer: Display: Initializing Sound Submixes...
-[2020.11.12-18.56.18:090][808]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2020.11.12-18.56.18:090][808]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2020.11.12-18.56.18:091][808]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2020.11.12-18.56.18:109][808]LogInit: FAudioDevice initialized.
-[2020.11.12-18.56.18:142][808]LogLoad: Game class is 'BP_HideNSneakGameModeBase_C'
-[2020.11.12-18.56.18:171][808]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Alpha_playable_whitebox.Alpha_playable_whitebox up for play (max tick rate 0) at 2020.11.12-19.56.18
-[2020.11.12-18.56.18:172][808]LogWorld: Bringing up level for play took: 0.028629
-[2020.11.12-18.56.18:172][808]LogOnline: OSS: Creating online subsystem instance for: :Context_4
-[2020.11.12-18.56.18:178][808]PIE: Server logged in
-[2020.11.12-18.56.18:179][808]PIE: Play in editor total start time 0,225 seconds.
-[2020.11.12-18.56.20:076][930]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.11.12-18.56.20:076][930]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Alpha_playable_whitebox
-[2020.11.12-18.56.20:077][930]LogWorld: UWorld::CleanupWorld for Alpha_playable_whitebox, bSessionEnded=true, bCleanupResources=true
-[2020.11.12-18.56.20:082][930]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.11.12-18.56.20:111][930]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2020.11.12-18.56.20:114][930]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.11.12-18.56.20:132][930]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.11.12-18.56.20:154][930]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001EA1403A340), frame # 15930
-[2020.11.12-18.56.20:154][930]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001E9F85DB400), frame # 15930
-[2020.11.12-18.56.20:157][930]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
-[2020.11.12-18.56.20:192][931]LogPlayLevel: Display: Destroying online subsystem :Context_4
-[2020.11.12-18.56.21:234][  5]Candidate modules for hot reload:
-[2020.11.12-18.56.21:235][  5]  HideNSneakUnreal
-[2020.11.12-18.56.21:235][  5]Launching UnrealBuildTool... [D:/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=HideNSneakUnreal,7441 HideNSneakUnrealEditor Win64 Development -Project="D:/HideNSneak2/HideNSneakUnreal/HideNSneakUnreal.uproject" "D:/HideNSneak2/HideNSneakUnreal/HideNSneakUnreal.uproject"  -IgnoreJunk]
-[2020.11.12-18.56.21:331][  5]Warning: Starting HotReload took  0.1s.
-[2020.11.12-18.56.35:731][666]CompilerResultsLog: New page: Compilation - 12 Nov 2020, 20:56:35
-[2020.11.12-18.56.35:731][666]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\HideNSneak2).
-[2020.11.12-18.56.35:731][666]CompilerResultsLog: Building HideNSneakUnrealEditor...
-[2020.11.12-18.56.35:731][666]CompilerResultsLog: Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-[2020.11.12-18.56.35:731][666]CompilerResultsLog: Building 4 actions with 16 processes...
-[2020.11.12-18.56.35:731][666]CompilerResultsLog:   [1/4] CPP_Powerup.cpp
-[2020.11.12-18.56.35:731][666]CompilerResultsLog:   [2/4] UE4Editor-HideNSneakUnreal-7441.lib
-[2020.11.12-18.56.35:731][666]CompilerResultsLog:      Creating library D:\HideNSneak2\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal-7441.lib and object D:\HideNSneak2\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal-7441.exp
-[2020.11.12-18.56.35:731][666]CompilerResultsLog:   [3/4] UE4Editor-HideNSneakUnreal-7441.dll
-[2020.11.12-18.56.35:731][666]CompilerResultsLog:      Creating library D:\HideNSneak2\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal-7441.suppressed.lib and object D:\HideNSneak2\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal-7441.suppressed.exp
-[2020.11.12-18.56.35:731][666]CompilerResultsLog:   [4/4] HideNSneakUnrealEditor.target
-[2020.11.12-18.56.35:732][666]CompilerResultsLog: Total time in Parallel executor: 13,45 seconds
-[2020.11.12-18.56.35:732][666]CompilerResultsLog: Total execution time: 14,21 seconds
-[2020.11.12-18.56.35:732][666]LogMainFrame: MainFrame: Module compiling took 14.520 seconds
-[2020.11.12-18.56.35:748][666]LogClass: ServerInfo HotReload.
-[2020.11.12-18.56.35:748][666]LogClass: SteamServerInfo HotReload.
-[2020.11.12-18.56.35:768][666]LogHotReload: Re-instancing HideNSneakCPPCharacter after hot-reload.
-[2020.11.12-18.56.35:817][666]LogContentBrowser: Native class hierarchy updated for 'HideNSneakUnreal' in 0.0005 seconds. Added 23 classes and 2 folders.
-[2020.11.12-18.56.35:819][666]Display: HotReload successful (53 functions remapped  2 scriptstructs remapped)
-[2020.11.12-18.56.35:872][666]LogContentBrowser: Native class hierarchy populated in 0.0128 seconds. Added 3484 classes and 836 folders.
-[2020.11.12-18.56.35:879][666]Display: HotReload took 14.7s.
-[2020.11.12-18.56.38:264][916]LogTemp: Repeating last play command: Selected Viewport
-[2020.11.12-18.56.38:279][916]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.11.12-18.56.38:279][916]PIE: New page: PIE session: Alpha_playable_whitebox (12 Nov 2020, 20:56:38)
-[2020.11.12-18.56.38:279][916]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Alpha_playable_whitebox
-[2020.11.12-18.56.38:344][916]LogPlayLevel: PIE: StaticDuplicateObject took: (0.064415s)
-[2020.11.12-18.56.38:345][916]LogAIModule: Creating AISystem for world Alpha_playable_whitebox
-[2020.11.12-18.56.38:345][916]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E9F85DA400), frame # 17916
-[2020.11.12-18.56.38:345][916]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001EA13F88680), frame # 17916
-[2020.11.12-18.56.38:346][916]LogPlayLevel: PIE: World Init took: (0.001813s)
-[2020.11.12-18.56.38:346][916]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Alpha_playable_whitebox.Alpha_playable_whitebox to /Game/Maps/UEDPIE_0_Alpha_playable_whitebox.Alpha_playable_whitebox (0.066530s)
-[2020.11.12-18.56.38:367][916]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
-[2020.11.12-18.56.38:369][916]LogOnline: OSS: Creating online subsystem instance for: Steam
-[2020.11.12-18.56.38:369][916]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
-[2020.11.12-18.56.38:369][916]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.11.12-18.56.38:369][916]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.11.12-18.56.38:369][916]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.11.12-18.56.38:369][916]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.11.12-18.56.38:369][916]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.11.12-18.56.38:369][916]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.11.12-18.56.38:369][916]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.11.12-18.56.38:369][916]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.11.12-18.56.38:370][916]LogAudio: Display: Using built-in audio occlusion.
-[2020.11.12-18.56.38:370][916]LogAudioMixer: Display: Initializing audio mixer.
-[2020.11.12-18.56.38:378][916]LogAudioMixer: Display: 0: FrontLeft
-[2020.11.12-18.56.38:378][916]LogAudioMixer: Display: 1: FrontRight
-[2020.11.12-18.56.38:411][916]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
-[2020.11.12-18.56.38:411][916]LogAudioMixer: Display: Initializing Sound Submixes...
-[2020.11.12-18.56.38:411][916]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2020.11.12-18.56.38:411][916]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2020.11.12-18.56.38:411][916]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2020.11.12-18.56.38:429][916]LogInit: FAudioDevice initialized.
-[2020.11.12-18.56.38:439][916]LogLoad: Game class is 'BP_HideNSneakGameModeBase_C'
-[2020.11.12-18.56.38:468][916]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Alpha_playable_whitebox.Alpha_playable_whitebox up for play (max tick rate 0) at 2020.11.12-19.56.38
-[2020.11.12-18.56.38:468][916]LogWorld: Bringing up level for play took: 0.028537
-[2020.11.12-18.56.38:469][916]LogOnline: OSS: Creating online subsystem instance for: :Context_5
-[2020.11.12-18.56.38:475][916]PIE: Server logged in
-[2020.11.12-18.56.38:476][916]PIE: Play in editor total start time 0,201 seconds.
-[2020.11.12-18.57.06:377][181]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.11.12-18.57.06:377][181]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Alpha_playable_whitebox
-[2020.11.12-18.57.06:377][181]LogWorld: UWorld::CleanupWorld for Alpha_playable_whitebox, bSessionEnded=true, bCleanupResources=true
-[2020.11.12-18.57.06:382][181]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.11.12-18.57.06:389][181]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2020.11.12-18.57.06:392][181]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.11.12-18.57.06:407][181]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.11.12-18.57.06:439][181]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001E9F85DA400), frame # 21181
-[2020.11.12-18.57.06:440][181]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001EA13F88680), frame # 21181
-[2020.11.12-18.57.06:441][181]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
-[2020.11.12-18.57.06:488][182]LogPlayLevel: Display: Destroying online subsystem :Context_5
-[2020.11.12-18.57.44:698][491]LogTemp: Repeating last play command: Selected Viewport
-[2020.11.12-18.57.44:710][491]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.11.12-18.57.44:710][491]PIE: New page: PIE session: Alpha_playable_whitebox (12 Nov 2020, 20:57:44)
-[2020.11.12-18.57.44:710][491]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Alpha_playable_whitebox
-[2020.11.12-18.57.44:771][491]LogPlayLevel: PIE: StaticDuplicateObject took: (0.060083s)
-[2020.11.12-18.57.44:772][491]LogAIModule: Creating AISystem for world Alpha_playable_whitebox
-[2020.11.12-18.57.44:772][491]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E9883A2A00), frame # 21491
-[2020.11.12-18.57.44:773][491]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001EA1409CF40), frame # 21491
-[2020.11.12-18.57.44:773][491]LogPlayLevel: PIE: World Init took: (0.001647s)
-[2020.11.12-18.57.44:773][491]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Alpha_playable_whitebox.Alpha_playable_whitebox to /Game/Maps/UEDPIE_0_Alpha_playable_whitebox.Alpha_playable_whitebox (0.061991s)
-[2020.11.12-18.57.44:790][491]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
-[2020.11.12-18.57.44:792][491]LogOnline: OSS: Creating online subsystem instance for: Steam
-[2020.11.12-18.57.44:792][491]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
-[2020.11.12-18.57.44:792][491]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.11.12-18.57.44:793][491]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.11.12-18.57.44:793][491]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.11.12-18.57.44:793][491]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.11.12-18.57.44:793][491]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.11.12-18.57.44:793][491]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.11.12-18.57.44:793][491]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.11.12-18.57.44:793][491]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.11.12-18.57.44:793][491]LogAudio: Display: Using built-in audio occlusion.
-[2020.11.12-18.57.44:793][491]LogAudioMixer: Display: Initializing audio mixer.
-[2020.11.12-18.57.44:804][491]LogAudioMixer: Display: 0: FrontLeft
-[2020.11.12-18.57.44:804][491]LogAudioMixer: Display: 1: FrontRight
-[2020.11.12-18.57.44:846][491]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
-[2020.11.12-18.57.44:846][491]LogAudioMixer: Display: Initializing Sound Submixes...
-[2020.11.12-18.57.44:846][491]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2020.11.12-18.57.44:846][491]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2020.11.12-18.57.44:847][491]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2020.11.12-18.57.44:864][491]LogInit: FAudioDevice initialized.
-[2020.11.12-18.57.44:911][491]LogLoad: Game class is 'BP_HideNSneakGameModeBase_C'
-[2020.11.12-18.57.44:939][491]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Alpha_playable_whitebox.Alpha_playable_whitebox up for play (max tick rate 0) at 2020.11.12-19.57.44
-[2020.11.12-18.57.44:940][491]LogWorld: Bringing up level for play took: 0.028867
-[2020.11.12-18.57.44:940][491]LogOnline: OSS: Creating online subsystem instance for: :Context_6
-[2020.11.12-18.57.44:947][491]PIE: Server logged in
-[2020.11.12-18.57.44:948][491]PIE: Play in editor total start time 0,238 seconds.
-[2020.11.12-18.57.48:086][710]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.11.12-18.57.48:086][710]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Alpha_playable_whitebox
-[2020.11.12-18.57.48:087][710]LogWorld: UWorld::CleanupWorld for Alpha_playable_whitebox, bSessionEnded=true, bCleanupResources=true
-[2020.11.12-18.57.48:092][710]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.11.12-18.57.48:100][710]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2020.11.12-18.57.48:102][710]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.11.12-18.57.48:122][710]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.11.12-18.57.48:145][710]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001EA1409CF40), frame # 21710
-[2020.11.12-18.57.48:145][710]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001E9883A2A00), frame # 21710
-[2020.11.12-18.57.48:148][710]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
-[2020.11.12-18.57.48:191][711]LogPlayLevel: Display: Destroying online subsystem :Context_6
-[2020.11.12-18.58.07:527][802]LogHotReload: New module detected: UE4Editor-HideNSneakUnreal-0006.dll
-[2020.11.12-18.58.08:885][807]LogHotReload: Starting Hot-Reload from IDE
-[2020.11.12-18.58.08:945][807]LogClass: ServerInfo HotReload.
-[2020.11.12-18.58.08:946][807]LogClass: SteamServerInfo HotReload.
-[2020.11.12-18.58.08:964][807]LogHotReload: Re-instancing HideNSneakCPPCharacter after hot-reload.
-[2020.11.12-18.58.09:011][807]LogContentBrowser: Native class hierarchy updated for 'HideNSneakUnreal' in 0.0005 seconds. Added 23 classes and 2 folders.
-[2020.11.12-18.58.09:014][807]Display: HotReload successful (53 functions remapped  2 scriptstructs remapped)
-[2020.11.12-18.58.09:064][807]LogContentBrowser: Native class hierarchy populated in 0.0134 seconds. Added 3484 classes and 836 folders.
-[2020.11.12-18.58.09:093][807]Display: HotReload took  0.2s.
-[2020.11.12-18.58.18:586][835]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_containerDoorsOpen_mesh_v11)
-[2020.11.12-18.58.23:087][166]LogEditorViewport: Clicking on Actor (LMB): CPP_Powerup (CPP_Powerup2)
-[2020.11.12-18.58.26:024][368]LogTemp: Repeating last play command: Selected Viewport
-[2020.11.12-18.58.26:039][368]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.11.12-18.58.26:039][368]PIE: New page: PIE session: Alpha_playable_whitebox (12 Nov 2020, 20:58:26)
-[2020.11.12-18.58.26:039][368]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Alpha_playable_whitebox
-[2020.11.12-18.58.26:099][368]LogPlayLevel: PIE: StaticDuplicateObject took: (0.059914s)
-[2020.11.12-18.58.26:100][368]LogAIModule: Creating AISystem for world Alpha_playable_whitebox
-[2020.11.12-18.58.26:100][368]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001EA14A8B200), frame # 22368
-[2020.11.12-18.58.26:100][368]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001EA05860A40), frame # 22368
-[2020.11.12-18.58.26:101][368]LogPlayLevel: PIE: World Init took: (0.001517s)
-[2020.11.12-18.58.26:101][368]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Alpha_playable_whitebox.Alpha_playable_whitebox to /Game/Maps/UEDPIE_0_Alpha_playable_whitebox.Alpha_playable_whitebox (0.061693s)
-[2020.11.12-18.58.26:122][368]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
-[2020.11.12-18.58.26:124][368]LogOnline: OSS: Creating online subsystem instance for: Steam
-[2020.11.12-18.58.26:124][368]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
-[2020.11.12-18.58.26:124][368]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.11.12-18.58.26:124][368]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.11.12-18.58.26:124][368]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.11.12-18.58.26:124][368]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.11.12-18.58.26:124][368]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.11.12-18.58.26:124][368]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.11.12-18.58.26:124][368]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.11.12-18.58.26:124][368]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.11.12-18.58.26:125][368]LogAudio: Display: Using built-in audio occlusion.
-[2020.11.12-18.58.26:125][368]LogAudioMixer: Display: Initializing audio mixer.
-[2020.11.12-18.58.26:135][368]LogAudioMixer: Display: 0: FrontLeft
-[2020.11.12-18.58.26:135][368]LogAudioMixer: Display: 1: FrontRight
-[2020.11.12-18.58.26:168][368]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
-[2020.11.12-18.58.26:168][368]LogAudioMixer: Display: Initializing Sound Submixes...
-[2020.11.12-18.58.26:168][368]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2020.11.12-18.58.26:168][368]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2020.11.12-18.58.26:169][368]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2020.11.12-18.58.26:186][368]LogInit: FAudioDevice initialized.
-[2020.11.12-18.58.26:196][368]LogLoad: Game class is 'BP_HideNSneakGameModeBase_C'
-[2020.11.12-18.58.26:224][368]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Alpha_playable_whitebox.Alpha_playable_whitebox up for play (max tick rate 0) at 2020.11.12-19.58.26
-[2020.11.12-18.58.26:225][368]LogWorld: Bringing up level for play took: 0.028248
-[2020.11.12-18.58.26:225][368]LogOnline: OSS: Creating online subsystem instance for: :Context_7
-[2020.11.12-18.58.26:232][368]PIE: Server logged in
-[2020.11.12-18.58.26:233][368]PIE: Play in editor total start time 0,199 seconds.
-[2020.11.12-18.58.37:874][970]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ground21)
-[2020.11.12-18.58.38:496][  6]LogEditorViewport: Clicking on Actor (LMB): CPP_Powerup (CPP_Powerup2)
-[2020.11.12-18.58.53:826][149]LogEditorViewport: Clicking on Actor (LMB): CPP_Powerup (CPP_Powerup2)
-[2020.11.12-18.59.18:986][169]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.11.12-18.59.18:986][169]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Alpha_playable_whitebox
-[2020.11.12-18.59.18:987][169]LogWorld: UWorld::CleanupWorld for Alpha_playable_whitebox, bSessionEnded=true, bCleanupResources=true
-[2020.11.12-18.59.18:991][169]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.11.12-18.59.19:003][169]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2020.11.12-18.59.19:005][169]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.11.12-18.59.19:045][169]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.11.12-18.59.19:051][169]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001EA05860A40), frame # 26169
-[2020.11.12-18.59.19:051][169]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001EA14A8B200), frame # 26169
-[2020.11.12-18.59.19:054][169]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
-[2020.11.12-18.59.19:105][170]LogPlayLevel: Display: Destroying online subsystem :Context_7
-[2020.11.12-18.59.25:041][612]LogTemp: Repeating last play command: Selected Viewport
-[2020.11.12-18.59.25:053][612]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.11.12-18.59.25:053][612]PIE: New page: PIE session: Alpha_playable_whitebox (12 Nov 2020, 20:59:25)
-[2020.11.12-18.59.25:053][612]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Alpha_playable_whitebox
-[2020.11.12-18.59.25:113][612]LogPlayLevel: PIE: StaticDuplicateObject took: (0.059979s)
-[2020.11.12-18.59.25:114][612]LogAIModule: Creating AISystem for world Alpha_playable_whitebox
-[2020.11.12-18.59.25:114][612]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E98AF73400), frame # 26612
-[2020.11.12-18.59.25:114][612]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001EA05862480), frame # 26612
-[2020.11.12-18.59.25:115][612]LogPlayLevel: PIE: World Init took: (0.001663s)
-[2020.11.12-18.59.25:115][612]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Alpha_playable_whitebox.Alpha_playable_whitebox to /Game/Maps/UEDPIE_0_Alpha_playable_whitebox.Alpha_playable_whitebox (0.061897s)
-[2020.11.12-18.59.25:133][612]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
-[2020.11.12-18.59.25:136][612]LogOnline: OSS: Creating online subsystem instance for: Steam
-[2020.11.12-18.59.25:136][612]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
-[2020.11.12-18.59.25:136][612]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.11.12-18.59.25:136][612]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.11.12-18.59.25:136][612]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.11.12-18.59.25:136][612]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.11.12-18.59.25:136][612]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.11.12-18.59.25:136][612]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.11.12-18.59.25:136][612]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.11.12-18.59.25:136][612]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.11.12-18.59.25:137][612]LogAudio: Display: Using built-in audio occlusion.
-[2020.11.12-18.59.25:137][612]LogAudioMixer: Display: Initializing audio mixer.
-[2020.11.12-18.59.25:146][612]LogAudioMixer: Display: 0: FrontLeft
-[2020.11.12-18.59.25:146][612]LogAudioMixer: Display: 1: FrontRight
-[2020.11.12-18.59.25:184][612]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
-[2020.11.12-18.59.25:185][612]LogAudioMixer: Display: Initializing Sound Submixes...
-[2020.11.12-18.59.25:185][612]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2020.11.12-18.59.25:185][612]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2020.11.12-18.59.25:185][612]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2020.11.12-18.59.25:203][612]LogInit: FAudioDevice initialized.
-[2020.11.12-18.59.25:212][612]LogLoad: Game class is 'BP_HideNSneakGameModeBase_C'
-[2020.11.12-18.59.25:241][612]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Alpha_playable_whitebox.Alpha_playable_whitebox up for play (max tick rate 0) at 2020.11.12-19.59.25
-[2020.11.12-18.59.25:242][612]LogWorld: Bringing up level for play took: 0.028716
-[2020.11.12-18.59.25:242][612]LogOnline: OSS: Creating online subsystem instance for: :Context_8
-[2020.11.12-18.59.25:276][612]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
-[2020.11.12-18.59.25:276][612]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
-[2020.11.12-18.59.25:276][612]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
-[2020.11.12-18.59.25:276][612]LogNet: Created socket for bind address: 0.0.0.0 on port 17777
-[2020.11.12-18.59.25:276][612]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
-[2020.11.12-18.59.25:295][612]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 17777
-[2020.11.12-18.59.25:298][612]PIE: Server logged in
-[2020.11.12-18.59.25:299][612]PIE: Play in editor total start time 0,247 seconds.
-[2020.11.12-18.59.25:300][612]LogOnline: OSS: Creating online subsystem instance for: Steam
-[2020.11.12-18.59.25:300][612]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
-[2020.11.12-18.59.25:300][612]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.11.12-18.59.25:300][612]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.11.12-18.59.25:300][612]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.11.12-18.59.25:300][612]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.11.12-18.59.25:300][612]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.11.12-18.59.25:300][612]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.11.12-18.59.25:300][612]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.11.12-18.59.25:300][612]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.11.12-18.59.25:301][612]LogAudio: Display: Using built-in audio occlusion.
-[2020.11.12-18.59.25:301][612]LogAudioMixer: Display: Initializing audio mixer.
-[2020.11.12-18.59.25:309][612]LogAudioMixer: Display: 0: FrontLeft
-[2020.11.12-18.59.25:309][612]LogAudioMixer: Display: 1: FrontRight
-[2020.11.12-18.59.25:336][612]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
-[2020.11.12-18.59.25:336][612]LogAudioMixer: Display: Initializing Sound Submixes...
-[2020.11.12-18.59.25:336][612]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2020.11.12-18.59.25:336][612]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2020.11.12-18.59.25:336][612]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2020.11.12-18.59.25:354][612]LogInit: FAudioDevice initialized.
-[2020.11.12-18.59.25:430][612]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.11.12-18.59.25:448][612]LogNet: Browse: 127.0.0.1:17777/Game/Lobby/SteamLobby/SteamLobbyLevel
-[2020.11.12-18.59.25:477][612]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
-[2020.11.12-18.59.25:477][612]LogNet: Created socket for bind address: 0.0.0.0 on port 0
-[2020.11.12-18.59.25:481][612]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
-[2020.11.12-18.59.25:481][612]LogNet: Game client on port 17777, rate 10000
-[2020.11.12-18.59.25:484][612]PIE: Client logged in
-[2020.11.12-18.59.25:486][612]PIE: Play in editor total start time 0,434 seconds.
-[2020.11.12-18.59.26:510][701]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:59398
-[2020.11.12-18.59.26:511][701]LogHandshake: SendConnectChallenge. Timestamp: 1.471492, Cookie: 057167122186011189209025053231108113205234113224048202235105
-[2020.11.12-18.59.26:512][701]LogHandshake: SendChallengeResponse. Timestamp: 1.471492, Cookie: 057167122186011189209025053231108113205234113224048202235105
-[2020.11.12-18.59.26:522][702]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:59398
-[2020.11.12-18.59.26:522][702]LogHandshake: SendChallengeAck. InCookie: 057167122186011189209025053231108113205234113224048202235105
-[2020.11.12-18.59.26:522][702]LogNet: Server accepting post-challenge connection from: 127.0.0.1:59398
-[2020.11.12-18.59.26:523][702]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
-[2020.11.12-18.59.26:523][702]LogNet: NotifyAcceptedConnection: Name: Alpha_playable_whitebox, TimeStamp: 11/12/20 19:59:26, [UNetConnection] RemoteAddr: 127.0.0.1:59398, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
-[2020.11.12-18.59.26:523][702]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:59398, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
-[2020.11.12-18.59.26:524][702]LogNetVersion: HideNSneakUnreal 1.0.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 4008563563)
-[2020.11.12-18.59.26:524][702]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: PendingNetDriver IpNetDriver_1, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
-[2020.11.12-18.59.26:561][703]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_0_Alpha_playable_whitebox.Alpha_playable_whitebox: Accepted
-[2020.11.12-18.59.26:573][703]LogNet: Remote platform little endian=1
-[2020.11.12-18.59.26:573][703]LogNet: This platform little endian=1
-[2020.11.12-18.59.26:585][703]LogOnline: OSS: Creating online subsystem instance for: :Context_9
-[2020.11.12-18.59.26:598][704]LogNet: Login request: ?Name=DESKTOP-I42L79B-6DFCDC6B46D02A43A6710F8090A22674 userId: NULL:DESKTOP-I42L79B-6DFCDC6B46D02A43A6710F8090A22674 platform: NULL
-[2020.11.12-18.59.26:599][704]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_0_Alpha_playable_whitebox, Game: /Game/Blueprints/BP_HideNSneakGameModeBase.BP_HideNSneakGameModeBase_C)
-[2020.11.12-18.59.26:602][704]LogLoad: LoadMap: 127.0.0.1:17777/Game/Maps/UEDPIE_0_Alpha_playable_whitebox?game=/Game/Blueprints/BP_HideNSneakGameModeBase.BP_HideNSneakGameModeBase_C
-[2020.11.12-18.59.26:602][704]LogWorld: BeginTearingDown for /Temp/Untitled_1
-[2020.11.12-18.59.26:602][704]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2020.11.12-18.59.26:602][704]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.11.12-18.59.26:620][704]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
-[2020.11.12-18.59.26:693][704]LogAIModule: Creating AISystem for world Alpha_playable_whitebox
-[2020.11.12-18.59.26:693][704]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E98CC2D400), frame # 26704
-[2020.11.12-18.59.26:693][704]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E98BCC8540), frame # 26704
-[2020.11.12-18.59.26:712][704]LogWorld: Bringing World /Game/Maps/UEDPIE_1_Alpha_playable_whitebox.Alpha_playable_whitebox up for play (max tick rate 0) at 2020.11.12-19.59.26
-[2020.11.12-18.59.26:712][704]LogWorld: Bringing up level for play took: 0.017149
-[2020.11.12-18.59.26:764][704]LogLoad: Took 0.162307 seconds to LoadMap(/Game/Maps/UEDPIE_0_Alpha_playable_whitebox)
-[2020.11.12-18.59.26:792][705]LogNet: Client netspeed is 10000
-[2020.11.12-18.59.26:792][705]LogNet: Join request: /Game/Lobby/SteamLobby/SteamLobbyLevel?Name=DESKTOP-I42L79B-6DFCDC6B46D02A43A6710F8090A22674?SplitscreenCount=1
-[2020.11.12-18.59.26:792][705]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
-[2020.11.12-18.59.26:866][705]LogNet: Join succeeded: DESKTOP-I42L79B-6DFC
-[2020.11.12-18.59.27:140][729]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
-[2020.11.12-18.59.27:179][733]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
-[2020.11.12-18.59.59:225][847]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.11.12-18.59.59:226][847]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_1_Alpha_playable_whitebox
-[2020.11.12-18.59.59:226][847]LogSlate: Window 'HideNSneakUnreal Preview [NetMode: Client 2] (64-bit/Windows) ' being destroyed
-[2020.11.12-18.59.59:240][847]LogWorld: UWorld::CleanupWorld for Alpha_playable_whitebox, bSessionEnded=true, bCleanupResources=true
-[2020.11.12-18.59.59:246][847]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.11.12-18.59.59:257][847]LogNet: World NetDriver shutdown IpNetDriver_1 [GameNetDriver]
-[2020.11.12-18.59.59:257][847]LogNet: DestroyNamedNetDriver IpNetDriver_1 [GameNetDriver]
-[2020.11.12-18.59.59:270][847]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:DESKTOP-I42L79B-6DFCDC6B46D02A43A6710F8090A22674, Channels: 17, Time: 2020.11.12-18.59.59
-[2020.11.12-18.59.59:270][847]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:DESKTOP-I42L79B-6DFCDC6B46D02A43A6710F8090A22674
-[2020.11.12-18.59.59:297][847]LogExit: GameNetDriver IpNetDriver_1 shut down
-[2020.11.12-18.59.59:298][847]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Alpha_playable_whitebox
-[2020.11.12-18.59.59:298][847]LogOnlineSession: Warning: OSS: No game present to leave for session (GameSession)
-[2020.11.12-18.59.59:299][847]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.11.12-18.59.59:299][847]LogWorld: UWorld::CleanupWorld for Alpha_playable_whitebox, bSessionEnded=true, bCleanupResources=true
-[2020.11.12-18.59.59:304][847]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.11.12-18.59.59:322][847]LogNet: World NetDriver shutdown IpNetDriver_0 [GameNetDriver]
-[2020.11.12-18.59.59:322][847]LogNet: DestroyNamedNetDriver IpNetDriver_0 [GameNetDriver]
-[2020.11.12-18.59.59:322][847]LogNet: UNetConnection::Cleanup: Closing open connection. [UNetConnection] RemoteAddr: 127.0.0.1:59398, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:DESKTOP-I42L79B-6DFCDC6B46D02A43A6710F8090A22674
-[2020.11.12-18.59.59:322][847]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:59398, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:DESKTOP-I42L79B-6DFCDC6B46D02A43A6710F8090A22674, Channels: 17, Time: 2020.11.12-18.59.59
-[2020.11.12-18.59.59:322][847]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:59398, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:DESKTOP-I42L79B-6DFCDC6B46D02A43A6710F8090A22674
-[2020.11.12-18.59.59:322][847]LogExit: GameNetDriver IpNetDriver_0 shut down
-[2020.11.12-18.59.59:323][847]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2020.11.12-18.59.59:326][847]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.11.12-18.59.59:368][847]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.11.12-18.59.59:405][847]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001EA05862480), frame # 29847
-[2020.11.12-18.59.59:405][847]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001E98AF73400), frame # 29847
-[2020.11.12-18.59.59:409][847]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001E98CC2D400), frame # 29847
-[2020.11.12-18.59.59:409][847]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001E98BCC8540), frame # 29847
-[2020.11.12-18.59.59:410][847]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
-[2020.11.12-18.59.59:439][848]LogPlayLevel: Display: Destroying online subsystem :Context_9
-[2020.11.12-18.59.59:439][848]LogPlayLevel: Display: Destroying online subsystem :Context_8
-[2020.11.12-19.00.03:180][113]LogTemp: Repeating last play command: Selected Viewport
-[2020.11.12-19.00.03:192][113]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.11.12-19.00.03:192][113]PIE: New page: PIE session: Alpha_playable_whitebox (12 Nov 2020, 21:00:03)
-[2020.11.12-19.00.03:192][113]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Alpha_playable_whitebox
-[2020.11.12-19.00.03:253][113]LogPlayLevel: PIE: StaticDuplicateObject took: (0.061062s)
-[2020.11.12-19.00.03:254][113]LogAIModule: Creating AISystem for world Alpha_playable_whitebox
-[2020.11.12-19.00.03:254][113]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E991BA2400), frame # 30113
-[2020.11.12-19.00.03:271][113]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001EA13FEB740), frame # 30113
-[2020.11.12-19.00.03:271][113]LogPlayLevel: PIE: World Init took: (0.018354s)
-[2020.11.12-19.00.03:271][113]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Alpha_playable_whitebox.Alpha_playable_whitebox to /Game/Maps/UEDPIE_0_Alpha_playable_whitebox.Alpha_playable_whitebox (0.079679s)
-[2020.11.12-19.00.03:287][113]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
-[2020.11.12-19.00.03:290][113]LogOnline: OSS: Creating online subsystem instance for: Steam
-[2020.11.12-19.00.03:290][113]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
-[2020.11.12-19.00.03:290][113]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.11.12-19.00.03:291][113]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.11.12-19.00.03:291][113]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.11.12-19.00.03:291][113]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.11.12-19.00.03:291][113]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.11.12-19.00.03:291][113]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.11.12-19.00.03:291][113]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.11.12-19.00.03:291][113]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.11.12-19.00.03:291][113]LogAudio: Display: Using built-in audio occlusion.
-[2020.11.12-19.00.03:291][113]LogAudioMixer: Display: Initializing audio mixer.
-[2020.11.12-19.00.03:299][113]LogAudioMixer: Display: 0: FrontLeft
-[2020.11.12-19.00.03:300][113]LogAudioMixer: Display: 1: FrontRight
-[2020.11.12-19.00.03:332][113]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
-[2020.11.12-19.00.03:332][113]LogAudioMixer: Display: Initializing Sound Submixes...
-[2020.11.12-19.00.03:332][113]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2020.11.12-19.00.03:332][113]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2020.11.12-19.00.03:333][113]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2020.11.12-19.00.03:350][113]LogInit: FAudioDevice initialized.
-[2020.11.12-19.00.03:360][113]LogLoad: Game class is 'BP_HideNSneakGameModeBase_C'
-[2020.11.12-19.00.03:389][113]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Alpha_playable_whitebox.Alpha_playable_whitebox up for play (max tick rate 0) at 2020.11.12-20.00.03
-[2020.11.12-19.00.03:389][113]LogWorld: Bringing up level for play took: 0.028481
-[2020.11.12-19.00.03:390][113]LogOnline: OSS: Creating online subsystem instance for: :Context_10
-[2020.11.12-19.00.03:393][113]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
-[2020.11.12-19.00.03:393][113]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
-[2020.11.12-19.00.03:393][113]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
-[2020.11.12-19.00.03:394][113]LogNet: Created socket for bind address: 0.0.0.0 on port 17777
-[2020.11.12-19.00.03:394][113]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
-[2020.11.12-19.00.03:394][113]LogNet: GameNetDriver IpNetDriver_2 IpNetDriver listening on port 17777
-[2020.11.12-19.00.03:397][113]PIE: Server logged in
-[2020.11.12-19.00.03:398][113]PIE: Play in editor total start time 0,208 seconds.
-[2020.11.12-19.00.03:399][113]LogOnline: OSS: Creating online subsystem instance for: Steam
-[2020.11.12-19.00.03:399][113]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
-[2020.11.12-19.00.03:399][113]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.11.12-19.00.03:399][113]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.11.12-19.00.03:399][113]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.11.12-19.00.03:399][113]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.11.12-19.00.03:399][113]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.11.12-19.00.03:399][113]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.11.12-19.00.03:400][113]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.11.12-19.00.03:400][113]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.11.12-19.00.03:400][113]LogAudio: Display: Using built-in audio occlusion.
-[2020.11.12-19.00.03:400][113]LogAudioMixer: Display: Initializing audio mixer.
-[2020.11.12-19.00.03:408][113]LogAudioMixer: Display: 0: FrontLeft
-[2020.11.12-19.00.03:408][113]LogAudioMixer: Display: 1: FrontRight
-[2020.11.12-19.00.03:434][113]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
-[2020.11.12-19.00.03:434][113]LogAudioMixer: Display: Initializing Sound Submixes...
-[2020.11.12-19.00.03:434][113]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2020.11.12-19.00.03:434][113]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2020.11.12-19.00.03:435][113]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2020.11.12-19.00.03:452][113]LogInit: FAudioDevice initialized.
-[2020.11.12-19.00.03:531][113]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.11.12-19.00.03:531][113]LogNet: Browse: 127.0.0.1:17777/Game/Lobby/SteamLobby/SteamLobbyLevel
-[2020.11.12-19.00.03:531][113]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
-[2020.11.12-19.00.03:532][113]LogNet: Created socket for bind address: 0.0.0.0 on port 0
-[2020.11.12-19.00.03:532][113]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
-[2020.11.12-19.00.03:532][113]LogNet: Game client on port 17777, rate 10000
-[2020.11.12-19.00.03:534][113]PIE: Client logged in
-[2020.11.12-19.00.03:536][113]PIE: Play in editor total start time 0,345 seconds.
-[2020.11.12-19.00.04:539][224]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:49911
-[2020.11.12-19.00.04:540][224]LogHandshake: SendConnectChallenge. Timestamp: 1.379798, Cookie: 194253117118094163066166080132044161102128006120052224187121
-[2020.11.12-19.00.04:540][224]LogHandshake: SendChallengeResponse. Timestamp: 1.379798, Cookie: 194253117118094163066166080132044161102128006120052224187121
-[2020.11.12-19.00.04:548][225]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:49911
-[2020.11.12-19.00.04:548][225]LogHandshake: SendChallengeAck. InCookie: 194253117118094163066166080132044161102128006120052224187121
-[2020.11.12-19.00.04:548][225]LogNet: Server accepting post-challenge connection from: 127.0.0.1:49911
-[2020.11.12-19.00.04:549][225]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
-[2020.11.12-19.00.04:549][225]LogNet: NotifyAcceptedConnection: Name: Alpha_playable_whitebox, TimeStamp: 11/12/20 20:00:04, [UNetConnection] RemoteAddr: 127.0.0.1:49911, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
-[2020.11.12-19.00.04:549][225]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:49911, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
-[2020.11.12-19.00.04:550][225]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_2, Driver: PendingNetDriver IpNetDriver_3, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
-[2020.11.12-19.00.04:557][226]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_0_Alpha_playable_whitebox.Alpha_playable_whitebox: Accepted
-[2020.11.12-19.00.04:557][226]LogNet: Remote platform little endian=1
-[2020.11.12-19.00.04:557][226]LogNet: This platform little endian=1
-[2020.11.12-19.00.04:558][226]LogOnline: OSS: Creating online subsystem instance for: :Context_11
-[2020.11.12-19.00.04:566][227]LogNet: Login request: ?Name=DESKTOP-I42L79B-62A56F8E40EBCBAC35CC44967D834761 userId: NULL:DESKTOP-I42L79B-62A56F8E40EBCBAC35CC44967D834761 platform: NULL
-[2020.11.12-19.00.04:567][227]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_0_Alpha_playable_whitebox, Game: /Game/Blueprints/BP_HideNSneakGameModeBase.BP_HideNSneakGameModeBase_C)
-[2020.11.12-19.00.04:567][227]LogLoad: LoadMap: 127.0.0.1:17777/Game/Maps/UEDPIE_0_Alpha_playable_whitebox?game=/Game/Blueprints/BP_HideNSneakGameModeBase.BP_HideNSneakGameModeBase_C
-[2020.11.12-19.00.04:567][227]LogWorld: BeginTearingDown for /Temp/Untitled_2
-[2020.11.12-19.00.04:567][227]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2020.11.12-19.00.04:567][227]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.11.12-19.00.04:585][227]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
-[2020.11.12-19.00.04:647][227]LogAIModule: Creating AISystem for world Alpha_playable_whitebox
-[2020.11.12-19.00.04:647][227]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E98AFA7800), frame # 30227
-[2020.11.12-19.00.04:647][227]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001EA140B8F40), frame # 30227
-[2020.11.12-19.00.04:669][227]LogWorld: Bringing World /Game/Maps/UEDPIE_1_Alpha_playable_whitebox.Alpha_playable_whitebox up for play (max tick rate 0) at 2020.11.12-20.00.04
-[2020.11.12-19.00.04:669][227]LogWorld: Bringing up level for play took: 0.020838
-[2020.11.12-19.00.04:670][227]LogLoad: Took 0.103157 seconds to LoadMap(/Game/Maps/UEDPIE_0_Alpha_playable_whitebox)
-[2020.11.12-19.00.04:686][228]LogNet: Client netspeed is 10000
-[2020.11.12-19.00.04:686][228]LogNet: Join request: /Game/Lobby/SteamLobby/SteamLobbyLevel?Name=DESKTOP-I42L79B-62A56F8E40EBCBAC35CC44967D834761?SplitscreenCount=1
-[2020.11.12-19.00.04:686][228]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
-[2020.11.12-19.00.04:689][228]LogNet: Join succeeded: DESKTOP-I42L79B-62A5
-[2020.11.12-19.00.04:930][249]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
-[2020.11.12-19.00.04:956][252]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
-[2020.11.12-19.01.43:313][384]LogHotReload: New module detected: UE4Editor-HideNSneakUnreal-0007.dll
-[2020.11.12-19.01.52:145][695]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.11.12-19.01.52:145][695]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_1_Alpha_playable_whitebox
-[2020.11.12-19.01.52:145][695]LogSlate: Window 'HideNSneakUnreal Preview [NetMode: Client 2] (64-bit/Windows) ' being destroyed
-[2020.11.12-19.01.52:153][695]LogWorld: UWorld::CleanupWorld for Alpha_playable_whitebox, bSessionEnded=true, bCleanupResources=true
-[2020.11.12-19.01.52:159][695]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.11.12-19.01.52:163][695]LogNet: World NetDriver shutdown IpNetDriver_3 [GameNetDriver]
-[2020.11.12-19.01.52:164][695]LogNet: DestroyNamedNetDriver IpNetDriver_3 [GameNetDriver]
-[2020.11.12-19.01.52:164][695]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:DESKTOP-I42L79B-62A56F8E40EBCBAC35CC44967D834761, Channels: 17, Time: 2020.11.12-19.01.52
-[2020.11.12-19.01.52:164][695]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:DESKTOP-I42L79B-62A56F8E40EBCBAC35CC44967D834761
-[2020.11.12-19.01.52:164][695]LogExit: GameNetDriver IpNetDriver_3 shut down
-[2020.11.12-19.01.52:165][695]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Alpha_playable_whitebox
-[2020.11.12-19.01.52:165][695]LogOnlineSession: Warning: OSS: No game present to leave for session (GameSession)
-[2020.11.12-19.01.52:166][695]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.11.12-19.01.52:166][695]LogWorld: UWorld::CleanupWorld for Alpha_playable_whitebox, bSessionEnded=true, bCleanupResources=true
-[2020.11.12-19.01.52:172][695]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.11.12-19.01.52:180][695]LogNet: World NetDriver shutdown IpNetDriver_2 [GameNetDriver]
-[2020.11.12-19.01.52:180][695]LogNet: DestroyNamedNetDriver IpNetDriver_2 [GameNetDriver]
-[2020.11.12-19.01.52:181][695]LogNet: UNetConnection::Cleanup: Closing open connection. [UNetConnection] RemoteAddr: 127.0.0.1:49911, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:DESKTOP-I42L79B-62A56F8E40EBCBAC35CC44967D834761
-[2020.11.12-19.01.52:181][695]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:49911, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:DESKTOP-I42L79B-62A56F8E40EBCBAC35CC44967D834761, Channels: 17, Time: 2020.11.12-19.01.52
-[2020.11.12-19.01.52:181][695]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:49911, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:DESKTOP-I42L79B-62A56F8E40EBCBAC35CC44967D834761
-[2020.11.12-19.01.52:181][695]LogExit: GameNetDriver IpNetDriver_2 shut down
-[2020.11.12-19.01.52:182][695]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2020.11.12-19.01.52:185][695]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.11.12-19.01.52:231][695]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.11.12-19.01.52:260][695]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001EA140B8F40), frame # 34695
-[2020.11.12-19.01.52:260][695]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001E98AFA7800), frame # 34695
-[2020.11.12-19.01.52:262][695]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001EA13FEB740), frame # 34695
-[2020.11.12-19.01.52:262][695]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001E991BA2400), frame # 34695
-[2020.11.12-19.01.52:266][695]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
-[2020.11.12-19.01.52:323][696]LogHotReload: Starting Hot-Reload from IDE
-[2020.11.12-19.01.52:397][696]LogClass: ServerInfo HotReload.
-[2020.11.12-19.01.52:397][696]LogClass: SteamServerInfo HotReload.
-[2020.11.12-19.01.52:415][696]LogHotReload: Re-instancing HideNSneakCPPCharacter after hot-reload.
-[2020.11.12-19.01.52:466][696]LogContentBrowser: Native class hierarchy updated for 'HideNSneakUnreal' in 0.0005 seconds. Added 23 classes and 2 folders.
-[2020.11.12-19.01.52:468][696]Display: HotReload successful (53 functions remapped  2 scriptstructs remapped)
-[2020.11.12-19.01.52:521][696]LogContentBrowser: Native class hierarchy populated in 0.0129 seconds. Added 3484 classes and 836 folders.
-[2020.11.12-19.01.52:551][696]Display: HotReload took  0.2s.
-[2020.11.12-19.01.52:773][696]LogPlayLevel: Display: Destroying online subsystem :Context_11
-[2020.11.12-19.01.52:773][696]LogPlayLevel: Display: Destroying online subsystem :Context_10
-[2020.11.12-19.01.55:915][941]Candidate modules for hot reload:
-[2020.11.12-19.01.55:915][941]  HideNSneakUnreal
-[2020.11.12-19.01.55:916][941]Launching UnrealBuildTool... [D:/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=HideNSneakUnreal,2446 HideNSneakUnrealEditor Win64 Development -Project="D:/HideNSneak2/HideNSneakUnreal/HideNSneakUnreal.uproject" "D:/HideNSneak2/HideNSneakUnreal/HideNSneakUnreal.uproject"  -IgnoreJunk]
-[2020.11.12-19.01.56:013][941]Warning: Starting HotReload took  0.1s.
-[2020.11.12-19.01.59:262][145]CompilerResultsLog: New page: Compilation - 12 Nov 2020, 21:01:59
-[2020.11.12-19.01.59:262][145]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\HideNSneak2).
-[2020.11.12-19.01.59:262][145]CompilerResultsLog: Building HideNSneakUnrealEditor...
-[2020.11.12-19.01.59:262][145]CompilerResultsLog: Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-[2020.11.12-19.01.59:262][145]CompilerResultsLog: Building 3 actions with 16 processes...
-[2020.11.12-19.01.59:262][145]CompilerResultsLog:   [1/3] UE4Editor-HideNSneakUnreal-2446.lib
-[2020.11.12-19.01.59:262][145]CompilerResultsLog:      Creating library D:\HideNSneak2\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal-2446.lib and object D:\HideNSneak2\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal-2446.exp
-[2020.11.12-19.01.59:262][145]CompilerResultsLog:   [2/3] UE4Editor-HideNSneakUnreal-2446.dll
-[2020.11.12-19.01.59:262][145]CompilerResultsLog:      Creating library D:\HideNSneak2\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal-2446.suppressed.lib and object D:\HideNSneak2\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal-2446.suppressed.exp
-[2020.11.12-19.01.59:262][145]CompilerResultsLog:   [3/3] HideNSneakUnrealEditor.target
-[2020.11.12-19.01.59:262][145]CompilerResultsLog: Total time in Parallel executor: 1,49 seconds
-[2020.11.12-19.01.59:262][145]CompilerResultsLog: Total execution time: 2,27 seconds
-[2020.11.12-19.01.59:262][145]LogMainFrame: MainFrame: Module compiling took 3.370 seconds
-[2020.11.12-19.01.59:278][145]LogClass: ServerInfo HotReload.
-[2020.11.12-19.01.59:278][145]LogClass: SteamServerInfo HotReload.
-[2020.11.12-19.01.59:296][145]LogHotReload: Re-instancing HideNSneakCPPCharacter after hot-reload.
-[2020.11.12-19.01.59:345][145]LogContentBrowser: Native class hierarchy updated for 'HideNSneakUnreal' in 0.0005 seconds. Added 23 classes and 2 folders.
-[2020.11.12-19.01.59:347][145]Display: HotReload successful (53 functions remapped  2 scriptstructs remapped)
+[2020.11.12-19.20.01:630][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.11.12-19.20.01:630][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.11.12-19.20.01:630][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/HideNSneak2/HideNSneakUnreal/Saved/Config/Windows/Engine.ini]
+[2020.11.12-19.20.01:630][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.11.12-19.20.01:630][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/HideNSneak2/HideNSneakUnreal/Saved/Config/Windows/Engine.ini]
+[2020.11.12-19.20.01:630][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/HideNSneak2/HideNSneakUnreal/Saved/Config/Windows/Engine.ini]
+[2020.11.12-19.20.01:630][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.11.12-19.20.01:630][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.11.12-19.20.01:630][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.11.12-19.20.01:630][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.11.12-19.20.01:630][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.11.12-19.20.01:630][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.11.12-19.20.01:630][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.11.12-19.20.01:630][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.11.12-19.20.01:630][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.11.12-19.20.01:630][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.11.12-19.20.01:630][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.11.12-19.20.01:630][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.11.12-19.20.01:630][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.11.12-19.20.01:630][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.11.12-19.20.01:630][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/HideNSneak2/HideNSneakUnreal/Saved/Config/Windows/Engine.ini]
+[2020.11.12-19.20.01:630][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.11.12-19.20.01:630][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.11.12-19.20.01:631][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.11.12-19.20.01:631][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.11.12-19.20.01:631][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.11.12-19.20.01:631][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.11.12-19.20.01:631][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.11.12-19.20.01:631][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.11.12-19.20.01:631][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.11.12-19.20.01:631][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.11.12-19.20.01:631][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.11.12-19.20.01:631][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.11.12-19.20.01:631][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.11.12-19.20.01:631][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/HideNSneak2/HideNSneakUnreal/Saved/Config/Windows/Engine.ini]
+[2020.11.12-19.20.01:631][  0]LogConfig: Setting CVar [[p.EnableMultiplayerWorldOriginRebasing:1]]
+[2020.11.12-19.20.01:631][  0]LogConfig: Setting CVar [[n.VerifyPeer:0]]
+[2020.11.12-19.20.01:631][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/HideNSneak2/HideNSneakUnreal/Saved/Config/Windows/Engine.ini]
+[2020.11.12-19.20.01:633][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/HideNSneak2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.11.12-19.20.01:633][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.11.12-19.20.01:633][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.11.12-19.20.01:633][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/HideNSneak2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.11.12-19.20.01:634][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.11.12-19.20.01:634][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/HideNSneak2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.11.12-19.20.01:634][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.11.12-19.20.01:634][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.11.12-19.20.01:634][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.11.12-19.20.01:634][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.11.12-19.20.01:634][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.11.12-19.20.01:634][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.11.12-19.20.01:634][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.11.12-19.20.01:634][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.11.12-19.20.01:634][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.11.12-19.20.01:634][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.11.12-19.20.01:634][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.11.12-19.20.01:634][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.11.12-19.20.01:634][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.11.12-19.20.01:634][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.11.12-19.20.01:634][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.11.12-19.20.01:634][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.11.12-19.20.01:634][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.11.12-19.20.01:634][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.11.12-19.20.01:634][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/HideNSneak2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.11.12-19.20.01:634][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.11.12-19.20.01:634][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.11.12-19.20.01:634][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.11.12-19.20.01:634][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.11.12-19.20.01:634][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.11.12-19.20.01:634][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.11.12-19.20.01:634][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.11.12-19.20.01:634][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.11.12-19.20.01:634][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.11.12-19.20.01:634][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.11.12-19.20.01:634][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.11.12-19.20.01:634][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.11.12-19.20.01:634][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.11.12-19.20.01:634][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.11.12-19.20.01:634][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.11.12-19.20.01:634][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.11.12-19.20.01:634][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.11.12-19.20.01:634][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.11.12-19.20.01:634][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.11.12-19.20.01:634][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.11.12-19.20.01:634][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.11.12-19.20.01:634][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.11.12-19.20.01:634][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.11.12-19.20.01:634][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.11.12-19.20.01:634][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.11.12-19.20.01:634][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.11.12-19.20.01:634][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.11.12-19.20.01:634][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.11.12-19.20.01:634][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.11.12-19.20.01:634][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.11.12-19.20.01:634][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/HideNSneak2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.11.12-19.20.01:634][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.11.12-19.20.01:634][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.11.12-19.20.01:634][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.11.12-19.20.01:634][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.11.12-19.20.01:634][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.11.12-19.20.01:634][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.11.12-19.20.01:634][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.11.12-19.20.01:634][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.11.12-19.20.01:634][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.11.12-19.20.01:635][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/HideNSneak2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.11.12-19.20.01:635][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.11.12-19.20.01:635][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.11.12-19.20.01:635][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.11.12-19.20.01:635][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.11.12-19.20.01:635][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.11.12-19.20.01:635][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.11.12-19.20.01:635][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.11.12-19.20.01:635][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.11.12-19.20.01:635][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.11.12-19.20.01:635][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.11.12-19.20.01:635][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.11.12-19.20.01:635][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.11.12-19.20.01:635][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.11.12-19.20.01:635][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.11.12-19.20.01:635][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.11.12-19.20.01:635][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.11.12-19.20.01:635][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.11.12-19.20.01:635][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.11.12-19.20.01:635][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.11.12-19.20.01:635][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.11.12-19.20.01:635][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.11.12-19.20.01:635][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.11.12-19.20.01:635][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.11.12-19.20.01:635][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.11.12-19.20.01:635][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.11.12-19.20.01:635][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.11.12-19.20.01:635][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/HideNSneak2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.11.12-19.20.01:635][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.11.12-19.20.01:635][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.11.12-19.20.01:635][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/HideNSneak2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.11.12-19.20.01:635][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.11.12-19.20.01:635][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.11.12-19.20.01:635][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.11.12-19.20.01:635][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.11.12-19.20.01:635][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.11.12-19.20.01:635][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.11.12-19.20.01:635][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.11.12-19.20.01:635][  0]LogInit: Selected Device Profile: [Windows]
+[2020.11.12-19.20.01:635][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.11.12-19.20.01:635][  0]LogHAL: Display: Platform has ~ 16 GB [17128341504 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.11.12-19.20.01:635][  0]LogInit: Going up to parent DeviceProfile []
+[2020.11.12-19.20.01:635][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/HideNSneak2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.11.12-19.20.01:635][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.11.12-19.20.01:635][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.11.12-19.20.01:635][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/HideNSneak2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.11.12-19.20.01:635][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.11.12-19.20.01:635][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/HideNSneak2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.11.12-19.20.01:635][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.11.12-19.20.01:635][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.11.12-19.20.01:635][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.11.12-19.20.01:635][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.11.12-19.20.01:635][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.11.12-19.20.01:635][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.11.12-19.20.01:635][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.11.12-19.20.01:636][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.11.12-19.20.01:636][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.11.12-19.20.01:636][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.11.12-19.20.01:636][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.11.12-19.20.01:636][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.11.12-19.20.01:636][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.11.12-19.20.01:636][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.11.12-19.20.01:636][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.11.12-19.20.01:636][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.11.12-19.20.01:636][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.11.12-19.20.01:636][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.11.12-19.20.01:636][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/HideNSneak2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.11.12-19.20.01:636][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.11.12-19.20.01:636][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.11.12-19.20.01:636][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.11.12-19.20.01:636][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.11.12-19.20.01:636][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.11.12-19.20.01:636][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.11.12-19.20.01:636][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.11.12-19.20.01:636][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.11.12-19.20.01:636][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.11.12-19.20.01:636][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.11.12-19.20.01:636][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.11.12-19.20.01:636][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.11.12-19.20.01:636][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.11.12-19.20.01:636][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.11.12-19.20.01:636][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.11.12-19.20.01:636][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.11.12-19.20.01:636][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.11.12-19.20.01:636][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.11.12-19.20.01:636][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.11.12-19.20.01:636][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.11.12-19.20.01:636][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.11.12-19.20.01:636][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.11.12-19.20.01:636][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.11.12-19.20.01:636][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.11.12-19.20.01:636][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.11.12-19.20.01:636][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.11.12-19.20.01:636][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.11.12-19.20.01:636][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.11.12-19.20.01:636][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.11.12-19.20.01:636][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.11.12-19.20.01:636][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/HideNSneak2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.11.12-19.20.01:636][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.11.12-19.20.01:636][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.11.12-19.20.01:636][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.11.12-19.20.01:636][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.11.12-19.20.01:636][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.11.12-19.20.01:636][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.11.12-19.20.01:636][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.11.12-19.20.01:636][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.11.12-19.20.01:636][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.11.12-19.20.01:636][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/HideNSneak2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.11.12-19.20.01:636][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.11.12-19.20.01:636][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.11.12-19.20.01:636][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.11.12-19.20.01:636][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.11.12-19.20.01:636][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.11.12-19.20.01:636][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.11.12-19.20.01:636][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.11.12-19.20.01:636][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.11.12-19.20.01:636][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.11.12-19.20.01:636][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.11.12-19.20.01:636][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.11.12-19.20.01:637][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.11.12-19.20.01:637][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.11.12-19.20.01:637][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.11.12-19.20.01:637][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.11.12-19.20.01:637][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.11.12-19.20.01:637][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.11.12-19.20.01:637][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.11.12-19.20.01:637][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.11.12-19.20.01:637][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.11.12-19.20.01:637][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.11.12-19.20.01:637][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.11.12-19.20.01:637][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.11.12-19.20.01:637][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.11.12-19.20.01:637][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.11.12-19.20.01:637][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.11.12-19.20.01:637][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/HideNSneak2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.11.12-19.20.01:637][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.11.12-19.20.01:637][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.11.12-19.20.01:637][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/HideNSneak2/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.11.12-19.20.01:637][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.11.12-19.20.01:637][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.11.12-19.20.01:637][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.11.12-19.20.01:637][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.11.12-19.20.01:637][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.11.12-19.20.01:637][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.11.12-19.20.01:637][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.11.12-19.20.01:637][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.11.12-19.20.01:637][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.11.12-19.20.01:637][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.11.12-19.20.01:637][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.11.12-19.20.01:637][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/HideNSneak2/HideNSneakUnreal/Saved/Config/Windows/Engine.ini]
+[2020.11.12-19.20.01:637][  0]LogInit: Computer: DESKTOP-I42L79B
+[2020.11.12-19.20.01:637][  0]LogInit: User: Oskar
+[2020.11.12-19.20.01:637][  0]LogInit: CPU Page size=4096, Cores=8
+[2020.11.12-19.20.01:637][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.11.12-19.20.01:638][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2020.11.12-19.20.01:638][  0]LogMemory: Platform Memory Stats for Windows
+[2020.11.12-19.20.01:638][  0]LogMemory: Process Physical Memory: 117.00 MB used, 117.00 MB peak
+[2020.11.12-19.20.01:638][  0]LogMemory: Process Virtual Memory: 106.32 MB used, 106.32 MB peak
+[2020.11.12-19.20.01:638][  0]LogMemory: Physical Memory: 7157.07 MB used,  9177.79 MB free, 16334.86 MB total
+[2020.11.12-19.20.01:638][  0]LogMemory: Virtual Memory: 5193.14 MB used,  134212536.00 MB free, 134217728.00 MB total
+[2020.11.12-19.20.01:646][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.11.12-19.20.01:689][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.11.12-19.20.01:699][  0]LogInit: Using OS detected language (en-GB).
+[2020.11.12-19.20.01:699][  0]LogInit: Using OS detected locale (en-SE).
+[2020.11.12-19.20.01:702][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2020.11.12-19.20.01:913][  0]LogInit: Setting process to per monitor DPI aware
+[2020.11.12-19.20.01:995][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.11.12-19.20.01:995][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.11.12-19.20.02:139][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.11.12-19.20.02:139][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.11.12-19.20.02:139][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.11.12-19.20.02:139][  0]LogD3D11RHI: D3D11 adapters:
+[2020.11.12-19.20.02:222][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2020.11.12-19.20.02:222][  0]LogD3D11RHI:       8088/0/8167 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.11.12-19.20.02:225][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.11.12-19.20.02:225][  0]LogD3D11RHI:       0/0/8167 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.11.12-19.20.02:225][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.11.12-19.20.02:235][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.11.12-19.20.02:235][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2020.11.12-19.20.02:235][  0]LogWindows: EnumDisplayDevices:
+[2020.11.12-19.20.02:236][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2020.11.12-19.20.02:236][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2020.11.12-19.20.02:236][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2020.11.12-19.20.02:237][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2020.11.12-19.20.02:237][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.11.12-19.20.02:237][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2020.11.12-19.20.02:237][  0]LogD3D11RHI:   Driver Version: 432.00 (internal:26.21.14.3200, unified:432.00)
+[2020.11.12-19.20.02:237][  0]LogD3D11RHI:      Driver Date: 7-24-2019
+[2020.11.12-19.20.02:237][  0]LogRHI: Texture pool is 5661 MB (70% of 8088 MB)
+[2020.11.12-19.20.02:297][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.11.12-19.20.02:298][  0]LogD3D11RHI: [Aftermath] Enabled and primed
+[2020.11.12-19.20.02:299][  0]LogD3D11RHI: Async texture creation enabled
+[2020.11.12-19.20.02:299][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.11.12-19.20.02:368][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.11.12-19.20.02:901][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.11.12-19.20.02:927][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.11.12-19.20.02:927][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.11.12-19.20.02:927][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.11.12-19.20.02:927][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.11.12-19.20.02:927][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.11.12-19.20.02:927][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.11.12-19.20.02:927][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.11.12-19.20.02:927][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.11.12-19.20.02:927][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.11.12-19.20.02:928][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.11.12-19.20.02:957][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.11.12-19.20.02:957][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.11.12-19.20.02:970][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.11.12-19.20.02:981][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.11.12-19.20.02:993][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.11.12-19.20.03:005][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.11.12-19.20.03:016][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.11.12-19.20.03:028][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.11.12-19.20.03:039][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.11.12-19.20.03:071][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.11.12-19.20.03:071][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.11.12-19.20.03:090][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.11.12-19.20.03:090][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.11.12-19.20.03:101][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.11.12-19.20.03:113][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.11.12-19.20.03:125][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.11.12-19.20.03:137][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.11.12-19.20.03:137][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.11.12-19.20.03:148][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.11.12-19.20.03:220][  0]LogShaderCompilers: Guid format shader working directory is 5 characters bigger than the processId version (../../../../HideNSneak2/HideNSneakUnreal/Intermediate/Shaders/WorkingDirectory/15256/).
+[2020.11.12-19.20.03:220][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Oskar/AppData/Local/Temp/UnrealShaderWorkingDir/7FF44C6A46E0F1395F7FAB950987F4BF/'.
+[2020.11.12-19.20.03:221][  0]LogXGEController: Cleaning working directory: C:/Users/Oskar/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.11.12-19.20.03:222][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.11.12-19.20.03:222][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.11.12-19.20.03:222][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.11.12-19.20.04:125][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.11.12-19.20.04:177][  0]LogDerivedDataCache: Loaded boot cache 0.05s 76MB C:/Users/Oskar/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.11.12-19.20.04:177][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Oskar/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.11.12-19.20.04:177][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../HideNSneak2/HideNSneakUnreal/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.11.12-19.20.04:177][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.11.12-19.20.04:178][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../HideNSneak2/HideNSneakUnreal/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.11.12-19.20.04:178][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.11.12-19.20.04:191][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.11.12-19.20.04:191][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.11.12-19.20.04:191][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.11.12-19.20.04:193][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Oskar/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.11.12-19.20.04:193][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.11.12-19.20.04:193][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.11.12-19.20.04:254][  0]LogSlate: Using FreeType 2.10.0
+[2020.11.12-19.20.04:255][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.11.12-19.20.04:280][  0]LogAssetRegistry: FAssetRegistry took 0.0032 seconds to start up
+[2020.11.12-19.20.04:577][  0]LogLinker: Warning: Failed to read package file summary, the file "../../../../HideNSneak2/HideNSneakUnreal/Content/Blueprints/Widgets/BPW_MenuHost_BASE_976.uasset" is too small (0 bytes, expected at least 32 bytes)
+[2020.11.12-19.20.04:577][  0]LogInit: Selected Device Profile: [Windows]
+[2020.11.12-19.20.04:707][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.11.12-19.20.04:707][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.11.12-19.20.04:707][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.11.12-19.20.04:707][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.11.12-19.20.04:707][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.11.12-19.20.04:724][  0]LogNetVersion: HideNSneakUnreal 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 3367979030)
+[2020.11.12-19.20.05:205][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000029A599691C0), frame # 0
+[2020.11.12-19.20.05:205][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000029A598ADE40), frame # 0
+[2020.11.12-19.20.05:207][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000029A59911E00), frame # 0
+[2020.11.12-19.20.05:257][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.043481 seconds
+[2020.11.12-19.20.05:263][  0]LogUObjectArray: 15926 objects as part of root set at end of initial load.
+[2020.11.12-19.20.05:263][  0]LogUObjectAllocator: 3967488 out of 0 bytes used by permanent object pool.
+[2020.11.12-19.20.05:263][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.11.12-19.20.05:687][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.11.12-19.20.05:693][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.11.12-19.20.05:735][  0]LogSteamShared: Display: Loading Steam SDK 1.47
+[2020.11.12-19.20.05:736][  0]LogSteamShared: Steam SDK Loaded!
+[2020.11.12-19.20.05:850][  0]SourceControl: Source control is disabled
+[2020.11.12-19.20.05:850][  0]SourceControl: Source control is disabled
+[2020.11.12-19.20.05:854][  0]SourceControl: Source control is disabled
+[2020.11.12-19.20.05:858][  0]SourceControl: Source control is disabled
+[2020.11.12-19.20.05:866][  0]SourceControl: Source control is disabled
+[2020.11.12-19.20.06:175][  0]LogOnline: Oculus: Oculus Startup!
+[2020.11.12-19.20.06:185][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.11.12-19.20.06:211][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.11.12-19.20.06:211][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.11.12-19.20.06:272][  0]LogOcInput: OculusInput pre-init called
+[2020.11.12-19.20.06:285][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.11.12-19.20.06:285][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.11.12-19.20.06:363][  0]LogEngine: Initializing Engine...
+[2020.11.12-19.20.06:365][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.11.12-19.20.06:365][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.11.12-19.20.06:366][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.11.12-19.20.06:487][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.11.12-19.20.06:495][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.11.12-19.20.06:495][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000029A61131E00), frame # 0
+[2020.11.12-19.20.06:495][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000029A61107B00), frame # 0
+[2020.11.12-19.20.06:586][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.12-19.20.06:586][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.12-19.20.06:586][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.12-19.20.06:586][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.12-19.20.06:586][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.12-19.20.06:586][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.12-19.20.06:586][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.12-19.20.06:586][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.12-19.20.06:587][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.12-19.20.06:587][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.12-19.20.06:609][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.12-19.20.06:609][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.11.12-19.20.06:672][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.11.12-19.20.06:676][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.12-19.20.06:678][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.12-19.20.06:678][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.12-19.20.06:679][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.12-19.20.06:680][  0]LogInit: FAudioDevice initialized.
+[2020.11.12-19.20.06:680][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.11.12-19.20.06:876][  0]LogDerivedDataCache: Saved boot cache 0.20s 76MB C:/Users/Oskar/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.11.12-19.20.06:878][  0]LogInit: Texture streaming: Enabled
+[2020.11.12-19.20.06:899][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.11.12-19.20.06:899][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.11.12-19.20.06:901][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.11.12-19.20.06:954][  0]LogInit: Transaction tracking system initialized
+[2020.11.12-19.20.06:979][  0]BlueprintLog: New page: Editor Load
+[2020.11.12-19.20.07:061][  0]LocalizationService: Localization service is disabled
+[2020.11.12-19.20.07:231][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.11.12-19.20.07:231][  0]LogCook: Display: Mobile HDR setting 1
+[2020.11.12-19.20.07:391][  0]LogFileCache: Scanning file cache for directory 'D:/HideNSneak2/HideNSneakUnreal/Content/' took 0.01s
+[2020.11.12-19.20.07:576][  0]SourceControl: Source control is disabled
+[2020.11.12-19.20.07:577][  0]LogUnrealEdMisc: Loading editor; pre map load, took 7.664
+[2020.11.12-19.20.07:577][  0]Cmd: MAP LOAD FILE="../../../../HideNSneak2/HideNSneakUnreal/Content/Maps/Level_HideNSneak.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.11.12-19.20.07:577][  0]LightingResults: New page: Lighting Build
+[2020.11.12-19.20.07:578][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.11.12-19.20.07:578][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.12-19.20.07:578][  0]MapCheck: New page: Map Check
+[2020.11.12-19.20.07:578][  0]LightingResults: New page: Lighting Build
+[2020.11.12-19.20.07:604][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000029A61131E00), frame # 0
+[2020.11.12-19.20.07:604][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000029A61107B00), frame # 0
+[2020.11.12-19.20.07:605][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2020.11.12-19.20.07:818][  0]LogLinker: Warning: While loading '../../../../HideNSneak2/HideNSneakUnreal/Content/Maps/Level_HideNSneak.umap' failed to load '/Game/Maps/Level_HideNSneak_BuiltData': Can't find file.
+[2020.11.12-19.20.07:818][  0]LogLinker: Warning: While loading '../../../../HideNSneak2/HideNSneakUnreal/Content/Maps/Level_HideNSneak.umap' failed to load '/Game/Maps/Level_HideNSneak_BuiltData': Can't find file.
+[2020.11.12-19.20.07:826][  0]LogLinker: Warning: While loading '../../../../HideNSneak2/HideNSneakUnreal/Content/Maps/Level_HideNSneak.umap' failed to load '/Game/Maps/Level_HideNSneak_BuiltData': Can't find file.
+[2020.11.12-19.20.07:827][  0]LogLinker: Warning: While loading '../../../../HideNSneak2/HideNSneakUnreal/Content/Maps/Level_HideNSneak.umap' failed to load '/Game/Maps/Level_HideNSneak_BuiltData': Can't find file.
+[2020.11.12-19.20.07:834][  0]LogLinker: Warning: While loading '../../../../HideNSneak2/HideNSneakUnreal/Content/Maps/Level_HideNSneak.umap' failed to load '/Game/Maps/Level_HideNSneak_BuiltData': Can't find file.
+[2020.11.12-19.20.07:834][  0]LoadErrors: Failed to load /Game/Maps/Level_HideNSneak_BuiltData.Level_HideNSneak_BuiltData Referenced by PersistentLevel
+[2020.11.12-19.20.07:835][  0]LogLinker: Warning: While loading '../../../../HideNSneak2/HideNSneakUnreal/Content/Maps/Level_HideNSneak.umap' failed to load '/Game/Maps/Level_HideNSneak_BuiltData': Can't find file.
+[2020.11.12-19.20.07:835][  0]LoadErrors: Failed to load /Game/Maps/Level_HideNSneak_BuiltData.Level_HideNSneak_BuiltData Referenced by PersistentLevel
+[2020.11.12-19.20.07:989][  0]LogAIModule: Creating AISystem for world Level_HideNSneak
+[2020.11.12-19.20.07:990][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000029A5397C400), frame # 0
+[2020.11.12-19.20.07:990][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000029A5380CE00), frame # 0
+[2020.11.12-19.20.07:996][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.11.12-19.20.08:018][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2020.11.12-19.20.08:019][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.11.12-19.20.08:019][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,145ms to complete.
+[2020.11.12-19.20.08:019][  0]LogFileHelpers: Loading map 'Level_HideNSneak' took 0.443
+[2020.11.12-19.20.08:023][  0]LogUnrealEdMisc: Total Editor Startup Time, took 8.110
+[2020.11.12-19.20.08:200][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.12-19.20.08:209][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.12-19.20.08:217][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.12-19.20.08:226][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.12-19.20.08:234][  0]LogCollectionManager: Loaded 0 collections in 0.001109 seconds
+[2020.11.12-19.20.08:253][  0]LogFileCache: Scanning file cache for directory 'D:/HideNSneak2/HideNSneakUnreal/Saved/Collections/' took 0.00s
+[2020.11.12-19.20.08:253][  0]LogFileCache: Scanning file cache for directory 'D:/HideNSneak2/HideNSneakUnreal/Content/Developers/Oskar/Collections/' took 0.00s
+[2020.11.12-19.20.08:254][  0]LogFileCache: Scanning file cache for directory 'D:/HideNSneak2/HideNSneakUnreal/Content/Collections/' took 0.00s
+[2020.11.12-19.20.08:254][  0]LogContentBrowser: Native class hierarchy populated in 0.0129 seconds. Added 3484 classes and 836 folders.
+[2020.11.12-19.20.08:258][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.11.12-19.20.08:307][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.11.12-19.20.08:317][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 2 classes and 0 folders.
+[2020.11.12-19.20.08:921][  0]LogSlate: Took 0.000216 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.11.12-19.20.08:924][  0]LogSlate: Took 0.000144 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.11.12-19.20.08:930][  0]LogSlate: Took 0.000152 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.11.12-19.20.09:002][  0]LogRenderer: Reallocating scene render targets to support 2316x1516 Format 10 NumSamples 1 (Frame:1).
+[2020.11.12-19.20.09:109][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.11.12-19.20.09:110][  0]LogLoad: (Engine Initialization) Total time: 9.20 seconds
+[2020.11.12-19.20.09:110][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.11.12-19.20.09:173][  0]LogAssetRegistry: Asset discovery search completed in 4.8948 seconds
+[2020.11.12-19.20.09:178][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000004 seconds (updated 0 objects)
+[2020.11.12-19.20.09:180][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.11.12-19.20.09:339][  0]LogSlate: Took 0.000130 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.11.12-19.20.11:772][241]LogSlate: Window 'Message Log' being destroyed
+[2020.11.12-19.20.11:786][241]LogSlate: Window 'Message Log' being destroyed
+[2020.11.12-19.20.14:367][397]LogSlate: Took 0.000175 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.11.12-19.20.14:731][397]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/Alpha_playable_whitebox.Alpha_playable_whitebox
+[2020.11.12-19.20.14:762][397]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2020.11.12-19.20.14:764][397]Cmd: MAP LOAD FILE="../../../../HideNSneak2/HideNSneakUnreal/Content/Maps/Alpha_playable_whitebox.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.11.12-19.20.14:764][397]LightingResults: New page: Lighting Build
+[2020.11.12-19.20.14:764][397]LoadErrors: New page: Loading map: Alpha_playable_whitebox.umap
+[2020.11.12-19.20.14:764][397]LogWorld: UWorld::CleanupWorld for Level_HideNSneak, bSessionEnded=true, bCleanupResources=true
+[2020.11.12-19.20.14:765][397]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.12-19.20.14:765][397]MapCheck: New page: Map Check
+[2020.11.12-19.20.14:765][397]LightingResults: New page: Lighting Build
+[2020.11.12-19.20.14:782][397]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000029A5397C400), frame # 397
+[2020.11.12-19.20.14:782][397]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000029A5380CE00), frame # 397
+[2020.11.12-19.20.14:783][397]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2020.11.12-19.20.15:130][397]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.11.12-19.20.15:131][397]LogAIModule: Creating AISystem for world Alpha_playable_whitebox
+[2020.11.12-19.20.15:131][397]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000029ABBE9F800), frame # 397
+[2020.11.12-19.20.15:131][397]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000029ABC4E2E80), frame # 397
+[2020.11.12-19.20.15:164][397]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2020.11.12-19.20.15:185][397]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.11.12-19.20.15:186][397]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,31ms to complete.
+[2020.11.12-19.20.15:186][397]LogFileHelpers: Loading map 'Alpha_playable_whitebox' took 0.422
+[2020.11.12-19.21.48:970][240]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_HideNSneakCPPCharacter.BP_HideNSneakCPPCharacter
+[2020.11.12-19.21.49:591][240]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 125 classes and 0 folders.
+[2020.11.12-19.21.51:105][240]LogSlate: Took 0.006908 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.11.12-19.21.53:222][334]LogSlate: Took 0.000169 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
