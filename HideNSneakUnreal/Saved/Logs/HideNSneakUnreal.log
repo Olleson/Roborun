@@ -847,3 +847,10 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.11.12-19.25.18:031][642]AssetCheck: New page: Asset Save: Alpha_playable_whitebox
 [2020.11.12-19.25.18:031][642]LogContentValidation: Display: Validating World /Game/Maps/Alpha_playable_whitebox.Alpha_playable_whitebox
 [2020.11.12-19.25.18:683][694]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube196)
+[2020.11.12-19.26.59:301][141]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube92)
+[2020.11.12-19.27.00:040][188]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere)
+[2020.11.12-19.27.02:121][335]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Alpha_playable_whitebox" FILE="../../../../HideNSneak2/HideNSneakUnreal/Content/Maps/Alpha_playable_whitebox.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.11.12-19.27.02:150][335]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2020.11.12-19.27.02:678][335]LogSavePackage: Moving '../../../../HideNSneak2/HideNSneakUnreal/Saved/Alpha_playable_whitebox4749E5C34FC2045BBE534CB428BCF99F.tmp' to '../../../../HideNSneak2/HideNSneakUnreal/Content/Maps/Alpha_playable_whitebox.umap'
+[2020.11.12-19.27.02:779][335]AssetCheck: New page: Asset Save: Alpha_playable_whitebox
+[2020.11.12-19.27.02:779][335]LogContentValidation: Display: Validating World /Game/Maps/Alpha_playable_whitebox.Alpha_playable_whitebox
