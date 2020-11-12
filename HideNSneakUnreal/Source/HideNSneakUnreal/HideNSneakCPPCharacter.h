@@ -76,6 +76,63 @@ public:
 	void ServerResetPlayersToHiders_Implementation();
 
 	UPROPERTY(EditAnywhere)
+		bool DecoyAvailible = true;
+
+	UFUNCTION(Client, unreliable, BlueprintCallable, Category = "Hider")
+		//make character go stealth + spawn a decoy character
+		void UseDecoyAbility();
+	void UseDecoyAbility_Implementation();
+
+	UFUNCTION(Server, reliable)
+		//Turns the character visible on all clients on the server
+		void ServerDecoyStealthOver(AHideNSneakCPPCharacter *MyActor);
+	void ServerDecoyStealthOver_Implementation(AHideNSneakCPPCharacter*MyActor);
+
+	UFUNCTION(Server, reliable)
+		//server side for handling the making of the character go stealth + spawn a decoy character
+		void ServerDecoyAbility(AHideNSneakCPPCharacter *SpawnActor, FTransform DecoyTransform, FVector DecoyVelocity, float MovementValue);
+	void ServerDecoyAbility_Implementation(AHideNSneakCPPCharacter *SpawnActor, FTransform DecoyTransform, FVector DecoyVelocity, float MovementValue);
+
+	// Acces to the timer for handling the duration of the stealth
+	FTimerHandle DecoyTimerHandle;
+	//acces to the timer for handling the cooldown of the decoy
+	FTimerHandle DecoyCooldownHandle;
+	//acces to the timer for handling the duration of the Stealth
+	FTimerHandle StealthTimerHandle;
+
+	UPROPERTY(EditAnywhere)
+		//The Cooldown of the Decoy
+		float DecoyCooldown = 60.0f;
+
+	UPROPERTY(EditAnywhere)
+		//The duration of the stealth when you use the decoy ability
+		float StealthDuration = 3.0f;
+
+	UPROPERTY(EditAnywhere)
+		//How many seconds the decoy lives after it has been spawned
+		float DecoyDuration = 5.0f;
+
+	UPROPERTY(EditAnywhere)
+		//Standard movementvalue for the decoy when it spawns
+		float DecoyMovementValue = 1.0f;
+
+	UFUNCTION(Client, reliable, Category = "Hider")
+		//Turning the referenced character back to visible for all clients
+		void DecoyStealthOver();
+	void DecoyStealthOver_Implementation();
+
+	UFUNCTION( Client, reliable, category = "´Hider")
+		//clears the timer for the cooldown reset and makes the decoy ability availible again
+		void DecoyCooldownOver();
+	void DecoyCooldownOver_Implementation();
+
+	UFUNCTION(Client, reliable, BlueprintCallable , Category = "Hider")
+		//moves the decoy
+		void MoveDecoy();
+	void MoveDecoy_Implementation();
+
+
+	UPROPERTY(EditAnywhere)
 		AActor* targetActor;
 
 	UPROPERTY(VisibleAnywhere)
@@ -85,6 +142,8 @@ public:
 		void OnCompHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit);
 
 protected:
+	UPROPERTY(EditAnywhere)
+	TSubclassOf<class AHideNSneakCPPCharacter> Decoy;
 
 	/** Called for forwards/backward input */
 	void MoveForward(float Value);
@@ -149,20 +208,4 @@ public:
 	// Returns true if the character is a seeker
 	UFUNCTION(BlueprintPure, Category = "Seeker")
 	bool IsSeeker() const { return bIsSeeker; }
-
-	//UFUNCTION()
-	//	void Test();
-	UFUNCTION()
-		virtual void Tick(float DeltaSeconds);
-	//Array of all actors in scene
-	UPROPERTY(VisibleAnywhere)
-		TArray<AActor*> FoundActors;
-
-	UFUNCTION(BlueprintCallable)
-		void GiveHidersOutline();
-
-	UFUNCTION()
-		void DrawLines();
-
-	//bool CanDrawLines = false;
 };

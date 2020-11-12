@@ -5,7 +5,6 @@
 #include "Components/CapsuleComponent.h"
 #include "Components/InputComponent.h"
 #include "Components/SphereComponent.h"
-#include "Components/LineBatchComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "GameFramework/Controller.h"
 #include "GameFramework/SpringArmComponent.h"
@@ -17,8 +16,7 @@
 #include "GameplayTags.h"
 #include "GameplayTagsManager.h"
 #include "GameFramework/Actor.h"
-#include "DrawDebugHelpers.h"
-#include "GameController.h"
+#include "Engine/World.h"
 
 //////////////////////////////////////////////////////////////////////////
 // AHideNSneakCPPCharacter
@@ -69,10 +67,6 @@ void AHideNSneakCPPCharacter::BeginPlay()
 {
 	Super::BeginPlay();
 	GetCapsuleComponent()->OnComponentHit.AddDynamic(this, &AHideNSneakCPPCharacter::OnCompHit);
-
-	/*TSubclassOf<AActor> AHideNSneakCPPCharacter;*/
-
-	UGameplayStatics::GetAllActorsOfClass(GetWorld(), AHideNSneakCPPCharacter::StaticClass(), FoundActors);
 }
 
 void AHideNSneakCPPCharacter::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const {
@@ -154,6 +148,7 @@ void AHideNSneakCPPCharacter::ServerBecomeHider_Implementation()
 {
 	bIsSeeker = false;
 	if (HasAuthority()) {
+		
 		OnRep_IsSeeker();
 	}
 }
@@ -193,6 +188,94 @@ void AHideNSneakCPPCharacter::ServerResetPlayersToHiders_Implementation()
 	}
 }
 
+
+//make character go stealth + spawn a decoy character
+void AHideNSneakCPPCharacter::UseDecoyAbility_Implementation() { 
+	if (DecoyAvailible) {
+	
+		//timer for delaying when the other part of the function is called
+		GetWorldTimerManager().SetTimer(StealthTimerHandle, this, &AHideNSneakCPPCharacter::DecoyStealthOver_Implementation, StealthDuration, false); //local
+		if (Decoy != NULL) {
+				DecoyAvailible = false;			
+			if (UWorld* const World = GetWorld()) {
+				FActorSpawnParameters SpawnParameters; //local
+				SpawnParameters.Owner = this;  //local
+				SpawnParameters.Instigator = GetInstigator(); //local
+				FTransform Decoytransform = this->GetActorTransform(); //local
+				FVector DecoyVelocity = this->GetVelocity(); //local
+				//AHideNSneakCPPCharacter * const DecoyActor = World->SpawnActor<AHideNSneakCPPCharacter>(Decoy, Spawntransform, SpawnParameters); //server
+				//DecoyActor->SetLifeSpan(DecoyDuration); //server
+				//DecoyActor->GetCharacterMovement()->Velocity = DecoyVelocity; //server
+				//DecoyActor->MovementValue = 1.0f;  //server
+				//DecoyActor->SetActorTickEnabled(true); //server
+				if (this->GetInputAxisValue("MoveForward") != 0 || this->GetInputAxisValue("MoveRight") != 0) {
+					ServerDecoyAbility(this, Decoytransform, DecoyVelocity, 1.0f);
+				}
+				else
+				{
+					ServerDecoyAbility(this, Decoytransform, DecoyVelocity, 0.0f);
+				}
+				GetWorldTimerManager().SetTimer(DecoyCooldownHandle, this, &AHideNSneakCPPCharacter::DecoyCooldownOver_Implementation, DecoyCooldown, false);//local
+			}
+		}
+	}
+}
+
+//Turning the referenced character back to visible for all clients
+void AHideNSneakCPPCharacter::ServerDecoyStealthOver_Implementation(AHideNSneakCPPCharacter *MyActor)
+{
+	if (HasAuthority()) {
+		MyActor->SetActorHiddenInGame(false);
+	}
+}
+
+//server side for handling the making of the character go stealth + spawn a decoy character
+void AHideNSneakCPPCharacter::ServerDecoyAbility_Implementation(AHideNSneakCPPCharacter *SpawnActor, FTransform DecoyTransform, FVector DecoyVelocity, float MovementValue)
+{
+	if (HasAuthority()) {
+
+		SpawnActor->SetActorHiddenInGame(true);
+		if (UWorld* const World = GetWorld()) {
+			FActorSpawnParameters SpawnParameters;
+			SpawnParameters.Owner = SpawnActor;
+			SpawnParameters.Instigator = GetInstigator();
+			AHideNSneakCPPCharacter* const DecoyActor = World->SpawnActor<AHideNSneakCPPCharacter>(Decoy, DecoyTransform, SpawnParameters);
+			DecoyActor->MoveIgnoreActorAdd(SpawnActor);
+			SpawnActor->MoveIgnoreActorAdd(DecoyActor);
+			DecoyActor->SetLifeSpan(DecoyDuration);
+			DecoyActor->GetCharacterMovement()->Velocity = DecoyVelocity;
+			if (MovementValue != 0.0f) {
+				DecoyActor->DecoyMovementValue = MovementValue;
+				DecoyActor->SetActorTickEnabled(true); 
+			}
+		}
+	}
+}
+
+//make charcter go unstealth.
+void AHideNSneakCPPCharacter::DecoyStealthOver_Implementation()
+{
+	ServerDecoyStealthOver(this);
+	GetWorldTimerManager().ClearTimer(StealthTimerHandle);
+	GetWorldTimerManager().ClearTimer(DecoyTimerHandle);
+}
+
+//clears the timer for the cooldown reset and makes the decoy ability availible again
+void AHideNSneakCPPCharacter::DecoyCooldownOver_Implementation()
+{
+	DecoyAvailible = true;
+	GetWorldTimerManager().ClearTimer(DecoyCooldownHandle);
+}
+
+//moves the decoy 
+void AHideNSneakCPPCharacter::MoveDecoy_Implementation()
+{
+	if ((Controller != NULL))
+	{
+		AddMovementInput(this->GetActorForwardVector(), DecoyMovementValue);
+	}
+}
+
 void AHideNSneakCPPCharacter::OnCompHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit)
 {
 	if (OtherActor->IsA(AHideNSneakCPPCharacter::StaticClass()) && OtherActor != this && !Cast<AHideNSneakCPPCharacter>(OtherActor)->bIsSeeker && bIsSeeker) {
@@ -229,50 +312,4 @@ void AHideNSneakCPPCharacter::MoveRight(float Value)
 		// add movement in that direction
 		AddMovementInput(Direction, Value);
 	}
-}
-
-void AHideNSneakCPPCharacter::Tick(float DeltaSeconds) {
-	Super::Tick(DeltaSeconds);
-
-	/*if(CanDrawLines)*/
-		DrawLines();
-
-	if (HasAuthority() )
-		DrawLines();
-}
-
-
-void AHideNSneakCPPCharacter::GiveHidersOutline()
-{
-
-}
-
-void AHideNSneakCPPCharacter::DrawLines() {
-
-	if (!bIsSeeker)
-		return;
-
-	FHitResult OutHit;
-	FVector Start = GetActorLocation();
-	FVector End;
-	FCollisionQueryParams CollisionParams;
-
-	//if (HasAuthority() && !Hider->IsSeeker()) {
-	//	Hider->ServerBecomeSeeker_Implementation();
-	//	if (Hider == this) {
-	//		// Fake the On rep notify for the listen server if it is a hider that gets captured,
-	//		// as the Server doesn't get on rep notify automatically
-	//		OnRep_IsSeeker();
-
-	for (int i = 0; i < FoundActors.Num(); i++) {
-		if (FoundActors[i] != this && !Cast<AHideNSneakCPPCharacter>(FoundActors[i])->IsSeeker()) {
-			End = FoundActors[i]->GetActorLocation();
-			
-			GetWorld()->LineBatcher->DrawLine(Start, End, FColor::Green, SDPG_World, 5, 0.01);
-		}
-	}
-	
-	//if (GetWorld()->LineTraceSingleByChannel(OutHit, Start, End, ECC_WorldStatic, FCollisionQueryParams(true)) && *OutHit.GetActor()->GetName() != this->GetName()) {
-	//	GEngine->AddOnScreenDebugMessage(-1, 1.f, FColor::Green, FString::Printf(TEXT("The Component Being Hit is: %s"), *OutHit.GetActor()->GetName()));
-	//}
 }
