@@ -20,37 +20,12 @@ public:
 
 public:
 
-	AHideNSneakGameModeBase();
-	void AssignRoles();
-	void EndGame();
-	void LoadNextRound();
 
 protected:
-	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "UMG")
-		TSubclassOf<UUserWidget> DefaultRoundCompleteWidget;
-	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "UMG")
-		UUserWidget* RoundCompleteWidget;
 
-	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "UMG")
-		TSubclassOf<UUserWidget> DefaultGameCompleteWidget;
-	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "UMG")
-		UUserWidget* GameCompleteWidget;
 
 private:
 
-	void BeginPlay() override;
 
-	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"), Category = "Rounds")
-		TArray<FString> Rounds;
-
-	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"), Category = "Players")
-		TArray<FString> Players;
-	
-	APlayerController* Controllers[];
-
-	int32 CurrentRoundIndex;
-	FString NextRound;
-
-	void CheckRound();
 
 };

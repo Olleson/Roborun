@@ -10,8 +10,8 @@
 	{
 		"MajorVersion": 4,
 		"MinorVersion": 25,
-		"PatchVersion": 4,
-		"Changelist": 14469661,
+		"PatchVersion": 3,
+		"Changelist": 13942748,
 		"CompatibleChangelist": 13144385,
 		"IsLicenseeVersion": 0,
 		"IsPromotedBuild": 0,
@@ -66,6 +66,10 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Online/OnlineSubsystemOculus/Binaries/Win64/UE4Editor-OnlineSubsystemOculus.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/CodeView/Binaries/Win64/UE4Editor-CodeView.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
@@ -2269,6 +2273,10 @@
 			"Type": "RequiredResource"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Experimental/CodeView/Binaries/Win64/UE4Editor.modules",
+			"Type": "RequiredResource"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor.modules",
 			"Type": "RequiredResource"
 		},
@@ -2692,6 +2700,10 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/CodeView/CodeView.uplugin",
 			"Type": "UFS"
 		},
 		{
