@@ -29,11 +29,11 @@
 			"Type": "Executable"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/AdvancedSessions/AdvancedSessions/Binaries/Win64/UE4Editor-AdvancedSessions.dll",
+			"Path": "$(EngineDir)/Plugins/AdvancedSessions/Binaries/Win64/UE4Editor-AdvancedSessions.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/AdvancedSessions/AdvancedSessions/Binaries/Win64/UE4Editor-AdvancedSessions.pdb",
+			"Path": "$(EngineDir)/Plugins/AdvancedSessions/Binaries/Win64/UE4Editor-AdvancedSessions.pdb",
 			"Type": "SymbolFile"
 		},
 		{
@@ -49,11 +49,11 @@
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/AdvancedSessions/AdvancedSteamSessions/Binaries/Win64/UE4Editor-AdvancedSteamSessions.dll",
+			"Path": "$(EngineDir)/Plugins/AdvancedSteamSessions/Binaries/Win64/UE4Editor-AdvancedSteamSessions.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/AdvancedSessions/AdvancedSteamSessions/Binaries/Win64/UE4Editor-AdvancedSteamSessions.pdb",
+			"Path": "$(EngineDir)/Plugins/AdvancedSteamSessions/Binaries/Win64/UE4Editor-AdvancedSteamSessions.pdb",
 			"Type": "SymbolFile"
 		},
 		{
@@ -2245,7 +2245,7 @@
 			"Type": "RequiredResource"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/AdvancedSessions/AdvancedSessions/Binaries/Win64/UE4Editor.modules",
+			"Path": "$(EngineDir)/Plugins/AdvancedSessions/Binaries/Win64/UE4Editor.modules",
 			"Type": "RequiredResource"
 		},
 		{
@@ -2257,7 +2257,7 @@
 			"Type": "RequiredResource"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/AdvancedSessions/AdvancedSteamSessions/Binaries/Win64/UE4Editor.modules",
+			"Path": "$(EngineDir)/Plugins/AdvancedSteamSessions/Binaries/Win64/UE4Editor.modules",
 			"Type": "RequiredResource"
 		},
 		{
@@ -2675,7 +2675,7 @@
 			"Type": "UFS"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/AdvancedSessions/AdvancedSessions/AdvancedSessions.uplugin",
+			"Path": "$(EngineDir)/Plugins/AdvancedSessions/AdvancedSessions.uplugin",
 			"Type": "UFS"
 		},
 		{
@@ -2687,7 +2687,7 @@
 			"Type": "UFS"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/AdvancedSessions/AdvancedSteamSessions/AdvancedSteamSessions.uplugin",
+			"Path": "$(EngineDir)/Plugins/AdvancedSteamSessions/AdvancedSteamSessions.uplugin",
 			"Type": "UFS"
 		},
 		{
