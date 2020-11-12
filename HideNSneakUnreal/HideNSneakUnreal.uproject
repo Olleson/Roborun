@@ -31,11 +31,7 @@
 			"Enabled": true
 		},
 		{
-			"Name": "AdvancedSessions",
-			"Enabled": true
-		},
-		{
-			"Name": "AdvancedSteamSessions",
+			"Name": "CodeView",
 			"Enabled": true
 		}
 	]

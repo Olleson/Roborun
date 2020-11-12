@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "GameFramework/CharacterMovementComponent.h"
 #include "HideNSneakCPPCharacter.generated.h"
 
 UCLASS()
@@ -116,17 +117,17 @@ public:
 		//Standard movementvalue for the decoy when it spawns
 		float DecoyMovementValue = 1.0f;
 
-	UFUNCTION(Client, reliable, Category = "Hider")
+	UFUNCTION(Client, unreliable, Category = "Hider")
 		//Turning the referenced character back to visible for all clients
 		void DecoyStealthOver();
 	void DecoyStealthOver_Implementation();
 
-	UFUNCTION( Client, reliable, category = "´Hider")
+	UFUNCTION( Client, unreliable, category = "´Hider")
 		//clears the timer for the cooldown reset and makes the decoy ability availible again
 		void DecoyCooldownOver();
 	void DecoyCooldownOver_Implementation();
 
-	UFUNCTION(Client, reliable, BlueprintCallable , Category = "Hider")
+	UFUNCTION(Client, unreliable,BlueprintCallable , Category = "Hider")
 		//moves the decoy
 		void MoveDecoy();
 	void MoveDecoy_Implementation();

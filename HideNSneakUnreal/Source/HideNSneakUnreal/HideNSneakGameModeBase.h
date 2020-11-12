@@ -17,4 +17,15 @@ class HIDENSNEAKUNREAL_API AHideNSneakGameModeBase : public AGameModeBase
 public:
 	AHideNSneakGameModeBase();
 	
+
+public:
+
+
+protected:
+
+
+private:
+
+
+
 };
