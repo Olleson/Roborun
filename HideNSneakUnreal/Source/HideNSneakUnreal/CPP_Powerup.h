@@ -38,6 +38,7 @@ protected:
 
 
 
+
 public:	
 	// Called every frame
 	AHideNSneakCPPCharacter* Character;

@@ -60,8 +60,6 @@ void ACPP_Powerup::OnOverlapBegin(UPrimitiveComponent* OverlapComponent, AActor*
 		GetWorld()->GetTimerManager().SetTimer(PowerTimerHandle, this, &ACPP_Powerup::ResetPowers, duration, false);	
 		Character->GetMesh()->SetVisibility(false);
 		
-		
-		
 	}
 
 	

@@ -4,10 +4,10 @@
   Building 5 actions with 12 processes...
     [1/5] CPP_Powerup.cpp
     [2/5] CPP_MovementBoost.cpp
-    [3/5] UE4Editor-HideNSneakUnreal-0002.lib
-       Creating library C:\Users\Abdi\Desktop\Projects\SU\ProjSpelet\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal-0002.lib and object C:\Users\Abdi\Desktop\Projects\SU\ProjSpelet\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal-0002.exp
-    [4/5] UE4Editor-HideNSneakUnreal-0002.dll
-       Creating library C:\Users\Abdi\Desktop\Projects\SU\ProjSpelet\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal-0002.suppressed.lib and object C:\Users\Abdi\Desktop\Projects\SU\ProjSpelet\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal-0002.suppressed.exp
+    [3/5] UE4Editor-HideNSneakUnreal-0007.lib
+       Creating library C:\Users\Abdi\Desktop\Projects\SU\ProjSpelet\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal-0007.lib and object C:\Users\Abdi\Desktop\Projects\SU\ProjSpelet\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal-0007.exp
+    [4/5] UE4Editor-HideNSneakUnreal-0007.dll
+       Creating library C:\Users\Abdi\Desktop\Projects\SU\ProjSpelet\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal-0007.suppressed.lib and object C:\Users\Abdi\Desktop\Projects\SU\ProjSpelet\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal-0007.suppressed.exp
     [5/5] HideNSneakUnrealEditor.target
-  Total time in Parallel executor: 14,77 seconds
-  Total execution time: 15,89 seconds
+  Total time in Parallel executor: 21,68 seconds
+  Total execution time: 23,65 seconds

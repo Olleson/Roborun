@@ -74,8 +74,6 @@ void  ACPP_MovementBoost::ResetPowers()
 {
 	bPowerActive = true;
 	Character->GetCharacterMovement()->MaxWalkSpeed = 600;
-	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Eureka!"));
-
 }
 
 
