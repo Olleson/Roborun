@@ -34,6 +34,8 @@ public:
 		//The smallest amount of players that can be in a round before it is over.
 		int MinimumAmountOfPlayers;
 
+	UPROPERTY(BlueprintReadWrite, Category = "Round Controller", EditAnywhere)
+		int AmountOfPlayersToStart;
 
 	UFUNCTION(BlueprintCallable, Category = "Round Controller")
 		//Adds a Hider to the Seeker Team
