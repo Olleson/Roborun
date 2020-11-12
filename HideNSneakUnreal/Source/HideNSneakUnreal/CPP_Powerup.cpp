@@ -4,6 +4,7 @@
 #include "CPP_Powerup.h"
 #include <Components/BoxComponent.h>
 #include <Engine/Engine.h>
+
 #include <Runtime/Engine/Classes/Kismet/GameplayStatics.h>
 
 // Sets default values
@@ -20,12 +21,6 @@ ACPP_Powerup::ACPP_Powerup()
 
 	CollisionBox->OnComponentBeginOverlap.AddDynamic(this,&ACPP_Powerup::OnOverlapBegin);
 	
-	
-	
-	
-
-
-	
 	//Setting the mesh
 
 	UStaticMeshComponent* Mesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("My PowerUp"));
@@ -38,24 +33,12 @@ ACPP_Powerup::ACPP_Powerup()
 		Mesh->SetWorldScale3D(FVector(1.f));
 	}
 
-
-
-
-	
-	
-	
-
 }
 
 // Called when the game starts or when spawned
 void ACPP_Powerup::BeginPlay()
 {
-
 	Super::BeginPlay();
-
-	//
-	Character = Cast<ACPP_Character>(UGameplayStatics::GetPlayerCharacter(GetWorld(), 0));
-	
 }
 
 
@@ -68,12 +51,14 @@ void ACPP_Powerup::Tick(float DeltaTime)
 
 void ACPP_Powerup::OnOverlapBegin(UPrimitiveComponent* OverlapComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
+	Character = Cast<AHideNSneakCPPCharacter>(OtherActor);
+
+	
 	//Give the player invisibility for x amount of seconds.
 	if (bPowerActive&& Character!=NULL){
 		bPowerActive = false;
 		GetWorld()->GetTimerManager().SetTimer(PowerTimerHandle, this, &ACPP_Powerup::ResetPowers, duration, false);	
 		Character->GetMesh()->SetVisibility(false);
-		
 		
 	}
 

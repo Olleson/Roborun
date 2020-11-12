@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\HideNSneakUnreal.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{57F1AD7D-0B14-43A8-9209-7BB57CC46EBD}</UniqueIdentifier>
+      <UniqueIdentifier>{C480BF1B-5034-4AD0-986F-C88A56102786}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\HideNSneakUnreal.Target.cs">
       <Filter>Source</Filter>
@@ -13,7 +13,7 @@
     </None>
     <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{2E4D1CDF-C486-4892-8D31-B45918317D1A}</UniqueIdentifier>
+      <UniqueIdentifier>{F7C6243D-3901-422C-A1CF-891829C57C6A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -34,7 +34,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\HideNSneakUnreal">
-      <UniqueIdentifier>{B3FA04F8-D69A-499A-91D6-CDC3C6FE97BF}</UniqueIdentifier>
+      <UniqueIdentifier>{4062CE91-2388-4BEB-B330-952A2620F664}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\HideNSneakUnreal\batman.cpp">
       <Filter>Source\HideNSneakUnreal</Filter>
@@ -135,6 +135,12 @@
     <ClInclude Include="..\..\Source\HideNSneakUnreal\OnlineGameInstance.h">
       <Filter>Source\HideNSneakUnreal</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\HideNSneakUnreal\Pablo.cpp">
+      <Filter>Source\HideNSneakUnreal</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HideNSneakUnreal\Pablo.h">
+      <Filter>Source\HideNSneakUnreal</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\HideNSneakUnreal\Pickup.cpp">
       <Filter>Source\HideNSneakUnreal</Filter>
     </ClCompile>
@@ -145,12 +151,6 @@
       <Filter>Source\HideNSneakUnreal</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\HideNSneakUnreal\RandomizeSeeker.h">
-      <Filter>Source\HideNSneakUnreal</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\HideNSneakUnreal\RoundController.cpp">
-      <Filter>Source\HideNSneakUnreal</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\HideNSneakUnreal\RoundController.h">
       <Filter>Source\HideNSneakUnreal</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\HideNSneakUnreal\SpawnVolume.cpp">
@@ -171,6 +171,9 @@
     <ClInclude Include="..\..\Source\HideNSneakUnreal\TagMechanic.h">
       <Filter>Source\HideNSneakUnreal</Filter>
     </ClInclude>
+    <None Include="..\..\Source\HideNSneakUnreal\TagMechanic.zip">
+      <Filter>Source\HideNSneakUnreal</Filter>
+    </None>
     <ClCompile Include="..\..\Source\HideNSneakUnreal\test.cpp">
       <Filter>Source\HideNSneakUnreal</Filter>
     </ClCompile>

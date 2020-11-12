@@ -3,11 +3,10 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
-#include "CPP_Character.h"
+#include <HideNSneakUnreal/HideNSneakCPPCharacter.h>
 #include <Components/StaticMeshComponent.h>
 #include <GameFrameWork/Actor.h>
 #include <Components/BoxComponent.h>
-#include <DrawDebugHelpers.h>
 #include "CPP_MovementBoost.generated.h"
 
 UCLASS()
@@ -39,7 +38,7 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 	// Called every frame
-	ACPP_Character* Character;
+	AHideNSneakCPPCharacter* Character;
 
 
 	//CollisionBox

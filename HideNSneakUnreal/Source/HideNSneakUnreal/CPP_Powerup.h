@@ -4,11 +4,13 @@
 
 #include "CoreMinimal.h"
 #include "CPP_Character.h"
+#include <HideNSneakUnreal/HideNSneakCPPCharacter.h>
 #include "GameFramework/Actor.h"
 #include <Components/StaticMeshComponent.h>
 #include <GameFrameWork/Actor.h>
 #include <Components/BoxComponent.h>
 #include <DrawDebugHelpers.h>
+
 #include "CPP_Powerup.generated.h"
 
 
@@ -36,9 +38,10 @@ protected:
 
 
 
+
 public:	
 	// Called every frame
-	ACPP_Character* Character;
+	AHideNSneakCPPCharacter* Character;
 
 
 	virtual void Tick(float DeltaTime) override;
