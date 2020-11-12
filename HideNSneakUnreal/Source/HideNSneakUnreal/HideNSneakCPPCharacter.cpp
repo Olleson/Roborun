@@ -16,12 +16,9 @@
 #include "GameplayTags.h"
 #include "GameplayTagsManager.h"
 #include "GameFramework/Actor.h"
-<<<<<<< HEAD
 #include "Engine/World.h"
-=======
 #include "DrawDebugHelpers.h"
 #include "RoundController.h"
->>>>>>> a9d035aebf83a53ce5d892f07713c7ec26a3ea50
 
 //////////////////////////////////////////////////////////////////////////
 // AHideNSneakCPPCharacter
@@ -72,13 +69,11 @@ void AHideNSneakCPPCharacter::BeginPlay()
 {
 	Super::BeginPlay();
 	GetCapsuleComponent()->OnComponentHit.AddDynamic(this, &AHideNSneakCPPCharacter::OnCompHit);
-<<<<<<< HEAD
-=======
+
 	RoundController = Cast<ARoundController>(UGameplayStatics::GetActorOfClass(GetWorld(), ARoundController::StaticClass()));
 	
 	//RoundController->Players.Add(this);
 	//RoundController->Hiders.Add(this);
->>>>>>> a9d035aebf83a53ce5d892f07713c7ec26a3ea50
 }
 
 void AHideNSneakCPPCharacter::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const {
