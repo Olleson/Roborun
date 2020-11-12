@@ -245,7 +245,7 @@ void AHideNSneakCPPCharacter::ServerDecoyAbility_Implementation(AHideNSneakCPPCh
 			FActorSpawnParameters SpawnParameters;
 			SpawnParameters.Owner = SpawnActor;
 			SpawnParameters.Instigator = GetInstigator();
-			AHideNSneakCPPCharacter* const DecoyActor = World->SpawnActor<AHideNSneakCPPCharacter>(Decoy, DecoyTransform, SpawnParameters);
+			AHideNSneakCPPCharacter* DecoyActor = World->SpawnActor<AHideNSneakCPPCharacter>(Decoy, DecoyTransform, SpawnParameters);
 			DecoyActor->MoveIgnoreActorAdd(SpawnActor);
 			SpawnActor->MoveIgnoreActorAdd(DecoyActor);
 			DecoyActor->SetLifeSpan(DecoyDuration);
