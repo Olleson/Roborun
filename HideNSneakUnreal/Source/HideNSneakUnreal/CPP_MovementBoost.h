@@ -18,6 +18,17 @@ public:
 	// Sets default values for this actor's properties
 	ACPP_MovementBoost();
 
+
+	UPROPERTY(EditAnywhere)
+		float Speedincrease = 800.0f;
+
+	UPROPERTY(EditAnywhere)
+		float RespawnTime = 60.0f;
+
+	UPROPERTY(EditAnywhere)
+		float Duration = 3.0f;
+	UPROPERTY(EditAnywhere)
+		float OriginalSpeed = 600.0f;
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -27,10 +38,16 @@ protected:
 
 	//Handles the time the power is active
 	FTimerHandle PowerTimerHandle;
+
+	//Handles the respawn time of the power
+	FTimerHandle PowerRespawnTimerHandle;
 	
 
 	UFUNCTION()
 		void ResetPowers();
+
+	UFUNCTION()
+		void RespawnPowerup();
 	
 
 public:	

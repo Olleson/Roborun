@@ -55,11 +55,11 @@ void ACPP_Powerup::OnOverlapBegin(UPrimitiveComponent* OverlapComponent, AActor*
 	
 	//Give the player invisibility for x amount of seconds.
 	if (bPowerActive&& Character!=NULL){
-		this->CollisionBox->DestroyComponent();
 		this->SetActorHiddenInGame(true);
 		this->SetActorEnableCollision(false);
 		bPowerActive = false;
 		GetWorld()->GetTimerManager().SetTimer(PowerTimerHandle, this, &ACPP_Powerup::ResetPowers, duration, false);	
+		GetWorld()->GetTimerManager().SetTimer(PowerRespawnTimerHandle, this, &ACPP_Powerup::RespawnPowerup, RespawnTime, false);
 		Character->GetMesh()->SetVisibility(false);
 		
 	}
@@ -77,6 +77,13 @@ void ACPP_Powerup::ResetPowers()
 	Character->JumpMaxCount = 1;
 	Character->GetMesh()->SetVisibility(true);
 	GetWorld()->GetTimerManager().ClearTimer(PowerTimerHandle);
-	this->Destroy();
+
 	}
+
+void ACPP_Powerup::RespawnPowerup()
+{
+	this->SetActorHiddenInGame(false);
+	this->SetActorEnableCollision(true);
+	GetWorld()->GetTimerManager().ClearTimer(PowerRespawnTimerHandle);
+}
 

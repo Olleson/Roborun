@@ -23,7 +23,10 @@ public:
 	// Sets default values for this actor's propertie
 	ACPP_Powerup();
 
-	float duration =5.0f;
+UPROPERTY(EditAnywhere)
+	float duration =3.0f;
+UPROPERTY(EditAnywhere)
+	float RespawnTime = 60.0f;
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -33,8 +36,14 @@ protected:
 
 	//Handles the time the power is active
 	FTimerHandle PowerTimerHandle;
+
+	FTimerHandle PowerRespawnTimerHandle;
 	UFUNCTION()
 	void ResetPowers();
+
+	UFUNCTION()
+		void RespawnPowerup();
+
 
 
 

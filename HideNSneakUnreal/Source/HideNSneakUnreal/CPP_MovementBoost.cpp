@@ -48,7 +48,6 @@ void ACPP_MovementBoost::BeginPlay()
 void ACPP_MovementBoost::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
 }
 
 void ACPP_MovementBoost::OnOverlapBegin(UPrimitiveComponent* OverlapComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
@@ -59,9 +58,12 @@ void ACPP_MovementBoost::OnOverlapBegin(UPrimitiveComponent* OverlapComponent, A
 	//Add the speedboost.
 	if (bPowerActive&& Character != NULL) {
 		bPowerActive = false;
-		Character->GetCharacterMovement()->MaxWalkSpeed = 2000;
-		GetWorld()->GetTimerManager().SetTimer(PowerTimerHandle, this, &ACPP_MovementBoost::ResetPowers, 5.0f, false);
-		}
+		Character->GetCharacterMovement()->MaxWalkSpeed += Speedincrease;
+		GetWorld()->GetTimerManager().SetTimer(PowerTimerHandle, this, &ACPP_MovementBoost::ResetPowers, Duration, false);
+		GetWorld()->GetTimerManager().SetTimer(PowerRespawnTimerHandle, this, &ACPP_MovementBoost::RespawnPowerup, RespawnTime, false);
+		this->SetActorHiddenInGame(true);
+		this->SetActorEnableCollision(false);
+	}
 		
 	
 
@@ -73,7 +75,15 @@ void ACPP_MovementBoost::OnOverlapBegin(UPrimitiveComponent* OverlapComponent, A
 void  ACPP_MovementBoost::ResetPowers()
 {
 	bPowerActive = true;
-	Character->GetCharacterMovement()->MaxWalkSpeed = 600;
+	Character->GetCharacterMovement()->MaxWalkSpeed = OriginalSpeed;
+	GetWorld()->GetTimerManager().ClearTimer(PowerTimerHandle);
+}
+
+void ACPP_MovementBoost::RespawnPowerup()
+{
+	GetWorld()->GetTimerManager().ClearTimer(PowerRespawnTimerHandle);
+	this->SetActorHiddenInGame(false);
+	this->SetActorEnableCollision(true);
 }
 
 
