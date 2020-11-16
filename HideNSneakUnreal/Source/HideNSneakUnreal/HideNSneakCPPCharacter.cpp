@@ -241,18 +241,20 @@ void AHideNSneakCPPCharacter::ServerDecoyAbility_Implementation(AHideNSneakCPPCh
 	if (HasAuthority()) {
 
 		SpawnActor->SetActorHiddenInGame(true);
-		if (UWorld* const World = GetWorld()) {
+		if (GetWorld() != NULL) {
 			FActorSpawnParameters SpawnParameters;
 			SpawnParameters.Owner = SpawnActor;
 			SpawnParameters.Instigator = GetInstigator();
-			AHideNSneakCPPCharacter* DecoyActor = World->SpawnActor<AHideNSneakCPPCharacter>(Decoy, DecoyTransform, SpawnParameters);
-			DecoyActor->MoveIgnoreActorAdd(SpawnActor);
-			SpawnActor->MoveIgnoreActorAdd(DecoyActor);
-			DecoyActor->SetLifeSpan(DecoyDuration);
-			DecoyActor->GetCharacterMovement()->Velocity = DecoyVelocity;
-			if (MovementValue != 0.0f) {
-				DecoyActor->DecoyMovementValue = MovementValue;
-				DecoyActor->SetActorTickEnabled(true); 
+			AHideNSneakCPPCharacter* DecoyActor = GetWorld()->SpawnActor<AHideNSneakCPPCharacter>(Decoy, DecoyTransform, SpawnParameters);
+			if(DecoyActor){ 
+				DecoyActor->MoveIgnoreActorAdd(SpawnActor);
+				SpawnActor->MoveIgnoreActorAdd(DecoyActor);
+				DecoyActor->SetLifeSpan(DecoyDuration);
+				DecoyActor->GetCharacterMovement()->Velocity = DecoyVelocity;
+				if (MovementValue != 0.0f) {
+					DecoyActor->DecoyMovementValue = MovementValue;
+					DecoyActor->SetActorTickEnabled(true); 
+				}
 			}
 		}
 	}
