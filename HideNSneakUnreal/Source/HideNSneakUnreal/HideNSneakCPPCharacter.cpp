@@ -251,6 +251,7 @@ void AHideNSneakCPPCharacter::ServerDecoyAbility_Implementation(AHideNSneakCPPCh
 				SpawnActor->MoveIgnoreActorAdd(DecoyActor);
 				DecoyActor->SetLifeSpan(DecoyDuration);
 				DecoyActor->GetCharacterMovement()->Velocity = DecoyVelocity;
+				DecoyActor->IsDecoy = true;
 				if (MovementValue != 0.0f) {
 					DecoyActor->DecoyMovementValue = MovementValue;
 					DecoyActor->SetActorTickEnabled(true); 

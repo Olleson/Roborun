@@ -39,6 +39,9 @@ public:
 	UPROPERTY(EditAnywhere)
 		bool hasBeenSeeker;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Hider")
+		bool IsDecoy = false;
+
 	// Client Request to turn into a hider
 	UFUNCTION(Client, Reliable, BlueprintCallable, Category = "Seeker")
 		void BecomeHider();
