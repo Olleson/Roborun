@@ -6,9 +6,8 @@
 #include <Runtime/Engine/Classes/Kismet/GameplayStatics.h>
 
 // Sets default values
-ACPP_MovementBoost::ACPP_MovementBoost()
-{
- 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+ACPP_MovementBoost::ACPP_MovementBoost() {
+	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
 	CollisionBox = CreateDefaultSubobject<UBoxComponent>(TEXT("BoxComponent"));
@@ -31,32 +30,18 @@ ACPP_MovementBoost::ACPP_MovementBoost()
 		Mesh->SetRelativeLocation(FVector(0.0f, 0.0f, 0.0f));
 		Mesh->SetWorldScale3D(FVector(1.f));
 	}
-
-
 }
 
-// Called when the game starts or when spawned
-void ACPP_MovementBoost::BeginPlay()
-{
-	Super::BeginPlay();
+void ACPP_MovementBoost::BeginPlay() { Super::BeginPlay(); }
 
-	
-	
-}
+void ACPP_MovementBoost::Tick(float DeltaTime) { Super::Tick(DeltaTime); }
 
-// Called every frame
-void ACPP_MovementBoost::Tick(float DeltaTime)
-{
-	Super::Tick(DeltaTime);
-}
-
-void ACPP_MovementBoost::OnOverlapBegin(UPrimitiveComponent* OverlapComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
-{
+void ACPP_MovementBoost::OnOverlapBegin(UPrimitiveComponent* OverlapComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult) {
 
 	Character = Cast<AHideNSneakCPPCharacter>(OtherActor);
-	
+
 	//Add the speedboost.
-	if (bPowerActive&& Character != NULL) {
+	if (bPowerActive && Character != NULL) {
 		bPowerActive = false;
 		Character->GetCharacterMovement()->MaxWalkSpeed += Speedincrease;
 		GetWorld()->GetTimerManager().SetTimer(PowerTimerHandle, this, &ACPP_MovementBoost::ResetPowers, Duration, false);
@@ -64,26 +49,17 @@ void ACPP_MovementBoost::OnOverlapBegin(UPrimitiveComponent* OverlapComponent, A
 		this->SetActorHiddenInGame(true);
 		this->SetActorEnableCollision(false);
 	}
-		
-	
-
-
-
 }
 
 //Remove the Speedboost
-void  ACPP_MovementBoost::ResetPowers()
-{
+void  ACPP_MovementBoost::ResetPowers() {
 	bPowerActive = true;
 	Character->GetCharacterMovement()->MaxWalkSpeed = OriginalSpeed;
 	GetWorld()->GetTimerManager().ClearTimer(PowerTimerHandle);
 }
 
-void ACPP_MovementBoost::RespawnPowerup()
-{
+void ACPP_MovementBoost::RespawnPowerup() {
 	GetWorld()->GetTimerManager().ClearTimer(PowerRespawnTimerHandle);
 	this->SetActorHiddenInGame(false);
 	this->SetActorEnableCollision(true);
 }
-
-

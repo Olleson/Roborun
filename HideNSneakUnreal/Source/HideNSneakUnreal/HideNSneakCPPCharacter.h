@@ -76,7 +76,7 @@ public:
 
 	void ServerResetPlayersToHiders_Implementation();
 
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		bool DecoyAvailible = true;
 
 	UFUNCTION(Client, unreliable, BlueprintCallable, Category = "Hider")
@@ -86,13 +86,13 @@ public:
 
 	UFUNCTION(Server, reliable)
 		//Turns the character visible on all clients on the server
-		void ServerDecoyStealthOver(AHideNSneakCPPCharacter *MyActor);
-	void ServerDecoyStealthOver_Implementation(AHideNSneakCPPCharacter*MyActor);
+		void ServerDecoyStealthOver(AHideNSneakCPPCharacter* MyActor);
+	void ServerDecoyStealthOver_Implementation(AHideNSneakCPPCharacter* MyActor);
 
 	UFUNCTION(Server, reliable)
 		//server side for handling the making of the character go stealth + spawn a decoy character
-		void ServerDecoyAbility(AHideNSneakCPPCharacter *SpawnActor, FTransform DecoyTransform, FVector DecoyVelocity, float MovementValue);
-	void ServerDecoyAbility_Implementation(AHideNSneakCPPCharacter *SpawnActor, FTransform DecoyTransform, FVector DecoyVelocity, float MovementValue);
+		void ServerDecoyAbility(AHideNSneakCPPCharacter* SpawnActor, FTransform DecoyTransform, FVector DecoyVelocity, float MovementValue);
+	void ServerDecoyAbility_Implementation(AHideNSneakCPPCharacter* SpawnActor, FTransform DecoyTransform, FVector DecoyVelocity, float MovementValue);
 
 	// Acces to the timer for handling the duration of the stealth
 	FTimerHandle DecoyTimerHandle;
@@ -101,7 +101,7 @@ public:
 	//acces to the timer for handling the duration of the Stealth
 	FTimerHandle StealthTimerHandle;
 
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		//The Cooldown of the Decoy
 		float DecoyCooldown = 60.0f;
 
@@ -122,12 +122,12 @@ public:
 		void DecoyStealthOver();
 	void DecoyStealthOver_Implementation();
 
-	UFUNCTION( Client, unreliable, category = "´Hider")
+	UFUNCTION(Client, unreliable, category = "´Hider")
 		//clears the timer for the cooldown reset and makes the decoy ability availible again
 		void DecoyCooldownOver();
 	void DecoyCooldownOver_Implementation();
 
-	UFUNCTION(Client, unreliable,BlueprintCallable , Category = "Hider")
+	UFUNCTION(Client, unreliable, BlueprintCallable, Category = "Hider")
 		//moves the decoy
 		void MoveDecoy();
 	void MoveDecoy_Implementation();
@@ -144,7 +144,7 @@ public:
 
 protected:
 	UPROPERTY(EditAnywhere)
-	TSubclassOf<class AHideNSneakCPPCharacter> Decoy;
+		TSubclassOf<class AHideNSneakCPPCharacter> Decoy;
 
 	/** Called for forwards/backward input */
 	void MoveForward(float Value);
@@ -177,19 +177,19 @@ protected:
 
 	// Wether this character is a seeker or hider
 	UPROPERTY(ReplicatedUsing = OnRep_IsSeeker, VisibleAnywhere, BlueprintReadWrite, Category = "Seeker", meta = (BlueprintProtected = "true"))
-	bool bIsSeeker;
+		bool bIsSeeker;
 
 	// Is called on clients when bIsSeeker changes
 	UFUNCTION(BlueprintImplementableEvent, Category = "Seeker")
-	void OnRep_IsSeeker();
+		void OnRep_IsSeeker();
 
 	// Base speed for characters
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "MovementSpeed", meta = (BlueprintProtected = "true"))
-	float BaseSpeed;
+		float BaseSpeed;
 
 	// Multiplier for controlling current speed depending on role
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "MovementSpeed", meta = (BlueprintProtected = "true"))
-	float SpeedFactor;
+		float SpeedFactor;
 
 	// Entry to capturing hiders
 	/*UFUNCTION(BlueprintCallable, Category = "Seeker")
@@ -197,7 +197,7 @@ protected:
 
 	// Server side handling of capturing hiders
 	UFUNCTION(Reliable, Server)
-	void ServerCaptureHider(AHideNSneakCPPCharacter* Hider);
+		void ServerCaptureHider(AHideNSneakCPPCharacter* Hider);
 
 	void ServerCaptureHider_Implementation(AHideNSneakCPPCharacter* Hider);
 
@@ -208,5 +208,5 @@ public:
 	FORCEINLINE class UCameraComponent* GetFollowCamera() const { return FollowCamera; }
 	// Returns true if the character is a seeker
 	UFUNCTION(BlueprintPure, Category = "Seeker")
-	bool IsSeeker() const { return bIsSeeker; }
+		bool IsSeeker() const { return bIsSeeker; }
 };
