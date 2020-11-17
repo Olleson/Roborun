@@ -75,7 +75,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{B872E465-B932-494A-A2F8-69A8DCC0AB3B}</ProjectGuid>
+    <ProjectGuid>{F3DDE6CF-6454-4DCD-8C89-3FF29B388D7F}</ProjectGuid>
     <Keyword>MakeFileProj</Keyword>
     <RootNamespace>HideNSneakUnreal</RootNamespace>
     <PlatformToolset>v142</PlatformToolset>
