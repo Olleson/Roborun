@@ -44,18 +44,15 @@ void UMovingPlatform::SetMovementVector(FVector CurrentLocation, FVector TargetL
 	MovementVector = (TargetLocation - CurrentLocation).GetSafeNormal();
 }
 
-bool UMovingPlatform::MovePlatform(FVector targetPosition, FVector CurrentPosition, FVector EndPosition, FVector StartPosition, float MovementSpeed, FVector& TargetPositionOut, FVector& MovementVectorOut)
-{
+bool UMovingPlatform::MovePlatform(FVector targetPosition, FVector CurrentPosition, FVector EndPosition, FVector StartPosition, float MovementSpeed, FVector& TargetPositionOut, FVector& MovementVectorOut){
 	if ((targetPosition - CurrentPosition).Size() <= MovementSpeed * FApp::GetDeltaTime()) {
-		{
-			if (targetPosition == StartPosition) {
-				TargetPositionOut = EndPosition;
-				MovementVectorOut = (EndPosition - StartPosition).GetSafeNormal();
-			}
-			else {
-				TargetPositionOut = StartPosition;
-				MovementVectorOut = (StartPosition - EndPosition).GetSafeNormal();
-			}
+		if (targetPosition == StartPosition){
+			TargetPositionOut = EndPosition;
+			MovementVectorOut = (EndPosition - StartPosition).GetSafeNormal();
+		}
+		else {
+			TargetPositionOut = StartPosition;
+			MovementVectorOut = (StartPosition - EndPosition).GetSafeNormal();
 		}
 		return true;
 	}
