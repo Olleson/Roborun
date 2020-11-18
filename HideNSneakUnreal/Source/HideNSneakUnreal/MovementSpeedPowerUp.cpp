@@ -1,6 +1,5 @@
 // Author: Alexander Aulin
-// Fill out your copyright notice in the Description page of Project Settings.
-
+//Co-author: Abdi Abdifatah
 
 #include "MovementSpeedPowerUp.h"
 

@@ -1,6 +1,5 @@
 //Author: Abdi Abdifatah
 //Co Author: Oskar Johansson
-// Fill out your copyright notice in the Description page of Project Settings.
 
 #pragma once
 
@@ -9,16 +8,13 @@
 #include "HideNSneakCPPCharacter.h"
 #include "Pickup.generated.h"
 
-/**
- * 
- */
 class AHideNSneakCPPCharacter;
 
 UCLASS()
 class HIDENSNEAKUNREAL_API APickup : public AStaticMeshActor
 {
 	GENERATED_BODY()
-	
+
 public:
 	/** Set default values via Constructor */
 	APickup();
@@ -45,11 +41,11 @@ public:
 
 	UFUNCTION(BlueprintCallable, Server, Reliable, Category = "Pickup")
 		void ApplyPowerUp(APawn* Pawn);
-	virtual void ApplyPowerUp_Implementation(APawn* Pawn){}
+	virtual void ApplyPowerUp_Implementation(APawn* Pawn) {}
 
 	UFUNCTION(BlueprintCallable, NetMulticast, Reliable, Category = "Pickup")
 		void ClientApplyPowerUp(APawn* Pawn);
-		void ClientApplyPowerUp_Implementation(APawn* Pawn);
+	void ClientApplyPowerUp_Implementation(APawn* Pawn);
 
 	UFUNCTION(BlueprintNativeEvent, Category = "Pickup")
 		void UnApplyPowerUp();

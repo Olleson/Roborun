@@ -1,5 +1,5 @@
 // Author: Alexander Aulin
-// Fill out your copyright notice in the Description page of Project Settings.
+//Co-author: Abdi Abdifatah
 
 #pragma once
 
@@ -8,9 +8,6 @@
 #include "HideNSneakCPPCharacter.h"
 #include "MovementSpeedPowerUp.generated.h"
 
-/**
- * 
- */
 class AHideNSneakCPPCharacter;
 
 UCLASS()
