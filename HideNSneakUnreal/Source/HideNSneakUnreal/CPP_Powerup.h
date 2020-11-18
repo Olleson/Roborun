@@ -38,6 +38,8 @@ protected:
 	FTimerHandle PowerTimerHandle;
 
 	FTimerHandle PowerRespawnTimerHandle;
+
+
 	UFUNCTION()
 	void ResetPowers();
 
@@ -55,7 +57,7 @@ public:
 
 	virtual void Tick(float DeltaTime) override;
 	
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
 		class UBoxComponent* CollisionBox;
 
 	UFUNCTION()
