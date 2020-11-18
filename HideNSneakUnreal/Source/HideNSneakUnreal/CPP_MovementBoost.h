@@ -13,11 +13,10 @@ UCLASS()
 class HIDENSNEAKUNREAL_API ACPP_MovementBoost : public AActor
 {
 	GENERATED_BODY()
-	
-public:	
+
+public:
 	// Sets default values for this actor's properties
 	ACPP_MovementBoost();
-
 
 	UPROPERTY(EditAnywhere)
 		float Speedincrease = 800.0f;
@@ -29,10 +28,11 @@ public:
 		float Duration = 3.0f;
 	UPROPERTY(EditAnywhere)
 		float OriginalSpeed = 600.0f;
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
-	
+
 	//if true then the players powerup is activated
 	bool bPowerActive = true;
 
@@ -41,22 +41,18 @@ protected:
 
 	//Handles the respawn time of the power
 	FTimerHandle PowerRespawnTimerHandle;
-	
 
 	UFUNCTION()
 		void ResetPowers();
 
 	UFUNCTION()
 		void RespawnPowerup();
-	
 
-public:	
+public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
-	// Called every frame
 	AHideNSneakCPPCharacter* Character;
-
 
 	//CollisionBox
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
@@ -64,7 +60,4 @@ public:
 
 	UFUNCTION()
 		void OnOverlapBegin(class UPrimitiveComponent* OverlapComponent, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
-	
-
-
 };
