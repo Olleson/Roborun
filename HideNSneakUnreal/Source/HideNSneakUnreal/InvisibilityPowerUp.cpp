@@ -1,5 +1,5 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
+//Author: Alexander Aulin
+//Co-author: Abdi Abdifatah
 
 #include "InvisibilityPowerUp.h"
 

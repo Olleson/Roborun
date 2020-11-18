@@ -1,4 +1,5 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+//Author: Alexande Aulin
+//Co-author: Abdi Abdifatah
 
 #pragma once
 
@@ -6,9 +7,6 @@
 #include "Pickup.h"
 #include "InvisibilityPowerUp.generated.h"
 
-/**
- * 
- */
 UCLASS()
 class HIDENSNEAKUNREAL_API AInvisibilityPowerUp : public APickup
 {

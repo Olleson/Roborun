@@ -96,7 +96,7 @@ public:
 
 	void ServerResetPlayersToHiders_Implementation();
 
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(EditAnywhere, BlueprintreadWrite)
 		bool DecoyAvailible = true;
 
 	UPROPERTY(EditAnywhere)
@@ -109,13 +109,13 @@ public:
 
 	UFUNCTION(Server, reliable)
 		//Turns the character visible on all clients on the server
-		void ServerDecoyStealthOver(AHideNSneakCPPCharacter *MyActor);
-	void ServerDecoyStealthOver_Implementation(AHideNSneakCPPCharacter*MyActor);
+		void ServerDecoyStealthOver(AHideNSneakCPPCharacter* MyActor);
+	void ServerDecoyStealthOver_Implementation(AHideNSneakCPPCharacter* MyActor);
 
 	UFUNCTION(Server, reliable)
 		//server side for handling the making of the character go stealth + spawn a decoy character
-		void ServerDecoyAbility(AHideNSneakCPPCharacter *SpawnActor, FTransform DecoyTransform, FVector DecoyVelocity, float MovementValue);
-	void ServerDecoyAbility_Implementation(AHideNSneakCPPCharacter *SpawnActor, FTransform DecoyTransform, FVector DecoyVelocity, float MovementValue);
+		void ServerDecoyAbility(AHideNSneakCPPCharacter* SpawnActor, FTransform DecoyTransform, FVector DecoyVelocity, float MovementValue);
+	void ServerDecoyAbility_Implementation(AHideNSneakCPPCharacter* SpawnActor, FTransform DecoyTransform, FVector DecoyVelocity, float MovementValue);
 
 	// Acces to the timer for handling the duration of the stealth
 	FTimerHandle DecoyTimerHandle;
@@ -124,7 +124,7 @@ public:
 	//acces to the timer for handling the duration of the Stealth
 	FTimerHandle StealthTimerHandle;
 
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		//The Cooldown of the Decoy
 		float DecoyCooldown = 60.0f;
 
@@ -145,12 +145,12 @@ public:
 		void DecoyStealthOver();
 	void DecoyStealthOver_Implementation();
 
-	UFUNCTION( Client, unreliable, category = "´Hider")
+	UFUNCTION(Client, unreliable, category = "´Hider")
 		//clears the timer for the cooldown reset and makes the decoy ability availible again
 		void DecoyCooldownOver();
 	void DecoyCooldownOver_Implementation();
 
-	UFUNCTION(Client, unreliable,BlueprintCallable , Category = "Hider")
+	UFUNCTION(Client, unreliable, BlueprintCallable, Category = "Hider")
 		//moves the decoy
 		void MoveDecoy();
 	void MoveDecoy_Implementation();
@@ -167,7 +167,7 @@ public:
 
 protected:
 	UPROPERTY(EditAnywhere)
-	TSubclassOf<class AHideNSneakCPPCharacter> Decoy;
+		TSubclassOf<class AHideNSneakCPPCharacter> Decoy;
 
 	/** Called for forwards/backward input */
 	void MoveForward(float Value);
@@ -200,11 +200,11 @@ protected:
 
 	// Wether this character is a seeker or hider
 	UPROPERTY(ReplicatedUsing = OnRep_IsSeeker, VisibleAnywhere, BlueprintReadWrite, Category = "Seeker", meta = (BlueprintProtected = "true"))
-	bool bIsSeeker;
+		bool bIsSeeker;
 
 	// Is called on clients when bIsSeeker changes
 	UFUNCTION(BlueprintImplementableEvent, Category = "Seeker")
-	void OnRep_IsSeeker();
+		void OnRep_IsSeeker();
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "MovementSpeed", meta = (BlueprintProtected = "true"))
 		float HiderBaseSpeed;
@@ -212,7 +212,7 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "MovementSpeed", meta = (BlueprintProtected = "true"))
 		float SeekerBaseSpeed;
 
-	
+
 	/*// Base speed for characters
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "MovementSpeed", meta = (BlueprintProtected = "true"))
 	float BaseSpeed;
@@ -226,11 +226,11 @@ protected:
 	void CaptureHiders();*/
 
 	//UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Pickup")
-		PowerUpInventoryItem* CollectedPowerUp;
+	PowerUpInventoryItem* CollectedPowerUp;
 
 	// Server side handling of capturing hiders
 	UFUNCTION(Reliable, Server)
-	void ServerCaptureHider(AHideNSneakCPPCharacter* Hider);
+		void ServerCaptureHider(AHideNSneakCPPCharacter* Hider);
 
 	void ServerCaptureHider_Implementation(AHideNSneakCPPCharacter* Hider);
 
@@ -241,5 +241,5 @@ public:
 	FORCEINLINE class UCameraComponent* GetFollowCamera() const { return FollowCamera; }
 	// Returns true if the character is a seeker
 	UFUNCTION(BlueprintPure, Category = "Seeker")
-	bool IsSeeker() const { return bIsSeeker; }
+		bool IsSeeker() const { return bIsSeeker; }
 };
