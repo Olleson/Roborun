@@ -624,3 +624,19 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.11.18-11.09.45:549][  0]LogEngineSessionManager: EngineSessionManager initialized
 [2020.11.18-11.09.45:549][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
 [2020.11.18-11.09.47:738][  0]LogInit: Transaction tracking system initialized
+[2020.11.18-11.09.49:828][  0]BlueprintLog: New page: Editor Load
+[2020.11.18-11.09.58:437][  0]LocalizationService: Localization service is disabled
+[2020.11.18-11.10.17:811][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Olle/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/' took 0.13s
+[2020.11.18-11.10.17:811][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.11.18-11.10.17:812][  0]LogCook: Display: Mobile HDR setting 1
+[2020.11.18-11.10.29:312][  0]SourceControl: Source control is disabled
+[2020.11.18-11.10.29:341][  0]LogUnrealEdMisc: Loading editor; pre map load, took 416.885
+[2020.11.18-11.10.29:443][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Olle/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Maps/Alpha_playable_whitebox.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.11.18-11.10.29:495][  0]LightingResults: New page: Lighting Build
+[2020.11.18-11.10.29:762][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.11.18-11.10.29:806][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.18-11.10.29:807][  0]MapCheck: New page: Map Check
+[2020.11.18-11.10.29:807][  0]LightingResults: New page: Lighting Build
+[2020.11.18-11.10.30:466][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000179C2D29E00), frame # 0
+[2020.11.18-11.10.30:466][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000179C2D616C0), frame # 0
+[2020.11.18-11.10.30:468][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
