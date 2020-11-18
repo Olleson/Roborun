@@ -99,6 +99,9 @@ public:
 	UPROPERTY(EditAnywhere)
 		bool DecoyAvailible = true;
 
+	UPROPERTY(EditAnywhere)
+		bool IsDecoy = false;
+
 	UFUNCTION(Client, unreliable, BlueprintCallable, Category = "Hider")
 		//make character go stealth + spawn a decoy character
 		void UseDecoyAbility();
