@@ -6,11 +6,14 @@
 
 #include "CoreMinimal.h"
 #include "Engine/StaticMeshActor.h"
+#include "HideNSneakCPPCharacter.h"
 #include "Pickup.generated.h"
 
 /**
  * 
  */
+class AHideNSneakCPPCharacter;
+
 UCLASS()
 class HIDENSNEAKUNREAL_API APickup : public AStaticMeshActor
 {
@@ -40,22 +43,46 @@ public:
 	UFUNCTION(BlueprintAuthorityOnly, Category = "Pickup")
 		virtual void PickedUpBy(APawn* Pawn);
 
+	UFUNCTION(BlueprintNativeEvent, Category = "Pickup")
+		void ApplyPowerUp(APawn* Pawn);
+	virtual void ApplyPowerUp_Implementation(APawn* Pawn){}
+
+	UFUNCTION(BlueprintNativeEvent, Category = "Pickup")
+		void UnApplyPowerUp();
+	virtual void UnApplyPowerUp_Implementation() {}
+
 protected:
 	/** True when the pickup can be used, false when deactivated */
 	UPROPERTY(ReplicatedUsing = OnRep_IsActive)
 		bool bIsActive;
 
 	/** This is called whenever bIsActive is updated */
-	UFUNCTION()
+	UFUNCTION(BlueprintCallable, Category = "Pickup")
 		virtual void OnRep_IsActive();
 
 	// The pawn who picked up the pickup
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Pickup")
 		APawn* PickupInstigator;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Pickup", meta = (BlueprintProtected = "true"))
+		float PowerUpDuration;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Pickup", meta = (BlueprintProtected = "true"))
+		bool Respawns;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Pickup", meta = (BlueprintProtected = "true"))
+		float RespawnDelay;
+
+	UFUNCTION(BlueprintCallable, Category = "Pickup", meta = (BlueprintProtected = "true"))
+		virtual void RespawnPickup();
+
+	std::queue<AHideNSneakCPPCharacter*> PlayerQueue;
+
 private:
 	// Client side handling of being picked up
 	UFUNCTION(NetMulticast, Unreliable)
 		void ClientOnPickedUpBy(APawn* Pawn);
 	void ClientOnPickedUpBy_Implementation(APawn* Pawn);
+
+	FTimerHandle RespawnTimer;
 };

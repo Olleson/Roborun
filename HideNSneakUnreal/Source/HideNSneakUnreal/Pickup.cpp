@@ -19,6 +19,11 @@ APickup::APickup() {
 	if (HasAuthority()) {
 		bIsActive = true;
 	}
+
+	// Default Respawn Settings
+	Respawns = true;
+	RespawnDelay = 60.0;
+	PowerUpDuration = 10.0;
 }
 
 void APickup::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const {
@@ -28,7 +33,28 @@ void APickup::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeP
 }
 
 void APickup::OnRep_IsActive() {
-	//Eventual functionality will be implemented by subclasses
+	if (bIsActive) {
+		GetStaticMeshComponent()->SetVisibility(true);
+		GetStaticMeshComponent()->SetGenerateOverlapEvents(true);
+		GetStaticMeshComponent()->SetCollisionEnabled(ECollisionEnabled::QueryAndPhysics);
+	}
+	else
+	{
+		GetStaticMeshComponent()->SetVisibility(false);
+		GetStaticMeshComponent()->SetGenerateOverlapEvents(false);
+		GetStaticMeshComponent()->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+		if (Respawns) {
+			GetWorld()->GetTimerManager().SetTimer(RespawnTimer, this, &APickup::RespawnPickup, RespawnDelay, false);
+		}
+	}
+}
+
+void APickup::RespawnPickup()
+{
+	SetActive(true);
+	if (HasAuthority()) {
+		OnRep_IsActive();
+	}
 }
 
 void APickup::ClientOnPickedUpBy_Implementation(APawn* Pawn)
@@ -58,6 +84,8 @@ void APickup::SetActive(bool NewPickupState) {
 
 void APickup::WasCollected_Implementation()
 {
-	//Log a debug message
-	UE_LOG(LogClass, Log, TEXT("APickup::WasCollected_Implementation()"));
+	SetActive(false);
+	if (HasAuthority()) {
+		OnRep_IsActive();
+	}
 }

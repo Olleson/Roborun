@@ -58,8 +58,8 @@ AHideNSneakCPPCharacter::AHideNSneakCPPCharacter()
 	bIsSeeker = false;
 
 	// Default values for controlling movement speed
-	BaseSpeed = 10.0f;
-	SpeedFactor = 0.75f;
+	HiderBaseSpeed = 600.0;
+	SeekerBaseSpeed = 666.0;
 
 	// Note: The skeletal mesh and anim blueprint references on the Mesh component (inherited from Character) 
 	// are set in the derived blueprint asset named MyCharacter (to avoid direct content references in C++)
@@ -93,6 +93,7 @@ void AHideNSneakCPPCharacter::SetupPlayerInputComponent(class UInputComponent* P
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
 	PlayerInputComponent->BindAction("BecomeSeeker", IE_Released, this, &AHideNSneakCPPCharacter::BecomeSeeker);
 	PlayerInputComponent->BindAction("ResetPlayersToHiders", IE_Released, this, &AHideNSneakCPPCharacter::ResetPlayersToHiders);
+	PlayerInputComponent->BindAction("ConsumePowerUp", IE_Released, this, &AHideNSneakCPPCharacter::ConsumePowerUp);
 
 	PlayerInputComponent->BindAxis("MoveForward", this, &AHideNSneakCPPCharacter::MoveForward);
 	PlayerInputComponent->BindAxis("MoveRight", this, &AHideNSneakCPPCharacter::MoveRight);
@@ -144,6 +145,34 @@ void AHideNSneakCPPCharacter::LookUpAtRate(float Rate)
 {
 	// calculate delta for this frame from the rate information
 	AddControllerPitchInput(Rate * BaseLookUpRate * GetWorld()->GetDeltaSeconds());
+}
+
+float AHideNSneakCPPCharacter::GetBaseSpeed()
+{
+	if (bIsSeeker) { return SeekerBaseSpeed; }
+	else
+	{
+		return HiderBaseSpeed;
+	}
+}
+
+void AHideNSneakCPPCharacter::CollectPickup(APickup* Pickup)
+{
+	if (CollectedPowerUp != NULL) {
+		delete CollectedPowerUp;
+		CollectedPowerUp = NULL;
+	}
+	CollectedPowerUp = new PowerUpInventoryItem(this, Pickup);
+	Pickup->PickedUpBy(this);
+}
+
+void AHideNSneakCPPCharacter::ConsumePowerUp()
+{
+	if (CollectedPowerUp != NULL) {
+		CollectedPowerUp->ApplyPickUp();
+		delete CollectedPowerUp;
+		CollectedPowerUp = NULL;
+	}
 }
 
 void AHideNSneakCPPCharacter::BecomeHider_Implementation()
@@ -287,6 +316,9 @@ void AHideNSneakCPPCharacter::OnCompHit(UPrimitiveComponent* HitComp, AActor* Ot
 	if (OtherActor->IsA(AHideNSneakCPPCharacter::StaticClass()) && OtherActor != this && !Cast<AHideNSneakCPPCharacter>(OtherActor)->bIsSeeker && bIsSeeker) {
 		targetTagMechanic = Cast<AHideNSneakCPPCharacter>(OtherActor);
 		ServerCaptureHider(targetTagMechanic);
+	}
+	else if (APickup* Pickup = Cast<APickup>(OtherActor)) {
+		CollectPickup(Pickup);
 	}
 }
 
