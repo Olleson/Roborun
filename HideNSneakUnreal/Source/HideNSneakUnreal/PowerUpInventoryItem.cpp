@@ -9,7 +9,8 @@ PowerUpInventoryItem::PowerUpInventoryItem(AHideNSneakCPPCharacter* InCharacter,
 
 void PowerUpInventoryItem::ApplyPickUp()
 {
-	Pickup->ApplyPowerUp(Character);
+	GEngine->AddOnScreenDebugMessage(-1, 7.0f, FColor::Red, FString("Inventory item activates power up"));
+	Pickup->ClientApplyPowerUp(Character);
 }
 
 PowerUpInventoryItem::~PowerUpInventoryItem()

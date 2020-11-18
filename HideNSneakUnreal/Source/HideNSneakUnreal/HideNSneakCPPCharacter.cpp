@@ -158,6 +158,7 @@ float AHideNSneakCPPCharacter::GetBaseSpeed()
 
 void AHideNSneakCPPCharacter::CollectPickup(APickup* Pickup)
 {
+	GEngine->AddOnScreenDebugMessage(-1, 7.0f, FColor::Red, FString("I've picked up a power up"));
 	if (CollectedPowerUp != NULL) {
 		delete CollectedPowerUp;
 		CollectedPowerUp = NULL;
@@ -166,12 +167,20 @@ void AHideNSneakCPPCharacter::CollectPickup(APickup* Pickup)
 	Pickup->PickedUpBy(this);
 }
 
-void AHideNSneakCPPCharacter::ConsumePowerUp()
+void AHideNSneakCPPCharacter::ConsumePowerUp_Implementation()
 {
-	if (CollectedPowerUp != NULL) {
-		CollectedPowerUp->ApplyPickUp();
-		delete CollectedPowerUp;
-		CollectedPowerUp = NULL;
+	GEngine->AddOnScreenDebugMessage(-1, 7.0f, FColor::Red, FString("I'm activating my Power Up"));
+	ServerConsumePowerUp();
+}
+
+void AHideNSneakCPPCharacter::ServerConsumePowerUp_Implementation()
+{
+	if (HasAuthority()) {
+		if (CollectedPowerUp != NULL) {
+			CollectedPowerUp->ApplyPickUp();
+			delete CollectedPowerUp;
+			CollectedPowerUp = NULL;
+		}
 	}
 }
 
@@ -193,14 +202,18 @@ void AHideNSneakCPPCharacter::ServerBecomeHider_Implementation()
 
 void AHideNSneakCPPCharacter::BecomeSeeker_Implementation()
 {
-	if (!bIsSeeker) 
+	if (!bIsSeeker) {
 		ServerBecomeSeeker();
+	}
 }
 
 void AHideNSneakCPPCharacter::ServerBecomeSeeker_Implementation()
 {
 	bIsSeeker = true;
-	
+	if (CollectedPowerUp != NULL) {
+		delete CollectedPowerUp;
+		CollectedPowerUp = NULL;
+	}
 	if (HasAuthority()) {
 		OnRep_IsSeeker();
 	}
@@ -318,7 +331,9 @@ void AHideNSneakCPPCharacter::OnCompHit(UPrimitiveComponent* HitComp, AActor* Ot
 		ServerCaptureHider(targetTagMechanic);
 	}
 	else if (APickup* Pickup = Cast<APickup>(OtherActor)) {
-		CollectPickup(Pickup);
+		if (!bIsSeeker) {
+			CollectPickup(Pickup);
+		}
 	}
 }
 

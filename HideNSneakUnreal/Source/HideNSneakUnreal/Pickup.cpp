@@ -71,6 +71,12 @@ void APickup::PickedUpBy(APawn* Pawn)
 	}
 }
 
+void APickup::ClientApplyPowerUp_Implementation(APawn* Pawn)
+{
+	GEngine->AddOnScreenDebugMessage(-1, 7.0f, FColor::Red, FString("Requesting Server to replicate power up activation"));
+	ApplyPowerUp(Pawn);
+}
+
 bool APickup::IsActive() {
 	return bIsActive;
 }

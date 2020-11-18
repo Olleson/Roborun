@@ -50,9 +50,14 @@ public:
 		// Sets the pointer to a collected pickup
 		void CollectPickup(APickup* Pickup);
 
-	UFUNCTION(BlueprintCallable, Category = "Pickup")
+	UFUNCTION(Client, Reliable, BlueprintCallable, Category = "Pickup")
 		// Consumes the current powerup
 		void ConsumePowerUp();
+	void ConsumePowerUp_Implementation();
+
+	UFUNCTION(Server, Reliable, BlueprintCallable, Category = "Pickup")
+		void ServerConsumePowerUp();
+	void ServerConsumePowerUp_Implementation();
 
 	// Client Request to turn into a hider
 	UFUNCTION(Client, Reliable, BlueprintCallable, Category = "Seeker")

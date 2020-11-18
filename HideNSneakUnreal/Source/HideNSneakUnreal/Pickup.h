@@ -43,9 +43,13 @@ public:
 	UFUNCTION(BlueprintAuthorityOnly, Category = "Pickup")
 		virtual void PickedUpBy(APawn* Pawn);
 
-	UFUNCTION(BlueprintNativeEvent, Category = "Pickup")
+	UFUNCTION(BlueprintCallable, Server, Reliable, Category = "Pickup")
 		void ApplyPowerUp(APawn* Pawn);
 	virtual void ApplyPowerUp_Implementation(APawn* Pawn){}
+
+	UFUNCTION(BlueprintCallable, NetMulticast, Reliable, Category = "Pickup")
+		void ClientApplyPowerUp(APawn* Pawn);
+		void ClientApplyPowerUp_Implementation(APawn* Pawn);
 
 	UFUNCTION(BlueprintNativeEvent, Category = "Pickup")
 		void UnApplyPowerUp();
