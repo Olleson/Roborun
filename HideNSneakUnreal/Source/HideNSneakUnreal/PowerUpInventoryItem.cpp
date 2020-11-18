@@ -1,4 +1,4 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+// Author: Alexander Aulin
 
 
 #include "PowerUpInventoryItem.h"
@@ -13,8 +13,14 @@ void PowerUpInventoryItem::ApplyPickUp()
 	Pickup->ClientApplyPowerUp(Character);
 }
 
+UTexture2D* PowerUpInventoryItem::GetPickUpIcon()
+{
+	return Pickup->GetPickupIcon();
+}
+
 PowerUpInventoryItem::~PowerUpInventoryItem()
 {
+	// Nullify pointers so it doesn't try to delete the character and pickup upon being destroyed
 	Character = NULL;
 	Pickup = NULL;
 }

@@ -1,4 +1,4 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+// Author: Alexander Aulin
 
 #pragma once
 
@@ -7,10 +7,10 @@
 #include "Pickup.h"
 
 /**
- * 
+ * This class is used as a proxy to avoid circular dependancy between APickup and AHideNSNeakCPPCharacter
  */
-class AHideNSneakCPPCharacter;
-class APickup;
+class AHideNSneakCPPCharacter; //Forward declaration
+class APickup; //Forward declaration
 
 class HIDENSNEAKUNREAL_API PowerUpInventoryItem
 {
@@ -20,6 +20,8 @@ public:
 	AHideNSneakCPPCharacter* Character;
 
 	virtual void ApplyPickUp();
+
+	UTexture2D* GetPickUpIcon();
 
 	virtual ~PowerUpInventoryItem();
 

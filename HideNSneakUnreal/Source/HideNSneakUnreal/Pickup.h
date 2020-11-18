@@ -26,32 +26,39 @@ public:
 	/** Required Network Scaffolding */
 	void GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const override;
 
-	/** Returns wether the pickup is active or not */
 	UFUNCTION(BlueprintPure, Category = "Pickup")
+		// Returns wether the pickup is active or not
 		bool IsActive();
 
-	/** Lets other classes safely change the pickup's activation state */
 	UFUNCTION(BlueprintCallable, Category = "Pickup")
+		// Lets other classes safely change the pickup's activation state
 		void SetActive(bool NewPickupState);
 
-	// Function to call when the pickup is collected
+	UFUNCTION(BlueprintCallable, Category = "Pickup")
+		// Returns the pickup icon
+		UTexture2D* GetPickupIcon();
+
 	UFUNCTION(BlueprintNativeEvent, Category = "Pickup")
+		// Function to call when the pickup is collected
 		void WasCollected();
 	virtual void WasCollected_Implementation();
 
-	// Server side handling of being picked up
 	UFUNCTION(BlueprintAuthorityOnly, Category = "Pickup")
+		// Server side handling of being picked up
 		virtual void PickedUpBy(APawn* Pawn);
 
 	UFUNCTION(BlueprintCallable, Server, Reliable, Category = "Pickup")
+		// Applies the powerup effect to the received character and adds them to the queue
 		void ApplyPowerUp(APawn* Pawn);
 	virtual void ApplyPowerUp_Implementation(APawn* Pawn){}
 
 	UFUNCTION(BlueprintCallable, NetMulticast, Reliable, Category = "Pickup")
+		// Requests the server to replicate the power up on all clients
 		void ClientApplyPowerUp(APawn* Pawn);
 		void ClientApplyPowerUp_Implementation(APawn* Pawn);
 
 	UFUNCTION(BlueprintNativeEvent, Category = "Pickup")
+		// Deactivates the powerup effect on the next player in the queue
 		void UnApplyPowerUp();
 	virtual void UnApplyPowerUp_Implementation() {}
 
@@ -68,25 +75,35 @@ protected:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Pickup")
 		APawn* PickupInstigator;
 
+	// The duration, in seconds, the pickup is applied when activated
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Pickup", meta = (BlueprintProtected = "true"))
 		float PowerUpDuration;
 
+	// Check if this pickup should respawn
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Pickup", meta = (BlueprintProtected = "true"))
 		bool Respawns;
 
+	// The time, in seconds, it takes for the pickup to respawn
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Pickup", meta = (BlueprintProtected = "true"))
 		float RespawnDelay;
 
+	// The icon that is shown when a player picks up the pickup
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Pickup", meta = (BlueprintProtected = "true"))
+		UTexture2D* PickupIcon;
+
 	UFUNCTION(BlueprintCallable, Category = "Pickup", meta = (BlueprintProtected = "true"))
+		// Respawns the pickup
 		virtual void RespawnPickup();
 
+	// Queue used to keep track of which player's poweup effect should be deactivated next
 	std::queue<AHideNSneakCPPCharacter*> PlayerQueue;
 
 private:
-	// Client side handling of being picked up
 	UFUNCTION(NetMulticast, Unreliable)
+		// Client side handling of being picked up
 		void ClientOnPickedUpBy(APawn* Pawn);
 	void ClientOnPickedUpBy_Implementation(APawn* Pawn);
 
+	// Timer handle used to time respawning
 	FTimerHandle RespawnTimer;
 };

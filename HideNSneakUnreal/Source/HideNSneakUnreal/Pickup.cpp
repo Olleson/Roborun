@@ -88,6 +88,11 @@ void APickup::SetActive(bool NewPickupState) {
 	}
 }
 
+UTexture2D* APickup::GetPickupIcon()
+{
+	return PickupIcon;
+}
+
 void APickup::WasCollected_Implementation()
 {
 	SetActive(false);
