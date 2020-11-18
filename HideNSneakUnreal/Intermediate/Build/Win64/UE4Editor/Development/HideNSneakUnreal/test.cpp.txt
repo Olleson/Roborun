@@ -1,3 +1,3 @@
-D:\HideNSneak2\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\Definitions.HideNSneakUnreal.h
-D:\HideNSneak2\HideNSneakUnreal\Source\HideNSneakUnreal\test.h
-D:\HideNSneak2\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Inc\HideNSneakUnreal\test.generated.h
+C:\Users\fredr\Documents\GitHub\PROJ_Grupp2\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\Definitions.HideNSneakUnreal.h
+c:\users\fredr\documents\github\proj_grupp2\hidensneakunreal\source\hidensneakunreal\test.h
+C:\Users\fredr\Documents\GitHub\PROJ_Grupp2\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Inc\HideNSneakUnreal\test.generated.h
