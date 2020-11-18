@@ -1,19 +1,37 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\HideNSneak2).
   Parsing headers for HideNSneakUnrealEditor
     Running UnrealHeaderTool "D:\HideNSneak2\HideNSneakUnreal\HideNSneakUnreal.uproject" "D:\HideNSneak2\HideNSneakUnreal\Intermediate\Build\Win64\HideNSneakUnrealEditor\Development\HideNSneakUnrealEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Oskar\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
-  Reflection code generated for HideNSneakUnrealEditor in 6,2950381 seconds
+  Reflection code generated for HideNSneakUnrealEditor in 6,3164474 seconds
   Building HideNSneakUnrealEditor...
   Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 8 actions with 16 processes...
-    [1/8] HideNSneakUnreal.init.gen.cpp
-    [2/8] CPP_Powerup.gen.cpp
-    [3/8] CPP_Powerup.cpp
-    [4/8] CPP_MovementBoost.gen.cpp
-    [5/8] CPP_MovementBoost.cpp
-    [6/8] UE4Editor-HideNSneakUnreal-0027.lib
-       Creating library D:\HideNSneak2\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal-0027.lib and object D:\HideNSneak2\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal-0027.exp
-    [7/8] UE4Editor-HideNSneakUnreal-0027.dll
-       Creating library D:\HideNSneak2\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal-0027.suppressed.lib and object D:\HideNSneak2\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal-0027.suppressed.exp
-    [8/8] HideNSneakUnrealEditor.target
-  Total time in Parallel executor: 26,05 seconds
-  Total execution time: 33,18 seconds
+  Building 26 actions with 16 processes...
+    [1/26] BatteryPickup.gen.cpp
+    [2/26] Pickup.cpp
+    [3/26] MovementSpeedPowerUp.cpp
+    [4/26] CPP_Powerup.cpp
+    [5/26] SpawnVolume.gen.cpp
+    [6/26] PowerUpInventoryItem.cpp
+    [7/26] CPP_MovementBoost.cpp
+    [8/26] MovementSpeedPowerUp.gen.cpp
+    [9/26] SpawnVolume.cpp
+    [10/26] RandomizeSeeker.cpp
+    [11/26] RoundController.cpp
+    [12/26] HideNSneakCPPCharacter.cpp
+    [13/26] GameController.cpp
+    [14/26] Pickup.gen.cpp
+    [15/26] InvisibilityPowerUp.cpp
+    [16/26] HideNSneakUnreal.init.gen.cpp
+    [17/26] BatteryPickup.cpp
+    [18/26] InvisibilityPowerUp.gen.cpp
+    [19/26] HideNSneakCPPCharacter.gen.cpp
+    [20/26] GameController.gen.cpp
+    [21/26] CPP_Powerup.gen.cpp
+    [22/26] CPP_MovementBoost.gen.cpp
+    [23/26] CPPCharacter.cpp
+    [24/26] UE4Editor-HideNSneakUnreal.lib
+       Creating library D:\HideNSneak2\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal.lib and object D:\HideNSneak2\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal.exp
+    [25/26] UE4Editor-HideNSneakUnreal.dll
+       Creating library D:\HideNSneak2\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal.suppressed.lib and object D:\HideNSneak2\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal.suppressed.exp
+    [26/26] HideNSneakUnrealEditor.target
+  Total time in Parallel executor: 10,70 seconds
+  Total execution time: 17,71 seconds

@@ -15,9 +15,6 @@ void ARoundController::BPAddHiderToSeekerTeam(AHideNSneakCPPCharacter* tempChar)
 	if (Hiders.Contains(tempChar)) {
 		Hiders.Remove(tempChar);
 		Seekers.Add(tempChar);
-
-		/*if (Hiders.Num() == MinimumAmountOfPlayers)
-			BPEndRound();*/
 	}
 }
 

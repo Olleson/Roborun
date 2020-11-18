@@ -5,7 +5,10 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
 #include "GameFramework/CharacterMovementComponent.h"
+#include "PowerUpInventoryItem.h"
 #include "HideNSneakCPPCharacter.generated.h"
+
+class PowerUpInventoryItem;
 
 UCLASS()
 class HIDENSNEAKUNREAL_API AHideNSneakCPPCharacter : public ACharacter
@@ -38,6 +41,23 @@ public:
 
 	UPROPERTY(EditAnywhere)
 		bool hasBeenSeeker;
+
+	UFUNCTION(BlueprintCallable, Category = "MovementSpeed")
+		// Returns the base speed of the character's current role
+		float GetBaseSpeed();
+
+	UFUNCTION(BlueprintCallable, Category = "Pickup")
+		// Sets the pointer to a collected pickup
+		void CollectPickup(APickup* Pickup);
+
+	UFUNCTION(Client, Reliable, BlueprintCallable, Category = "Pickup")
+		// Consumes the current powerup
+		void ConsumePowerUp();
+	void ConsumePowerUp_Implementation();
+
+	UFUNCTION(Server, Reliable, BlueprintCallable, Category = "Pickup")
+		void ServerConsumePowerUp();
+	void ServerConsumePowerUp_Implementation();
 
 	// Client Request to turn into a hider
 	UFUNCTION(Client, Reliable, BlueprintCallable, Category = "Seeker")
@@ -78,6 +98,9 @@ public:
 
 	UPROPERTY(EditAnywhere)
 		bool DecoyAvailible = true;
+
+	UPROPERTY(EditAnywhere)
+		bool IsDecoy = false;
 
 	UFUNCTION(Client, unreliable, BlueprintCallable, Category = "Hider")
 		//make character go stealth + spawn a decoy character
@@ -183,17 +206,27 @@ protected:
 	UFUNCTION(BlueprintImplementableEvent, Category = "Seeker")
 	void OnRep_IsSeeker();
 
-	// Base speed for characters
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "MovementSpeed", meta = (BlueprintProtected = "true"))
+		float HiderBaseSpeed;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "MovementSpeed", meta = (BlueprintProtected = "true"))
+		float SeekerBaseSpeed;
+
+	
+	/*// Base speed for characters
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "MovementSpeed", meta = (BlueprintProtected = "true"))
 	float BaseSpeed;
 
 	// Multiplier for controlling current speed depending on role
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "MovementSpeed", meta = (BlueprintProtected = "true"))
 	float SpeedFactor;
-
+	*/
 	// Entry to capturing hiders
 	/*UFUNCTION(BlueprintCallable, Category = "Seeker")
 	void CaptureHiders();*/
+
+	//UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Pickup")
+		PowerUpInventoryItem* CollectedPowerUp;
 
 	// Server side handling of capturing hiders
 	UFUNCTION(Reliable, Server)

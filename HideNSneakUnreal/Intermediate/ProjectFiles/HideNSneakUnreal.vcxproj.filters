@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\HideNSneakUnreal.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{AAB4E574-4EAA-4DB6-BF3A-787ED028F66A}</UniqueIdentifier>
+      <UniqueIdentifier>{E776A8D4-8C50-4F10-9965-9FB70DA4A370}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\HideNSneakUnreal.Target.cs">
       <Filter>Source</Filter>
@@ -13,7 +13,7 @@
     </None>
     <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{C5829BBB-6183-4028-AADA-CA064C62882E}</UniqueIdentifier>
+      <UniqueIdentifier>{1C55C3A6-98DB-4EC0-BBCF-3DCB6A997CCF}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -34,7 +34,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\HideNSneakUnreal">
-      <UniqueIdentifier>{3287AC14-02B8-4FCA-85C0-2FE9400B5A4A}</UniqueIdentifier>
+      <UniqueIdentifier>{02CC5232-5C50-4172-988A-12D46DB3A857}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\HideNSneakUnreal\batman.cpp">
       <Filter>Source\HideNSneakUnreal</Filter>
@@ -111,10 +111,22 @@
     <ClInclude Include="..\..\Source\HideNSneakUnreal\HideNSneakUnreal.h">
       <Filter>Source\HideNSneakUnreal</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\HideNSneakUnreal\InvisibilityPowerUp.cpp">
+      <Filter>Source\HideNSneakUnreal</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HideNSneakUnreal\InvisibilityPowerUp.h">
+      <Filter>Source\HideNSneakUnreal</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\HideNSneakUnreal\moveableBox.cpp">
       <Filter>Source\HideNSneakUnreal</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\HideNSneakUnreal\moveableBox.h">
+      <Filter>Source\HideNSneakUnreal</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HideNSneakUnreal\MovementSpeedPowerUp.cpp">
+      <Filter>Source\HideNSneakUnreal</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HideNSneakUnreal\MovementSpeedPowerUp.h">
       <Filter>Source\HideNSneakUnreal</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\HideNSneakUnreal\MovingPlatform.cpp">
@@ -139,6 +151,12 @@
       <Filter>Source\HideNSneakUnreal</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\HideNSneakUnreal\Pickup.h">
+      <Filter>Source\HideNSneakUnreal</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HideNSneakUnreal\PowerUpInventoryItem.cpp">
+      <Filter>Source\HideNSneakUnreal</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HideNSneakUnreal\PowerUpInventoryItem.h">
       <Filter>Source\HideNSneakUnreal</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\HideNSneakUnreal\RandomizeSeeker.cpp">
