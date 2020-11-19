@@ -173,13 +173,11 @@ public:
 	UFUNCTION()
 		void OnCompHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit);
 
-<<<<<<< HEAD
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		TSubclassOf<class AHideNSneakCPPCharacter> Decoy;
-=======
+
 	UFUNCTION()
 		void OnOverlapBegin(class UPrimitiveComponent* OverlapComponent, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
->>>>>>> c04fec2549454e6946da98e1192c3af3256902bb
 
 protected:
 
@@ -228,38 +226,20 @@ protected:
 		// The character's base speed when seeker
 		float SeekerBaseSpeed;
 
-<<<<<<< HEAD
-
-	/*// Base speed for characters
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "MovementSpeed", meta = (BlueprintProtected = "true"))
-	float BaseSpeed;
-
-	// Multiplier for controlling current speed depending on role
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "MovementSpeed", meta = (BlueprintProtected = "true"))
-	float SpeedFactor;
-	*/
-	// Entry to capturing hiders
-	/*UFUNCTION(BlueprintCallable, Category = "Seeker")
-	void CaptureHiders();*/
-
-	//UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Pickup")
-	PowerUpInventoryItem* CollectedPowerUp;
-=======
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Character", meta = (BlueprintProtected = "true"))
 		// The character's base Z-axis velocity when jumping
 		float BaseJumpHeight;
 
 	// Power up proxy to avoid circular dependancy
-		PowerUpInventoryItem* CollectedPowerUp;
->>>>>>> c04fec2549454e6946da98e1192c3af3256902bb
+	PowerUpInventoryItem* CollectedPowerUp;
 
-		UFUNCTION(BlueprintImplementableEvent, Category = "Pickup")
-			// Blueprint implemented function to update the power up icon on the player's UI
-			void UpdatePowerUpIcon();
+	UFUNCTION(BlueprintImplementableEvent, Category = "Pickup")
+		// Blueprint implemented function to update the power up icon on the player's UI
+		void UpdatePowerUpIcon();
 
-		UFUNCTION(BlueprintImplementableEvent, Category = "Pickup")
-			// Blueprint implemented function to clear the power up icon on the player's UI
-			void ClearPowerUpIcon();
+	UFUNCTION(BlueprintImplementableEvent, Category = "Pickup")
+		// Blueprint implemented function to clear the power up icon on the player's UI
+		void ClearPowerUpIcon();
 
 	// Server side handling of capturing hiders
 	UFUNCTION(Reliable, Server)

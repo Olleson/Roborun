@@ -70,15 +70,8 @@ void AHideNSneakCPPCharacter::BeginPlay()
 {
 	Super::BeginPlay();
 	GetCapsuleComponent()->OnComponentHit.AddDynamic(this, &AHideNSneakCPPCharacter::OnCompHit);
-<<<<<<< HEAD
-=======
-	GetCapsuleComponent()->OnComponentBeginOverlap.AddDynamic(this, &AHideNSneakCPPCharacter::OnOverlapBegin);
 
-	//RoundController = Cast<ARoundController>(UGameplayStatics::GetActorOfClass(GetWorld(), ARoundController::StaticClass()));
-	
-	//RoundController->Players.Add(this);
-	//RoundController->Hiders.Add(this);
->>>>>>> c04fec2549454e6946da98e1192c3af3256902bb
+	GetCapsuleComponent()->OnComponentBeginOverlap.AddDynamic(this, &AHideNSneakCPPCharacter::OnOverlapBegin);
 }
 
 void AHideNSneakCPPCharacter::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const {
