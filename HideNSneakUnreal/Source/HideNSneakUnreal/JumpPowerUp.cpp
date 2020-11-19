@@ -1,6 +1,5 @@
 // Author: Alexander Aulin
 
-
 #include "JumpPowerUp.h"
 
 AJumpPowerUp::AJumpPowerUp() {

@@ -1,11 +1,8 @@
 // Author: Alexander Aulin
 
-
 #include "PowerUpInventoryItem.h"
 
-PowerUpInventoryItem::PowerUpInventoryItem(AHideNSneakCPPCharacter* InCharacter, APickup* InPickUp): Character(InCharacter), Pickup(InPickUp)
-{
-}
+PowerUpInventoryItem::PowerUpInventoryItem(AHideNSneakCPPCharacter* InCharacter, APickup* InPickUp) : Character(InCharacter), Pickup(InPickUp) { }
 
 void PowerUpInventoryItem::ApplyPickUp()
 {
