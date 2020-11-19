@@ -99,8 +99,8 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintreadWrite)
 		bool DecoyAvailible = true;
 
-	UPROPERTY(EditAnywhere)
-		bool IsDecoy = false;
+	UPROPERTY(EditAnywhere, BlueprintreadWrite)
+		bool IsDecoy;
 
 	UFUNCTION(Client, unreliable, BlueprintCallable, Category = "Hider")
 		//make character go stealth + spawn a decoy character
@@ -165,9 +165,10 @@ public:
 	UFUNCTION()
 		void OnCompHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit);
 
-protected:
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		TSubclassOf<class AHideNSneakCPPCharacter> Decoy;
+
+protected:
 
 	/** Called for forwards/backward input */
 	void MoveForward(float Value);

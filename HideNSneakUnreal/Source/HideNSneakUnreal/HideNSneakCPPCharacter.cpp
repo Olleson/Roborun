@@ -18,7 +18,6 @@
 #include "GameFramework/Actor.h"
 #include "Engine/World.h"
 #include "DrawDebugHelpers.h"
-#include "RoundController.h"
 
 //////////////////////////////////////////////////////////////////////////
 // AHideNSneakCPPCharacter
@@ -69,11 +68,6 @@ void AHideNSneakCPPCharacter::BeginPlay()
 {
 	Super::BeginPlay();
 	GetCapsuleComponent()->OnComponentHit.AddDynamic(this, &AHideNSneakCPPCharacter::OnCompHit);
-
-	//RoundController = Cast<ARoundController>(UGameplayStatics::GetActorOfClass(GetWorld(), ARoundController::StaticClass()));
-	
-	//RoundController->Players.Add(this);
-	//RoundController->Hiders.Add(this);
 }
 
 void AHideNSneakCPPCharacter::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const {
@@ -113,7 +107,6 @@ void AHideNSneakCPPCharacter::SetupPlayerInputComponent(class UInputComponent* P
 
 void AHideNSneakCPPCharacter::ServerCaptureHider_Implementation(AHideNSneakCPPCharacter* Hider)
 {
-	//RoundController->AddHiderToSeekerTeam(Hider);
 
 	if (HasAuthority() && !Hider->IsSeeker()) {
 		Hider->ServerBecomeSeeker();
@@ -195,7 +188,7 @@ void AHideNSneakCPPCharacter::ServerBecomeHider_Implementation()
 {
 	bIsSeeker = false;
 	if (HasAuthority()) {
-		
+
 		OnRep_IsSeeker();
 	}
 }
@@ -229,8 +222,8 @@ void AHideNSneakCPPCharacter::ServerResetPlayersToHiders_Implementation()
 	if (HasAuthority()) {
 		UWorld* World = GetWorld();
 		check(World);
-		for (FConstControllerIterator It = World->GetControllerIterator(); It; ++It) 
-			if (APlayerController* PlayerController = Cast<APlayerController>(*It)) 
+		for (FConstControllerIterator It = World->GetControllerIterator(); It; ++It)
+			if (APlayerController* PlayerController = Cast<APlayerController>(*It))
 				if (AHideNSneakCPPCharacter* Character = Cast<AHideNSneakCPPCharacter>(PlayerController->GetPawn()))
 					Character->BecomeHider();
 	}
@@ -238,13 +231,13 @@ void AHideNSneakCPPCharacter::ServerResetPlayersToHiders_Implementation()
 
 
 //make character go stealth + spawn a decoy character
-void AHideNSneakCPPCharacter::UseDecoyAbility_Implementation() { 
+void AHideNSneakCPPCharacter::UseDecoyAbility_Implementation() {
 	if (DecoyAvailible) {
-	
+
 		//timer for delaying when the other part of the function is called
 		GetWorldTimerManager().SetTimer(StealthTimerHandle, this, &AHideNSneakCPPCharacter::DecoyStealthOver_Implementation, StealthDuration, false); //local
 		if (Decoy != NULL) {
-				DecoyAvailible = false;			
+			DecoyAvailible = false;
 			if (UWorld* const World = GetWorld()) {
 				FActorSpawnParameters SpawnParameters; //local
 				SpawnParameters.Owner = this;  //local
@@ -259,8 +252,7 @@ void AHideNSneakCPPCharacter::UseDecoyAbility_Implementation() {
 				if (this->GetInputAxisValue("MoveForward") != 0 || this->GetInputAxisValue("MoveRight") != 0) {
 					ServerDecoyAbility(this, Decoytransform, DecoyVelocity, 1.0f);
 				}
-				else
-				{
+				else {
 					ServerDecoyAbility(this, Decoytransform, DecoyVelocity, 0.0f);
 				}
 				GetWorldTimerManager().SetTimer(DecoyCooldownHandle, this, &AHideNSneakCPPCharacter::DecoyCooldownOver_Implementation, DecoyCooldown, false);//local
@@ -270,7 +262,7 @@ void AHideNSneakCPPCharacter::UseDecoyAbility_Implementation() {
 }
 
 //Turning the referenced character back to visible for all clients
-void AHideNSneakCPPCharacter::ServerDecoyStealthOver_Implementation(AHideNSneakCPPCharacter *MyActor)
+void AHideNSneakCPPCharacter::ServerDecoyStealthOver_Implementation(AHideNSneakCPPCharacter* MyActor)
 {
 	if (HasAuthority()) {
 		MyActor->SetActorHiddenInGame(false);
@@ -278,7 +270,7 @@ void AHideNSneakCPPCharacter::ServerDecoyStealthOver_Implementation(AHideNSneakC
 }
 
 //server side for handling the making of the character go stealth + spawn a decoy character
-void AHideNSneakCPPCharacter::ServerDecoyAbility_Implementation(AHideNSneakCPPCharacter *SpawnActor, FTransform DecoyTransform, FVector DecoyVelocity, float MovementValue)
+void AHideNSneakCPPCharacter::ServerDecoyAbility_Implementation(AHideNSneakCPPCharacter* SpawnActor, FTransform DecoyTransform, FVector DecoyVelocity, float MovementValue)
 {
 	if (HasAuthority()) {
 
@@ -288,7 +280,7 @@ void AHideNSneakCPPCharacter::ServerDecoyAbility_Implementation(AHideNSneakCPPCh
 			SpawnParameters.Owner = SpawnActor;
 			SpawnParameters.Instigator = GetInstigator();
 			AHideNSneakCPPCharacter* DecoyActor = GetWorld()->SpawnActor<AHideNSneakCPPCharacter>(Decoy, DecoyTransform, SpawnParameters);
-			if(DecoyActor){ 
+			if (DecoyActor) {
 				DecoyActor->MoveIgnoreActorAdd(SpawnActor);
 				SpawnActor->MoveIgnoreActorAdd(DecoyActor);
 				DecoyActor->SetLifeSpan(DecoyDuration);
@@ -296,7 +288,7 @@ void AHideNSneakCPPCharacter::ServerDecoyAbility_Implementation(AHideNSneakCPPCh
 				DecoyActor->IsDecoy = true;
 				if (MovementValue != 0.0f) {
 					DecoyActor->DecoyMovementValue = MovementValue;
-					DecoyActor->SetActorTickEnabled(true); 
+					DecoyActor->SetActorTickEnabled(true);
 				}
 			}
 		}
