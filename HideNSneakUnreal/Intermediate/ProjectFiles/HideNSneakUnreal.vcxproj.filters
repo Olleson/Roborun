@@ -3,7 +3,11 @@
   <ItemGroup>
     <None Include="..\..\HideNSneakUnreal.uproject" />
     <Filter Include="Source">
+<<<<<<< HEAD
       <UniqueIdentifier>{8742C63E-E849-40AE-A437-3C30F315A7E7}</UniqueIdentifier>
+=======
+      <UniqueIdentifier>{FCA8BE5C-5801-4AB2-845E-26A17EADAFB3}</UniqueIdentifier>
+>>>>>>> c04fec2549454e6946da98e1192c3af3256902bb
     </Filter>
     <None Include="..\..\Source\HideNSneakUnreal.Target.cs">
       <Filter>Source</Filter>
@@ -13,7 +17,11 @@
     </None>
     <None Include="..\..\.gitignore" />
     <Filter Include="Config">
+<<<<<<< HEAD
       <UniqueIdentifier>{CB01EEA5-357B-4350-879F-5E620C7ABD6F}</UniqueIdentifier>
+=======
+      <UniqueIdentifier>{4D6B27AE-B8A4-4AEC-8A7F-BE2293793B4D}</UniqueIdentifier>
+>>>>>>> c04fec2549454e6946da98e1192c3af3256902bb
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -34,7 +42,11 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\HideNSneakUnreal">
+<<<<<<< HEAD
       <UniqueIdentifier>{4B5EEE4B-4CBD-40C1-BCDE-7C273499DB7A}</UniqueIdentifier>
+=======
+      <UniqueIdentifier>{8B46D481-AD67-4BE5-9E23-A244A2B1ADE3}</UniqueIdentifier>
+>>>>>>> c04fec2549454e6946da98e1192c3af3256902bb
     </Filter>
     <ClCompile Include="..\..\Source\HideNSneakUnreal\BatteryGameMode.cpp">
       <Filter>Source\HideNSneakUnreal</Filter>
@@ -103,6 +115,12 @@
       <Filter>Source\HideNSneakUnreal</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\HideNSneakUnreal\InvisibilityPowerUp.h">
+      <Filter>Source\HideNSneakUnreal</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HideNSneakUnreal\JumpPowerUp.cpp">
+      <Filter>Source\HideNSneakUnreal</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HideNSneakUnreal\JumpPowerUp.h">
       <Filter>Source\HideNSneakUnreal</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\HideNSneakUnreal\moveableBox.cpp">

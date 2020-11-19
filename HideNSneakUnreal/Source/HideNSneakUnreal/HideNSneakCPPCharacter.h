@@ -42,13 +42,21 @@ public:
 	UPROPERTY(EditAnywhere)
 		bool hasBeenSeeker;
 
-	UFUNCTION(BlueprintCallable, Category = "MovementSpeed")
+	UFUNCTION(BlueprintCallable, Category = "Character")
 		// Returns the base speed of the character's current role
 		float GetBaseSpeed();
+
+	UFUNCTION(BlueprintCallable, Category = "Character")
+		// Retunrs the base jump height
+		float GetBaseJumpHeight();
 
 	UFUNCTION(BlueprintCallable, Category = "Pickup")
 		// Sets the pointer to a collected pickup
 		void CollectPickup(APickup* Pickup);
+
+	UFUNCTION(BlueprintCallable, Category = "Pickup")
+		// Returns the icon of the collected powerup
+		UTexture2D* GetCollectedPowerUpIcon();
 
 	UFUNCTION(Client, Reliable, BlueprintCallable, Category = "Pickup")
 		// Consumes the current powerup
@@ -165,8 +173,13 @@ public:
 	UFUNCTION()
 		void OnCompHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit);
 
+<<<<<<< HEAD
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		TSubclassOf<class AHideNSneakCPPCharacter> Decoy;
+=======
+	UFUNCTION()
+		void OnOverlapBegin(class UPrimitiveComponent* OverlapComponent, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
+>>>>>>> c04fec2549454e6946da98e1192c3af3256902bb
 
 protected:
 
@@ -207,12 +220,15 @@ protected:
 	UFUNCTION(BlueprintImplementableEvent, Category = "Seeker")
 		void OnRep_IsSeeker();
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "MovementSpeed", meta = (BlueprintProtected = "true"))
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Character", meta = (BlueprintProtected = "true"))
+		// The character's base speed when hider
 		float HiderBaseSpeed;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "MovementSpeed", meta = (BlueprintProtected = "true"))
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Character", meta = (BlueprintProtected = "true"))
+		// The character's base speed when seeker
 		float SeekerBaseSpeed;
 
+<<<<<<< HEAD
 
 	/*// Base speed for characters
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "MovementSpeed", meta = (BlueprintProtected = "true"))
@@ -228,6 +244,22 @@ protected:
 
 	//UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Pickup")
 	PowerUpInventoryItem* CollectedPowerUp;
+=======
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Character", meta = (BlueprintProtected = "true"))
+		// The character's base Z-axis velocity when jumping
+		float BaseJumpHeight;
+
+	// Power up proxy to avoid circular dependancy
+		PowerUpInventoryItem* CollectedPowerUp;
+>>>>>>> c04fec2549454e6946da98e1192c3af3256902bb
+
+		UFUNCTION(BlueprintImplementableEvent, Category = "Pickup")
+			// Blueprint implemented function to update the power up icon on the player's UI
+			void UpdatePowerUpIcon();
+
+		UFUNCTION(BlueprintImplementableEvent, Category = "Pickup")
+			// Blueprint implemented function to clear the power up icon on the player's UI
+			void ClearPowerUpIcon();
 
 	// Server side handling of capturing hiders
 	UFUNCTION(Reliable, Server)

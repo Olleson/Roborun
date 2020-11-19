@@ -1,4 +1,4 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+// Author: Alexander Aulin
 
 #include "HideNSneakCPPCharacter.h"
 #include "Camera/CameraComponent.h"
@@ -36,11 +36,17 @@ AHideNSneakCPPCharacter::AHideNSneakCPPCharacter()
 	bUseControllerRotationYaw = false;
 	bUseControllerRotationRoll = false;
 
+	// Default values for controlling movement speed
+	HiderBaseSpeed = 600.0;
+	SeekerBaseSpeed = 666.0;
+	BaseJumpHeight = 600.0;
+
 	// Configure character movement
 	GetCharacterMovement()->bOrientRotationToMovement = true; // Character moves in the direction of input...	
 	GetCharacterMovement()->RotationRate = FRotator(0.0f, 540.0f, 0.0f); // ...at this rotation rate
-	GetCharacterMovement()->JumpZVelocity = 600.f;
+	GetCharacterMovement()->JumpZVelocity = BaseJumpHeight;
 	GetCharacterMovement()->AirControl = 0.2f;
+	GetCharacterMovement()->MaxWalkSpeed = HiderBaseSpeed;
 
 	// Create a camera boom (pulls in towards the player if there is a collision)
 	CameraBoom = CreateDefaultSubobject<USpringArmComponent>(TEXT("CameraBoom"));
@@ -56,18 +62,23 @@ AHideNSneakCPPCharacter::AHideNSneakCPPCharacter()
 	// Characters are hiders by default
 	bIsSeeker = false;
 
-	// Default values for controlling movement speed
-	HiderBaseSpeed = 600.0;
-	SeekerBaseSpeed = 666.0;
-
 	// Note: The skeletal mesh and anim blueprint references on the Mesh component (inherited from Character) 
-	// are set in the derived blueprint asset named MyCharacter (to avoid direct content references in C++)
+	// are set in the derived blueprint asset to avoid direct content references in C++
 }
 
 void AHideNSneakCPPCharacter::BeginPlay()
 {
 	Super::BeginPlay();
 	GetCapsuleComponent()->OnComponentHit.AddDynamic(this, &AHideNSneakCPPCharacter::OnCompHit);
+<<<<<<< HEAD
+=======
+	GetCapsuleComponent()->OnComponentBeginOverlap.AddDynamic(this, &AHideNSneakCPPCharacter::OnOverlapBegin);
+
+	//RoundController = Cast<ARoundController>(UGameplayStatics::GetActorOfClass(GetWorld(), ARoundController::StaticClass()));
+	
+	//RoundController->Players.Add(this);
+	//RoundController->Hiders.Add(this);
+>>>>>>> c04fec2549454e6946da98e1192c3af3256902bb
 }
 
 void AHideNSneakCPPCharacter::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const {
@@ -109,7 +120,7 @@ void AHideNSneakCPPCharacter::ServerCaptureHider_Implementation(AHideNSneakCPPCh
 {
 
 	if (HasAuthority() && !Hider->IsSeeker()) {
-		Hider->ServerBecomeSeeker();
+		Hider->BecomeSeeker();
 		if (Hider == this) {
 			// Fake the On rep notify for the listen server if it is a hider that gets captured,
 			// as the Server doesn't get on rep notify automatically
@@ -149,21 +160,34 @@ float AHideNSneakCPPCharacter::GetBaseSpeed()
 	}
 }
 
+float AHideNSneakCPPCharacter::GetBaseJumpHeight()
+{
+	return BaseJumpHeight;
+}
+
 void AHideNSneakCPPCharacter::CollectPickup(APickup* Pickup)
 {
-	GEngine->AddOnScreenDebugMessage(-1, 7.0f, FColor::Red, FString("I've picked up a power up"));
 	if (CollectedPowerUp != NULL) {
 		delete CollectedPowerUp;
 		CollectedPowerUp = NULL;
 	}
 	CollectedPowerUp = new PowerUpInventoryItem(this, Pickup);
+	UpdatePowerUpIcon();
 	Pickup->PickedUpBy(this);
+}
+
+UTexture2D* AHideNSneakCPPCharacter::GetCollectedPowerUpIcon()
+{
+	if (CollectedPowerUp != NULL) {
+		return CollectedPowerUp->GetPickUpIcon();
+	}
+	return nullptr;
 }
 
 void AHideNSneakCPPCharacter::ConsumePowerUp_Implementation()
 {
-	GEngine->AddOnScreenDebugMessage(-1, 7.0f, FColor::Red, FString("I'm activating my Power Up"));
 	ServerConsumePowerUp();
+	ClearPowerUpIcon();
 }
 
 void AHideNSneakCPPCharacter::ServerConsumePowerUp_Implementation()
@@ -197,6 +221,7 @@ void AHideNSneakCPPCharacter::BecomeSeeker_Implementation()
 {
 	if (!bIsSeeker) {
 		ServerBecomeSeeker();
+		ClearPowerUpIcon();
 	}
 }
 
@@ -325,8 +350,12 @@ void AHideNSneakCPPCharacter::OnCompHit(UPrimitiveComponent* HitComp, AActor* Ot
 		targetTagMechanic = Cast<AHideNSneakCPPCharacter>(OtherActor);
 		ServerCaptureHider(targetTagMechanic);
 	}
-	else if (APickup* Pickup = Cast<APickup>(OtherActor)) {
-		if (!bIsSeeker) {
+}
+
+void AHideNSneakCPPCharacter::OnOverlapBegin(UPrimitiveComponent* OverlapComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
+{
+	if (!bIsSeeker) {
+		if (APickup* Pickup = Cast<APickup>(OtherActor)) {
 			CollectPickup(Pickup);
 		}
 	}

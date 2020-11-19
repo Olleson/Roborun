@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Olle\Documents\PROJ_Grupp2).
   Building HideNSneakUnrealEditor...
   Using Visual Studio 2019 14.28.29333 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
@@ -5,3 +6,17 @@
     [1/1] HideNSneakUnrealEditor.target
   Total time in Parallel executor: 0,21 seconds
   Total execution time: 1,26 seconds
+=======
+﻿  Using 'git status' to determine working set for adaptive non-unity build (E:\Unreal Projects\Proj).
+  Building HideNSneakUnrealEditor...
+  Using Visual Studio 2019 14.27.29112 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 4 actions with 6 processes...
+    [1/4] HideNSneakCPPCharacter.cpp
+    [2/4] UE4Editor-HideNSneakUnreal-0040.lib
+       Creating library E:\Unreal Projects\Proj\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal-0040.lib and object E:\Unreal Projects\Proj\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal-0040.exp
+    [3/4] UE4Editor-HideNSneakUnreal-0040.dll
+       Creating library E:\Unreal Projects\Proj\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal-0040.suppressed.lib and object E:\Unreal Projects\Proj\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal-0040.suppressed.exp
+    [4/4] HideNSneakUnrealEditor.target
+  Total time in Parallel executor: 2.25 seconds
+  Total execution time: 2.89 seconds
+>>>>>>> c04fec2549454e6946da98e1192c3af3256902bb

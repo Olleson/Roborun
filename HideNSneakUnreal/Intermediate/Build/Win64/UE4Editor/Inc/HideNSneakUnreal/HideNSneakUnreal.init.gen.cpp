@@ -31,8 +31,13 @@ void EmptyLinkFunctionForGeneratedCodeHideNSneakUnreal_init() {}
 				SingletonFuncArray,
 				UE_ARRAY_COUNT(SingletonFuncArray),
 				PKG_CompiledIn | 0x00000000,
+<<<<<<< HEAD
 				0x67865157,
 				0x3B17447B,
+=======
+				0x82FE9FA9,
+				0x136FEF2B,
+>>>>>>> c04fec2549454e6946da98e1192c3af3256902bb
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);
