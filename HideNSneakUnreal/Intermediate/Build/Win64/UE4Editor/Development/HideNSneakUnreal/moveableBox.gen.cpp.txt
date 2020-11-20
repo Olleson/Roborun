@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 C:\Users\Olle\Documents\PROJ_Grupp2\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\Definitions.HideNSneakUnreal.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
@@ -11,3 +12,10 @@ F:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UOb
 C:\Users\fredr\Documents\GitHub\PROJ_Grupp2\HideNSneakUnreal\Source\HideNSneakUnreal/moveableBox.h
 c:\users\fredr\documents\github\proj_grupp2\hidensneakunreal\intermediate\build\win64\ue4editor\inc\hidensneakunreal\moveableBox.generated.h
 >>>>>>> 09c5d88d772535bdf3b58b5eb6b247107df1e554
+=======
+E:\Unreal Projects\Proj\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\Definitions.HideNSneakUnreal.h
+E:\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+E:\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+E:\Unreal Projects\Proj\HideNSneakUnreal\Source\HideNSneakUnreal/moveableBox.h
+E:\Unreal Projects\Proj\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Inc\HideNSneakUnreal\moveableBox.generated.h
+>>>>>>> 84182c81ed7a51ae2ae68513f83991521631e8ef

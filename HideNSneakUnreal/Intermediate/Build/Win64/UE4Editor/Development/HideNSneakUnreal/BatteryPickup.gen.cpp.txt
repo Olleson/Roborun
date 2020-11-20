@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 C:\Users\Olle\Documents\PROJ_Grupp2\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\Definitions.HideNSneakUnreal.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
@@ -65,3 +66,37 @@ c:\users\fredr\documents\github\proj_grupp2\hidensneakunreal\intermediate\build\
 c:\users\fredr\documents\github\proj_grupp2\hidensneakunreal\intermediate\build\win64\ue4editor\inc\hidensneakunreal\Pickup.generated.h
 c:\users\fredr\documents\github\proj_grupp2\hidensneakunreal\intermediate\build\win64\ue4editor\inc\hidensneakunreal\BatteryPickup.generated.h
 >>>>>>> 09c5d88d772535bdf3b58b5eb6b247107df1e554
+=======
+E:\Unreal Projects\Proj\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\Definitions.HideNSneakUnreal.h
+E:\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+E:\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+E:\Unreal Projects\Proj\HideNSneakUnreal\Source\HideNSneakUnreal/BatteryPickup.h
+E:\Unreal Projects\Proj\HideNSneakUnreal\Source\HideNSneakUnreal\Pickup.h
+E:\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Engine/StaticMeshActor.h
+E:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\StaticMeshActor.generated.h
+E:\Unreal Projects\Proj\HideNSneakUnreal\Source\HideNSneakUnreal\HideNSneakCPPCharacter.h
+E:\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+E:\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+E:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
+E:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+E:\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/CharacterMovementComponent.h
+E:\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\AI/Navigation/NavigationAvoidanceTypes.h
+E:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\NavigationAvoidanceTypes.generated.h
+E:\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Public\AI/RVOAvoidanceInterface.h
+E:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RVOAvoidanceInterface.generated.h
+E:\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/PawnMovementComponent.h
+E:\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/NavMovementComponent.h
+E:\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\AI/Navigation/PathFollowingAgentInterface.h
+E:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\PathFollowingAgentInterface.generated.h
+E:\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/MovementComponent.h
+E:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\MovementComponent.generated.h
+E:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\NavMovementComponent.generated.h
+E:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\PawnMovementComponent.generated.h
+E:\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Interfaces/NetworkPredictionInterface.h
+E:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\NetworkPredictionInterface.generated.h
+E:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CharacterMovementComponent.generated.h
+E:\Unreal Projects\Proj\HideNSneakUnreal\Source\HideNSneakUnreal\PowerUpInventoryItem.h
+E:\Unreal Projects\Proj\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Inc\HideNSneakUnreal\HideNSneakCPPCharacter.generated.h
+E:\Unreal Projects\Proj\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Inc\HideNSneakUnreal\Pickup.generated.h
+E:\Unreal Projects\Proj\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Inc\HideNSneakUnreal\BatteryPickup.generated.h
+>>>>>>> 84182c81ed7a51ae2ae68513f83991521631e8ef

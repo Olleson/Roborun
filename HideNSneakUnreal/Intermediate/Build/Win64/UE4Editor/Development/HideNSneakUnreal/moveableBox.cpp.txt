@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 C:\Users\Olle\Documents\PROJ_Grupp2\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\Definitions.HideNSneakUnreal.h
 C:\Users\Olle\Documents\PROJ_Grupp2\HideNSneakUnreal\Source\HideNSneakUnreal\moveableBox.h
 C:\Users\Olle\Documents\PROJ_Grupp2\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Inc\HideNSneakUnreal\moveableBox.generated.h
@@ -7,3 +8,8 @@ C:\Users\fredr\Documents\GitHub\PROJ_Grupp2\HideNSneakUnreal\Intermediate\Build\
 c:\users\fredr\documents\github\proj_grupp2\hidensneakunreal\source\hidensneakunreal\moveableBox.h
 C:\Users\fredr\Documents\GitHub\PROJ_Grupp2\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Inc\HideNSneakUnreal\moveableBox.generated.h
 >>>>>>> 09c5d88d772535bdf3b58b5eb6b247107df1e554
+=======
+E:\Unreal Projects\Proj\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\Definitions.HideNSneakUnreal.h
+E:\Unreal Projects\Proj\HideNSneakUnreal\Source\HideNSneakUnreal\moveableBox.h
+E:\Unreal Projects\Proj\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Inc\HideNSneakUnreal\moveableBox.generated.h
+>>>>>>> 84182c81ed7a51ae2ae68513f83991521631e8ef

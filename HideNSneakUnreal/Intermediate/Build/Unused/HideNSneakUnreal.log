@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿  The system cannot find the path specified.
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(44,5): error MSB3073: The command ""C:\Program Files\Epic Games\UE_4.25\Engine\Build\BatchFiles\Build.bat" HideNSneakUnrealEditor Win64 Development -Project="D:\HideNSneak2\HideNSneakUnreal\HideNSneakUnreal.uproject" -WaitMutex -FromMsBuild" exited with code 3.
 =======
@@ -7,3 +8,44 @@ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\
   Using Visual Studio 2019 14.28.29333 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Building 27 actions with 4 processes...
 >>>>>>> c79295d1c8c90d3cddcfe6de4acbbe256191c794
+=======
+﻿  Using 'git status' to determine working set for adaptive non-unity build (E:\Unreal Projects\Proj).
+  Creating makefile for HideNSneakUnrealEditor (no existing makefile)
+  Parsing headers for HideNSneakUnrealEditor
+    Running UnrealHeaderTool "E:\Unreal Projects\Proj\HideNSneakUnreal\HideNSneakUnreal.uproject" "E:\Unreal Projects\Proj\HideNSneakUnreal\Intermediate\Build\Win64\HideNSneakUnrealEditor\Development\HideNSneakUnrealEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Alexander Aulin\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+  Reflection code generated for HideNSneakUnrealEditor in 5.0475816 seconds
+  Building HideNSneakUnrealEditor...
+  Using Visual Studio 2019 14.27.29112 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 27 actions with 6 processes...
+    [1/27] PowerUpInventoryItem.cpp
+    [2/27] RoundController.cpp
+    [3/27] RandomizeSeeker.cpp
+    [4/27] SpawnVolume.cpp
+    [5/27] BatteryPickup.gen.cpp
+    [6/27] Pickup.cpp
+    [7/27] MovingPlatform.cpp
+    [8/27] InvisibilityPowerUp.cpp
+    [9/27] MovementSpeedPowerUp.cpp
+    [10/27] GameController.cpp
+    [11/27] CPP_MovementBoost.cpp
+    [12/27] CPP_Powerup.cpp
+    [13/27] BatteryPickup.cpp
+    [14/27] SpawnVolume.gen.cpp
+    [15/27] Pickup.gen.cpp
+    [16/27] MovementSpeedPowerUp.gen.cpp
+    [17/27] HideNSneakUnreal.init.gen.cpp
+    [18/27] HideNSneakCPPCharacter.cpp
+    [19/27] InvisibilityPowerUp.gen.cpp
+    [20/27] HideNSneakCPPCharacter.gen.cpp
+    [21/27] GameController.gen.cpp
+    [22/27] CPP_Powerup.gen.cpp
+    [23/27] CPP_MovementBoost.gen.cpp
+    [24/27] CPPCharacter.cpp
+    [25/27] UE4Editor-HideNSneakUnreal-0001.lib
+       Creating library E:\Unreal Projects\Proj\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal-0001.lib and object E:\Unreal Projects\Proj\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal-0001.exp
+    [26/27] UE4Editor-HideNSneakUnreal-0001.dll
+       Creating library E:\Unreal Projects\Proj\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal-0001.suppressed.lib and object E:\Unreal Projects\Proj\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\UE4Editor-HideNSneakUnreal-0001.suppressed.exp
+    [27/27] HideNSneakUnrealEditor.target
+  Total time in Parallel executor: 23.31 seconds
+  Total execution time: 30.43 seconds
+>>>>>>> 84182c81ed7a51ae2ae68513f83991521631e8ef
