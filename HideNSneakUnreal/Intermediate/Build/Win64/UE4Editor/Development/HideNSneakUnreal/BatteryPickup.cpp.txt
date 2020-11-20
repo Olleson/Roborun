@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\Olle\Documents\PROJ_Grupp2\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\Definitions.HideNSneakUnreal.h
 C:\Users\Olle\Documents\PROJ_Grupp2\HideNSneakUnreal\Source\HideNSneakUnreal\BatteryPickup.h
 C:\Users\Olle\Documents\PROJ_Grupp2\HideNSneakUnreal\Source\HideNSneakUnreal\Pickup.h
@@ -29,3 +30,36 @@ C:\Users\Olle\Documents\PROJ_Grupp2\HideNSneakUnreal\Intermediate\Build\Win64\UE
 C:\Users\Olle\Documents\PROJ_Grupp2\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Inc\HideNSneakUnreal\Pickup.generated.h
 C:\Users\Olle\Documents\PROJ_Grupp2\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Inc\HideNSneakUnreal\BatteryPickup.generated.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Public\Net/UnrealNetwork.h
+=======
+C:\Users\fredr\Documents\GitHub\PROJ_Grupp2\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\Definitions.HideNSneakUnreal.h
+c:\users\fredr\documents\github\proj_grupp2\hidensneakunreal\source\hidensneakunreal\BatteryPickup.h
+c:\users\fredr\documents\github\proj_grupp2\hidensneakunreal\source\hidensneakunreal\Pickup.h
+F:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Engine/StaticMeshActor.h
+F:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\StaticMeshActor.generated.h
+c:\users\fredr\documents\github\proj_grupp2\hidensneakunreal\source\hidensneakunreal\HideNSneakCPPCharacter.h
+F:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+F:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+F:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
+F:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+F:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/CharacterMovementComponent.h
+F:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\AI/Navigation/NavigationAvoidanceTypes.h
+F:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\NavigationAvoidanceTypes.generated.h
+F:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Public\AI/RVOAvoidanceInterface.h
+F:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RVOAvoidanceInterface.generated.h
+F:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/PawnMovementComponent.h
+F:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/NavMovementComponent.h
+F:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\AI/Navigation/PathFollowingAgentInterface.h
+F:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\PathFollowingAgentInterface.generated.h
+F:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/MovementComponent.h
+F:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\MovementComponent.generated.h
+F:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\NavMovementComponent.generated.h
+F:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\PawnMovementComponent.generated.h
+F:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Interfaces/NetworkPredictionInterface.h
+F:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\NetworkPredictionInterface.generated.h
+F:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CharacterMovementComponent.generated.h
+c:\users\fredr\documents\github\proj_grupp2\hidensneakunreal\source\hidensneakunreal\PowerUpInventoryItem.h
+C:\Users\fredr\Documents\GitHub\PROJ_Grupp2\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Inc\HideNSneakUnreal\HideNSneakCPPCharacter.generated.h
+C:\Users\fredr\Documents\GitHub\PROJ_Grupp2\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Inc\HideNSneakUnreal\Pickup.generated.h
+C:\Users\fredr\Documents\GitHub\PROJ_Grupp2\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Inc\HideNSneakUnreal\BatteryPickup.generated.h
+F:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Public\Net/UnrealNetwork.h
+>>>>>>> 09c5d88d772535bdf3b58b5eb6b247107df1e554

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\Olle\Documents\PROJ_Grupp2\HideNSneakUnreal\Source\HideNSneakUnreal\BatteryGameMode.h
 C:\Users\Olle\Documents\PROJ_Grupp2\HideNSneakUnreal\Source\HideNSneakUnreal\BatteryPickup.h
 C:\Users\Olle\Documents\PROJ_Grupp2\HideNSneakUnreal\Source\HideNSneakUnreal\CPPCharacter.h
@@ -20,3 +21,30 @@ C:\Users\Olle\Documents\PROJ_Grupp2\HideNSneakUnreal\Source\HideNSneakUnreal\Tag
 C:\Users\Olle\Documents\PROJ_Grupp2\HideNSneakUnreal\Source\HideNSneakUnreal\JumpPowerUp.h
 C:\Users\Olle\Documents\PROJ_Grupp2\HideNSneakUnreal\Source\HideNSneakUnreal\Pickup.h
 C:\Users\Olle\Documents\PROJ_Grupp2\HideNSneakUnreal\Source\HideNSneakUnreal\HideNSneakCPPCharacter.h
+=======
+C:\Users\fredr\Documents\GitHub\PROJ_Grupp2\HideNSneakUnreal\Source\HideNSneakUnreal\batman.h
+C:\Users\fredr\Documents\GitHub\PROJ_Grupp2\HideNSneakUnreal\Source\HideNSneakUnreal\BatteryGameMode.h
+C:\Users\fredr\Documents\GitHub\PROJ_Grupp2\HideNSneakUnreal\Source\HideNSneakUnreal\BatteryPickup.h
+C:\Users\fredr\Documents\GitHub\PROJ_Grupp2\HideNSneakUnreal\Source\HideNSneakUnreal\CanBeSeenThroughWalls.h
+C:\Users\fredr\Documents\GitHub\PROJ_Grupp2\HideNSneakUnreal\Source\HideNSneakUnreal\CPPCharacter.h
+C:\Users\fredr\Documents\GitHub\PROJ_Grupp2\HideNSneakUnreal\Source\HideNSneakUnreal\CPP_Character.h
+C:\Users\fredr\Documents\GitHub\PROJ_Grupp2\HideNSneakUnreal\Source\HideNSneakUnreal\CPP_MovementBoost.h
+C:\Users\fredr\Documents\GitHub\PROJ_Grupp2\HideNSneakUnreal\Source\HideNSneakUnreal\CPP_Powerup.h
+C:\Users\fredr\Documents\GitHub\PROJ_Grupp2\HideNSneakUnreal\Source\HideNSneakUnreal\GameController.h
+C:\Users\fredr\Documents\GitHub\PROJ_Grupp2\HideNSneakUnreal\Source\HideNSneakUnreal\HideNSneakGameModeBase.h
+C:\Users\fredr\Documents\GitHub\PROJ_Grupp2\HideNSneakUnreal\Source\HideNSneakUnreal\HideNSneakCPPCharacter.h
+C:\Users\fredr\Documents\GitHub\PROJ_Grupp2\HideNSneakUnreal\Source\HideNSneakUnreal\InvisibilityPowerUp.h
+C:\Users\fredr\Documents\GitHub\PROJ_Grupp2\HideNSneakUnreal\Source\HideNSneakUnreal\moveableBox.h
+C:\Users\fredr\Documents\GitHub\PROJ_Grupp2\HideNSneakUnreal\Source\HideNSneakUnreal\MovementSpeedPowerUp.h
+C:\Users\fredr\Documents\GitHub\PROJ_Grupp2\HideNSneakUnreal\Source\HideNSneakUnreal\MovingPlatform.h
+C:\Users\fredr\Documents\GitHub\PROJ_Grupp2\HideNSneakUnreal\Source\HideNSneakUnreal\NewActorComponent.h
+C:\Users\fredr\Documents\GitHub\PROJ_Grupp2\HideNSneakUnreal\Source\HideNSneakUnreal\OnlineGameInstance.h
+C:\Users\fredr\Documents\GitHub\PROJ_Grupp2\HideNSneakUnreal\Source\HideNSneakUnreal\Pickup.h
+C:\Users\fredr\Documents\GitHub\PROJ_Grupp2\HideNSneakUnreal\Source\HideNSneakUnreal\RandomizeSeeker.h
+C:\Users\fredr\Documents\GitHub\PROJ_Grupp2\HideNSneakUnreal\Source\HideNSneakUnreal\RoundController.h
+C:\Users\fredr\Documents\GitHub\PROJ_Grupp2\HideNSneakUnreal\Source\HideNSneakUnreal\SpawnVolume.h
+C:\Users\fredr\Documents\GitHub\PROJ_Grupp2\HideNSneakUnreal\Source\HideNSneakUnreal\SteamOnlineGameInstance.h
+C:\Users\fredr\Documents\GitHub\PROJ_Grupp2\HideNSneakUnreal\Source\HideNSneakUnreal\TagMechanic.h
+C:\Users\fredr\Documents\GitHub\PROJ_Grupp2\HideNSneakUnreal\Source\HideNSneakUnreal\test.h
+C:\Users\fredr\Documents\GitHub\PROJ_Grupp2\HideNSneakUnreal\Source\HideNSneakUnreal\testActor.h
+>>>>>>> 09c5d88d772535bdf3b58b5eb6b247107df1e554

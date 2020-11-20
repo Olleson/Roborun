@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 C:\Users\Olle\Documents\PROJ_Grupp2\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\Definitions.HideNSneakUnreal.h
 C:\Users\Olle\Documents\PROJ_Grupp2\HideNSneakUnreal\Source\HideNSneakUnreal\moveableBox.h
 C:\Users\Olle\Documents\PROJ_Grupp2\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Inc\HideNSneakUnreal\moveableBox.generated.h
+=======
+C:\Users\fredr\Documents\GitHub\PROJ_Grupp2\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\Definitions.HideNSneakUnreal.h
+c:\users\fredr\documents\github\proj_grupp2\hidensneakunreal\source\hidensneakunreal\moveableBox.h
+C:\Users\fredr\Documents\GitHub\PROJ_Grupp2\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Inc\HideNSneakUnreal\moveableBox.generated.h
+>>>>>>> 09c5d88d772535bdf3b58b5eb6b247107df1e554

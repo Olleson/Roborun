@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\Olle\Documents\PROJ_Grupp2\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\Definitions.HideNSneakUnreal.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
@@ -7,3 +8,14 @@ C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Engine/
 C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
 C:\Users\Olle\Documents\PROJ_Grupp2\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Inc\HideNSneakUnreal\BatteryGameMode.generated.h
+=======
+C:\Users\fredr\Documents\GitHub\PROJ_Grupp2\HideNSneakUnreal\Intermediate\Build\Win64\UE4Editor\Development\HideNSneakUnreal\Definitions.HideNSneakUnreal.h
+F:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+F:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\Users\fredr\Documents\GitHub\PROJ_Grupp2\HideNSneakUnreal\Source\HideNSneakUnreal/BatteryGameMode.h
+F:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+F:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+F:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
+F:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+c:\users\fredr\documents\github\proj_grupp2\hidensneakunreal\intermediate\build\win64\ue4editor\inc\hidensneakunreal\BatteryGameMode.generated.h
+>>>>>>> 09c5d88d772535bdf3b58b5eb6b247107df1e554
