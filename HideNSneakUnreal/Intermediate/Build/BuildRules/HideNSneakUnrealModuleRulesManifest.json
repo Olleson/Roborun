@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"D:\\Proj 2020\\HideNSneakUnreal\\Source\\HideNSneakUnreal\\HideNSneakUnreal.Build.cs",
-		"D:\\Proj 2020\\HideNSneakUnreal\\Source\\HideNSneakUnreal.Target.cs",
-		"D:\\Proj 2020\\HideNSneakUnreal\\Source\\HideNSneakUnrealEditor.Target.cs"
+		"C:\\Users\\Olle\\Documents\\PROJ_Grupp2\\HideNSneakUnreal\\Source\\HideNSneakUnreal\\HideNSneakUnreal.Build.cs",
+		"C:\\Users\\Olle\\Documents\\PROJ_Grupp2\\HideNSneakUnreal\\Source\\HideNSneakUnreal.Target.cs",
+		"C:\\Users\\Olle\\Documents\\PROJ_Grupp2\\HideNSneakUnreal\\Source\\HideNSneakUnrealEditor.Target.cs"
 	],
 	"EngineVersion": "4.25.4"
 }
