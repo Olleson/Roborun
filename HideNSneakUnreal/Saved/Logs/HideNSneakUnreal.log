@@ -2166,3 +2166,55 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.11.20-13.14.41:871][332]AssetCheck: New page: Asset Save: multiple assets
 [2020.11.20-13.14.41:871][332]LogContentValidation: Display: Validating World /Game/Maps/Alpha_playable_whitebox.Alpha_playable_whitebox
 [2020.11.20-13.14.41:871][332]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Alpha_playable_whitebox_BuiltData.Alpha_playable_whitebox_BuiltData
+[2020.11.20-13.24.41:150][226]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2020.11.20-13.24.41:157][226]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Alpha_playable_whitebox' took 0.031
+[2020.11.20-13.24.41:183][226]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/3D/Props/Meshes/Pipes/p_pipeSmallBent90_mesh_v02] ([1] browsable assets)...
+[2020.11.20-13.24.41:249][226]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Art/3D/Props/Meshes/Pipes/p_pipeSmallBent90_mesh_v02.p_pipeSmallBent90_mesh_v02]
+[2020.11.20-13.24.41:249][226]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/3D/Props/Meshes/Pipes/p_pipeSmallBent90_mesh_v02]
+[2020.11.20-13.24.41:446][226]LogSavePackage: Moving '../../../../../Proj 2020/HideNSneakUnreal/Saved/p_pipeSmallBent90_mesh_v02_Auto1AAA616F14F9D4D8278653CBF6B99CA1C.tmp' to '../../../../../Proj 2020/HideNSneakUnreal/Saved/Autosaves/Game/Art/3D/Props/Meshes/Pipes/p_pipeSmallBent90_mesh_v02_Auto1.uasset'
+[2020.11.20-13.24.41:448][226]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/3D/Props/Meshes/Pipes/p_pipeSmallStraight_mesh_v02] ([1] browsable assets)...
+[2020.11.20-13.24.41:474][226]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Art/3D/Props/Meshes/Pipes/p_pipeSmallStraight_mesh_v02.p_pipeSmallStraight_mesh_v02]
+[2020.11.20-13.24.41:475][226]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/3D/Props/Meshes/Pipes/p_pipeSmallStraight_mesh_v02]
+[2020.11.20-13.24.41:507][226]LogSavePackage: Moving '../../../../../Proj 2020/HideNSneakUnreal/Saved/p_pipeSmallStraight_mesh_v02_Aut499CADC24DD1AF1CF1AF029CD4D46434.tmp' to '../../../../../Proj 2020/HideNSneakUnreal/Saved/Autosaves/Game/Art/3D/Props/Meshes/Pipes/p_pipeSmallStraight_mesh_v02_Auto1.uasset'
+[2020.11.20-13.24.41:509][226]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/3D/Props/Meshes/Pipes/p_pipe_mesh_v02] ([1] browsable assets)...
+[2020.11.20-13.24.41:535][226]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Art/3D/Props/Meshes/Pipes/p_pipe_mesh_v02.p_pipe_mesh_v02]
+[2020.11.20-13.24.41:535][226]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/3D/Props/Meshes/Pipes/p_pipe_mesh_v02]
+[2020.11.20-13.24.41:571][226]LogSavePackage: Moving '../../../../../Proj 2020/HideNSneakUnreal/Saved/p_pipe_mesh_v02_Auto1AE3810874D0A90823BD0F8B80F581B4E.tmp' to '../../../../../Proj 2020/HideNSneakUnreal/Saved/Autosaves/Game/Art/3D/Props/Meshes/Pipes/p_pipe_mesh_v02_Auto1.uasset'
+[2020.11.20-13.24.41:572][226]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/3D/Props/Meshes/Pipes/p_pipeBent90_mesh_v02] ([1] browsable assets)...
+[2020.11.20-13.24.41:598][226]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Art/3D/Props/Meshes/Pipes/p_pipeBent90_mesh_v02.p_pipeBent90_mesh_v02]
+[2020.11.20-13.24.41:598][226]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/3D/Props/Meshes/Pipes/p_pipeBent90_mesh_v02]
+[2020.11.20-13.24.41:631][226]LogSavePackage: Moving '../../../../../Proj 2020/HideNSneakUnreal/Saved/p_pipeBent90_mesh_v02_Auto134B503D744C6438B6903C5912EEFC575.tmp' to '../../../../../Proj 2020/HideNSneakUnreal/Saved/Autosaves/Game/Art/3D/Props/Meshes/Pipes/p_pipeBent90_mesh_v02_Auto1.uasset'
+[2020.11.20-13.24.41:632][226]LogFileHelpers: Auto-saving content packages took 0.475
+[2020.11.20-13.27.02:509][879]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube49)
+[2020.11.20-13.27.09:897][285]Cmd: TRANSACTION UNDO
+[2020.11.20-13.27.09:897][285]LogEditorTransaction: Undo Move Actors
+[2020.11.20-13.27.15:238][467]Cmd: SELECT NONE
+[2020.11.20-13.29.02:954][587]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.11.20-13.34.41:937][291]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2020.11.20-13.34.41:943][291]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Alpha_playable_whitebox' took 0.019
+[2020.11.20-13.35.24:856][267]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2020.11.20-13.35.24:859][267]LogMetaData: Removing '/Game/Maps/Beta_whitebox.Beta_whitebox_C' ref from Metadata '/Game/Maps/Alpha_playable_whitebox.PackageMetaData'
+[2020.11.20-13.35.24:859][267]LogMetaData: Removing '/Game/Maps/Beta_whitebox.Beta_whitebox:PersistentLevel.Beta_whitebox.EventGraph.K2Node_Event_0' ref from Metadata '/Game/Maps/Alpha_playable_whitebox.PackageMetaData'
+[2020.11.20-13.35.24:859][267]LogMetaData: Removing '/Game/Maps/Beta_whitebox.Beta_whitebox:PersistentLevel.Beta_whitebox.EventGraph.K2Node_Event_1' ref from Metadata '/Game/Maps/Alpha_playable_whitebox.PackageMetaData'
+[2020.11.20-13.35.24:859][267]LogMetaData: Removing '/Game/Maps/Beta_whitebox.SKEL_Beta_whitebox_C' ref from Metadata '/Game/Maps/Alpha_playable_whitebox.PackageMetaData'
+[2020.11.20-13.35.24:894][267]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Beta_whitebox_BuiltData" FILE="../../../../../Proj 2020/HideNSneakUnreal/Content/Maps/Beta_whitebox_BuiltData.uasset" SILENT=true
+[2020.11.20-13.35.24:901][267]LogSavePackage: Moving '../../../../../Proj 2020/HideNSneakUnreal/Saved/Beta_whitebox_BuiltDataEDB7DAA948EF72CCFE4985B31EFA2536.tmp' to '../../../../../Proj 2020/HideNSneakUnreal/Content/Maps/Beta_whitebox_BuiltData.uasset'
+[2020.11.20-13.35.24:910][267]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Beta_whitebox" FILE="../../../../../Proj 2020/HideNSneakUnreal/Content/Maps/Beta_whitebox.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.11.20-13.35.24:923][267]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2020.11.20-13.35.25:926][267]LogSavePackage: Moving '../../../../../Proj 2020/HideNSneakUnreal/Saved/Beta_whitebox7835330242475823C1331F8E0EDF9F99.tmp' to '../../../../../Proj 2020/HideNSneakUnreal/Content/Maps/Beta_whitebox.umap'
+[2020.11.20-13.35.25:974][267]LogFileHelpers: Saving map 'Beta_whitebox' took 1.065
+[2020.11.20-13.35.26:235][267]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2020.11.20-13.35.26:246][267]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2020.11.20-13.35.26:265][267]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2020.11.20-13.35.26:275][267]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2020.11.20-13.35.26:464][267]AssetCheck: New page: Asset Save: multiple assets
+[2020.11.20-13.35.26:465][267]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Beta_whitebox_BuiltData.Beta_whitebox_BuiltData
+[2020.11.20-13.35.26:465][267]LogContentValidation: Display: Validating World /Game/Maps/Beta_whitebox.Beta_whitebox
+[2020.11.20-13.35.33:323][597]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Beta_whitebox" FILE="../../../../../Proj 2020/HideNSneakUnreal/Content/Maps/Beta_whitebox.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.11.20-13.35.33:335][597]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2020.11.20-13.35.34:159][597]LogSavePackage: Moving '../../../../../Proj 2020/HideNSneakUnreal/Saved/Beta_whitebox470FEAE8408D1DEB940FCCAF73E478E9.tmp' to '../../../../../Proj 2020/HideNSneakUnreal/Content/Maps/Beta_whitebox.umap'
+[2020.11.20-13.35.34:237][597]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Beta_whitebox_BuiltData" FILE="../../../../../Proj 2020/HideNSneakUnreal/Content/Maps/Beta_whitebox_BuiltData.uasset" SILENT=true
+[2020.11.20-13.35.34:256][597]LogSavePackage: Moving '../../../../../Proj 2020/HideNSneakUnreal/Saved/Beta_whitebox_BuiltDataC84E195446F907E967EE8A83F45EFD4E.tmp' to '../../../../../Proj 2020/HideNSneakUnreal/Content/Maps/Beta_whitebox_BuiltData.uasset'
+[2020.11.20-13.35.34:276][597]AssetCheck: New page: Asset Save: multiple assets
+[2020.11.20-13.35.34:276][597]LogContentValidation: Display: Validating World /Game/Maps/Beta_whitebox.Beta_whitebox
+[2020.11.20-13.35.34:276][597]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Beta_whitebox_BuiltData.Beta_whitebox_BuiltData
