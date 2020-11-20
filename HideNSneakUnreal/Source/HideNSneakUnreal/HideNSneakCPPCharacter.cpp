@@ -78,6 +78,7 @@ void AHideNSneakCPPCharacter::GetLifetimeReplicatedProps(TArray<FLifetimePropert
 	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
 
 	DOREPLIFETIME(AHideNSneakCPPCharacter, bIsSeeker);
+	DOREPLIFETIME(AHideNSneakCPPCharacter, IsDecoy);
 }
 
 //////////////////////////////////////////////////////////////////////////

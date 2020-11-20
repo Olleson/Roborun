@@ -107,7 +107,7 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintreadWrite)
 		bool DecoyAvailible = true;
 
-	UPROPERTY(EditAnywhere, BlueprintreadWrite)
+	UPROPERTY(EditAnywhere, BlueprintreadWrite, Replicated)
 		bool IsDecoy;
 
 	UFUNCTION(Client, unreliable, BlueprintCallable, Category = "Hider")
