@@ -2147,3 +2147,5 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.11.23-12.50.44:857][702]LogSavePackage: Moving '../../../../../../Users/arvid/Documents/PROJ_Grupp2_Ny/HideNSneakUnreal/Saved/Alpha_playable_whitebox_Auto8394737E24522861B419534924DF28D93.tmp' to '../../../../../../Users/arvid/Documents/PROJ_Grupp2_Ny/HideNSneakUnreal/Saved/Autosaves/Game/Maps/Alpha_playable_whitebox_Auto8.umap'
 [2020.11.23-12.50.44:861][702]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Alpha_playable_whitebox' took 1.181
 [2020.11.23-12.50.44:861][702]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.181
+[2020.11.23-12.51.32:925][435]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_containerClosed_mesh_v66)
+[2020.11.23-12.51.34:626][609]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
