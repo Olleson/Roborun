@@ -19,12 +19,14 @@ void ARoundController::BPAddHiderToSeekerTeam(AHideNSneakCPPCharacter* tempChar)
 }
 
 void ARoundController::BPAddHiderToHiderTeam(AHideNSneakCPPCharacter* tempChar) {
-	if (!Hiders.Contains(tempChar))
-		Hiders.Add(tempChar);
-	if (Seekers.Contains(tempChar))
-		Seekers.Remove(tempChar);
-	if (!Players.Contains(tempChar))
-		Players.Add(tempChar);
+	if (!tempChar->IsDecoy) {
+		if (!Hiders.Contains(tempChar))
+			Hiders.Add(tempChar);
+		if (Seekers.Contains(tempChar))
+			Seekers.Remove(tempChar);
+		/*if (!Players.Contains(tempChar))
+			Players.Add(tempChar);*/
+	}
 }
 
 void ARoundController::BPEndRound() { Players[0]->ServerResetPlayersToHiders(); }
