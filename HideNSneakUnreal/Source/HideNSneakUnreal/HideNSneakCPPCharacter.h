@@ -42,11 +42,11 @@ public:
 	UPROPERTY(EditAnywhere)
 		bool hasBeenSeeker;
 
-	UFUNCTION(BlueprintCallable, Category = "Character")
+	UFUNCTION(BlueprintPure, Category = "Character")
 		// Returns the base speed of the character's current role
 		float GetBaseSpeed();
 
-	UFUNCTION(BlueprintCallable, Category = "Character")
+	UFUNCTION(BlueprintPure, Category = "Character")
 		// Retunrs the base jump height
 		float GetBaseJumpHeight();
 
@@ -54,7 +54,7 @@ public:
 		// Sets the pointer to a collected pickup
 		void CollectPickup(APickup* Pickup);
 
-	UFUNCTION(BlueprintCallable, Category = "Pickup")
+	UFUNCTION(BlueprintPure, Category = "Pickup")
 		// Returns the icon of the collected powerup
 		UTexture2D* GetCollectedPowerUpIcon();
 

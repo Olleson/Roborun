@@ -39,7 +39,7 @@ void USteamOnlineGameInstance::OnJoinSessionComplete(FName SessionName, EOnJoinS
 	}
 }
 
-void USteamOnlineGameInstance::CreateServer(FString ServerName, FString HostName)
+void USteamOnlineGameInstance::CreateServer(FString ServerName, FString HostName, int MaxPlayerCount)
 {
 	FOnlineSessionSettings SessionSettings;
 	SessionSettings.bAllowJoinInProgress = true;
@@ -47,7 +47,7 @@ void USteamOnlineGameInstance::CreateServer(FString ServerName, FString HostName
 	SessionSettings.bIsLANMatch = false;
 	SessionSettings.bShouldAdvertise = true;
 	SessionSettings.bUsesPresence = true;
-	SessionSettings.NumPublicConnections = 10;
+	SessionSettings.NumPublicConnections = MaxPlayerCount;
 	SessionSettings.Set(FName("SERVER_NAME_KEY"), ServerName, EOnlineDataAdvertisementType::ViaOnlineServiceAndPing);
 	SessionSettings.Set(FName("SERVER_HOSTNAME_KEY"), HostName, EOnlineDataAdvertisementType::ViaOnlineServiceAndPing);
 
