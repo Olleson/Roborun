@@ -254,7 +254,7 @@ void AHideNSneakCPPCharacter::UseDecoyAbility_Implementation() {
 	if (DecoyAvailible) {
 
 		//timer for delaying when the other part of the function is called
-		GetWorldTimerManager().SetTimer(StealthTimerHandle, this, &AHideNSneakCPPCharacter::DecoyStealthOver_Implementation, StealthDuration, false); //local
+		//GetWorldTimerManager().SetTimer(StealthTimerHandle, this, &AHideNSneakCPPCharacter::DecoyStealthOver_Implementation, StealthDuration, false); //local
 		if (Decoy != NULL) {
 			DecoyAvailible = false;
 			if (UWorld* const World = GetWorld()) {
@@ -293,7 +293,7 @@ void AHideNSneakCPPCharacter::ServerDecoyAbility_Implementation(AHideNSneakCPPCh
 {
 	if (HasAuthority()) {
 
-		SpawnActor->SetActorHiddenInGame(true);
+		//SpawnActor->SetActorHiddenInGame(true);
 		if (GetWorld() != NULL) {
 			FActorSpawnParameters SpawnParameters;
 			SpawnParameters.Owner = SpawnActor;
