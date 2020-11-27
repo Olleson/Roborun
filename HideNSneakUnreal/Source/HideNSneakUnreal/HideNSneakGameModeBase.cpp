@@ -14,39 +14,4 @@ AHideNSneakGameModeBase::AHideNSneakGameModeBase()
 	if (psclassobj.Class != NULL)
 		PlayerStateClass = psclassobj.Class;
 	*/
-
-	// Set default values
-	HidersBaseSpeed = 600.0;
-	SeekersBaseSpeed = 666.0;
-	PlayersBaseJumpHeight = 1000;
 }
-
-float AHideNSneakGameModeBase::GetHidersBaseSpeed()
-{
-	return HidersBaseSpeed;
-}
-
- void AHideNSneakGameModeBase::SetHidersBaseSpeed(float inBaseSpeed)
-{
-	 HidersBaseSpeed = inBaseSpeed;
-}
-
- float AHideNSneakGameModeBase::GetSeekersBaseSpeed()
- {
-	 return SeekersBaseSpeed;
- }
-
- void AHideNSneakGameModeBase::SetSeekersBaseSpeed(float inBaseSpeed)
- {
-	 SeekersBaseSpeed = inBaseSpeed;
- }
-
- float AHideNSneakGameModeBase::GetPlayerBaseJumpHeight()
- {
-	 return PlayersBaseJumpHeight;
- }
-
- void AHideNSneakGameModeBase::SetPlayersBaseJumpHeight(float inJumpHeight)
- {
-	 PlayersBaseJumpHeight = inJumpHeight;
- }

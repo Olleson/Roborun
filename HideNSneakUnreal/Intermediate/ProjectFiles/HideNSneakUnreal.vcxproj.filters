@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\HideNSneakUnreal.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{578857CE-958A-441F-8632-159F9FF46B1A}</UniqueIdentifier>
+      <UniqueIdentifier>{0F9E91E0-50BD-4D1F-A0C5-FE1323C2A4A3}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\HideNSneakUnreal.Target.cs">
       <Filter>Source</Filter>
@@ -13,7 +13,7 @@
     </None>
     <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{7EAE2F69-8092-467E-9F55-14C5D05BA33B}</UniqueIdentifier>
+      <UniqueIdentifier>{D90E5594-6ACB-4424-ACEA-590FC0F9F86B}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEngine.ini">
       <Filter>Config</Filter>
@@ -22,26 +22,8 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\HideNSneakUnreal">
-      <UniqueIdentifier>{B521682D-DD33-423A-B865-79C892547798}</UniqueIdentifier>
+      <UniqueIdentifier>{232B59C1-9047-46C9-A66C-B1F60D7DEDF7}</UniqueIdentifier>
     </Filter>
-    <ClCompile Include="..\..\Source\HideNSneakUnreal\BatteryGameMode.cpp">
-      <Filter>Source\HideNSneakUnreal</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\HideNSneakUnreal\BatteryGameMode.h">
-      <Filter>Source\HideNSneakUnreal</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\HideNSneakUnreal\BatteryPickup.cpp">
-      <Filter>Source\HideNSneakUnreal</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\HideNSneakUnreal\BatteryPickup.h">
-      <Filter>Source\HideNSneakUnreal</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\HideNSneakUnreal\CPPCharacter.cpp">
-      <Filter>Source\HideNSneakUnreal</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\HideNSneakUnreal\CPPCharacter.h">
-      <Filter>Source\HideNSneakUnreal</Filter>
-    </ClInclude>
     <ClCompile Include="..\..\Source\HideNSneakUnreal\CPP_Character.cpp">
       <Filter>Source\HideNSneakUnreal</Filter>
     </ClCompile>

@@ -52,6 +52,7 @@ public:
 	USteamOnlineGameInstance();
 
 protected:
+
 	virtual void Init() override;
 
 	FName MySessionName;

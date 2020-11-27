@@ -4,9 +4,18 @@
 #include "Kismet/GameplayStatics.h"
 #include "Engine/World.h"
 #include "GameFramework/Actor.h"
+#include "Net/UnrealNetwork.h"
 #include "HideNSneakCPPCharacter.h"
 
 ARoundController::ARoundController() { }
+
+void ARoundController::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const
+{
+	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
+	DOREPLIFETIME(ARoundController, HidersBaseSpeed);
+	DOREPLIFETIME(ARoundController, SeekersBaseSpeed);
+	DOREPLIFETIME(ARoundController, PlayersBaseJumpHeight);
+}
 
 void ARoundController::BeginPlay() { Super::BeginPlay(); }
 
@@ -29,7 +38,9 @@ void ARoundController::BPAddHiderToHiderTeam(AHideNSneakCPPCharacter* tempChar) 
 	}
 }
 
-void ARoundController::BPEndRound() { Players[0]->ServerResetPlayersToHiders(); }
+void ARoundController::BPEndRound() {
+	Players[0]->ServerResetPlayersToHiders();
+}
 
 void ARoundController::BPStartAnotherRound() {
 	//Move players to start points
@@ -37,3 +48,33 @@ void ARoundController::BPStartAnotherRound() {
 }
 
 ARoundController* ARoundController::BPGetRoundController() { return this; }
+
+float ARoundController::GetHidersBaseSpeed()
+{
+	return HidersBaseSpeed;
+}
+
+void ARoundController::SetHidersBaseSpeed(float inBaseSpeed)
+{
+	HidersBaseSpeed = inBaseSpeed;
+}
+
+float ARoundController::GetSeekersBaseSpeed()
+{
+	return SeekersBaseSpeed;
+}
+
+void ARoundController::SetSeekersBaseSpeed(float inBaseSpeed)
+{
+	SeekersBaseSpeed = inBaseSpeed;
+}
+
+float ARoundController::GetPlayerBaseJumpHeight()
+{
+	return PlayersBaseJumpHeight;
+}
+
+void ARoundController::SetPlayersBaseJumpHeight(float inJumpHeight)
+{
+	PlayersBaseJumpHeight = inJumpHeight;
+}

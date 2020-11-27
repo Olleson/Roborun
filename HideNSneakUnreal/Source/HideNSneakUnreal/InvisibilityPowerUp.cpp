@@ -3,6 +3,10 @@
 
 #include "InvisibilityPowerUp.h"
 
+AInvisibilityPowerUp::AInvisibilityPowerUp(const FObjectInitializer& OI): Super(OI) {
+
+}
+
 void AInvisibilityPowerUp::ApplyPowerUp_Implementation(APawn* Pawn) {
 	if (AHideNSneakCPPCharacter* Character = Cast<AHideNSneakCPPCharacter>(Pawn)) {
 		Character->SetActorHiddenInGame(true);

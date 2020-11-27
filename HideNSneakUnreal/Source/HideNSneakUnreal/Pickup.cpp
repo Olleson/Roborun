@@ -1,19 +1,28 @@
 //Author: Abdi Abdifatah
-//Co Author: Oskar Johansson
+//Co Authors: Oskar Johansson, Alexander Aulin
 
 
 #include "Pickup.h"
 #include "Net/UnrealNetwork.h"
 
-APickup::APickup() {
+APickup::APickup(const FObjectInitializer& OI) : Super(OI) {
 	// Tell Unreal Engine to replicate this actor
 	bReplicates = true;
 
 	// Pickups do not need to tick every frame
 	PrimaryActorTick.bCanEverTick = false;
 
-	// StaticMeshActor disables overlap events by default, which we need to re-enable
-	GetStaticMeshComponent()->SetGenerateOverlapEvents(true);
+	// Initialize Mesh
+	SkeletalMeshComponent = OI.CreateDefaultSubobject<USkeletalMeshComponent>(this, TEXT("Mesh"));
+	SetRootComponent(SkeletalMeshComponent);
+	SkeletalMeshComponent->SetGenerateOverlapEvents(false);
+	SkeletalMeshComponent->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+
+	// Initialize Collision Box
+	BoxComponent = OI.CreateDefaultSubobject<UBoxComponent>(this, TEXT("Collider"));
+	BoxComponent->SetupAttachment(SkeletalMeshComponent);
+	BoxComponent->SetGenerateOverlapEvents(true);
+	BoxComponent->SetCollisionEnabled(ECollisionEnabled::QueryAndPhysics);
 
 	if (HasAuthority()) {
 		bIsActive = true;
@@ -25,6 +34,13 @@ APickup::APickup() {
 	PowerUpDuration = 10.0;
 }
 
+void APickup::BeginPlay()
+{
+	AActor::BeginPlay();
+	BoxComponent->AttachToComponent(SkeletalMeshComponent, FAttachmentTransformRules::KeepRelativeTransform);
+	OnSpawn();
+}
+
 void APickup::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const {
 	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
 
@@ -33,15 +49,13 @@ void APickup::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeP
 
 void APickup::OnRep_IsActive() {
 	if (bIsActive) {
-		GetStaticMeshComponent()->SetVisibility(true);
-		GetStaticMeshComponent()->SetGenerateOverlapEvents(true);
-		GetStaticMeshComponent()->SetCollisionEnabled(ECollisionEnabled::QueryAndPhysics);
+		BoxComponent->SetGenerateOverlapEvents(true);
+		BoxComponent->SetCollisionEnabled(ECollisionEnabled::QueryAndPhysics);
 	}
 	else
 	{
-		GetStaticMeshComponent()->SetVisibility(false);
-		GetStaticMeshComponent()->SetGenerateOverlapEvents(false);
-		GetStaticMeshComponent()->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+		BoxComponent->SetGenerateOverlapEvents(false);
+		BoxComponent->SetCollisionEnabled(ECollisionEnabled::NoCollision);
 		if (Respawns) {
 			GetWorld()->GetTimerManager().SetTimer(RespawnTimer, this, &APickup::RespawnPickup, RespawnDelay, false);
 		}
@@ -54,12 +68,14 @@ void APickup::RespawnPickup()
 	if (HasAuthority()) {
 		OnRep_IsActive();
 	}
+	OnSpawn();
 }
 
 void APickup::ClientOnPickedUpBy_Implementation(APawn* Pawn)
 {
 	PickupInstigator = Pawn;
 	WasCollected();
+	OnPickedUp();
 }
 
 void APickup::PickedUpBy(APawn* Pawn)

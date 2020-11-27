@@ -15,7 +15,7 @@ class HIDENSNEAKUNREAL_API AJumpPowerUp : public APickup
 	GENERATED_BODY()
 	
 public:
-	AJumpPowerUp();
+	AJumpPowerUp(const FObjectInitializer& OI);
 
 	void ApplyPowerUp_Implementation(APawn* Pawn) override;
 

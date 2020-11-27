@@ -13,6 +13,8 @@ class HIDENSNEAKUNREAL_API AInvisibilityPowerUp : public APickup
 	GENERATED_BODY()
 	
 public:
+	AInvisibilityPowerUp(const FObjectInitializer& OI);
+
 	void ApplyPowerUp_Implementation(APawn* Pawn) override;
 
 	void UnApplyPowerUp_Implementation() override;

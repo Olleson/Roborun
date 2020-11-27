@@ -3,7 +3,7 @@
 
 #include "MovementSpeedPowerUp.h"
 
-AMovementSpeedPowerUp::AMovementSpeedPowerUp() {
+AMovementSpeedPowerUp::AMovementSpeedPowerUp(const FObjectInitializer& OI) : Super(OI) {
 	// Set base value for the speed boost
 	MovementSpeedBoost = 100.0;
 }

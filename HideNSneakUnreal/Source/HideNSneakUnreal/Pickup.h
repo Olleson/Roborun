@@ -1,23 +1,26 @@
 //Author: Abdi Abdifatah
-//Co Author: Oskar Johansson
+//Co Authors: Oskar Johansson, Alexander Aulin
 
 #pragma once
 
 #include "CoreMinimal.h"
-#include "Engine/StaticMeshActor.h"
+#include "GameFramework/Actor.h"
+#include "Components/BoxComponent.h"
 #include "HideNSneakCPPCharacter.h"
 #include "Pickup.generated.h"
 
 class AHideNSneakCPPCharacter;
 
 UCLASS()
-class HIDENSNEAKUNREAL_API APickup : public AStaticMeshActor
+class HIDENSNEAKUNREAL_API APickup : public AActor
 {
 	GENERATED_BODY()
 
 public:
 	/** Set default values via Constructor */
-	APickup();
+	APickup(const FObjectInitializer& OI);
+
+	void BeginPlay() override;
 
 	/** Required Network Scaffolding */
 	void GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const override;
@@ -67,6 +70,14 @@ protected:
 	UFUNCTION(BlueprintCallable, Category = "Pickup")
 		virtual void OnRep_IsActive();
 
+	UFUNCTION(BlueprintImplementableEvent, Category = "Pickup", meta = (BlueprintProtected = "true"))
+		// This is called on BeginPlay and whenever the pickup respawns. It is implemented in blueprints
+		void OnSpawn();
+
+	UFUNCTION(BlueprintImplementableEvent, Category = "Pickup", meta = (BlueprintProtected = "true"))
+		// This is called when picked up. It is implemented in blueprints
+		void OnPickedUp();
+
 	// The pawn who picked up the pickup
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Pickup")
 		APawn* PickupInstigator;
@@ -95,6 +106,12 @@ protected:
 	std::queue<AHideNSneakCPPCharacter*> PlayerQueue;
 
 private:
+	UPROPERTY(Category = SkeletalMeshActor, VisibleAnywhere, BlueprintReadOnly, meta = (ExposeFunctionCategories = "Mesh,Rendering,Physics,Components|SkeletalMesh", AllowPrivateAccess = "true"))
+		class USkeletalMeshComponent* SkeletalMeshComponent;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Collider", meta = (AllowPrivateAccess = "true"))
+		class UBoxComponent* BoxComponent;
+
 	UFUNCTION(NetMulticast, Unreliable)
 		// Client side handling of being picked up
 		void ClientOnPickedUpBy(APawn* Pawn);

@@ -16,7 +16,7 @@ class HIDENSNEAKUNREAL_API AMovementSpeedPowerUp : public APickup
 	GENERATED_BODY()
 
 public:
-	AMovementSpeedPowerUp();
+	AMovementSpeedPowerUp(const FObjectInitializer& OI);
 
 protected:
 
