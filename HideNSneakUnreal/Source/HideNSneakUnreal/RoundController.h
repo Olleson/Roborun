@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
+#include "GameFramework/PlayerStart.h"
 #include "RoundController.generated.h"
 
 UCLASS()
@@ -29,6 +30,10 @@ public:
 	UPROPERTY(BlueprintReadWrite, Category = "Round Controller", EditAnywhere)
 		//List of all Seekers in the game.
 		TArray<AHideNSneakCPPCharacter*> Seekers;
+
+	UPROPERTY(BlueprintReadWrite, Category = "Round Controller", EditAnywhere)
+		//List of all player starts in the game.
+		TArray<APlayerStart*> PlayerStarts;
 
 	UPROPERTY(BlueprintReadWrite, Category = "Round Controller", EditAnywhere)
 		//The smallest amount of players that can be in a round before it is over.
