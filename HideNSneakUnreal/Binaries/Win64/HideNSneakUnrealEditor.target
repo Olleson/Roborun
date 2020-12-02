@@ -10,8 +10,8 @@
 	{
 		"MajorVersion": 4,
 		"MinorVersion": 25,
-		"PatchVersion": 1,
-		"Changelist": 13594126,
+		"PatchVersion": 3,
+		"Changelist": 13942748,
 		"CompatibleChangelist": 13144385,
 		"IsLicenseeVersion": 0,
 		"IsPromotedBuild": 0,
@@ -71,6 +71,22 @@
 		{
 			"Path": "$(EngineDir)/Plugins/Experimental/CodeView/Binaries/Win64/UE4Editor-CodeView.dll",
 			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/FMODStudio/Binaries/Win64/UE4Editor-FMODStudio.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/FMODStudio/Binaries/Win64/UE4Editor-FMODStudio.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/FMODStudio/Binaries/Win64/UE4Editor-FMODStudioEditor.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/FMODStudio/Binaries/Win64/UE4Editor-FMODStudioEditor.pdb",
+			"Type": "SymbolFile"
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll",
@@ -2277,6 +2293,10 @@
 			"Type": "RequiredResource"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/FMODStudio/Binaries/Win64/UE4Editor.modules",
+			"Type": "RequiredResource"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor.modules",
 			"Type": "RequiredResource"
 		},
@@ -2707,6 +2727,10 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/FMODStudio/FMODStudio.uplugin",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/2D/Paper2D/Paper2D.uplugin",
 			"Type": "UFS"
 		},
@@ -3096,6 +3120,14 @@
 		},
 		{
 			"Path": "$(EngineDir)/Binaries/ThirdParty/Steamworks/Steamv147/Win64/steam_api64.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/FMODStudio/Binaries/Win64/fmodL.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/FMODStudio/Binaries/Win64/fmodstudioL.dll",
 			"Type": "NonUFS"
 		},
 		{
