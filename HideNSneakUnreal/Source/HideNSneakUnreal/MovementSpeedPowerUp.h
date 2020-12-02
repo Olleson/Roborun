@@ -23,7 +23,7 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Pickup", meta = (AllowPrivateAcces = "true"))
 		float MovementSpeedBoost;
 
-	void ApplyPowerUp_Implementation(APawn* Pawn) override;
+	void ApplyPowerUp_Implementation(ACharacter* Character) override;
 
 	void UnApplyPowerUp_Implementation() override;
 };

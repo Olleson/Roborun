@@ -4,6 +4,7 @@
 
 #include "Pickup.h"
 #include "Net/UnrealNetwork.h"
+#include "Kismet/GameplayStatics.h"
 
 APickup::APickup(const FObjectInitializer& OI) : Super(OI) {
 	// Tell Unreal Engine to replicate this actor
@@ -32,6 +33,9 @@ APickup::APickup(const FObjectInitializer& OI) : Super(OI) {
 	Respawns = true;
 	RespawnDelay = 60.0;
 	PowerUpDuration = 10.0;
+
+	// No default socket to attach particles to
+	SocketToAttachParticlesTo = NAME_None;
 }
 
 void APickup::BeginPlay()
@@ -45,6 +49,11 @@ void APickup::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeP
 	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
 
 	DOREPLIFETIME(APickup, bIsActive);
+}
+
+bool APickup::DoesSpawnParticles()
+{
+	return SpawnsParticles;
 }
 
 void APickup::OnRep_IsActive() {
@@ -71,25 +80,51 @@ void APickup::RespawnPickup()
 	OnSpawn();
 }
 
-void APickup::ClientOnPickedUpBy_Implementation(APawn* Pawn)
+void APickup::ClientOnPickedUpBy_Implementation(ACharacter* Character)
 {
-	PickupInstigator = Pawn;
+	PickupInstigator = Character;
 	WasCollected();
 	OnPickedUp();
 }
 
-void APickup::PickedUpBy(APawn* Pawn)
+void APickup::PickedUpBy(ACharacter* Character)
 {
 	if (HasAuthority()) {
-		PickupInstigator = Pawn;
-		ClientOnPickedUpBy(Pawn);
+		PickupInstigator = Character;
+		ClientOnPickedUpBy(Character);
 	}
 }
 
-void APickup::ClientApplyPowerUp_Implementation(APawn* Pawn)
+void APickup::ApplyPowerUp_Implementation(ACharacter* Character)
+{
+	
+}
+
+void APickup::ClientApplyPowerUp_Implementation(ACharacter* Character)
 {
 	GEngine->AddOnScreenDebugMessage(-1, 7.0f, FColor::Red, FString("Requesting Server to replicate power up activation"));
-	ApplyPowerUp(Pawn);
+	if (SpawnsParticles && IsValid(Particles)) {
+		UParticleSystemComponent* ParticlesComponent;
+		if (AttachParticlesToCharacter) {
+			ParticlesComponent = UGameplayStatics::SpawnEmitterAttached(Particles, Character->GetMesh(), SocketToAttachParticlesTo);
+		}
+		else
+		{
+			ParticlesComponent = UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), Particles, Character->GetActorLocation(), Character->GetActorRotation(), true);
+		}
+		ParticleComponents.push(ParticlesComponent);
+	}
+	ApplyPowerUp(Character);
+}
+
+void APickup::UnApplyPowerUp_Implementation()
+{
+	if (!Respawns) { Destroy(); }
+	if (SpawnsParticles && IsValid(ParticleComponents.front())) {
+		ParticleComponents.front()->Deactivate();
+		ParticleComponents.front()->DestroyComponent();
+		ParticleComponents.pop();
+	}
 }
 
 bool APickup::IsActive() {
