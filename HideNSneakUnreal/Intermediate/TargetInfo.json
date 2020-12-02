@@ -1,30 +1,14 @@
-<<<<<<< HEAD
 {
 	"Targets": [
 		{
 			"Name": "HideNSneakUnreal",
-			"Path": "C:\\Users\\fredr\\Documents\\GitHub\\PROJ_Grupp2\\HideNSneakUnreal\\Source\\HideNSneakUnreal.Target.cs",
+			"Path": "C:\\Users\\Olle\\Documents\\PROJ_Grupp2\\HideNSneakUnreal\\Source\\HideNSneakUnreal.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "HideNSneakUnrealEditor",
-			"Path": "C:\\Users\\fredr\\Documents\\GitHub\\PROJ_Grupp2\\HideNSneakUnreal\\Source\\HideNSneakUnrealEditor.Target.cs",
+			"Path": "C:\\Users\\Olle\\Documents\\PROJ_Grupp2\\HideNSneakUnreal\\Source\\HideNSneakUnrealEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]
-=======
-{
-	"Targets": [
-		{
-			"Name": "HideNSneakUnreal",
-			"Path": "E:\\Unreal Projects\\Proj\\HideNSneakUnreal\\Source\\HideNSneakUnreal.Target.cs",
-			"Type": "Game"
-		},
-		{
-			"Name": "HideNSneakUnrealEditor",
-			"Path": "E:\\Unreal Projects\\Proj\\HideNSneakUnreal\\Source\\HideNSneakUnrealEditor.Target.cs",
-			"Type": "Editor"
-		}
-	]
->>>>>>> 7154a605013ebbda98bcd55c06efd08ff029dd44
 }
