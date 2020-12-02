@@ -1,4 +1,4 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+// Author: Alexander Aulin
 
 #pragma once
 
@@ -17,12 +17,6 @@ class HIDENSNEAKUNREAL_API AHideNSneakGameModeBase : public AGameModeBase
 public:
 	AHideNSneakGameModeBase();
 	
-
-public:
-
-
-protected:
-
 
 private:
 

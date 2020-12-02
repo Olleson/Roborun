@@ -1,19 +1,29 @@
 //Author: Abdi Abdifatah
-//Co Author: Oskar Johansson
+//Co Authors: Oskar Johansson, Alexander Aulin
 
 
 #include "Pickup.h"
 #include "Net/UnrealNetwork.h"
+#include "Kismet/GameplayStatics.h"
 
-APickup::APickup() {
+APickup::APickup(const FObjectInitializer& OI) : Super(OI) {
 	// Tell Unreal Engine to replicate this actor
 	bReplicates = true;
 
 	// Pickups do not need to tick every frame
 	PrimaryActorTick.bCanEverTick = false;
 
-	// StaticMeshActor disables overlap events by default, which we need to re-enable
-	GetStaticMeshComponent()->SetGenerateOverlapEvents(true);
+	// Initialize Mesh
+	SkeletalMeshComponent = OI.CreateDefaultSubobject<USkeletalMeshComponent>(this, TEXT("Mesh"));
+	SetRootComponent(SkeletalMeshComponent);
+	SkeletalMeshComponent->SetGenerateOverlapEvents(false);
+	SkeletalMeshComponent->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+
+	// Initialize Collision Box
+	BoxComponent = OI.CreateDefaultSubobject<UBoxComponent>(this, TEXT("Collider"));
+	BoxComponent->SetupAttachment(SkeletalMeshComponent);
+	BoxComponent->SetGenerateOverlapEvents(true);
+	BoxComponent->SetCollisionEnabled(ECollisionEnabled::QueryAndPhysics);
 
 	if (HasAuthority()) {
 		bIsActive = true;
@@ -23,6 +33,16 @@ APickup::APickup() {
 	Respawns = true;
 	RespawnDelay = 60.0;
 	PowerUpDuration = 10.0;
+
+	// No default socket to attach particles to
+	SocketToAttachParticlesTo = NAME_None;
+}
+
+void APickup::BeginPlay()
+{
+	AActor::BeginPlay();
+	BoxComponent->AttachToComponent(SkeletalMeshComponent, FAttachmentTransformRules::KeepRelativeTransform);
+	OnSpawn();
 }
 
 void APickup::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const {
@@ -31,17 +51,20 @@ void APickup::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeP
 	DOREPLIFETIME(APickup, bIsActive);
 }
 
+bool APickup::DoesSpawnParticles()
+{
+	return SpawnsParticles;
+}
+
 void APickup::OnRep_IsActive() {
 	if (bIsActive) {
-		GetStaticMeshComponent()->SetVisibility(true);
-		GetStaticMeshComponent()->SetGenerateOverlapEvents(true);
-		GetStaticMeshComponent()->SetCollisionEnabled(ECollisionEnabled::QueryAndPhysics);
+		BoxComponent->SetGenerateOverlapEvents(true);
+		BoxComponent->SetCollisionEnabled(ECollisionEnabled::QueryAndPhysics);
 	}
 	else
 	{
-		GetStaticMeshComponent()->SetVisibility(false);
-		GetStaticMeshComponent()->SetGenerateOverlapEvents(false);
-		GetStaticMeshComponent()->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+		BoxComponent->SetGenerateOverlapEvents(false);
+		BoxComponent->SetCollisionEnabled(ECollisionEnabled::NoCollision);
 		if (Respawns) {
 			GetWorld()->GetTimerManager().SetTimer(RespawnTimer, this, &APickup::RespawnPickup, RespawnDelay, false);
 		}
@@ -54,26 +77,61 @@ void APickup::RespawnPickup()
 	if (HasAuthority()) {
 		OnRep_IsActive();
 	}
+	OnSpawn();
 }
 
-void APickup::ClientOnPickedUpBy_Implementation(APawn* Pawn)
+void APickup::ClientOnPickedUpBy_Implementation(ACharacter* Character)
 {
-	PickupInstigator = Pawn;
+	PickupInstigator = Character;
 	WasCollected();
+	OnPickedUp();
 }
 
-void APickup::PickedUpBy(APawn* Pawn)
+void APickup::PickedUpBy(ACharacter* Character)
 {
 	if (HasAuthority()) {
-		PickupInstigator = Pawn;
-		ClientOnPickedUpBy(Pawn);
+		PickupInstigator = Character;
+		ClientOnPickedUpBy(Character);
 	}
 }
 
-void APickup::ClientApplyPowerUp_Implementation(APawn* Pawn)
+void APickup::ApplyPowerUp_Implementation(ACharacter* Character)
+{
+	
+}
+
+void APickup::ClientApplyPowerUp_Implementation(ACharacter* Character)
 {
 	GEngine->AddOnScreenDebugMessage(-1, 7.0f, FColor::Red, FString("Requesting Server to replicate power up activation"));
-	ApplyPowerUp(Pawn);
+	if (SpawnsParticles && IsValid(Particles)) {
+		UParticleSystemComponent* ParticlesComponent;
+		if (AttachParticlesToCharacter) {
+			ParticlesComponent = UGameplayStatics::SpawnEmitterAttached(Particles, Character->GetMesh(), SocketToAttachParticlesTo);
+		}
+		else
+		{
+			ParticlesComponent = UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), Particles, Character->GetActorLocation(), Character->GetActorRotation(), true);
+		}
+		ParticleComponents.push(ParticlesComponent);
+	}
+	ApplyPowerUp(Character);
+}
+
+void APickup::ClientDestroyParticleComponent_Implementation()
+{
+		UParticleSystemComponent* Component = ParticleComponents.front();
+		if (IsValid(Component)) {
+			Component->Deactivate();
+			Component->DestroyComponent();
+			ParticleComponents.pop();
+			GEngine->AddOnScreenDebugMessage(-1, 7.0f, FColor::Red, FString("Particle System Destroyed"));
+		}
+}
+
+void APickup::UnApplyPowerUp_Implementation()
+{
+	if (!Respawns) { Destroy(); }
+	ClientDestroyParticleComponent();
 }
 
 bool APickup::IsActive() {

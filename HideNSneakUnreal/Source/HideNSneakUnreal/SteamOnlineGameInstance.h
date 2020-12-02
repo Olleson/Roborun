@@ -52,6 +52,7 @@ public:
 	USteamOnlineGameInstance();
 
 protected:
+
 	virtual void Init() override;
 
 	FName MySessionName;
@@ -77,7 +78,7 @@ protected:
 
 	// Creates a session and sets session settings
 	UFUNCTION(BlueprintCallable, Category = "OnlineLobby")
-		void CreateServer(FString ServerName, FString HostName);
+		void CreateServer(FString ServerName, FString HostName, int MaxPlayerCount);
 
 	// Finds available sessions
 	UFUNCTION(BlueprintCallable, Category = "OnlineLobby")
