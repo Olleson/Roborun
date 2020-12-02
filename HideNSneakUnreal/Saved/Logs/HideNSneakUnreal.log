@@ -1612,3 +1612,16 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.12.02-10.58.25:900][818]LogSavePackage: Moving 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Saved/BP_HideNSneakCPPCharacter6A864272471D84F80CC90A858A3A64FA.tmp' to 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Blueprints/BP_HideNSneakCPPCharacter.uasset'
 [2020.12.02-10.58.25:920][818]AssetCheck: New page: Asset Save: BP_HideNSneakCPPCharacter
 [2020.12.02-10.58.25:920][818]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_HideNSneakCPPCharacter.BP_HideNSneakCPPCharacter
+[2020.12.02-11.04.50:115][731]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.12.02-11.11.09:949][869]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.12.02-11.31.57:374][939]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.12.02-11.34.45:951][444]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.12.02-11.36.13:695][707]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.12.02-11.41.29:908][655]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.12.02-11.43.34:280][ 28]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.12.02-11.49.37:770][118]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.12.02-11.49.38:436][120]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.12.02-11.53.16:568][774]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.12.02-12.46.28:512][468]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.12.02-12.48.50:273][893]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.12.02-14.19.53:116][665]LogUObjectHash: Compacting FUObjectHashTables data took  18.80ms
