@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\HideNSneakUnreal.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{B7D95B56-9CE0-4DCF-B0CB-C67F2EC7934D}</UniqueIdentifier>
+      <UniqueIdentifier>{D029C847-BBB6-4AE5-9A48-AE5F1A782D22}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\HideNSneakUnreal.Target.cs">
       <Filter>Source</Filter>
@@ -13,7 +13,7 @@
     </None>
     <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{EB5DF8DA-7441-4736-81C6-6860C74423F6}</UniqueIdentifier>
+      <UniqueIdentifier>{26C2C5FE-61A2-4923-9345-F6889C270D67}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -28,7 +28,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\HideNSneakUnreal">
-      <UniqueIdentifier>{A9F49703-44DA-4062-8891-2F46BDC9EEE8}</UniqueIdentifier>
+      <UniqueIdentifier>{675F6A5E-F296-4EA2-B5FB-28178650B9CA}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\HideNSneakUnreal\BatteryGameMode.cpp">
       <Filter>Source\HideNSneakUnreal</Filter>
