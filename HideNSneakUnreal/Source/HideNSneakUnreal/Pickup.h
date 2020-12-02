@@ -61,6 +61,10 @@ public:
 		void ClientApplyPowerUp(ACharacter* Character);
 	void ClientApplyPowerUp_Implementation(ACharacter* Character);
 
+	UFUNCTION(BlueprintCallable, NetMulticast, Reliable, Category = "Pickup")
+		void ClientDestroyParticleComponent();
+	virtual void ClientDestroyParticleComponent_Implementation();
+
 	UFUNCTION(BlueprintCallable, Server, Reliable, Category = "Pickup")
 		// Deactivates the powerup effect on the next player in the queue
 		void UnApplyPowerUp();

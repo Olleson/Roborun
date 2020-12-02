@@ -117,14 +117,21 @@ void APickup::ClientApplyPowerUp_Implementation(ACharacter* Character)
 	ApplyPowerUp(Character);
 }
 
+void APickup::ClientDestroyParticleComponent_Implementation()
+{
+		UParticleSystemComponent* Component = ParticleComponents.front();
+		if (IsValid(Component)) {
+			Component->Deactivate();
+			Component->DestroyComponent();
+			ParticleComponents.pop();
+			GEngine->AddOnScreenDebugMessage(-1, 7.0f, FColor::Red, FString("Particle System Destroyed"));
+		}
+}
+
 void APickup::UnApplyPowerUp_Implementation()
 {
 	if (!Respawns) { Destroy(); }
-	if (SpawnsParticles && IsValid(ParticleComponents.front())) {
-		ParticleComponents.front()->Deactivate();
-		ParticleComponents.front()->DestroyComponent();
-		ParticleComponents.pop();
-	}
+	ClientDestroyParticleComponent();
 }
 
 bool APickup::IsActive() {
