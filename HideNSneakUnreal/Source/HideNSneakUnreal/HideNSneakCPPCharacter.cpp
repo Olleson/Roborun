@@ -110,11 +110,12 @@ void AHideNSneakCPPCharacter::SetupPlayerInputComponent(class UInputComponent* P
 	PlayerInputComponent->BindTouch(IE_Released, this, &AHideNSneakCPPCharacter::TouchStopped);
 }
 
-void AHideNSneakCPPCharacter::ServerCaptureHider_Implementation(AHideNSneakCPPCharacter* Hider)
+void AHideNSneakCPPCharacter::ServerCaptureHider_Implementation(AHideNSneakCPPCharacter* Hider, AHideNSneakCPPCharacter* Tagger)
 {
 
 	if (HasAuthority() && !Hider->IsSeeker()) {
 		Hider->BecomeSeeker();
+		Tagger->AddScore(3, 1);
 		if (Hider == this) {
 			// Fake the On rep notify for the listen server if it is a hider that gets captured,
 			// as the Server doesn't get on rep notify automatically
@@ -143,6 +144,12 @@ void AHideNSneakCPPCharacter::LookUpAtRate(float Rate)
 {
 	// calculate delta for this frame from the rate information
 	AddControllerPitchInput(Rate * BaseLookUpRate * GetWorld()->GetDeltaSeconds());
+}
+
+int AHideNSneakCPPCharacter::AddScore(int ScoreToAdd, int ScoreMultiplier)
+{
+	Score += (ScoreToAdd * ScoreMultiplier);
+	return Score;
 }
 
 float AHideNSneakCPPCharacter::GetBaseSpeed()
@@ -342,7 +349,7 @@ void AHideNSneakCPPCharacter::OnCompHit(UPrimitiveComponent* HitComp, AActor* Ot
 {
 	if (OtherActor->IsA(AHideNSneakCPPCharacter::StaticClass()) && OtherActor != this && !Cast<AHideNSneakCPPCharacter>(OtherActor)->bIsSeeker && bIsSeeker) {
 		targetTagMechanic = Cast<AHideNSneakCPPCharacter>(OtherActor);
-		ServerCaptureHider(targetTagMechanic);
+		ServerCaptureHider(targetTagMechanic,this);
 	}
 }
 

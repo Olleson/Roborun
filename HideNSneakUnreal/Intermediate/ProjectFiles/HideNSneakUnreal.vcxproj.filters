@@ -3,7 +3,11 @@
   <ItemGroup>
     <None Include="..\..\HideNSneakUnreal.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{886D281D-A4E1-4503-BA97-2EF1C00985E5}</UniqueIdentifier>
+<<<<<<< HEAD
+      <UniqueIdentifier>{D2F4FBC9-990C-4738-86A9-1EE986A4EDCA}</UniqueIdentifier>
+=======
+      <UniqueIdentifier>{A2590EC0-CF55-4688-832B-8960118D2102}</UniqueIdentifier>
+>>>>>>> ca22ebba81635f9e16be4f9856a240c00d449c81
     </Filter>
     <None Include="..\..\Source\HideNSneakUnreal.Target.cs">
       <Filter>Source</Filter>
@@ -13,7 +17,11 @@
     </None>
     <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{625DBF62-0FFF-4ED7-ACE7-9365B15B1CD5}</UniqueIdentifier>
+<<<<<<< HEAD
+      <UniqueIdentifier>{BE44608D-6311-439D-BBE0-E543460943C9}</UniqueIdentifier>
+=======
+      <UniqueIdentifier>{8FADD9D5-E723-4B48-B9EB-2BF75F2C9D26}</UniqueIdentifier>
+>>>>>>> ca22ebba81635f9e16be4f9856a240c00d449c81
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -28,7 +36,11 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\HideNSneakUnreal">
-      <UniqueIdentifier>{073B97ED-C3A7-4DF3-977F-6AE11C29B665}</UniqueIdentifier>
+<<<<<<< HEAD
+      <UniqueIdentifier>{53D17200-52B6-4A9F-B5C2-7F1C93C72AD6}</UniqueIdentifier>
+=======
+      <UniqueIdentifier>{2165C55E-99AC-417A-966C-FB188499F02E}</UniqueIdentifier>
+>>>>>>> ca22ebba81635f9e16be4f9856a240c00d449c81
     </Filter>
     <ClCompile Include="..\..\Source\HideNSneakUnreal\CPP_Character.cpp">
       <Filter>Source\HideNSneakUnreal</Filter>
@@ -139,6 +151,12 @@
       <Filter>Source\HideNSneakUnreal</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\HideNSneakUnreal\RoundController.h">
+      <Filter>Source\HideNSneakUnreal</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HideNSneakUnreal\SilentFootstepsPowerUp.cpp">
+      <Filter>Source\HideNSneakUnreal</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HideNSneakUnreal\SilentFootstepsPowerUp.h">
       <Filter>Source\HideNSneakUnreal</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\HideNSneakUnreal\SpawnVolume.cpp">

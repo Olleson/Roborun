@@ -42,6 +42,12 @@ public:
 	UPROPERTY(EditAnywhere)
 		bool hasBeenSeeker;
 
+	UPROPERTY(EditAnywhere)
+		int Score;
+
+	UFUNCTION(BluePrintCallable, Category = "Points")
+		int AddScore(int ScoreToAdd,int ScoreMultiplier);
+
 	UFUNCTION(BlueprintPure, Category = "Character")
 		// Returns the base speed of the character's current role
 		float GetBaseSpeed();
@@ -57,6 +63,10 @@ public:
 	UFUNCTION(BlueprintPure, Category = "Pickup")
 		// Returns the icon of the collected powerup
 		UTexture2D* GetCollectedPowerUpIcon();
+
+	UFUNCTION(BlueprintImplementableEvent, Category = "Sound")
+		// Let's other classes set wether or not the character's footsteps should be silent
+		void SetSilentFootsteps(bool inSilentFootsteps);
 
 	UFUNCTION(Client, Reliable, BlueprintCallable, Category = "Pickup")
 		// Consumes the current powerup
@@ -243,9 +253,9 @@ protected:
 
 	// Server side handling of capturing hiders
 	UFUNCTION(Reliable, Server)
-		void ServerCaptureHider(AHideNSneakCPPCharacter* Hider);
+		void ServerCaptureHider(AHideNSneakCPPCharacter* Hider, AHideNSneakCPPCharacter* Tagger);
 
-	void ServerCaptureHider_Implementation(AHideNSneakCPPCharacter* Hider);
+	void ServerCaptureHider_Implementation(AHideNSneakCPPCharacter* Hider, AHideNSneakCPPCharacter* Tagger);
 
 public:
 	/** Returns CameraBoom subobject **/
