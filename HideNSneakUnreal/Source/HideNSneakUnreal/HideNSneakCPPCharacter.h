@@ -58,6 +58,10 @@ public:
 		// Returns the icon of the collected powerup
 		UTexture2D* GetCollectedPowerUpIcon();
 
+	UFUNCTION(BlueprintImplementableEvent, Category = "Sound")
+		// Let's other classes set wether or not the character's footsteps should be silent
+		void SetSilentFootsteps(bool inSilentFootsteps);
+
 	UFUNCTION(Client, Reliable, BlueprintCallable, Category = "Pickup")
 		// Consumes the current powerup
 		void ConsumePowerUp();
