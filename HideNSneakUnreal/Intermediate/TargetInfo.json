@@ -2,12 +2,20 @@
 	"Targets": [
 		{
 			"Name": "HideNSneakUnreal",
+<<<<<<< HEAD
 			"Path": "E:\\Unreal Projects\\Proj\\HideNSneakUnreal\\Source\\HideNSneakUnreal.Target.cs",
+=======
+			"Path": "D:\\HideNSneak2\\HideNSneakUnreal\\Source\\HideNSneakUnreal.Target.cs",
+>>>>>>> ca22ebba81635f9e16be4f9856a240c00d449c81
 			"Type": "Game"
 		},
 		{
 			"Name": "HideNSneakUnrealEditor",
+<<<<<<< HEAD
 			"Path": "E:\\Unreal Projects\\Proj\\HideNSneakUnreal\\Source\\HideNSneakUnrealEditor.Target.cs",
+=======
+			"Path": "D:\\HideNSneak2\\HideNSneakUnreal\\Source\\HideNSneakUnrealEditor.Target.cs",
+>>>>>>> ca22ebba81635f9e16be4f9856a240c00d449c81
 			"Type": "Editor"
 		}
 	]

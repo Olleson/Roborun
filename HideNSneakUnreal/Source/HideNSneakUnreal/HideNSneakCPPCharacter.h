@@ -42,6 +42,12 @@ public:
 	UPROPERTY(EditAnywhere)
 		bool hasBeenSeeker;
 
+	UPROPERTY(EditAnywhere)
+		int Score;
+
+	UFUNCTION(BluePrintCallable, Category = "Points")
+		int AddScore(int ScoreToAdd,int ScoreMultiplier);
+
 	UFUNCTION(BlueprintPure, Category = "Character")
 		// Returns the base speed of the character's current role
 		float GetBaseSpeed();
@@ -247,9 +253,9 @@ protected:
 
 	// Server side handling of capturing hiders
 	UFUNCTION(Reliable, Server)
-		void ServerCaptureHider(AHideNSneakCPPCharacter* Hider);
+		void ServerCaptureHider(AHideNSneakCPPCharacter* Hider, AHideNSneakCPPCharacter* Tagger);
 
-	void ServerCaptureHider_Implementation(AHideNSneakCPPCharacter* Hider);
+	void ServerCaptureHider_Implementation(AHideNSneakCPPCharacter* Hider, AHideNSneakCPPCharacter* Tagger);
 
 public:
 	/** Returns CameraBoom subobject **/
