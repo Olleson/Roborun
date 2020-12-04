@@ -995,3 +995,5 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.12.04-13.56.09:048][207]LogFileHelpers: Saving map 'Beta_whitebox' took 1.955
 [2020.12.04-13.56.09:063][207]AssetCheck: New page: Asset Save: Beta_whitebox
 [2020.12.04-13.56.09:063][207]LogContentValidation: Display: Validating World /Game/Maps/Beta_whitebox.Beta_whitebox
+[2020.12.04-13.57.03:270][775]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube65)
+[2020.12.04-13.57.04:156][799]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_wall_doorSmall_mesh_v01)
