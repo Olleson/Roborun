@@ -35,10 +35,6 @@ public:
 		TArray<AHideNSneakCPPCharacter*> Seekers;
 
 	UPROPERTY(BlueprintReadWrite, Category = "Round Controller", EditAnywhere)
-		//List of all player starts in the game.
-		TArray<APlayerStart*> PlayerStarts;
-
-	UPROPERTY(BlueprintReadWrite, Category = "Round Controller", EditAnywhere)
 		//The smallest amount of players that can be in a round before it is over.
 		int MinimumAmountOfPlayers;
 
