@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-// PCH for E:\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Public\EngineSharedPCH.h
-=======
-// PCH for D:\UE_4.25\Engine\Source\Runtime\Engine\Public\EngineSharedPCH.h
->>>>>>> ca22ebba81635f9e16be4f9856a240c00d449c81
+// PCH for C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Public\EngineSharedPCH.h
 #define IS_PROGRAM 0
 #define UE_EDITOR 1
 #define ENABLE_PGO_PROFILE 0
@@ -296,8 +292,4 @@
 #define WITH_CUSTOM_SQ_STRUCTURE 0
 #define WITH_IMMEDIATE_PHYSX 0
 #define CLOTHINGSYSTEMRUNTIMEINTERFACE_API DLLIMPORT
-<<<<<<< HEAD
-#include "E:/Epic Games/UE_4.25/Engine/Source/Runtime/Engine/Public/EngineSharedPCH.h"
-=======
-#include "D:/UE_4.25/Engine/Source/Runtime/Engine/Public/EngineSharedPCH.h"
->>>>>>> ca22ebba81635f9e16be4f9856a240c00d449c81
+#include "C:/Program Files/Epic Games/UE_4.25/Engine/Source/Runtime/Engine/Public/EngineSharedPCH.h"
