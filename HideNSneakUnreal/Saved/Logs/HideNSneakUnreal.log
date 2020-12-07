@@ -834,3 +834,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.12.07-09.26.20:515][424]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_ventBend_mesh_v01)
 [2020.12.07-09.26.28:566][333]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube69)
 [2020.12.07-09.26.29:386][420]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Container_claw_wall3)
+[2020.12.07-09.31.03:222][782]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2020.12.07-09.31.04:487][782]LogSavePackage: Moving '../../../../../../Users/arvid/Documents/PROJ_Grupp2_Ny/HideNSneakUnreal/Saved/Beta_whitebox_Auto13A5EE54649FE657EEE57F9A98AFE441A.tmp' to '../../../../../../Users/arvid/Documents/PROJ_Grupp2_Ny/HideNSneakUnreal/Saved/Autosaves/Game/Maps/Beta_whitebox_Auto1.umap'
+[2020.12.07-09.31.04:494][782]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Beta_whitebox' took 1.282
+[2020.12.07-09.31.04:494][782]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.282
