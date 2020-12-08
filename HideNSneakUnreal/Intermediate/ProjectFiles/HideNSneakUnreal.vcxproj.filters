@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\HideNSneakUnreal.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{8A1E4D80-6D84-4AA1-BB1D-B030B1F77960}</UniqueIdentifier>
+      <UniqueIdentifier>{D193CD5A-2002-4859-8172-B40E35DD1051}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\HideNSneakUnreal.Target.cs">
       <Filter>Source</Filter>
@@ -13,7 +13,7 @@
     </None>
     <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{FDA0E7BE-F5BA-4977-9F8A-0018815BD9B9}</UniqueIdentifier>
+      <UniqueIdentifier>{41FEE2EE-907C-41E1-B78F-C0AAEA17CA78}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -28,7 +28,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\HideNSneakUnreal">
-      <UniqueIdentifier>{619C19F2-34CC-425A-91BC-4F7B396E916E}</UniqueIdentifier>
+      <UniqueIdentifier>{E2F30773-1D89-4AA1-B3B5-BF877BB2318E}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\HideNSneakUnreal\CPP_Character.cpp">
       <Filter>Source\HideNSneakUnreal</Filter>
