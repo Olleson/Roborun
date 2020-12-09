@@ -3,6 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "Roundcontroller.h"
 #include "GameFramework/Character.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "PowerUpInventoryItem.h"
@@ -31,6 +32,14 @@ public:
 	/** Required Network Scaffolding */
 	void GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const override;
 
+
+	//array to use to find the roundcontroller
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera)
+		TArray<AActor*> RoundControllerActors;
+	// roundcontroller reference
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera)
+		ARoundController* RC;
+
 	/** Base turn rate, in deg/sec. Other scaling may affect final turn rate. */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera)
 		float BaseTurnRate;
@@ -42,8 +51,8 @@ public:
 	UPROPERTY(EditAnywhere)
 		bool hasBeenSeeker;
 
-	UPROPERTY(EditAnywhere)
-		int Score;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		int Score = 0;
 
 	UFUNCTION(BluePrintCallable, Category = "Points")
 		int AddScore(int ScoreToAdd,int ScoreMultiplier);

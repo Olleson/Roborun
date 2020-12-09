@@ -35,6 +35,14 @@ public:
 		TArray<AHideNSneakCPPCharacter*> Seekers;
 
 	UPROPERTY(BlueprintReadWrite, Category = "Round Controller", EditAnywhere)
+		//Score multiplier so that we can have double points rounds etc
+		int ScoreMultiplier= 1;
+
+	UPROPERTY(BlueprintReadWrite, Category = "Round Controller", EditAnywhere)
+		//How many points the all seekers get when a hider is tagged.
+		int TagAssistPoint = 1;
+
+	UPROPERTY(BlueprintReadWrite, Category = "Round Controller", EditAnywhere)
 		//The smallest amount of players that can be in a round before it is over.
 		int MinimumAmountOfPlayers;
 
