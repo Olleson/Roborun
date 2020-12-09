@@ -2,6 +2,7 @@
 
 #include "HideNSneakCPPCharacter.h"
 #include "Camera/CameraComponent.h"
+#include "Roundcontroller.h"
 #include "Components/CapsuleComponent.h"
 #include "Components/InputComponent.h"
 #include "Components/SphereComponent.h"
@@ -72,6 +73,11 @@ void AHideNSneakCPPCharacter::BeginPlay()
 	GetCapsuleComponent()->OnComponentHit.AddDynamic(this, &AHideNSneakCPPCharacter::OnCompHit);
 
 	GetCapsuleComponent()->OnComponentBeginOverlap.AddDynamic(this, &AHideNSneakCPPCharacter::OnOverlapBegin);
+
+	UGameplayStatics::GetAllActorsWithTag(GetWorld(), FName(TEXT("RoundController")), RoundControllerActors);
+	for (AActor* Actor : RoundControllerActors) {
+		RC = Cast<ARoundController>(Actor);
+	}
 }
 
 void AHideNSneakCPPCharacter::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const {
@@ -112,10 +118,17 @@ void AHideNSneakCPPCharacter::SetupPlayerInputComponent(class UInputComponent* P
 
 void AHideNSneakCPPCharacter::ServerCaptureHider_Implementation(AHideNSneakCPPCharacter* Hider, AHideNSneakCPPCharacter* Tagger)
 {
-
 	if (HasAuthority() && !Hider->IsSeeker()) {
+	if (RC != NULL) {
+		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, FString::Printf(TEXT(" i found the RC")));
+		if (RC->Seekers.Num() <= 3) {
+			Tagger->AddScore(5, RC->ScoreMultiplier);
+		}
+		else {
+			Tagger->AddScore(2, RC->ScoreMultiplier);
+		}
+	}		
 		Hider->BecomeSeeker();
-		Tagger->AddScore(3, 1);
 		if (Hider == this) {
 			// Fake the On rep notify for the listen server if it is a hider that gets captured,
 			// as the Server doesn't get on rep notify automatically
@@ -148,7 +161,8 @@ void AHideNSneakCPPCharacter::LookUpAtRate(float Rate)
 
 int AHideNSneakCPPCharacter::AddScore(int ScoreToAdd, int ScoreMultiplier)
 {
-	Score += (ScoreToAdd * ScoreMultiplier);
+	Score = Score + (ScoreToAdd * ScoreMultiplier);
+	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, FString::Printf(TEXT("Score: %i %i"), Score, ScoreMultiplier));
 	return Score;
 }
 
