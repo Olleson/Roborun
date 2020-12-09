@@ -20,10 +20,27 @@ void ARoundController::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& Out
 void ARoundController::BeginPlay() { Super::BeginPlay(); }
 
 void ARoundController::BPAddHiderToSeekerTeam(AHideNSneakCPPCharacter* tempChar) {
-
 	if (Hiders.Contains(tempChar)) {
+		int hidersRemaining = Hiders.Num();
+		int ScoreToGet = 0;
+		if (Seekers.Num() == 0) {
+			ScoreToGet = 0;
+		}
+		else if (hidersRemaining > MinimumAmountOfPlayers + 2) {
+			ScoreToGet = 0;
+		}
+		else if (hidersRemaining == MinimumAmountOfPlayers + 2) {
+			ScoreToGet = 3;
+		}
+		else if (hidersRemaining == MinimumAmountOfPlayers + 1) {
+			ScoreToGet = 6;
+		}
 		Hiders.Remove(tempChar);
-		Seekers.Add(tempChar);
+		tempChar->AddScore(ScoreToGet, ScoreMultiplier);
+		for(int i = 0; i<Seekers.Num(); i++) {
+			Seekers[i]->AddScore(TagAssistPoint, ScoreMultiplier);
+		}
+		Seekers.Add(tempChar);	
 	}
 }
 
