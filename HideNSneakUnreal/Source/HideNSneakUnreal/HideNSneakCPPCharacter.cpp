@@ -168,10 +168,9 @@ float AHideNSneakCPPCharacter::GetBaseJumpHeight()
 
 void AHideNSneakCPPCharacter::CollectPickup(APickup* Pickup)
 {
-	if (CollectedPowerUp != NULL) {
+	/*if (CollectedPowerUp != nullptr) {
 		delete CollectedPowerUp;
-		CollectedPowerUp = NULL;
-	}
+	}*/
 	CollectedPowerUp = new PowerUpInventoryItem(this, Pickup);
 	UpdatePowerUpIcon();
 	Pickup->PickedUpBy(this);
@@ -179,27 +178,30 @@ void AHideNSneakCPPCharacter::CollectPickup(APickup* Pickup)
 
 UTexture2D* AHideNSneakCPPCharacter::GetCollectedPowerUpIcon()
 {
-	if (CollectedPowerUp != NULL) {
+	if (CollectedPowerUp != nullptr) {
 		return CollectedPowerUp->GetPickUpIcon();
 	}
 	return nullptr;
 }
 
+void AHideNSneakCPPCharacter::SetSilentFootsteps_Implementation(bool inSilentFootsteps)
+{
+}
+
 void AHideNSneakCPPCharacter::ConsumePowerUp_Implementation()
 {
 	ServerConsumePowerUp();
-	ClearPowerUpIcon();
 }
 
 void AHideNSneakCPPCharacter::ServerConsumePowerUp_Implementation()
 {
-	if (HasAuthority()) {
+	//if (HasAuthority()) {
 		if (CollectedPowerUp != NULL) {
 			CollectedPowerUp->ApplyPickUp();
-			delete CollectedPowerUp;
+			ClearPowerUpIcon();
 			CollectedPowerUp = NULL;
 		}
-	}
+	//}
 }
 
 void AHideNSneakCPPCharacter::BecomeHider_Implementation()

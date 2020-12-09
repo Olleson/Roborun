@@ -8,7 +8,7 @@
 #include "PowerUpInventoryItem.h"
 #include "HideNSneakCPPCharacter.generated.h"
 
-class PowerUpInventoryItem;
+class PowerUpInventoryItem; //Forward declaration
 
 UCLASS()
 class HIDENSNEAKUNREAL_API AHideNSneakCPPCharacter : public ACharacter
@@ -57,23 +57,24 @@ public:
 		float GetBaseJumpHeight();
 
 	UFUNCTION(BlueprintCallable, Category = "Pickup")
-		// Sets the pointer to a collected pickup
+		// Creates a new PowerUpInventoryItem of the collected pickup
 		void CollectPickup(APickup* Pickup);
 
 	UFUNCTION(BlueprintPure, Category = "Pickup")
 		// Returns the icon of the collected powerup
 		UTexture2D* GetCollectedPowerUpIcon();
 
-	UFUNCTION(BlueprintImplementableEvent, Category = "Sound")
+	UFUNCTION(BlueprintNativeEvent, Category = "Sound")
 		// Let's other classes set wether or not the character's footsteps should be silent
 		void SetSilentFootsteps(bool inSilentFootsteps);
+	void SetSilentFootsteps_Implementation(bool inSilentFootsteps);
 
-	UFUNCTION(Client, Reliable, BlueprintCallable, Category = "Pickup")
+	UFUNCTION(Server, Reliable, BlueprintCallable, Category = "Pickup")
 		// Consumes the current powerup
 		void ConsumePowerUp();
 	void ConsumePowerUp_Implementation();
 
-	UFUNCTION(Server, Reliable, BlueprintCallable, Category = "Pickup")
+	UFUNCTION(NetMulticast, Reliable, BlueprintCallable, Category = "Pickup")
 		void ServerConsumePowerUp();
 	void ServerConsumePowerUp_Implementation();
 
@@ -187,7 +188,9 @@ public:
 		TSubclassOf<class AHideNSneakCPPCharacter> Decoy;
 
 	UFUNCTION()
-		void OnOverlapBegin(class UPrimitiveComponent* OverlapComponent, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
+		void OnOverlapBegin(class UPrimitiveComponent* OverlapComponent, class AActor* OtherActor,
+			class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep,
+			const FHitResult& SweepResult);
 
 protected:
 

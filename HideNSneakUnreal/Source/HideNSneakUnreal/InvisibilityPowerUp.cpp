@@ -7,8 +7,8 @@ AInvisibilityPowerUp::AInvisibilityPowerUp(const FObjectInitializer& OI): Super(
 
 }
 
-void AInvisibilityPowerUp::ApplyPowerUp_Implementation(ACharacter* Character) {
-	APickup::ApplyPowerUp_Implementation(Character);
+void AInvisibilityPowerUp::ApplyPowerUp(ACharacter* Character) {
+	APickup::ApplyPowerUp(Character);
 	if (AHideNSneakCPPCharacter* Player = Cast<AHideNSneakCPPCharacter>(Character)) {
 		Character->SetActorHiddenInGame(true);
 		PlayerQueue.push(Player);
@@ -17,9 +17,9 @@ void AInvisibilityPowerUp::ApplyPowerUp_Implementation(ACharacter* Character) {
 	}
 }
 
-void AInvisibilityPowerUp::UnApplyPowerUp_Implementation()
+void AInvisibilityPowerUp::UnApplyPowerUp()
 {
-	APickup::UnApplyPowerUp_Implementation();
+	APickup::UnApplyPowerUp();
 	AHideNSneakCPPCharacter* Character = PlayerQueue.front();
 	PlayerQueue.pop();
 	Character->SetActorHiddenInGame(false);
