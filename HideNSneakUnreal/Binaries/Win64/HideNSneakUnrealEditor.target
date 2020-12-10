@@ -73,19 +73,19 @@
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/FMODStudio/Binaries/Win64/UE4Editor-FMODStudio.dll",
+			"Path": "$(ProjectDir)/Plugins/FMODStudio/Binaries/Win64/UE4Editor-FMODStudio.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/FMODStudio/Binaries/Win64/UE4Editor-FMODStudio.pdb",
+			"Path": "$(ProjectDir)/Plugins/FMODStudio/Binaries/Win64/UE4Editor-FMODStudio.pdb",
 			"Type": "SymbolFile"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/FMODStudio/Binaries/Win64/UE4Editor-FMODStudioEditor.dll",
+			"Path": "$(ProjectDir)/Plugins/FMODStudio/Binaries/Win64/UE4Editor-FMODStudioEditor.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/FMODStudio/Binaries/Win64/UE4Editor-FMODStudioEditor.pdb",
+			"Path": "$(ProjectDir)/Plugins/FMODStudio/Binaries/Win64/UE4Editor-FMODStudioEditor.pdb",
 			"Type": "SymbolFile"
 		},
 		{
@@ -2261,7 +2261,7 @@
 			"Type": "RequiredResource"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/FMODStudio/Binaries/Win64/UE4Editor.modules",
+			"Path": "$(ProjectDir)/Plugins/FMODStudio/Binaries/Win64/UE4Editor.modules",
 			"Type": "RequiredResource"
 		},
 		{
@@ -2687,7 +2687,7 @@
 			"Type": "UFS"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/FMODStudio/FMODStudio.uplugin",
+			"Path": "$(ProjectDir)/Plugins/FMODStudio/FMODStudio.uplugin",
 			"Type": "UFS"
 		},
 		{
@@ -3075,11 +3075,11 @@
 			"Type": "NonUFS"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/FMODStudio/Binaries/Win64/fmodL.dll",
+			"Path": "$(ProjectDir)/Plugins/FMODStudio/Binaries/Win64/fmodL.dll",
 			"Type": "NonUFS"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/FMODStudio/Binaries/Win64/fmodstudioL.dll",
+			"Path": "$(ProjectDir)/Plugins/FMODStudio/Binaries/Win64/fmodstudioL.dll",
 			"Type": "NonUFS"
 		},
 		{
