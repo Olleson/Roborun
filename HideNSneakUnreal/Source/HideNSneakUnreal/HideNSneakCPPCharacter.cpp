@@ -188,6 +188,10 @@ void AHideNSneakCPPCharacter::SetSilentFootsteps_Implementation(bool inSilentFoo
 {
 }
 
+void AHideNSneakCPPCharacter::SetMeshVisibility_Implementation(bool inVisibility)
+{
+}
+
 void AHideNSneakCPPCharacter::ConsumePowerUp_Implementation()
 {
 	ServerConsumePowerUp();

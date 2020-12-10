@@ -37,7 +37,6 @@ public:
 		PlayerCountStr = FString(FString::FromInt(CurrentPlayers) + "/" + FString::FromInt(MaxPlayers));
 	}
 };
-
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FSteamServerDelegate, FSteamServerInfo, SteamServerListDelegate);
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FSteamServerSearchingDelegate, bool, SteamSearchingForServerDelegate);
 /**

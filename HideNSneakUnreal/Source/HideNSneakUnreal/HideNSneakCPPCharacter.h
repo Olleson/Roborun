@@ -69,6 +69,11 @@ public:
 		void SetSilentFootsteps(bool inSilentFootsteps);
 	void SetSilentFootsteps_Implementation(bool inSilentFootsteps);
 
+	UFUNCTION(BlueprintNativeEvent, Category = "Appearance")
+		// Let's other classes set wether or not the character should be visible
+		void SetMeshVisibility(bool inVisibility);
+		void SetMeshVisibility_Implementation(bool inVisibility);
+
 	UFUNCTION(Server, Reliable, BlueprintCallable, Category = "Pickup")
 		// Consumes the current powerup
 		void ConsumePowerUp();

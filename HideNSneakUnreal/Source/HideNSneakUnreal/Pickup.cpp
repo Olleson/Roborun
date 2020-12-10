@@ -114,9 +114,8 @@ void APickup::ApplyPowerUp(ACharacter* Character)
 void APickup::DestroyParticleComponent()
 {
 	if (!ParticleComponents.empty()) {
-		UParticleSystemComponent* Component = ParticleComponents.front();
-		if (IsValid(Component)) {
-			Component->DestroyComponent();
+		if (IsValid(ParticleComponents.front())) {
+			ParticleComponents.front()->DestroyComponent();
 		}
 		ParticleComponents.pop();
 	}
@@ -149,6 +148,8 @@ UTexture2D* APickup::GetPickupIcon()
 void APickup::WasCollected_Implementation()
 {
 	SetActive(false);
+	PickedUpDelegate.Broadcast();
+	GEngine->AddOnScreenDebugMessage(-1, 7.0f, FColor::Red, FString("Fired Picked Up Event"));
 	if (HasAuthority()) {
 		OnRep_IsActive();
 	}

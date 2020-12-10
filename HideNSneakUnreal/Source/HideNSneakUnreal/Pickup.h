@@ -13,6 +13,8 @@
 
 class AHideNSneakCPPCharacter; //Forward declaration
 
+DECLARE_DYNAMIC_MULTICAST_DELEGATE(FEventPickedUpDelegate);
+
 UCLASS()
 class HIDENSNEAKUNREAL_API APickup : public AActor
 {
@@ -26,6 +28,9 @@ public:
 
 	/** Required Network Scaffolding */
 	void GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const override;
+
+	UPROPERTY(BlueprintAssignable)
+		FEventPickedUpDelegate PickedUpDelegate;
 
 	UFUNCTION(BlueprintPure, Category = "Pickup")
 		bool DoesSpawnParticles();
@@ -42,7 +47,7 @@ public:
 		// Returns the pickup icon
 		UTexture2D* GetPickupIcon();
 
-	UFUNCTION(BlueprintNativeEvent, Category = "Pickup")
+	UFUNCTION(Server, Reliable, Category = "Pickup")
 		// Function to call when the pickup is collected
 		void WasCollected();
 	virtual void WasCollected_Implementation();
