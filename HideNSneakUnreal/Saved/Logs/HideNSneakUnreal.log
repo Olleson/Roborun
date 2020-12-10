@@ -3938,3 +3938,225 @@ Make sure 'BP_HideNSneakCPPCharacter_C' has been compiled for  Add Score
 [2020.12.10-15.15.03:880][523]LogFileHelpers: Saving map 'Beta_whitebox' took 1.786
 [2020.12.10-15.15.03:899][523]AssetCheck: New page: Asset Save: Beta_whitebox
 [2020.12.10-15.15.03:899][523]LogContentValidation: Display: Validating World /Game/Maps/Beta_whitebox.Beta_whitebox
+[2020.12.10-15.26.42:638][275]LogLinker: Warning: While loading 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Maps/Inspireme.umap' failed to load '/Game/Maps/Inspireme_BuiltData': Can't find file.
+[2020.12.10-15.26.42:639][275]LogLinker: Warning: While loading 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Maps/Inspireme.umap' failed to load '/Game/Maps/Inspireme_BuiltData': Can't find file.
+[2020.12.10-15.26.42:792][275]LogLinker: Warning: While loading 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Maps/Inspireme.umap' failed to load '/Game/Art/3D/ACTUALWORLD/Silo/w_silo_mesh_v0_1': Can't find file.
+[2020.12.10-15.26.42:792][275]LogLinker: Warning: While loading 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Maps/Inspireme.umap' failed to load '/Game/Art/3D/ACTUALWORLD/Silo/w_silo_mesh_v0_1': Can't find file.
+[2020.12.10-15.26.42:860][275]LogLinker: Warning: While loading 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Maps/Inspireme.umap' failed to load '/Game/Maps/Inspireme_BuiltData': Can't find file.
+[2020.12.10-15.26.42:860][275]LogLinker: Warning: While loading 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Maps/Inspireme.umap' failed to load '/Game/Maps/Inspireme_BuiltData': Can't find file.
+[2020.12.10-15.26.42:894][275]LogLinker: Warning: While loading 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Maps/Inspireme.umap' failed to load '/Game/Art/3D/ACTUALWORLD/Silo/w_silo_mesh_v0_1': Can't find file.
+[2020.12.10-15.26.42:894][275]LogLinker: Warning: While loading 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Maps/Inspireme.umap' failed to load '/Game/Art/3D/ACTUALWORLD/Silo/w_silo_mesh_v0_1': Can't find file.
+[2020.12.10-15.26.42:896][275]LogLinker: Warning: Failed to load '/Game/Maps/Inspireme_BuiltData': Can't find file.
+[2020.12.10-15.26.42:897][275]LogLinker: Warning: Failed to load '/Game/Maps/Inspireme_BuiltData': Can't find file.
+[2020.12.10-15.26.42:897][275]LogLinker: Warning: Failed to load '/Game/Art/3D/ACTUALWORLD/Silo/w_silo_mesh_v0_1': Can't find file.
+[2020.12.10-15.26.42:897][275]LogLinker: Warning: Failed to load '/Game/Art/3D/ACTUALWORLD/Silo/w_silo_mesh_v0_1': Can't find file.
+[2020.12.10-15.26.42:897][275]LogLinker: Warning: Failed to load '/Game/Maps/Inspireme_BuiltData': Can't find file.
+[2020.12.10-15.26.42:897][275]LogLinker: Warning: Failed to load '/Game/Maps/Inspireme_BuiltData': Can't find file.
+[2020.12.10-15.26.42:898][275]LogLinker: Warning: Failed to load '/Game/Art/3D/ACTUALWORLD/Silo/w_silo_mesh_v0_1': Can't find file.
+[2020.12.10-15.26.42:898][275]LogLinker: Warning: Failed to load '/Game/Art/3D/ACTUALWORLD/Silo/w_silo_mesh_v0_1': Can't find file.
+[2020.12.10-15.26.43:022][275]LogLinker: Warning: While loading 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Maps/Inspireme.umap' failed to load '/Game/Maps/Inspireme_BuiltData': Can't find file.
+[2020.12.10-15.26.43:037][275]LoadErrors: Failed to load /Game/Maps/Inspireme_BuiltData.Inspireme_BuiltData Referenced by PersistentLevel
+[2020.12.10-15.26.43:037][275]LogLinker: Warning: While loading 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Maps/Inspireme.umap' failed to load '/Game/Maps/Inspireme_BuiltData': Can't find file.
+[2020.12.10-15.26.43:189][275]LogLinker: Warning: While loading 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Maps/Inspireme.umap' failed to load '/Game/Art/3D/ACTUALWORLD/Silo/w_silo_mesh_v0_1': Can't find file.
+[2020.12.10-15.26.43:189][275]LoadErrors: Failed to load /Game/Art/3D/ACTUALWORLD/Silo/w_silo_mesh_v0_1.w_silo_mesh_v0_1 Referenced by w_silo_mesh_v0_2
+[2020.12.10-15.26.43:189][275]LogLinker: Warning: While loading 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Maps/Inspireme.umap' failed to load '/Game/Art/3D/ACTUALWORLD/Silo/w_silo_mesh_v0_1': Can't find file.
+[2020.12.10-15.26.43:189][275]LogLinker: Warning: While loading 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Maps/Inspireme.umap' failed to load '/Game/Art/3D/ACTUALWORLD/Silo/w_silo_mesh_v0_1': Can't find file.
+[2020.12.10-15.26.43:189][275]LoadErrors: Failed to load /Game/Art/3D/ACTUALWORLD/Silo/w_silo_mesh_v0_1.w_silo_mesh_v0_1 Referenced by w_silo_mesh_v0_3
+[2020.12.10-15.26.43:190][275]LogLinker: Warning: While loading 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Maps/Inspireme.umap' failed to load '/Game/Art/3D/ACTUALWORLD/Silo/w_silo_mesh_v0_1': Can't find file.
+[2020.12.10-15.26.43:190][275]LogLinker: Warning: While loading 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Maps/Inspireme.umap' failed to load '/Game/Art/3D/ACTUALWORLD/Silo/w_silo_mesh_v0_1': Can't find file.
+[2020.12.10-15.26.43:190][275]LoadErrors: Failed to load /Game/Art/3D/ACTUALWORLD/Silo/w_silo_mesh_v0_1.w_silo_mesh_v0_1 Referenced by w_silo_mesh_v0_4
+[2020.12.10-15.26.43:190][275]LogLinker: Warning: While loading 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Maps/Inspireme.umap' failed to load '/Game/Art/3D/ACTUALWORLD/Silo/w_silo_mesh_v0_1': Can't find file.
+[2020.12.10-15.26.43:191][275]LogLinker: Warning: While loading 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Maps/Inspireme.umap' failed to load '/Game/Art/3D/ACTUALWORLD/Silo/w_silo_mesh_v0_1': Can't find file.
+[2020.12.10-15.26.43:191][275]LoadErrors: Failed to load /Game/Art/3D/ACTUALWORLD/Silo/w_silo_mesh_v0_1.w_silo_mesh_v0_1 Referenced by w_silo_mesh_v0_400
+[2020.12.10-15.26.43:191][275]LogLinker: Warning: While loading 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Maps/Inspireme.umap' failed to load '/Game/Art/3D/ACTUALWORLD/Silo/w_silo_mesh_v0_1': Can't find file.
+[2020.12.10-15.26.43:191][275]LogLinker: Warning: While loading 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Maps/Inspireme.umap' failed to load '/Game/Art/3D/ACTUALWORLD/Silo/w_silo_mesh_v0_1': Can't find file.
+[2020.12.10-15.26.43:191][275]LoadErrors: Failed to load /Game/Art/3D/ACTUALWORLD/Silo/w_silo_mesh_v0_1.w_silo_mesh_v0_1 Referenced by w_silo_mesh_v0_5
+[2020.12.10-15.26.43:191][275]LogLinker: Warning: While loading 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Maps/Inspireme.umap' failed to load '/Game/Art/3D/ACTUALWORLD/Silo/w_silo_mesh_v0_1': Can't find file.
+[2020.12.10-15.26.43:192][275]LogLinker: Warning: While loading 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Maps/Inspireme.umap' failed to load '/Game/Art/3D/ACTUALWORLD/Silo/w_silo_mesh_v0_1': Can't find file.
+[2020.12.10-15.26.43:192][275]LoadErrors: Failed to load /Game/Art/3D/ACTUALWORLD/Silo/w_silo_mesh_v0_1.w_silo_mesh_v0_1 Referenced by w_silo_mesh_v0_6
+[2020.12.10-15.26.43:192][275]LogLinker: Warning: While loading 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Maps/Inspireme.umap' failed to load '/Game/Art/3D/ACTUALWORLD/Silo/w_silo_mesh_v0_1': Can't find file.
+[2020.12.10-15.26.43:798][275]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/Inspireme.Inspireme
+[2020.12.10-15.26.43:845][275]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2020.12.10-15.26.43:850][275]Cmd: MAP LOAD FILE="C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Maps/Inspireme.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.12.10-15.26.43:866][275]LightingResults: New page: Lighting Build
+[2020.12.10-15.26.43:878][275]LoadErrors: New page: Loading map: Inspireme.umap
+[2020.12.10-15.26.44:253][275]LogWorld: UWorld::CleanupWorld for Beta_whitebox, bSessionEnded=true, bCleanupResources=true
+[2020.12.10-15.26.44:265][275]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.10-15.26.44:266][275]MapCheck: New page: Map Check
+[2020.12.10-15.26.44:266][275]LightingResults: New page: Lighting Build
+[2020.12.10-15.26.44:321][275]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000014550A6FE00), frame # 286275
+[2020.12.10-15.26.44:321][275]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000014550A77B00), frame # 286275
+[2020.12.10-15.26.44:326][275]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2020.12.10-15.26.45:360][275]LogEditorServer: Finished looking for orphan Actors (0.001 secs)
+[2020.12.10-15.26.45:361][275]LogAIModule: Creating AISystem for world Inspireme
+[2020.12.10-15.26.45:361][275]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000014550055800), frame # 286275
+[2020.12.10-15.26.45:361][275]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001470E2EE200), frame # 286275
+[2020.12.10-15.26.45:450][275]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2020.12.10-15.26.45:477][275]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.12.10-15.26.45:478][275]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.668ms to complete.
+[2020.12.10-15.26.45:478][275]LogFileHelpers: Loading map 'Inspireme' took 1.628
+[2020.12.10-15.27.43:383][ 52]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (i_elevator_extension_mesh_v3)
+[2020.12.10-15.28.26:383][789]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube58)
+[2020.12.10-15.29.40:304][221]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_walkwayStraight_mesh_v47)
+[2020.12.10-15.29.41:553][260]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_walkwayJunction_mesh_v87)
+[2020.12.10-15.30.25:741][ 52]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (w_walkwayStraight_mesh_v4)
+[2020.12.10-16.17.16:464][612]LogEditorFactories: Performing atomic reimport of [C:/Users/simon/Desktop/HideNSneak Maya/Textures_Done/Silo/New_Silo_Stand_Silo_BaseColor.png]
+[2020.12.10-16.17.16:464][612]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/simon/Desktop/HideNSneak Maya/Textures_Done/Silo/New_Silo_Stand_Silo_BaseColor.png)
+[2020.12.10-16.17.16:476][612]LogTexture: Display: Building textures: New_Silo_Stand_Silo_BaseColor (AutoDXT, 512X512)
+[2020.12.10-16.17.16:495][612]LogEditorFactories: -- imported successfully
+[2020.12.10-16.17.34:713][885]LogEditorFactories: Performing atomic reimport of [C:/Users/simon/Desktop/HideNSneak Maya/Textures_Done/Silo/New_Silo_Stand_Silo_OcclusionRoughnessMetallic.png]
+[2020.12.10-16.17.34:713][885]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/simon/Desktop/HideNSneak Maya/Textures_Done/Silo/New_Silo_Stand_Silo_OcclusionRoughnessMetallic.png)
+[2020.12.10-16.17.34:717][885]LogTexture: Display: Building textures: New_Silo_Stand_Silo_OcclusionRoughnessMetallic (BGRA8, 512X512)
+[2020.12.10-16.17.34:762][885]LogTexture: Display: Building textures: New_Silo_Stand_Silo_OcclusionRoughnessMetallic (BGRA8, 512X512)
+[2020.12.10-16.17.34:773][885]LogEditorFactories: -- imported successfully
+[2020.12.10-16.17.47:102][999]LogEditorFactories: Performing atomic reimport of [C:/Users/simon/Desktop/HideNSneak Maya/Textures_Done/Silo/New_Silo_Stand_lambert2_BaseColor.png]
+[2020.12.10-16.17.47:102][999]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/simon/Desktop/HideNSneak Maya/Textures_Done/Silo/New_Silo_Stand_lambert2_BaseColor.png)
+[2020.12.10-16.17.47:116][999]LogTexture: Display: Building textures: Silo_Collapse_lambert1_BaseColor (AutoDXT, 512X512)
+[2020.12.10-16.17.47:143][999]LogEditorFactories: -- imported successfully
+[2020.12.10-16.17.47:268][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2020.12.10-16.17.47:278][  0]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Inspireme' took 0.022
+[2020.12.10-16.17.47:279][  0]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/Textures/Meshes/Silo/New_Silo_Stand_Silo_BaseColor] ([1] browsable assets)...
+[2020.12.10-16.17.47:283][  0]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Art/Textures/Meshes/Silo/New_Silo_Stand_Silo_BaseColor.New_Silo_Stand_Silo_BaseColor]
+[2020.12.10-16.17.47:283][  0]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Textures/Meshes/Silo/New_Silo_Stand_Silo_BaseColor]
+[2020.12.10-16.17.47:293][  0]LogSavePackage: Moving 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Saved/New_Silo_Stand_Silo_BaseColor_Au194901DE4BEF12F37AF0839DB4A3A54B.tmp' to 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Saved/Autosaves/Game/Art/Textures/Meshes/Silo/New_Silo_Stand_Silo_BaseColor_Auto1.uasset'
+[2020.12.10-16.17.47:294][  0]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/Textures/Meshes/Silo/Silo_Collapse_lambert1_BaseColor] ([1] browsable assets)...
+[2020.12.10-16.17.47:299][  0]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Art/Textures/Meshes/Silo/Silo_Collapse_lambert1_BaseColor.Silo_Collapse_lambert1_BaseColor]
+[2020.12.10-16.17.47:299][  0]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Textures/Meshes/Silo/Silo_Collapse_lambert1_BaseColor]
+[2020.12.10-16.17.47:311][  0]LogSavePackage: Moving 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Saved/Silo_Collapse_lambert1_BaseColorAD2FF2CF488BD74B0251508827C4D257.tmp' to 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Saved/Autosaves/Game/Art/Textures/Meshes/Silo/Silo_Collapse_lambert1_BaseColor_Auto1.uasset'
+[2020.12.10-16.17.47:312][  0]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/Textures/Meshes/Silo/New_Silo_Stand_Silo_OcclusionRoughnessMetallic] ([1] browsable assets)...
+[2020.12.10-16.17.47:316][  0]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Art/Textures/Meshes/Silo/New_Silo_Stand_Silo_OcclusionRoughnessMetallic.New_Silo_Stand_Silo_OcclusionRoughnessMetallic]
+[2020.12.10-16.17.47:316][  0]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Textures/Meshes/Silo/New_Silo_Stand_Silo_OcclusionRoughnessMetallic]
+[2020.12.10-16.17.47:323][  0]LogTexture: Display: Building textures: New_Silo_Stand_Silo_OcclusionRoughnessMetallic (AutoDXT, 512X512)
+[2020.12.10-16.17.47:347][  0]LogSavePackage: Moving 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Saved/New_Silo_Stand_Silo_OcclusionRou07AED6C0496588C881A8CAA86A2093C0.tmp' to 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Saved/Autosaves/Game/Art/Textures/Meshes/Silo/New_Silo_Stand_Silo_OcclusionRoughnessMetallic_Auto1.uasset'
+[2020.12.10-16.17.47:348][  0]LogFileHelpers: Auto-saving content packages took 0.070
+[2020.12.10-16.18.00:459][239]LogEditorFactories: Performing atomic reimport of [C:/Users/simon/Desktop/HideNSneak Maya/Textures_Done/Silo/New_Silo_Stand_lambert2_OcclusionRoughnessMetallic.png]
+[2020.12.10-16.18.00:459][239]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/simon/Desktop/HideNSneak Maya/Textures_Done/Silo/New_Silo_Stand_lambert2_OcclusionRoughnessMetallic.png)
+[2020.12.10-16.18.00:471][239]LogTexture: Display: Building textures: Silo_Collapse_lambert1_OcclusionRoughnessMetallic (AutoDXT, 512X512)
+[2020.12.10-16.18.00:498][239]LogEditorFactories: -- imported successfully
+[2020.12.10-16.18.18:886][ 45]Cmd: TRANSACTION UNDO
+[2020.12.10-16.18.18:886][ 45]LogEditorTransaction: Undo Clicking on Actors
+[2020.12.10-16.18.19:054][ 45]LogMaterial: Display: Missing cached shader map for material M_Silo, compiling. 
+[2020.12.10-16.18.19:064][ 45]LogMaterial: Display: Missing cached shader map for material M_Silo_Secondary, compiling. 
+[2020.12.10-16.18.19:072][ 45]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 9
+[2020.12.10-16.18.19:072][ 45]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 8
+[2020.12.10-16.18.19:072][ 45]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 7
+[2020.12.10-16.18.19:073][ 45]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 6
+[2020.12.10-16.18.19:206][ 45]LogMaterial: Display: Missing cached shader map for material M_CollapsedSilo_Primary, compiling. 
+[2020.12.10-16.18.19:245][ 45]LogMaterial: Display: Missing cached shader map for material M_CollapsedSilo_Secondary, compiling. 
+[2020.12.10-16.18.19:724][ 52]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 32
+[2020.12.10-16.18.19:934][ 58]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 31
+[2020.12.10-16.18.20:004][ 60]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 30
+[2020.12.10-16.18.20:047][ 61]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 29
+[2020.12.10-16.18.20:382][ 70]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 28
+[2020.12.10-16.18.20:456][ 72]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 27
+[2020.12.10-16.18.20:471][ 72]Cmd: TRANSACTION UNDO
+[2020.12.10-16.18.20:471][ 72]LogEditorTransaction: Undo Clicking on Actors
+[2020.12.10-16.18.20:670][ 72]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 26
+[2020.12.10-16.18.20:670][ 72]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 25
+[2020.12.10-16.18.20:725][ 72]LogMaterial: Display: Missing cached shader map for material M_Silo, compiling. 
+[2020.12.10-16.18.20:739][ 72]LogMaterial: Display: Missing cached shader map for material M_Silo_Secondary, compiling. 
+[2020.12.10-16.18.20:746][ 72]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 27
+[2020.12.10-16.18.20:851][ 72]LogMaterial: Display: Missing cached shader map for material M_CollapsedSilo_Primary, compiling. 
+[2020.12.10-16.18.20:873][ 72]LogMaterial: Display: Missing cached shader map for material M_CollapsedSilo_Secondary, compiling. 
+[2020.12.10-16.18.20:886][ 72]Cmd: TRANSACTION UNDO
+[2020.12.10-16.18.20:886][ 72]LogEditorTransaction: Undo Clicking on Actors
+[2020.12.10-16.18.21:095][ 72]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 36
+[2020.12.10-16.18.21:095][ 72]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 35
+[2020.12.10-16.18.21:150][ 72]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 34
+[2020.12.10-16.18.21:151][ 72]LogMaterial: Display: Missing cached shader map for material M_Silo, compiling. 
+[2020.12.10-16.18.21:161][ 72]LogMaterial: Display: Missing cached shader map for material M_Silo_Secondary, compiling. 
+[2020.12.10-16.18.21:266][ 72]LogMaterial: Display: Missing cached shader map for material M_CollapsedSilo_Primary, compiling. 
+[2020.12.10-16.18.21:281][ 72]LogMaterial: Display: Missing cached shader map for material M_CollapsedSilo_Secondary, compiling. 
+[2020.12.10-16.18.21:423][ 73]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 36
+[2020.12.10-16.18.21:509][ 76]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 35
+[2020.12.10-16.18.21:620][ 79]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 34
+[2020.12.10-16.18.21:654][ 80]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 33
+[2020.12.10-16.18.22:020][ 89]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 32
+[2020.12.10-16.18.22:092][ 91]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 31
+[2020.12.10-16.18.22:092][ 91]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 30
+[2020.12.10-16.18.22:293][ 96]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 29
+[2020.12.10-16.18.22:511][101]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 28
+[2020.12.10-16.18.22:699][105]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 27
+[2020.12.10-16.18.22:737][106]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 26
+[2020.12.10-16.18.22:870][110]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 25
+[2020.12.10-16.18.22:939][110]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 24
+[2020.12.10-16.18.22:976][111]MaterialEditorStats: Base pass shader: 122 instructions
+[2020.12.10-16.18.22:976][111]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 200 instructions
+[2020.12.10-16.18.22:976][111]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.12.10-16.18.22:976][111]MaterialEditorStats: Texture samplers: 4/16
+[2020.12.10-16.18.22:976][111]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2020.12.10-16.18.22:976][111]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.12.10-16.18.23:336][119]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 23
+[2020.12.10-16.18.23:351][119]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 22
+[2020.12.10-16.18.23:417][120]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 21
+[2020.12.10-16.18.23:546][122]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 20
+[2020.12.10-16.18.23:758][126]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 19
+[2020.12.10-16.18.23:983][131]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 18
+[2020.12.10-16.18.24:076][133]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 17
+[2020.12.10-16.18.24:143][135]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 16
+[2020.12.10-16.18.24:179][136]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 15
+[2020.12.10-16.18.24:249][137]MaterialEditorStats: Base pass shader: 122 instructions
+[2020.12.10-16.18.24:249][137]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 200 instructions
+[2020.12.10-16.18.24:249][137]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.12.10-16.18.24:249][137]MaterialEditorStats: Texture samplers: 4/16
+[2020.12.10-16.18.24:249][137]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2020.12.10-16.18.24:249][137]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.12.10-16.18.24:593][145]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 14
+[2020.12.10-16.18.24:687][147]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 13
+[2020.12.10-16.18.24:691][147]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 12
+[2020.12.10-16.18.24:807][150]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 11
+[2020.12.10-16.18.25:100][157]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 10
+[2020.12.10-16.18.25:260][161]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 9
+[2020.12.10-16.18.25:353][163]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 8
+[2020.12.10-16.18.25:413][165]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 7
+[2020.12.10-16.18.25:516][168]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 6
+[2020.12.10-16.18.25:579][169]MaterialEditorStats: Base pass shader: 122 instructions
+[2020.12.10-16.18.25:580][169]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 200 instructions
+[2020.12.10-16.18.25:580][169]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.12.10-16.18.25:580][169]MaterialEditorStats: Texture samplers: 4/16
+[2020.12.10-16.18.25:580][169]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2020.12.10-16.18.25:580][169]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.12.10-16.18.25:853][176]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 5
+[2020.12.10-16.18.25:947][178]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 4
+[2020.12.10-16.18.25:979][179]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 3
+[2020.12.10-16.18.26:165][184]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 2
+[2020.12.10-16.18.26:388][190]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1
+[2020.12.10-16.18.26:765][198]MaterialEditorStats: Base pass shader: 122 instructions
+[2020.12.10-16.18.26:765][198]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 200 instructions
+[2020.12.10-16.18.26:765][198]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.12.10-16.18.26:765][198]MaterialEditorStats: Texture samplers: 4/16
+[2020.12.10-16.18.26:766][198]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2020.12.10-16.18.26:766][198]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.12.10-16.18.35:339][284]LogEditorFactories: Performing atomic reimport of [C:/Users/simon/Desktop/HideNSneak Maya/Textures_Done/Silo/Collapsed_Silo_lambert1_BaseColor.png]
+[2020.12.10-16.18.35:340][284]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/simon/Desktop/HideNSneak Maya/Textures_Done/Silo/Collapsed_Silo_lambert1_BaseColor.png)
+[2020.12.10-16.18.35:358][284]LogTexture: Display: Building textures: Silo_Collapse_lambert1_BaseColor (AutoDXT, 512X512)
+[2020.12.10-16.18.35:392][284]LogEditorFactories: -- imported successfully
+[2020.12.10-16.19.00:349][197]LogSlate: Window 'Reference Viewer' being destroyed
+[2020.12.10-16.19.00:385][197]LogSlate: Window 'Reference Viewer' being destroyed
+[2020.12.10-16.19.09:155][602]LogActorFactory: Actor Factory created Collapsed_Silo
+[2020.12.10-16.19.10:965][678]LogActorFactory: Actor Factory created Collapsed_Silo
+[2020.12.10-16.19.11:266][688]LogActorFactory: Actor Factory created Collapsed_Silo
+[2020.12.10-16.19.17:934][972]LogActorFactory: Actor Factory created New_Silo_Stand
+[2020.12.10-16.19.18:730][996]LogActorFactory: Actor Factory created New_Silo_Stand
+[2020.12.10-16.19.22:703][167]Cmd: DELETE
+[2020.12.10-16.19.22:703][167]Cmd: ACTOR DELETE
+[2020.12.10-16.19.22:766][167]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.12.10-16.19.22:778][167]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2020.12.10-16.19.22:783][167]LogEditorActor: Deleted 1 Actors (0.081 secs)
+[2020.12.10-16.19.23:767][204]LogActorFactory: Actor Factory created New_Silo_Stand
+[2020.12.10-16.19.24:192][220]LogActorFactory: Actor Factory created New_Silo_Stand
+[2020.12.10-16.19.53:707][446]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2020.12.10-16.19.53:736][446]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Inspireme" FILE="C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Maps/Inspireme.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.12.10-16.19.53:750][446]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2020.12.10-16.19.55:428][446]LogSavePackage: Moving 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Saved/InspiremeA8EA158A4C66856D6B8BBA96E6F25F82.tmp' to 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Maps/Inspireme.umap'
+[2020.12.10-16.19.55:448][446]LogFileHelpers: Saving map 'Inspireme' took 1.713
+[2020.12.10-16.19.55:460][446]LogSavePackage: Moving 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Saved/New_Silo_Stand_Silo_BaseColor9A759EB34795CAE76F4C5194EBC18466.tmp' to 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Art/Textures/Meshes/Silo/New_Silo_Stand_Silo_BaseColor.uasset'
+[2020.12.10-16.19.55:482][446]LogSavePackage: Moving 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Saved/Silo_Collapse_lambert1_BaseColorB1AA4002446FADEE71A23D9CD10797C6.tmp' to 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Art/Textures/Meshes/Silo/Silo_Collapse_lambert1_BaseColor.uasset'
+[2020.12.10-16.19.55:504][446]LogSavePackage: Moving 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Saved/Silo_Collapse_lambert1_Occlusion338772B44A38ECB350AB68B94F989271.tmp' to 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Art/Textures/Meshes/Silo/Silo_Collapse_lambert1_OcclusionRoughnessMetallic.uasset'
+[2020.12.10-16.19.55:524][446]LogSavePackage: Moving 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Saved/New_Silo_Stand_Silo_OcclusionRou8D423BF9452ED63451F50EB32E2C08D0.tmp' to 'C:/Users/simon/Documents/PROJ_Grupp2/HideNSneakUnreal/Content/Art/Textures/Meshes/Silo/New_Silo_Stand_Silo_OcclusionRoughnessMetallic.uasset'
+[2020.12.10-16.19.55:583][446]AssetCheck: New page: Asset Save: multiple assets
+[2020.12.10-16.19.55:583][446]LogContentValidation: Display: Validating World /Game/Maps/Inspireme.Inspireme
+[2020.12.10-16.19.55:583][446]LogContentValidation: Display: Validating Texture2D /Game/Art/Textures/Meshes/Silo/New_Silo_Stand_Silo_BaseColor.New_Silo_Stand_Silo_BaseColor
+[2020.12.10-16.19.55:583][446]LogContentValidation: Display: Validating Texture2D /Game/Art/Textures/Meshes/Silo/Silo_Collapse_lambert1_BaseColor.Silo_Collapse_lambert1_BaseColor
+[2020.12.10-16.19.55:584][446]LogContentValidation: Display: Validating Texture2D /Game/Art/Textures/Meshes/Silo/Silo_Collapse_lambert1_OcclusionRoughnessMetallic.Silo_Collapse_lambert1_OcclusionRoughnessMetallic
+[2020.12.10-16.19.55:584][446]LogContentValidation: Display: Validating Texture2D /Game/Art/Textures/Meshes/Silo/New_Silo_Stand_Silo_OcclusionRoughnessMetallic.New_Silo_Stand_Silo_OcclusionRoughnessMetallic
