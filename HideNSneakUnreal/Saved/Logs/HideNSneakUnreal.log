@@ -1691,3 +1691,43 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.12.11-12.55.06:030][932]LogOnline: Oculus: Oculus Shutdown!
 [2020.12.11-12.55.06:030][932]LogModuleManager: Shutting down and abandoning module XMPP (71)
 [2020.12.11-12.55.06:030][932]LogModuleManager: Shutting down and abandoning module WebSockets (70)
+[2020.12.11-12.55.06:066][932]LogModuleManager: Shutting down and abandoning module HTTP (67)
+[2020.12.11-12.55.06:066][932]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2020.12.11-12.55.06:066][932]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BEF73824F-44CE-4530-926A-13B5968F3342%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=49a657ce47d93e3e26abc99faa0b1e93%7Ca0f602177ba54ea998609eb03d338aae%7Cf5e5389c-21f0-42eb-a59b-c6bf615d3ada&AppEnvironment=datacollector-source&UploadType=eteventstream] refs=[1] status=Processing
+[2020.12.11-12.55.06:274][932]LogModuleManager: Shutting down and abandoning module SSL (66)
+[2020.12.11-12.55.06:276][932]LogModuleManager: Shutting down and abandoning module WmfMedia (62)
+[2020.12.11-12.55.06:278][932]LogModuleManager: Shutting down and abandoning module Media (61)
+[2020.12.11-12.55.06:279][932]LogModuleManager: Shutting down and abandoning module MagicLeap (58)
+[2020.12.11-12.55.06:279][932]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (56)
+[2020.12.11-12.55.06:279][932]LogModuleManager: Shutting down and abandoning module NiagaraShader (54)
+[2020.12.11-12.55.06:279][932]LogModuleManager: Shutting down and abandoning module VariantManagerContent (52)
+[2020.12.11-12.55.06:279][932]LogModuleManager: Shutting down and abandoning module DatasmithContent (50)
+[2020.12.11-12.55.06:280][932]LogModuleManager: Shutting down and abandoning module AISupportModule (48)
+[2020.12.11-12.55.06:280][932]LogModuleManager: Shutting down and abandoning module DesktopPlatform (46)
+[2020.12.11-12.55.06:280][932]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (44)
+[2020.12.11-12.55.06:280][932]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (42)
+[2020.12.11-12.55.06:280][932]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2020.12.11-12.55.06:280][932]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2020.12.11-12.55.06:281][932]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2020.12.11-12.55.06:281][932]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2020.12.11-12.55.06:282][932]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2020.12.11-12.55.06:282][932]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2020.12.11-12.55.06:282][932]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2020.12.11-12.55.06:282][932]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2020.12.11-12.55.06:294][932]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2020.12.11-12.55.06:294][932]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2020.12.11-12.55.06:294][932]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2020.12.11-12.55.06:294][932]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2020.12.11-12.55.06:295][932]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2020.12.11-12.55.06:295][932]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2020.12.11-12.55.06:295][932]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2020.12.11-12.55.06:295][932]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2020.12.11-12.55.06:295][932]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2020.12.11-12.55.06:295][932]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2020.12.11-12.55.06:295][932]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2020.12.11-12.55.06:295][932]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2020.12.11-12.55.06:295][932]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+[2020.12.11-12.55.06:314][932]LogD3D11RHI: Shutdown
+[2020.12.11-12.55.06:314][932]LogD3D11RHI: CleanupD3DDevice
+[2020.12.11-12.55.06:343][932]LogExit: Exiting.
+[2020.12.11-12.55.06:389][932]Log file closed, 12/11/20 13:55:06
