@@ -51,12 +51,16 @@ public:
 	UPROPERTY(EditAnywhere)
 		bool hasBeenSeeker;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Replicated)
 		int Score = 0;
 
-	UFUNCTION(BluePrintCallable, Category = "Points")
-		int AddScore(int ScoreToAdd,int ScoreMultiplier);
+	UFUNCTION(Client, Reliable, BluePrintCallable, Category = "Points")
+		void ClientAddScore(AHideNSneakCPPCharacter* Scorer, int ScoreToAdd, int ScoreMultiplier);
+			void ClientAddScore_Implementation(AHideNSneakCPPCharacter* Scorer, int ScoreToAdd, int ScoreMultiplier);
 
+	UFUNCTION(Server, Reliable, BluePrintCallable, Category = "Points")
+		void ServerAddScore(AHideNSneakCPPCharacter* Scorer, int ScoreToAdd, int ScoreMultiplier);
+			void ServerAddScore_Implementation(AHideNSneakCPPCharacter* Scorer, int ScoreToAdd, int ScoreMultiplier);
 	UFUNCTION(BlueprintPure, Category = "Character")
 		// Returns the base speed of the character's current role
 		float GetBaseSpeed();
@@ -117,6 +121,18 @@ public:
 
 	void ResetPlayersToHiders_Implementation();
 
+	UFUNCTION(Client, Reliable, BlueprintCallable, Category = "Seeker")
+		void ClientTaggerScore(AHideNSneakCPPCharacter* Tagger);
+	void ClientTaggerScore_Implementation(AHideNSneakCPPCharacter* Tagger);
+
+	UFUNCTION(Client, Reliable, BlueprintCallable, Category = "Seeker")
+		void ServerTaggerScore(AHideNSneakCPPCharacter* Tagger);
+	void ServerTaggerScore_Implementation(AHideNSneakCPPCharacter* Tagger);
+
+	//UFUNCTION(Server, Reliable, BlueprintCallable, Category = "Points")
+	//	void ServerAddTaggingScore(AHideNSneakCPPCharacter* Tagger);
+	//		void ServerAddTaggingScore_Implementation(AHideNSneakCPPCharacter* Tagger);
+
 	// Server side handling of reseting all players into hiders
 	UFUNCTION(Server, Reliable, BlueprintCallable, Category = "Seeker")
 		void ServerResetPlayersToHiders();
@@ -128,6 +144,9 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintreadWrite, Replicated)
 		bool IsDecoy;
+
+	UPROPERTY(EditAnywhere, BlueprintreadWrite, Replicated)
+		AHideNSneakCPPCharacter* WhoTaggedMe;
 
 	UFUNCTION(Client, unreliable, BlueprintCallable, Category = "Hider")
 		//make character go stealth + spawn a decoy character

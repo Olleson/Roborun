@@ -36,9 +36,9 @@ void ARoundController::BPAddHiderToSeekerTeam(AHideNSneakCPPCharacter* tempChar)
 			ScoreToGet = 6;
 		}
 		Hiders.Remove(tempChar);
-		tempChar->AddScore(ScoreToGet, ScoreMultiplier);
+		tempChar->ClientAddScore(tempChar, ScoreToGet, ScoreMultiplier);
 		for(int i = 0; i<Seekers.Num(); i++) {
-			Seekers[i]->AddScore(TagAssistPoint, ScoreMultiplier);
+			Seekers[i]->ClientAddScore(tempChar, TagAssistPoint, ScoreMultiplier);
 		}
 		Seekers.Add(tempChar);	
 	}
