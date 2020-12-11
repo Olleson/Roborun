@@ -120,13 +120,13 @@ void AHideNSneakCPPCharacter::ServerCaptureHider_Implementation(AHideNSneakCPPCh
 {
 	if (HasAuthority() && !Hider->IsSeeker()) {
 	if (RC != NULL) {
-		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, FString::Printf(TEXT(" i found the RC")));
-		if (RC->Seekers.Num() <= 3) {
-			Tagger->AddScore(5, RC->ScoreMultiplier);
-		}
-		else {
-			Tagger->AddScore(2, RC->ScoreMultiplier);
-		}
+		//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, FString::Printf(TEXT(" i found the RC")));
+			if (RC->Seekers.Num() <= 3) {
+				Tagger->AddScore(5, RC->ScoreMultiplier);
+			}
+			else {
+				Tagger->AddScore(2, RC->ScoreMultiplier);
+			}
 	}		
 		Hider->BecomeSeeker();
 		if (Hider == this) {
@@ -162,7 +162,7 @@ void AHideNSneakCPPCharacter::LookUpAtRate(float Rate)
 int AHideNSneakCPPCharacter::AddScore(int ScoreToAdd, int ScoreMultiplier)
 {
 	Score = Score + (ScoreToAdd * ScoreMultiplier);
-	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, FString::Printf(TEXT("Score: %i %i"), Score, ScoreMultiplier));
+	//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, FString::Printf(TEXT("Score: %i %i"), Score, ScoreMultiplier));
 	return Score;
 }
 
