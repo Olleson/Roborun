@@ -6,8 +6,8 @@ AJumpPowerUp::AJumpPowerUp(const FObjectInitializer& OI) : Super(OI) {
 	JumpBoost = 1200.0;
 }
 
-void AJumpPowerUp::ApplyPowerUp_Implementation(ACharacter* Character) {
-	APickup::ApplyPowerUp_Implementation(Character);
+void AJumpPowerUp::ApplyPowerUp(ACharacter* Character) {
+	APickup::ApplyPowerUp(Character);
 	if (AHideNSneakCPPCharacter* Player = Cast<AHideNSneakCPPCharacter>(Character)) {
 		Character->GetCharacterMovement()->JumpZVelocity += JumpBoost;
 		PlayerQueue.push(Player);
@@ -16,9 +16,9 @@ void AJumpPowerUp::ApplyPowerUp_Implementation(ACharacter* Character) {
 	}
 }
 
-void AJumpPowerUp::UnApplyPowerUp_Implementation()
+void AJumpPowerUp::UnApplyPowerUp()
 {
-	APickup::UnApplyPowerUp_Implementation();
+	APickup::UnApplyPowerUp();
 	AHideNSneakCPPCharacter* Character = PlayerQueue.front();
 	PlayerQueue.pop();
 	Character->GetCharacterMovement()->JumpZVelocity = Character->GetBaseJumpHeight();

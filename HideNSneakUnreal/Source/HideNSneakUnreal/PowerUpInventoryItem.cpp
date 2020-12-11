@@ -6,8 +6,7 @@ PowerUpInventoryItem::PowerUpInventoryItem(AHideNSneakCPPCharacter* InCharacter,
 
 void PowerUpInventoryItem::ApplyPickUp()
 {
-	GEngine->AddOnScreenDebugMessage(-1, 7.0f, FColor::Red, FString("Inventory item activates power up"));
-	Pickup->ClientApplyPowerUp(Character);
+	Pickup->ApplyPowerUp(Character);
 }
 
 UTexture2D* PowerUpInventoryItem::GetPickUpIcon()
@@ -18,6 +17,6 @@ UTexture2D* PowerUpInventoryItem::GetPickUpIcon()
 PowerUpInventoryItem::~PowerUpInventoryItem()
 {
 	// Nullify pointers so it doesn't try to delete the character and pickup upon being destroyed
-	Character = NULL;
-	Pickup = NULL;
+	Character = nullptr;
+	Pickup = nullptr;
 }

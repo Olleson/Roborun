@@ -17,9 +17,9 @@ class HIDENSNEAKUNREAL_API AJumpPowerUp : public APickup
 public:
 	AJumpPowerUp(const FObjectInitializer& OI);
 
-	void ApplyPowerUp_Implementation(ACharacter* Character) override;
+	void ApplyPowerUp(ACharacter* Character) override;
 
-	void UnApplyPowerUp_Implementation() override;
+	void UnApplyPowerUp() override;
 
 protected:
 	// How much Z-axis velocity is added to the player's jump

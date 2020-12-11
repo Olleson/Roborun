@@ -19,7 +19,7 @@ public:
 
 protected:
 
-	void ApplyPowerUp_Implementation(ACharacter* Character) override;
+	void ApplyPowerUp(ACharacter* Character) override;
 
-	void UnApplyPowerUp_Implementation() override;
+	void UnApplyPowerUp() override;
 };
