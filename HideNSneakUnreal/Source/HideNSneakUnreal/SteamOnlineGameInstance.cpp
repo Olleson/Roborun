@@ -68,9 +68,7 @@ void USteamOnlineGameInstance::FindServers()
 
 void USteamOnlineGameInstance::JoinServer(int32 ServerIndex)
 {
-	GEngine->AddOnScreenDebugMessage(-1, 7.0f, FColor::Red, FString("Joining Server..."));
 	if (SessionSearch->SearchResults.Num() > ServerIndex && ServerIndex >= 0) {
-		GEngine->AddOnScreenDebugMessage(-1, 7.0f, FColor::Red, FString("Attempting to connect"));
 		FOnlineSessionSearchResult Result = SessionSearch->SearchResults[ServerIndex];
 		if (Result.IsValid()) {
 			GEngine->AddOnScreenDebugMessage(-1, 7.0f, FColor::Red, FString("Connecting..."));

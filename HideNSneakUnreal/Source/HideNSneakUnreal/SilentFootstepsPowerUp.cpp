@@ -7,9 +7,9 @@ ASilentFootstepsPowerUp::ASilentFootstepsPowerUp(const FObjectInitializer& OI) :
 
 }
 
-void ASilentFootstepsPowerUp::ApplyPowerUp_Implementation(ACharacter* Character)
+void ASilentFootstepsPowerUp::ApplyPowerUp(ACharacter* Character)
 {
-	APickup::ApplyPowerUp_Implementation(Character);
+	APickup::ApplyPowerUp(Character);
 	if (AHideNSneakCPPCharacter* Player = Cast<AHideNSneakCPPCharacter>(Character)) {
 		Player->SetSilentFootsteps(true);
 		PlayerQueue.push(Player);
@@ -18,9 +18,9 @@ void ASilentFootstepsPowerUp::ApplyPowerUp_Implementation(ACharacter* Character)
 	}
 }
 
-void ASilentFootstepsPowerUp::UnApplyPowerUp_Implementation()
+void ASilentFootstepsPowerUp::UnApplyPowerUp()
 {
-	APickup::UnApplyPowerUp_Implementation();
+	APickup::UnApplyPowerUp();
 	AHideNSneakCPPCharacter* Player = PlayerQueue.front();
 	PlayerQueue.pop();
 	Player->SetSilentFootsteps(false);
