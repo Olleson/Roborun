@@ -1,6 +1,8 @@
 {
 	"SourceFiles": [
 		"C:\\Users\\arvid\\Documents\\PROJ_Grupp2_Ny\\HideNSneakUnreal\\Source\\HideNSneakUnreal\\HideNSneakUnreal.Build.cs",
+		"C:\\Users\\arvid\\Documents\\PROJ_Grupp2_Ny\\HideNSneakUnreal\\Plugins\\FMODStudio\\Source\\FMODStudio\\FMODStudio.Build.cs",
+		"C:\\Users\\arvid\\Documents\\PROJ_Grupp2_Ny\\HideNSneakUnreal\\Plugins\\FMODStudio\\Source\\FMODStudioEditor\\FMODStudioEditor.Build.cs",
 		"C:\\Users\\arvid\\Documents\\PROJ_Grupp2_Ny\\HideNSneakUnreal\\Source\\HideNSneakUnreal.Target.cs",
 		"C:\\Users\\arvid\\Documents\\PROJ_Grupp2_Ny\\HideNSneakUnreal\\Source\\HideNSneakUnrealEditor.Target.cs"
 	],
