@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"E:\\Documents\\Stockholms Universitet Spelutveckling\\Spel3\\PROJ_Spel\\PROJ_Grupp2\\HideNSneakUnreal\\Source\\HideNSneakUnreal\\HideNSneakUnreal.Build.cs",
-		"E:\\Documents\\Stockholms Universitet Spelutveckling\\Spel3\\PROJ_Spel\\PROJ_Grupp2\\HideNSneakUnreal\\Source\\HideNSneakUnreal.Target.cs",
-		"E:\\Documents\\Stockholms Universitet Spelutveckling\\Spel3\\PROJ_Spel\\PROJ_Grupp2\\HideNSneakUnreal\\Source\\HideNSneakUnrealEditor.Target.cs"
+		"C:\\Users\\Olle\\Documents\\PROJ_Grupp2\\HideNSneakUnreal\\Source\\HideNSneakUnreal\\HideNSneakUnreal.Build.cs",
+		"C:\\Users\\Olle\\Documents\\PROJ_Grupp2\\HideNSneakUnreal\\Source\\HideNSneakUnreal.Target.cs",
+		"C:\\Users\\Olle\\Documents\\PROJ_Grupp2\\HideNSneakUnreal\\Source\\HideNSneakUnrealEditor.Target.cs"
 	],
-	"EngineVersion": "4.25.3"
+	"EngineVersion": "4.25.4"
 }
