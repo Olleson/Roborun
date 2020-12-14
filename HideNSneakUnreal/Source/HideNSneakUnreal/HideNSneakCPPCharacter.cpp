@@ -82,7 +82,6 @@ void AHideNSneakCPPCharacter::BeginPlay()
 
 void AHideNSneakCPPCharacter::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const {
 	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
-
 	DOREPLIFETIME(AHideNSneakCPPCharacter, bIsSeeker);
 	DOREPLIFETIME(AHideNSneakCPPCharacter, IsDecoy);
 	DOREPLIFETIME(AHideNSneakCPPCharacter, Score);
@@ -120,7 +119,6 @@ void AHideNSneakCPPCharacter::SetupPlayerInputComponent(class UInputComponent* P
 
 void AHideNSneakCPPCharacter::ServerCaptureHider_Implementation(AHideNSneakCPPCharacter* Hider, AHideNSneakCPPCharacter* Tagger)
 {
-	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, FString::Printf(TEXT(" i found the RC")));
 	if (HasAuthority() && !Hider->IsSeeker()) {
 		Hider->WhoTaggedMe = Tagger;
 		Hider->BecomeSeeker();
@@ -253,7 +251,6 @@ void AHideNSneakCPPCharacter::BecomeSeeker_Implementation()
 void AHideNSneakCPPCharacter::ServerBecomeSeeker_Implementation()
 {
 	bIsSeeker = true;
-	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, FString::Printf(TEXT("Ive become seeker")));
 	if (CollectedPowerUp != NULL) {
 		delete CollectedPowerUp;
 		CollectedPowerUp = NULL;
@@ -275,14 +272,14 @@ void AHideNSneakCPPCharacter::ClientTaggerScore_Implementation(AHideNSneakCPPCha
 
 void AHideNSneakCPPCharacter::ServerTaggerScore_Implementation(AHideNSneakCPPCharacter* Tagger)
 {
-	if (RC != NULL && HasAuthority()) {
-		if (RC->Seekers.Num() <= 3) {
-			Tagger->ClientAddScore(Tagger, 5, RC->ScoreMultiplier);
-		}
-		else {
-			Tagger->ClientAddScore(Tagger, 2, RC->ScoreMultiplier);
-		}
-	}
+	//if (RC != NULL && HasAuthority()) {
+	//	if (RC->Seekers.Num() <= 3) {
+	//		Tagger->ClientAddScore(Tagger, 5, RC->ScoreMultiplier);
+	//	}
+	//	else {
+	//		Tagger->ClientAddScore(Tagger, 2, RC->ScoreMultiplier);
+	//	}
+	//}
 }
 
 //void AHideNSneakCPPCharacter::ClientAddTaggingScore_implementation(AHideNSneakCPPCharacter* Tagger)
@@ -408,7 +405,6 @@ void AHideNSneakCPPCharacter::OnCompHit(UPrimitiveComponent* HitComp, AActor* Ot
 		if (OtherActor->IsA(AHideNSneakCPPCharacter::StaticClass()) && OtherActor != this && !Cast<AHideNSneakCPPCharacter>(OtherActor)->bIsSeeker && bIsSeeker) {
 			targetTagMechanic = Cast<AHideNSneakCPPCharacter>(OtherActor);
 			ServerCaptureHider(targetTagMechanic, this);
-			GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, FString::Printf(TEXT("do i run more than once???")));
 		}
 }
 
