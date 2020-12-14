@@ -1,8 +1,8 @@
-﻿Log file open, 12/14/20 15:40:43
+﻿Log file open, 12/14/20 20:14:09
 LogInit: Display: Running engine for game: HideNSneakUnreal
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 1.030974
+LogStats: Stats thread started at 1.166308
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -199,799 +199,664 @@ LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2020.12.14-14.40.44:429][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2020.12.14-14.40.44:429][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2020.12.14-14.40.44:429][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Saved/Config/Windows/Engine.ini]
-[2020.12.14-14.40.44:429][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2020.12.14-14.40.44:429][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Saved/Config/Windows/Engine.ini]
-[2020.12.14-14.40.44:429][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Saved/Config/Windows/Engine.ini]
-[2020.12.14-14.40.44:429][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2020.12.14-14.40.44:429][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2020.12.14-14.40.44:429][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2020.12.14-14.40.44:429][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2020.12.14-14.40.44:429][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2020.12.14-14.40.44:429][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2020.12.14-14.40.44:429][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2020.12.14-14.40.44:429][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2020.12.14-14.40.44:429][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2020.12.14-14.40.44:429][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2020.12.14-14.40.44:429][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2020.12.14-14.40.44:429][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2020.12.14-14.40.44:429][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2020.12.14-14.40.44:429][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2020.12.14-14.40.44:429][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Saved/Config/Windows/Engine.ini]
-[2020.12.14-14.40.44:429][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2020.12.14-14.40.44:430][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2020.12.14-14.40.44:430][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2020.12.14-14.40.44:430][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2020.12.14-14.40.44:430][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2020.12.14-14.40.44:430][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2020.12.14-14.40.44:430][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2020.12.14-14.40.44:430][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2020.12.14-14.40.44:430][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2020.12.14-14.40.44:430][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2020.12.14-14.40.44:430][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2020.12.14-14.40.44:430][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2020.12.14-14.40.44:430][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2020.12.14-14.40.44:430][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Saved/Config/Windows/Engine.ini]
-[2020.12.14-14.40.44:430][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Saved/Config/Windows/Engine.ini]
-[2020.12.14-14.40.44:436][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
-[2020.12.14-14.40.44:436][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.12.14-14.40.44:436][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.12.14-14.40.44:436][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
-[2020.12.14-14.40.44:436][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.12.14-14.40.44:436][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
-[2020.12.14-14.40.44:436][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.12.14-14.40.44:436][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.12.14-14.40.44:436][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.12.14-14.40.44:436][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.12.14-14.40.44:436][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.12.14-14.40.44:436][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.12.14-14.40.44:436][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.12.14-14.40.44:436][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.12.14-14.40.44:436][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.12.14-14.40.44:436][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.12.14-14.40.44:436][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.12.14-14.40.44:436][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.12.14-14.40.44:436][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.12.14-14.40.44:436][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.12.14-14.40.44:437][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.12.14-14.40.44:437][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.12.14-14.40.44:437][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.12.14-14.40.44:437][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.12.14-14.40.44:437][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
-[2020.12.14-14.40.44:437][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.12.14-14.40.44:437][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.12.14-14.40.44:437][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.12.14-14.40.44:437][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.12.14-14.40.44:437][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.12.14-14.40.44:437][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.12.14-14.40.44:437][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.12.14-14.40.44:437][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.12.14-14.40.44:437][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.12.14-14.40.44:437][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.12.14-14.40.44:437][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.12.14-14.40.44:437][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.12.14-14.40.44:437][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.12.14-14.40.44:437][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.12.14-14.40.44:437][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.12.14-14.40.44:438][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.12.14-14.40.44:438][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.12.14-14.40.44:438][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.12.14-14.40.44:438][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.12.14-14.40.44:438][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.12.14-14.40.44:438][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.12.14-14.40.44:438][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.12.14-14.40.44:438][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.12.14-14.40.44:438][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.12.14-14.40.44:439][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.12.14-14.40.44:439][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.12.14-14.40.44:439][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.12.14-14.40.44:439][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.12.14-14.40.44:439][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.12.14-14.40.44:439][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.12.14-14.40.44:439][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
-[2020.12.14-14.40.44:439][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.12.14-14.40.44:439][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.12.14-14.40.44:439][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.12.14-14.40.44:439][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.12.14-14.40.44:439][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.12.14-14.40.44:439][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.12.14-14.40.44:439][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.12.14-14.40.44:439][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.12.14-14.40.44:439][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.12.14-14.40.44:439][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
-[2020.12.14-14.40.44:439][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.12.14-14.40.44:439][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.12.14-14.40.44:439][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.12.14-14.40.44:439][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.12.14-14.40.44:439][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.12.14-14.40.44:440][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.12.14-14.40.44:440][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.12.14-14.40.44:440][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.12.14-14.40.44:440][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.12.14-14.40.44:440][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.12.14-14.40.44:440][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.12.14-14.40.44:440][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2020.12.14-14.40.44:440][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.12.14-14.40.44:440][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.12.14-14.40.44:440][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.12.14-14.40.44:440][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.12.14-14.40.44:440][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.12.14-14.40.44:440][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.12.14-14.40.44:440][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.12.14-14.40.44:440][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.12.14-14.40.44:440][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.12.14-14.40.44:440][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.12.14-14.40.44:440][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.12.14-14.40.44:440][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.12.14-14.40.44:440][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.12.14-14.40.44:440][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.12.14-14.40.44:440][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
-[2020.12.14-14.40.44:440][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.12.14-14.40.44:440][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.12.14-14.40.44:440][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
-[2020.12.14-14.40.44:440][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.12.14-14.40.44:440][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.12.14-14.40.44:440][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.12.14-14.40.44:440][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2020.12.14-14.40.44:440][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2020.12.14-14.40.44:441][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2020.12.14-14.40.44:441][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2020.12.14-14.40.44:441][  0]LogInit: Selected Device Profile: [Windows]
-[2020.12.14-14.40.44:441][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2020.12.14-14.40.44:442][  0]LogHAL: Display: Platform has ~ 8 GB [8470978560 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2020.12.14-14.40.44:442][  0]LogInit: Going up to parent DeviceProfile []
-[2020.12.14-14.40.44:443][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
-[2020.12.14-14.40.44:443][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.12.14-14.40.44:443][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.12.14-14.40.44:443][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
-[2020.12.14-14.40.44:443][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.12.14-14.40.44:443][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
-[2020.12.14-14.40.44:443][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.12.14-14.40.44:443][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.12.14-14.40.44:443][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.12.14-14.40.44:443][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.12.14-14.40.44:443][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.12.14-14.40.44:443][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.12.14-14.40.44:443][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.12.14-14.40.44:443][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.12.14-14.40.44:443][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.12.14-14.40.44:443][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.12.14-14.40.44:443][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.12.14-14.40.44:443][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.12.14-14.40.44:443][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.12.14-14.40.44:443][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.12.14-14.40.44:443][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.12.14-14.40.44:443][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.12.14-14.40.44:443][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.12.14-14.40.44:443][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.12.14-14.40.44:443][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
-[2020.12.14-14.40.44:443][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.12.14-14.40.44:443][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.12.14-14.40.44:443][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.12.14-14.40.44:443][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.12.14-14.40.44:443][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.12.14-14.40.44:443][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.12.14-14.40.44:443][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.12.14-14.40.44:443][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.12.14-14.40.44:443][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.12.14-14.40.44:443][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.12.14-14.40.44:443][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.12.14-14.40.44:443][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.12.14-14.40.44:443][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.12.14-14.40.44:444][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.12.14-14.40.44:444][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.12.14-14.40.44:444][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.12.14-14.40.44:444][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.12.14-14.40.44:444][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.12.14-14.40.44:444][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.12.14-14.40.44:444][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.12.14-14.40.44:444][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.12.14-14.40.44:444][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.12.14-14.40.44:444][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.12.14-14.40.44:444][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.12.14-14.40.44:444][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.12.14-14.40.44:444][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.12.14-14.40.44:444][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.12.14-14.40.44:444][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.12.14-14.40.44:444][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.12.14-14.40.44:444][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.12.14-14.40.44:444][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
-[2020.12.14-14.40.44:444][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.12.14-14.40.44:444][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.12.14-14.40.44:444][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.12.14-14.40.44:444][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.12.14-14.40.44:444][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.12.14-14.40.44:444][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.12.14-14.40.44:444][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.12.14-14.40.44:444][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.12.14-14.40.44:444][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.12.14-14.40.44:444][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
-[2020.12.14-14.40.44:444][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.12.14-14.40.44:444][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.12.14-14.40.44:444][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.12.14-14.40.44:444][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.12.14-14.40.44:444][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.12.14-14.40.44:444][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.12.14-14.40.44:444][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.12.14-14.40.44:444][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.12.14-14.40.44:444][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.12.14-14.40.44:444][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.12.14-14.40.44:445][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.12.14-14.40.44:445][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2020.12.14-14.40.44:445][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.12.14-14.40.44:445][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.12.14-14.40.44:445][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.12.14-14.40.44:445][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.12.14-14.40.44:445][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.12.14-14.40.44:445][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.12.14-14.40.44:445][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.12.14-14.40.44:445][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.12.14-14.40.44:445][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.12.14-14.40.44:445][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.12.14-14.40.44:445][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.12.14-14.40.44:445][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.12.14-14.40.44:445][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.12.14-14.40.44:445][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.12.14-14.40.44:445][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
-[2020.12.14-14.40.44:445][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.12.14-14.40.44:445][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.12.14-14.40.44:445][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
-[2020.12.14-14.40.44:445][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.12.14-14.40.44:445][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.12.14-14.40.44:445][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.12.14-14.40.44:445][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2020.12.14-14.40.44:445][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2020.12.14-14.40.44:445][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2020.12.14-14.40.44:445][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2020.12.14-14.40.44:445][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2020.12.14-14.40.44:446][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2020.12.14-14.40.44:446][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2020.12.14-14.40.44:446][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
-[2020.12.14-14.40.44:446][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Saved/Config/Windows/Engine.ini]
-[2020.12.14-14.40.44:446][  0]LogInit: Computer: LAPTOP-C5CLCG65
-[2020.12.14-14.40.44:446][  0]LogInit: User: Abdifatah
-[2020.12.14-14.40.44:447][  0]LogInit: CPU Page size=4096, Cores=4
-[2020.12.14-14.40.44:447][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2020.12.14-14.40.44:447][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2020.12.14-14.40.44:447][  0]LogMemory: Platform Memory Stats for Windows
-[2020.12.14-14.40.44:447][  0]LogMemory: Process Physical Memory: 113.71 MB used, 113.72 MB peak
-[2020.12.14-14.40.44:447][  0]LogMemory: Process Virtual Memory: 97.82 MB used, 97.83 MB peak
-[2020.12.14-14.40.44:448][  0]LogMemory: Physical Memory: 5899.83 MB used,  2178.72 MB free, 8078.55 MB total
-[2020.12.14-14.40.44:448][  0]LogMemory: Virtual Memory: 5107.84 MB used,  134212624.00 MB free, 134217728.00 MB total
-[2020.12.14-14.40.44:462][  0]LogWindows: WindowsPlatformFeatures enabled
-[2020.12.14-14.40.44:644][  0]LogInit: Physics initialised using underlying interface: PhysX
-[2020.12.14-14.40.44:656][  0]LogInit: Using OS detected language (sv-SE).
-[2020.12.14-14.40.44:656][  0]LogInit: Using OS detected locale (sv-SE).
-[2020.12.14-14.40.44:716][  0]LogTextLocalizationManager: No localization for 'sv-SE' exists, so 'en' will be used for the language.
-[2020.12.14-14.40.45:407][  0]LogInit: Setting process to per monitor DPI aware
-[2020.12.14-14.40.45:500][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2020.12.14-14.40.45:500][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2020.12.14-14.40.46:365][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
-[2020.12.14-14.40.46:365][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
-[2020.12.14-14.40.46:365][  0]LogD3D11RHI: D3D11 adapters:
-[2020.12.14-14.40.46:857][  0]LogD3D11RHI:    0. 'NVIDIA GeForce MX150' (Feature Level 11_0)
-[2020.12.14-14.40.46:857][  0]LogD3D11RHI:       1983/0/4039 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2020.12.14-14.40.46:897][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 620' (Feature Level 11_0)
-[2020.12.14-14.40.46:897][  0]LogD3D11RHI:       128/0/4039 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2020.12.14-14.40.46:903][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2020.12.14-14.40.46:904][  0]LogD3D11RHI:       0/0/4039 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2020.12.14-14.40.46:904][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2020.12.14-14.40.46:980][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2020.12.14-14.40.46:981][  0]LogD3D11RHI:     GPU DeviceId: 0x1d10 (for the marketing name, search the web for "GPU Device Id")
-[2020.12.14-14.40.46:981][  0]LogWindows: EnumDisplayDevices:
-[2020.12.14-14.40.46:982][  0]LogWindows:    0. 'Intel(R) UHD Graphics 620' (P:1 D:1)
-[2020.12.14-14.40.46:982][  0]LogWindows:    1. 'Intel(R) UHD Graphics 620' (P:0 D:0)
-[2020.12.14-14.40.46:983][  0]LogWindows:    2. 'Intel(R) UHD Graphics 620' (P:0 D:0)
-[2020.12.14-14.40.46:984][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2020.12.14-14.40.46:984][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce MX150
-[2020.12.14-14.40.46:984][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2020.12.14-14.40.46:984][  0]LogD3D11RHI:      Driver Date: Unknown
-[2020.12.14-14.40.46:984][  0]LogRHI: Texture pool is 1388 MB (70% of 1983 MB)
-[2020.12.14-14.40.47:064][  0]LogD3D11RHI: RHI has support for 64 bit atomics
-[2020.12.14-14.40.47:071][  0]LogD3D11RHI: [Aftermath] Enabled and primed
-[2020.12.14-14.40.47:071][  0]LogD3D11RHI: Async texture creation enabled
-[2020.12.14-14.40.47:071][  0]LogD3D11RHI: Array index from any shader is supported
-[2020.12.14-14.40.47:113][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2020.12.14-14.40.47:812][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
-[2020.12.14-14.40.47:858][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
-[2020.12.14-14.40.47:858][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
-[2020.12.14-14.40.47:858][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
-[2020.12.14-14.40.47:858][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
-[2020.12.14-14.40.47:859][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
-[2020.12.14-14.40.47:859][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
-[2020.12.14-14.40.47:859][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
-[2020.12.14-14.40.47:859][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
-[2020.12.14-14.40.47:859][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
-[2020.12.14-14.40.47:859][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
-[2020.12.14-14.40.47:908][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
-[2020.12.14-14.40.47:908][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
-[2020.12.14-14.40.47:932][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
-[2020.12.14-14.40.47:951][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
-[2020.12.14-14.40.47:968][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
-[2020.12.14-14.40.47:987][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
-[2020.12.14-14.40.48:007][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
-[2020.12.14-14.40.48:024][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
-[2020.12.14-14.40.48:044][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
-[2020.12.14-14.40.48:096][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
-[2020.12.14-14.40.48:096][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
-[2020.12.14-14.40.48:126][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
-[2020.12.14-14.40.48:126][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
-[2020.12.14-14.40.48:143][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2020.12.14-14.40.48:161][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2020.12.14-14.40.48:181][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2020.12.14-14.40.48:199][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2020.12.14-14.40.48:199][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2020.12.14-14.40.48:227][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2020.12.14-14.40.48:414][  0]LogShaderCompilers: Guid format shader working directory is -26 characters bigger than the processId version (../../../../../../Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Intermediate/Shaders/WorkingDirectory/13724/).
-[2020.12.14-14.40.48:415][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Abdifatah/AppData/Local/Temp/UnrealShaderWorkingDir/A074AFE240A1B27F58BEC898E32B6D67/'.
-[2020.12.14-14.40.48:416][  0]LogXGEController: Cleaning working directory: C:/Users/Abdifatah/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2020.12.14-14.40.48:417][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2020.12.14-14.40.48:417][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2020.12.14-14.40.48:417][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2020.12.14-14.40.50:103][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2020.12.14-14.40.50:362][  0]LogDerivedDataCache: Loaded boot cache 0.26s 76MB C:/Users/Abdifatah/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2020.12.14-14.40.50:362][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Abdifatah/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
-[2020.12.14-14.40.50:363][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2020.12.14-14.40.50:363][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2020.12.14-14.40.50:363][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.12.14-14.40.50:363][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2020.12.14-14.40.50:383][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2020.12.14-14.40.50:383][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.12.14-14.40.50:383][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2020.12.14-14.40.50:387][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Abdifatah/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2020.12.14-14.40.50:387][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2020.12.14-14.40.50:387][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2020.12.14-14.40.50:481][  0]LogSlate: Using FreeType 2.10.0
-[2020.12.14-14.40.50:487][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.12.14-14.40.50:555][  0]LogAssetRegistry: FAssetRegistry took 0.0073 seconds to start up
-[2020.12.14-14.40.51:079][  0]LogInit: Selected Device Profile: [Windows]
-[2020.12.14-14.40.51:367][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2020.12.14-14.40.51:367][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2020.12.14-14.40.51:367][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2020.12.14-14.40.51:367][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2020.12.14-14.40.51:370][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2020.12.14-14.40.51:426][  0]LogNetVersion: HideNSneakUnreal 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 3367979030)
-[2020.12.14-14.40.52:868][  0]LogLinker: Warning: Failed to read package file summary, the file "../../../../../../Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Content/Blueprints/Widgets/BPW_MenuHost_BASE_976.uasset" is too small (0 bytes, expected at least 32 bytes)
-[2020.12.14-14.40.52:868][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000002A451EE6980), frame # 0
-[2020.12.14-14.40.52:869][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002A451DA51C0), frame # 0
-[2020.12.14-14.40.52:873][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002A451EDE800), frame # 0
-[2020.12.14-14.40.52:985][  0]LogPackageLocalizationCache: Processed 18 localized package path(s) for 1 prioritized culture(s) in 0.074922 seconds
-[2020.12.14-14.40.52:997][  0]LogUObjectArray: 15756 objects as part of root set at end of initial load.
-[2020.12.14-14.40.52:997][  0]LogUObjectAllocator: 3925280 out of 0 bytes used by permanent object pool.
-[2020.12.14-14.40.52:997][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2020.12.14-14.40.54:217][  0]LogFMOD: FFMODStudioModule startup
-[2020.12.14-14.40.54:218][  0]LogFMOD:  Lib path = '../../../../../../Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Plugins/fmodstudioplugin20106ue4.25win64(1)/FMODStudio/Binaries'
-[2020.12.14-14.40.54:218][  0]LogFMOD: FFMODStudioModule::LoadDll: Loading ../../../../../../Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Plugins/fmodstudioplugin20106ue4.25win64(1)/FMODStudio/Binaries/Win64/fmodL.dll
-[2020.12.14-14.40.54:232][  0]LogFMOD: FFMODStudioModule::LoadDll: Loading ../../../../../../Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Plugins/fmodstudioplugin20106ue4.25win64(1)/FMODStudio/Binaries/Win64/fmodstudioL.dll
-[2020.12.14-14.40.54:291][  0]LogFMOD: Loading strings bank: ../../../../../../Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Content/FMOD/Desktop/Master.strings.bank
-[2020.12.14-14.40.54:294][  0]LogFMOD: Constructing asset: /Game/FMOD/Buses/Master/Music
-[2020.12.14-14.40.54:295][  0]LogFMOD: Warning: 'Industry Ambience' cannot be used as a UE4 asset name. Name may not contain the following characters:  . Using 'Industry_Ambience' instead.
-[2020.12.14-14.40.54:295][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/Ambiance/Industry_Ambience
-[2020.12.14-14.40.54:296][  0]LogFMOD: Warning: '/Game/FMOD/Events/Character Events/Seeker/SeekerFootsteps' cannot be used as a UE4 asset path. Name may not contain the following characters:  . Using '/Game/FMOD/Events/Character_Events/Seeker/SeekerFootsteps' instead.
-[2020.12.14-14.40.54:296][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/Character_Events/Seeker/SeekerFootsteps
-[2020.12.14-14.40.54:296][  0]LogFMOD: Constructing asset: /Game/FMOD/Buses/Master/SFX
-[2020.12.14-14.40.54:296][  0]LogFMOD: Warning: 'Elevator Button' cannot be used as a UE4 asset name. Name may not contain the following characters:  . Using 'Elevator_Button' instead.
-[2020.12.14-14.40.54:296][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/Dynamics/Elevator/Elevator_Button
-[2020.12.14-14.40.54:296][  0]LogFMOD: Constructing asset: /Game/FMOD/Buses/Master
-[2020.12.14-14.40.54:296][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/Themes/MainTheme
-[2020.12.14-14.40.54:296][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/Dynamics/Doors/TestSteam
-[2020.12.14-14.40.54:296][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/Dynamics/Doors/Closing
-[2020.12.14-14.40.54:296][  0]LogFMOD: Warning: '/Game/FMOD/Events/Character Events/Seeker/Catch' cannot be used as a UE4 asset path. Name may not contain the following characters:  . Using '/Game/FMOD/Events/Character_Events/Seeker/Catch' instead.
-[2020.12.14-14.40.54:296][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/Character_Events/Seeker/Catch
-[2020.12.14-14.40.54:296][  0]LogFMOD: Warning: 'Pickup the pickup' cannot be used as a UE4 asset name. Name may not contain the following characters:  . Using 'Pickup_the_pickup' instead.
-[2020.12.14-14.40.54:296][  0]LogFMOD: Warning: '/Game/FMOD/Events/Character Events/Pickup Sounds/Pickup_the_pickup' cannot be used as a UE4 asset path. Name may not contain the following characters:  . Using '/Game/FMOD/Events/Character_Events/Pickup_Sounds/Pickup_the_pickup' instead.
-[2020.12.14-14.40.54:296][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/Character_Events/Pickup_Sounds/Pickup_the_pickup
-[2020.12.14-14.40.54:296][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/Themes/Backgroundmusic
-[2020.12.14-14.40.54:297][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/Dynamics/ConveyorBelt
-[2020.12.14-14.40.54:297][  0]LogFMOD: Warning: '/Game/FMOD/Events/Character Events/RobotSounds' cannot be used as a UE4 asset path. Name may not contain the following characters:  . Using '/Game/FMOD/Events/Character_Events/RobotSounds' instead.
-[2020.12.14-14.40.54:297][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/Character_Events/RobotSounds
-[2020.12.14-14.40.54:297][  0]LogFMOD: Constructing asset: /Game/FMOD/Banks/FX
-[2020.12.14-14.40.54:297][  0]LogFMOD: Warning: '/Game/FMOD/Events/Character Events/Seeker/Tagging/ConvertSound' cannot be used as a UE4 asset path. Name may not contain the following characters:  . Using '/Game/FMOD/Events/Character_Events/Seeker/Tagging/ConvertSound' instead.
-[2020.12.14-14.40.54:297][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/Character_Events/Seeker/Tagging/ConvertSound
-[2020.12.14-14.40.54:297][  0]LogFMOD: Constructing asset: /Game/FMOD/Buses/Reverb
-[2020.12.14-14.40.54:297][  0]LogFMOD: Warning: '/Game/FMOD/Events/Character Events/Seeker/Tracker' cannot be used as a UE4 asset path. Name may not contain the following characters:  . Using '/Game/FMOD/Events/Character_Events/Seeker/Tracker' instead.
-[2020.12.14-14.40.54:297][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/Character_Events/Seeker/Tracker
-[2020.12.14-14.40.54:297][  0]LogFMOD: Warning: 'Locking sound' cannot be used as a UE4 asset name. Name may not contain the following characters:  . Using 'Locking_sound' instead.
-[2020.12.14-14.40.54:297][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/Dynamics/Doors/Locking_sound
-[2020.12.14-14.40.54:297][  0]LogFMOD: Constructing asset: /Game/FMOD/Buses/Master/Ambiance
-[2020.12.14-14.40.54:297][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/GameState/GameWinner
-[2020.12.14-14.40.54:298][  0]LogFMOD: Warning: 'Activate Decoy' cannot be used as a UE4 asset name. Name may not contain the following characters:  . Using 'Activate_Decoy' instead.
-[2020.12.14-14.40.54:298][  0]LogFMOD: Warning: '/Game/FMOD/Events/Character Events/Hider/Decoy Sounds/Activate_Decoy' cannot be used as a UE4 asset path. Name may not contain the following characters:  . Using '/Game/FMOD/Events/Character_Events/Hider/Decoy_Sounds/Activate_Decoy' instead.
-[2020.12.14-14.40.54:298][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/Character_Events/Hider/Decoy_Sounds/Activate_Decoy
-[2020.12.14-14.40.54:298][  0]LogFMOD: Warning: 'Using pickup' cannot be used as a UE4 asset name. Name may not contain the following characters:  . Using 'Using_pickup' instead.
-[2020.12.14-14.40.54:298][  0]LogFMOD: Warning: '/Game/FMOD/Events/Character Events/Pickup Sounds/Using_pickup' cannot be used as a UE4 asset path. Name may not contain the following characters:  . Using '/Game/FMOD/Events/Character_Events/Pickup_Sounds/Using_pickup' instead.
-[2020.12.14-14.40.54:298][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/Character_Events/Pickup_Sounds/Using_pickup
-[2020.12.14-14.40.54:298][  0]LogFMOD: Constructing asset: /Game/FMOD/Banks/Music
-[2020.12.14-14.40.54:298][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/Themes/SeekerCountdown
-[2020.12.14-14.40.54:298][  0]LogFMOD: Warning: '/Game/FMOD/Events/Character Events/Seeker/SeekerJump' cannot be used as a UE4 asset path. Name may not contain the following characters:  . Using '/Game/FMOD/Events/Character_Events/Seeker/SeekerJump' instead.
-[2020.12.14-14.40.54:298][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/Character_Events/Seeker/SeekerJump
-[2020.12.14-14.40.54:298][  0]LogFMOD: Constructing asset: /Game/FMOD/Banks/Master
-[2020.12.14-14.40.54:298][  0]LogFMOD: Constructing asset: /Game/FMOD/Banks/Ambiance
-[2020.12.14-14.40.54:298][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/Dynamics/Doors/Open
-[2020.12.14-14.40.54:298][  0]LogFMOD: Warning: 'Decoy Success' cannot be used as a UE4 asset name. Name may not contain the following characters:  . Using 'Decoy_Success' instead.
-[2020.12.14-14.40.54:298][  0]LogFMOD: Warning: '/Game/FMOD/Events/Character Events/Hider/Decoy Sounds/Decoy_Success' cannot be used as a UE4 asset path. Name may not contain the following characters:  . Using '/Game/FMOD/Events/Character_Events/Hider/Decoy_Sounds/Decoy_Success' instead.
-[2020.12.14-14.40.54:298][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/Character_Events/Hider/Decoy_Sounds/Decoy_Success
-[2020.12.14-14.40.54:298][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/Dynamics/SteamVents
-[2020.12.14-14.40.54:310][  0]LogFMOD: Default sample rate = 48000
-[2020.12.14-14.40.54:310][  0]LogFMOD: System sample rate = 16000
-[2020.12.14-14.40.54:345][  0]LogFMOD: Default sample rate = 48000
-[2020.12.14-14.40.54:345][  0]LogFMOD: System sample rate = 16000
-[2020.12.14-14.40.54:813][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2020.12.14-14.40.54:830][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2020.12.14-14.40.54:976][  0]LogSteamShared: Display: Loading Steam SDK 1.47
-[2020.12.14-14.40.54:979][  0]LogSteamShared: Steam SDK Loaded!
-[2020.12.14-14.40.55:213][  0]SourceControl: Source control is disabled
-[2020.12.14-14.40.55:213][  0]SourceControl: Source control is disabled
-[2020.12.14-14.40.55:228][  0]SourceControl: Source control is disabled
-[2020.12.14-14.40.55:243][  0]SourceControl: Source control is disabled
-[2020.12.14-14.40.55:275][  0]SourceControl: Source control is disabled
-[2020.12.14-14.40.55:904][  0]LogFMOD: FFMODStudioEditorModule startup
-[2020.12.14-14.40.56:232][  0]LogOnline: Oculus: Oculus Startup!
-[2020.12.14-14.40.56:254][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2020.12.14-14.40.56:311][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.12.14-14.40.56:312][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.12.14-14.40.56:604][  0]LogEngine: Initializing Engine...
-[2020.12.14-14.40.56:607][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
-[2020.12.14-14.40.56:610][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.001 s
-[2020.12.14-14.40.56:946][  0]LogInit: Initializing FReadOnlyCVARCache
-[2020.12.14-14.40.56:986][  0]LogAIModule: Creating AISystem for world Untitled
-[2020.12.14-14.40.56:986][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002A4572EDA00), frame # 0
-[2020.12.14-14.40.56:987][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002A45730E700), frame # 0
-[2020.12.14-14.40.57:016][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.12.14-14.40.57:016][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.12.14-14.40.57:016][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.12.14-14.40.57:016][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.12.14-14.40.57:016][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.12.14-14.40.57:016][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.12.14-14.40.57:016][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.12.14-14.40.57:016][  0]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.12.14-14.40.57:016][  0]LogAudio: Display: Using built-in audio occlusion.
-[2020.12.14-14.40.57:016][  0]LogAudioMixer: Display: Initializing audio mixer.
-[2020.12.14-14.40.57:038][  0]LogAudioMixer: Warning: Did not find the channel type flags for audio device 'Headset (BLE_ATH-M50xBT Hands-Free AG Audio)'. Reverting to a default channel ordering.
-[2020.12.14-14.40.57:038][  0]LogAudioMixer: Display: 0: FrontLeft
-[2020.12.14-14.40.57:038][  0]LogAudioMixer: Display: 1: FrontRight
-[2020.12.14-14.40.57:062][  0]LogAudioMixer: Display: Using Audio Device Headset (BLE_ATH-M50xBT Hands-Free AG Audio)
-[2020.12.14-14.40.57:074][  0]LogAudioMixer: Display: Initializing Sound Submixes...
-[2020.12.14-14.40.57:088][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2020.12.14-14.40.57:088][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2020.12.14-14.40.57:089][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2020.12.14-14.40.57:094][  0]LogInit: FAudioDevice initialized.
-[2020.12.14-14.40.57:094][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2020.12.14-14.40.57:509][  0]LogDerivedDataCache: Saved boot cache 0.41s 76MB C:/Users/Abdifatah/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2020.12.14-14.40.57:509][  0]LogInit: Texture streaming: Enabled
-[2020.12.14-14.40.57:588][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2020.12.14-14.40.57:588][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2020.12.14-14.40.57:897][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2020.12.14-14.40.58:977][  0]LogInit: Transaction tracking system initialized
-[2020.12.14-14.40.59:281][  0]BlueprintLog: New page: Editor Load
-[2020.12.14-14.40.59:636][  0]LocalizationService: Localization service is disabled
-[2020.12.14-14.41.00:342][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2020.12.14-14.41.00:343][  0]LogCook: Display: Mobile HDR setting 1
-[2020.12.14-14.41.01:140][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Content/' took 0.13s
-[2020.12.14-14.41.01:140][  0]SourceControl: Source control is disabled
-[2020.12.14-14.41.01:141][  0]LogUnrealEdMisc: Loading editor; pre map load, took 28.316
-[2020.12.14-14.41.01:142][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Content/Maps/Beta_whitebox.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.12.14-14.41.01:143][  0]LightingResults: New page: Lighting Build
-[2020.12.14-14.41.01:151][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2020.12.14-14.41.01:151][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.12.14-14.41.01:151][  0]MapCheck: New page: Map Check
-[2020.12.14-14.41.01:151][  0]LightingResults: New page: Lighting Build
-[2020.12.14-14.41.01:178][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002A4572EDA00), frame # 0
-[2020.12.14-14.41.01:179][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002A45730E700), frame # 0
-[2020.12.14-14.41.01:182][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.18ms
-[2020.12.14-14.41.01:326][  0]LogLinker: Warning: While loading '../../../../../../Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Content/Art/3D/Character/Animations/BP/Hider_Anim_BP.uasset' failed to load '/Game/FMOD/Events/Character_Events/Hider/Footsteps': Can't find file.
-[2020.12.14-14.41.01:326][  0]LogLinker: Warning: While loading '../../../../../../Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Content/Art/3D/Character/Animations/BP/Hider_Anim_BP.uasset' failed to load '/Game/FMOD/Events/Character_Events/Hider/Footsteps': Can't find file.
-[2020.12.14-14.41.01:327][  0]LogLinker: Warning: While loading '../../../../../../Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Content/Art/3D/Character/Animations/BP/Hider_Anim_BP.uasset' failed to load '/Game/FMOD/Events/Character_Events/Hider/Footsteps': Can't find file.
-[2020.12.14-14.41.01:328][  0]LogLinker: Warning: While loading '../../../../../../Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Content/Art/3D/Character/Animations/BP/Hider_Anim_BP.uasset' failed to load '/Game/FMOD/Events/Character_Events/Hider/Footsteps': Can't find file.
-[2020.12.14-14.41.01:334][  0]LogLinker: Warning: While loading '../../../../../../Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Content/Blueprints/BP_HideNSneakCPPCharacter.uasset' failed to load '/Game/FMOD/Events/Character_Events/Hider/Footsteps': Can't find file.
-[2020.12.14-14.41.01:335][  0]LogLinker: Warning: While loading '../../../../../../Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Content/Blueprints/BP_HideNSneakCPPCharacter.uasset' failed to load '/Game/FMOD/Events/Character_Events/Hider/Footsteps': Can't find file.
-[2020.12.14-14.41.01:335][  0]LogLinker: Warning: While loading '../../../../../../Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Content/Blueprints/BP_HideNSneakCPPCharacter.uasset' failed to load '/Game/FMOD/Events/Character_Events/Hider/Footsteps': Can't find file.
-[2020.12.14-14.41.01:335][  0]LogLinker: Warning: While loading '../../../../../../Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Content/Blueprints/BP_HideNSneakCPPCharacter.uasset' failed to load '/Game/FMOD/Events/Character_Events/Hider/Footsteps': Can't find file.
-[2020.12.14-14.41.01:337][  0]LogLinker: Warning: While loading '../../../../../../Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Content/Blueprints/BP_HideNSneakCPPCharacter.uasset' failed to load '/Game/FMOD/Events/Character_Events/Hider/Footsteps': Can't find file.
-[2020.12.14-14.41.01:337][  0]LoadErrors: Failed to load /Game/FMOD/Events/Character_Events/Hider/Footsteps.Footsteps Referenced by K2Node_CallFunction_3
-[2020.12.14-14.41.01:337][  0]LogLinker: Warning: While loading '../../../../../../Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Content/Blueprints/BP_HideNSneakCPPCharacter.uasset' failed to load '/Game/FMOD/Events/Character_Events/Hider/Footsteps': Can't find file.
-[2020.12.14-14.41.01:337][  0]LoadErrors: Failed to load /Game/FMOD/Events/Character_Events/Hider/Footsteps.Footsteps Referenced by K2Node_CallFunction_3
-[2020.12.14-14.41.07:350][  0]LogAIModule: Creating AISystem for world Beta_whitebox
-[2020.12.14-14.41.07:350][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002A4685EA600), frame # 0
-[2020.12.14-14.41.07:351][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002A4685E3B00), frame # 0
-[2020.12.14-14.41.07:650][  0]LogPrimitiveComponent: Warning: CreateDynamicMaterialInstance on /Game/Maps/Beta_whitebox.Beta_whitebox:PersistentLevel.BP_HideNSneakCPPCharacter_2.CharacterMesh0: Material index 0 is invalid.
-[2020.12.14-14.41.07:655][  0]LogEditorServer: Finished looking for orphan Actors (0.001 secs)
-[2020.12.14-14.41.07:749][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
-[2020.12.14-14.41.07:750][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.12.14-14.41.07:752][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,907ms to complete.
-[2020.12.14-14.41.07:752][  0]LogFileHelpers: Loading map 'Beta_whitebox' took 6.611
-[2020.12.14-14.41.07:765][  0]LogUnrealEdMisc: Total Editor Startup Time, took 34.940
-[2020.12.14-14.41.08:003][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.12.14-14.41.08:012][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.12.14-14.41.08:020][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.12.14-14.41.08:030][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.12.14-14.41.08:051][  0]LogCollectionManager: Loaded 0 collections in 0.002699 seconds
-[2020.12.14-14.41.08:085][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Saved/Collections/' took 0.00s
-[2020.12.14-14.41.08:085][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Content/Developers/Abdifatah/Collections/' took 0.00s
-[2020.12.14-14.41.08:085][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Content/Collections/' took 0.00s
-[2020.12.14-14.41.08:085][  0]LogContentBrowser: Native class hierarchy populated in 0.0163 seconds. Added 3477 classes and 827 folders.
-[2020.12.14-14.41.08:104][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2020.12.14-14.41.08:481][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2020.12.14-14.41.08:488][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 2 classes and 0 folders.
-[2020.12.14-14.41.08:600][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2020.12.14-14.41.08:600][  0]LogLoad: (Engine Initialization) Total time: 35.78 seconds
-[2020.12.14-14.41.08:600][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2020.12.14-14.41.08:684][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2020.12.14-14.41.08:711][  0]LogSlate: Took 0.002111 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.12.14-14.41.08:719][  0]LogSlate: Took 0.001242 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
-[2020.12.14-14.41.08:746][  1]LogFMOD: File has changed: ../../../../../../Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Content/FMOD/Desktop/Master.strings.bank
-[2020.12.14-14.41.08:873][  1]LogFMOD: Loading strings bank: ../../../../../../Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Content/FMOD/Desktop/Master.strings.bank
-[2020.12.14-14.41.08:880][  1]LogFMOD: Default sample rate = 48000
-[2020.12.14-14.41.08:880][  1]LogFMOD: System sample rate = 16000
-[2020.12.14-14.41.08:902][  1]LogFMOD: Loading bank: ../../../../../../Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Content/FMOD/Desktop/Ambiance.bank
-[2020.12.14-14.41.08:902][  1]LogFMOD: Loading bank: ../../../../../../Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Content/FMOD/Desktop/FX.bank
-[2020.12.14-14.41.08:902][  1]LogFMOD: Loading bank: ../../../../../../Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Content/FMOD/Desktop/Music.bank
-[2020.12.14-14.41.09:041][  1]LogFMOD: Default sample rate = 48000
-[2020.12.14-14.41.09:041][  1]LogFMOD: System sample rate = 16000
-[2020.12.14-14.41.09:063][  1]LogFMOD: Loading bank: ../../../../../../Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Content/FMOD/Desktop/Ambiance.bank
-[2020.12.14-14.41.09:063][  1]LogFMOD: Loading bank: ../../../../../../Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Content/FMOD/Desktop/FX.bank
-[2020.12.14-14.41.09:063][  1]LogFMOD: Loading bank: ../../../../../../Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Content/FMOD/Desktop/Music.bank
-[2020.12.14-14.41.09:233][  1]LogAssetRegistry: Asset discovery search completed in 18.6803 seconds
-[2020.12.14-14.41.09:240][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000004 seconds (updated 0 objects)
-[2020.12.14-14.41.09:268][  1]LogRenderer: Reallocating scene render targets to support 128x128 Format 10 NumSamples 1 (Frame:0).
-[2020.12.14-14.41.09:268][  1]LogSlate: Took 0.001290 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2020.12.14-14.41.10:516][  1]LogConsoleManager: Warning: Performance warning: Console object named 'r.ReflectionCaptureResolution' shows many (500) FindConsoleObject() calls (consider caching e.g. using static)
-[2020.12.14-14.41.30:364][210]LogSlate: Took 0.001065 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2020.12.14-14.41.30:504][210]LogRenderer: Reallocating scene render targets to support 748x300 Format 10 NumSamples 1 (Frame:1).
-[2020.12.14-14.41.30:504][210]LogSlate: Took 0.001360 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.12.14-14.41.31:588][219]LogRenderer: Reallocating scene render targets to support 896x364 Format 10 NumSamples 1 (Frame:10).
-[2020.12.14-14.41.38:382][533]LogSlate: Took 0.000339 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.12.14-14.41.38:419][533]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Blueprints/Widgets/BPW_Settings.BPW_Settings
-[2020.12.14-14.41.38:714][533]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 125 classes and 0 folders.
-[2020.12.14-14.41.40:616][533]LogSlate: Took 0.002084 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2020.12.14-14.46.35:729][669]LogSlate: Took 0.001293 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2020.12.14-14.46.44:647][198]LogTemp: Repeating last play command: Selected Viewport
-[2020.12.14-14.46.44:715][198]LogFMOD: Creating runtime Studio System
-[2020.12.14-14.46.44:726][198]LogFMOD: Default sample rate = 48000
-[2020.12.14-14.46.44:727][198]LogFMOD: System sample rate = 16000
-[2020.12.14-14.46.44:775][198]LogFMOD: Loading Banks
-[2020.12.14-14.46.44:775][198]LogFMOD: Loading bank: ../../../../../../Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Content/FMOD/Desktop/Ambiance.bank
-[2020.12.14-14.46.44:775][198]LogFMOD: Loading bank: ../../../../../../Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Content/FMOD/Desktop/FX.bank
-[2020.12.14-14.46.44:775][198]LogFMOD: Loading bank: ../../../../../../Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Content/FMOD/Desktop/Music.bank
-[2020.12.14-14.46.44:810][198]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.12.14-14.46.44:821][198]PIE: New page: PIE session: Beta_whitebox (14 dec. 2020 16:46:44)
-[2020.12.14-14.46.44:835][198]LogOnline: OSS: Creating online subsystem instance for: NULL
-[2020.12.14-14.46.44:839][198]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
-[2020.12.14-14.46.44:843][198]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Beta_whitebox
-[2020.12.14-14.46.45:239][198]LogPlayLevel: PIE: StaticDuplicateObject took: (0.396025s)
-[2020.12.14-14.46.45:249][198]LogAIModule: Creating AISystem for world Beta_whitebox
-[2020.12.14-14.46.45:250][198]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002A4C673FE00), frame # 2198
-[2020.12.14-14.46.45:251][198]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002A4C6768CC0), frame # 2198
-[2020.12.14-14.46.45:255][198]LogPlayLevel: PIE: World Init took: (0.015628s)
-[2020.12.14-14.46.45:257][198]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Beta_whitebox.Beta_whitebox to /Game/Maps/UEDPIE_0_Beta_whitebox.Beta_whitebox (0.414602s)
-[2020.12.14-14.46.45:436][198]LogUObjectHash: Compacting FUObjectHashTables data took  15.85ms
-[2020.12.14-14.46.45:519][198]LogOnline: OSS: Creating online subsystem instance for: Steam
-[2020.12.14-14.46.45:522][198]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
-[2020.12.14-14.46.45:523][198]LogOnline: OSS: Unable to create OnlineSubsystem module Steam
-[2020.12.14-14.46.45:524][198]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.12.14-14.46.45:524][198]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.12.14-14.46.45:524][198]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.12.14-14.46.45:524][198]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.12.14-14.46.45:524][198]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.12.14-14.46.45:524][198]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.12.14-14.46.45:525][198]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.12.14-14.46.45:525][198]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.12.14-14.46.45:527][198]LogAudio: Display: Using built-in audio occlusion.
-[2020.12.14-14.46.45:528][198]LogAudioMixer: Display: Initializing audio mixer.
-[2020.12.14-14.46.45:532][198]LogAudioMixer: Warning: Did not find the channel type flags for audio device 'Headset (BLE_ATH-M50xBT Hands-Free AG Audio)'. Reverting to a default channel ordering.
-[2020.12.14-14.46.45:532][198]LogAudioMixer: Display: 0: FrontLeft
-[2020.12.14-14.46.45:532][198]LogAudioMixer: Display: 1: FrontRight
-[2020.12.14-14.46.45:547][198]LogAudioMixer: Display: Using Audio Device Headset (BLE_ATH-M50xBT Hands-Free AG Audio)
-[2020.12.14-14.46.45:552][198]LogAudioMixer: Display: Initializing Sound Submixes...
-[2020.12.14-14.46.45:552][198]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2020.12.14-14.46.45:553][198]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2020.12.14-14.46.45:556][198]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2020.12.14-14.46.45:580][198]LogInit: FAudioDevice initialized.
-[2020.12.14-14.46.45:648][198]LogLoad: Game class is 'BP_HideNSneakGameModeBase_C'
-[2020.12.14-14.46.45:810][198]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Beta_whitebox.Beta_whitebox up for play (max tick rate 0) at 2020.12.14-15.46.45
-[2020.12.14-14.46.45:818][198]LogWorld: Bringing up level for play took: 0.167622
-[2020.12.14-14.46.45:819][198]LogOnline: OSS: Creating online subsystem instance for: :Context_4
-[2020.12.14-14.46.45:852][198]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0023 seconds. Added 20 classes and 0 folders.
-[2020.12.14-14.46.45:900][198]LogScript: Warning: Accessed None trying to read property PlayerMaterial
-	BP_HideNSneakCPPCharacter_C /Game/Maps/UEDPIE_0_Beta_whitebox.Beta_whitebox:PersistentLevel.BP_HideNSneakCPPCharacter_2
-	Function /Game/Blueprints/BP_HideNSneakCPPCharacter.BP_HideNSneakCPPCharacter_C:ExecuteUbergraph_BP_HideNSneakCPPCharacter:183A
-[2020.12.14-14.46.45:901][198]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property PlayerMaterial". Blueprint:  BP_HideNSneakCPPCharacter Function:  Execute Ubergraph BP Hide NSneak CPPCharacter Graph:  EventGraph Node:  Set Vector Parameter Value
-[2020.12.14-14.46.45:903][198]PIE: Server logged in
-[2020.12.14-14.46.45:906][198]PIE: Play in editor total start time 1,233 seconds.
-[2020.12.14-14.46.47:733][202]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.12.14-14.46.47:733][202]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Beta_whitebox
-[2020.12.14-14.46.47:742][202]LogWorld: UWorld::CleanupWorld for Beta_whitebox, bSessionEnded=true, bCleanupResources=true
-[2020.12.14-14.46.47:787][202]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.12.14-14.46.47:802][202]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2020.12.14-14.46.47:813][202]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.12.14-14.46.47:848][202]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.12.14-14.46.47:964][202]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002A4C673FE00), frame # 2202
-[2020.12.14-14.46.47:964][202]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002A4C6768CC0), frame # 2202
-[2020.12.14-14.46.47:969][202]LogUObjectHash: Compacting FUObjectHashTables data took   4.68ms
-[2020.12.14-14.46.48:102][203]LogPlayLevel: Display: Destroying online subsystem :Context_4
-[2020.12.14-14.46.51:907][396]LogTemp: Repeating last play command: Selected Viewport
-[2020.12.14-14.46.51:975][396]LogFMOD: Creating runtime Studio System
-[2020.12.14-14.46.51:982][396]LogFMOD: Default sample rate = 48000
-[2020.12.14-14.46.51:982][396]LogFMOD: System sample rate = 16000
-[2020.12.14-14.46.52:011][396]LogFMOD: Loading Banks
-[2020.12.14-14.46.52:011][396]LogFMOD: Loading bank: ../../../../../../Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Content/FMOD/Desktop/Ambiance.bank
-[2020.12.14-14.46.52:011][396]LogFMOD: Loading bank: ../../../../../../Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Content/FMOD/Desktop/FX.bank
-[2020.12.14-14.46.52:011][396]LogFMOD: Loading bank: ../../../../../../Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Content/FMOD/Desktop/Music.bank
-[2020.12.14-14.46.52:043][396]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.12.14-14.46.52:043][396]PIE: New page: PIE session: Beta_whitebox (14 dec. 2020 16:46:52)
-[2020.12.14-14.46.52:043][396]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Beta_whitebox
-[2020.12.14-14.46.52:309][396]LogPlayLevel: PIE: StaticDuplicateObject took: (0.265335s)
-[2020.12.14-14.46.52:310][396]LogAIModule: Creating AISystem for world Beta_whitebox
-[2020.12.14-14.46.52:311][396]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002A4838BE400), frame # 2396
-[2020.12.14-14.46.52:311][396]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002A4BB97FB00), frame # 2396
-[2020.12.14-14.46.52:313][396]LogPlayLevel: PIE: World Init took: (0.003333s)
-[2020.12.14-14.46.52:313][396]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Beta_whitebox.Beta_whitebox to /Game/Maps/UEDPIE_0_Beta_whitebox.Beta_whitebox (0.269454s)
-[2020.12.14-14.46.52:384][396]LogUObjectHash: Compacting FUObjectHashTables data took   3.49ms
-[2020.12.14-14.46.52:388][396]LogOnline: OSS: Creating online subsystem instance for: Steam
-[2020.12.14-14.46.52:388][396]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
-[2020.12.14-14.46.52:388][396]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.12.14-14.46.52:388][396]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.12.14-14.46.52:388][396]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.12.14-14.46.52:388][396]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.12.14-14.46.52:388][396]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.12.14-14.46.52:388][396]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.12.14-14.46.52:388][396]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.12.14-14.46.52:388][396]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.12.14-14.46.52:389][396]LogAudio: Display: Using built-in audio occlusion.
-[2020.12.14-14.46.52:389][396]LogAudioMixer: Display: Initializing audio mixer.
-[2020.12.14-14.46.52:392][396]LogAudioMixer: Warning: Did not find the channel type flags for audio device 'Headset (BLE_ATH-M50xBT Hands-Free AG Audio)'. Reverting to a default channel ordering.
-[2020.12.14-14.46.52:392][396]LogAudioMixer: Display: 0: FrontLeft
-[2020.12.14-14.46.52:392][396]LogAudioMixer: Display: 1: FrontRight
-[2020.12.14-14.46.52:405][396]LogAudioMixer: Display: Using Audio Device Headset (BLE_ATH-M50xBT Hands-Free AG Audio)
-[2020.12.14-14.46.52:405][396]LogAudioMixer: Display: Initializing Sound Submixes...
-[2020.12.14-14.46.52:405][396]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2020.12.14-14.46.52:405][396]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2020.12.14-14.46.52:406][396]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2020.12.14-14.46.52:424][396]LogInit: FAudioDevice initialized.
-[2020.12.14-14.46.52:434][396]LogLoad: Game class is 'BP_HideNSneakGameModeBase_C'
-[2020.12.14-14.46.52:533][396]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Beta_whitebox.Beta_whitebox up for play (max tick rate 0) at 2020.12.14-15.46.52
-[2020.12.14-14.46.52:536][396]LogWorld: Bringing up level for play took: 0.100481
-[2020.12.14-14.46.52:536][396]LogOnline: OSS: Creating online subsystem instance for: :Context_5
-[2020.12.14-14.46.52:550][396]LogScript: Warning: Accessed None trying to read property PlayerMaterial
-	BP_HideNSneakCPPCharacter_C /Game/Maps/UEDPIE_0_Beta_whitebox.Beta_whitebox:PersistentLevel.BP_HideNSneakCPPCharacter_2
-	Function /Game/Blueprints/BP_HideNSneakCPPCharacter.BP_HideNSneakCPPCharacter_C:ExecuteUbergraph_BP_HideNSneakCPPCharacter:183A
-[2020.12.14-14.46.52:550][396]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property PlayerMaterial". Blueprint:  BP_HideNSneakCPPCharacter Function:  Execute Ubergraph BP Hide NSneak CPPCharacter Graph:  EventGraph Node:  Set Vector Parameter Value
-[2020.12.14-14.46.52:551][396]PIE: Server logged in
-[2020.12.14-14.46.52:551][396]PIE: Play in editor total start time 0,628 seconds.
-[2020.12.14-14.47.18:069][242]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.12.14-14.47.18:070][242]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Beta_whitebox
-[2020.12.14-14.47.18:073][242]LogWorld: UWorld::CleanupWorld for Beta_whitebox, bSessionEnded=true, bCleanupResources=true
-[2020.12.14-14.47.18:109][242]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.12.14-14.47.18:119][242]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2020.12.14-14.47.18:129][242]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.12.14-14.47.18:199][242]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.12.14-14.47.18:228][242]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002A4BB97FB00), frame # 3242
-[2020.12.14-14.47.18:228][242]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002A4838BE400), frame # 3242
-[2020.12.14-14.47.18:242][242]LogUObjectHash: Compacting FUObjectHashTables data took   4.55ms
-[2020.12.14-14.47.18:375][243]LogPlayLevel: Display: Destroying online subsystem :Context_5
-[2020.12.14-14.48.07:479][ 37]LogSavePackage: Moving '../../../../../../Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Saved/BPW_Settings6BD5570E4A75FD4E3BC4AFB0FE524374.tmp' to '../../../../../../Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Content/Blueprints/Widgets/BPW_Settings.uasset'
-[2020.12.14-14.48.07:520][ 37]AssetCheck: New page: Asset Save: BPW_Settings
-[2020.12.14-14.48.07:521][ 37]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/Widgets/BPW_Settings.BPW_Settings
-[2020.12.14-14.48.08:583][ 85]BlueprintLog: New page: Compile BPW_Settings
-[2020.12.14-14.48.08:771][ 85]LogUObjectHash: Compacting FUObjectHashTables data took   6.59ms
-[2020.12.14-14.48.09:625][104]LogSavePackage: Moving '../../../../../../Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Saved/BPW_SettingsC42C4ACA4FD82BF28DF8AB88AA277B39.tmp' to '../../../../../../Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Content/Blueprints/Widgets/BPW_Settings.uasset'
-[2020.12.14-14.48.09:649][104]AssetCheck: New page: Asset Save: BPW_Settings
-[2020.12.14-14.48.09:649][104]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/Widgets/BPW_Settings.BPW_Settings
-[2020.12.14-14.48.18:555][426]LogUObjectHash: Compacting FUObjectHashTables data took   4.84ms
-[2020.12.14-14.48.21:959][522]LogSavePackage: Moving '../../../../../../Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Saved/BPW_Settings_Abdi3B5E162646A8B8743E4285BB73C01EB8.tmp' to '../../../../../../Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Content/Blueprints/Widgets/BPW_Settings_Abdi.uasset'
-[2020.12.14-14.48.21:990][522]AssetCheck: New page: Asset Save: BPW_Settings_Abdi
-[2020.12.14-14.48.21:990][522]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/Widgets/BPW_Settings_Abdi.BPW_Settings_Abdi
-[2020.12.14-14.48.25:157][641]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Blueprints/Widgets/BPW_Settings_Abdi.BPW_Settings_Abdi
-[2020.12.14-14.48.38:361][ 38]LogSlate: WidgetSwitcher ('None') active index changed to 1
-[2020.12.14-14.48.45:011][239]LogSlate: WidgetSwitcher ('None') active index changed to 0
-[2020.12.14-14.48.45:011][239]LogSlate: WidgetSwitcher ('None') active index changed to 1
-[2020.12.14-14.48.47:615][297]LogSlate: WidgetSwitcher ('None') active index changed to 1
-[2020.12.14-14.48.48:613][323]LogSlate: WidgetSwitcher ('None') active index changed to 0
-[2020.12.14-14.48.48:613][323]LogSlate: WidgetSwitcher ('None') active index changed to 1
-[2020.12.14-14.48.50:442][357]LogSlate: WidgetSwitcher ('None') active index changed to 1
-[2020.12.14-14.48.52:977][424]LogSlate: WidgetSwitcher ('None') active index changed to 1
-[2020.12.14-14.48.53:671][444]LogSlate: WidgetSwitcher ('None') active index changed to 0
-[2020.12.14-14.48.53:671][444]LogSlate: WidgetSwitcher ('None') active index changed to 1
-[2020.12.14-14.48.57:276][514]LogSlate: WidgetSwitcher ('None') active index changed to 1
-[2020.12.14-14.49.00:797][622]LogSlate: WidgetSwitcher ('None') active index changed to 0
-[2020.12.14-14.49.00:797][622]LogSlate: WidgetSwitcher ('None') active index changed to 1
-[2020.12.14-14.49.02:952][656]LogSlate: WidgetSwitcher ('None') active index changed to 1
-[2020.12.14-14.49.04:289][679]LogSlate: WidgetSwitcher ('None') active index changed to 1
-[2020.12.14-14.49.04:323][680]LogSlate: WidgetSwitcher ('None') active index changed to 0
-[2020.12.14-14.49.06:739][746]BlueprintLog: New page: Compile BPW_Settings_Abdi
-[2020.12.14-14.49.06:893][746]LogUObjectHash: Compacting FUObjectHashTables data took   6.58ms
-[2020.12.14-14.49.07:738][757]LogSavePackage: Moving '../../../../../../Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Saved/BPW_Settings_AbdiDC57FE5044D15DF106555FB30FE203D7.tmp' to '../../../../../../Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Content/Blueprints/Widgets/BPW_Settings_Abdi.uasset'
-[2020.12.14-14.49.07:769][757]AssetCheck: New page: Asset Save: BPW_Settings_Abdi
-[2020.12.14-14.49.07:769][757]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/Widgets/BPW_Settings_Abdi.BPW_Settings_Abdi
-[2020.12.14-14.49.08:630][776]LogSlate: Window 'BPW_Settings_Abdi' being destroyed
-[2020.12.14-14.49.08:688][776]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
-[2020.12.14-14.49.08:688][776]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.12.14-14.49.08:725][776]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
-[2020.12.14-14.49.08:725][776]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.12.14-14.49.13:434][958]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
-[2020.12.14-14.49.13:434][958]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.12.14-14.49.13:442][958]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
-[2020.12.14-14.49.13:442][958]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.12.14-15.37.57:445][782]LogTemp: Resetting audio stream to device id 
-[2020.12.14-15.37.57:474][782]LogAudioMixer: Warning: Did not find the channel type flags for audio device 'Headset (BLE_ATH-M50xBT Hands-Free AG Audio)'. Reverting to a default channel ordering.
-[2020.12.14-15.37.57:474][782]LogAudioMixer: Display: 0: FrontLeft
-[2020.12.14-15.37.57:474][782]LogAudioMixer: Display: 1: FrontRight
-[2020.12.14-15.51.11:823][804]LogAudioMixer: Warning: Audio device removed, falling back to other windows default device.
-[2020.12.14-15.51.11:823][804]LogAudioMixer: Warning: Audio device removed, falling back to other windows default device.
-[2020.12.14-15.51.11:824][804]LogAudioMixer: Warning: Audio device removed, falling back to other windows default device.
-[2020.12.14-15.51.11:824][804]LogAudioMixer: Warning: Audio device removed, falling back to other windows default device.
-[2020.12.14-15.51.11:824][804]LogFMOD: Error: e:\jk\workspace\2.1_UE4.25_Win64\core_api\platforms\win\src\fmod_output_wasapi.cpp(538) - GetCurrentPadding returned 0x88890004.  Device was unplugged!
+[2020.12.14-19.14.10:182][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.12.14-19.14.10:182][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.12.14-19.14.10:183][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Saved/Config/Windows/Engine.ini]
+[2020.12.14-19.14.10:183][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.12.14-19.14.10:183][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Saved/Config/Windows/Engine.ini]
+[2020.12.14-19.14.10:183][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Saved/Config/Windows/Engine.ini]
+[2020.12.14-19.14.10:183][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.12.14-19.14.10:183][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.12.14-19.14.10:183][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.12.14-19.14.10:183][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.12.14-19.14.10:183][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.12.14-19.14.10:183][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.12.14-19.14.10:183][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.12.14-19.14.10:183][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.12.14-19.14.10:183][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.12.14-19.14.10:183][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.12.14-19.14.10:183][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.12.14-19.14.10:183][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.12.14-19.14.10:183][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.12.14-19.14.10:183][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.12.14-19.14.10:183][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Saved/Config/Windows/Engine.ini]
+[2020.12.14-19.14.10:183][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.12.14-19.14.10:183][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.12.14-19.14.10:183][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.12.14-19.14.10:183][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.12.14-19.14.10:184][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.12.14-19.14.10:184][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.12.14-19.14.10:184][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.12.14-19.14.10:184][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.12.14-19.14.10:184][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.12.14-19.14.10:184][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.12.14-19.14.10:184][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.12.14-19.14.10:184][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.12.14-19.14.10:184][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.12.14-19.14.10:184][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Saved/Config/Windows/Engine.ini]
+[2020.12.14-19.14.10:184][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Saved/Config/Windows/Engine.ini]
+[2020.12.14-19.14.10:191][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.12.14-19.14.10:191][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.12.14-19.14.10:191][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.12.14-19.14.10:191][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.12.14-19.14.10:191][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.12.14-19.14.10:191][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.12.14-19.14.10:191][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.12.14-19.14.10:191][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.12.14-19.14.10:191][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.12.14-19.14.10:191][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.12.14-19.14.10:192][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.12.14-19.14.10:192][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.12.14-19.14.10:192][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.12.14-19.14.10:192][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.12.14-19.14.10:192][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.12.14-19.14.10:192][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.12.14-19.14.10:192][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.12.14-19.14.10:192][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.12.14-19.14.10:192][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.12.14-19.14.10:192][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.12.14-19.14.10:192][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.12.14-19.14.10:192][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.12.14-19.14.10:192][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.12.14-19.14.10:192][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.12.14-19.14.10:192][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.12.14-19.14.10:192][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.12.14-19.14.10:192][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.12.14-19.14.10:192][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.12.14-19.14.10:192][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.12.14-19.14.10:192][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.12.14-19.14.10:192][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.12.14-19.14.10:192][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.12.14-19.14.10:192][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.12.14-19.14.10:192][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.12.14-19.14.10:192][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.12.14-19.14.10:192][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.12.14-19.14.10:192][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.12.14-19.14.10:192][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.12.14-19.14.10:192][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.12.14-19.14.10:192][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.12.14-19.14.10:192][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.12.14-19.14.10:192][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.12.14-19.14.10:192][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.12.14-19.14.10:192][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.12.14-19.14.10:192][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.12.14-19.14.10:192][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.12.14-19.14.10:192][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.12.14-19.14.10:192][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.12.14-19.14.10:192][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.12.14-19.14.10:192][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.12.14-19.14.10:192][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.12.14-19.14.10:192][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.12.14-19.14.10:192][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.12.14-19.14.10:192][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.12.14-19.14.10:193][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.12.14-19.14.10:193][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.12.14-19.14.10:193][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.12.14-19.14.10:193][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.12.14-19.14.10:193][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.12.14-19.14.10:193][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.12.14-19.14.10:193][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.12.14-19.14.10:193][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.12.14-19.14.10:193][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.12.14-19.14.10:193][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.12.14-19.14.10:193][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.12.14-19.14.10:193][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.12.14-19.14.10:193][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.12.14-19.14.10:193][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.12.14-19.14.10:193][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.12.14-19.14.10:193][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.12.14-19.14.10:193][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.12.14-19.14.10:193][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.12.14-19.14.10:193][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.12.14-19.14.10:193][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.12.14-19.14.10:193][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.12.14-19.14.10:193][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.12.14-19.14.10:193][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.12.14-19.14.10:193][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.12.14-19.14.10:193][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.12.14-19.14.10:193][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.12.14-19.14.10:194][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.12.14-19.14.10:194][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.12.14-19.14.10:194][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.12.14-19.14.10:194][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.12.14-19.14.10:194][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.12.14-19.14.10:194][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.12.14-19.14.10:194][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.12.14-19.14.10:194][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.12.14-19.14.10:194][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.12.14-19.14.10:194][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.12.14-19.14.10:194][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.12.14-19.14.10:194][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.12.14-19.14.10:194][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.12.14-19.14.10:194][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.12.14-19.14.10:194][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.12.14-19.14.10:194][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.12.14-19.14.10:194][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.12.14-19.14.10:194][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.12.14-19.14.10:194][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.12.14-19.14.10:194][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.12.14-19.14.10:194][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.12.14-19.14.10:194][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.12.14-19.14.10:194][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.12.14-19.14.10:196][  0]LogInit: Selected Device Profile: [Windows]
+[2020.12.14-19.14.10:196][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.12.14-19.14.10:198][  0]LogHAL: Display: Platform has ~ 8 GB [8470978560 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.12.14-19.14.10:198][  0]LogInit: Going up to parent DeviceProfile []
+[2020.12.14-19.14.10:198][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.12.14-19.14.10:198][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.12.14-19.14.10:199][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.12.14-19.14.10:199][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.12.14-19.14.10:199][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.12.14-19.14.10:199][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.12.14-19.14.10:199][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.12.14-19.14.10:199][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.12.14-19.14.10:199][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.12.14-19.14.10:199][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.12.14-19.14.10:199][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.12.14-19.14.10:199][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.12.14-19.14.10:199][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.12.14-19.14.10:199][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.12.14-19.14.10:199][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.12.14-19.14.10:199][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.12.14-19.14.10:199][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.12.14-19.14.10:199][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.12.14-19.14.10:199][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.12.14-19.14.10:199][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.12.14-19.14.10:199][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.12.14-19.14.10:199][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.12.14-19.14.10:199][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.12.14-19.14.10:199][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.12.14-19.14.10:199][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.12.14-19.14.10:199][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.12.14-19.14.10:199][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.12.14-19.14.10:199][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.12.14-19.14.10:199][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.12.14-19.14.10:199][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.12.14-19.14.10:199][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.12.14-19.14.10:199][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.12.14-19.14.10:199][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.12.14-19.14.10:199][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.12.14-19.14.10:199][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.12.14-19.14.10:199][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.12.14-19.14.10:199][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.12.14-19.14.10:199][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.12.14-19.14.10:199][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.12.14-19.14.10:199][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.12.14-19.14.10:199][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.12.14-19.14.10:199][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.12.14-19.14.10:199][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.12.14-19.14.10:199][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.12.14-19.14.10:199][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.12.14-19.14.10:199][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.12.14-19.14.10:199][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.12.14-19.14.10:199][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.12.14-19.14.10:200][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.12.14-19.14.10:200][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.12.14-19.14.10:200][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.12.14-19.14.10:200][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.12.14-19.14.10:200][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.12.14-19.14.10:200][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.12.14-19.14.10:200][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.12.14-19.14.10:200][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.12.14-19.14.10:200][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.12.14-19.14.10:200][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.12.14-19.14.10:200][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.12.14-19.14.10:200][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.12.14-19.14.10:200][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.12.14-19.14.10:200][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.12.14-19.14.10:200][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.12.14-19.14.10:200][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.12.14-19.14.10:200][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.12.14-19.14.10:200][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.12.14-19.14.10:200][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.12.14-19.14.10:200][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.12.14-19.14.10:200][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.12.14-19.14.10:200][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.12.14-19.14.10:200][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.12.14-19.14.10:200][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.12.14-19.14.10:200][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.12.14-19.14.10:200][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.12.14-19.14.10:200][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.12.14-19.14.10:200][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.12.14-19.14.10:200][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.12.14-19.14.10:200][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.12.14-19.14.10:200][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.12.14-19.14.10:200][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.12.14-19.14.10:200][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.12.14-19.14.10:200][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.12.14-19.14.10:200][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.12.14-19.14.10:200][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.12.14-19.14.10:200][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.12.14-19.14.10:200][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.12.14-19.14.10:200][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.12.14-19.14.10:200][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.12.14-19.14.10:201][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.12.14-19.14.10:201][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.12.14-19.14.10:201][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.12.14-19.14.10:201][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.12.14-19.14.10:201][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.12.14-19.14.10:201][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.12.14-19.14.10:201][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.12.14-19.14.10:201][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Saved/Config/Windows/Scalability.ini]
+[2020.12.14-19.14.10:201][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.12.14-19.14.10:201][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.12.14-19.14.10:201][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.12.14-19.14.10:201][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.12.14-19.14.10:201][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.12.14-19.14.10:201][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.12.14-19.14.10:201][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.12.14-19.14.10:201][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.12.14-19.14.10:202][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.12.14-19.14.10:202][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.12.14-19.14.10:202][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.12.14-19.14.10:202][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Saved/Config/Windows/Engine.ini]
+[2020.12.14-19.14.10:204][  0]LogInit: Computer: LAPTOP-C5CLCG65
+[2020.12.14-19.14.10:204][  0]LogInit: User: Abdifatah
+[2020.12.14-19.14.10:204][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.12.14-19.14.10:204][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.12.14-19.14.10:205][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2020.12.14-19.14.10:205][  0]LogMemory: Platform Memory Stats for Windows
+[2020.12.14-19.14.10:205][  0]LogMemory: Process Physical Memory: 112.98 MB used, 112.98 MB peak
+[2020.12.14-19.14.10:205][  0]LogMemory: Process Virtual Memory: 104.00 MB used, 104.00 MB peak
+[2020.12.14-19.14.10:205][  0]LogMemory: Physical Memory: 7589.27 MB used,  489.29 MB free, 8078.55 MB total
+[2020.12.14-19.14.10:205][  0]LogMemory: Virtual Memory: 5114.03 MB used,  134212616.00 MB free, 134217728.00 MB total
+[2020.12.14-19.14.10:214][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.12.14-19.14.10:421][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.12.14-19.14.10:428][  0]LogInit: Using OS detected language (sv-SE).
+[2020.12.14-19.14.10:428][  0]LogInit: Using OS detected locale (sv-SE).
+[2020.12.14-19.14.10:489][  0]LogTextLocalizationManager: No localization for 'sv-SE' exists, so 'en' will be used for the language.
+[2020.12.14-19.14.10:864][  0]LogInit: Setting process to per monitor DPI aware
+[2020.12.14-19.14.10:948][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.12.14-19.14.10:948][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.12.14-19.14.11:596][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.12.14-19.14.11:596][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.12.14-19.14.11:596][  0]LogD3D11RHI: D3D11 adapters:
+[2020.12.14-19.14.11:924][  0]LogD3D11RHI:    0. 'NVIDIA GeForce MX150' (Feature Level 11_0)
+[2020.12.14-19.14.11:924][  0]LogD3D11RHI:       1983/0/4039 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.12.14-19.14.11:960][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 620' (Feature Level 11_0)
+[2020.12.14-19.14.11:960][  0]LogD3D11RHI:       128/0/4039 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2020.12.14-19.14.11:967][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.12.14-19.14.11:967][  0]LogD3D11RHI:       0/0/4039 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.12.14-19.14.11:967][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.12.14-19.14.12:019][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.12.14-19.14.12:020][  0]LogD3D11RHI:     GPU DeviceId: 0x1d10 (for the marketing name, search the web for "GPU Device Id")
+[2020.12.14-19.14.12:020][  0]LogWindows: EnumDisplayDevices:
+[2020.12.14-19.14.12:020][  0]LogWindows:    0. 'Intel(R) UHD Graphics 620' (P:1 D:1)
+[2020.12.14-19.14.12:020][  0]LogWindows:    1. 'Intel(R) UHD Graphics 620' (P:0 D:0)
+[2020.12.14-19.14.12:021][  0]LogWindows:    2. 'Intel(R) UHD Graphics 620' (P:0 D:0)
+[2020.12.14-19.14.12:021][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2020.12.14-19.14.12:021][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce MX150
+[2020.12.14-19.14.12:021][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2020.12.14-19.14.12:021][  0]LogD3D11RHI:      Driver Date: Unknown
+[2020.12.14-19.14.12:021][  0]LogRHI: Texture pool is 1388 MB (70% of 1983 MB)
+[2020.12.14-19.14.12:075][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.12.14-19.14.12:082][  0]LogD3D11RHI: [Aftermath] Enabled and primed
+[2020.12.14-19.14.12:083][  0]LogD3D11RHI: Async texture creation enabled
+[2020.12.14-19.14.12:083][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.12.14-19.14.12:155][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2020.12.14-19.14.12:838][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.12.14-19.14.12:871][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.12.14-19.14.12:872][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.12.14-19.14.12:872][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.12.14-19.14.12:872][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.12.14-19.14.12:872][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.12.14-19.14.12:872][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.12.14-19.14.12:872][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.12.14-19.14.12:872][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.12.14-19.14.12:872][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.12.14-19.14.12:872][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.12.14-19.14.12:909][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.12.14-19.14.12:909][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.12.14-19.14.12:925][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.12.14-19.14.12:940][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.12.14-19.14.12:953][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.12.14-19.14.12:970][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.12.14-19.14.12:987][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.12.14-19.14.13:003][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.12.14-19.14.13:022][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.12.14-19.14.13:061][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.12.14-19.14.13:061][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.12.14-19.14.13:082][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.12.14-19.14.13:082][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.12.14-19.14.13:097][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.12.14-19.14.13:115][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.12.14-19.14.13:129][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.12.14-19.14.13:147][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.12.14-19.14.13:147][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.12.14-19.14.13:177][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.12.14-19.14.13:384][  0]LogShaderCompilers: Guid format shader working directory is -25 characters bigger than the processId version (../../../../../../Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Intermediate/Shaders/WorkingDirectory/7348/).
+[2020.12.14-19.14.13:384][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Abdifatah/AppData/Local/Temp/UnrealShaderWorkingDir/753AA42D4E1581321DE62CB274147E83/'.
+[2020.12.14-19.14.13:387][  0]LogXGEController: Cleaning working directory: C:/Users/Abdifatah/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.12.14-19.14.13:387][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.12.14-19.14.13:387][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.12.14-19.14.13:387][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.12.14-19.14.14:670][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.12.14-19.14.14:897][  0]LogDerivedDataCache: Loaded boot cache 0.23s 76MB C:/Users/Abdifatah/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.12.14-19.14.14:897][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Abdifatah/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.12.14-19.14.14:897][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.12.14-19.14.14:897][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.12.14-19.14.14:898][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.12.14-19.14.14:898][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.12.14-19.14.14:913][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.12.14-19.14.14:913][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.12.14-19.14.14:913][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.12.14-19.14.14:915][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Abdifatah/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.12.14-19.14.14:915][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.12.14-19.14.14:915][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.12.14-19.14.14:987][  0]LogSlate: Using FreeType 2.10.0
+[2020.12.14-19.14.14:991][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.12.14-19.14.15:073][  0]LogAssetRegistry: FAssetRegistry took 0.0102 seconds to start up
+[2020.12.14-19.14.15:859][  0]LogInit: Selected Device Profile: [Windows]
+[2020.12.14-19.14.16:365][  0]LogLinker: Warning: Failed to read package file summary, the file "../../../../../../Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Content/Blueprints/Widgets/BPW_MenuHost_BASE_976.uasset" is too small (0 bytes, expected at least 32 bytes)
+[2020.12.14-19.14.16:366][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.12.14-19.14.16:366][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.12.14-19.14.16:366][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.12.14-19.14.16:366][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.12.14-19.14.16:367][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.12.14-19.14.16:449][  0]LogNetVersion: HideNSneakUnreal 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 3367979030)
+[2020.12.14-19.14.17:709][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000002113873E980), frame # 0
+[2020.12.14-19.14.17:711][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000211385ED1C0), frame # 0
+[2020.12.14-19.14.17:723][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000021138736800), frame # 0
+[2020.12.14-19.14.17:894][  0]LogPackageLocalizationCache: Processed 18 localized package path(s) for 1 prioritized culture(s) in 0.087144 seconds
+[2020.12.14-19.14.17:903][  0]LogUObjectArray: 15756 objects as part of root set at end of initial load.
+[2020.12.14-19.14.17:903][  0]LogUObjectAllocator: 3925280 out of 0 bytes used by permanent object pool.
+[2020.12.14-19.14.17:903][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.12.14-19.14.19:274][  0]LogFMOD: FFMODStudioModule startup
+[2020.12.14-19.14.19:274][  0]LogFMOD:  Lib path = '../../../../../../Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Plugins/fmodstudioplugin20106ue4.25win64(1)/FMODStudio/Binaries'
+[2020.12.14-19.14.19:274][  0]LogFMOD: FFMODStudioModule::LoadDll: Loading ../../../../../../Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Plugins/fmodstudioplugin20106ue4.25win64(1)/FMODStudio/Binaries/Win64/fmodL.dll
+[2020.12.14-19.14.19:290][  0]LogFMOD: FFMODStudioModule::LoadDll: Loading ../../../../../../Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Plugins/fmodstudioplugin20106ue4.25win64(1)/FMODStudio/Binaries/Win64/fmodstudioL.dll
+[2020.12.14-19.14.19:369][  0]LogFMOD: Loading strings bank: ../../../../../../Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Content/FMOD/Desktop/Master.strings.bank
+[2020.12.14-19.14.19:371][  0]LogFMOD: Constructing asset: /Game/FMOD/Buses/Master/Music
+[2020.12.14-19.14.19:378][  0]LogFMOD: Warning: 'Industry Ambience' cannot be used as a UE4 asset name. Name may not contain the following characters:  . Using 'Industry_Ambience' instead.
+[2020.12.14-19.14.19:378][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/Ambiance/Industry_Ambience
+[2020.12.14-19.14.19:378][  0]LogFMOD: Warning: '/Game/FMOD/Events/Character Events/Seeker/SeekerFootsteps' cannot be used as a UE4 asset path. Name may not contain the following characters:  . Using '/Game/FMOD/Events/Character_Events/Seeker/SeekerFootsteps' instead.
+[2020.12.14-19.14.19:378][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/Character_Events/Seeker/SeekerFootsteps
+[2020.12.14-19.14.19:378][  0]LogFMOD: Constructing asset: /Game/FMOD/Buses/Master/SFX
+[2020.12.14-19.14.19:378][  0]LogFMOD: Warning: 'Elevator Button' cannot be used as a UE4 asset name. Name may not contain the following characters:  . Using 'Elevator_Button' instead.
+[2020.12.14-19.14.19:378][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/Dynamics/Elevator/Elevator_Button
+[2020.12.14-19.14.19:378][  0]LogFMOD: Constructing asset: /Game/FMOD/Buses/Master
+[2020.12.14-19.14.19:378][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/Themes/MainTheme
+[2020.12.14-19.14.19:378][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/Dynamics/Doors/TestSteam
+[2020.12.14-19.14.19:378][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/Dynamics/Doors/Closing
+[2020.12.14-19.14.19:378][  0]LogFMOD: Warning: '/Game/FMOD/Events/Character Events/Seeker/Catch' cannot be used as a UE4 asset path. Name may not contain the following characters:  . Using '/Game/FMOD/Events/Character_Events/Seeker/Catch' instead.
+[2020.12.14-19.14.19:378][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/Character_Events/Seeker/Catch
+[2020.12.14-19.14.19:378][  0]LogFMOD: Warning: 'Pickup the pickup' cannot be used as a UE4 asset name. Name may not contain the following characters:  . Using 'Pickup_the_pickup' instead.
+[2020.12.14-19.14.19:378][  0]LogFMOD: Warning: '/Game/FMOD/Events/Character Events/Pickup Sounds/Pickup_the_pickup' cannot be used as a UE4 asset path. Name may not contain the following characters:  . Using '/Game/FMOD/Events/Character_Events/Pickup_Sounds/Pickup_the_pickup' instead.
+[2020.12.14-19.14.19:378][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/Character_Events/Pickup_Sounds/Pickup_the_pickup
+[2020.12.14-19.14.19:378][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/Themes/Backgroundmusic
+[2020.12.14-19.14.19:378][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/Dynamics/ConveyorBelt
+[2020.12.14-19.14.19:379][  0]LogFMOD: Warning: '/Game/FMOD/Events/Character Events/RobotSounds' cannot be used as a UE4 asset path. Name may not contain the following characters:  . Using '/Game/FMOD/Events/Character_Events/RobotSounds' instead.
+[2020.12.14-19.14.19:379][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/Character_Events/RobotSounds
+[2020.12.14-19.14.19:379][  0]LogFMOD: Constructing asset: /Game/FMOD/Banks/FX
+[2020.12.14-19.14.19:379][  0]LogFMOD: Warning: '/Game/FMOD/Events/Character Events/Seeker/Tagging/ConvertSound' cannot be used as a UE4 asset path. Name may not contain the following characters:  . Using '/Game/FMOD/Events/Character_Events/Seeker/Tagging/ConvertSound' instead.
+[2020.12.14-19.14.19:379][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/Character_Events/Seeker/Tagging/ConvertSound
+[2020.12.14-19.14.19:379][  0]LogFMOD: Constructing asset: /Game/FMOD/Buses/Reverb
+[2020.12.14-19.14.19:379][  0]LogFMOD: Warning: '/Game/FMOD/Events/Character Events/Seeker/Tracker' cannot be used as a UE4 asset path. Name may not contain the following characters:  . Using '/Game/FMOD/Events/Character_Events/Seeker/Tracker' instead.
+[2020.12.14-19.14.19:379][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/Character_Events/Seeker/Tracker
+[2020.12.14-19.14.19:379][  0]LogFMOD: Warning: 'Locking sound' cannot be used as a UE4 asset name. Name may not contain the following characters:  . Using 'Locking_sound' instead.
+[2020.12.14-19.14.19:379][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/Dynamics/Doors/Locking_sound
+[2020.12.14-19.14.19:379][  0]LogFMOD: Constructing asset: /Game/FMOD/Buses/Master/Ambiance
+[2020.12.14-19.14.19:379][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/GameState/GameWinner
+[2020.12.14-19.14.19:379][  0]LogFMOD: Warning: 'Activate Decoy' cannot be used as a UE4 asset name. Name may not contain the following characters:  . Using 'Activate_Decoy' instead.
+[2020.12.14-19.14.19:379][  0]LogFMOD: Warning: '/Game/FMOD/Events/Character Events/Hider/Decoy Sounds/Activate_Decoy' cannot be used as a UE4 asset path. Name may not contain the following characters:  . Using '/Game/FMOD/Events/Character_Events/Hider/Decoy_Sounds/Activate_Decoy' instead.
+[2020.12.14-19.14.19:379][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/Character_Events/Hider/Decoy_Sounds/Activate_Decoy
+[2020.12.14-19.14.19:379][  0]LogFMOD: Warning: 'Using pickup' cannot be used as a UE4 asset name. Name may not contain the following characters:  . Using 'Using_pickup' instead.
+[2020.12.14-19.14.19:379][  0]LogFMOD: Warning: '/Game/FMOD/Events/Character Events/Pickup Sounds/Using_pickup' cannot be used as a UE4 asset path. Name may not contain the following characters:  . Using '/Game/FMOD/Events/Character_Events/Pickup_Sounds/Using_pickup' instead.
+[2020.12.14-19.14.19:379][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/Character_Events/Pickup_Sounds/Using_pickup
+[2020.12.14-19.14.19:379][  0]LogFMOD: Constructing asset: /Game/FMOD/Banks/Music
+[2020.12.14-19.14.19:379][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/Themes/SeekerCountdown
+[2020.12.14-19.14.19:379][  0]LogFMOD: Warning: '/Game/FMOD/Events/Character Events/Seeker/SeekerJump' cannot be used as a UE4 asset path. Name may not contain the following characters:  . Using '/Game/FMOD/Events/Character_Events/Seeker/SeekerJump' instead.
+[2020.12.14-19.14.19:379][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/Character_Events/Seeker/SeekerJump
+[2020.12.14-19.14.19:379][  0]LogFMOD: Constructing asset: /Game/FMOD/Banks/Master
+[2020.12.14-19.14.19:380][  0]LogFMOD: Constructing asset: /Game/FMOD/Banks/Ambiance
+[2020.12.14-19.14.19:380][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/Dynamics/Doors/Open
+[2020.12.14-19.14.19:380][  0]LogFMOD: Warning: 'Decoy Success' cannot be used as a UE4 asset name. Name may not contain the following characters:  . Using 'Decoy_Success' instead.
+[2020.12.14-19.14.19:380][  0]LogFMOD: Warning: '/Game/FMOD/Events/Character Events/Hider/Decoy Sounds/Decoy_Success' cannot be used as a UE4 asset path. Name may not contain the following characters:  . Using '/Game/FMOD/Events/Character_Events/Hider/Decoy_Sounds/Decoy_Success' instead.
+[2020.12.14-19.14.19:380][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/Character_Events/Hider/Decoy_Sounds/Decoy_Success
+[2020.12.14-19.14.19:380][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/Dynamics/SteamVents
+[2020.12.14-19.14.19:390][  0]LogFMOD: Default sample rate = 48000
+[2020.12.14-19.14.19:390][  0]LogFMOD: System sample rate = 16000
+[2020.12.14-19.14.19:414][  0]LogFMOD: Default sample rate = 48000
+[2020.12.14-19.14.19:414][  0]LogFMOD: System sample rate = 16000
+[2020.12.14-19.14.20:040][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.12.14-19.14.20:055][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.12.14-19.14.20:150][  0]LogSteamShared: Display: Loading Steam SDK 1.47
+[2020.12.14-19.14.20:155][  0]LogSteamShared: Steam SDK Loaded!
+[2020.12.14-19.14.20:374][  0]SourceControl: Source control is disabled
+[2020.12.14-19.14.20:375][  0]SourceControl: Source control is disabled
+[2020.12.14-19.14.20:390][  0]SourceControl: Source control is disabled
+[2020.12.14-19.14.20:400][  0]SourceControl: Source control is disabled
+[2020.12.14-19.14.20:421][  0]SourceControl: Source control is disabled
+[2020.12.14-19.14.21:243][  0]LogFMOD: FFMODStudioEditorModule startup
+[2020.12.14-19.14.21:808][  0]LogOnline: Oculus: Oculus Startup!
+[2020.12.14-19.14.21:843][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.12.14-19.14.21:910][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.12.14-19.14.21:910][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.12.14-19.14.22:443][  0]LogEngine: Initializing Engine...
+[2020.12.14-19.14.22:451][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.12.14-19.14.22:458][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.002 s
+[2020.12.14-19.14.22:947][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.12.14-19.14.23:122][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.12.14-19.14.23:122][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002113EAB1A00), frame # 0
+[2020.12.14-19.14.23:122][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002113EAD2700), frame # 0
+[2020.12.14-19.14.23:162][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.12.14-19.14.23:162][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.12.14-19.14.23:162][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.12.14-19.14.23:162][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.12.14-19.14.23:162][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.12.14-19.14.23:162][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.12.14-19.14.23:162][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.12.14-19.14.23:163][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.12.14-19.14.23:167][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.12.14-19.14.23:167][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.12.14-19.14.23:195][  0]LogAudioMixer: Warning: Did not find the channel type flags for audio device 'Headset (BLE_ATH-M50xBT Hands-Free AG Audio)'. Reverting to a default channel ordering.
+[2020.12.14-19.14.23:195][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.12.14-19.14.23:195][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.12.14-19.14.23:249][  0]LogAudioMixer: Display: Using Audio Device Headset (BLE_ATH-M50xBT Hands-Free AG Audio)
+[2020.12.14-19.14.23:253][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.12.14-19.14.23:264][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.12.14-19.14.23:264][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.12.14-19.14.23:266][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.12.14-19.14.23:268][  0]LogInit: FAudioDevice initialized.
+[2020.12.14-19.14.23:273][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.12.14-19.14.23:553][  0]LogDerivedDataCache: Saved boot cache 0.27s 76MB C:/Users/Abdifatah/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.12.14-19.14.23:555][  0]LogInit: Texture streaming: Enabled
+[2020.12.14-19.14.23:638][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.12.14-19.14.23:639][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.12.14-19.14.23:656][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.12.14-19.14.23:831][  0]LogInit: Transaction tracking system initialized
+[2020.12.14-19.14.23:920][  0]BlueprintLog: New page: Editor Load
+[2020.12.14-19.14.24:233][  0]LocalizationService: Localization service is disabled
+[2020.12.14-19.14.24:984][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.12.14-19.14.24:985][  0]LogCook: Display: Mobile HDR setting 1
+[2020.12.14-19.14.25:553][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Content/' took 0.20s
+[2020.12.14-19.14.25:554][  0]SourceControl: Source control is disabled
+[2020.12.14-19.14.25:555][  0]LogUnrealEdMisc: Loading editor; pre map load, took 23.123
+[2020.12.14-19.14.25:557][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Content/Maps/Beta_whitebox.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.12.14-19.14.25:560][  0]LightingResults: New page: Lighting Build
+[2020.12.14-19.14.25:576][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.12.14-19.14.25:580][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.14-19.14.25:584][  0]MapCheck: New page: Map Check
+[2020.12.14-19.14.25:584][  0]LightingResults: New page: Lighting Build
+[2020.12.14-19.14.26:751][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002113EAB1A00), frame # 0
+[2020.12.14-19.14.26:751][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002113EAD2700), frame # 0
+[2020.12.14-19.14.26:756][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.86ms
+[2020.12.14-19.14.26:953][  0]LogLinker: Warning: While loading '../../../../../../Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Content/Art/3D/Character/Animations/BP/Hider_Anim_BP.uasset' failed to load '/Game/FMOD/Events/Character_Events/Hider/Footsteps': Can't find file.
+[2020.12.14-19.14.26:953][  0]LogLinker: Warning: While loading '../../../../../../Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Content/Art/3D/Character/Animations/BP/Hider_Anim_BP.uasset' failed to load '/Game/FMOD/Events/Character_Events/Hider/Footsteps': Can't find file.
+[2020.12.14-19.14.26:953][  0]LogLinker: Warning: While loading '../../../../../../Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Content/Art/3D/Character/Animations/BP/Hider_Anim_BP.uasset' failed to load '/Game/FMOD/Events/Character_Events/Hider/Footsteps': Can't find file.
+[2020.12.14-19.14.26:954][  0]LogLinker: Warning: While loading '../../../../../../Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Content/Art/3D/Character/Animations/BP/Hider_Anim_BP.uasset' failed to load '/Game/FMOD/Events/Character_Events/Hider/Footsteps': Can't find file.
+[2020.12.14-19.14.26:959][  0]LogLinker: Warning: While loading '../../../../../../Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Content/Blueprints/BP_HideNSneakCPPCharacter.uasset' failed to load '/Game/FMOD/Events/Character_Events/Hider/Footsteps': Can't find file.
+[2020.12.14-19.14.26:959][  0]LogLinker: Warning: While loading '../../../../../../Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Content/Blueprints/BP_HideNSneakCPPCharacter.uasset' failed to load '/Game/FMOD/Events/Character_Events/Hider/Footsteps': Can't find file.
+[2020.12.14-19.14.26:959][  0]LogLinker: Warning: While loading '../../../../../../Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Content/Blueprints/BP_HideNSneakCPPCharacter.uasset' failed to load '/Game/FMOD/Events/Character_Events/Hider/Footsteps': Can't find file.
+[2020.12.14-19.14.26:959][  0]LogLinker: Warning: While loading '../../../../../../Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Content/Blueprints/BP_HideNSneakCPPCharacter.uasset' failed to load '/Game/FMOD/Events/Character_Events/Hider/Footsteps': Can't find file.
+[2020.12.14-19.14.26:962][  0]LogLinker: Warning: While loading '../../../../../../Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Content/Blueprints/BP_HideNSneakCPPCharacter.uasset' failed to load '/Game/FMOD/Events/Character_Events/Hider/Footsteps': Can't find file.
+[2020.12.14-19.14.26:963][  0]LoadErrors: Failed to load /Game/FMOD/Events/Character_Events/Hider/Footsteps.Footsteps Referenced by K2Node_CallFunction_3
+[2020.12.14-19.14.26:963][  0]LogLinker: Warning: While loading '../../../../../../Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Content/Blueprints/BP_HideNSneakCPPCharacter.uasset' failed to load '/Game/FMOD/Events/Character_Events/Hider/Footsteps': Can't find file.
+[2020.12.14-19.14.26:963][  0]LoadErrors: Failed to load /Game/FMOD/Events/Character_Events/Hider/Footsteps.Footsteps Referenced by K2Node_CallFunction_3
+[2020.12.14-19.14.31:043][  0]LogAIModule: Creating AISystem for world Beta_whitebox
+[2020.12.14-19.14.31:043][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002114FCA2400), frame # 0
+[2020.12.14-19.14.31:043][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002114FC9BB00), frame # 0
+[2020.12.14-19.14.31:391][  0]LogPrimitiveComponent: Warning: CreateDynamicMaterialInstance on /Game/Maps/Beta_whitebox.Beta_whitebox:PersistentLevel.BP_HideNSneakCPPCharacter_2.CharacterMesh0: Material index 0 is invalid.
+[2020.12.14-19.14.31:404][  0]LogEditorServer: Finished looking for orphan Actors (0.001 secs)
+[2020.12.14-19.14.31:533][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2020.12.14-19.14.31:537][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.12.14-19.14.31:540][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1,148ms to complete.
+[2020.12.14-19.14.31:540][  0]LogFileHelpers: Loading map 'Beta_whitebox' took 5.984
+[2020.12.14-19.14.31:677][  0]LogUnrealEdMisc: Total Editor Startup Time, took 29.246
+[2020.12.14-19.14.31:978][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.14-19.14.31:991][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.14-19.14.32:003][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.14-19.14.32:015][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.14-19.14.32:060][  0]LogCollectionManager: Loaded 0 collections in 0.017396 seconds
+[2020.12.14-19.14.32:143][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Saved/Collections/' took 0.00s
+[2020.12.14-19.14.32:143][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Content/Developers/Abdifatah/Collections/' took 0.00s
+[2020.12.14-19.14.32:143][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Content/Collections/' took 0.00s
+[2020.12.14-19.14.32:143][  0]LogContentBrowser: Native class hierarchy populated in 0.0471 seconds. Added 3477 classes and 827 folders.
+[2020.12.14-19.14.32:166][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2020.12.14-19.14.32:614][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2020.12.14-19.14.32:637][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 2 classes and 0 folders.
+[2020.12.14-19.14.32:898][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2020.12.14-19.14.32:899][  0]LogLoad: (Engine Initialization) Total time: 30.47 seconds
+[2020.12.14-19.14.32:899][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.12.14-19.14.33:036][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.12.14-19.14.33:068][  0]LogSlate: Took 0.001454 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.12.14-19.14.33:076][  0]LogSlate: Took 0.001088 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.12.14-19.14.33:120][  1]LogFMOD: File has changed: ../../../../../../Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Content/FMOD/Desktop/Master.strings.bank
+[2020.12.14-19.14.33:249][  1]LogFMOD: Loading strings bank: ../../../../../../Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Content/FMOD/Desktop/Master.strings.bank
+[2020.12.14-19.14.33:254][  1]LogFMOD: Default sample rate = 48000
+[2020.12.14-19.14.33:254][  1]LogFMOD: System sample rate = 16000
+[2020.12.14-19.14.33:271][  1]LogFMOD: Loading bank: ../../../../../../Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Content/FMOD/Desktop/Ambiance.bank
+[2020.12.14-19.14.33:271][  1]LogFMOD: Loading bank: ../../../../../../Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Content/FMOD/Desktop/FX.bank
+[2020.12.14-19.14.33:271][  1]LogFMOD: Loading bank: ../../../../../../Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Content/FMOD/Desktop/Music.bank
+[2020.12.14-19.14.33:402][  1]LogFMOD: Default sample rate = 48000
+[2020.12.14-19.14.33:402][  1]LogFMOD: System sample rate = 16000
+[2020.12.14-19.14.33:412][  1]LogFMOD: Loading bank: ../../../../../../Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Content/FMOD/Desktop/Ambiance.bank
+[2020.12.14-19.14.33:412][  1]LogFMOD: Loading bank: ../../../../../../Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Content/FMOD/Desktop/FX.bank
+[2020.12.14-19.14.33:412][  1]LogFMOD: Loading bank: ../../../../../../Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Content/FMOD/Desktop/Music.bank
+[2020.12.14-19.14.33:642][  1]LogRenderer: Reallocating scene render targets to support 128x128 Format 10 NumSamples 1 (Frame:0).
+[2020.12.14-19.14.33:642][  1]LogSlate: Took 0.002203 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.12.14-19.14.35:321][  1]LogConsoleManager: Warning: Performance warning: Console object named 'r.ReflectionCaptureResolution' shows many (500) FindConsoleObject() calls (consider caching e.g. using static)
+[2020.12.14-19.14.36:531][  3]LogAssetRegistry: Asset discovery search completed in 21.4600 seconds
+[2020.12.14-19.14.36:556][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000012 seconds (updated 0 objects)
+[2020.12.14-19.16.06:983][356]LogSlate: Took 0.001439 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.12.14-19.16.07:585][356]LogRenderer: Reallocating scene render targets to support 748x300 Format 10 NumSamples 1 (Frame:1).
+[2020.12.14-19.16.07:585][356]LogSlate: Took 0.001608 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.12.14-19.16.11:283][389]LogRenderer: Reallocating scene render targets to support 896x364 Format 10 NumSamples 1 (Frame:27).
+[2020.12.14-19.16.38:566][912]LogSlate: Took 0.000199 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.12.14-19.16.38:618][912]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_HideNSneakCPPCharacter.BP_HideNSneakCPPCharacter
+[2020.12.14-19.16.39:331][912]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0091 seconds. Added 125 classes and 0 folders.
+[2020.12.14-19.16.41:549][912]LogSlate: Took 0.001280 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.12.14-19.16.42:165][913]LogSlate: Took 0.001446 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.12.14-19.16.48:815][219]LogLinker: Warning: While loading '../../../../../../Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Content/Blueprints/BP_HideNSneakCPPCharacter_Abdi.uasset' failed to load '/Game/Blueprints/UI/PlayAgainButton': Can't find file.
+[2020.12.14-19.16.48:816][219]LogLinker: Warning: While loading '../../../../../../Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Content/Blueprints/BP_HideNSneakCPPCharacter_Abdi.uasset' failed to load '/Game/Blueprints/UI/PlayAgainButton': Can't find file.
+[2020.12.14-19.16.48:891][219]LogLinker: Warning: While loading '../../../../../../Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Content/Blueprints/BP_HideNSneakCPPCharacter_Abdi.uasset' failed to load '/Game/Blueprints/UI/PlayAgainButton': Can't find file.
+[2020.12.14-19.16.48:891][219]LogLinker: Warning: While loading '../../../../../../Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Content/Blueprints/BP_HideNSneakCPPCharacter_Abdi.uasset' failed to load '/Game/Blueprints/UI/PlayAgainButton': Can't find file.
+[2020.12.14-19.16.48:901][219]LogLinker: Warning: Failed to load '/Game/Blueprints/UI/PlayAgainButton': Can't find file.
+[2020.12.14-19.16.48:901][219]LogLinker: Warning: Failed to load '/Game/Blueprints/UI/PlayAgainButton': Can't find file.
+[2020.12.14-19.16.48:901][219]LogLinker: Warning: Failed to load '/Game/Blueprints/UI/PlayAgainButton': Can't find file.
+[2020.12.14-19.16.48:901][219]LogLinker: Warning: Failed to load '/Game/Blueprints/UI/PlayAgainButton': Can't find file.
+[2020.12.14-19.16.48:902][219]LogLinker: Warning: Failed to load '/Game/Blueprints/UI/PlayAgainButton': Can't find file.
+[2020.12.14-19.16.48:902][219]LogLinker: Warning: Failed to load '/Game/Blueprints/UI/PlayAgainButton': Can't find file.
+[2020.12.14-19.16.48:908][219]LogLinker: Warning: While loading '../../../../../../Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Content/Blueprints/BP_HideNSneakCPPCharacter_Abdi.uasset' failed to load '/Game/Blueprints/UI/PlayAgainButton': Can't find file.
+[2020.12.14-19.16.48:909][219]LoadErrors: Failed to load /Game/Blueprints/UI/PlayAgainButton.PlayAgainButton_C Referenced by BP_HideNSneakCPPCharacter_Abdi
+[2020.12.14-19.16.48:909][219]LogLinker: Warning: While loading '../../../../../../Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Content/Blueprints/BP_HideNSneakCPPCharacter_Abdi.uasset' failed to load '/Game/Blueprints/UI/PlayAgainButton': Can't find file.
+[2020.12.14-19.16.48:919][219]LogLinker: Warning: While loading '../../../../../../Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Content/Blueprints/BP_HideNSneakCPPCharacter_Abdi.uasset' failed to load '/Game/Blueprints/UI/PlayAgainButton': Can't find file.
+[2020.12.14-19.16.48:919][219]LoadErrors: Failed to load /Game/Blueprints/UI/PlayAgainButton.PlayAgainButton_C Referenced by K2Node_CreateWidget_2
+[2020.12.14-19.16.48:920][219]LogLinker: Warning: While loading '../../../../../../Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Content/Blueprints/BP_HideNSneakCPPCharacter_Abdi.uasset' failed to load '/Game/Blueprints/UI/PlayAgainButton': Can't find file.
+[2020.12.14-19.16.48:920][219]LogLinker: Warning: While loading '../../../../../../Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Content/Blueprints/BP_HideNSneakCPPCharacter_Abdi.uasset' failed to load '/Game/Blueprints/UI/PlayAgainButton': Can't find file.
+[2020.12.14-19.16.48:920][219]LogLinker: Warning: While loading '../../../../../../Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Content/Blueprints/BP_HideNSneakCPPCharacter_Abdi.uasset' failed to load '/Game/Blueprints/UI/PlayAgainButton': Can't find file.
+[2020.12.14-19.16.48:920][219]LogLinker: Warning: While loading '../../../../../../Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Content/Blueprints/BP_HideNSneakCPPCharacter_Abdi.uasset' failed to load '/Game/Blueprints/UI/PlayAgainButton': Can't find file.
+[2020.12.14-19.16.48:920][219]LoadErrors: Failed to load /Game/Blueprints/UI/PlayAgainButton.PlayAgainButton_C Referenced by K2Node_VariableSet_12
+[2020.12.14-19.16.48:921][219]LogLinker: Warning: While loading '../../../../../../Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Content/Blueprints/BP_HideNSneakCPPCharacter_Abdi.uasset' failed to load '/Game/Blueprints/UI/PlayAgainButton': Can't find file.
+[2020.12.14-19.16.48:921][219]LogLinker: Warning: While loading '../../../../../../Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Content/Blueprints/BP_HideNSneakCPPCharacter_Abdi.uasset' failed to load '/Game/Blueprints/UI/PlayAgainButton': Can't find file.
+[2020.12.14-19.16.48:921][219]LogLinker: Warning: While loading '../../../../../../Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Content/Blueprints/BP_HideNSneakCPPCharacter_Abdi.uasset' failed to load '/Game/Blueprints/UI/PlayAgainButton': Can't find file.
+[2020.12.14-19.16.48:971][219]LogBlueprint: Error: [Compiler BP_HideNSneakCPPCharacter_Abdi] Spawn node  Create Widget  must have a class specified.
+[2020.12.14-19.16.48:976][219]LogBlueprint: Error: [Compiler BP_HideNSneakCPPCharacter_Abdi] In use pin  This Players Play Again Button  no longer exists on node  Set . Please refresh node or break links to remove pin.
+[2020.12.14-19.16.48:976][219]LogBlueprint: Error: [Compiler BP_HideNSneakCPPCharacter_Abdi] In use pin  <Unnamed>  no longer exists on node  Set . Please refresh node or break links to remove pin.
+[2020.12.14-19.16.49:081][219]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_HideNSneakCPPCharacter_Abdi.BP_HideNSneakCPPCharacter_Abdi
+[2020.12.14-19.16.54:414][379]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2020.12.14-19.16.54:417][379]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.14-19.16.55:563][436]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.12.14-19.16.55:563][436]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2020.12.14-19.16.55:563][436]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.14-19.18.20:227][866]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{27c644b8-93bf-4d3e-966f-b425affb2b7d}.
+[2020.12.14-19.18.20:239][866]LogTemp: Resetting audio stream to device id 
+[2020.12.14-19.18.20:590][866]LogFMOD: Error: e:\jk\workspace\2.1_UE4.25_Win64\core_api\platforms\win\src\fmod_output_wasapi.cpp(538) - GetCurrentPadding returned 0x88890004.  Device was unplugged!
 
-[2020.12.14-15.51.12:256][804]LogFMOD: Error: e:\jk\workspace\2.1_UE4.25_Win64\core_api\platforms\win\src\fmod_output_wasapi.cpp(538) - GetCurrentPadding returned 0x88890004.  Device was unplugged!
+[2020.12.14-19.18.20:590][866]LogFMOD: Error: e:\jk\workspace\2.1_UE4.25_Win64\core_api\platforms\win\src\fmod_output_wasapi.cpp(538) - GetCurrentPadding returned 0x88890004.  Device was unplugged!
 
-[2020.12.14-15.51.12:256][804]LogFMOD: Error: e:\jk\workspace\2.1_UE4.25_Win64\core_api\platforms\win\src\fmod_output_wasapi.cpp(538) - GetCurrentPadding returned 0x88890004.  Device was unplugged!
+[2020.12.14-19.18.20:590][866]LogAudioMixer: Display: 0: FrontLeft
+[2020.12.14-19.18.20:590][866]LogAudioMixer: Display: 1: FrontRight
+[2020.12.14-19.18.21:065][869]LogFMOD: Error: e:\jk\workspace\2.1_UE4.25_Win64\core_api\platforms\win\src\fmod_output_wasapi.cpp(538) - GetCurrentPadding returned 0x88890004.  Device was unplugged!
 
-[2020.12.14-15.51.12:256][804]LogFMOD: Error: e:\jk\workspace\2.1_UE4.25_Win64\core_api\platforms\win\src\fmod_output_wasapi.cpp(538) - GetCurrentPadding returned 0x88890004.  Device was unplugged!
+[2020.12.14-19.18.21:065][869]LogFMOD: Error: e:\jk\workspace\2.1_UE4.25_Win64\core_api\platforms\win\src\fmod_output_wasapi.cpp(538) - GetCurrentPadding returned 0x88890004.  Device was unplugged!
 
-[2020.12.14-15.51.12:256][804]LogFMOD: Error: e:\jk\workspace\2.1_UE4.25_Win64\core_api\platforms\win\src\fmod_output_wasapi.cpp(538) - GetCurrentPadding returned 0x88890004.  Device was unplugged!
-
-[2020.12.14-15.51.12:334][804]LogFMOD: Error: e:\jk\workspace\2.1_UE4.25_Win64\core_api\platforms\win\src\fmod_output_wasapi.cpp(538) - GetCurrentPadding returned 0x88890004.  Device was unplugged!
-
-[2020.12.14-15.51.12:334][804]LogAudioMixer: Warning: Audio device removed, falling back to other windows default device.
-[2020.12.14-15.51.12:337][804]LogAudioMixer: Warning: Audio device removed, falling back to other windows default device.
-[2020.12.14-15.51.12:338][804]LogAudioMixer: Warning: Audio device removed, falling back to other windows default device.
-[2020.12.14-15.51.12:338][804]LogTemp: Resetting audio stream to device id 
-[2020.12.14-15.51.12:914][804]LogFMOD: Error: e:\jk\workspace\2.1_UE4.25_Win64\core_api\platforms\win\src\fmod_output_wasapi.cpp(538) - GetCurrentPadding returned 0x88890004.  Device was unplugged!
-
-[2020.12.14-15.51.12:914][804]LogFMOD: Error: e:\jk\workspace\2.1_UE4.25_Win64\core_api\platforms\win\src\fmod_output_wasapi.cpp(538) - GetCurrentPadding returned 0x88890004.  Device was unplugged!
-
-[2020.12.14-15.51.12:914][804]LogAudioMixer: Warning: Did not find the channel type flags for audio device 'Headset (BLE_ATH-M50xBT Hands-Free AG Audio)'. Reverting to a default channel ordering.
-[2020.12.14-15.51.12:914][804]LogAudioMixer: Display: 0: FrontLeft
-[2020.12.14-15.51.12:914][804]LogAudioMixer: Display: 1: FrontRight
-[2020.12.14-15.51.13:989][808]LogTemp: Resetting audio stream to device id 
-[2020.12.14-15.51.14:038][808]LogAudioMixer: Warning: Did not find the channel type flags for audio device 'Headset (BLE_ATH-M50xBT Hands-Free AG Audio)'. Reverting to a default channel ordering.
-[2020.12.14-15.51.14:038][808]LogAudioMixer: Display: 0: FrontLeft
-[2020.12.14-15.51.14:038][808]LogAudioMixer: Display: 1: FrontRight
-[2020.12.14-15.51.15:337][812]LogTemp: Resetting audio stream to device id 
-[2020.12.14-15.51.15:386][812]LogAudioMixer: Display: 0: FrontLeft
-[2020.12.14-15.51.15:386][812]LogAudioMixer: Display: 1: FrontRight
-[2020.12.14-15.51.17:197][813]LogFMOD: Error: e:\jk\workspace\2.1_UE4.25_Win64\core_api\platforms\win\src\fmod_output_wasapi.cpp(538) - GetCurrentPadding returned 0x88890004.  Device was unplugged!
-
-[2020.12.14-15.51.17:197][813]LogFMOD: Error: e:\jk\workspace\2.1_UE4.25_Win64\core_api\platforms\win\src\fmod_output_wasapi.cpp(538) - GetCurrentPadding returned 0x88890004.  Device was unplugged!
-
-[2020.12.14-15.51.17:197][813]LogFMOD: Error: e:\jk\workspace\2.1_UE4.25_Win64\core_api\platforms\win\src\fmod_output_wasapi.cpp(538) - GetCurrentPadding returned 0x88890004.  Device was unplugged!
-
-[2020.12.14-15.51.17:197][813]LogFMOD: Error: e:\jk\workspace\2.1_UE4.25_Win64\core_api\platforms\win\src\fmod_output_wasapi.cpp(538) - GetCurrentPadding returned 0x88890004.  Device was unplugged!
-
-[2020.12.14-15.51.17:197][813]LogFMOD: Error: e:\jk\workspace\2.1_UE4.25_Win64\core_api\platforms\win\src\fmod_output_wasapi.cpp(538) - GetCurrentPadding returned 0x88890004.  Device was unplugged!
-
-[2020.12.14-15.51.17:197][813]LogFMOD: Error: e:\jk\workspace\2.1_UE4.25_Win64\core_api\platforms\win\src\fmod_output_wasapi.cpp(538) - GetCurrentPadding returned 0x88890004.  Device was unplugged!
-
-[2020.12.14-15.51.17:197][813]LogFMOD: Error: e:\jk\workspace\2.1_UE4.25_Win64\core_api\platforms\win\src\fmod_output_wasapi.cpp(538) - GetCurrentPadding returned 0x88890004.  Device was unplugged!
-
-[2020.12.14-15.51.17:197][813]LogFMOD: Error: e:\jk\workspace\2.1_UE4.25_Win64\core_api\platforms\win\src\fmod_output_wasapi.cpp(538) - GetCurrentPadding returned 0x88890004.  Device was unplugged!
-
-[2020.12.14-15.51.17:197][813]LogFMOD: Error: e:\jk\workspace\2.1_UE4.25_Win64\core_api\platforms\win\src\fmod_output_wasapi.cpp(538) - GetCurrentPadding returned 0x88890004.  Device was unplugged!
-
-[2020.12.14-15.51.17:197][813]LogFMOD: Error: e:\jk\workspace\2.1_UE4.25_Win64\core_api\platforms\win\src\fmod_output_wasapi.cpp(538) - GetCurrentPadding returned 0x88890004.  Device was unplugged!
-
-[2020.12.14-15.51.17:197][813]LogFMOD: Error: e:\jk\workspace\2.1_UE4.25_Win64\core_api\platforms\win\src\fmod_output_wasapi.cpp(538) - GetCurrentPadding returned 0x88890004.  Device was unplugged!
-
-[2020.12.14-15.51.17:197][813]LogFMOD: Error: e:\jk\workspace\2.1_UE4.25_Win64\core_api\platforms\win\src\fmod_output_wasapi.cpp(538) - GetCurrentPadding returned 0x88890004.  Device was unplugged!
-
-[2020.12.14-15.51.17:198][813]LogFMOD: Error: e:\jk\workspace\2.1_UE4.25_Win64\core_api\platforms\win\src\fmod_output_wasapi.cpp(538) - GetCurrentPadding returned 0x88890004.  Device was unplugged!
-
-[2020.12.14-15.51.17:198][813]LogFMOD: Error: e:\jk\workspace\2.1_UE4.25_Win64\core_api\platforms\win\src\fmod_output_wasapi.cpp(538) - GetCurrentPadding returned 0x88890004.  Device was unplugged!
-
-[2020.12.14-15.51.17:198][813]LogFMOD: Error: e:\jk\workspace\2.1_UE4.25_Win64\core_api\platforms\win\src\fmod_output_wasapi.cpp(538) - GetCurrentPadding returned 0x88890004.  Device was unplugged!
-
-[2020.12.14-15.51.17:198][813]LogFMOD: Error: e:\jk\workspace\2.1_UE4.25_Win64\core_api\platforms\win\src\fmod_output_wasapi.cpp(538) - GetCurrentPadding returned 0x88890004.  Device was unplugged!
-
-[2020.12.14-15.51.17:198][813]LogFMOD: Error: e:\jk\workspace\2.1_UE4.25_Win64\core_api\platforms\win\src\fmod_output_wasapi.cpp(538) - GetCurrentPadding returned 0x88890004.  Device was unplugged!
-
-[2020.12.14-15.51.17:198][813]LogFMOD: Error: e:\jk\workspace\2.1_UE4.25_Win64\core_api\platforms\win\src\fmod_output_wasapi.cpp(538) - GetCurrentPadding returned 0x88890004.  Device was unplugged!
-
-[2020.12.14-15.51.17:209][813]LogTemp: Resetting audio stream to device id 
-[2020.12.14-15.51.17:340][813]LogFMOD: Error: e:\jk\workspace\2.1_UE4.25_Win64\core_api\platforms\win\src\fmod_output_wasapi.cpp(538) - GetCurrentPadding returned 0x88890004.  Device was unplugged!
-
-[2020.12.14-15.51.17:341][813]LogFMOD: Error: e:\jk\workspace\2.1_UE4.25_Win64\core_api\platforms\win\src\fmod_output_wasapi.cpp(538) - GetCurrentPadding returned 0x88890004.  Device was unplugged!
-
-[2020.12.14-15.51.17:341][813]LogAudioMixer: Display: 0: FrontLeft
-[2020.12.14-15.51.17:341][813]LogAudioMixer: Display: 1: FrontRight
+[2020.12.14-19.21.22:611][484]LogUObjectHash: Compacting FUObjectHashTables data took   8.80ms
+[2020.12.14-19.21.24:491][484]LogSlate: Window 'Delete Assets' being destroyed
+[2020.12.14-19.21.34:720][484]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Blueprints/BP_HideNSneakCPPCharacter_Abdi.BP_HideNSneakCPPCharacter_Abdi
+[2020.12.14-19.21.36:779][484]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2020.12.14-19.21.37:215][484]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
+[2020.12.14-19.21.37:239][484]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2020.12.14-19.21.37:261][484]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2020.12.14-19.21.48:105][848]LogUObjectHash: Compacting FUObjectHashTables data took   3.50ms
+[2020.12.14-19.21.51:151][953]LogSavePackage: Moving '../../../../../../Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Saved/BP_HideNSneakCPPCharacter_Abdi361AB56D44C81687E976AE9C1E28EF5E.tmp' to '../../../../../../Users/Abdifatah/Desktop/Projects/SU/Proj/HideNSneakUnreal/Content/Blueprints/BP_HideNSneakCPPCharacter_Abdi.uasset'
+[2020.12.14-19.21.51:176][953]AssetCheck: New page: Asset Save: BP_HideNSneakCPPCharacter_Abdi
+[2020.12.14-19.21.51:176][953]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_HideNSneakCPPCharacter_Abdi.BP_HideNSneakCPPCharacter_Abdi
+[2020.12.14-19.21.52:214][978]LogUObjectHash: Compacting FUObjectHashTables data took   3.35ms
+[2020.12.14-19.21.52:289][978]LogSlate: Window 'HideNSneakUnreal - Unreal Editor' being destroyed
+[2020.12.14-19.21.52:563][979]Cmd: QUIT_EDITOR
+[2020.12.14-19.21.52:563][979]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2020.12.14-19.21.52:583][979]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2020.12.14-19.21.52:665][979]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.12.14-19.21.52:680][979]LogExit: Preparing to exit.
+[2020.12.14-19.21.53:673][979]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.12.14-19.21.53:673][979]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.12.14-19.21.53:673][979]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.12.14-19.21.53:673][979]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.12.14-19.21.53:673][979]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.12.14-19.21.53:673][979]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.12.14-19.21.53:673][979]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.12.14-19.21.53:673][979]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2020.12.14-19.21.53:673][979]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.12.14-19.21.53:673][979]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.12.14-19.21.53:673][979]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.12.14-19.21.53:674][979]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.12.14-19.21.53:674][979]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.12.14-19.21.53:674][979]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.12.14-19.21.53:674][979]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.12.14-19.21.53:674][979]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2020.12.14-19.21.53:674][979]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.12.14-19.21.53:674][979]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.12.14-19.21.53:674][979]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.12.14-19.21.53:674][979]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.12.14-19.21.53:674][979]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.12.14-19.21.53:674][979]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.12.14-19.21.53:674][979]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.12.14-19.21.53:674][979]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2020.12.14-19.21.53:674][979]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.12.14-19.21.53:674][979]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.12.14-19.21.53:674][979]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.12.14-19.21.53:674][979]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.12.14-19.21.53:674][979]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.12.14-19.21.53:674][979]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.12.14-19.21.53:674][979]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.12.14-19.21.53:674][979]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2020.12.14-19.21.53:675][979]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.12.14-19.21.53:675][979]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.12.14-19.21.53:675][979]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.12.14-19.21.53:675][979]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.12.14-19.21.53:675][979]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.12.14-19.21.53:675][979]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.12.14-19.21.53:675][979]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.12.14-19.21.53:675][979]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2020.12.14-19.21.53:702][979]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2020.12.14-19.21.53:950][979]LogExit: Editor shut down
+[2020.12.14-19.21.53:956][979]LogExit: Transaction tracking system shut down
+[2020.12.14-19.21.54:481][979]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002114FCA2400), frame # 5979
+[2020.12.14-19.21.54:481][979]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002114FC9BB00), frame # 5979
+[2020.12.14-19.21.54:663][979]LogAISub: UAISubsystem::~UAISubsystem AISubsystem (000002113873E980), frame # 5979
+[2020.12.14-19.21.54:663][979]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000211385ED1C0), frame # 5979
+[2020.12.14-19.21.54:664][979]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000021138736800), frame # 5979
+[2020.12.14-19.21.54:894][979]LogExit: Object subsystem successfully closed.
+[2020.12.14-19.21.54:974][979]LogShaderCompilers: Display: Shaders left to compile 0
