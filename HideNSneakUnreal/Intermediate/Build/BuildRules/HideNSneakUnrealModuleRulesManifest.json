@@ -1,10 +1,10 @@
 {
 	"SourceFiles": [
-		"N:\\PROJ\\HideNSneakUnreal\\Source\\HideNSneakUnreal\\HideNSneakUnreal.Build.cs",
-		"N:\\PROJ\\HideNSneakUnreal\\Plugins\\FMODStudio\\Source\\FMODStudioEditor\\FMODStudioEditor.Build.cs",
-		"N:\\PROJ\\HideNSneakUnreal\\Plugins\\FMODStudio\\Source\\FMODStudio\\FMODStudio.Build.cs",
-		"N:\\PROJ\\HideNSneakUnreal\\Source\\HideNSneakUnreal.Target.cs",
-		"N:\\PROJ\\HideNSneakUnreal\\Source\\HideNSneakUnrealEditor.Target.cs"
+		"C:\\Users\\Abdifatah\\Desktop\\Projects\\SU\\Proj\\HideNSneakUnreal\\Source\\HideNSneakUnreal\\HideNSneakUnreal.Build.cs",
+		"C:\\Users\\Abdifatah\\Desktop\\Projects\\SU\\Proj\\HideNSneakUnreal\\Plugins\\fmodstudioplugin20106ue4.25win64\\FMODStudio\\Source\\FMODStudio\\FMODStudio.Build.cs",
+		"C:\\Users\\Abdifatah\\Desktop\\Projects\\SU\\Proj\\HideNSneakUnreal\\Plugins\\fmodstudioplugin20106ue4.25win64\\FMODStudio\\Source\\FMODStudioEditor\\FMODStudioEditor.Build.cs",
+		"C:\\Users\\Abdifatah\\Desktop\\Projects\\SU\\Proj\\HideNSneakUnreal\\Source\\HideNSneakUnreal.Target.cs",
+		"C:\\Users\\Abdifatah\\Desktop\\Projects\\SU\\Proj\\HideNSneakUnreal\\Source\\HideNSneakUnrealEditor.Target.cs"
 	],
 	"EngineVersion": "4.25.3"
 }
