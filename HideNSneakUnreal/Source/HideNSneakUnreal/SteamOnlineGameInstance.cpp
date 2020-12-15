@@ -12,7 +12,6 @@ USteamOnlineGameInstance::USteamOnlineGameInstance() {
 void USteamOnlineGameInstance::Init() {
 	Super::Init();
 	if (IOnlineSubsystem* Subsystem = IOnlineSubsystem::Get("Steam")) {
-		GEngine->AddOnScreenDebugMessage(-1, 7.0f, FColor::Red, FString("Subsystem name: " + Subsystem->GetSubsystemName().ToString()));
 		SessionInterface = Subsystem->GetSessionInterface();
 		if (SessionInterface.IsValid()) {
 			//Bind Delegates Here
