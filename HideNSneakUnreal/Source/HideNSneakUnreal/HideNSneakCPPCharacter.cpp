@@ -162,8 +162,6 @@ void AHideNSneakCPPCharacter::ServerAddScore_Implementation(AHideNSneakCPPCharac
 {
 	if (HasAuthority()) {
 		Scorer->Score += (ScoreToAdd * ScoreMultiplier);
-		//Score = Score + (ScoreToAdd * ScoreMultiplier);
-		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, FString::Printf(TEXT("Score: %i %i"), Scorer->Score, ScoreMultiplier));
 	}
 }
 
