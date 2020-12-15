@@ -149,7 +149,6 @@ void APickup::WasCollected_Implementation()
 {
 	SetActive(false);
 	PickedUpDelegate.Broadcast();
-	GEngine->AddOnScreenDebugMessage(-1, 7.0f, FColor::Red, FString("Fired Picked Up Event"));
 	if (HasAuthority()) {
 		OnRep_IsActive();
 	}
