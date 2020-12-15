@@ -82,7 +82,6 @@ void AHideNSneakCPPCharacter::BeginPlay()
 
 void AHideNSneakCPPCharacter::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const {
 	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
-
 	DOREPLIFETIME(AHideNSneakCPPCharacter, bIsSeeker);
 	DOREPLIFETIME(AHideNSneakCPPCharacter, IsDecoy);
 	DOREPLIFETIME(AHideNSneakCPPCharacter, Score);
@@ -120,11 +119,10 @@ void AHideNSneakCPPCharacter::SetupPlayerInputComponent(class UInputComponent* P
 
 void AHideNSneakCPPCharacter::ServerCaptureHider_Implementation(AHideNSneakCPPCharacter* Hider, AHideNSneakCPPCharacter* Tagger)
 {
-	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, FString::Printf(TEXT(" i found the RC")));
 	if (HasAuthority() && !Hider->IsSeeker()) {
 		Hider->WhoTaggedMe = Tagger;
 		Hider->BecomeSeeker();
-		
+
 		//if (Hider == this) {
 		//	// Fake the On rep notify for the listen server if it is a hider that gets captured,
 		//	// as the Server doesn't get on rep notify automatically
@@ -163,7 +161,7 @@ void AHideNSneakCPPCharacter::ClientAddScore_Implementation(AHideNSneakCPPCharac
 void AHideNSneakCPPCharacter::ServerAddScore_Implementation(AHideNSneakCPPCharacter* Scorer, int ScoreToAdd, int ScoreMultiplier)
 {
 	if (HasAuthority()) {
-		Scorer->Score +=  (ScoreToAdd * ScoreMultiplier);
+		Scorer->Score += (ScoreToAdd * ScoreMultiplier);
 		//Score = Score + (ScoreToAdd * ScoreMultiplier);
 		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, FString::Printf(TEXT("Score: %i %i"), Scorer->Score, ScoreMultiplier));
 	}
@@ -217,11 +215,11 @@ void AHideNSneakCPPCharacter::ConsumePowerUp_Implementation()
 void AHideNSneakCPPCharacter::ServerConsumePowerUp_Implementation()
 {
 	//if (HasAuthority()) {
-		if (CollectedPowerUp != NULL) {
-			CollectedPowerUp->ApplyPickUp();
-			ClearPowerUpIcon();
-			CollectedPowerUp = NULL;
-		}
+	if (CollectedPowerUp != NULL) {
+		CollectedPowerUp->ApplyPickUp();
+		ClearPowerUpIcon();
+		CollectedPowerUp = NULL;
+	}
 	//}
 }
 
@@ -253,7 +251,6 @@ void AHideNSneakCPPCharacter::BecomeSeeker_Implementation()
 void AHideNSneakCPPCharacter::ServerBecomeSeeker_Implementation()
 {
 	bIsSeeker = true;
-	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, FString::Printf(TEXT("Ive become seeker")));
 	if (CollectedPowerUp != NULL) {
 		delete CollectedPowerUp;
 		CollectedPowerUp = NULL;
@@ -275,14 +272,14 @@ void AHideNSneakCPPCharacter::ClientTaggerScore_Implementation(AHideNSneakCPPCha
 
 void AHideNSneakCPPCharacter::ServerTaggerScore_Implementation(AHideNSneakCPPCharacter* Tagger)
 {
-	if (RC != NULL && HasAuthority()) {
-		if (RC->Seekers.Num() <= 3) {
-			Tagger->ClientAddScore(Tagger, 5, RC->ScoreMultiplier);
-		}
-		else {
-			Tagger->ClientAddScore(Tagger, 2, RC->ScoreMultiplier);
-		}
-	}
+	//if (RC != NULL && HasAuthority()) {
+	//	if (RC->Seekers.Num() <= 3) {
+	//		Tagger->ClientAddScore(Tagger, 5, RC->ScoreMultiplier);
+	//	}
+	//	else {
+	//		Tagger->ClientAddScore(Tagger, 2, RC->ScoreMultiplier);
+	//	}
+	//}
 }
 
 //void AHideNSneakCPPCharacter::ClientAddTaggingScore_implementation(AHideNSneakCPPCharacter* Tagger)
@@ -405,11 +402,10 @@ void AHideNSneakCPPCharacter::MoveDecoy_Implementation()
 
 void AHideNSneakCPPCharacter::OnCompHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit)
 {
-		if (OtherActor->IsA(AHideNSneakCPPCharacter::StaticClass()) && OtherActor != this && !Cast<AHideNSneakCPPCharacter>(OtherActor)->bIsSeeker && bIsSeeker) {
-			targetTagMechanic = Cast<AHideNSneakCPPCharacter>(OtherActor);
-			ServerCaptureHider(targetTagMechanic, this);
-			GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, FString::Printf(TEXT("do i run more than once???")));
-		}
+	if (OtherActor->IsA(AHideNSneakCPPCharacter::StaticClass()) && OtherActor != this && !Cast<AHideNSneakCPPCharacter>(OtherActor)->bIsSeeker && bIsSeeker) {
+		targetTagMechanic = Cast<AHideNSneakCPPCharacter>(OtherActor);
+		ServerCaptureHider(targetTagMechanic, this);
+	}
 }
 
 void AHideNSneakCPPCharacter::OnOverlapBegin(UPrimitiveComponent* OverlapComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
