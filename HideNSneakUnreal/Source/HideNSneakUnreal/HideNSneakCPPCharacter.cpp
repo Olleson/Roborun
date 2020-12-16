@@ -317,7 +317,9 @@ void AHideNSneakCPPCharacter::UseDecoyAbility_Implementation() {
 		//GetWorldTimerManager().SetTimer(StealthTimerHandle, this, &AHideNSneakCPPCharacter::DecoyStealthOver_Implementation, StealthDuration, false); //local
 		if (Decoy != NULL) {
 			DecoyAvailible = false;
-			if (UWorld* const World = GetWorld()) {
+			//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, FString::Printf(TEXT("If decoy passed")));
+			if (GetWorld()) {
+				//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, FString::Printf(TEXT("If uworld passed")));
 				FActorSpawnParameters SpawnParameters; //local
 				SpawnParameters.Owner = this;  //local
 				SpawnParameters.Instigator = GetInstigator(); //local
@@ -352,14 +354,15 @@ void AHideNSneakCPPCharacter::ServerDecoyStealthOver_Implementation(AHideNSneakC
 void AHideNSneakCPPCharacter::ServerDecoyAbility_Implementation(AHideNSneakCPPCharacter* SpawnActor, FTransform DecoyTransform, FVector DecoyVelocity, float MovementValue)
 {
 	if (HasAuthority()) {
-
+		//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, FString::Printf(TEXT("If has authority server passed")));
 		//SpawnActor->SetActorHiddenInGame(true);
-		if (GetWorld() != NULL) {
+		if (GetWorld()) {
+			//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, FString::Printf(TEXT("If getworld server passed")));
 			FActorSpawnParameters SpawnParameters;
 			SpawnParameters.Owner = SpawnActor;
-			SpawnParameters.Instigator = GetInstigator();
 			AHideNSneakCPPCharacter* DecoyActor = GetWorld()->SpawnActor<AHideNSneakCPPCharacter>(Decoy, DecoyTransform, SpawnParameters);
 			if (DecoyActor) {
+				//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, FString::Printf(TEXT("If decoyactor server passed")));
 				DecoyActor->MoveIgnoreActorAdd(SpawnActor);
 				SpawnActor->MoveIgnoreActorAdd(DecoyActor);
 				DecoyActor->SetLifeSpan(DecoyDuration);
