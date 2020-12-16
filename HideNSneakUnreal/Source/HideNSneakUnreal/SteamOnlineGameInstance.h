@@ -53,6 +53,9 @@ public:
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 		bool IsNotInOnlineMode;
 
+	UFUNCTION(BlueprintCallable, Category = "Session Settings")
+		void SetAllowJoinInProgress(bool Permission);
+
 protected:
 
 	virtual void Init() override;
