@@ -9,6 +9,11 @@ USteamOnlineGameInstance::USteamOnlineGameInstance() {
 	MySessionName = "My Session";
 }
 
+void USteamOnlineGameInstance::SetAllowJoinInProgress(bool Permission)
+{
+	SessionInterface->GetSessionSettings(MySessionName)->bAllowJoinInProgress = Permission;
+}
+
 void USteamOnlineGameInstance::Init() {
 	Super::Init();
 	if (IOnlineSubsystem* Subsystem = IOnlineSubsystem::Get("Steam")) {
