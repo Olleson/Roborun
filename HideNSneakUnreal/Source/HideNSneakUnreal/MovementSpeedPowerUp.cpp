@@ -9,21 +9,20 @@ AMovementSpeedPowerUp::AMovementSpeedPowerUp(const FObjectInitializer& OI) : Sup
 }
 
 
-void AMovementSpeedPowerUp::ApplyPowerUp_Implementation(ACharacter* Character)
+void AMovementSpeedPowerUp::ApplyPowerUp(ACharacter* Character)
 {
-	APickup::ApplyPowerUp_Implementation(Character);
+	APickup::ApplyPowerUp(Character);
 	if (AHideNSneakCPPCharacter* Player = Cast<AHideNSneakCPPCharacter>(Character)) {
 		Player->GetCharacterMovement()->MaxWalkSpeed += MovementSpeedBoost;
-		GEngine->AddOnScreenDebugMessage(-1, 7.0f, FColor::Red, FString("Speed boost applied"));
 		PlayerQueue.push(Player);
 		FTimerHandle Handle;
 		GetWorld()->GetTimerManager().SetTimer(Handle, this, &AMovementSpeedPowerUp::UnApplyPowerUp, PowerUpDuration, false);
 	}
 }
 
-void AMovementSpeedPowerUp::UnApplyPowerUp_Implementation()
+void AMovementSpeedPowerUp::UnApplyPowerUp()
 {
-	APickup::UnApplyPowerUp_Implementation();
+	APickup::UnApplyPowerUp();
 	AHideNSneakCPPCharacter* Character = PlayerQueue.front();
 	PlayerQueue.pop();
 	Character->GetCharacterMovement()->MaxWalkSpeed = Character->GetBaseSpeed();

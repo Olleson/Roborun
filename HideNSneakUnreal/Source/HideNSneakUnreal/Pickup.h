@@ -11,7 +11,9 @@
 #include "HideNSneakCPPCharacter.h"
 #include "Pickup.generated.h"
 
-class AHideNSneakCPPCharacter;
+class AHideNSneakCPPCharacter; //Forward declaration
+
+DECLARE_DYNAMIC_MULTICAST_DELEGATE(FEventPickedUpDelegate);
 
 UCLASS()
 class HIDENSNEAKUNREAL_API APickup : public AActor
@@ -26,6 +28,9 @@ public:
 
 	/** Required Network Scaffolding */
 	void GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const override;
+
+	UPROPERTY(BlueprintAssignable)
+		FEventPickedUpDelegate PickedUpDelegate;
 
 	UFUNCTION(BlueprintPure, Category = "Pickup")
 		bool DoesSpawnParticles();
@@ -42,7 +47,7 @@ public:
 		// Returns the pickup icon
 		UTexture2D* GetPickupIcon();
 
-	UFUNCTION(BlueprintNativeEvent, Category = "Pickup")
+	UFUNCTION(Server, Reliable, Category = "Pickup")
 		// Function to call when the pickup is collected
 		void WasCollected();
 	virtual void WasCollected_Implementation();
@@ -51,24 +56,16 @@ public:
 		// Server side handling of being picked up
 		virtual void PickedUpBy(ACharacter* Character);
 
-	UFUNCTION(BlueprintCallable, Server, Reliable, Category = "Pickup")
+	UFUNCTION(BlueprintCallable, Category = "Pickup")
 		// Applies the powerup effect to the received character and adds them to the queue
-		void ApplyPowerUp(ACharacter* Character);
-	virtual void ApplyPowerUp_Implementation(ACharacter* Character);
+		virtual void ApplyPowerUp(ACharacter* Character);
 
-	UFUNCTION(BlueprintCallable, NetMulticast, Reliable, Category = "Pickup")
-		// Requests the server to replicate the power up on all clients
-		void ClientApplyPowerUp(ACharacter* Character);
-	void ClientApplyPowerUp_Implementation(ACharacter* Character);
+	UFUNCTION(BlueprintCallable, Category = "Pickup")
+		void DestroyParticleComponent();
 
-	UFUNCTION(BlueprintCallable, NetMulticast, Reliable, Category = "Pickup")
-		void ClientDestroyParticleComponent();
-	virtual void ClientDestroyParticleComponent_Implementation();
-
-	UFUNCTION(BlueprintCallable, Server, Reliable, Category = "Pickup")
+	UFUNCTION(BlueprintCallable, Category = "Pickup")
 		// Deactivates the powerup effect on the next player in the queue
-		void UnApplyPowerUp();
-	virtual void UnApplyPowerUp_Implementation();
+		virtual void UnApplyPowerUp();
 
 protected:
 	/** True when the pickup can be used, false when deactivated */

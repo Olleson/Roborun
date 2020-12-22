@@ -22,24 +22,23 @@ void ARoundController::BeginPlay() { Super::BeginPlay(); }
 void ARoundController::BPAddHiderToSeekerTeam(AHideNSneakCPPCharacter* tempChar) {
 	if (Hiders.Contains(tempChar)) {
 		int hidersRemaining = Hiders.Num();
-		int ScoreToGet = 0;
-		if (Seekers.Num() == 0) {
-			ScoreToGet = 0;
-		}
-		else if (hidersRemaining > MinimumAmountOfPlayers + 2) {
-			ScoreToGet = 0;
-		}
-		else if (hidersRemaining == MinimumAmountOfPlayers + 2) {
-			ScoreToGet = 3;
-		}
-		else if (hidersRemaining == MinimumAmountOfPlayers + 1) {
-			ScoreToGet = 6;
-		}
+		//int ScoreToGet = 0;
+		//if (hidersRemaining > MinimumAmountOfPlayers + 2) {
+		//	ScoreToGet = 0;
+		//}
+		//else if (hidersRemaining == MinimumAmountOfPlayers + 2) {
+		//	ScoreToGet = 3;
+		//	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, FString::Printf(TEXT("GIVE ME 3 POINTS")));
+		//}
+		//else if (hidersRemaining == MinimumAmountOfPlayers + 1) {
+		//	ScoreToGet = 6;
+		//	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, FString::Printf(TEXT("GIVE ME 6 POINTS")));
+		//}
 		Hiders.Remove(tempChar);
-		tempChar->AddScore(ScoreToGet, ScoreMultiplier);
-		for(int i = 0; i<Seekers.Num(); i++) {
-			Seekers[i]->AddScore(TagAssistPoint, ScoreMultiplier);
-		}
+	/*	tempChar->ClientAddScore(tempChar, ScoreToGet, ScoreMultiplier);*/
+		//for(int i = 0; i<Seekers.Num(); i++) {
+		//	Seekers[i]->ClientAddScore(tempChar, TagAssistPoint, ScoreMultiplier);
+		//}
 		Seekers.Add(tempChar);	
 	}
 }

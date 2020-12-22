@@ -4,7 +4,7 @@
 	"Configuration": "Development",
 	"TargetType": "Editor",
 	"Architecture": "",
-	"Project": "../../HideNSneakUnreal.uproject",
+	"Project": "../../RoboRun.uproject",
 	"Launch": "$(EngineDir)/Binaries/Win64/UE4Editor.exe",
 	"Version": 
 	{
@@ -2651,7 +2651,7 @@
 	],
 	"RuntimeDependencies": [
 		{
-			"Path": "$(ProjectDir)/HideNSneakUnreal.uproject",
+			"Path": "$(ProjectDir)/RoboRun.uproject",
 			"Type": "UFS"
 		},
 		{

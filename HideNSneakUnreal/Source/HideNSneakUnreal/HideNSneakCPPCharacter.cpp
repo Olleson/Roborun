@@ -82,9 +82,10 @@ void AHideNSneakCPPCharacter::BeginPlay()
 
 void AHideNSneakCPPCharacter::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const {
 	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
-
 	DOREPLIFETIME(AHideNSneakCPPCharacter, bIsSeeker);
 	DOREPLIFETIME(AHideNSneakCPPCharacter, IsDecoy);
+	DOREPLIFETIME(AHideNSneakCPPCharacter, Score);
+	DOREPLIFETIME(AHideNSneakCPPCharacter, WhoTaggedMe);
 }
 
 //////////////////////////////////////////////////////////////////////////
@@ -119,21 +120,14 @@ void AHideNSneakCPPCharacter::SetupPlayerInputComponent(class UInputComponent* P
 void AHideNSneakCPPCharacter::ServerCaptureHider_Implementation(AHideNSneakCPPCharacter* Hider, AHideNSneakCPPCharacter* Tagger)
 {
 	if (HasAuthority() && !Hider->IsSeeker()) {
-	if (RC != NULL) {
-		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, FString::Printf(TEXT(" i found the RC")));
-		if (RC->Seekers.Num() <= 3) {
-			Tagger->AddScore(5, RC->ScoreMultiplier);
-		}
-		else {
-			Tagger->AddScore(2, RC->ScoreMultiplier);
-		}
-	}		
+		Hider->WhoTaggedMe = Tagger;
 		Hider->BecomeSeeker();
-		if (Hider == this) {
-			// Fake the On rep notify for the listen server if it is a hider that gets captured,
-			// as the Server doesn't get on rep notify automatically
-			OnRep_IsSeeker();
-		}
+
+		//if (Hider == this) {
+		//	// Fake the On rep notify for the listen server if it is a hider that gets captured,
+		//	// as the Server doesn't get on rep notify automatically
+		//	OnRep_IsSeeker();
+		//}
 	}
 }
 
@@ -159,11 +153,16 @@ void AHideNSneakCPPCharacter::LookUpAtRate(float Rate)
 	AddControllerPitchInput(Rate * BaseLookUpRate * GetWorld()->GetDeltaSeconds());
 }
 
-int AHideNSneakCPPCharacter::AddScore(int ScoreToAdd, int ScoreMultiplier)
+void AHideNSneakCPPCharacter::ClientAddScore_Implementation(AHideNSneakCPPCharacter* Scorer, int ScoreToAdd, int ScoreMultiplier)
 {
-	Score = Score + (ScoreToAdd * ScoreMultiplier);
-	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, FString::Printf(TEXT("Score: %i %i"), Score, ScoreMultiplier));
-	return Score;
+	ServerAddScore(Scorer, ScoreToAdd, ScoreMultiplier);
+}
+
+void AHideNSneakCPPCharacter::ServerAddScore_Implementation(AHideNSneakCPPCharacter* Scorer, int ScoreToAdd, int ScoreMultiplier)
+{
+	if (HasAuthority()) {
+		Scorer->Score += (ScoreToAdd * ScoreMultiplier);
+	}
 }
 
 float AHideNSneakCPPCharacter::GetBaseSpeed()
@@ -182,10 +181,9 @@ float AHideNSneakCPPCharacter::GetBaseJumpHeight()
 
 void AHideNSneakCPPCharacter::CollectPickup(APickup* Pickup)
 {
-	if (CollectedPowerUp != NULL) {
+	/*if (CollectedPowerUp != nullptr) {
 		delete CollectedPowerUp;
-		CollectedPowerUp = NULL;
-	}
+	}*/
 	CollectedPowerUp = new PowerUpInventoryItem(this, Pickup);
 	UpdatePowerUpIcon();
 	Pickup->PickedUpBy(this);
@@ -193,27 +191,34 @@ void AHideNSneakCPPCharacter::CollectPickup(APickup* Pickup)
 
 UTexture2D* AHideNSneakCPPCharacter::GetCollectedPowerUpIcon()
 {
-	if (CollectedPowerUp != NULL) {
+	if (CollectedPowerUp != nullptr) {
 		return CollectedPowerUp->GetPickUpIcon();
 	}
 	return nullptr;
 }
 
+void AHideNSneakCPPCharacter::SetSilentFootsteps_Implementation(bool inSilentFootsteps)
+{
+}
+
+void AHideNSneakCPPCharacter::SetMeshVisibility_Implementation(bool inVisibility)
+{
+}
+
 void AHideNSneakCPPCharacter::ConsumePowerUp_Implementation()
 {
 	ServerConsumePowerUp();
-	ClearPowerUpIcon();
 }
 
 void AHideNSneakCPPCharacter::ServerConsumePowerUp_Implementation()
 {
-	if (HasAuthority()) {
-		if (CollectedPowerUp != NULL) {
-			CollectedPowerUp->ApplyPickUp();
-			delete CollectedPowerUp;
-			CollectedPowerUp = NULL;
-		}
+	//if (HasAuthority()) {
+	if (CollectedPowerUp != NULL) {
+		CollectedPowerUp->ApplyPickUp();
+		ClearPowerUpIcon();
+		CollectedPowerUp = NULL;
 	}
+	//}
 }
 
 void AHideNSneakCPPCharacter::BecomeHider_Implementation()
@@ -235,6 +240,7 @@ void AHideNSneakCPPCharacter::ServerBecomeHider_Implementation()
 void AHideNSneakCPPCharacter::BecomeSeeker_Implementation()
 {
 	if (!bIsSeeker) {
+		//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, FString::Printf(TEXT("Ive become seeker")));
 		ServerBecomeSeeker();
 		ClearPowerUpIcon();
 	}
@@ -257,6 +263,40 @@ void AHideNSneakCPPCharacter::ResetPlayersToHiders_Implementation()
 	ServerResetPlayersToHiders();
 }
 
+void AHideNSneakCPPCharacter::ClientTaggerScore_Implementation(AHideNSneakCPPCharacter* Tagger)
+{
+	ServerTaggerScore(Tagger);
+}
+
+void AHideNSneakCPPCharacter::ServerTaggerScore_Implementation(AHideNSneakCPPCharacter* Tagger)
+{
+	//if (RC != NULL && HasAuthority()) {
+	//	if (RC->Seekers.Num() <= 3) {
+	//		Tagger->ClientAddScore(Tagger, 5, RC->ScoreMultiplier);
+	//	}
+	//	else {
+	//		Tagger->ClientAddScore(Tagger, 2, RC->ScoreMultiplier);
+	//	}
+	//}
+}
+
+//void AHideNSneakCPPCharacter::ClientAddTaggingScore_implementation(AHideNSneakCPPCharacter* Tagger)
+//{
+//	ServerAddTaggingScore(Tagger);
+//}
+//
+//void AHideNSneakCPPCharacter::ServerAddTaggingScore_Implementation(AHideNSneakCPPCharacter* Tagger)
+//{
+//	if (RC != NULL && HasAuthority()) {
+//		if (RC->Seekers.Num() <= 3) {
+//			Tagger->ClientAddScore(Tagger, 5, RC->ScoreMultiplier);
+//		}
+//		else {
+//			Tagger->ClientAddScore(Tagger, 2, RC->ScoreMultiplier);
+//		}
+//	}
+//}
+
 void AHideNSneakCPPCharacter::ServerResetPlayersToHiders_Implementation()
 {
 	if (HasAuthority()) {
@@ -273,12 +313,13 @@ void AHideNSneakCPPCharacter::ServerResetPlayersToHiders_Implementation()
 //make character go stealth + spawn a decoy character
 void AHideNSneakCPPCharacter::UseDecoyAbility_Implementation() {
 	if (DecoyAvailible) {
-
 		//timer for delaying when the other part of the function is called
 		//GetWorldTimerManager().SetTimer(StealthTimerHandle, this, &AHideNSneakCPPCharacter::DecoyStealthOver_Implementation, StealthDuration, false); //local
 		if (Decoy != NULL) {
 			DecoyAvailible = false;
-			if (UWorld* const World = GetWorld()) {
+			//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, FString::Printf(TEXT("If decoy passed")));
+			if (GetWorld()) {
+				//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, FString::Printf(TEXT("If uworld passed")));
 				FActorSpawnParameters SpawnParameters; //local
 				SpawnParameters.Owner = this;  //local
 				SpawnParameters.Instigator = GetInstigator(); //local
@@ -313,14 +354,15 @@ void AHideNSneakCPPCharacter::ServerDecoyStealthOver_Implementation(AHideNSneakC
 void AHideNSneakCPPCharacter::ServerDecoyAbility_Implementation(AHideNSneakCPPCharacter* SpawnActor, FTransform DecoyTransform, FVector DecoyVelocity, float MovementValue)
 {
 	if (HasAuthority()) {
-
+		//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, FString::Printf(TEXT("If has authority server passed")));
 		//SpawnActor->SetActorHiddenInGame(true);
-		if (GetWorld() != NULL) {
+		if (GetWorld()) {
+			//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, FString::Printf(TEXT("If getworld server passed")));
 			FActorSpawnParameters SpawnParameters;
 			SpawnParameters.Owner = SpawnActor;
-			SpawnParameters.Instigator = GetInstigator();
 			AHideNSneakCPPCharacter* DecoyActor = GetWorld()->SpawnActor<AHideNSneakCPPCharacter>(Decoy, DecoyTransform, SpawnParameters);
 			if (DecoyActor) {
+				//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, FString::Printf(TEXT("If decoyactor server passed")));
 				DecoyActor->MoveIgnoreActorAdd(SpawnActor);
 				SpawnActor->MoveIgnoreActorAdd(DecoyActor);
 				DecoyActor->SetLifeSpan(DecoyDuration);
@@ -363,7 +405,7 @@ void AHideNSneakCPPCharacter::OnCompHit(UPrimitiveComponent* HitComp, AActor* Ot
 {
 	if (OtherActor->IsA(AHideNSneakCPPCharacter::StaticClass()) && OtherActor != this && !Cast<AHideNSneakCPPCharacter>(OtherActor)->bIsSeeker && bIsSeeker) {
 		targetTagMechanic = Cast<AHideNSneakCPPCharacter>(OtherActor);
-		ServerCaptureHider(targetTagMechanic,this);
+		ServerCaptureHider(targetTagMechanic, this);
 	}
 }
 

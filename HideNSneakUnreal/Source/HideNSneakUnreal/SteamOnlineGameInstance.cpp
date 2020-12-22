@@ -9,10 +9,14 @@ USteamOnlineGameInstance::USteamOnlineGameInstance() {
 	MySessionName = "My Session";
 }
 
+void USteamOnlineGameInstance::SetAllowJoinInProgress(bool Permission)
+{
+	SessionInterface->GetSessionSettings(MySessionName)->bAllowJoinInProgress = Permission;
+}
+
 void USteamOnlineGameInstance::Init() {
 	Super::Init();
 	if (IOnlineSubsystem* Subsystem = IOnlineSubsystem::Get("Steam")) {
-		GEngine->AddOnScreenDebugMessage(-1, 7.0f, FColor::Red, FString("Subsystem name: " + Subsystem->GetSubsystemName().ToString()));
 		SessionInterface = Subsystem->GetSessionInterface();
 		if (SessionInterface.IsValid()) {
 			//Bind Delegates Here
@@ -68,9 +72,7 @@ void USteamOnlineGameInstance::FindServers()
 
 void USteamOnlineGameInstance::JoinServer(int32 ServerIndex)
 {
-	GEngine->AddOnScreenDebugMessage(-1, 7.0f, FColor::Red, FString("Joining Server..."));
 	if (SessionSearch->SearchResults.Num() > ServerIndex && ServerIndex >= 0) {
-		GEngine->AddOnScreenDebugMessage(-1, 7.0f, FColor::Red, FString("Attempting to connect"));
 		FOnlineSessionSearchResult Result = SessionSearch->SearchResults[ServerIndex];
 		if (Result.IsValid()) {
 			GEngine->AddOnScreenDebugMessage(-1, 7.0f, FColor::Red, FString("Connecting..."));

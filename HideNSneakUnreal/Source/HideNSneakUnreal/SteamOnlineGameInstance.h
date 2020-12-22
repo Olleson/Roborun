@@ -37,19 +37,24 @@ public:
 		PlayerCountStr = FString(FString::FromInt(CurrentPlayers) + "/" + FString::FromInt(MaxPlayers));
 	}
 };
-
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FSteamServerDelegate, FSteamServerInfo, SteamServerListDelegate);
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FSteamServerSearchingDelegate, bool, SteamSearchingForServerDelegate);
 /**
- * 
+ *
  */
 UCLASS()
 class HIDENSNEAKUNREAL_API USteamOnlineGameInstance : public UGameInstance
 {
 	GENERATED_BODY()
-	
+
 public:
 	USteamOnlineGameInstance();
+
+	UPROPERTY(BlueprintReadWrite, EditAnywhere)
+		bool IsNotInOnlineMode;
+
+	UFUNCTION(BlueprintCallable, Category = "Session Settings")
+		void SetAllowJoinInProgress(bool Permission);
 
 protected:
 

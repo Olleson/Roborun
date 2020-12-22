@@ -95,14 +95,8 @@ void APickup::PickedUpBy(ACharacter* Character)
 	}
 }
 
-void APickup::ApplyPowerUp_Implementation(ACharacter* Character)
+void APickup::ApplyPowerUp(ACharacter* Character)
 {
-	
-}
-
-void APickup::ClientApplyPowerUp_Implementation(ACharacter* Character)
-{
-	GEngine->AddOnScreenDebugMessage(-1, 7.0f, FColor::Red, FString("Requesting Server to replicate power up activation"));
 	if (SpawnsParticles && IsValid(Particles)) {
 		UParticleSystemComponent* ParticlesComponent;
 		if (AttachParticlesToCharacter) {
@@ -112,30 +106,27 @@ void APickup::ClientApplyPowerUp_Implementation(ACharacter* Character)
 		{
 			ParticlesComponent = UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), Particles, Character->GetActorLocation(), Character->GetActorRotation(), true);
 		}
+		ParticlesComponent->bAutoDestroy = false;
 		ParticleComponents.push(ParticlesComponent);
 	}
-	ApplyPowerUp(Character);
 }
 
-void APickup::ClientDestroyParticleComponent_Implementation()
+void APickup::DestroyParticleComponent()
 {
 	if (!ParticleComponents.empty()) {
-		UParticleSystemComponent* Component = ParticleComponents.front();
-		if (IsValid(Component)) {
-			Component->Deactivate();
-			Component->DestroyComponent();
-			ParticleComponents.pop();
-			GEngine->AddOnScreenDebugMessage(-1, 7.0f, FColor::Red, FString("Particle System Destroyed"));
+		if (IsValid(ParticleComponents.front())) {
+			ParticleComponents.front()->DestroyComponent();
 		}
+		ParticleComponents.pop();
 	}
 }
 
-void APickup::UnApplyPowerUp_Implementation()
+void APickup::UnApplyPowerUp()
 {
-	if (!Respawns) { Destroy(); }
-	if (SpawnsParticles) {
-		ClientDestroyParticleComponent();
+	if (SpawnsParticles && IsValid(Particles)) {
+		DestroyParticleComponent();
 	}
+	if (!Respawns) { Destroy(); }
 }
 
 bool APickup::IsActive() {
@@ -143,7 +134,7 @@ bool APickup::IsActive() {
 }
 
 void APickup::SetActive(bool NewPickupState) {
-	//Using HasAuthority since newer versions of Unreal Engine has Role set as a private member
+	//Using HasAuthority since newer versions of Unreal Engine has Role set as a private property
 	if (HasAuthority()) {
 		bIsActive = NewPickupState;
 	}
@@ -157,6 +148,7 @@ UTexture2D* APickup::GetPickupIcon()
 void APickup::WasCollected_Implementation()
 {
 	SetActive(false);
+	PickedUpDelegate.Broadcast();
 	if (HasAuthority()) {
 		OnRep_IsActive();
 	}

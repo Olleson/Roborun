@@ -9,7 +9,7 @@
 #include "PowerUpInventoryItem.h"
 #include "HideNSneakCPPCharacter.generated.h"
 
-class PowerUpInventoryItem;
+class PowerUpInventoryItem; //Forward declaration
 
 UCLASS()
 class HIDENSNEAKUNREAL_API AHideNSneakCPPCharacter : public ACharacter
@@ -51,12 +51,16 @@ public:
 	UPROPERTY(EditAnywhere)
 		bool hasBeenSeeker;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Replicated)
 		int Score = 0;
 
-	UFUNCTION(BluePrintCallable, Category = "Points")
-		int AddScore(int ScoreToAdd,int ScoreMultiplier);
+	UFUNCTION(Client, Reliable, BluePrintCallable, Category = "Points")
+		void ClientAddScore(AHideNSneakCPPCharacter* Scorer, int ScoreToAdd, int ScoreMultiplier);
+			void ClientAddScore_Implementation(AHideNSneakCPPCharacter* Scorer, int ScoreToAdd, int ScoreMultiplier);
 
+	UFUNCTION(Server, Reliable, BluePrintCallable, Category = "Points")
+		void ServerAddScore(AHideNSneakCPPCharacter* Scorer, int ScoreToAdd, int ScoreMultiplier);
+			void ServerAddScore_Implementation(AHideNSneakCPPCharacter* Scorer, int ScoreToAdd, int ScoreMultiplier);
 	UFUNCTION(BlueprintPure, Category = "Character")
 		// Returns the base speed of the character's current role
 		float GetBaseSpeed();
@@ -66,23 +70,29 @@ public:
 		float GetBaseJumpHeight();
 
 	UFUNCTION(BlueprintCallable, Category = "Pickup")
-		// Sets the pointer to a collected pickup
+		// Creates a new PowerUpInventoryItem of the collected pickup
 		void CollectPickup(APickup* Pickup);
 
 	UFUNCTION(BlueprintPure, Category = "Pickup")
 		// Returns the icon of the collected powerup
 		UTexture2D* GetCollectedPowerUpIcon();
 
-	UFUNCTION(BlueprintImplementableEvent, Category = "Sound")
+	UFUNCTION(BlueprintNativeEvent, Category = "Sound")
 		// Let's other classes set wether or not the character's footsteps should be silent
 		void SetSilentFootsteps(bool inSilentFootsteps);
+	void SetSilentFootsteps_Implementation(bool inSilentFootsteps);
 
-	UFUNCTION(Client, Reliable, BlueprintCallable, Category = "Pickup")
+	UFUNCTION(BlueprintNativeEvent, Category = "Appearance")
+		// Let's other classes set wether or not the character should be visible
+		void SetMeshVisibility(bool inVisibility);
+		void SetMeshVisibility_Implementation(bool inVisibility);
+
+	UFUNCTION(Server, Reliable, BlueprintCallable, Category = "Pickup")
 		// Consumes the current powerup
 		void ConsumePowerUp();
 	void ConsumePowerUp_Implementation();
 
-	UFUNCTION(Server, Reliable, BlueprintCallable, Category = "Pickup")
+	UFUNCTION(NetMulticast, Reliable, BlueprintCallable, Category = "Pickup")
 		void ServerConsumePowerUp();
 	void ServerConsumePowerUp_Implementation();
 
@@ -117,6 +127,18 @@ public:
 
 	void ResetPlayersToHiders_Implementation();
 
+	UFUNCTION(Client, Reliable, BlueprintCallable, Category = "Seeker")
+		void ClientTaggerScore(AHideNSneakCPPCharacter* Tagger);
+	void ClientTaggerScore_Implementation(AHideNSneakCPPCharacter* Tagger);
+
+	UFUNCTION(Client, Reliable, BlueprintCallable, Category = "Seeker")
+		void ServerTaggerScore(AHideNSneakCPPCharacter* Tagger);
+	void ServerTaggerScore_Implementation(AHideNSneakCPPCharacter* Tagger);
+
+	//UFUNCTION(Server, Reliable, BlueprintCallable, Category = "Points")
+	//	void ServerAddTaggingScore(AHideNSneakCPPCharacter* Tagger);
+	//		void ServerAddTaggingScore_Implementation(AHideNSneakCPPCharacter* Tagger);
+
 	// Server side handling of reseting all players into hiders
 	UFUNCTION(Server, Reliable, BlueprintCallable, Category = "Seeker")
 		void ServerResetPlayersToHiders();
@@ -128,6 +150,9 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintreadWrite, Replicated)
 		bool IsDecoy;
+
+	UPROPERTY(EditAnywhere, BlueprintreadWrite, Replicated)
+		AHideNSneakCPPCharacter* WhoTaggedMe;
 
 	UFUNCTION(Client, unreliable, BlueprintCallable, Category = "Hider")
 		//make character go stealth + spawn a decoy character
@@ -196,7 +221,9 @@ public:
 		TSubclassOf<class AHideNSneakCPPCharacter> Decoy;
 
 	UFUNCTION()
-		void OnOverlapBegin(class UPrimitiveComponent* OverlapComponent, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
+		void OnOverlapBegin(class UPrimitiveComponent* OverlapComponent, class AActor* OtherActor,
+			class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep,
+			const FHitResult& SweepResult);
 
 protected:
 
