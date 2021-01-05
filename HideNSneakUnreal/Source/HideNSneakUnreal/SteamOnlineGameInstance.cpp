@@ -3,6 +3,7 @@
 
 
 #include "SteamOnlineGameInstance.h"
+#include "Net/UnrealNetwork.h"
 
 
 USteamOnlineGameInstance::USteamOnlineGameInstance() {
@@ -10,6 +11,14 @@ USteamOnlineGameInstance::USteamOnlineGameInstance() {
 	HidersBaseSpeed = 600;
 	SeekersBaseSpeed = 666;
 	PlayersBaseJumpHeight = 1000;
+}
+
+void USteamOnlineGameInstance::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const
+{
+	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
+	DOREPLIFETIME(USteamOnlineGameInstance, HidersBaseSpeed);
+	DOREPLIFETIME(USteamOnlineGameInstance, SeekersBaseSpeed);
+	DOREPLIFETIME(USteamOnlineGameInstance, PlayersBaseJumpHeight);
 }
 
 void USteamOnlineGameInstance::SetAllowJoinInProgress(bool Permission)

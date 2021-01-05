@@ -50,6 +50,9 @@ class HIDENSNEAKUNREAL_API USteamOnlineGameInstance : public UGameInstance
 public:
 	USteamOnlineGameInstance();
 
+	/** Required Network Scaffolding */
+	void GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const override;
+
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 		bool IsNotInOnlineMode;
 
@@ -100,13 +103,13 @@ protected:
 	TSharedPtr<FOnlineSessionSearch> SessionSearch;
 
 	//Character's max walk speed when hider
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Player Settings")
+	UPROPERTY(VisibleAnywhere, Replicated, BlueprintReadOnly, Category = "Player Settings")
 		float HidersBaseSpeed;
 	//Character's max walk speed when seeker
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Player Settings")
+	UPROPERTY(VisibleAnywhere, Replicated, BlueprintReadOnly, Category = "Player Settings")
 		float SeekersBaseSpeed;
 	//Character's jump Z Velocity, how high the character jumps
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Player Settings")
+	UPROPERTY(VisibleAnywhere, Replicated, BlueprintReadOnly, Category = "Player Settings")
 		float PlayersBaseJumpHeight;
 
 	// Creates a session and sets session settings

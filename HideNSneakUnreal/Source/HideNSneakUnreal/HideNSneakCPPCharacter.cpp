@@ -86,6 +86,9 @@ void AHideNSneakCPPCharacter::GetLifetimeReplicatedProps(TArray<FLifetimePropert
 	DOREPLIFETIME(AHideNSneakCPPCharacter, IsDecoy);
 	DOREPLIFETIME(AHideNSneakCPPCharacter, Score);
 	DOREPLIFETIME(AHideNSneakCPPCharacter, WhoTaggedMe);
+	DOREPLIFETIME(AHideNSneakCPPCharacter, HiderBaseSpeed);
+	DOREPLIFETIME(AHideNSneakCPPCharacter, SeekerBaseSpeed);
+	DOREPLIFETIME(AHideNSneakCPPCharacter, BaseJumpHeight);
 }
 
 //////////////////////////////////////////////////////////////////////////
