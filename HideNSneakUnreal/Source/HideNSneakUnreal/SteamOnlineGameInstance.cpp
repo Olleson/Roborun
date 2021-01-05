@@ -7,11 +7,44 @@
 
 USteamOnlineGameInstance::USteamOnlineGameInstance() {
 	MySessionName = "My Session";
+	HidersBaseSpeed = 600;
+	SeekersBaseSpeed = 666;
+	PlayersBaseJumpHeight = 1000;
 }
 
 void USteamOnlineGameInstance::SetAllowJoinInProgress(bool Permission)
 {
 	SessionInterface->GetSessionSettings(MySessionName)->bAllowJoinInProgress = Permission;
+}
+
+float USteamOnlineGameInstance::GetHidersBaseSpeed()
+{
+	return HidersBaseSpeed;
+}
+
+void USteamOnlineGameInstance::SetHidersBaseSpeed(float inBaseSpeed)
+{
+	HidersBaseSpeed = inBaseSpeed;
+}
+
+float USteamOnlineGameInstance::GetSeekersBaseSpeed()
+{
+	return SeekersBaseSpeed;
+}
+
+void USteamOnlineGameInstance::SetSeekersBaseSpeed(float inBaseSpeed)
+{
+	SeekersBaseSpeed = inBaseSpeed;
+}
+
+float USteamOnlineGameInstance::GetPlayerBaseJumpHeight()
+{
+	return PlayersBaseJumpHeight;
+}
+
+void USteamOnlineGameInstance::SetPlayersBaseJumpHeight(float inJumpHeight)
+{
+	PlayersBaseJumpHeight = inJumpHeight;
 }
 
 void USteamOnlineGameInstance::Init() {
