@@ -57,7 +57,7 @@ public:
 		bool IsNotInOnlineMode;
 
 	UFUNCTION(BlueprintCallable, Category = "Session Settings")
-		void SetAllowJoinInProgress(bool Permission);
+		void SetSessionInProgress(bool inProgress);
 
 	UFUNCTION(BlueprintPure, Category = "Player Settings")
 		float GetHidersBaseSpeed();

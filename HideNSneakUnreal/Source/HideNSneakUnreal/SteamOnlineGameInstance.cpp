@@ -21,9 +21,15 @@ void USteamOnlineGameInstance::GetLifetimeReplicatedProps(TArray<FLifetimeProper
 	DOREPLIFETIME(USteamOnlineGameInstance, PlayersBaseJumpHeight);
 }
 
-void USteamOnlineGameInstance::SetAllowJoinInProgress(bool Permission)
+void USteamOnlineGameInstance::SetSessionInProgress(bool inProgress)
 {
-	SessionInterface->GetSessionSettings(MySessionName)->bAllowJoinInProgress = Permission;
+	if (inProgress) {
+		SessionInterface->StartSession(MySessionName);
+	}
+	else
+	{
+		SessionInterface->EndSession(MySessionName);
+	}
 }
 
 float USteamOnlineGameInstance::GetHidersBaseSpeed()
@@ -88,7 +94,7 @@ void USteamOnlineGameInstance::OnJoinSessionComplete(FName SessionName, EOnJoinS
 void USteamOnlineGameInstance::CreateServer(FString ServerName, FString HostName, int MaxPlayerCount)
 {
 	FOnlineSessionSettings SessionSettings;
-	SessionSettings.bAllowJoinInProgress = true;
+	SessionSettings.bAllowJoinInProgress = false;
 	SessionSettings.bIsDedicated = false;
 	SessionSettings.bIsLANMatch = false;
 	SessionSettings.bShouldAdvertise = true;
