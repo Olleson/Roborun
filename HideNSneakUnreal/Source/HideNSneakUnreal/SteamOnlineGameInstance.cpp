@@ -19,6 +19,8 @@ void USteamOnlineGameInstance::GetLifetimeReplicatedProps(TArray<FLifetimeProper
 	DOREPLIFETIME(USteamOnlineGameInstance, HidersBaseSpeed);
 	DOREPLIFETIME(USteamOnlineGameInstance, SeekersBaseSpeed);
 	DOREPLIFETIME(USteamOnlineGameInstance, PlayersBaseJumpHeight);
+	DOREPLIFETIME(USteamOnlineGameInstance, PowerupsEnabled);
+	DOREPLIFETIME(USteamOnlineGameInstance, PowerupSpawnRate);
 }
 
 void USteamOnlineGameInstance::SetSessionInProgress(bool inProgress)
@@ -32,6 +34,24 @@ void USteamOnlineGameInstance::SetSessionInProgress(bool inProgress)
 	}
 }
 
+float USteamOnlineGameInstance::GetPowerupSpawnRate()
+{
+	return PowerupSpawnRate;
+}
+
+void USteamOnlineGameInstance::SetPowerupSpawnRate(float inPowerupSpawnRate)
+{
+	PowerupSpawnRate = inPowerupSpawnRate;
+}
+float USteamOnlineGameInstance::GetPowerupsEnabled()
+{
+	return PowerupsEnabled;
+}
+
+void USteamOnlineGameInstance::SetPowerupsEnabled(bool inPowerupsEnabled)
+{
+	PowerupsEnabled = inPowerupsEnabled;
+}
 float USteamOnlineGameInstance::GetHidersBaseSpeed()
 {
 	return HidersBaseSpeed;

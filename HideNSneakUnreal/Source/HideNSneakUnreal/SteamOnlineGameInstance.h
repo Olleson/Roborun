@@ -76,6 +76,22 @@ public:
 
 	UFUNCTION(BlueprintCallable, Category = "Player Settings")
 		void SetPlayersBaseJumpHeight(float inJumpHeight);
+	UFUNCTION(BlueprintPure, Category = "Session Settings")
+		float GetPowerupSpawnRate();
+
+	UFUNCTION(BlueprintCallable, Category = "Session Settings")
+		void SetPowerupSpawnRate(float inPowerupSpawnRate);
+	UFUNCTION(BlueprintPure, Category = "Session Settings")
+		float GetPowerupsEnabled();
+
+	UFUNCTION(BlueprintCallable, Category = "Session Settings")
+		void SetPowerupsEnabled(bool inPowerupsEnabled);
+	//Powerups spawn rate, how often they will spawn.
+	UPROPERTY(VisibleAnywhere, Replicated, BlueprintReadOnly, Category = "Session Settings")
+		float PowerupSpawnRate;
+	//Powerups enabled, if the game will spawn powerups. True by default.
+	UPROPERTY(VisibleAnywhere, Replicated, BlueprintReadOnly, Category = "Session Settings")
+		bool PowerupsEnabled;
 
 protected:
 
