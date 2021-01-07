@@ -218,6 +218,7 @@ void AHideNSneakCPPCharacter::ServerConsumePowerUp_Implementation()
 	//if (HasAuthority()) {
 	if (CollectedPowerUp != NULL) {
 		CollectedPowerUp->ApplyPickUp();
+		ConsumedPowerUpDelegate.Broadcast();
 		ClearPowerUpIcon();
 		CollectedPowerUp = NULL;
 	}

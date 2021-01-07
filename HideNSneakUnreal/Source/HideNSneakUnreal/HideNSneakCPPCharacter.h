@@ -11,6 +11,8 @@
 
 class PowerUpInventoryItem; //Forward declaration
 
+DECLARE_DYNAMIC_MULTICAST_DELEGATE(FEventConsumedPowerUpDelegate);
+
 UCLASS()
 class HIDENSNEAKUNREAL_API AHideNSneakCPPCharacter : public ACharacter
 {
@@ -32,6 +34,9 @@ public:
 	/** Required Network Scaffolding */
 	void GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const override;
 
+
+	UPROPERTY(BlueprintAssignable)
+		FEventConsumedPowerUpDelegate ConsumedPowerUpDelegate;
 
 	//array to use to find the roundcontroller
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera)

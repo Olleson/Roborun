@@ -74,10 +74,10 @@ void USteamOnlineGameInstance::Init() {
 		}
 	}
 }
-//Add the name of the level you want to spawn in this function (finish it with ?Listen)
+//Add the name of the level you want to spawn in this function (finish it with ?listen)
 void USteamOnlineGameInstance::OnCreateSessionComplete(FName ServerName, bool Succeded)
 {
-	GetWorld()->ServerTravel("/Game/Maps/Beta_whitebox?listen");
+	GetWorld()->ServerTravel("/Game/Maps/LobbyHangOutPlace?listen");
 }
 
 void USteamOnlineGameInstance::OnJoinSessionComplete(FName SessionName, EOnJoinSessionCompleteResult::Type Result)
@@ -163,6 +163,7 @@ void USteamOnlineGameInstance::OnFindSessionsComplete(bool Succeded)
 			Info.CurrentPlayers = SearchResults[i].Session.NumOpenPublicConnections;
 			Info.ServerArrayIndex = i;
 
+			if(Info.ServerName != "Empty Server Name")
 			SteamServerListDelegate.Broadcast(Info);
 		}
 	}
