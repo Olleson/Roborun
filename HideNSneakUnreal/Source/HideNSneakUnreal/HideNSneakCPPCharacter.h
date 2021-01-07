@@ -262,7 +262,7 @@ protected:
 	// End of APawn interface
 
 	// Wether this character is a seeker or hider
-	UPROPERTY(ReplicatedUsing = OnRep_IsSeeker, VisibleAnywhere, BlueprintReadWrite, Category = "Seeker", meta = (BlueprintProtected = "true"))
+	UPROPERTY(ReplicatedUsing = OnRep_IsSeeker, VisibleAnywhere, BlueprintReadWrite, Category = "Seeker", meta = (BlueprintProtected = "false"))
 		bool bIsSeeker;
 
 	// Is called on clients when bIsSeeker changes
