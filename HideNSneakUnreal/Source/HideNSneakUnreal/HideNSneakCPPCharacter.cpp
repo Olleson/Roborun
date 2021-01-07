@@ -86,6 +86,9 @@ void AHideNSneakCPPCharacter::GetLifetimeReplicatedProps(TArray<FLifetimePropert
 	DOREPLIFETIME(AHideNSneakCPPCharacter, IsDecoy);
 	DOREPLIFETIME(AHideNSneakCPPCharacter, Score);
 	DOREPLIFETIME(AHideNSneakCPPCharacter, WhoTaggedMe);
+	DOREPLIFETIME(AHideNSneakCPPCharacter, HiderBaseSpeed);
+	DOREPLIFETIME(AHideNSneakCPPCharacter, SeekerBaseSpeed);
+	DOREPLIFETIME(AHideNSneakCPPCharacter, BaseJumpHeight);
 }
 
 //////////////////////////////////////////////////////////////////////////
@@ -215,6 +218,7 @@ void AHideNSneakCPPCharacter::ServerConsumePowerUp_Implementation()
 	//if (HasAuthority()) {
 	if (CollectedPowerUp != NULL) {
 		CollectedPowerUp->ApplyPickUp();
+		ConsumedPowerUpDelegate.Broadcast();
 		ClearPowerUpIcon();
 		CollectedPowerUp = NULL;
 	}

@@ -3,15 +3,63 @@
 
 
 #include "SteamOnlineGameInstance.h"
+#include "Net/UnrealNetwork.h"
 
 
 USteamOnlineGameInstance::USteamOnlineGameInstance() {
 	MySessionName = "My Session";
+	HidersBaseSpeed = 600;
+	SeekersBaseSpeed = 666;
+	PlayersBaseJumpHeight = 1000;
 }
 
-void USteamOnlineGameInstance::SetAllowJoinInProgress(bool Permission)
+void USteamOnlineGameInstance::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const
 {
-	SessionInterface->GetSessionSettings(MySessionName)->bAllowJoinInProgress = Permission;
+	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
+	DOREPLIFETIME(USteamOnlineGameInstance, HidersBaseSpeed);
+	DOREPLIFETIME(USteamOnlineGameInstance, SeekersBaseSpeed);
+	DOREPLIFETIME(USteamOnlineGameInstance, PlayersBaseJumpHeight);
+}
+
+void USteamOnlineGameInstance::SetSessionInProgress(bool inProgress)
+{
+	if (inProgress) {
+		SessionInterface->StartSession(MySessionName);
+	}
+	else
+	{
+		SessionInterface->EndSession(MySessionName);
+	}
+}
+
+float USteamOnlineGameInstance::GetHidersBaseSpeed()
+{
+	return HidersBaseSpeed;
+}
+
+void USteamOnlineGameInstance::SetHidersBaseSpeed(float inBaseSpeed)
+{
+	HidersBaseSpeed = inBaseSpeed;
+}
+
+float USteamOnlineGameInstance::GetSeekersBaseSpeed()
+{
+	return SeekersBaseSpeed;
+}
+
+void USteamOnlineGameInstance::SetSeekersBaseSpeed(float inBaseSpeed)
+{
+	SeekersBaseSpeed = inBaseSpeed;
+}
+
+float USteamOnlineGameInstance::GetPlayerBaseJumpHeight()
+{
+	return PlayersBaseJumpHeight;
+}
+
+void USteamOnlineGameInstance::SetPlayersBaseJumpHeight(float inJumpHeight)
+{
+	PlayersBaseJumpHeight = inJumpHeight;
 }
 
 void USteamOnlineGameInstance::Init() {
@@ -26,10 +74,10 @@ void USteamOnlineGameInstance::Init() {
 		}
 	}
 }
-//Add the name of the level you want to spawn in this function (finish it with ?Listen)
+//Add the name of the level you want to spawn in this function (finish it with ?listen)
 void USteamOnlineGameInstance::OnCreateSessionComplete(FName ServerName, bool Succeded)
 {
-	GetWorld()->ServerTravel("/Game/Maps/Beta_whitebox?listen");
+	GetWorld()->ServerTravel("/Game/Maps/LobbyHangOutPlace?listen");
 }
 
 void USteamOnlineGameInstance::OnJoinSessionComplete(FName SessionName, EOnJoinSessionCompleteResult::Type Result)
@@ -46,7 +94,7 @@ void USteamOnlineGameInstance::OnJoinSessionComplete(FName SessionName, EOnJoinS
 void USteamOnlineGameInstance::CreateServer(FString ServerName, FString HostName, int MaxPlayerCount)
 {
 	FOnlineSessionSettings SessionSettings;
-	SessionSettings.bAllowJoinInProgress = true;
+	SessionSettings.bAllowJoinInProgress = false;
 	SessionSettings.bIsDedicated = false;
 	SessionSettings.bIsLANMatch = false;
 	SessionSettings.bShouldAdvertise = true;
@@ -115,6 +163,7 @@ void USteamOnlineGameInstance::OnFindSessionsComplete(bool Succeded)
 			Info.CurrentPlayers = SearchResults[i].Session.NumOpenPublicConnections;
 			Info.ServerArrayIndex = i;
 
+			if(Info.ServerName != "Empty Server Name")
 			SteamServerListDelegate.Broadcast(Info);
 		}
 	}

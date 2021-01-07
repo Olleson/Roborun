@@ -11,6 +11,8 @@
 
 class PowerUpInventoryItem; //Forward declaration
 
+DECLARE_DYNAMIC_MULTICAST_DELEGATE(FEventConsumedPowerUpDelegate);
+
 UCLASS()
 class HIDENSNEAKUNREAL_API AHideNSneakCPPCharacter : public ACharacter
 {
@@ -32,6 +34,9 @@ public:
 	/** Required Network Scaffolding */
 	void GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const override;
 
+
+	UPROPERTY(BlueprintAssignable)
+		FEventConsumedPowerUpDelegate ConsumedPowerUpDelegate;
 
 	//array to use to find the roundcontroller
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera)
@@ -264,15 +269,15 @@ protected:
 	UFUNCTION(BlueprintImplementableEvent, Category = "Seeker")
 		void OnRep_IsSeeker();
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Character", meta = (BlueprintProtected = "true"))
+	UPROPERTY(EditAnywhere, Replicated, BlueprintReadWrite, Category = "Character", meta = (BlueprintProtected = "true"))
 		// The character's base speed when hider
 		float HiderBaseSpeed;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Character", meta = (BlueprintProtected = "true"))
+	UPROPERTY(EditAnywhere, Replicated, BlueprintReadWrite, Category = "Character", meta = (BlueprintProtected = "true"))
 		// The character's base speed when seeker
 		float SeekerBaseSpeed;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Character", meta = (BlueprintProtected = "true"))
+	UPROPERTY(EditAnywhere, Replicated, BlueprintReadWrite, Category = "Character", meta = (BlueprintProtected = "true"))
 		// The character's base Z-axis velocity when jumping
 		float BaseJumpHeight;
 
