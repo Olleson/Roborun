@@ -279,7 +279,11 @@ protected:
 
 	UPROPERTY(EditAnywhere, Replicated, BlueprintReadWrite, Category = "Character", meta = (BlueprintProtected = "true"))
 		// The character's base Z-axis velocity when jumping
-		float BaseJumpHeight;
+		float HidersBaseJumpHeight;
+
+	UPROPERTY(EditAnywhere, Replicated, BlueprintReadWrite, Category = "Character", meta = (BlueprintProtected = "true"))
+		// The character's base Z-axis velocity when jumping
+		float SeekersBaseJumpHeight;
 
 	// Power up proxy to avoid circular dependancy
 	PowerUpInventoryItem* CollectedPowerUp;

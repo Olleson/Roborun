@@ -38,14 +38,15 @@ AHideNSneakCPPCharacter::AHideNSneakCPPCharacter()
 	bUseControllerRotationRoll = false;
 
 	// Default values for controlling movement speed
-	HiderBaseSpeed = 600.0;
-	SeekerBaseSpeed = 666.0;
-	BaseJumpHeight = 600.0;
+	HiderBaseSpeed = 750.0;
+	SeekerBaseSpeed = 900.0;
+	HidersBaseJumpHeight = 750.0;
+	SeekersBaseJumpHeight = 1050.0;
 
 	// Configure character movement
 	GetCharacterMovement()->bOrientRotationToMovement = true; // Character moves in the direction of input...	
 	GetCharacterMovement()->RotationRate = FRotator(0.0f, 540.0f, 0.0f); // ...at this rotation rate
-	GetCharacterMovement()->JumpZVelocity = BaseJumpHeight;
+	GetCharacterMovement()->JumpZVelocity = HidersBaseJumpHeight;
 	GetCharacterMovement()->AirControl = 0.2f;
 	GetCharacterMovement()->MaxWalkSpeed = HiderBaseSpeed;
 
@@ -88,7 +89,8 @@ void AHideNSneakCPPCharacter::GetLifetimeReplicatedProps(TArray<FLifetimePropert
 	DOREPLIFETIME(AHideNSneakCPPCharacter, WhoTaggedMe);
 	DOREPLIFETIME(AHideNSneakCPPCharacter, HiderBaseSpeed);
 	DOREPLIFETIME(AHideNSneakCPPCharacter, SeekerBaseSpeed);
-	DOREPLIFETIME(AHideNSneakCPPCharacter, BaseJumpHeight);
+	DOREPLIFETIME(AHideNSneakCPPCharacter, HidersBaseJumpHeight);
+	DOREPLIFETIME(AHideNSneakCPPCharacter, SeekersBaseJumpHeight);
 }
 
 //////////////////////////////////////////////////////////////////////////
@@ -179,7 +181,7 @@ float AHideNSneakCPPCharacter::GetBaseSpeed()
 
 float AHideNSneakCPPCharacter::GetBaseJumpHeight()
 {
-	return BaseJumpHeight;
+	return HidersBaseJumpHeight;
 }
 
 void AHideNSneakCPPCharacter::CollectPickup(APickup* Pickup)
