@@ -136,7 +136,7 @@ private:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Collider", meta = (AllowPrivateAccess = "true"))
 		class UBoxComponent* BoxComponent;
 
-	UFUNCTION(NetMulticast, Unreliable)
+	UFUNCTION(NetMulticast, Reliable)
 		// Client side handling of being picked up
 		void ClientOnPickedUpBy(ACharacter* Character);
 	void ClientOnPickedUpBy_Implementation(ACharacter* Character);
