@@ -8,9 +8,10 @@
 
 USteamOnlineGameInstance::USteamOnlineGameInstance() {
 	MySessionName = "My Session";
-	HidersBaseSpeed = 600;
-	SeekersBaseSpeed = 666;
-	PlayersBaseJumpHeight = 1000;
+	HidersBaseSpeed = 750;
+	SeekersBaseSpeed = 900;
+	HidersBaseJumpHeight = 750;
+	SeekersBaseJumpHeight = 1050;
 }
 
 void USteamOnlineGameInstance::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const
@@ -18,7 +19,8 @@ void USteamOnlineGameInstance::GetLifetimeReplicatedProps(TArray<FLifetimeProper
 	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
 	DOREPLIFETIME(USteamOnlineGameInstance, HidersBaseSpeed);
 	DOREPLIFETIME(USteamOnlineGameInstance, SeekersBaseSpeed);
-	DOREPLIFETIME(USteamOnlineGameInstance, PlayersBaseJumpHeight);
+	DOREPLIFETIME(USteamOnlineGameInstance, HidersBaseJumpHeight);
+	DOREPLIFETIME(USteamOnlineGameInstance, SeekersBaseJumpHeight);
 	DOREPLIFETIME(USteamOnlineGameInstance, PowerupsEnabled);
 	DOREPLIFETIME(USteamOnlineGameInstance, PowerupSpawnRate);
 }
@@ -32,6 +34,11 @@ void USteamOnlineGameInstance::SetSessionInProgress(bool inProgress)
 	{
 		SessionInterface->EndSession(MySessionName);
 	}
+}
+
+void USteamOnlineGameInstance::SetSeekersJumpBaseHeight(float inBaseJumpHeight)
+{
+	SeekersBaseJumpHeight = inBaseJumpHeight;
 }
 
 float USteamOnlineGameInstance::GetPowerupSpawnRate()
@@ -72,14 +79,9 @@ void USteamOnlineGameInstance::SetSeekersBaseSpeed(float inBaseSpeed)
 	SeekersBaseSpeed = inBaseSpeed;
 }
 
-float USteamOnlineGameInstance::GetPlayerBaseJumpHeight()
+void USteamOnlineGameInstance::SetHidersJumpBaseHeight(float inBaseJumpHeight)
 {
-	return PlayersBaseJumpHeight;
-}
-
-void USteamOnlineGameInstance::SetPlayersBaseJumpHeight(float inJumpHeight)
-{
-	PlayersBaseJumpHeight = inJumpHeight;
+	HidersBaseJumpHeight = inBaseJumpHeight;
 }
 
 void USteamOnlineGameInstance::Init() {

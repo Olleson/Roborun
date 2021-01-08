@@ -71,11 +71,12 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Player Settings")
 		void SetSeekersBaseSpeed(float inBaseSpeed);
 
-	UFUNCTION(BlueprintPure, Category = "Player Settings")
-		float GetPlayerBaseJumpHeight();
+	UFUNCTION(BlueprintCallable, Category = "Player Settings")
+		void SetHidersJumpBaseHeight(float inBaseJumpHeight);
 
 	UFUNCTION(BlueprintCallable, Category = "Player Settings")
-		void SetPlayersBaseJumpHeight(float inJumpHeight);
+		void SetSeekersJumpBaseHeight(float inBaseJumpHeight);
+
 	UFUNCTION(BlueprintPure, Category = "Session Settings")
 		float GetPowerupSpawnRate();
 
@@ -125,8 +126,11 @@ protected:
 	UPROPERTY(VisibleAnywhere, Replicated, BlueprintReadOnly, Category = "Player Settings")
 		float SeekersBaseSpeed;
 	//Character's jump Z Velocity, how high the character jumps
-	UPROPERTY(VisibleAnywhere, Replicated, BlueprintReadOnly, Category = "Player Settings")
-		float PlayersBaseJumpHeight;
+	UPROPERTY(EditAnywhere, Replicated, BlueprintReadWrite, Category = "Player Settings")
+		float HidersBaseJumpHeight;
+
+	UPROPERTY(EditAnywhere, Replicated, BlueprintReadWrite, Category = "Player Settings")
+		float SeekersBaseJumpHeight;
 
 	// Creates a session and sets session settings
 	UFUNCTION(BlueprintCallable, Category = "OnlineLobby")
