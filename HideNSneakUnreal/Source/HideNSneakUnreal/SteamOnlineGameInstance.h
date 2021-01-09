@@ -92,7 +92,7 @@ public:
 		float PowerupSpawnRate;
 	//Powerups enabled, if the game will spawn powerups. True by default.
 	UPROPERTY(VisibleAnywhere, Replicated, BlueprintReadOnly, Category = "Session Settings")
-		bool PowerupsEnabled;
+		bool PowerupsEnabled = true;
 
 protected:
 
