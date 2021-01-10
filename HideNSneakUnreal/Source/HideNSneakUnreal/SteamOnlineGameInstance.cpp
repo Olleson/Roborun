@@ -121,7 +121,7 @@ void USteamOnlineGameInstance::CreateServer(FString ServerName, FString HostName
 	SessionSettings.bIsLANMatch = false;
 	SessionSettings.bShouldAdvertise = true;
 	SessionSettings.bUsesPresence = true;
-	SessionSettings.NumPublicConnections = 10;
+	SessionSettings.NumPublicConnections = MaxPlayerCount;
 	SessionSettings.Set(FName("SERVER_NAME_KEY"), ServerName, EOnlineDataAdvertisementType::ViaOnlineServiceAndPing);
 	SessionSettings.Set(FName("SERVER_HOSTNAME_KEY"), HostName, EOnlineDataAdvertisementType::ViaOnlineServiceAndPing);
 
@@ -185,8 +185,8 @@ void USteamOnlineGameInstance::OnFindSessionsComplete(bool Succeded)
 			Info.CurrentPlayers = SearchResults[i].Session.NumOpenPublicConnections;
 			Info.ServerArrayIndex = i;
 
-			if(Info.ServerName != "Empty Server Name")
-			SteamServerListDelegate.Broadcast(Info);
+			if (Info.ServerName != "Empty Server Name")
+				SteamServerListDelegate.Broadcast(Info);
 		}
 	}
 }
