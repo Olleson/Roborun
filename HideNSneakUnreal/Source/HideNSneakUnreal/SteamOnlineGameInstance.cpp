@@ -61,6 +61,7 @@ void USteamOnlineGameInstance::SetPowerupsEnabled(bool inPowerupsEnabled)
 }
 float USteamOnlineGameInstance::GetHidersBaseSpeed()
 {
+	
 	return HidersBaseSpeed;
 }
 
