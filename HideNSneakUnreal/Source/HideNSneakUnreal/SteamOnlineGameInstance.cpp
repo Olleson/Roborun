@@ -116,7 +116,7 @@ void USteamOnlineGameInstance::OnJoinSessionComplete(FName SessionName, EOnJoinS
 void USteamOnlineGameInstance::CreateServer(FString ServerName, FString HostName, int MaxPlayerCount)
 {
 	FOnlineSessionSettings SessionSettings;
-	SessionSettings.bAllowJoinInProgress = false;
+	SessionSettings.bAllowJoinInProgress = true;
 	SessionSettings.bIsDedicated = false;
 	SessionSettings.bIsLANMatch = false;
 	SessionSettings.bShouldAdvertise = true;
