@@ -146,8 +146,9 @@ void USteamOnlineGameInstance::JoinServer(int32 ServerIndex)
 	if (SessionSearch->SearchResults.Num() > ServerIndex && ServerIndex >= 0) {
 		FOnlineSessionSearchResult Result = SessionSearch->SearchResults[ServerIndex];
 		if (Result.IsValid()) {
-			GEngine->AddOnScreenDebugMessage(-1, 7.0f, FColor::Red, FString("Connecting..."));
-			SessionInterface->JoinSession(0, MySessionName, Result);
+			if (SessionInterface->JoinSession(0, MySessionName, Result)) {
+				GEngine->AddOnScreenDebugMessage(-1, 7.0f, FColor::Red, FString("Connecting..."));
+			}
 		}
 		else
 		{
