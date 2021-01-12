@@ -63,9 +63,10 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Pickup")
 		void DestroyParticleComponent();
 
-	UFUNCTION(BlueprintCallable, Category = "Pickup")
+	UFUNCTION(BlueprintCallable, NetMulticast, Reliable, Category = "Pickup")
 		// Deactivates the powerup effect on the next player in the queue
-		virtual void UnApplyPowerUp();
+		void UnApplyPowerUp();
+	virtual void UnApplyPowerUp_Implementation();
 
 protected:
 	/** True when the pickup can be used, false when deactivated */

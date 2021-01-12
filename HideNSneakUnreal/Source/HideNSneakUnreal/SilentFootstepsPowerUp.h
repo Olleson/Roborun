@@ -21,5 +21,5 @@ protected:
 
 	void ApplyPowerUp(ACharacter* Character) override;
 
-	void UnApplyPowerUp() override;
+	void UnApplyPowerUp_Implementation() override;
 };

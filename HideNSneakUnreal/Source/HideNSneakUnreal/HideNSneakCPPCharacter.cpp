@@ -122,6 +122,15 @@ void AHideNSneakCPPCharacter::SetupPlayerInputComponent(class UInputComponent* P
 	PlayerInputComponent->BindTouch(IE_Released, this, &AHideNSneakCPPCharacter::TouchStopped);
 }
 
+void AHideNSneakCPPCharacter::ClearPowerUp_Implementation()
+{
+	if (CollectedPowerUp != NULL) {
+		delete CollectedPowerUp;
+		CollectedPowerUp = NULL;
+	}
+	ClearPowerUpIcon();
+}
+
 void AHideNSneakCPPCharacter::ServerCaptureHider_Implementation(AHideNSneakCPPCharacter* Hider, AHideNSneakCPPCharacter* Tagger)
 {
 	if (HasAuthority() && !Hider->IsSeeker()) {
@@ -255,10 +264,7 @@ void AHideNSneakCPPCharacter::BecomeSeeker_Implementation()
 void AHideNSneakCPPCharacter::ServerBecomeSeeker_Implementation()
 {
 	bIsSeeker = true;
-	if (CollectedPowerUp != NULL) {
-		delete CollectedPowerUp;
-		CollectedPowerUp = NULL;
-	}
+	ClearPowerUp();
 	if (HasAuthority()) {
 		OnRep_IsSeeker();
 	}

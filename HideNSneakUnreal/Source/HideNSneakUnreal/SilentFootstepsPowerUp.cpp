@@ -18,9 +18,9 @@ void ASilentFootstepsPowerUp::ApplyPowerUp(ACharacter* Character)
 	}
 }
 
-void ASilentFootstepsPowerUp::UnApplyPowerUp()
+void ASilentFootstepsPowerUp::UnApplyPowerUp_Implementation()
 {
-	APickup::UnApplyPowerUp();
+	//APickup::UnApplyPowerUp();
 	AHideNSneakCPPCharacter* Player = PlayerQueue.front();
 	PlayerQueue.pop();
 	Player->SetSilentFootsteps(false);
