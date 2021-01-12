@@ -288,6 +288,10 @@ protected:
 	// Power up proxy to avoid circular dependancy
 	PowerUpInventoryItem* CollectedPowerUp;
 
+	UFUNCTION(BlueprintCallable, NetMulticast, Reliable)
+		void ClearPowerUp();
+	void ClearPowerUp_Implementation();
+
 	UFUNCTION(BlueprintImplementableEvent, Category = "Pickup")
 		// Blueprint implemented function to update the power up icon on the player's UI
 		void UpdatePowerUpIcon();

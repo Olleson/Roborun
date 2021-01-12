@@ -121,7 +121,7 @@ void APickup::DestroyParticleComponent()
 	}
 }
 
-void APickup::UnApplyPowerUp()
+void APickup::UnApplyPowerUp_Implementation()
 {
 	if (SpawnsParticles && IsValid(Particles)) {
 		DestroyParticleComponent();

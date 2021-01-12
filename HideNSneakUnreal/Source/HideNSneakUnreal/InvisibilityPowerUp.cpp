@@ -17,9 +17,9 @@ void AInvisibilityPowerUp::ApplyPowerUp(ACharacter* Character) {
 	}
 }
 
-void AInvisibilityPowerUp::UnApplyPowerUp()
+void AInvisibilityPowerUp::UnApplyPowerUp_Implementation()
 {
-	APickup::UnApplyPowerUp();
+	//APickup::UnApplyPowerUp();
 	AHideNSneakCPPCharacter* Character = PlayerQueue.front();
 	PlayerQueue.pop();
 	Character->SetMeshVisibility(true);

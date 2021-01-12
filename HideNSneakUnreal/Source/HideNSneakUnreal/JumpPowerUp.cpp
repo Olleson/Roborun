@@ -16,9 +16,9 @@ void AJumpPowerUp::ApplyPowerUp(ACharacter* Character) {
 	}
 }
 
-void AJumpPowerUp::UnApplyPowerUp()
+void AJumpPowerUp::UnApplyPowerUp_Implementation()
 {
-	APickup::UnApplyPowerUp();
+	//APickup::UnApplyPowerUp();
 	AHideNSneakCPPCharacter* Character = PlayerQueue.front();
 	PlayerQueue.pop();
 	Character->GetCharacterMovement()->JumpZVelocity = Character->GetBaseJumpHeight();

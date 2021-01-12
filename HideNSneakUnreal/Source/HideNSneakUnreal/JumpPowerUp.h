@@ -19,7 +19,7 @@ public:
 
 	void ApplyPowerUp(ACharacter* Character) override;
 
-	void UnApplyPowerUp() override;
+	void UnApplyPowerUp_Implementation() override;
 
 protected:
 	// How much Z-axis velocity is added to the player's jump

@@ -20,9 +20,9 @@ void AMovementSpeedPowerUp::ApplyPowerUp(ACharacter* Character)
 	}
 }
 
-void AMovementSpeedPowerUp::UnApplyPowerUp()
+void AMovementSpeedPowerUp::UnApplyPowerUp_Implementation()
 {
-	APickup::UnApplyPowerUp();
+	//APickup::UnApplyPowerUp();
 	AHideNSneakCPPCharacter* Character = PlayerQueue.front();
 	PlayerQueue.pop();
 	Character->GetCharacterMovement()->MaxWalkSpeed = Character->GetBaseSpeed();
