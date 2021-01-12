@@ -89,7 +89,7 @@ public:
 		void SetPowerupsEnabled(bool inPowerupsEnabled);
 	//Powerups spawn rate, how often they will spawn.
 	UPROPERTY(VisibleAnywhere, Replicated, BlueprintReadOnly, Category = "Session Settings")
-		float PowerupSpawnRate;
+		float PowerupSpawnRate = 60;
 	//Powerups enabled, if the game will spawn powerups. True by default.
 	UPROPERTY(VisibleAnywhere, Replicated, BlueprintReadOnly, Category = "Session Settings")
 		bool PowerupsEnabled = true;
